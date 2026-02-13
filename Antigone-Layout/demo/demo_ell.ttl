@@ -1,0 +1,73 @@
+############################
+# DEMO / TEMPLATE (Ontology-compliant)
+#
+# Purpose:
+# - This file is a small example the LLM should imitate when generating new triples.
+#
+# Key rule for 3-language setup:
+# - Ancient Greek is the canonical anchor for identifiers.
+# - Use ONE canonical Line individual (e.g., :Line_001) for the Ancient Greek master line.
+# - For translations, create :TranslationVariant individuals with :text and link them to the
+#   canonical line via :relatedTo (ontology-safe generic linking).
+#
+# Notes:
+# - Do NOT use properties that are not declared in the ontology.
+# - Do NOT use :language on :Line (in the ontology, :language is defined for :Play).
+############################
+
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+############################
+# 1) SCENE -> SPEECH -> LINE (STRICT FLOW)
+############################
+
+:Antigone_Scene_Prologue
+  a owl:NamedIndividual, :Scene, :Prologue ;
+  :sceneNumber "Prologue"^^xsd:string ;
+  :hasSpeech :Speech_Antigone_001 ;
+  :developsTheme :Theme_FamilyBond .
+
+:Speech_Antigone_001
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :containsLine :Line_001 .
+
+:Antigone_Character_Antigone
+  a owl:NamedIndividual, :Character ;
+  :experiencesEmotion :Emotion_TenderAffection .
+
+############################
+# 2 CANONICAL LINE (Ancient Greek anchor, IDs)
+############################
+
+:Line_001
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 1 ;
+  :canonicalReference "Prologue.1"^^xsd:string ;
+  :text "Ὦ κοινὸν αὐτάδελφον Ἰσμήνης κάρα"^^xsd:string .
+
+############################
+# 3 TRANSLATION TEXT (Modern Greek)
+# TRANSLATION-ONLY OUTPUT
+# DO NOT redefine :Line_001 or any core individuals.
+############################
+
+:TV_Line_001_ell
+  a owl:NamedIndividual, :TranslationVariant ;
+  :text "Ω αδελφό μου αγαπημένο, της Ισμήνης κεφάλι"^^xsd:string ;
+  :translator "Modern Greek translation"^^xsd:string ;
+  :relatedTo :Line_001 .
+
+############################
+# CONCEPT INDIVIDUALS USED ABOVE
+############################
+
+:Theme_FamilyBond
+  a :Theme ;
+  :description "Sisterhood bond foregrounded."^^xsd:string .
+
+:Emotion_TenderAffection
+  a :Emotion ;
+  :description "Tender affection."^^xsd:string .

@@ -1,0 +1,31 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:prologue-structure a owl:Ontology .
+
+:Antigone_Scene_Dialogue_1
+a :Scene ;
+:sceneNumber "1"^^xsd:string ;
+:hasSpeech :Speech_Antigone_1_10, :Speech_Ismene_11_17, :Speech_Antigone_18_19 ;
+:developsTheme :Theme_FateOfOedipusLine, :Theme_FamilySuffering, :Theme_PoliticalDecreeThreat, :Theme_EnemiesHarm, :Theme_SecrecyAndTrust ;
+:hasConflict :Conflict_FriendsVsEnemiesEvils .
+
+:Line_001 a :Line ; :lineNumber 1 ; :canonicalReference "1" .
+:Line_002 a :Line ; :lineNumber 2 ; :canonicalReference "2" .
+:Line_003 a :Line ; :lineNumber 3 ; :canonicalReference "3" .
+:Line_004 a :Line ; :lineNumber 4 ; :canonicalReference "4" .
+:Line_005 a :Line ; :lineNumber 5 ; :canonicalReference "5" .
+:Line_006 a :Line ; :lineNumber 6 ; :canonicalReference "6" .
+:Line_007 a :Line ; :lineNumber 7 ; :canonicalReference "7" .
+:Line_008 a :Line ; :lineNumber 8 ; :canonicalReference "8" .
+:Line_009 a :Line ; :lineNumber 9 ; :canonicalReference "9" .
+:Line_010 a :Line ; :lineNumber 10 ; :canonicalReference "10" .
+:Line_011 a :Line ; :lineNumber 11 ; :canonicalReference "11" .
+:Line_012 a :Line ; :lineNumber 12 ; :canonicalReference "12" .
+:Line_013 a :Line ; :lineNumber 13 ; :canonicalReference "13" .
+:Line_014 a :Line ; :lineNumber 14 ; :canonicalReference "14" .
+:Line_015 a :Line ; :lineNumber 15 ; :canonicalReference "15" .
+:Line_016 a :Line ; :lineNumber 16 ; :canonicalReference "16" .
+:Line_017 a :Line ; :lineNumber 17 ; :canonicalReference "17" .
+:Line_018 a :Line ; :lineNumber 18 ; :canonicalReference "18" .
+:Line_019 a :Line ; :lineNumber 19 ; :canonicalReference "19" .
