@@ -1,0 +1,172 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_Dialogue_1
+a :Scene ;
+:sceneNumber "1"^^xsd:string ;
+:hasSpeech :Speech_Antigone_1_10, :Speech_Ismene_11_17, :Speech_Antigone_18_19 ;
+:developsTheme :Theme_FateOfOedipusLine, :Theme_FamilySuffering, :Theme_PoliticalDecreeThreat, :Theme_EnemiesHarm, :Theme_SecrecyAndTrust ;
+:hasConflict :Conflict_FriendsVsEnemiesEvils .
+
+:Antigone_Character_Antigone
+a :Character ;
+:hasMotivation :Motivation_SeekNewsAndDecree, :Motivation_PrivateDisclosure ;
+:experiencesEmotion :Emotion_Anxiety, :Emotion_Lamentation .
+
+:Antigone_Character_Ismene
+a :Character ;
+:experiencesEmotion :Emotion_Uncertainty, :Emotion_Grief .
+
+:Speech_Antigone_1_10
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_001, :Line_002, :Line_003, :Line_004, :Line_005, :Line_006, :Line_007, :Line_008, :Line_009, :Line_010 ;
+:referencesMyth :Myth_Zeus, :Myth_OedipusTroubles ;
+:developsTheme :Theme_FateOfOedipusLine, :Theme_FamilySuffering, :Theme_PoliticalDecreeThreat, :Theme_EnemiesHarm .
+
+:Speech_Ismene_11_17
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_011, :Line_012, :Line_013, :Line_014, :Line_015, :Line_016, :Line_017 ;
+:developsTheme :Theme_SiblingLoss, :Theme_UncertainFuture .
+
+:Speech_Antigone_18_19
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_018, :Line_019 ;
+:developsTheme :Theme_SecrecyAndTrust .
+
+:Motivation_SeekNewsAndDecree
+a :Motivation ;
+:description "Antigone seeks Ismene’s knowledge about the newly proclaimed civic edict and the harms advancing from enemies toward their loved ones."^^xsd:string .
+
+:Motivation_PrivateDisclosure
+a :Motivation ;
+:description "Antigone sends Ismene outside the courtyard gates so that Ismene alone will hear what Antigone intends to say."^^xsd:string .
+
+:Emotion_Lamentation
+a :Emotion ;
+:description "Antigone laments the inherited evils of Oedipus and the shameful, painful suffering already endured."^^xsd:string .
+
+:Emotion_Anxiety
+a :Emotion ;
+:description "Antigone is anxious about the fresh public proclamation and the ongoing threat from enemies."^^xsd:string .
+
+:Emotion_Grief
+a :Emotion ;
+:description "Ismene expresses grief tied to the loss of both brothers on a single day."^^xsd:string .
+
+:Emotion_Uncertainty
+a :Emotion ;
+:description "Ismene reports having no further knowledge and not knowing whether her condition is improving or worsening."^^xsd:string .
+
+:Theme_FateOfOedipusLine
+a :Theme ;
+:description "The continuing evils inherited from Oedipus, presented as still being fulfilled upon his children while they live."^^xsd:string .
+
+:Theme_FamilySuffering
+a :Theme ;
+:description "The sisters’ shared experience of pain, ruin, shame, and dishonor."^^xsd:string .
+
+:Theme_PoliticalDecreeThreat
+a :Theme ;
+:description "A newly established public proclamation by the general becomes a looming force over the city and the family."^^xsd:string .
+
+:Theme_EnemiesHarm
+a :Theme ;
+:description "Evils coming from enemies are portrayed as advancing even toward one’s loved ones."^^xsd:string .
+
+:Theme_SecrecyAndTrust
+a :Theme ;
+:description "Private communication and trust between sisters, ensured by speaking outside the courtyard gates so only one hears."^^xsd:string .
+
+:Theme_SiblingLoss
+a :Theme ;
+:description "The mutual killing of the two brothers, leaving the sisters deprived."^^xsd:string .
+
+:Theme_UncertainFuture
+a :Theme ;
+:description "Uncertainty about what comes next after the Argive host has vanished overnight."^^xsd:string .
+
+:Conflict_FriendsVsEnemiesEvils
+a :Conflict ;
+:description "Antigone contrasts harms advancing from enemies toward loved ones, framing an opposition between φίλοι and ἐχθροί."^^xsd:string ;
+:conflictBetween :Theme_EnemiesHarm, :Theme_SecrecyAndTrust .
+
+:Myth_Zeus
+a :MythologicalBackground ;
+:description "Reference to Zeus as the divine power who brings to completion the evils stemming from Oedipus."^^xsd:string .
+
+:Myth_OedipusTroubles
+a :MythologicalBackground ;
+:description "Reference to the evils of Oedipus as a continuing source of suffering for his children."^^xsd:string .
+
+:Event_BrothersMutualDeath
+a owl:Thing ;
+:description "The two brothers died on the same day by a double hand, depriving the sisters."^^xsd:string .
+
+:Event_ArgiveHostGone
+a owl:Thing ;
+:description "The Argive army is gone in the present night."^^xsd:string .
+
+:Event_BrothersMutualDeath
+:relatedTo :Event_ArgiveHostGone .
+
+:Line_001 a :Line ; :lineNumber 1 ; :canonicalReference "1" .
+:TV_Line_001_grc a :TranslationVariant ; :text "Ὦ κοινὸν αὐτάδελφον Ἰσμήνης κάρα,"^^xsd:string ; :relatedTo :Line_001 .
+
+:Line_002 a :Line ; :lineNumber 2 ; :canonicalReference "2" .
+:TV_Line_002_grc a :TranslationVariant ; :text "ἆρ ̓ οἶσθ ̓ ὅ τι Ζεὺς τῶν ἀπ ̓ Οἰδίπου κακῶν"^^xsd:string ; :relatedTo :Line_002 .
+
+:Line_003 a :Line ; :lineNumber 3 ; :canonicalReference "3" .
+:TV_Line_003_grc a :TranslationVariant ; :text "ὁποῖον οὐχὶ νῷν ἔτι ζώσαιν τελεῖ;"^^xsd:string ; :relatedTo :Line_003 .
+
+:Line_004 a :Line ; :lineNumber 4 ; :canonicalReference "4" .
+:TV_Line_004_grc a :TranslationVariant ; :text "Οὐδὲν γὰρ οὔτ ̓ ἀλγεινὸν οὔτ ̓ ἄτης ἄτερ"^^xsd:string ; :relatedTo :Line_004 .
+
+:Line_005 a :Line ; :lineNumber 5 ; :canonicalReference "5" .
+:TV_Line_005_grc a :TranslationVariant ; :text "οὔτ ̓ αἰσχρὸν οὔτ ̓ ἄτιμόν ἐσθ ̓ ὁποῖον οὐ"^^xsd:string ; :relatedTo :Line_005 .
+
+:Line_006 a :Line ; :lineNumber 6 ; :canonicalReference "6" .
+:TV_Line_006_grc a :TranslationVariant ; :text "τῶν σῶν τε κἀμῶν οὐκ ὄπωπ ̓ ἐγὼ κακῶν."^^xsd:string ; :relatedTo :Line_006 .
+
+:Line_007 a :Line ; :lineNumber 7 ; :canonicalReference "7" .
+:TV_Line_007_grc a :TranslationVariant ; :text "Kαὶ νῦν τί τοῦτ ̓ αὖ φασι πανδήμῳ πόλει"^^xsd:string ; :relatedTo :Line_007 .
+
+:Line_008 a :Line ; :lineNumber 8 ; :canonicalReference "8" .
+:TV_Line_008_grc a :TranslationVariant ; :text "κήρυγμα θεῖναι τὸν στρατηγὸν ἀρτίως;"^^xsd:string ; :relatedTo :Line_008 .
+
+:Line_009 a :Line ; :lineNumber 9 ; :canonicalReference "9" .
+:TV_Line_009_grc a :TranslationVariant ; :text "Ἔχεις τι κεἰσήκουσας; ἤ σε λανθάνει"^^xsd:string ; :relatedTo :Line_009 .
+
+:Line_010 a :Line ; :lineNumber 10 ; :canonicalReference "10" .
+:TV_Line_010_grc a :TranslationVariant ; :text "πρὸς τοὺς φίλους στείχοντα τῶν ἐχθρῶν κακά;"^^xsd:string ; :relatedTo :Line_010 .
+
+:Line_011 a :Line ; :lineNumber 11 ; :canonicalReference "11" .
+:TV_Line_011_grc a :TranslationVariant ; :text "Ἐμοὶ μὲν οὐδεὶς μῦθος, Ἀντιγόνη, φίλων"^^xsd:string ; :relatedTo :Line_011 .
+
+:Line_012 a :Line ; :lineNumber 12 ; :canonicalReference "12" .
+:TV_Line_012_grc a :TranslationVariant ; :text "οὔθ ̓ ἡδὺς οὔτ ̓ ἀλγεινὸς ἵκετ ̓, ἐξ ὅτου"^^xsd:string ; :relatedTo :Line_012 .
+
+:Line_013 a :Line ; :lineNumber 13 ; :canonicalReference "13" .
+:TV_Line_013_grc a :TranslationVariant ; :text "δυοῖν ἀδελφοῖν ἐστερήθημεν δύο"^^xsd:string ; :relatedTo :Line_013 .
+
+:Line_014 a :Line ; :lineNumber 14 ; :canonicalReference "14" .
+:TV_Line_014_grc a :TranslationVariant ; :text "μιᾷ θανόντοιν ἡμέρᾳ διπλῇ χερί·"^^xsd:string ; :relatedTo :Line_014 .
+
+:Line_015 a :Line ; :lineNumber 15 ; :canonicalReference "15" .
+:TV_Line_015_grc a :TranslationVariant ; :text "ἐπεὶ δὲ φροῦδός ἐστιν Ἀργείων στρατὸς"^^xsd:string ; :relatedTo :Line_015 .
+
+:Line_016 a :Line ; :lineNumber 16 ; :canonicalReference "16" .
+:TV_Line_016_grc a :TranslationVariant ; :text "ἐν νυκτὶ τῇ νῦν, οὐδὲν οἶδ ̓ ὑπέρτερον,"^^xsd:string ; :relatedTo :Line_016 .
+
+:Line_017 a :Line ; :lineNumber 17 ; :canonicalReference "17" .
+:TV_Line_017_grc a :TranslationVariant ; :text "οὔτ ̓ εὐτυχοῦσα μᾶλλον οὔτ ̓ ἀτωμένη."^^xsd:string ; :relatedTo :Line_017 .
+
+:Line_018 a :Line ; :lineNumber 18 ; :canonicalReference "18" .
+:TV_Line_018_grc a :TranslationVariant ; :text "Ἤιδη καλῶς, καί σ ̓ ἐκτὸς αὐλείων πυλῶν"^^xsd:string ; :relatedTo :Line_018 .
+
+:Line_019 a :Line ; :lineNumber 19 ; :canonicalReference "19" .
+:TV_Line_019_grc a :TranslationVariant ; :text "τοῦδ ̓ οὕνεκ ̓ ἐξέπεμπον, ὡς μόνη κλύοις."^^xsd:string ; :relatedTo :Line_019 .

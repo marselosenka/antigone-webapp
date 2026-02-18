@@ -1,0 +1,279 @@
+@prefix : http://example.org/antigone . 
+@prefix owl: http://www.w3.org/2002/07/owl .
+@prefix rdfs: http://www.w3.org/2000/01/rdf-schema .
+@prefix xsd: http://www.w3.org/2001/XMLSchema .
+
+################################################################
+
+# SCENE AND SPEECH STRUCTURE
+
+################################################################
+
+:Antigone_Scene_Parodos_AntistropheB_141_162
+a owl:NamedIndividual, :Scene ;
+:sceneNumber "Parodos.AntistropheB"^^xsd:string ;
+:hasSpeech :Speech_Chorus_141_162 ;
+:developsTheme :Theme_ThebanVictoryThanksgiving, :Theme_FraternalCivilWar, :Theme_PoliticalTransitionToCreon ;
+:hasConflict :Conflict_BrothersMutualDeath .
+
+:Speech_Chorus_141_162
+a owl:NamedIndividual, :Speech ;
+:speechBy :Antigone_Character_Chorus ;
+:containsLine
+:Line_141, :Line_142, :Line_143, :Line_144, :Line_145, :Line_146, :Line_147, :Line_148,
+:Line_149, :Line_150, :Line_151, :Line_152, :Line_153, :Line_154, :Line_155, :Line_156,
+:Line_157, :Line_158, :Line_159, :Line_160, :Line_161, :Line_162 ;
+:referencesMyth :Myth_ZeusTropaios, :Myth_NikeVictory, :Myth_Bacchus ;
+:developsTheme :Theme_ThebanVictoryThanksgiving, :Theme_FraternalCivilWar, :Theme_PoliticalTransitionToCreon .
+
+################################################################
+
+# CHARACTERS
+
+################################################################
+
+:Antigone_Character_Chorus
+a owl:NamedIndividual, :Character ;
+:role "Chorus"^^xsd:string ;
+:hasMotivation :Motivation_CelebrateVictoryWithChorusDances ;
+:experiencesEmotion :Emotion_ReliefAndExultation .
+
+:Antigone_Character_Eteocles
+a owl:NamedIndividual, :Character ;
+:description "Brother of Antigone; one of the two brothers who share a common death."^^xsd:string .
+
+:Antigone_Character_Polyneices
+a owl:NamedIndividual, :Character ;
+:description "Brother of Antigone; one of the two brothers who share a common death."^^xsd:string .
+
+:Antigone_Character_Creon
+a owl:NamedIndividual, :Character ;
+:hasMotivation :Motivation_CreonConveneEldersCouncil ;
+:makesMoralDecision :MoralDecision_SummonEldersByCommonProclamation .
+
+################################################################
+
+# THEMES, MOTIVATIONS, EMOTIONS, MYTHS, CONFLICTS, EVENTS
+
+################################################################
+
+:Theme_ThebanVictoryThanksgiving
+a :Theme ;
+:description "Thebes celebrates victory, offers thanks to Zeus, and proposes night-long choral dances at the temples."^^xsd:string .
+
+:Theme_FraternalCivilWar
+a :Theme ;
+:description "The war ends with the exceptional tragedy of the two brothers sharing a common death by mutual spears."^^xsd:string .
+
+:Theme_PoliticalTransitionToCreon
+a :Theme ;
+:description "After the war, Creon appears as the new ruler and convenes the elders’ council by public proclamation."^^xsd:string .
+
+:Motivation_CelebrateVictoryWithChorusDances
+a :Motivation ;
+:description "To set forgetfulness of the present war and visit the gods’ temples with all-night choral dances, led by Bacchus of Thebes."^^xsd:string .
+
+:Motivation_CreonConveneEldersCouncil
+a :Motivation ;
+:description "To convene the elders’ council and declare his plan publicly after new divine circumstances for the city."^^xsd:string .
+
+:MoralDecision_SummonEldersByCommonProclamation
+a :MoralDecision ;
+:description "Creon summons the elders’ assembly by sending a common proclamation."^^xsd:string .
+
+:Emotion_ReliefAndExultation
+a :Emotion ;
+:description "Relief and celebratory exultation after the war, invoking Victory and proposing communal thanksgiving."^^xsd:string .
+
+:Myth_ZeusTropaios
+a :MythologicalBackground ;
+:description "Invocation of Zeus as 'Tropaios' receiving bronze offerings for victory."^^xsd:string .
+
+:Myth_NikeVictory
+a :MythologicalBackground ;
+:description "Personified Victory ('Nike') arrives, rejoicing with heavily-armed Thebes."^^xsd:string .
+
+:Myth_Bacchus
+a :MythologicalBackground ;
+:description "Bacchus (Dionysus) as leader of Theban celebration and dance."^^xsd:string .
+
+:Conflict_BrothersMutualDeath
+a :Conflict ;
+:description "The two brothers, born of one father and one mother, set double spears against each other and both receive a share of a common death."^^xsd:string ;
+:conflictBetween :Antigone_Character_Eteocles, :Antigone_Character_Polyneices .
+
+:Event_VictoryArrivesAtThebes
+a owl:NamedIndividual, owl:Thing ;
+:description "The arrival of renowned Victory to Thebes following the war."^^xsd:string ;
+:relatedTo :Myth_NikeVictory ;
+:relatedTo :Motivation_CelebrateVictoryWithChorusDances .
+
+:Event_CreonApproachesAsNewRuler
+a owl:NamedIndividual, owl:Thing ;
+:description "Creon, son of Menoeceus, approaches as new ruler, advancing a plan and convening the elders."^^xsd:string ;
+:relatedTo :Motivation_CreonConveneEldersCouncil ;
+:relatedTo :MoralDecision_SummonEldersByCommonProclamation .
+
+################################################################
+
+# CANONICAL LINES (Ancient Greek)
+
+################################################################
+
+:Line_141 a owl:NamedIndividual, :Line ;
+:lineNumber 141 ;
+:canonicalReference "141"^^xsd:string ;
+:text "ἑπτὰ λοχαγοὶ γὰρ ἐφ ̓ ἑπτὰ πύλαις"^^xsd:string ;
+:hasTheme :Theme_ThebanVictoryThanksgiving .
+
+:Line_142 a owl:NamedIndividual, :Line ;
+:lineNumber 142 ;
+:canonicalReference "142"^^xsd:string ;
+:text "ταχθέντες ἴσοι πρὸς ἴσους ἔλιπον"^^xsd:string ;
+:hasTheme :Theme_ThebanVictoryThanksgiving .
+
+:Line_143 a owl:NamedIndividual, :Line ;
+:lineNumber 143 ;
+:canonicalReference "143"^^xsd:string ;
+:text "Ζηνὶ τροπαίῳ πάγχαλκα τέλη,"^^xsd:string ;
+:referencesMyth :Myth_ZeusTropaios ;
+:hasTheme :Theme_ThebanVictoryThanksgiving .
+
+:Line_144 a owl:NamedIndividual, :Line ;
+:lineNumber 144 ;
+:canonicalReference "144"^^xsd:string ;
+:text "πλὴν τοῖν στυγεροῖν, ὣ πατρὸς ἑνὸς"^^xsd:string ;
+:hasTheme :Theme_FraternalCivilWar ;
+:hasConflict :Conflict_BrothersMutualDeath .
+
+:Line_145 a owl:NamedIndividual, :Line ;
+:lineNumber 145 ;
+:canonicalReference "145"^^xsd:string ;
+:text "μητρός τε μιᾶς φύντε καθ ̓ αὑτοῖν"^^xsd:string ;
+:hasTheme :Theme_FraternalCivilWar ;
+:hasConflict :Conflict_BrothersMutualDeath .
+
+:Line_146 a owl:NamedIndividual, :Line ;
+:lineNumber 146 ;
+:canonicalReference "146"^^xsd:string ;
+:text "δικρατεῖς λόγχας στήσαντ ̓ ἔχετον"^^xsd:string ;
+:hasTheme :Theme_FraternalCivilWar ;
+:hasConflict :Conflict_BrothersMutualDeath .
+
+:Line_147 a owl:NamedIndividual, :Line ;
+:lineNumber 147 ;
+:canonicalReference "147"^^xsd:string ;
+:text "κοινοῦ θανάτου μέρος ἄμφω."^^xsd:string ;
+:hasTheme :Theme_FraternalCivilWar ;
+:hasConflict :Conflict_BrothersMutualDeath .
+
+:Line_148 a owl:NamedIndividual, :Line ;
+:lineNumber 148 ;
+:canonicalReference "148"^^xsd:string ;
+:text "ἀλλὰ γὰρ ἁ μεγαλώνυμος ἦλθε Νίκα"^^xsd:string ;
+:referencesMyth :Myth_NikeVictory ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:relatedTo :Event_VictoryArrivesAtThebes .
+
+:Line_149 a owl:NamedIndividual, :Line ;
+:lineNumber 149 ;
+:canonicalReference "149"^^xsd:string ;
+:text "τᾷ πολυαρμάτῳ ἀντιχαρεῖσα Θήβᾳ,"^^xsd:string ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:relatedTo :Event_VictoryArrivesAtThebes .
+
+:Line_150 a owl:NamedIndividual, :Line ;
+:lineNumber 150 ;
+:canonicalReference "150"^^xsd:string ;
+:text "ἐκ μὲν δὴ πολέμων"^^xsd:string ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:relatedTo :Motivation_CelebrateVictoryWithChorusDances .
+
+:Line_151 a owl:NamedIndividual, :Line ;
+:lineNumber 151 ;
+:canonicalReference "151"^^xsd:string ;
+:text "τῶν νῦν θέσθαι λησμοσύναν,"^^xsd:string ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:relatedTo :Motivation_CelebrateVictoryWithChorusDances .
+
+:Line_152 a owl:NamedIndividual, :Line ;
+:lineNumber 152 ;
+:canonicalReference "152"^^xsd:string ;
+:text "θεῶν δὲ ναοὺς χοροῖς"^^xsd:string ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:relatedTo :Motivation_CelebrateVictoryWithChorusDances .
+
+:Line_153 a owl:NamedIndividual, :Line ;
+:lineNumber 153 ;
+:canonicalReference "153"^^xsd:string ;
+:text "παννυχίοις πάντας ἐπέλ-"^^xsd:string ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:relatedTo :Motivation_CelebrateVictoryWithChorusDances .
+
+:Line_154 a owl:NamedIndividual, :Line ;
+:lineNumber 154 ;
+:canonicalReference "154"^^xsd:string ;
+:text "θωμεν, ὁ Θήβας δ ̓ ἐλελί-"^^xsd:string ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:referencesMyth :Myth_Bacchus ;
+:relatedTo :Motivation_CelebrateVictoryWithChorusDances .
+
+:Line_155 a owl:NamedIndividual, :Line ;
+:lineNumber 155 ;
+:canonicalReference "155"^^xsd:string ;
+:text "χθων Βάκχιος ἄρχοι."^^xsd:string ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:referencesMyth :Myth_Bacchus ;
+:relatedTo :Motivation_CelebrateVictoryWithChorusDances .
+
+:Line_156 a owl:NamedIndividual, :Line ;
+:lineNumber 156 ;
+:canonicalReference "156"^^xsd:string ;
+:text "ἀλλ ̓, ὅδε γὰρ δὴ βασιλεὺς χώρας, "^^xsd:string ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :Event_CreonApproachesAsNewRuler .
+
+:Line_157 a owl:NamedIndividual, :Line ;
+:lineNumber 157 ;
+:canonicalReference "157"^^xsd:string ;
+:text "Κρέων ὁ Μενοικέως,.....νεοχμὸς"^^xsd:string ;
+:referencesMyth :Antigone_Character_Creon ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :Event_CreonApproachesAsNewRuler .
+
+:Line_158 a owl:NamedIndividual, :Line ;
+:lineNumber 158 ;
+:canonicalReference "158"^^xsd:string ;
+:text "νεαραῖσι θεῶν ἐπὶ συντυχίαις"^^xsd:string ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :Event_CreonApproachesAsNewRuler .
+
+:Line_159 a owl:NamedIndividual, :Line ;
+:lineNumber 159 ;
+:canonicalReference "159"^^xsd:string ;
+:text "χωρεῖ, τίνα δὴ μῆτιν ἐρέσσων, "^^xsd:string ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :Motivation_CreonConveneEldersCouncil .
+
+:Line_160 a owl:NamedIndividual, :Line ;
+:lineNumber 160 ;
+:canonicalReference "160"^^xsd:string ;
+:text "ὅτι σύγκλητον τήνδε γερόντων"^^xsd:string ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :MoralDecision_SummonEldersByCommonProclamation .
+
+:Line_161 a owl:NamedIndividual, :Line ;
+:lineNumber 161 ;
+:canonicalReference "161"^^xsd:string ;
+:text "προὔθετο λέσχην,"^^xsd:string ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :MoralDecision_SummonEldersByCommonProclamation .
+
+:Line_162 a owl:NamedIndividual, :Line ;
+:lineNumber 162 ;
+:canonicalReference "162"^^xsd:string ;
+:text "κοινῷ κηρύγματι πέμψας;"^^xsd:string ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :MoralDecision_SummonEldersByCommonProclamation .
+
+# REPORT: Lines 153–155 contain hyphenation artifacts ("ἐπέλ-", "ἐλελί-") as provided in the source; treated as distinct canonical lines without reconstructing merged words.

@@ -1,0 +1,222 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_Dialogue_20_41
+a :Scene ;
+:sceneNumber "Dialogue 20-41"^^xsd:string ;
+:hasSpeech :Speech_Ismene_20, :Speech_Antigone_21_38, :Speech_Ismene_39_40, :Speech_Antigone_41 ;
+:developsTheme :Theme_BurialRites, :Theme_StateEdict, :Theme_FamilyDuty, :Theme_PunishmentThreat ;
+:hasConflict :Conflict_BurialRitesVsCreonEdict .
+
+:Antigone_Character_Antigone
+a :Character ;
+:hasMotivation :Motivation_UpholdBurialRites, :Motivation_SeekIsmeneCooperation ;
+:makesMoralDecision :MoralDecision_DefyCreonEdict ;
+:advocatesFor :EthicalPrinciple_BurialRites ;
+:experiencesEmotion :Emotion_Indignation, :Emotion_Urgency .
+
+:Antigone_Character_Ismene
+a :Character ;
+:experiencesEmotion :Emotion_Concern, :Emotion_Hesitation .
+
+:Antigone_Character_Creon a :Character .
+:Antigone_Character_Eteocles a :Character .
+:Antigone_Character_Polyneices a :Character .
+
+:Speech_Ismene_20
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_020 ;
+:partOfScene :Antigone_Scene_Dialogue_20_41 ;
+:developsTheme :Theme_EmotionalTurmoil .
+
+:Speech_Antigone_21_38
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_021, :Line_022, :Line_023, :Line_024, :Line_025, :Line_026, :Line_027, :Line_028, :Line_029, :Line_030, :Line_031, :Line_032, :Line_033, :Line_034, :Line_035, :Line_036, :Line_037, :Line_038 ;
+:partOfScene :Antigone_Scene_Dialogue_20_41 ;
+:developsTheme :Theme_BurialRites, :Theme_StateEdict, :Theme_PunishmentThreat, :Theme_FamilyDuty ;
+:hasConflict :Conflict_BurialRitesVsCreonEdict .
+
+:Speech_Ismene_39_40
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_039, :Line_040 ;
+:partOfScene :Antigone_Scene_Dialogue_20_41 ;
+:developsTheme :Theme_Prudence, :Theme_FearOfConsequences .
+
+:Speech_Antigone_41
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_041 ;
+:partOfScene :Antigone_Scene_Dialogue_20_41 ;
+:developsTheme :Theme_FamilyDuty ;
+:hasMotivation :Motivation_SeekIsmeneCooperation .
+
+:Law_CreonBurialEdict
+a :Law ;
+:description "Κήρυγμα Κρέοντος: τὸν Πολυνείκους νέκυν μὴ τάφῳ καλύψαι μηδὲ κωκῦσαί τινα· ὁ δρῶν τι τούτων φόνον προκεῖσθαι δημόλευστον."^^xsd:string .
+
+:EthicalPrinciple_BurialRites
+a :EthicalPrinciple ;
+:description "Τιμᾶν τοὺς νεκρούς διὰ ταφῆς καὶ νομίμων ἐθῶν."^^xsd:string .
+
+:Motivation_UpholdBurialRites
+a :Motivation ;
+:description "Ἡ Ἀντιγόνη ἐπιμένει ὅτι δεῖ τὸν Πολυνείκην μὴ ἀτιμάζεσθαι ἀλλὰ ταφῇ καλύπτεσθαι κατὰ νόμον."^^xsd:string .
+
+:Motivation_SeekIsmeneCooperation
+a :Motivation ;
+:description "Ἡ Ἀντιγόνη ζητεῖ τὴν ξυμπόνησιν καὶ ξυνεργασίαν τῆς Ἰσμήνης."^^xsd:string .
+
+:MoralDecision_DefyCreonEdict
+a :MoralDecision ;
+:description "Ἡ Ἀντιγόνη προτίθεται πράξιν ἀντικείμενην τῷ κηρύγματι Κρέοντος περὶ ταφῆς."^^xsd:string ;
+:relatedTo :Law_CreonBurialEdict ;
+:relatedTo :EthicalPrinciple_BurialRites .
+
+:Emotion_Concern
+a :Emotion ;
+:description "Ἡ Ἰσμήνη αἰσθάνεται ὅτι ἡ Ἀντιγόνη 'καλχαίνει' λόγον, δείγμα ταραχῆς."^^xsd:string .
+
+:Emotion_Indignation
+a :Emotion ;
+:description "Ἀγανάκτησις διὰ τὴν ἄτιμον μεταχείρισιν τοῦ Πολυνείκους καὶ τὴν ἄνισον τιμὴν τῶν ἀδελφῶν."^^xsd:string .
+
+:Emotion_Urgency
+a :Emotion ;
+:description "Ἐπείγουσα ἀγωνία ὅτι Κρέων ἔρχεται δημόσια σαφῆ προκηρύξων καὶ πράξιν ἄγων."^^xsd:string .
+
+:Emotion_Hesitation
+a :Emotion ;
+:description "Ἡ Ἰσμήνη ἐρωτᾷ τί πλέον ἂν προσθείη, σημαίνουσα ἐπιφύλαξιν καὶ ὀκνηρίαν."^^xsd:string .
+
+:Theme_BurialRites
+a :Theme ;
+:description "Ἡ τιμὴ τῶν νεκρῶν διὰ ταφῆς, θρήνου, καὶ νομίμων ἐθῶν."^^xsd:string .
+
+:Theme_StateEdict
+a :Theme ;
+:description "Τὸ δημόσιον κήρυγμα τοῦ στρατηγοῦ (Κρέοντος) ὡς ἐπιταγή πόλεως."^^xsd:string .
+
+:Theme_FamilyDuty
+a :Theme ;
+:description "Ἡ ἀδελφικὴ ὑποχρέωσις καὶ ἡ δοκιμασία εὐγενείας/ἀρετῆς ἐξ ἐσθλῶν."^^xsd:string .
+
+:Theme_PunishmentThreat
+a :Theme ;
+:description "Ἡ ἀπειλὴ δημοσίου φόνου/λιθοβολίας ὡς κύρωσις τοῦ κηρύγματος."^^xsd:string .
+
+:Theme_EmotionalTurmoil
+a :Theme ;
+:description "Ἡ ἐσωτερικὴ ταραχή (καλχαίνουσ᾽ ἔπος) προοιμιάζει σύγκρουσιν."^^xsd:string .
+
+:Theme_Prudence
+a :Theme ;
+:description "Ἡ φρόνησις/ἐπιφύλαξις ἀπέναντι κινδύνῳ: τί πλέον ἂν προσθείη ἡ Ἰσμήνη."^^xsd:string .
+
+:Theme_FearOfConsequences
+a :Theme ;
+:description "Ἡ σκέψις τοῦ ἀντιτίμου καὶ τῆς τιμωρίας ἀποτρέπει ἐμπλοκήν."^^xsd:string .
+
+:Conflict_BurialRitesVsCreonEdict
+a :Conflict ;
+:description "Σύγκρουσις μεταξὺ νομίμων ταφικῶν ἐθῶν καὶ τοῦ κηρύγματος Κρέοντος ὅτι Πολυνείκης ἄταφος/ἄκλαυτος."^^xsd:string ;
+:conflictBetween :EthicalPrinciple_BurialRites, :Law_CreonBurialEdict .
+
+:Event_PublicStoningPunishment
+a owl:Thing ;
+:description "Φόνος δημόλευστος ἐν πόλει ὡς τιμωρία τῷ παραβαίνοντι."^^xsd:string .
+
+:Law_CreonBurialEdict :relatedTo :Event_PublicStoningPunishment .
+:MoralDecision_DefyCreonEdict :relatedTo :Event_PublicStoningPunishment .
+
+:Line_020 a :Line ; :lineNumber 20 ; :canonicalReference "20"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_020_grc a :TranslationVariant ; :text "Τί δ ̓ ἔστι; δηλοῖς γάρ τι καλχαίνουσ ̓ ἔπος."^^xsd:string ; :relatedTo :Line_020 .
+:Line_020 :experiencesEmotion :Emotion_Concern ; :hasTheme :Theme_EmotionalTurmoil .
+
+:Line_021 a :Line ; :lineNumber 21 ; :canonicalReference "21"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_021_grc a :TranslationVariant ; :text "Οὐ γὰρ τάφου νῷν τὼ κασιγνήτω Κρέων"^^xsd:string ; :relatedTo :Line_021 .
+:Line_021 :hasTheme :Theme_BurialRites ; :hasTheme :Theme_StateEdict ; :hasConflict :Conflict_BurialRitesVsCreonEdict ; :relatedTo :Law_CreonBurialEdict .
+
+:Line_022 a :Line ; :lineNumber 22 ; :canonicalReference "22"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_022_grc a :TranslationVariant ; :text "τὸν μὲν προτίσας, τὸν δ ̓ ἀτιμάσας ἔχει;"^^xsd:string ; :relatedTo :Line_022 .
+:Line_022 :hasTheme :Theme_BurialRites ; :hasConflict :Conflict_BurialRitesVsCreonEdict ; :experiencesEmotion :Emotion_Indignation .
+
+:Line_023 a :Line ; :lineNumber 23 ; :canonicalReference "23"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_023_grc a :TranslationVariant ; :text "Ἐτεοκλέα μέν, ὡς λέγουσι, σὺν δίκῃ"^^xsd:string ; :relatedTo :Line_023 .
+:Line_023 :hasTheme :Theme_BurialRites ; :advocatesFor :EthicalPrinciple_BurialRites .
+
+:Line_024 a :Line ; :lineNumber 24 ; :canonicalReference "24"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_024_grc a :TranslationVariant ; :text "χρησθεὶς δικαίᾳ καὶ νόμῳ, κατὰ χθονὸς"^^xsd:string ; :relatedTo :Line_024 .
+:Line_024 :hasTheme :Theme_BurialRites ; :advocatesFor :EthicalPrinciple_BurialRites .
+
+:Line_025 a :Line ; :lineNumber 25 ; :canonicalReference "25"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_025_grc a :TranslationVariant ; :text "ἔκρυψε τοῖς ἔνερθεν ἔντιμον νεκροῖς,"^^xsd:string ; :relatedTo :Line_025 .
+:Line_025 :hasTheme :Theme_BurialRites ; :advocatesFor :EthicalPrinciple_BurialRites .
+
+:Line_026 a :Line ; :lineNumber 26 ; :canonicalReference "26"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_026_grc a :TranslationVariant ; :text "τὸν δ ̓ ἀθλίως θανόντα Πολυνείκους νέκυν"^^xsd:string ; :relatedTo :Line_026 .
+:Line_026 :hasTheme :Theme_BurialRites ; :hasTheme :Theme_FamilyDuty ; :experiencesEmotion :Emotion_Indignation .
+
+:Line_027 a :Line ; :lineNumber 27 ; :canonicalReference "27"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_027_grc a :TranslationVariant ; :text "ἀστοῖσί φασιν ἐκκεκηρῦχθαι τὸ μὴ"^^xsd:string ; :relatedTo :Line_027 .
+:Line_027 :hasTheme :Theme_StateEdict ; :relatedTo :Law_CreonBurialEdict .
+
+:Line_028 a :Line ; :lineNumber 28 ; :canonicalReference "28"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_028_grc a :TranslationVariant ; :text "τάφῳ καλύψαι μηδὲ κωκῦσαί τινα,"^^xsd:string ; :relatedTo :Line_028 .
+:Line_028 :hasTheme :Theme_BurialRites ; :hasTheme :Theme_StateEdict ; :hasConflict :Conflict_BurialRitesVsCreonEdict ; :relatedTo :Law_CreonBurialEdict .
+
+:Line_029 a :Line ; :lineNumber 29 ; :canonicalReference "29"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_029_grc a :TranslationVariant ; :text "ἐᾶν δ ̓ ἄκλαυτον, ἄταφον, οἰωνοῖς γλυκὺν"^^xsd:string ; :relatedTo :Line_029 .
+:Line_029 :hasTheme :Theme_BurialRites ; :hasConflict :Conflict_BurialRitesVsCreonEdict ; :relatedTo :Law_CreonBurialEdict .
+
+:Line_030 a :Line ; :lineNumber 30 ; :canonicalReference "30"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_030_grc a :TranslationVariant ; :text "θησαυρὸν εἰσορῶσι πρὸς χάριν βορᾶς."^^xsd:string ; :relatedTo :Line_030 .
+:Line_030 :hasTheme :Theme_BurialRites ; :experiencesEmotion :Emotion_Indignation .
+
+:Line_031 a :Line ; :lineNumber 31 ; :canonicalReference "31"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_031_grc a :TranslationVariant ; :text "Τοιαῦτά φασι τὸν ἀγαθὸν Κρέοντα σοὶ"^^xsd:string ; :relatedTo :Line_031 .
+:Line_031 :hasTheme :Theme_StateEdict ; :experiencesEmotion :Emotion_Indignation ; :relatedTo :Law_CreonBurialEdict .
+
+:Line_032 a :Line ; :lineNumber 32 ; :canonicalReference "32"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_032_grc a :TranslationVariant ; :text "κἀμοί, λέγω γὰρ κἀμέ, κηρύξαντ ̓ ἔχειν,"^^xsd:string ; :relatedTo :Line_032 .
+:Line_032 :hasTheme :Theme_FamilyDuty ; :hasTheme :Theme_StateEdict ; :experiencesEmotion :Emotion_Indignation ; :relatedTo :Law_CreonBurialEdict .
+
+:Line_033 a :Line ; :lineNumber 33 ; :canonicalReference "33"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_033_grc a :TranslationVariant ; :text "καὶ δεῦρο νεῖσθαι ταῦτα τοῖσι μὴ εἰδόσιν"^^xsd:string ; :relatedTo :Line_033 .
+:Line_033 :hasTheme :Theme_StateEdict ; :experiencesEmotion :Emotion_Urgency .
+
+:Line_034 a :Line ; :lineNumber 34 ; :canonicalReference "34"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_034_grc a :TranslationVariant ; :text "σαφῆ προκηρύξοντα, καὶ τὸ πρᾶγμ ̓ ἄγειν"^^xsd:string ; :relatedTo :Line_034 .
+:Line_034 :hasTheme :Theme_StateEdict ; :experiencesEmotion :Emotion_Urgency ; :relatedTo :Law_CreonBurialEdict .
+
+:Line_035 a :Line ; :lineNumber 35 ; :canonicalReference "35"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_035_grc a :TranslationVariant ; :text "οὐχ ὡς παρ ̓ οὐδέν, ἀλλ ̓ ὃς ἂν τούτων τι δρᾷ"^^xsd:string ; :relatedTo :Line_035 .
+:Line_035 :hasTheme :Theme_PunishmentThreat ; :hasTheme :Theme_StateEdict ; :relatedTo :Law_CreonBurialEdict .
+
+:Line_036 a :Line ; :lineNumber 36 ; :canonicalReference "36"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_036_grc a :TranslationVariant ; :text "φόνον προκεῖσθαι δημόλευστον ἐν πόλει."^^xsd:string ; :relatedTo :Line_036 .
+:Line_036 :hasTheme :Theme_PunishmentThreat ; :relatedTo :Event_PublicStoningPunishment ; :relatedTo :Law_CreonBurialEdict .
+
+:Line_037 a :Line ; :lineNumber 37 ; :canonicalReference "37"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_037_grc a :TranslationVariant ; :text "Οὕτως ἔχει σοι ταῦτα, καὶ δείξεις τάχα"^^xsd:string ; :relatedTo :Line_037 .
+:Line_037 :hasTheme :Theme_FamilyDuty ; :experiencesEmotion :Emotion_Urgency .
+
+:Line_038 a :Line ; :lineNumber 38 ; :canonicalReference "38"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_038_grc a :TranslationVariant ; :text "εἴτ ̓ εὐγενὴς πὲφυκας εἴτ ̓ ἐσθλῶν κακή."^^xsd:string ; :relatedTo :Line_038 .
+:Line_038 :hasTheme :Theme_FamilyDuty ; :hasTheme :Theme_StateEdict .
+
+:Line_039 a :Line ; :lineNumber 39 ; :canonicalReference "39"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_039_grc a :TranslationVariant ; :text "Τί δ ̓, ὦ ταλαῖφρον, εἰ τάδ ̓ ἐν τούτοις, ἐγὼ"^^xsd:string ; :relatedTo :Line_039 .
+:Line_039 :experiencesEmotion :Emotion_Hesitation ; :hasTheme :Theme_Prudence ; :hasTheme :Theme_FearOfConsequences .
+
+:Line_040 a :Line ; :lineNumber 40 ; :canonicalReference "40"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_040_grc a :TranslationVariant ; :text "λύουσ ̓ ἂν εἴθ ̓ ἅπτουσα προσθείμην πλέον;"^^xsd:string ; :relatedTo :Line_040 .
+:Line_040 :experiencesEmotion :Emotion_Hesitation ; :hasTheme :Theme_Prudence ; :hasTheme :Theme_FearOfConsequences .
+
+:Line_041 a :Line ; :lineNumber 41 ; :canonicalReference "41"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:TV_Line_041_grc a :TranslationVariant ; :text "Εἰ ξυμπονήσεις καὶ ξυνεργάσῃ σκόπει."^^xsd:string ; :relatedTo :Line_041 .
+:Line_041 :hasTheme :Theme_FamilyDuty ; :hasMotivation :Motivation_SeekIsmeneCooperation ; :experiencesEmotion :Emotion_Urgency .

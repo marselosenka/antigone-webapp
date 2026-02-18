@@ -1,0 +1,259 @@
+@prefix : [http://example.org/antigone#](http://example.org/antigone#) .
+@prefix owl: [http://www.w3.org/2002/07/owl#](http://www.w3.org/2002/07/owl#) .
+@prefix rdfs: [http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#) .
+@prefix xsd: [http://www.w3.org/2001/XMLSchema#](http://www.w3.org/2001/XMLSchema#) .
+
+################################################################
+
+# SCENE AND SPEECH STRUCTURE
+
+################################################################
+
+:Antigone_Scene_Parodos_AntistropheB_141_162
+a owl:NamedIndividual, :Scene ;
+:sceneNumber "Parodos.AntistropheB"^^xsd:string ;
+:hasSpeech :Speech_Chorus_141_162 ;
+:developsTheme :Theme_ThebanVictoryThanksgiving, :Theme_FraternalCivilWar, :Theme_PoliticalTransitionToCreon ;
+:hasConflict :Conflict_BrothersMutualDeath .
+
+:Speech_Chorus_141_162
+a owl:NamedIndividual, :Speech ;
+:speechBy :Antigone_Character_Chorus ;
+:containsLine
+:Line_141, :Line_142, :Line_143, :Line_144, :Line_145, :Line_146, :Line_147, :Line_148,
+:Line_149, :Line_150, :Line_151, :Line_152, :Line_153, :Line_154, :Line_155, :Line_156,
+:Line_157, :Line_158, :Line_159, :Line_160, :Line_161, :Line_162 ;
+:referencesMyth :Myth_ZeusTropaios, :Myth_NikeVictory, :Myth_Bacchus ;
+:developsTheme :Theme_ThebanVictoryThanksgiving, :Theme_FraternalCivilWar, :Theme_PoliticalTransitionToCreon .
+
+################################################################
+
+# CHARACTERS
+
+################################################################
+
+:Antigone_Character_Chorus
+a owl:NamedIndividual, :Character ;
+:role "Chorus"^^xsd:string ;
+:hasMotivation :Motivation_CelebrateVictoryWithChorusDances ;
+:experiencesEmotion :Emotion_ReliefAndExultation .
+
+:Antigone_Character_Eteocles
+a owl:NamedIndividual, :Character ;
+:description "Brother of Antigone; one of the two brothers who share a common death."^^xsd:string .
+
+:Antigone_Character_Polyneices
+a owl:NamedIndividual, :Character ;
+:description "Brother of Antigone; one of the two brothers who share a common death."^^xsd:string .
+
+:Antigone_Character_Creon
+a owl:NamedIndividual, :Character ;
+:hasMotivation :Motivation_CreonConveneEldersCouncil ;
+:makesMoralDecision :MoralDecision_SummonEldersByCommonProclamation .
+
+################################################################
+
+# THEMES, MOTIVATIONS, EMOTIONS, MYTHS, CONFLICTS
+
+################################################################
+
+:Theme_ThebanVictoryThanksgiving
+a :Theme ;
+:description "Thebes celebrates victory, offers thanks to Zeus, and proposes night-long choral dances at the temples."^^xsd:string .
+
+:Theme_FraternalCivilWar
+a :Theme ;
+:description "The war ends with the exceptional tragedy of the two brothers sharing a common death by mutual spears."^^xsd:string .
+
+:Theme_PoliticalTransitionToCreon
+a :Theme ;
+:description "After the war, Creon appears as the new ruler and convenes the elders’ council by public proclamation."^^xsd:string .
+
+:Motivation_CelebrateVictoryWithChorusDances
+a :Motivation ;
+:description "To set forgetfulness of the recent war and visit the gods’ temples with all-night choral dances, led by Bacchus."^^xsd:string .
+
+:Motivation_CreonConveneEldersCouncil
+a :Motivation ;
+:description "To summon the elders for consultation about a pressing new public matter as he takes rule."^^xsd:string .
+
+:MoralDecision_SummonEldersByCommonProclamation
+a :MoralDecision ;
+:description "Creon orders the elders to gather by sending word as a public proclamation."^^xsd:string .
+
+:Emotion_ReliefAndExultation
+a :Emotion ;
+:description "Relief and celebratory exultation after victory, expressed through thanksgiving and dance."^^xsd:string .
+
+:Myth_ZeusTropaios
+a :MythologicalBackground ;
+:description "Zeus as the turner of battle and receiver of victory offerings."^^xsd:string .
+
+:Myth_NikeVictory
+a :MythologicalBackground ;
+:description "Nike personified as glory-granting Victory arriving to rejoice with Thebes."^^xsd:string .
+
+:Myth_Bacchus
+a :MythologicalBackground ;
+:description "Bacchus (Dionysus) invoked as leader of the celebratory dance in Thebes."^^xsd:string .
+
+:Conflict_BrothersMutualDeath
+a :Conflict ;
+:description "The brothers, born of the same parents, drive spears against each other and both share death."^^xsd:string ;
+:conflictBetween :Antigone_Character_Eteocles, :Antigone_Character_Polyneices .
+
+################################################################
+
+# CANONICAL LINES & TRANSLATION VARIANTS (EN)
+
+################################################################
+
+:Line_141 a :Line ; :lineNumber 141 ; :canonicalReference "141"^^xsd:string .
+:TV_Line_141_en a :TranslationVariant ;
+:text "For seven commanders stood at seven gates and"^^xsd:string ;
+:relatedTo :Line_141 ;
+:hasTheme :Theme_ThebanVictoryThanksgiving .
+
+:Line_142 a :Line ; :lineNumber 142 ; :canonicalReference "142"^^xsd:string .
+:TV_Line_142_en a :TranslationVariant ;
+:text "Left behind in equal share their panoplies of brass"^^xsd:string ;
+:relatedTo :Line_142 ;
+:hasTheme :Theme_ThebanVictoryThanksgiving .
+
+:Line_143 a :Line ; :lineNumber 143 ; :canonicalReference "143"^^xsd:string .
+:TV_Line_143_en a :TranslationVariant ;
+:text "To Zeus, turner of the battle’s tide—"^^xsd:string ;
+:relatedTo :Line_143 ;
+:referencesMyth :Myth_ZeusTropaios ;
+:hasTheme :Theme_ThebanVictoryThanksgiving .
+
+:Line_144 a :Line ; :lineNumber 144 ; :canonicalReference "144"^^xsd:string .
+:TV_Line_144_en a :TranslationVariant ;
+:text "Except for those two wretched ones, born from"^^xsd:string ;
+:relatedTo :Line_144 ;
+:hasTheme :Theme_FraternalCivilWar ;
+:hasConflict :Conflict_BrothersMutualDeath .
+
+:Line_145 a :Line ; :lineNumber 145 ; :canonicalReference "145"^^xsd:string .
+:TV_Line_145_en a :TranslationVariant ;
+:text "The same mother and father, who stood and drove"^^xsd:string ;
+:relatedTo :Line_145 ;
+:hasTheme :Theme_FraternalCivilWar ;
+:hasConflict :Conflict_BrothersMutualDeath .
+
+:Line_146 a :Line ; :lineNumber 146 ; :canonicalReference "146"^^xsd:string .
+:TV_Line_146_en a :TranslationVariant ;
+:text "Their spears against each other, both striking victory,"^^xsd:string ;
+:relatedTo :Line_146 ;
+:hasTheme :Theme_FraternalCivilWar ;
+:hasConflict :Conflict_BrothersMutualDeath .
+
+:Line_147 a :Line ; :lineNumber 147 ; :canonicalReference "147"^^xsd:string .
+:TV_Line_147_en a :TranslationVariant ;
+:text "Both finding death in equal share."^^xsd:string ;
+:relatedTo :Line_147 ;
+:hasTheme :Theme_FraternalCivilWar ;
+:hasConflict :Conflict_BrothersMutualDeath .
+
+:Line_148 a :Line ; :lineNumber 148 ; :canonicalReference "148"^^xsd:string .
+:TV_Line_148_en a :TranslationVariant ;
+:text "Since glory-granting Nike has come"^^xsd:string ;
+:relatedTo :Line_148 ;
+:referencesMyth :Myth_NikeVictory ;
+:hasTheme :Theme_ThebanVictoryThanksgiving .
+
+:Line_149 a :Line ; :lineNumber 149 ; :canonicalReference "149"^^xsd:string .
+:TV_Line_149_en a :TranslationVariant ;
+:text "To Thebes of many chariots, a smile for a smile,"^^xsd:string ;
+:relatedTo :Line_149 ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:experiencesEmotion :Emotion_ReliefAndExultation .
+
+:Line_150 a :Line ; :lineNumber 150 ; :canonicalReference "150"^^xsd:string .
+:TV_Line_150_en a :TranslationVariant ;
+:text "Let’s make ourselves forgetful"^^xsd:string ;
+:relatedTo :Line_150 ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:relatedTo :Motivation_CelebrateVictoryWithChorusDances .
+
+:Line_151 a :Line ; :lineNumber 151 ; :canonicalReference "151"^^xsd:string .
+:TV_Line_151_en a :TranslationVariant ;
+:text "Of the wars of recent past;"^^xsd:string ;
+:relatedTo :Line_151 ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:relatedTo :Motivation_CelebrateVictoryWithChorusDances .
+
+:Line_152 a :Line ; :lineNumber 152 ; :canonicalReference "152"^^xsd:string .
+:TV_Line_152_en a :TranslationVariant ;
+:text "Let’s make our way to the temples of the gods"^^xsd:string ;
+:relatedTo :Line_152 ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:relatedTo :Motivation_CelebrateVictoryWithChorusDances .
+
+:Line_153 a :Line ; :lineNumber 153 ; :canonicalReference "153"^^xsd:string .
+:TV_Line_153_en a :TranslationVariant ;
+:text "To dance all through the night;"^^xsd:string ;
+:relatedTo :Line_153 ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:relatedTo :Motivation_CelebrateVictoryWithChorusDances .
+
+:Line_154 a :Line ; :lineNumber 154 ; :canonicalReference "154"^^xsd:string .
+:TV_Line_154_en a :TranslationVariant ;
+:text "Let Bacchus lead the dance as he shakes the earth of Thebes!"^^xsd:string ;
+:relatedTo :Line_154 ;
+:referencesMyth :Myth_Bacchus ;
+:hasTheme :Theme_ThebanVictoryThanksgiving ;
+:relatedTo :Motivation_CelebrateVictoryWithChorusDances .
+
+:Line_155 a :Line ; :lineNumber 155 ; :canonicalReference "155"^^xsd:string .
+:TV_Line_155_en a :TranslationVariant ;
+:text "(DANCE INTERLUDE)"^^xsd:string ;
+:relatedTo :Line_155 ;
+:hasTheme :Theme_ThebanVictoryThanksgiving .
+
+:Line_156 a :Line ; :lineNumber 156 ; :canonicalReference "156"^^xsd:string .
+:TV_Line_156_en a :TranslationVariant ;
+:text "But, behold, the king of the land—"^^xsd:string ;
+:relatedTo :Line_156 ;
+:hasTheme :Theme_PoliticalTransitionToCreon .
+
+:Line_157 a :Line ; :lineNumber 157 ; :canonicalReference "157"^^xsd:string .
+:TV_Line_157_en a :TranslationVariant ;
+:text "Creon, son of Menoeceus, the new ruler"^^xsd:string ;
+:relatedTo :Line_157 ;
+:referencesMyth :Antigone_Character_Creon ;
+:hasTheme :Theme_PoliticalTransitionToCreon .
+
+:Line_158 a :Line ; :lineNumber 158 ; :canonicalReference "158"^^xsd:string .
+:TV_Line_158_en a :TranslationVariant ;
+:text "By the recent fortunes which the gods"^^xsd:string ;
+:relatedTo :Line_158 ;
+:hasTheme :Theme_PoliticalTransitionToCreon .
+
+:Line_159 a :Line ; :lineNumber 159 ; :canonicalReference "159"^^xsd:string .
+:TV_Line_159_en a :TranslationVariant ;
+:text "Have sent his way—he comes!"^^xsd:string ;
+:relatedTo :Line_159 ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :Motivation_CreonConveneEldersCouncil .
+
+:Line_160 a :Line ; :lineNumber 160 ; :canonicalReference "160"^^xsd:string .
+:TV_Line_160_en a :TranslationVariant ;
+:text "What new law does he so hastily intend,"^^xsd:string ;
+:relatedTo :Line_160 ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :Motivation_CreonConveneEldersCouncil .
+
+:Line_161 a :Line ; :lineNumber 161 ; :canonicalReference "161"^^xsd:string .
+:TV_Line_161_en a :TranslationVariant ;
+:text "Since he’s sent word that the elders"^^xsd:string ;
+:relatedTo :Line_161 ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :MoralDecision_SummonEldersByCommonProclamation .
+
+:Line_162 a :Line ; :lineNumber 162 ; :canonicalReference "162"^^xsd:string .
+:TV_Line_162_en a :TranslationVariant ;
+:text "Are to gather and discuss a special issue?"^^xsd:string ;
+:relatedTo :Line_162 ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :MoralDecision_SummonEldersByCommonProclamation .

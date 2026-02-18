@@ -4,91 +4,91 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 # Line 001
-:TV_Line_001_grc a :TranslationVariant ; :text "? κοιν?ν α?τάδελφον ?σμήνης κάρα,"^^xsd:string ; :relatedTo :Line_001 .
+:TV_Line_001_grc a :TranslationVariant ; :text "α½® ΞΊΞΏΞΉΞ½α½ΈΞ½ Ξ±α½Ο„Ξ¬Ξ΄ΞµΞ»Ο†ΞΏΞ½ αΌΈΟƒΞΌΞ®Ξ½Ξ·Ο‚ ΞΊΞ¬ΟΞ±,"^^xsd:string ; :relatedTo :Line_001 .
 :TV_Line_001_en a :TranslationVariant ; :text "Ismene, sweet Ismene, my dear sister!"^^xsd:string ; :relatedTo :Line_001 .
 
 # Line 002
-:TV_Line_002_grc a :TranslationVariant ; :text "?ρ ? ο?σθ ? ? τι Ζε?ς τ?ν ?π ? Ο?δίπου κακ?ν"^^xsd:string ; :relatedTo :Line_002 .
+:TV_Line_002_grc a :TranslationVariant ; :text "αΌ†Ο Μ“ ΞΏαΌ¶ΟƒΞΈ Μ“ α½… Ο„ΞΉ Ξ–Ξµα½ΊΟ‚ Ο„αΏ¶Ξ½ αΌ€Ο€ Μ“ ΞαΌ°Ξ΄Ξ―Ο€ΞΏΟ… ΞΊΞ±ΞΊαΏ¶Ξ½"^^xsd:string ; :relatedTo :Line_002 .
 :TV_Line_002_en a :TranslationVariant ; :text "Will Zeus, in our lifetime, spare us"^^xsd:string ; :relatedTo :Line_002 .
 
 # Line 003
-:TV_Line_003_grc a :TranslationVariant ; :text "?πο?ον ο?χ? ν?ν ?τι ζώσαιν τελε?;"^^xsd:string ; :relatedTo :Line_003 .
+:TV_Line_003_grc a :TranslationVariant ; :text "α½Ο€ΞΏαΏ–ΞΏΞ½ ΞΏα½Ο‡α½¶ Ξ½αΏ·Ξ½ αΌ”Ο„ΞΉ Ξ¶ΟΟƒΞ±ΞΉΞ½ Ο„ΞµΞ»ΞµαΏ–;"^^xsd:string ; :relatedTo :Line_003 .
 :TV_Line_003_en a :TranslationVariant ; :text "From the troubles of Oedipus?"^^xsd:string ; :relatedTo :Line_003 .
 
 # Line 004
-:TV_Line_004_grc a :TranslationVariant ; :text "Ο?δ?ν γ?ρ ο?τ ? ?λγειν?ν ο?τ ? ?της ?τερ"^^xsd:string ; :relatedTo :Line_004 .
+:TV_Line_004_grc a :TranslationVariant ; :text "Ξα½Ξ΄α½²Ξ½ Ξ³α½°Ο ΞΏα½”Ο„ Μ“ αΌ€Ξ»Ξ³ΞµΞΉΞ½α½ΈΞ½ ΞΏα½”Ο„ Μ“ αΌ„Ο„Ξ·Ο‚ αΌ„Ο„ΞµΟ"^^xsd:string ; :relatedTo :Line_004 .
 :TV_Line_004_en a :TranslationVariant ; :text "You and I have already"^^xsd:string ; :relatedTo :Line_004 .
 
 # Line 005
-:TV_Line_005_grc a :TranslationVariant ; :text "ο?τ ? α?σχρ?ν ο?τ ? ?τιμόν ?σθ ? ?πο?ον ο?"^^xsd:string ; :relatedTo :Line_005 .
+:TV_Line_005_grc a :TranslationVariant ; :text "ΞΏα½”Ο„ Μ“ Ξ±αΌ°ΟƒΟ‡Οα½ΈΞ½ ΞΏα½”Ο„ Μ“ αΌ„Ο„ΞΉΞΌΟΞ½ αΌΟƒΞΈ Μ“ α½Ο€ΞΏαΏ–ΞΏΞ½ ΞΏα½"^^xsd:string ; :relatedTo :Line_005 .
 :TV_Line_005_en a :TranslationVariant ; :text "Suffered every pain, every disaster,"^^xsd:string ; :relatedTo :Line_005 .
 
 
 # Line 006
-:TV_Line_006_grc a :TranslationVariant ; :text "τ?ν σ?ν τε κ?μ?ν ο?κ ?πωπ ? ?γ? κακ?ν."^^xsd:string ; :relatedTo :Line_006 .
+:TV_Line_006_grc a :TranslationVariant ; :text "Ο„αΏ¶Ξ½ ΟƒαΏ¶Ξ½ Ο„Ξµ ΞΊαΌ€ΞΌαΏ¶Ξ½ ΞΏα½ΞΊ α½„Ο€Ο‰Ο€ Μ“ αΌΞ³α½Ό ΞΊΞ±ΞΊαΏ¶Ξ½."^^xsd:string ; :relatedTo :Line_006 .
 :TV_Line_006_en a :TranslationVariant ; :text "Every shame, every dishonor in our own troubles."^^xsd:string ; :relatedTo :Line_006 .
 
 
 # Line 007
-:TV_Line_007_grc a :TranslationVariant ; :text "Kα? ν?ν τί το?τ ? α? φασι πανδήμ? πόλει"^^xsd:string ; :relatedTo :Line_007 .
-:TV_Line_007_en a :TranslationVariant ; :text "Now?whatΆs this new decree"^^xsd:string ; :relatedTo :Line_007 .
+:TV_Line_007_grc a :TranslationVariant ; :text "KΞ±? Ξ½?Ξ½ Ο„Ξ― Ο„ΞΏ?Ο„ ? Ξ±? Ο†Ξ±ΟƒΞΉ Ο€Ξ±Ξ½Ξ΄Ξ®ΞΌ? Ο€ΟΞ»ΞµΞΉ"^^xsd:string ; :relatedTo :Line_007 .
+:TV_Line_007_en a :TranslationVariant ; :text "Now?whatΞ†s this new decree"^^xsd:string ; :relatedTo :Line_007 .
 
 
 # Line 008
-:TV_Line_008_grc a :TranslationVariant ; :text "κήρυγμα θε?ναι τ?ν στρατηγ?ν ?ρτίως;"^^xsd:string ; :relatedTo :Line_008 .
+:TV_Line_008_grc a :TranslationVariant ; :text "ΞΊΞ®ΟΟ…Ξ³ΞΌΞ± ΞΈΞµ?Ξ½Ξ±ΞΉ Ο„?Ξ½ ΟƒΟ„ΟΞ±Ο„Ξ·Ξ³?Ξ½ ?ΟΟ„Ξ―Ο‰Ο‚;"^^xsd:string ; :relatedTo :Line_008 .
 :TV_Line_008_en a :TranslationVariant ; :text "They say the general has imposed"^^xsd:string ; :relatedTo :Line_008 .
 
 
 # Line 009
-:TV_Line_009_grc a :TranslationVariant ; :text "?χεις τι κε?σήκουσας; ? σε λανθάνει"^^xsd:string ; :relatedTo :Line_009 .
+:TV_Line_009_grc a :TranslationVariant ; :text "?Ο‡ΞµΞΉΟ‚ Ο„ΞΉ ΞΊΞµ?ΟƒΞ®ΞΊΞΏΟ…ΟƒΞ±Ο‚; ? ΟƒΞµ Ξ»Ξ±Ξ½ΞΈΞ¬Ξ½ΞµΞΉ"^^xsd:string ; :relatedTo :Line_009 .
 :TV_Line_009_en a :TranslationVariant ; :text "Upon the city? Have you heard word of our brothers,"^^xsd:string ; :relatedTo :Line_009 .
 
 
 # Line 010
-:TV_Line_010_grc a :TranslationVariant ; :text "πρ?ς το?ς φίλους στείχοντα τ?ν ?χθρ?ν κακά;"^^xsd:string ; :relatedTo :Line_010 .
+:TV_Line_010_grc a :TranslationVariant ; :text "Ο€Ο?Ο‚ Ο„ΞΏ?Ο‚ Ο†Ξ―Ξ»ΞΏΟ…Ο‚ ΟƒΟ„ΞµΞ―Ο‡ΞΏΞ½Ο„Ξ± Ο„?Ξ½ ?Ο‡ΞΈΟ?Ξ½ ΞΊΞ±ΞΊΞ¬;"^^xsd:string ; :relatedTo :Line_010 .
 :TV_Line_010_en a :TranslationVariant ; :text "Or do the crimes of our enemies fall on deaf ears?"^^xsd:string ; :relatedTo :Line_010 .
 
 
 # Line 011
-:TV_Line_011_grc a :TranslationVariant ; :text "?μο? μ?ν ο?δε?ς μ?θος, ?ντιγόνη, φίλων"^^xsd:string ; :relatedTo :Line_011 .
-:TV_Line_011_en a :TranslationVariant ; :text "IΆve heard nothing new, Antigone, of our brothers,"^^xsd:string ; :relatedTo :Line_011 .
+:TV_Line_011_grc a :TranslationVariant ; :text "?ΞΌΞΏ? ΞΌ?Ξ½ ΞΏ?Ξ΄Ξµ?Ο‚ ΞΌ?ΞΈΞΏΟ‚, ?Ξ½Ο„ΞΉΞ³ΟΞ½Ξ·, Ο†Ξ―Ξ»Ο‰Ξ½"^^xsd:string ; :relatedTo :Line_011 .
+:TV_Line_011_en a :TranslationVariant ; :text "IΞ†ve heard nothing new, Antigone, of our brothers,"^^xsd:string ; :relatedTo :Line_011 .
 
 
 # Line 012
-:TV_Line_012_grc a :TranslationVariant ; :text "ο?θ ? ?δ?ς ο?τ ? ?λγειν?ς ?κετ ?, ?ξ ?του"^^xsd:string ; :relatedTo :Line_012 .
+:TV_Line_012_grc a :TranslationVariant ; :text "ΞΏ?ΞΈ ? ?Ξ΄?Ο‚ ΞΏ?Ο„ ? ?Ξ»Ξ³ΞµΞΉΞ½?Ο‚ ?ΞΊΞµΟ„ ?, ?ΞΎ ?Ο„ΞΏΟ…"^^xsd:string ; :relatedTo :Line_012 .
 :TV_Line_012_en a :TranslationVariant ; :text "Good or bad. No one has come"^^xsd:string ; :relatedTo :Line_012 .
 
 
 # Line 013
-:TV_Line_013_grc a :TranslationVariant ; :text "δυο?ν ?δελφο?ν ?στερήθημεν δύο"^^xsd:string ; :relatedTo :Line_013 .
+:TV_Line_013_grc a :TranslationVariant ; :text "Ξ΄Ο…ΞΏ?Ξ½ ?Ξ΄ΞµΞ»Ο†ΞΏ?Ξ½ ?ΟƒΟ„ΞµΟΞ®ΞΈΞ·ΞΌΞµΞ½ Ξ΄ΟΞΏ"^^xsd:string ; :relatedTo :Line_013 .
 :TV_Line_013_en a :TranslationVariant ; :text "Since we two sisters lost our two brothers,"^^xsd:string ; :relatedTo :Line_013 .
 
 
 # Line 014
-:TV_Line_014_grc a :TranslationVariant ; :text "μι? θανόντοιν ?μέρ? διπλ? χερί·"^^xsd:string ; :relatedTo :Line_014 .
-:TV_Line_014_en a :TranslationVariant ; :text "Dead on a single day, each by the otherΆs hand."^^xsd:string ; :relatedTo :Line_014 .
+:TV_Line_014_grc a :TranslationVariant ; :text "ΞΌΞΉ? ΞΈΞ±Ξ½ΟΞ½Ο„ΞΏΞΉΞ½ ?ΞΌΞ­Ο? Ξ΄ΞΉΟ€Ξ»? Ο‡ΞµΟΞ―Β·"^^xsd:string ; :relatedTo :Line_014 .
+:TV_Line_014_en a :TranslationVariant ; :text "Dead on a single day, each by the otherΞ†s hand."^^xsd:string ; :relatedTo :Line_014 .
 
 
 # Line 015
-:TV_Line_015_grc a :TranslationVariant ; :text "?πε? δ? φρο?δός ?στιν ?ργείων στρατ?ς"^^xsd:string ; :relatedTo :Line_015 .
+:TV_Line_015_grc a :TranslationVariant ; :text "?Ο€Ξµ? Ξ΄? Ο†ΟΞΏ?Ξ΄ΟΟ‚ ?ΟƒΟ„ΞΉΞ½ ?ΟΞ³ΞµΞ―Ο‰Ξ½ ΟƒΟ„ΟΞ±Ο„?Ο‚"^^xsd:string ; :relatedTo :Line_015 .
 :TV_Line_015_en a :TranslationVariant ; :text "The Argive army disappeared in the night?"^^xsd:string ; :relatedTo :Line_015 .
 
 
 # Line 016
-:TV_Line_016_grc a :TranslationVariant ; :text "?ν νυκτ? τ? ν?ν, ο?δ?ν ο?δ ? ?πέρτερον,"^^xsd:string ; :relatedTo :Line_016 .
+:TV_Line_016_grc a :TranslationVariant ; :text "?Ξ½ Ξ½Ο…ΞΊΟ„? Ο„? Ξ½?Ξ½, ΞΏ?Ξ΄?Ξ½ ΞΏ?Ξ΄ ? ?Ο€Ξ­ΟΟ„ΞµΟΞΏΞ½,"^^xsd:string ; :relatedTo :Line_016 .
 :TV_Line_016_en a :TranslationVariant ; :text "I know nothing more"^^xsd:string ; :relatedTo :Line_016 .
 
 
 # Line 017
-:TV_Line_017_grc a :TranslationVariant ; :text "ο?τ ? ε?τυχο?σα μ?λλον ο?τ ? ?τωμένη."^^xsd:string ; :relatedTo :Line_017 .
+:TV_Line_017_grc a :TranslationVariant ; :text "ΞΏ?Ο„ ? Ξµ?Ο„Ο…Ο‡ΞΏ?ΟƒΞ± ΞΌ?Ξ»Ξ»ΞΏΞ½ ΞΏ?Ο„ ? ?Ο„Ο‰ΞΌΞ­Ξ½Ξ·."^^xsd:string ; :relatedTo :Line_017 .
 :TV_Line_017_en a :TranslationVariant ; :text "Of what is to come of me."^^xsd:string ; :relatedTo :Line_017 .
 
 
 # Line 018
-:TV_Line_018_grc a :TranslationVariant ; :text "?ιδη καλ?ς, καί σ ? ?κτ?ς α?λείων πυλ?ν"^^xsd:string ; :relatedTo :Line_018 .
-:TV_Line_018_en a :TranslationVariant ; :text "ThatΆs why I called you here with me,"^^xsd:string ; :relatedTo :Line_018 .
+:TV_Line_018_grc a :TranslationVariant ; :text "?ΞΉΞ΄Ξ· ΞΊΞ±Ξ»?Ο‚, ΞΊΞ±Ξ― Οƒ ? ?ΞΊΟ„?Ο‚ Ξ±?Ξ»ΞµΞ―Ο‰Ξ½ Ο€Ο…Ξ»?Ξ½"^^xsd:string ; :relatedTo :Line_018 .
+:TV_Line_018_en a :TranslationVariant ; :text "ThatΞ†s why I called you here with me,"^^xsd:string ; :relatedTo :Line_018 .
 
 
 # Line 019
-:TV_Line_019_grc a :TranslationVariant ; :text "το?δ ? ο?νεκ ? ?ξέπεμπον, ?ς μόνη κλύοις."^^xsd:string ; :relatedTo :Line_019 .
+:TV_Line_019_grc a :TranslationVariant ; :text "Ο„ΞΏ?Ξ΄ ? ΞΏ?Ξ½ΞµΞΊ ? ?ΞΎΞ­Ο€ΞµΞΌΟ€ΞΏΞ½, ?Ο‚ ΞΌΟΞ½Ξ· ΞΊΞ»ΟΞΏΞΉΟ‚."^^xsd:string ; :relatedTo :Line_019 .
 :TV_Line_019_en a :TranslationVariant ; :text "Outside the gates, so only you would hear."^^xsd:string ; :relatedTo :Line_019 .

@@ -1,0 +1,177 @@
+```turtle
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_Dialogue_1
+a :Scene ;
+:sceneNumber "1"^^xsd:string ;
+:hasSpeech :Speech_Antigone_1_10, :Speech_Ismene_11_17, :Speech_Antigone_18_19 ;
+:developsTheme :Theme_FamilySuffering, :Theme_FateOfOedipusLine, :Theme_PoliticalDecreeThreat, :Theme_EnemiesPursuit .
+
+:Antigone_Character_Antigone
+a :Character ;
+:hasMotivation :Motivation_SeekIsmeneTruth, :Motivation_CommunicatePrivately ;
+:experiencesEmotion :Emotion_Anguish, :Emotion_AnxietyForDecree ;
+:relatedTo :Myth_Zeus, :Myth_OedipusTroubles .
+
+:Antigone_Character_Ismene
+a :Character ;
+:experiencesEmotion :Emotion_Uncertainty, :Emotion_Resignation .
+
+:Speech_Antigone_1_10
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_001, :Line_002, :Line_003, :Line_004, :Line_005, :Line_006, :Line_007, :Line_008, :Line_009, :Line_010 ;
+:referencesMyth :Myth_Zeus, :Myth_OedipusTroubles ;
+:developsTheme :Theme_FamilySuffering, :Theme_FateOfOedipusLine, :Theme_PoliticalDecreeThreat, :Theme_EnemiesPursuit .
+
+:Speech_Ismene_11_17
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_011, :Line_012, :Line_013, :Line_014, :Line_015, :Line_016, :Line_017 ;
+:developsTheme :Theme_SiblingLoss, :Theme_UncertainFuture, :Theme_EnemiesPursuit .
+
+:Speech_Antigone_18_19
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_018, :Line_019 ;
+:developsTheme :Theme_SecrecyAndTrust .
+
+:Motivation_SeekIsmeneTruth
+a :Motivation ;
+:description "Η Αντιγόνη ζητά από την Ισμήνη ειλικρινή γνώση για την καινούρια διαταγή και την συνεχιζόμενη καταδίωξη από εχθρούς."^^xsd:string .
+
+:Motivation_CommunicatePrivately
+a :Motivation ;
+:description "Η Αντιγόνη θέλει να μιλήσουν μόνες, έξω από το προαύλιο, για να ακουστεί μόνο από την Ισμήνη."^^xsd:string .
+
+:Emotion_Anguish
+a :Emotion ;
+:description "Οδύνη για την κληρονομημένη δυστυχία του Οιδίποδα και για τα βιωμένα πάθη, αίσχος και ατιμία."^^xsd:string .
+
+:Emotion_AnxietyForDecree
+a :Emotion ;
+:description "Ανησυχία για την καινούρια διαταγή του στρατηγού που κυκλοφορεί στην πόλη."^^xsd:string .
+
+:Emotion_Uncertainty
+a :Emotion ;
+:description "Η Ισμήνη δηλώνει ότι δεν άκουσε και δεν ξέρει πραγματικά τι θα ακολουθήσει."^^xsd:string .
+
+:Emotion_Resignation
+a :Emotion ;
+:description "Παραίτηση/αποδοχή της άγνοιας και της αδυναμίας να προβλέψει αν τα πράγματα θα γίνουν χειρότερα ή καλύτερα."^^xsd:string .
+
+:Theme_FamilySuffering
+a :Theme ;
+:description "Η συνεχής ταπείνωση και ο πόνος που πληρώνουν οι αδελφές λόγω της μοίρας του οίκου του Οιδίποδα."^^xsd:string .
+
+:Theme_FateOfOedipusLine
+a :Theme ;
+:description "Η αμαρτία/κατάρα του Οιδίποδα ως κληρονομημένο χρέος που ζητεί να πληρωθεί."^^xsd:string .
+
+:Theme_PoliticalDecreeThreat
+a :Theme ;
+:description "Μια νέα δημόσια διαταγή του στρατηγού εμφανίζεται ως απειλητικός παράγοντας για τον οίκο."^^xsd:string .
+
+:Theme_EnemiesPursuit
+a :Theme ;
+:description "Η αίσθηση ότι οι εχθροί εξακολουθούν να κυνηγούν τις αδελφές, ακόμη και μετά την αποχώρηση των Αργείων."^^xsd:string .
+
+:Theme_SiblingLoss
+a :Theme ;
+:description "Η απώλεια των αδελφών: ο ένας στέρησε τον άλλον σαν εχθρός."^^xsd:string .
+
+:Theme_UncertainFuture
+a :Theme ;
+:description "Αβεβαιότητα για το τι μέλλει γενέσθαι, ανάμεσα σε εχθρούς."^^xsd:string .
+
+:Theme_SecrecyAndTrust
+a :Theme ;
+:description "Η ανάγκη για ιδιωτικότητα και εμπιστοσύνη ανάμεσα στις αδελφές."^^xsd:string .
+
+:Conflict_FateDebtVsLiving
+a :Conflict ;
+:description "Η ιδέα ότι η αμαρτία του Οιδίποδα απαιτεί πληρωμή ακόμη και απ’ όσους απλώς ζουν."^^xsd:string ;
+:conflictBetween :Theme_FateOfOedipusLine, :Theme_UncertainFuture .
+
+:Antigone_Scene_Dialogue_1
+:hasConflict :Conflict_FateDebtVsLiving .
+
+:Myth_Zeus
+a :MythologicalBackground ;
+:description "Επίκληση στον Δία ως θεϊκή δύναμη που ζητεί πληρωμή/δικαίωση και μπορεί (ή όχι) να λυπηθεί."^^xsd:string .
+
+:Myth_OedipusTroubles
+a :MythologicalBackground ;
+:description "Η αμαρτία και τα δεινά του Οιδίποδα ως πηγή της δυστυχίας των παιδιών του."^^xsd:string .
+
+:Event_BrothersMutualDeprivation
+a owl:Thing ;
+:description "Τα αδέλφια στέρησαν ο ένας τον άλλον, σαν εχθροί."^^xsd:string .
+
+:Consequence_SistersLeftAmongEnemies
+a owl:Thing ;
+:description "Οι αδελφές μένουν ανάμεσα σε εχθρούς, χωρίς στήριγμα."^^xsd:string .
+
+:Event_BrothersMutualDeprivation
+:relatedTo :Consequence_SistersLeftAmongEnemies .
+
+:Line_001 a :Line ; :lineNumber 1 ; :canonicalReference "1"^^xsd:string .
+:TV_Line_001_el a :TranslationVariant ; :text "Έλα καλή μου Ισμήνη. Έλα, και πες μου ειλικρινά,"^^xsd:string ; :relatedTo :Line_001 .
+
+:Line_002 a :Line ; :lineNumber 2 ; :canonicalReference "2"^^xsd:string .
+:TV_Line_002_el a :TranslationVariant ; :text "σαν αδελφή προς αδελφή, αν ξέρεις αμαρτία"^^xsd:string ; :relatedTo :Line_002 .
+
+:Line_003 a :Line ; :lineNumber 3 ; :canonicalReference "3"^^xsd:string .
+:TV_Line_003_el a :TranslationVariant ; :text "του Οιδίποδα που ο Δίας να μην ζήτησε να πληρωθεί από μας -"^^xsd:string ; :relatedTo :Line_003 .
+
+:Line_004 a :Line ; :lineNumber 4 ; :canonicalReference "4"^^xsd:string .
+:TV_Line_004_el a :TranslationVariant ; :text "μόνο και μόνο επειδή ατυχήσαμε να ζούμε."^^xsd:string ; :relatedTo :Line_004 .
+
+:Line_005 a :Line ; :lineNumber 5 ; :canonicalReference "5"^^xsd:string .
+:TV_Line_005_el a :TranslationVariant ; :text "Γιατί, εγώ τουλάχιστον, δεν βλέπω πόνο, συντριβή,"^^xsd:string ; :relatedTo :Line_005 .
+
+:Line_006 a :Line ; :lineNumber 6 ; :canonicalReference "6"^^xsd:string .
+:TV_Line_006_el a :TranslationVariant ; :text "αίσχος και ατιμία, που να μην καταβάλαμε."^^xsd:string ; :relatedTo :Line_006 .
+
+:Line_007 a :Line ; :lineNumber 7 ; :canonicalReference "7"^^xsd:string .
+:TV_Line_007_el a :TranslationVariant ; :text "Σήμερα πάλι, κυκλοφορεί αδέσποτη στην πόλη"^^xsd:string ; :relatedTo :Line_007 .
+
+:Line_008 a :Line ; :lineNumber 8 ; :canonicalReference "8"^^xsd:string .
+:TV_Line_008_el a :TranslationVariant ; :text "καινούρια διαταγή του στρατηγού."^^xsd:string ; :relatedTo :Line_008 .
+
+:Line_009 a :Line ; :lineNumber 9 ; :canonicalReference "9"^^xsd:string .
+:TV_Line_009_el a :TranslationVariant ; :text "Άκουσες τίποτα ή νομίζεις πως οι εχθροί μας"^^xsd:string ; :relatedTo :Line_009 .
+
+:Line_010 a :Line ; :lineNumber 10 ; :canonicalReference "10"^^xsd:string .
+:TV_Line_010_el a :TranslationVariant ; :text "έπαψαν να μας κυνηγούν;"^^xsd:string ; :relatedTo :Line_010 .
+
+:Line_011 a :Line ; :lineNumber 11 ; :canonicalReference "11"^^xsd:string .
+:TV_Line_011_el a :TranslationVariant ; :text "Όχι, Αντιγόνη. Δεν άκουσα, μα ούτε περνά απ’ τον νου μου"^^xsd:string ; :relatedTo :Line_011 .
+
+:Line_012 a :Line ; :lineNumber 12 ; :canonicalReference "12"^^xsd:string .
+:TV_Line_012_el a :TranslationVariant ; :text "τι περισσότερο μπορούν να μας κάνουν οι εχθροί μας·"^^xsd:string ; :relatedTo :Line_012 .
+
+:Line_013 a :Line ; :lineNumber 13 ; :canonicalReference "13"^^xsd:string .
+:TV_Line_013_el a :TranslationVariant ; :text "αφού τα αδέλφια μας, οι μόνοι που μας είχαν απομείνει,"^^xsd:string ; :relatedTo :Line_013 .
+
+:Line_014 a :Line ; :lineNumber 14 ; :canonicalReference "14"^^xsd:string .
+:TV_Line_014_el a :TranslationVariant ; :text "φρόντισαν να μας στερήσουν ο ένας τον άλλον σαν εχθροί"^^xsd:string ; :relatedTo :Line_014 .
+
+:Line_015 a :Line ; :lineNumber 15 ; :canonicalReference "15"^^xsd:string .
+:TV_Line_015_el a :TranslationVariant ; :text "και οι εχθροί Αργείοι έφυγαν και μας άφησαν"^^xsd:string ; :relatedTo :Line_015 .
+
+:Line_016 a :Line ; :lineNumber 16 ; :canonicalReference "16"^^xsd:string .
+:TV_Line_016_el a :TranslationVariant ; :text "ανάμεσα σ’ εχθρούς... χειρότερα ή καλύτερα,"^^xsd:string ; :relatedTo :Line_016 .
+
+:Line_017 a :Line ; :lineNumber 17 ; :canonicalReference "17"^^xsd:string .
+:TV_Line_017_el a :TranslationVariant ; :text "πραγματικά δεν ξέρω."^^xsd:string ; :relatedTo :Line_017 .
+
+:Line_018 a :Line ; :lineNumber 18 ; :canonicalReference "18"^^xsd:string .
+:TV_Line_018_el a :TranslationVariant ; :text "Το φαντάστηκα. Γι’ αυτό θέλησα να βρεθούμε"^^xsd:string ; :relatedTo :Line_018 .
+
+:Line_019 a :Line ; :lineNumber 19 ; :canonicalReference "19"^^xsd:string .
+:TV_Line_019_el a :TranslationVariant ; :text "μόνες εδώ, έξω από το προαύλιο."^^xsd:string ; :relatedTo :Line_019 .
+```

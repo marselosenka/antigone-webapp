@@ -1,0 +1,160 @@
+
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_Dialogue_1
+a :Scene ;
+:sceneNumber "1"^^xsd:string ;
+:hasSpeech :Speech_Antigone_1_10, :Speech_Ismene_11_17, :Speech_Antigone_18_19 ;
+:developsTheme :Theme_FamilySuffering, :Theme_FateOfOedipusLine, :Theme_PoliticalDecreeThreat .
+
+:Antigone_Character_Antigone
+a :Character ;
+:hasMotivation :Motivation_SeekIsmeneCounsel, :Motivation_CommunicateDecreePrivately ;
+:experiencesEmotion :Emotion_AnxietyForFamily, :Emotion_DreadOfNewDecree .
+
+:Antigone_Character_Ismene
+a :Character ;
+:experiencesEmotion :Emotion_Uncertainty, :Emotion_Resignation .
+
+:Speech_Antigone_1_10
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_001, :Line_002, :Line_003, :Line_004, :Line_005, :Line_006, :Line_007, :Line_008, :Line_009, :Line_010 ;
+:referencesMyth :Myth_Zeus, :Myth_OedipusTroubles ;
+:developsTheme :Theme_FamilySuffering, :Theme_FateOfOedipusLine, :Theme_PoliticalDecreeThreat .
+
+:Speech_Ismene_11_17
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_011, :Line_012, :Line_013, :Line_014, :Line_015, :Line_016, :Line_017 ;
+:developsTheme :Theme_SiblingLoss, :Theme_UncertainFuture .
+
+:Speech_Antigone_18_19
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_018, :Line_019 ;
+:developsTheme :Theme_SecrecyAndTrust .
+
+:Motivation_SeekIsmeneCounsel
+a :Motivation ;
+:description "Antigone calls to Ismene to learn what decree has been imposed and what has happened regarding their brothers."^^xsd:string .
+
+:Motivation_CommunicateDecreePrivately
+a :Motivation ;
+:description "Antigone brings Ismene outside the gates so that only she will hear what Antigone intends to discuss."^^xsd:string .
+
+:Emotion_AnxietyForFamily
+a :Emotion ;
+:description "Concern over enduring pain, disaster, shame, and dishonor connected to their family’s troubles."^^xsd:string .
+
+:Emotion_DreadOfNewDecree
+a :Emotion ;
+:description "Apprehension about a new decree imposed upon the city and its consequences for their family."^^xsd:string .
+
+:Emotion_Uncertainty
+a :Emotion ;
+:description "Ismene expresses uncertainty about new events and what will happen to her."^^xsd:string .
+
+:Emotion_Resignation
+a :Emotion ;
+:description "Ismene reports having no further knowledge and offers a subdued acceptance of not knowing what is to come."^^xsd:string .
+
+:Theme_FamilySuffering
+a :Theme ;
+:description "The sisters’ ongoing suffering and dishonor arising from their family’s calamities."^^xsd:string .
+
+:Theme_FateOfOedipusLine
+a :Theme ;
+:description "The inherited troubles of Oedipus shaping the present lives of his children."^^xsd:string .
+
+:Theme_PoliticalDecreeThreat
+a :Theme ;
+:description "A public decree imposed on the city emerges as a looming force affecting the family."^^xsd:string .
+
+:Theme_SiblingLoss
+a :Theme ;
+:description "The recent death of both brothers on the same day, each killing the other."^^xsd:string .
+
+:Theme_UncertainFuture
+a :Theme ;
+:description "Uncertainty about what will come next after war and familial loss."^^xsd:string .
+
+:Theme_SecrecyAndTrust
+a :Theme ;
+:description "Antigone restricts knowledge to Ismene by speaking outside the gates in private."^^xsd:string .
+
+:Conflict_DecreeVsHouseTroubles
+a :Conflict ;
+:description "Antigone frames a new civic decree as adding to the continuing troubles and dishonor of Oedipus’ house."^^xsd:string ;
+:conflictBetween :Theme_PoliticalDecreeThreat, :Theme_FateOfOedipusLine .
+
+:Antigone_Scene_Dialogue_1
+:hasConflict :Conflict_DecreeVsHouseTroubles .
+
+:Myth_Zeus
+a :MythologicalBackground ;
+:description "Reference to Zeus as a divine power who might spare the sisters further suffering."^^xsd:string .
+
+:Myth_OedipusTroubles
+a :MythologicalBackground ;
+:description "Reference to the troubles of Oedipus as the source of continuing pain and dishonor for his children."^^xsd:string .
+
+:Line_001 a :Line ; :lineNumber 1 ; :canonicalReference "1"^^xsd:string .
+:TV_Line_001_en a :TranslationVariant ; :text "Ismene, sweet Ismene, my dear sister!"^^xsd:string ; :relatedTo :Line_001 .
+
+:Line_002 a :Line ; :lineNumber 2 ; :canonicalReference "2"^^xsd:string .
+:TV_Line_002_en a :TranslationVariant ; :text "Will Zeus, in our lifetime, spare us"^^xsd:string ; :relatedTo :Line_002 .
+
+:Line_003 a :Line ; :lineNumber 3 ; :canonicalReference "3"^^xsd:string .
+:TV_Line_003_en a :TranslationVariant ; :text "From the troubles of Oedipus?"^^xsd:string ; :relatedTo :Line_003 .
+
+:Line_004 a :Line ; :lineNumber 4 ; :canonicalReference "4"^^xsd:string .
+:TV_Line_004_en a :TranslationVariant ; :text "You and I have already"^^xsd:string ; :relatedTo :Line_004 .
+
+:Line_005 a :Line ; :lineNumber 5 ; :canonicalReference "5"^^xsd:string .
+:TV_Line_005_en a :TranslationVariant ; :text "Suffered every pain, every disaster,"^^xsd:string ; :relatedTo :Line_005 .
+
+:Line_006 a :Line ; :lineNumber 6 ; :canonicalReference "6"^^xsd:string .
+:TV_Line_006_en a :TranslationVariant ; :text "Every shame, every dishonor in our own troubles."^^xsd:string ; :relatedTo :Line_006 .
+
+:Line_007 a :Line ; :lineNumber 7 ; :canonicalReference "7"^^xsd:string .
+:TV_Line_007_en a :TranslationVariant ; :text "Now—what’s this new decree"^^xsd:string ; :relatedTo :Line_007 .
+
+:Line_008 a :Line ; :lineNumber 8 ; :canonicalReference "8"^^xsd:string .
+:TV_Line_008_en a :TranslationVariant ; :text "They say the general has imposed"^^xsd:string ; :relatedTo :Line_008 .
+
+:Line_009 a :Line ; :lineNumber 9 ; :canonicalReference "9"^^xsd:string .
+:TV_Line_009_en a :TranslationVariant ; :text "Upon the city? Have you heard word of our brothers,"^^xsd:string ; :relatedTo :Line_009 .
+
+:Line_010 a :Line ; :lineNumber 10 ; :canonicalReference "10"^^xsd:string .
+:TV_Line_010_en a :TranslationVariant ; :text "Or do the crimes of our enemies fall on deaf ears?"^^xsd:string ; :relatedTo :Line_010 .
+
+:Line_011 a :Line ; :lineNumber 11 ; :canonicalReference "11"^^xsd:string .
+:TV_Line_011_en a :TranslationVariant ; :text "I’ve heard nothing new, Antigone, of our brothers,"^^xsd:string ; :relatedTo :Line_011 .
+
+:Line_012 a :Line ; :lineNumber 12 ; :canonicalReference "12"^^xsd:string .
+:TV_Line_012_en a :TranslationVariant ; :text "Good or bad. No one has come"^^xsd:string ; :relatedTo :Line_012 .
+
+:Line_013 a :Line ; :lineNumber 13 ; :canonicalReference "13"^^xsd:string .
+:TV_Line_013_en a :TranslationVariant ; :text "Since we two sisters lost our two brothers,"^^xsd:string ; :relatedTo :Line_013 .
+
+:Line_014 a :Line ; :lineNumber 14 ; :canonicalReference "14"^^xsd:string .
+:TV_Line_014_en a :TranslationVariant ; :text "Dead on a single day, each by the other’s hand."^^xsd:string ; :relatedTo :Line_014 .
+
+:Line_015 a :Line ; :lineNumber 15 ; :canonicalReference "15"^^xsd:string .
+:TV_Line_015_en a :TranslationVariant ; :text "The Argive army disappeared in the night—"^^xsd:string ; :relatedTo :Line_015 .
+
+:Line_016 a :Line ; :lineNumber 16 ; :canonicalReference "16"^^xsd:string .
+:TV_Line_016_en a :TranslationVariant ; :text "I know nothing more"^^xsd:string ; :relatedTo :Line_016 .
+
+:Line_017 a :Line ; :lineNumber 17 ; :canonicalReference "17"^^xsd:string .
+:TV_Line_017_en a :TranslationVariant ; :text "Of what is to come of me."^^xsd:string ; :relatedTo :Line_017 .
+
+:Line_018 a :Line ; :lineNumber 18 ; :canonicalReference "18"^^xsd:string .
+:TV_Line_018_en a :TranslationVariant ; :text "That’s why I called you here with me,"^^xsd:string ; :relatedTo :Line_018 .
+
+:Line_019 a :Line ; :lineNumber 19 ; :canonicalReference "19"^^xsd:string .
+:TV_Line_019_en a :TranslationVariant ; :text "Outside the gates, so only you would hear."^^xsd:string ; :relatedTo :Line_019 .

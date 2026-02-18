@@ -1,0 +1,200 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+################################################################
+# SCENE AND SPEECH STRUCTURE
+################################################################
+
+:Antigone_Scene_Parodos_StropheA_115_140_GR
+a :Scene ;
+:sceneNumber "Parodos (Strophe/Antistrophe) 115-140"^^xsd:string ;
+:hasSpeech :Speech_Chorus_Parodos_115_140_GR ;
+:developsTheme :Theme_InvasionThreat, :Theme_DivineIntervention, :Theme_WarViolence, :Theme_ZeusSupremacy, :Theme_ThebesDefense ;
+:hasConflict :Conflict_HubrisVsDivineOrder .
+
+:Speech_Chorus_Parodos_115_140_GR
+a :Speech ;
+:speechBy :Antigone_Character_Chorus ;
+:containsLine :Line_115, :Line_116, :Line_117, :Line_118, :Line_119, :Line_120, :Line_121, :Line_122, :Line_123, :Line_124,
+              :Line_125, :Line_126, :Line_127, :Line_128, :Line_129, :Line_130, :Line_131, :Line_132, :Line_133, :Line_134,
+              :Line_135, :Line_136, :Line_137, :Line_138, :Line_139, :Line_140 ;
+:partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR ;
+:referencesMyth :Myth_ArgiveEagleAssault, :Myth_SevenGates, :Myth_HephaestusFire, :Myth_AresWarClash, :Myth_DragonDefender, :Myth_ZeusLightningStrike ;
+:hasSymbol :Symbol_EagleInvader, :Symbol_FireBrand, :Symbol_SevenSpears .
+
+:Antigone_Character_Chorus a :Character .
+
+################################################################
+# THEMES, EMOTIONS, MOTIVATIONS, PRINCIPLES, CONFLICTS, MYTHS, SYMBOLS
+################################################################
+
+:Theme_InvasionThreat
+a :Theme ;
+:description "Η εχθρική εισβολή παρουσιάζεται ως αρπακτικό που κυκλώνει τα σπίτια και απειλεί τις πύλες της Θήβας."^^xsd:string .
+
+:Theme_ThebesDefense
+a :Theme ;
+:description "Η Θήβα (επτάπυλη) αντιστέκεται πριν ο εχθρός χορτάσει αίμα και στεφανώσει τους πύργους της με πυρ."^^xsd:string .
+
+:Theme_WarViolence
+a :Theme ;
+:description "Ο πόλεμος αποδίδεται ως πάταγος και ορμή, με αιχμές, όπλα και ολέθριο στροβιλισμό δυνάμεων."^^xsd:string .
+
+:Theme_DivineIntervention
+a :Theme ;
+:description "Η θεϊκή επέμβαση ανακόπτει τον εισβολέα τη στιγμή που πάει να αλαλάξει τη νίκη."^^xsd:string .
+
+:Theme_ZeusSupremacy
+a :Theme ;
+:description "Ο Δίας αποστρέφεται την αλαζονεία και συντρίβει τους υπερόπτες με πυρ."^^xsd:string .
+
+:Conflict_HubrisVsDivineOrder
+a :Conflict ;
+:description "Η αλαζονεία της μεγάλης γλώσσας και η επιδεικτική ορμή της νίκης συγκρούονται με τη θεϊκή τάξη που επιβάλλει ο Δίας."^^xsd:string ;
+:conflictBetween :Theme_ZeusSupremacy, :Theme_InvasionThreat .
+
+:Myth_ArgiveEagleAssault
+a :MythologicalBackground ;
+:description "Ο εχθρός παρομοιάζεται με αετό που υπερίπταται με λευκή πτέρυγα και πολλά όπλα, έτοιμος να αρπάξει τη Θήβα."^^xsd:string .
+
+:Myth_SevenGates
+a :MythologicalBackground ;
+:description "Αναφορά στο 'ἑπτάπυλον στόμα' της Θήβας και στις λόγχες που το κυκλώνουν."^^xsd:string .
+
+:Myth_HephaestusFire
+a :MythologicalBackground ;
+:description "Ηφαιστείος πυρ (πευκάενθ Ἥφαιστον) ως απειλή εμπρησμού/στεφάνωσης των πύργων."^^xsd:string .
+
+:Myth_AresWarClash
+a :MythologicalBackground ;
+:description "Ο πάταγος του Άρεως τεντώνεται γύρω από τις ράχες, με τον Άρη να στροβιλίζει τη σύγκρουση."^^xsd:string .
+
+:Myth_DragonDefender
+a :MythologicalBackground ;
+:description "Ο 'δράκων' ως αντίπαλος αμυντικός πόλος (θηβαϊκό/χθόνιο σύμβολο) στον πολεμικό αγώνα."^^xsd:string .
+
+:Myth_ZeusLightningStrike
+a :MythologicalBackground ;
+:description "Ο Δίας, μισώντας τους κόμπους μεγάλης γλώσσας, ρίχνει πυρ επάνω στον υπερόπτη την ώρα της επερχόμενης νίκης."^^xsd:string .
+
+:Symbol_EagleInvader
+a :Symbol ;
+:description "Ο αετός ως σύμβολο επιθετικού εισβολέα και αρπακτικής βίας."^^xsd:string .
+
+:Symbol_SevenSpears
+a :Symbol ;
+:description "Οι λόγχες γύρω από το επτάπυλο στόμα ως σύμβολο πολιορκίας και συλλογικής απειλής."^^xsd:string .
+
+:Symbol_FireBrand
+a :Symbol ;
+:description "Το πυρ (Ηφαιστείος/κεραυνικός) ως σύμβολο καταστροφής αλλά και θεϊκής τιμωρίας."^^xsd:string .
+
+################################################################
+# CANONICAL LINES & TRANSLATION VARIANTS (Ancient Greek passage)
+################################################################
+
+:Line_115 a :Line ; :lineNumber 115 ; :canonicalReference "115"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_115_grc a :TranslationVariant ; :text "αἰετὸς εἰς γῆν ὣς ὑπερέπτα,"^^xsd:string ; :relatedTo :Line_115 .
+:Line_115 :hasTheme :Theme_InvasionThreat ; :hasSymbol :Symbol_EagleInvader ; :referencesMyth :Myth_ArgiveEagleAssault .
+
+:Line_116 a :Line ; :lineNumber 116 ; :canonicalReference "116"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_116_grc a :TranslationVariant ; :text "λευκῆς χιόνος πτέρυγι στεγανός"^^xsd:string ; :relatedTo :Line_116 .
+:Line_116 :hasTheme :Theme_InvasionThreat ; :referencesMyth :Myth_ArgiveEagleAssault .
+
+:Line_117 a :Line ; :lineNumber 117 ; :canonicalReference "117"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_117_grc a :TranslationVariant ; :text "πολλῶν μεθ ̓ ὅπλων"^^xsd:string ; :relatedTo :Line_117 .
+:Line_117 :hasTheme :Theme_WarViolence ; :referencesMyth :Myth_ArgiveEagleAssault .
+
+:Line_118 a :Line ; :lineNumber 118 ; :canonicalReference "118"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_118_grc a :TranslationVariant ; :text "ξύν θ ̓ ἱπποκόμοις κορύθεσσιν."^^xsd:string ; :relatedTo :Line_118 .
+:Line_118 :hasTheme :Theme_WarViolence ; :referencesMyth :Myth_ArgiveEagleAssault .
+
+:Line_119 a :Line ; :lineNumber 119 ; :canonicalReference "119"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_119_grc a :TranslationVariant ; :text "Στὰς δ ̓ ὑπὲρ μελάθρων φονώ-"^^xsd:string ; :relatedTo :Line_119 .
+:Line_119 :hasTheme :Theme_InvasionThreat ; :hasSymbol :Symbol_EagleInvader .
+
+:Line_120 a :Line ; :lineNumber 120 ; :canonicalReference "120"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_120_grc a :TranslationVariant ; :text "σαισιν ἀμφιχανὼν κύκλῳ"^^xsd:string ; :relatedTo :Line_120 .
+:Line_120 :hasTheme :Theme_InvasionThreat ; :hasSymbol :Symbol_EagleInvader .
+
+:Line_121 a :Line ; :lineNumber 121 ; :canonicalReference "121"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_121_grc a :TranslationVariant ; :text "λόγχαις ἑπτάπυλον στόμα"^^xsd:string ; :relatedTo :Line_121 .
+:Line_121 :hasTheme :Theme_ThebesDefense ; :hasSymbol :Symbol_SevenSpears ; :referencesMyth :Myth_SevenGates .
+
+:Line_122 a :Line ; :lineNumber 122 ; :canonicalReference "122"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_122_grc a :TranslationVariant ; :text "ἔβα, πρίν ποθ ̓ ἁμετέρων"^^xsd:string ; :relatedTo :Line_122 .
+:Line_122 :hasTheme :Theme_ThebesDefense .
+
+:Line_123 a :Line ; :lineNumber 123 ; :canonicalReference "123"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_123_grc a :TranslationVariant ; :text "αἱμάτων γένυσιν πλησθῆ-"^^xsd:string ; :relatedTo :Line_123 .
+:Line_123 :hasTheme :Theme_WarViolence .
+
+:Line_124 a :Line ; :lineNumber 124 ; :canonicalReference "124"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_124_grc a :TranslationVariant ; :text "ναί τε καὶ στεφάνωμα πύργων"^^xsd:string ; :relatedTo :Line_124 .
+:Line_124 :hasTheme :Theme_ThebesDefense ; :referencesMyth :Myth_SevenGates .
+
+:Line_125 a :Line ; :lineNumber 125 ; :canonicalReference "125"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_125_grc a :TranslationVariant ; :text "πευκάενθ ̓  ̔́Ηφαιστον ἑλεῖν."^^xsd:string ; :relatedTo :Line_125 .
+:Line_125 :hasTheme :Theme_WarViolence ; :hasSymbol :Symbol_FireBrand ; :referencesMyth :Myth_HephaestusFire .
+
+:Line_126 a :Line ; :lineNumber 126 ; :canonicalReference "126"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_126_grc a :TranslationVariant ; :text "Τοῖος ἀμφὶ νῶτ ̓ ἐτάθη"^^xsd:string ; :relatedTo :Line_126 .
+:Line_126 :hasTheme :Theme_WarViolence ; :referencesMyth :Myth_AresWarClash .
+
+:Line_127 a :Line ; :lineNumber 127 ; :canonicalReference "127"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_127_grc a :TranslationVariant ; :text "πάταγος Ἄρεος, ἀντιπάλου"^^xsd:string ; :relatedTo :Line_127 .
+:Line_127 :hasTheme :Theme_WarViolence ; :referencesMyth :Myth_AresWarClash .
+
+:Line_128 a :Line ; :lineNumber 128 ; :canonicalReference "128"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_128_grc a :TranslationVariant ; :text "δυσχείρωμα δράκοντος."^^xsd:string ; :relatedTo :Line_128 .
+:Line_128 :hasTheme :Theme_WarViolence ; :referencesMyth :Myth_DragonDefender .
+
+:Line_129 a :Line ; :lineNumber 129 ; :canonicalReference "129"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_129_grc a :TranslationVariant ; :text "Ζεὺς γὰρ μεγάλης γλώσσης κόμπους"^^xsd:string ; :relatedTo :Line_129 .
+:Line_129 :hasTheme :Theme_ZeusSupremacy ; :hasConflict :Conflict_HubrisVsDivineOrder ; :referencesMyth :Myth_ZeusLightningStrike .
+
+:Line_130 a :Line ; :lineNumber 130 ; :canonicalReference "130"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_130_grc a :TranslationVariant ; :text "ὑπερεχθαίρει, καί σφας ἐσιδὼν"^^xsd:string ; :relatedTo :Line_130 .
+:Line_130 :hasTheme :Theme_ZeusSupremacy ; :referencesMyth :Myth_ZeusLightningStrike ; :hasConflict :Conflict_HubrisVsDivineOrder .
+
+:Line_131 a :Line ; :lineNumber 131 ; :canonicalReference "131"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_131_grc a :TranslationVariant ; :text "πολλῷ ῥεύματι προσνισσομένους,"^^xsd:string ; :relatedTo :Line_131 .
+:Line_131 :hasTheme :Theme_DivineIntervention ; :referencesMyth :Myth_ZeusLightningStrike .
+
+:Line_132 a :Line ; :lineNumber 132 ; :canonicalReference "132"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_132_grc a :TranslationVariant ; :text "χρυσοῦ καναχῆς ὑπερόπτας,"^^xsd:string ; :relatedTo :Line_132 .
+:Line_132 :hasTheme :Theme_ZeusSupremacy ; :hasConflict :Conflict_HubrisVsDivineOrder ; :referencesMyth :Myth_ZeusLightningStrike .
+
+:Line_133 a :Line ; :lineNumber 133 ; :canonicalReference "133"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_133_grc a :TranslationVariant ; :text "παλτῷ ῥιπτεῖ πυρὶ βαλβίδων"^^xsd:string ; :relatedTo :Line_133 .
+:Line_133 :hasTheme :Theme_DivineIntervention ; :hasSymbol :Symbol_FireBrand ; :referencesMyth :Myth_ZeusLightningStrike .
+
+:Line_134 a :Line ; :lineNumber 134 ; :canonicalReference "134"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_134_grc a :TranslationVariant ; :text "ἐπ ̓ ἄκρων ἤδη"^^xsd:string ; :relatedTo :Line_134 .
+:Line_134 :hasTheme :Theme_DivineIntervention .
+
+:Line_135 a :Line ; :lineNumber 135 ; :canonicalReference "135"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_135_grc a :TranslationVariant ; :text "νίκην ὁρμῶντ ̓ ἀλαλάξαι·"^^xsd:string ; :relatedTo :Line_135 .
+:Line_135 :hasTheme :Theme_InvasionThreat ; :hasConflict :Conflict_HubrisVsDivineOrder ; :referencesMyth :Myth_ZeusLightningStrike .
+
+:Line_136 a :Line ; :lineNumber 136 ; :canonicalReference "136"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_136_grc a :TranslationVariant ; :text "ἀντιτύπᾳ δ ̓ ἐπὶ γᾷ πέσε τανταλωθεὶς"^^xsd:string ; :relatedTo :Line_136 .
+:Line_136 :hasTheme :Theme_DivineIntervention ; :referencesMyth :Myth_ZeusLightningStrike .
+
+:Line_137 a :Line ; :lineNumber 137 ; :canonicalReference "137"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_137_grc a :TranslationVariant ; :text "πυρφόρος ὃς τότε μαινομένᾳ ξὺν ὁρμᾷ"^^xsd:string ; :relatedTo :Line_137 .
+:Line_137 :hasTheme :Theme_WarViolence ; :hasSymbol :Symbol_FireBrand .
+
+:Line_138 a :Line ; :lineNumber 138 ; :canonicalReference "138"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_138_grc a :TranslationVariant ; :text "βακχεύων ἐπέπνει"^^xsd:string ; :relatedTo :Line_138 .
+:Line_138 :hasTheme :Theme_WarViolence .
+
+:Line_139 a :Line ; :lineNumber 139 ; :canonicalReference "139"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_139_grc a :TranslationVariant ; :text "ῥιπαῖς ἐχθίστων ἀνέμων."^^xsd:string ; :relatedTo :Line_139 .
+:Line_139 :hasTheme :Theme_WarViolence .
+
+:Line_140 a :Line ; :lineNumber 140 ; :canonicalReference "140"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR .
+:TV_Line_140_grc a :TranslationVariant ; :text "εἶχε δ ̓ ἄλλᾳ τὰ μέν, ἄλλα δ ̓ ἐπ ̓ ἄλλοις ἐπενώμα στυφελίζων μέγας Ἄρης δεξιόσειρος."^^xsd:string ; :relatedTo :Line_140 .
+:Line_140 :hasTheme :Theme_WarViolence ; :referencesMyth :Myth_AresWarClash .

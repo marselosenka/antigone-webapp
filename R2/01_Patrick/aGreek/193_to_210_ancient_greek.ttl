@@ -1,0 +1,237 @@
+@prefix : [http://example.org/antigone#](http://example.org/antigone#) .
+@prefix owl: [http://www.w3.org/2002/07/owl#](http://www.w3.org/2002/07/owl#) .
+@prefix rdfs: [http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#) .
+@prefix xsd: [http://www.w3.org/2001/XMLSchema#](http://www.w3.org/2001/XMLSchema#) .
+
+################################################################
+
+# SCENE AND SPEECH STRUCTURE
+
+################################################################
+
+:Antigone_Scene_CreonDecree_193_210_grc
+a owl:NamedIndividual, :Scene ;
+:sceneNumber "Creon.Decree.AncientGreek"^^xsd:string ;
+:hasSpeech :Speech_Creon_193_210_grc ;
+:developsTheme :Theme_JusticeByMerit, :Theme_PatriotismAndCivicLoyalty, :Theme_BurialHonorAndDisgrace, :Theme_PunishmentOfTreason ;
+:hasConflict :Conflict_HonorWickedVsJust .
+
+:Speech_Creon_193_210_grc
+a owl:NamedIndividual, :Speech ;
+:speechBy :Antigone_Character_Creon ;
+:containsLine
+:Line_193, :Line_194, :Line_195, :Line_196, :Line_197, :Line_198, :Line_199, :Line_200,
+:Line_201, :Line_202, :Line_203, :Line_204, :Line_205, :Line_206, :Line_207, :Line_208,
+:Line_209, :Line_210 ;
+:developsTheme :Theme_JusticeByMerit, :Theme_PatriotismAndCivicLoyalty, :Theme_BurialHonorAndDisgrace, :Theme_PunishmentOfTreason ;
+:hasConflict :Conflict_HonorWickedVsJust ;
+:relatedTo :Motivation_RewardDefenderAndPunishTraitor, :MoralDecision_BuryEteoclesWithHonors, :MoralDecision_DenyBurialToPolyneices, :MoralDecision_HonorLoyalToCityLivingAndDead .
+
+################################################################
+
+# CHARACTERS
+
+################################################################
+
+:Antigone_Character_Creon
+a owl:NamedIndividual, :Character ;
+:hasMotivation :Motivation_RewardDefenderAndPunishTraitor ;
+:makesMoralDecision :MoralDecision_BuryEteoclesWithHonors, :MoralDecision_DenyBurialToPolyneices, :MoralDecision_HonorLoyalToCityLivingAndDead ;
+:advocatesFor :EthicalPrinciple_JusticeByMerit, :EthicalPrinciple_CivicLoyalty, :EthicalPrinciple_NoHonorForWickedOverJust ;
+:experiencesEmotion :Emotion_SternResolve .
+
+:Antigone_Character_Eteocles
+a owl:NamedIndividual, :Character .
+
+:Antigone_Character_Polyneices
+a owl:NamedIndividual, :Character .
+
+################################################################
+
+# MOTIVATIONS, DECISIONS, PRINCIPLES, EMOTIONS, CONFLICTS, THEMES, EVENTS
+
+################################################################
+
+:Motivation_RewardDefenderAndPunishTraitor
+a :Motivation ;
+:description "Να αποδώσει τιμή στον υπερασπιστή της πόλης και ατίμωση/ποινή στον επιβουλέα, για το κοινό συμφέρον."^^xsd:string .
+
+:MoralDecision_BuryEteoclesWithHonors
+a :MoralDecision ;
+:description "Να ταφεί ο Ἐτεοκλῆς με τιμές και καθαρμούς, όπως αρμόζει στους ἀρίστους νεκρούς."^^xsd:string .
+
+:MoralDecision_DenyBurialToPolyneices
+a :MoralDecision ;
+:description "Να κηρυχθεί ο Πολυνείκης ἄθαπτος: μήτε κτερίζειν μήτε κωκῦσαί τινα, αλλά να μείνει βορά σε οἰωνούς και κύνες."^^xsd:string .
+
+:MoralDecision_HonorLoyalToCityLivingAndDead
+a :MoralDecision ;
+:description "Να τιμάται από τον άρχοντα όποιος είναι εὔνους τῇ πόλει, ζῶν καὶ θανών ὁμοίως."^^xsd:string .
+
+:EthicalPrinciple_JusticeByMerit
+a :EthicalPrinciple ;
+:description "Η τιμή απονέμεται κατά το δίκαιο και την αριστεία υπέρ της πόλης."^^xsd:string .
+
+:EthicalPrinciple_CivicLoyalty
+a :EthicalPrinciple ;
+:description "Η εύνοια προς την πόλη αποτελεί κριτήριο τιμής και αναγνώρισης."^^xsd:string .
+
+:EthicalPrinciple_NoHonorForWickedOverJust
+a :EthicalPrinciple ;
+:description "Οἱ κακοί δεν πρέπει να προέξουν σε τιμή έναντι τῶν ἐνδίκων."^^xsd:string .
+
+:Emotion_SternResolve
+a :Emotion ;
+:description "Αυστηρή αποφασιστικότητα να επιβάλει δημόσια τιμή και ατίμωση σύμφωνα με την κρίση του."^^xsd:string .
+
+:Conflict_HonorWickedVsJust
+a :Conflict ;
+:description "Σύγκρουση ανάμεσα στην απονομή τιμής στους κακούς και στη δίκαιη προτίμηση των ἐνδίκων."^^xsd:string ;
+:conflictBetween :EthicalPrinciple_NoHonorForWickedOverJust, :MoralDecision_BuryEteoclesWithHonors ;
+:conflictBetween :EthicalPrinciple_NoHonorForWickedOverJust, :MoralDecision_DenyBurialToPolyneices .
+
+:Theme_JusticeByMerit
+a :Theme ;
+:description "Η δικαιοσύνη ορίζει τιμή για τον υπερασπιστή και ατίμωση για τον άδικο."^^xsd:string .
+
+:Theme_PatriotismAndCivicLoyalty
+a :Theme ;
+:description "Η εύνοια προς την πόλη αποτελεί μέτρο αξίας: ο εὔνους τιμάται ζῶν καὶ θανών."^^xsd:string .
+
+:Theme_BurialHonorAndDisgrace
+a :Theme ;
+:description "Η ταφή, οι καθαρμοί και το πένθος ως δημόσια τιμή ή δημόσια ατίμωση."^^xsd:string .
+
+:Theme_PunishmentOfTreason
+a :Theme ;
+:description "Ο επιβουλέας της πατρῴας γῆς τιμωρείται με απαγόρευση ταφής και δημόσιο κήρυγμα."^^xsd:string .
+
+:Event_EteoclesDefendsCityDies
+a owl:NamedIndividual, owl:Thing ;
+:description "Ὁ Ἐτεοκλῆς ὄλωλε πόλεως ὑπερμαχῶν, πάντ’ ἀριστεύσας δορί."^^xsd:string ;
+:relatedTo :MoralDecision_BuryEteoclesWithHonors ;
+:relatedTo :Motivation_RewardDefenderAndPunishTraitor .
+
+:Event_PolyneicesAttacksFatherland
+a owl:NamedIndividual, owl:Thing ;
+:description "Ὁ Πολυνείκης φυγὰς κατελθὼν ἠθέλησε πρῆσαι γῆν πατρῴαν καὶ θεούς, αἵματος κοινοῦ πάσασθαι, καὶ τοὺς πολίτας δουλώσας ἄγειν."^^xsd:string ;
+:relatedTo :MoralDecision_DenyBurialToPolyneices ;
+:relatedTo :Motivation_RewardDefenderAndPunishTraitor .
+
+:Event_CreonProclaimsDecree
+a owl:NamedIndividual, owl:Thing ;
+:description "Κηρύσσεται δημόσια διάκριση τιμής και ατιμίας για τους παίδας τοῦ Οἰδίπου."^^xsd:string ;
+:relatedTo :MoralDecision_BuryEteoclesWithHonors ;
+:relatedTo :MoralDecision_DenyBurialToPolyneices ;
+:relatedTo :MoralDecision_HonorLoyalToCityLivingAndDead .
+
+:Event_EteoclesDefendsCityDies :relatedTo :Event_CreonProclaimsDecree .
+:Event_PolyneicesAttacksFatherland :relatedTo :Event_CreonProclaimsDecree .
+
+################################################################
+
+# CANONICAL LINES (GRC)
+
+################################################################
+
+:Line_193 a owl:NamedIndividual, :Line ; :lineNumber 193 ; :canonicalReference "193"^^xsd:string ;
+:text "ἀστοῖσι παίδων τῶν ἀπ ̓ Οἰδίπου πέρι·"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc .
+
+:Line_194 a owl:NamedIndividual, :Line ; :lineNumber 194 ; :canonicalReference "194"^^xsd:string ;
+:text "Ἐτεοκλέα μέν, ὃς πόλεως ὑπερμαχῶν"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :Antigone_Character_Eteocles .
+
+:Line_195 a owl:NamedIndividual, :Line ; :lineNumber 195 ; :canonicalReference "195"^^xsd:string ;
+:text "ὄλωλε τῆσδε, πάντ ̓ ἀριστεύσας δορί,"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_JusticeByMerit ;
+:relatedTo :Event_EteoclesDefendsCityDies .
+
+:Line_196 a owl:NamedIndividual, :Line ; :lineNumber 196 ; :canonicalReference "196"^^xsd:string ;
+:text "τάφῳ τε κρύψαι καὶ τὰ πάντ ̓ ἀφαγνίσαι"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :MoralDecision_BuryEteoclesWithHonors ;
+:hasTheme :Theme_BurialHonorAndDisgrace .
+
+:Line_197 a owl:NamedIndividual, :Line ; :lineNumber 197 ; :canonicalReference "197"^^xsd:string ;
+:text "ἃ τοῖς ἀρίστοις ἔρχεται κάτω νεκροῖς·"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :MoralDecision_BuryEteoclesWithHonors ;
+:hasTheme :Theme_BurialHonorAndDisgrace .
+
+:Line_198 a owl:NamedIndividual, :Line ; :lineNumber 198 ; :canonicalReference "198"^^xsd:string ;
+:text "τὸν δ ̓ αὖ ξύναιμον τοῦδε, Πολυνείκην λέγω,"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :Antigone_Character_Polyneices .
+
+:Line_199 a owl:NamedIndividual, :Line ; :lineNumber 199 ; :canonicalReference "199"^^xsd:string ;
+:text "ὃς γῆν πατρῴαν καὶ θεοὺς τοὺς ἐγγενεῖς"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_PunishmentOfTreason ;
+:relatedTo :Event_PolyneicesAttacksFatherland .
+
+:Line_200 a owl:NamedIndividual, :Line ; :lineNumber 200 ; :canonicalReference "200"^^xsd:string ;
+:text "φυγὰς κατελθὼν ἠθέλησε μὲν πυρὶ"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :Event_PolyneicesAttacksFatherland .
+
+:Line_201 a owl:NamedIndividual, :Line ; :lineNumber 201 ; :canonicalReference "201"^^xsd:string ;
+:text "πρῆσαι κατάκρας, ἠθέλησε δ ̓ αἵματος"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :Event_PolyneicesAttacksFatherland .
+
+:Line_202 a owl:NamedIndividual, :Line ; :lineNumber 202 ; :canonicalReference "202"^^xsd:string ;
+:text "κοινοῦ πάσασθαι, τοὺς δὲ δουλώσας ἄγειν,"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :Event_PolyneicesAttacksFatherland ;
+:hasTheme :Theme_PunishmentOfTreason .
+
+:Line_203 a owl:NamedIndividual, :Line ; :lineNumber 203 ; :canonicalReference "203"^^xsd:string ;
+:text "τοῦτον πόλει τῇδ ̓ ἐκκεκήρυκται τάφῳ"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :MoralDecision_DenyBurialToPolyneices ;
+:relatedTo :Event_CreonProclaimsDecree .
+
+:Line_204 a owl:NamedIndividual, :Line ; :lineNumber 204 ; :canonicalReference "204"^^xsd:string ;
+:text "μήτε κτερίζειν μήτε κωκῦσαί τινα,"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_BurialHonorAndDisgrace ;
+:relatedTo :MoralDecision_DenyBurialToPolyneices .
+
+:Line_205 a owl:NamedIndividual, :Line ; :lineNumber 205 ; :canonicalReference "205"^^xsd:string ;
+:text "ἐᾶν δ ̓ ἄθαπτον καὶ πρὸς οἰωνῶν δέμας"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_BurialHonorAndDisgrace ;
+:relatedTo :MoralDecision_DenyBurialToPolyneices .
+
+:Line_206 a owl:NamedIndividual, :Line ; :lineNumber 206 ; :canonicalReference "206"^^xsd:string ;
+:text "καὶ πρὸς κυνῶν ἐδεστὸν αἰκισθέν τ ̓ ἰδεῖν."^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_BurialHonorAndDisgrace ;
+:relatedTo :MoralDecision_DenyBurialToPolyneices .
+
+:Line_207 a owl:NamedIndividual, :Line ; :lineNumber 207 ; :canonicalReference "207"^^xsd:string ;
+:text "Τοιόνδ ̓ ἐμὸν φρόνημα, κοὔποτ ̓ ἔκ γ ̓ ἐμοῦ"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:experiencesEmotion :Emotion_SternResolve .
+
+:Line_208 a owl:NamedIndividual, :Line ; :lineNumber 208 ; :canonicalReference "208"^^xsd:string ;
+:text "τιμὴν προέξουσ ̓ οἱ κακοὶ τῶν ἐνδίκων."^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasConflict :Conflict_HonorWickedVsJust ;
+:relatedTo :EthicalPrinciple_NoHonorForWickedOverJust ;
+:hasTheme :Theme_JusticeByMerit .
+
+:Line_209 a owl:NamedIndividual, :Line ; :lineNumber 209 ; :canonicalReference "209"^^xsd:string ;
+:text "Ἀλλ ̓ ὅστις εὔνους τῇδε τῇ πόλει, θανὼν"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_PatriotismAndCivicLoyalty ;
+:relatedTo :MoralDecision_HonorLoyalToCityLivingAndDead .
+
+:Line_210 a owl:NamedIndividual, :Line ; :lineNumber 210 ; :canonicalReference "210"^^xsd:string ;
+:text "καὶ ζῶν ὁμοίως ἐξ ἐμοῦ τιμήσεται."^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_PatriotismAndCivicLoyalty ;
+:relatedTo :MoralDecision_HonorLoyalToCityLivingAndDead .

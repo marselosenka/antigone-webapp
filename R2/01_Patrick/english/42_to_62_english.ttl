@@ -1,0 +1,262 @@
+```turtle
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_Dialogue_42_62
+a :Scene ;
+:sceneNumber "Dialogue 42-62"^^xsd:string ;
+:hasSpeech :Speech_Ismene_42, :Speech_Antigone_43, :Speech_Ismene_44, :Speech_Antigone_45_46, :Speech_Ismene_47, :Speech_Antigone_48, :Speech_Ismene_49_62 ;
+:developsTheme :Theme_BurialDuty, :Theme_StateLaw, :Theme_FamilyCurse, :Theme_TyrannicalPower, :Theme_GenderConstraint, :Theme_PrudenceVsDefiance ;
+:hasConflict :Conflict_BurialDutyVsCreonLaw, :Conflict_GenderConstraintVsTyrannicalPower .
+
+:Antigone_Character_Antigone
+a :Character ;
+:hasMotivation :AntigoneMotivation_BuryBrother, :AntigoneMotivation_RefuseBetrayal ;
+:makesMoralDecision :AntigoneDecision_BuryBrother ;
+:advocatesFor :EthicalPrinciple_BurialDuty ;
+:experiencesEmotion :Emotion_Defiance, :Emotion_Resolve .
+
+:Antigone_Character_Ismene
+a :Character ;
+:hasMotivation :IsmeneMotivation_ProtectSister, :IsmeneMotivation_AvoidDefyingAuthority ;
+:makesMoralDecision :IsmeneDecision_UrgePrudence ;
+:experiencesEmotion :Emotion_Alarm, :Emotion_Fear, :Emotion_Grief .
+
+:Antigone_Character_Creon a :Character .
+:Antigone_Character_Oedipus a :Character .
+:Antigone_Character_MotherAndWife a :Character ;
+:description "The woman who was both mother and wife (unnamed in this passage)."^^xsd:string .
+
+:BrotherCorpse
+a owl:Thing ;
+:description "The brother's corpse that Antigone proposes to bury."^^xsd:string .
+
+:Law_CreonBurialProhibition
+a :Law ;
+:description "A civic order forbidding burial of the brother's corpse; defying the order is framed as breaking the law and challenging tyrants."^^xsd:string .
+
+:EthicalPrinciple_BurialDuty
+a :EthicalPrinciple ;
+:description "The duty to bury one's kin and not betray the dead."^^xsd:string .
+
+:AntigoneMotivation_BuryBrother
+a :Motivation ;
+:description "Antigone seeks to bury the brother's corpse, with or without Ismene's help."^^xsd:string ;
+:relatedTo :BrotherCorpse ;
+:relatedTo :EthicalPrinciple_BurialDuty .
+
+:AntigoneMotivation_RefuseBetrayal
+a :Motivation ;
+:description "Antigone refuses to be caught betraying her brother."^^xsd:string ;
+:relatedTo :BrotherCorpse ;
+:relatedTo :EthicalPrinciple_BurialDuty .
+
+:IsmeneMotivation_ProtectSister
+a :Motivation ;
+:description "Ismene urges Antigone to remember their family's disasters and avoid self-destruction."^^xsd:string .
+
+:IsmeneMotivation_AvoidDefyingAuthority
+a :Motivation ;
+:description "Ismene seeks to avoid defying the order and provoking tyrannical power."^^xsd:string ;
+:relatedTo :Law_CreonBurialProhibition .
+
+:AntigoneDecision_BuryBrother
+a :MoralDecision ;
+:description "Antigone decides to bury the brother despite the law and Creon's prohibition."^^xsd:string ;
+:relatedTo :BrotherCorpse ;
+:relatedTo :Law_CreonBurialProhibition ;
+:relatedTo :EthicalPrinciple_BurialDuty ;
+:violatesLaw :Law_CreonBurialProhibition .
+
+:IsmeneDecision_UrgePrudence
+a :MoralDecision ;
+:description "Ismene decides to counsel prudence: they should not defy the order or challenge tyrants."^^xsd:string ;
+:relatedTo :Law_CreonBurialProhibition .
+
+:Emotion_Alarm
+a :Emotion ;
+:description "Alarm and disbelief at Antigone's plan."^^xsd:string .
+
+:Emotion_Defiance
+a :Emotion ;
+:description "Defiance toward Creon's prohibition and the law."^^xsd:string .
+
+:Emotion_Resolve
+a :Emotion ;
+:description "Determined resolve to carry out burial even alone."^^xsd:string .
+
+:Emotion_Fear
+a :Emotion ;
+:description "Fear of agonizing death and punishment if they break the law or offend tyrants."^^xsd:string .
+
+:Emotion_Grief
+a :Emotion ;
+:description "Grief and dread drawn from recalling their family's catastrophic deaths."^^xsd:string .
+
+:Theme_BurialDuty
+a :Theme ;
+:description "Burial of kin as an obligation and measure of loyalty."^^xsd:string .
+
+:Theme_StateLaw
+a :Theme ;
+:description "The force of law and civic prohibition against burial."^^xsd:string .
+
+:Theme_FamilyCurse
+a :Theme ;
+:description "The family's history of ruin: Oedipus, the mother/wife, and the brothers killing each other."^^xsd:string .
+
+:Theme_TyrannicalPower
+a :Theme ;
+:description "The danger of challenging tyrants and their power."^^xsd:string .
+
+:Theme_GenderConstraint
+a :Theme ;
+:description "Ismene frames their limits as women not meant to fight men."^^xsd:string .
+
+:Theme_PrudenceVsDefiance
+a :Theme ;
+:description "Prudence and survival counsel versus defiant moral action."^^xsd:string .
+
+:Conflict_BurialDutyVsCreonLaw
+a :Conflict ;
+:description "Conflict between kin-burial duty and the civic law forbidding burial."^^xsd:string ;
+:conflictBetween :EthicalPrinciple_BurialDuty, :Law_CreonBurialProhibition .
+
+:Conflict_GenderConstraintVsTyrannicalPower
+a :Conflict ;
+:description "Conflict between perceived gender limits and the oppressive authority of tyrants."^^xsd:string ;
+:conflictBetween :Theme_GenderConstraint, :Theme_TyrannicalPower .
+
+:Speech_Ismene_42
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_042 ;
+:developsTheme :Theme_PrudenceVsDefiance .
+
+:Speech_Antigone_43
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_043 ;
+:developsTheme :Theme_BurialDuty .
+
+:Speech_Ismene_44
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_044 ;
+:developsTheme :Theme_StateLaw ;
+:hasConflict :Conflict_BurialDutyVsCreonLaw .
+
+:Speech_Antigone_45_46
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_045, :Line_046 ;
+:developsTheme :Theme_BurialDuty ;
+:hasConflict :Conflict_BurialDutyVsCreonLaw .
+
+:Speech_Ismene_47
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_047 ;
+:developsTheme :Theme_StateLaw ;
+:hasConflict :Conflict_BurialDutyVsCreonLaw .
+
+:Speech_Antigone_48
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_048 ;
+:developsTheme :Theme_BurialDuty ;
+:hasConflict :Conflict_BurialDutyVsCreonLaw .
+
+:Speech_Ismene_49_62
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_049, :Line_050, :Line_051, :Line_052, :Line_053, :Line_054, :Line_055, :Line_056, :Line_057, :Line_058, :Line_059, :Line_060, :Line_061, :Line_062 ;
+:developsTheme :Theme_FamilyCurse, :Theme_StateLaw, :Theme_TyrannicalPower, :Theme_GenderConstraint, :Theme_PrudenceVsDefiance ;
+:hasConflict :Conflict_GenderConstraintVsTyrannicalPower .
+
+:Line_042 a :Line ; :lineNumber 42 ; :canonicalReference "42"^^xsd:string .
+:TV_Line_042_en a :TranslationVariant ; :text "Help you with what? What are you thinking?"^^xsd:string ; :relatedTo :Line_042 .
+:TV_Line_042_en :experiencesEmotion :Emotion_Alarm ; :hasTheme :Theme_PrudenceVsDefiance .
+
+:Line_043 a :Line ; :lineNumber 43 ; :canonicalReference "43"^^xsd:string .
+:TV_Line_043_en a :TranslationVariant ; :text "Will you lend this hand to bury his corpse?"^^xsd:string ; :relatedTo :Line_043 .
+:TV_Line_043_en :hasTheme :Theme_BurialDuty ; :relatedTo :BrotherCorpse .
+
+:Line_044 a :Line ; :lineNumber 44 ; :canonicalReference "44"^^xsd:string .
+:TV_Line_044_en a :TranslationVariant ; :text "Do you really mean to bury him, even though it’s against the law?"^^xsd:string ; :relatedTo :Line_044 .
+:TV_Line_044_en :hasTheme :Theme_BurialDuty ; :hasTheme :Theme_StateLaw ; :hasConflict :Conflict_BurialDutyVsCreonLaw ; :relatedTo :Law_CreonBurialProhibition .
+
+:Line_045 a :Line ; :lineNumber 45 ; :canonicalReference "45"^^xsd:string .
+:TV_Line_045_en a :TranslationVariant ; :text "I will do my part—and yours, too, if you won’t—"^^xsd:string ; :relatedTo :Line_045 .
+:TV_Line_045_en :hasTheme :Theme_PrudenceVsDefiance ; :experiencesEmotion :Emotion_Resolve .
+
+:Line_046 a :Line ; :lineNumber 46 ; :canonicalReference "46"^^xsd:string .
+:TV_Line_046_en a :TranslationVariant ; :text "To bury our brother. I won’t be caught betraying him."^^xsd:string ; :relatedTo :Line_046 .
+:TV_Line_046_en :hasTheme :Theme_BurialDuty ; :experiencesEmotion :Emotion_Resolve ; :relatedTo :BrotherCorpse .
+
+:Line_047 a :Line ; :lineNumber 47 ; :canonicalReference "47"^^xsd:string .
+:TV_Line_047_en a :TranslationVariant ; :text "How can you be so stubborn? Creon forbids it."^^xsd:string ; :relatedTo :Line_047 .
+:TV_Line_047_en :hasTheme :Theme_StateLaw ; :hasConflict :Conflict_BurialDutyVsCreonLaw ; :relatedTo :Law_CreonBurialProhibition .
+
+:Line_048 a :Line ; :lineNumber 48 ; :canonicalReference "48"^^xsd:string .
+:TV_Line_048_en a :TranslationVariant ; :text "He has no right to keep me from my own."^^xsd:string ; :relatedTo :Line_048 .
+:TV_Line_048_en :hasTheme :Theme_BurialDuty ; :hasTheme :Theme_StateLaw ; :experiencesEmotion :Emotion_Defiance ; :hasConflict :Conflict_BurialDutyVsCreonLaw .
+
+:Line_049 a :Line ; :lineNumber 49 ; :canonicalReference "49"^^xsd:string .
+:TV_Line_049_en a :TranslationVariant ; :text "Oh god! Sister, don’t forget"^^xsd:string ; :relatedTo :Line_049 .
+:TV_Line_049_en :experiencesEmotion :Emotion_Grief ; :hasTheme :Theme_FamilyCurse .
+
+:Line_050 a :Line ; :lineNumber 50 ; :canonicalReference "50"^^xsd:string .
+:TV_Line_050_en a :TranslationVariant ; :text "How our father died, raging and infamous!"^^xsd:string ; :relatedTo :Line_050 .
+:TV_Line_050_en :hasTheme :Theme_FamilyCurse ; :relatedTo :Antigone_Character_Oedipus ; :experiencesEmotion :Emotion_Grief .
+
+:Line_051 a :Line ; :lineNumber 51 ; :canonicalReference "51"^^xsd:string .
+:TV_Line_051_en a :TranslationVariant ; :text "How, when he discovered the sins of his past,"^^xsd:string ; :relatedTo :Line_051 .
+:TV_Line_051_en :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Grief .
+
+:Line_052 a :Line ; :lineNumber 52 ; :canonicalReference "52"^^xsd:string .
+:TV_Line_052_en a :TranslationVariant ; :text "He tore his eyes to pieces, blinded by his own hand!"^^xsd:string ; :relatedTo :Line_052 .
+:TV_Line_052_en :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Grief ; :relatedTo :Antigone_Character_Oedipus .
+
+:Line_053 a :Line ; :lineNumber 53 ; :canonicalReference "53"^^xsd:string .
+:TV_Line_053_en a :TranslationVariant ; :text "How that woman who was both his mother and his wife"^^xsd:string ; :relatedTo :Line_053 .
+:TV_Line_053_en :hasTheme :Theme_FamilyCurse ; :relatedTo :Antigone_Character_MotherAndWife ; :experiencesEmotion :Emotion_Grief .
+
+:Line_054 a :Line ; :lineNumber 54 ; :canonicalReference "54"^^xsd:string .
+:TV_Line_054_en a :TranslationVariant ; :text "Put an end to her life with a twisted noose!"^^xsd:string ; :relatedTo :Line_054 .
+:TV_Line_054_en :hasTheme :Theme_FamilyCurse ; :relatedTo :Antigone_Character_MotherAndWife ; :experiencesEmotion :Emotion_Grief .
+
+:Line_055 a :Line ; :lineNumber 55 ; :canonicalReference "55"^^xsd:string .
+:TV_Line_055_en a :TranslationVariant ; :text "How, finally, our two sad brothers"^^xsd:string ; :relatedTo :Line_055 .
+:TV_Line_055_en :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Grief .
+
+:Line_056 a :Line ; :lineNumber 56 ; :canonicalReference "56"^^xsd:string .
+:TV_Line_056_en a :TranslationVariant ; :text "Slew each other on the same day, each one reaching"^^xsd:string ; :relatedTo :Line_056 .
+:TV_Line_056_en :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Grief .
+
+:Line_057 a :Line ; :lineNumber 57 ; :canonicalReference "57"^^xsd:string .
+:TV_Line_057_en a :TranslationVariant ; :text "Their common demise at the hands of the other."^^xsd:string ; :relatedTo :Line_057 .
+:TV_Line_057_en :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Grief .
+
+:Line_058 a :Line ; :lineNumber 58 ; :canonicalReference "58"^^xsd:string .
+:TV_Line_058_en a :TranslationVariant ; :text "We’re alone in this world—open your eyes and see"^^xsd:string ; :relatedTo :Line_058 .
+:TV_Line_058_en :hasTheme :Theme_PrudenceVsDefiance ; :experiencesEmotion :Emotion_Fear .
+
+:Line_059 a :Line ; :lineNumber 59 ; :canonicalReference "59"^^xsd:string .
+:TV_Line_059_en a :TranslationVariant ; :text "How agonizing our deaths will be"^^xsd:string ; :relatedTo :Line_059 .
+:TV_Line_059_en :experiencesEmotion :Emotion_Fear ; :hasTheme :Theme_PrudenceVsDefiance .
+
+:Line_060 a :Line ; :lineNumber 60 ; :canonicalReference "60"^^xsd:string .
+:TV_Line_060_en a :TranslationVariant ; :text "If we defy this order and break the law, Or step on the toes of tyrants in any way."^^xsd:string ; :relatedTo :Line_060 .
+:TV_Line_060_en :hasTheme :Theme_StateLaw ; :hasTheme :Theme_TyrannicalPower ; :experiencesEmotion :Emotion_Fear ; :hasConflict :Conflict_BurialDutyVsCreonLaw ; :relatedTo :Law_CreonBurialProhibition .
+
+:Line_061 a :Line ; :lineNumber 61 ; :canonicalReference "61"^^xsd:string .
+:TV_Line_061_en a :TranslationVariant ; :text "You’ve got to remember that we are women—"^^xsd:string ; :relatedTo :Line_061 .
+:TV_Line_061_en :hasTheme :Theme_GenderConstraint ; :hasConflict :Conflict_GenderConstraintVsTyrannicalPower .
+
+:Line_062 a :Line ; :lineNumber 62 ; :canonicalReference "62"^^xsd:string .
+:TV_Line_062_en a :TranslationVariant ; :text "We aren’t meant to fight battles with men."^^xsd:string ; :relatedTo :Line_062 .
+:TV_Line_062_en :hasTheme :Theme_GenderConstraint ; :hasConflict :Conflict_GenderConstraintVsTyrannicalPower ; :experiencesEmotion :Emotion_Fear .
+```

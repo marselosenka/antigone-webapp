@@ -1,0 +1,255 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_Dialogue_42_62
+a :Scene ;
+:sceneNumber "Dialogue 42-62"^^xsd:string ;
+:hasSpeech :Speech_Ismene_42, :Speech_Antigone_43, :Speech_Ismene_44, :Speech_Antigone_45_46, :Speech_Ismene_47, :Speech_Antigone_48, :Speech_Ismene_49_62 ;
+:developsTheme :Theme_BurialRites, :Theme_TyrannicalLaw, :Theme_FamilyCurse, :Theme_SurvivalPrudence, :Theme_GenderConstraint ;
+:hasConflict :Conflict_BurialRitesVsCreonEdict, :Conflict_GenderVsAuthority .
+
+:Antigone_Character_Antigone
+a :Character ;
+:hasMotivation :Motivation_BuryBrother, :Motivation_RefuseBetrayal ;
+:makesMoralDecision :MoralDecision_DefyEdictForBurial ;
+:advocatesFor :EthicalPrinciple_BurialRites ;
+:experiencesEmotion :Emotion_Resolve, :Emotion_Defiance ;
+:relatedTo :Law_CreonBurialEdict .
+
+:Antigone_Character_Ismene
+a :Character ;
+:hasMotivation :Motivation_AvoidDefyingTyrant, :Motivation_ProtectSister ;
+:makesMoralDecision :MoralDecision_UrgePrudence ;
+:experiencesEmotion :Emotion_Fear, :Emotion_Alarm, :Emotion_Grief ;
+:relatedTo :Law_CreonBurialEdict .
+
+:Antigone_Character_Creon a :Character .
+:Antigone_Character_Oedipus a :Character .
+:Antigone_Character_Polyneices a :Character .
+
+:Law_CreonBurialEdict
+a :Law ;
+:description "Κρέων ἀντειρηκώς: ἀπόρρητον πόλει τὸ θάπτειν τὸν νεκρόν· ἡ νόμου βία καὶ ψῆφος τυράννων ἐπιβάλλεται."^^xsd:string .
+
+:EthicalPrinciple_BurialRites
+a :EthicalPrinciple ;
+:description "Χρέος ταφῆς τοῦ ἀδελφοῦ καὶ τιμῆς τοῦ νεκροῦ ὡς ἀπαράβατον καθῆκον."^^xsd:string .
+
+:Motivation_BuryBrother
+a :Motivation ;
+:description "Ἡ Ἀντιγόνη ζητεῖ τὴν Ἰσμήνης χεῖρα ξυνοίσειν πρὸς τὸ κουφίζειν/θάπτειν τὸν νεκρόν."^^xsd:string .
+
+:Motivation_RefuseBetrayal
+a :Motivation ;
+:description "Ἡ Ἀντιγόνη δηλοῖ ὅτι οὐ προδοῦσα ἁλώσεται: προτιμᾷ τὸ μὴ προδιδόναι τὸν ἀδελφόν."^^xsd:string .
+
+:Motivation_AvoidDefyingTyrant
+a :Motivation ;
+:description "Ἡ Ἰσμήνη ἐπικαλεῖται τὸν νόμον καὶ τὴν ψῆφον τυράννων, φοβουμένη τὸ κάκιστον ὄλεθρον ἐὰν παραβῶσι."^^xsd:string .
+
+:Motivation_ProtectSister
+a :Motivation ;
+:description "Ἡ Ἰσμήνη παρακαλεῖ 'φρόνησον' καὶ ἐπιχειρεῖ νουθετεῖν τὴν Ἀντιγόνην πρὸς σωτηρίαν."^^xsd:string .
+
+:MoralDecision_DefyEdictForBurial
+a :MoralDecision ;
+:description "Ἡ Ἀντιγόνη ἀποφασίζει θάπτειν τὸν ἀδελφόν, κἂν ἀπόρρητον πόλει καὶ Κρέοντος ἀντειρηκότος."^^xsd:string ;
+:relatedTo :Law_CreonBurialEdict ;
+:relatedTo :EthicalPrinciple_BurialRites .
+
+:MoralDecision_UrgePrudence
+a :MoralDecision ;
+:description "Ἡ Ἰσμήνη ἀντιτάσσει φρόνησιν καὶ ὑποχώρησιν ἔναντι νόμου/τυράννων, ἐπικαλουμένη τὸ παλαιὸν οἴκων κακόν."^^xsd:string ;
+:relatedTo :Law_CreonBurialEdict ;
+:relatedTo :Motivation_AvoidDefyingTyrant .
+
+:Emotion_Alarm
+a :Emotion ;
+:description "Ἡ Ἰσμήνη ἐκπλήσσεται καὶ ἐρωτᾷ περὶ κινδύνου καὶ γνώμης."^^xsd:string .
+
+:Emotion_Resolve
+a :Emotion ;
+:description "Σταθερὰ βούλησις τῆς Ἀντιγόνης πρὸς τὴν ταφὴν, ἔστω καὶ μόνη."^^xsd:string .
+
+:Emotion_Defiance
+a :Emotion ;
+:description "Πρόκλησις/ἀνυπακοὴ πρὸς Κρέοντα: 'οὐδὲν αὐτῷ ... εἴργειν'."^^xsd:string .
+
+:Emotion_Fear
+a :Emotion ;
+:description "Φόβος ὄλεθρου ἐὰν ὑπερβῶσι τὸν νόμον καὶ τὴν τυραννικὴν ψῆφον."^^xsd:string .
+
+:Emotion_Grief
+a :Emotion ;
+:description "Θρῆνος μνήμης τῶν οἰκείων κακῶν: πατρός, μητρός, καὶ τῶν ἀδελφῶν."^^xsd:string .
+
+:Theme_BurialRites
+a :Theme ;
+:description "Ἡ ταφὴ τοῦ νεκροῦ ὡς πράξις τιμῆς καὶ χρέος συγγένειας."^^xsd:string .
+
+:Theme_TyrannicalLaw
+a :Theme ;
+:description "Νόμου βία καὶ ψῆφος τυράννων ὡς ἀνώτερη πολιτικὴ δύναμις."^^xsd:string .
+
+:Theme_FamilyCurse
+a :Theme ;
+:description "Ἡ καταστροφὴ τοῦ οἴκου (Οἰδίπους, μήτηρ, ἀδελφοί) ὡς ἀδιάκοπον κακόν."^^xsd:string .
+
+:Theme_SurvivalPrudence
+a :Theme ;
+:description "Φρόνησις καὶ αὐτοσυντήρησις: ἀποφυγὴ ὀλέθρου ἐν ὑποταγῇ."^^xsd:string .
+
+:Theme_GenderConstraint
+a :Theme ;
+:description "Ἡ Ἰσμήνη προβάλλει ὅτι γυναῖκες ἔφυμεν καὶ οὐ μαχουμέναι πρὸς ἄνδρας."^^xsd:string .
+
+:Conflict_BurialRitesVsCreonEdict
+a :Conflict ;
+:description "Σύγκρουσις ἀνάμεσα στὸ χρέος ταφῆς καὶ τὸ ἀπόρρητον πόλει/Κρέοντος ἀντείρημα."^^xsd:string ;
+:conflictBetween :EthicalPrinciple_BurialRites, :Law_CreonBurialEdict .
+
+:Conflict_GenderVsAuthority
+a :Conflict ;
+:description "Σύγκρουσις ἀνάμεσα στὸν περιορισμὸ γυναικῶν καὶ τὴν ἀνδρικὴ/τυραννικὴ ἐξουσία."^^xsd:string ;
+:conflictBetween :Theme_GenderConstraint, :Theme_TyrannicalLaw .
+
+:Speech_Ismene_42
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_042 ;
+:developsTheme :Theme_SurvivalPrudence ;
+:experiencesEmotion :Emotion_Alarm .
+
+:Speech_Antigone_43
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_043 ;
+:developsTheme :Theme_BurialRites ;
+:hasMotivation :Motivation_BuryBrother .
+
+:Speech_Ismene_44
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_044 ;
+:developsTheme :Theme_TyrannicalLaw ;
+:hasConflict :Conflict_BurialRitesVsCreonEdict .
+
+:Speech_Antigone_45_46
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_045, :Line_046 ;
+:developsTheme :Theme_BurialRites, :Theme_FamilyCurse ;
+:hasMotivation :Motivation_RefuseBetrayal ;
+:experiencesEmotion :Emotion_Resolve .
+
+:Speech_Ismene_47
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_047 ;
+:developsTheme :Theme_TyrannicalLaw ;
+:experiencesEmotion :Emotion_Alarm ;
+:relatedTo :Law_CreonBurialEdict .
+
+:Speech_Antigone_48
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_048 ;
+:developsTheme :Theme_BurialRites ;
+:experiencesEmotion :Emotion_Defiance ;
+:hasConflict :Conflict_BurialRitesVsCreonEdict .
+
+:Speech_Ismene_49_62
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_049, :Line_050, :Line_051, :Line_052, :Line_053, :Line_054, :Line_055, :Line_056, :Line_057, :Line_058, :Line_059, :Line_060, :Line_061, :Line_062 ;
+:developsTheme :Theme_FamilyCurse, :Theme_TyrannicalLaw, :Theme_SurvivalPrudence, :Theme_GenderConstraint ;
+:hasMotivation :Motivation_AvoidDefyingTyrant, :Motivation_ProtectSister ;
+:makesMoralDecision :MoralDecision_UrgePrudence ;
+:experiencesEmotion :Emotion_Grief, :Emotion_Fear ;
+:hasConflict :Conflict_GenderVsAuthority .
+
+:Line_042 a :Line ; :lineNumber 42 ; :canonicalReference "42"^^xsd:string .
+:TV_Line_042_grc a :TranslationVariant ; :text "Ποῖόν τι κινδύνευμα; ποῖ γνώμης ποτ ̓ εἶ;"^^xsd:string ; :relatedTo :Line_042 .
+:Line_042 :experiencesEmotion :Emotion_Alarm ; :hasTheme :Theme_SurvivalPrudence .
+
+:Line_043 a :Line ; :lineNumber 43 ; :canonicalReference "43"^^xsd:string .
+:TV_Line_043_grc a :TranslationVariant ; :text "Εἰ τὸν νεκρὸν ξὺν τῇδε κουφιεῖς χερί."^^xsd:string ; :relatedTo :Line_043 .
+:Line_043 :hasTheme :Theme_BurialRites ; :hasMotivation :Motivation_BuryBrother .
+
+:Line_044 a :Line ; :lineNumber 44 ; :canonicalReference "44"^^xsd:string .
+:TV_Line_044_grc a :TranslationVariant ; :text "Ἦ γὰρ νοεῖς θάπτειν σφ ̓, ἀπόρρητον πόλει;"^^xsd:string ; :relatedTo :Line_044 .
+:Line_044 :hasTheme :Theme_BurialRites ; :hasTheme :Theme_TyrannicalLaw ; :hasConflict :Conflict_BurialRitesVsCreonEdict ; :relatedTo :Law_CreonBurialEdict .
+
+:Line_045 a :Line ; :lineNumber 45 ; :canonicalReference "45"^^xsd:string .
+:TV_Line_045_grc a :TranslationVariant ; :text "Τὸν γοῦν ἐμὸν καὶ τὸν σόν, ἢν σὺ μὴ θέλῃς,"^^xsd:string ; :relatedTo :Line_045 .
+:Line_045 :hasTheme :Theme_BurialRites ; :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Resolve ; :hasMotivation :Motivation_RefuseBetrayal .
+
+:Line_046 a :Line ; :lineNumber 46 ; :canonicalReference "46"^^xsd:string .
+:TV_Line_046_grc a :TranslationVariant ; :text "ἀδελφόν· οὐ γὰρ δὴ προδοῦσ ̓ ἁλώσομαι."^^xsd:string ; :relatedTo :Line_046 .
+:Line_046 :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Resolve ; :hasMotivation :Motivation_RefuseBetrayal .
+
+:Line_047 a :Line ; :lineNumber 47 ; :canonicalReference "47"^^xsd:string .
+:TV_Line_047_grc a :TranslationVariant ; :text "Ὦ σχετλία, Κρέοντος ἀντειρηκότος;"^^xsd:string ; :relatedTo :Line_047 .
+:Line_047 :hasTheme :Theme_TyrannicalLaw ; :experiencesEmotion :Emotion_Alarm ; :relatedTo :Law_CreonBurialEdict ; :hasConflict :Conflict_BurialRitesVsCreonEdict .
+
+:Line_048 a :Line ; :lineNumber 48 ; :canonicalReference "48"^^xsd:string .
+:TV_Line_048_grc a :TranslationVariant ; :text "Ἀλλ ̓ οὐδὲν αὐτῷ τῶν ἐμῶν μ ̓ εἴργειν μέτα."^^xsd:string ; :relatedTo :Line_048 .
+:Line_048 :experiencesEmotion :Emotion_Defiance ; :hasTheme :Theme_BurialRites ; :hasConflict :Conflict_BurialRitesVsCreonEdict ; :relatedTo :Law_CreonBurialEdict ; :makesMoralDecision :MoralDecision_DefyEdictForBurial .
+
+:Line_049 a :Line ; :lineNumber 49 ; :canonicalReference "49"^^xsd:string .
+:TV_Line_049_grc a :TranslationVariant ; :text "Οἴμοι· φρόνησον, ὦ κασιγνήτη, πατὴρ"^^xsd:string ; :relatedTo :Line_049 .
+:Line_049 :experiencesEmotion :Emotion_Grief ; :hasTheme :Theme_SurvivalPrudence ; :hasMotivation :Motivation_ProtectSister .
+
+:Line_050 a :Line ; :lineNumber 50 ; :canonicalReference "50"^^xsd:string .
+:TV_Line_050_grc a :TranslationVariant ; :text "ὡς νῷν ἀπεχθὴς δυσκλεής τ ̓ ἀπώλετο,"^^xsd:string ; :relatedTo :Line_050 .
+:Line_050 :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Grief ; :relatedTo :Antigone_Character_Oedipus .
+
+:Line_051 a :Line ; :lineNumber 51 ; :canonicalReference "51"^^xsd:string .
+:TV_Line_051_grc a :TranslationVariant ; :text "πρὸς αὐτοφώρων ἀμπλακημάτων διπλᾶς"^^xsd:string ; :relatedTo :Line_051 .
+:Line_051 :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Grief .
+
+:Line_052 a :Line ; :lineNumber 52 ; :canonicalReference "52"^^xsd:string .
+:TV_Line_052_grc a :TranslationVariant ; :text "ὄψεις ἀράξας αὐτὸς αὐτουργῷ χερί·"^^xsd:string ; :relatedTo :Line_052 .
+:Line_052 :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Grief .
+
+:Line_053 a :Line ; :lineNumber 53 ; :canonicalReference "53"^^xsd:string .
+:TV_Line_053_grc a :TranslationVariant ; :text "ἔπειτα μήτηρ καὶ γυνή, διπλοῦν ἔπος,"^^xsd:string ; :relatedTo :Line_053 .
+:Line_053 :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Grief .
+
+:Line_054 a :Line ; :lineNumber 54 ; :canonicalReference "54"^^xsd:string .
+:TV_Line_054_grc a :TranslationVariant ; :text "πλεκταῖσιν ἀρτάναισι λωβᾶται βίον·"^^xsd:string ; :relatedTo :Line_054 .
+:Line_054 :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Grief .
+
+:Line_055 a :Line ; :lineNumber 55 ; :canonicalReference "55"^^xsd:string .
+:TV_Line_055_grc a :TranslationVariant ; :text "τρίτον δ ̓ ἀδελφὼ δύο μίαν καθ ̓ ἡμέραν"^^xsd:string ; :relatedTo :Line_055 .
+:Line_055 :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Grief .
+
+:Line_056 a :Line ; :lineNumber 56 ; :canonicalReference "56"^^xsd:string .
+:TV_Line_056_grc a :TranslationVariant ; :text "αὐτοκτονοῦντε τὼ ταλαιπώρω μόρον"^^xsd:string ; :relatedTo :Line_056 .
+:Line_056 :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Grief .
+
+:Line_057 a :Line ; :lineNumber 57 ; :canonicalReference "57"^^xsd:string .
+:TV_Line_057_grc a :TranslationVariant ; :text "κοινὸν κατειργάσαντ ̓ ἐπαλλήλοιν χεροῖν."^^xsd:string ; :relatedTo :Line_057 .
+:Line_057 :hasTheme :Theme_FamilyCurse ; :experiencesEmotion :Emotion_Grief .
+
+:Line_058 a :Line ; :lineNumber 58 ; :canonicalReference "58"^^xsd:string .
+:TV_Line_058_grc a :TranslationVariant ; :text "Νῦν δ ̓ αὖ μόνα δὴ νὼ λελειμμένα σκόπει"^^xsd:string ; :relatedTo :Line_058 .
+:Line_058 :hasTheme :Theme_SurvivalPrudence ; :experiencesEmotion :Emotion_Fear .
+
+:Line_059 a :Line ; :lineNumber 59 ; :canonicalReference "59"^^xsd:string .
+:TV_Line_059_grc a :TranslationVariant ; :text "ὅσῳ κάκιστ ̓ ὀλούμεθ ̓, εἰ νόμου βίᾳ"^^xsd:string ; :relatedTo :Line_059 .
+:Line_059 :hasTheme :Theme_TyrannicalLaw ; :hasTheme :Theme_SurvivalPrudence ; :experiencesEmotion :Emotion_Fear ; :relatedTo :Law_CreonBurialEdict .
+
+:Line_060 a :Line ; :lineNumber 60 ; :canonicalReference "60"^^xsd:string .
+:TV_Line_060_grc a :TranslationVariant ; :text "ψῆφον τυράννων ἢ κράτη παρέξιμεν."^^xsd:string ; :relatedTo :Line_060 .
+:Line_060 :hasTheme :Theme_TyrannicalLaw ; :experiencesEmotion :Emotion_Fear ; :hasMotivation :Motivation_AvoidDefyingTyrant ; :relatedTo :Law_CreonBurialEdict .
+
+:Line_061 a :Line ; :lineNumber 61 ; :canonicalReference "61"^^xsd:string .
+:TV_Line_061_grc a :TranslationVariant ; :text "Ἀλλ ̓ ἐννοεῖν χρὴ τοῦτο μὲν γυναῖχ ̓ ὅτι"^^xsd:string ; :relatedTo :Line_061 .
+:Line_061 :hasTheme :Theme_GenderConstraint ; :hasConflict :Conflict_GenderVsAuthority ; :makesMoralDecision :MoralDecision_UrgePrudence .
+
+:Line_062 a :Line ; :lineNumber 62 ; :canonicalReference "62"^^xsd:string .
+:TV_Line_062_grc a :TranslationVariant ; :text "ἔφυμεν, ὡς πρὸς ἄνδρας οὐ μαχουμένα·"^^xsd:string ; :relatedTo :Line_062 .
+:Line_062 :hasTheme :Theme_GenderConstraint ; :hasConflict :Conflict_GenderVsAuthority ; :experiencesEmotion :Emotion_Fear .

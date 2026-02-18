@@ -1,0 +1,283 @@
+```turtle
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+################################################################
+# SCENE AND SPEECH STRUCTURE
+################################################################
+
+:Antigone_Scene_DialogueAndParodos_90_112_EN
+a :Scene ;
+:sceneNumber "Dialogue+Parodos 90-112 (English)"^^xsd:string ;
+:hasSpeech :Speech_Ismene_90_EN, :Speech_Antigone_91_EN, :Speech_Ismene_92_EN, :Speech_Antigone_93_97_EN, :Speech_Ismene_98_99_EN, :Speech_Chorus_100_112_EN ;
+:developsTheme :Theme_ImpossibleAction, :Theme_NobleDeath, :Theme_HonorDead, :Theme_SisterlyConflict, :Theme_LoyalFriendship, :Theme_DawnHope, :Theme_WarAftermath ;
+:hasConflict :Conflict_PrudenceVsHonor, :Conflict_LoyaltyToDeadVsFear .
+
+:Speech_Ismene_90_EN
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_090 ;
+:partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN ;
+:developsTheme :Theme_ImpossibleAction ;
+:hasMotivation :Motivation_IsmeneDiscourageImpossible ;
+:experiencesEmotion :Emotion_IsmeneConcern ;
+:hasConflict :Conflict_PrudenceVsHonor .
+
+:Speech_Antigone_91_EN
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_091 ;
+:partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN ;
+:developsTheme :Theme_NobleDeath ;
+:hasMotivation :Motivation_AntigonePersistUntilNoStrength ;
+:experiencesEmotion :Emotion_AntigoneResolve .
+
+:Speech_Ismene_92_EN
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_092 ;
+:partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN ;
+:developsTheme :Theme_ImpossibleAction ;
+:hasMotivation :Motivation_IsmeneDiscourageImpossible .
+
+:Speech_Antigone_93_97_EN
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_093, :Line_094, :Line_095, :Line_096, :Line_097 ;
+:partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN ;
+:developsTheme :Theme_HonorDead, :Theme_NobleDeath, :Theme_SisterlyConflict ;
+:advocatesFor :EthicalPrinciple_HonorDead ;
+:makesMoralDecision :MoralDecision_DieNoblyForHonor ;
+:hasMotivation :Motivation_AntigoneAcceptConsequences ;
+:experiencesEmotion :Emotion_AntigoneDefiance ;
+:hasConflict :Conflict_PrudenceVsHonor, :Conflict_LoyaltyToDeadVsFear .
+
+:Speech_Ismene_98_99_EN
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_098, :Line_099 ;
+:partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN ;
+:developsTheme :Theme_LoyalFriendship, :Theme_SisterlyConflict ;
+:hasMotivation :Motivation_IsmeneReluctantConsent ;
+:experiencesEmotion :Emotion_IsmeneConcern ;
+:hasConflict :Conflict_PrudenceVsHonor .
+
+:Speech_Chorus_100_112_EN
+a :Speech ;
+:speechBy :Antigone_Character_Chorus ;
+:containsLine :Line_100, :Line_101, :Line_102, :Line_103, :Line_104, :Line_105, :Line_106, :Line_107, :Line_108, :Line_109, :Line_110, :Line_111, :Line_112 ;
+:partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN ;
+:developsTheme :Theme_DawnHope, :Theme_WarAftermath ;
+:referencesMyth :Myth_Sunlight, :Myth_ThebesSevenGates, :Myth_DirceStreams, :Myth_ArgiveArmy, :Myth_PolyneicesAttack ;
+:hasSymbol :Symbol_SunRay .
+
+################################################################
+# CHARACTERS (if not already declared elsewhere)
+################################################################
+
+:Antigone_Character_Antigone a :Character .
+:Antigone_Character_Ismene a :Character .
+:Antigone_Character_Chorus a :Character .
+
+################################################################
+# THEMES, MOTIVATIONS, EMOTIONS, PRINCIPLES, CONFLICTS, SYMBOLS, MYTHS
+################################################################
+
+:Theme_ImpossibleAction
+a :Theme ;
+:description "The tension between attempting what is impossible and the prudence of not pursuing it."^^xsd:string .
+
+:Theme_NobleDeath
+a :Theme ;
+:description "Choosing an act despite consequences, framing death in that act as beautiful and fitting."^^xsd:string .
+
+:Theme_HonorDead
+a :Theme ;
+:description "Moral duty to the dead and refusal to treat them as enemies."^^xsd:string .
+
+:Theme_SisterlyConflict
+a :Theme ;
+:description "Conflict between the sisters’ judgments, producing threats and reproach."^^xsd:string .
+
+:Theme_LoyalFriendship
+a :Theme ;
+:description "Affection for loved ones persists despite disagreement and condemnation."^^xsd:string .
+
+:Theme_DawnHope
+a :Theme ;
+:description "Sunlight over Thebes as a sign of renewal and relief after conflict."^^xsd:string .
+
+:Theme_WarAftermath
+a :Theme ;
+:description "The enemy’s retreat and the city’s land after invasion."^^xsd:string .
+
+:Motivation_IsmeneDiscourageImpossible
+a :Motivation ;
+:description "To restrain Antigone from attempting what Ismene deems impossible."^^xsd:string .
+
+:Motivation_AntigonePersistUntilNoStrength
+a :Motivation ;
+:description "To continue the intended act until physical strength fails."^^xsd:string .
+
+:Motivation_AntigoneAcceptConsequences
+a :Motivation ;
+:description "To accept suffering and punishment rather than abandon the chosen path toward a noble death."^^xsd:string .
+
+:Motivation_IsmeneReluctantConsent
+a :Motivation ;
+:description "To let Antigone proceed while still judging her unwise, maintaining loyalty in affection."^^xsd:string .
+
+:Emotion_IsmeneConcern
+a :Emotion ;
+:description "Alarm and caution toward Antigone’s plan, warning of futility and danger."^^xsd:string .
+
+:Emotion_AntigoneResolve
+a :Emotion ;
+:description "Determined persistence, stopping only when strength fails."^^xsd:string .
+
+:Emotion_AntigoneDefiance
+a :Emotion ;
+:description "Defiant anger against opposition, threatening hatred and insisting on a beautiful death."^^xsd:string .
+
+:EthicalPrinciple_HonorDead
+a :EthicalPrinciple ;
+:description "Loved ones must not be abandoned in death; honoring the dead remains morally binding."^^xsd:string .
+
+:MoralDecision_DieNoblyForHonor
+a :MoralDecision ;
+:description "Decision to proceed despite punishment, valuing a beautiful/noble death over safety."^^xsd:string ;
+:relatedTo :EthicalPrinciple_HonorDead ;
+:relatedTo :Motivation_AntigoneAcceptConsequences .
+
+:Conflict_PrudenceVsHonor
+a :Conflict ;
+:description "Prudential restraint (impossibility, caution) clashes with Antigone’s commitment to honor the dead."^^xsd:string ;
+:conflictBetween :Motivation_IsmeneDiscourageImpossible, :EthicalPrinciple_HonorDead .
+
+:Conflict_LoyaltyToDeadVsFear
+a :Conflict ;
+:description "Fearful restraint and concern conflict with Antigone’s willingness to accept suffering for duty."^^xsd:string ;
+:conflictBetween :Emotion_IsmeneConcern, :Motivation_AntigoneAcceptConsequences .
+
+:Symbol_SunRay
+a :Symbol ;
+:description "The sunbeam/light over Thebes symbolizes renewal and victory after threat."^^xsd:string .
+
+:Myth_Sunlight
+a :MythologicalBackground ;
+:description "Poetic invocation of the sun as radiant, life-giving light."^^xsd:string .
+
+:Myth_ThebesSevenGates
+a :MythologicalBackground ;
+:description "Reference to seven-gated Thebes."^^xsd:string .
+
+:Myth_DirceStreams
+a :MythologicalBackground ;
+:description "Reference to Dirce’s streams in Thebes."^^xsd:string .
+
+:Myth_ArgiveArmy
+a :MythologicalBackground ;
+:description "Reference to the Argive man/force now in retreat."^^xsd:string .
+
+:Myth_PolyneicesAttack
+a :MythologicalBackground ;
+:description "Reference to Polyneices and the disputes driving the assault on Theban land."^^xsd:string .
+
+################################################################
+# CANONICAL LINES & TRANSLATION VARIANTS (English)
+################################################################
+
+:Line_090 a :Line ; :lineNumber 90 ; :canonicalReference "90"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_090_en a :TranslationVariant ; :text "If you even get that far! You’re bent on the impossible."^^xsd:string ; :relatedTo :Line_090 .
+:Line_090 :hasTheme :Theme_ImpossibleAction ; :hasMotivation :Motivation_IsmeneDiscourageImpossible ; :experiencesEmotion :Emotion_IsmeneConcern ; :hasConflict :Conflict_PrudenceVsHonor .
+
+:Line_091 a :Line ; :lineNumber 91 ; :canonicalReference "91"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_091_en a :TranslationVariant ; :text "When my strength fails, I’ll stop."^^xsd:string ; :relatedTo :Line_091 .
+:Line_091 :hasTheme :Theme_NobleDeath ; :hasMotivation :Motivation_AntigonePersistUntilNoStrength ; :experiencesEmotion :Emotion_AntigoneResolve .
+
+:Line_092 a :Line ; :lineNumber 92 ; :canonicalReference "92"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_092_en a :TranslationVariant ; :text "You shouldn’t be chasing the impossible in the first place!"^^xsd:string ; :relatedTo :Line_092 .
+:Line_092 :hasTheme :Theme_ImpossibleAction ; :hasMotivation :Motivation_IsmeneDiscourageImpossible .
+
+:Line_093 a :Line ; :lineNumber 93 ; :canonicalReference "93"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_093_en a :TranslationVariant ; :text "Say another word and you will earn my hatred."^^xsd:string ; :relatedTo :Line_093 .
+:Line_093 :hasTheme :Theme_SisterlyConflict ; :experiencesEmotion :Emotion_AntigoneDefiance .
+
+:Line_094 a :Line ; :lineNumber 94 ; :canonicalReference "94"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_094_en a :TranslationVariant ; :text "When you’re laid to rest, you’ll find that even the dead hate you—"^^xsd:string ; :relatedTo :Line_094 .
+:Line_094 :hasTheme :Theme_HonorDead ; :advocatesFor :EthicalPrinciple_HonorDead ; :hasConflict :Conflict_PrudenceVsHonor .
+
+:Line_095 a :Line ; :lineNumber 95 ; :canonicalReference "95"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_095_en a :TranslationVariant ; :text "And rightly so. Leave me and my foolish plan"^^xsd:string ; :relatedTo :Line_095 .
+:Line_095 :hasTheme :Theme_NobleDeath ; :hasMotivation :Motivation_AntigoneAcceptConsequences ; :experiencesEmotion :Emotion_AntigoneResolve .
+
+:Line_096 a :Line ; :lineNumber 96 ; :canonicalReference "96"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_096_en a :TranslationVariant ; :text "To suffer our terrible fate! There is no punishment horrible enough"^^xsd:string ; :relatedTo :Line_096 .
+:Line_096 :hasTheme :Theme_NobleDeath ; :hasMotivation :Motivation_AntigoneAcceptConsequences ; :hasConflict :Conflict_LoyaltyToDeadVsFear .
+
+:Line_097 a :Line ; :lineNumber 97 ; :canonicalReference "97"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_097_en a :TranslationVariant ; :text "To keep me from dying a beautiful death."^^xsd:string ; :relatedTo :Line_097 .
+:Line_097 :hasTheme :Theme_NobleDeath ; :makesMoralDecision :MoralDecision_DieNoblyForHonor ; :experiencesEmotion :Emotion_AntigoneResolve .
+
+:Line_098 a :Line ; :lineNumber 98 ; :canonicalReference "98"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_098_en a :TranslationVariant ; :text "Go on then, if you think it best—you’re a fool"^^xsd:string ; :relatedTo :Line_098 .
+:Line_098 :hasTheme :Theme_SisterlyConflict ; :experiencesEmotion :Emotion_IsmeneConcern .
+
+:Line_099 a :Line ; :lineNumber 99 ; :canonicalReference "99"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_099_en a :TranslationVariant ; :text "To go, but your loved ones still love you."^^xsd:string ; :relatedTo :Line_099 .
+:Line_099 :hasTheme :Theme_LoyalFriendship ; :hasMotivation :Motivation_IsmeneReluctantConsent .
+
+:Line_100 a :Line ; :lineNumber 100 ; :canonicalReference "100"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_100_en a :TranslationVariant ; :text "Beam of the sun, most beautiful light"^^xsd:string ; :relatedTo :Line_100 .
+:Line_100 :hasTheme :Theme_DawnHope ; :hasSymbol :Symbol_SunRay ; :referencesMyth :Myth_Sunlight .
+
+:Line_101 a :Line ; :lineNumber 101 ; :canonicalReference "101"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_101_en a :TranslationVariant ; :text "To ever shine over seven-gated Thebes,"^^xsd:string ; :relatedTo :Line_101 .
+:Line_101 :hasTheme :Theme_DawnHope ; :referencesMyth :Myth_ThebesSevenGates .
+
+:Line_102 a :Line ; :lineNumber 102 ; :canonicalReference "102"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_102_en a :TranslationVariant ; :text "You have finally appeared!"^^xsd:string ; :relatedTo :Line_102 .
+:Line_102 :hasTheme :Theme_DawnHope ; :referencesMyth :Myth_Sunlight .
+
+:Line_103 a :Line ; :lineNumber 103 ; :canonicalReference "103"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_103_en a :TranslationVariant ; :text "O golden day’s eye,"^^xsd:string ; :relatedTo :Line_103 .
+:Line_103 :hasTheme :Theme_DawnHope ; :referencesMyth :Myth_Sunlight ; :hasSymbol :Symbol_SunRay .
+
+:Line_104 a :Line ; :lineNumber 104 ; :canonicalReference "104"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_104_en a :TranslationVariant ; :text "Pouring over Dirce’s streams,"^^xsd:string ; :relatedTo :Line_104 .
+:Line_104 :hasTheme :Theme_DawnHope ; :referencesMyth :Myth_DirceStreams .
+
+:Line_105 a :Line ; :lineNumber 105 ; :canonicalReference "105"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_105_en a :TranslationVariant ; :text "You spurred headlong"^^xsd:string ; :relatedTo :Line_105 .
+:Line_105 :hasTheme :Theme_WarAftermath ; :referencesMyth :Myth_ArgiveArmy .
+
+:Line_106 a :Line ; :lineNumber 106 ; :canonicalReference "106"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_106_en a :TranslationVariant ; :text "Into flight the white-shielded"^^xsd:string ; :relatedTo :Line_106 .
+:Line_106 :hasTheme :Theme_WarAftermath ; :referencesMyth :Myth_ArgiveArmy .
+
+:Line_107 a :Line ; :lineNumber 107 ; :canonicalReference "107"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_107_en a :TranslationVariant ; :text "Man from Argos,"^^xsd:string ; :relatedTo :Line_107 .
+:Line_107 :hasTheme :Theme_WarAftermath ; :referencesMyth :Myth_ArgiveArmy .
+
+:Line_108 a :Line ; :lineNumber 108 ; :canonicalReference "108"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_108_en a :TranslationVariant ; :text "Once advancing in full armor,"^^xsd:string ; :relatedTo :Line_108 .
+:Line_108 :hasTheme :Theme_WarAftermath ; :referencesMyth :Myth_ArgiveArmy .
+
+:Line_109 a :Line ; :lineNumber 109 ; :canonicalReference "109"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_109_en a :TranslationVariant ; :text "Now in swifter retreat—"^^xsd:string ; :relatedTo :Line_109 .
+:Line_109 :hasTheme :Theme_WarAftermath ; :referencesMyth :Myth_ArgiveArmy .
+
+:Line_110 a :Line ; :lineNumber 110 ; :canonicalReference "110"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_110_en a :TranslationVariant ; :text "Stirred by the disputes of Polyneices,"^^xsd:string ; :relatedTo :Line_110 .
+:Line_110 :hasTheme :Theme_WarAftermath ; :referencesMyth :Myth_PolyneicesAttack .
+
+:Line_111 a :Line ; :lineNumber 111 ; :canonicalReference "111"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_111_en a :TranslationVariant ; :text "Like a screeching eagle"^^xsd:string ; :relatedTo :Line_111 .
+:Line_111 :hasTheme :Theme_WarAftermath ; :referencesMyth :Myth_PolyneicesAttack .
+
+:Line_112 a :Line ; :lineNumber 112 ; :canonicalReference "112"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
+:TV_Line_112_en a :TranslationVariant ; :text "He flew above our land,"^^xsd:string ; :relatedTo :Line_112 .
+:Line_112 :hasTheme :Theme_WarAftermath ; :referencesMyth :Myth_PolyneicesAttack .
+```

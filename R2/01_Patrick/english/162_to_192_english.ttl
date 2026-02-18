@@ -1,0 +1,294 @@
+@prefix : [http://example.org/antigone#](http://example.org/antigone#) .
+@prefix owl: [http://www.w3.org/2002/07/owl#](http://www.w3.org/2002/07/owl#) .
+@prefix rdfs: [http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#) .
+@prefix xsd: [http://www.w3.org/2001/XMLSchema#](http://www.w3.org/2001/XMLSchema#) .
+
+################################################################
+
+# SCENE AND SPEECH STRUCTURE
+
+################################################################
+
+:Antigone_Scene_CreonSpeech_163_192_en
+a owl:NamedIndividual, :Scene ;
+:sceneNumber "Creon.Speech.English"^^xsd:string ;
+:hasSpeech :Speech_Creon_163_192_en ;
+:developsTheme :Theme_CivicStabilityAfterCrisis, :Theme_PatriotismAbovePersonalTies, :Theme_LeadershipAndLaw ;
+:hasConflict :Conflict_FriendVsFatherland, :Conflict_FearSilenceVsBestCounsel .
+
+:Speech_Creon_163_192_en
+a owl:NamedIndividual, :Speech ;
+:speechBy :Antigone_Character_Creon ;
+:containsLine
+:Line_163, :Line_164, :Line_165, :Line_166, :Line_167, :Line_168, :Line_169, :Line_170,
+:Line_171, :Line_172, :Line_173, :Line_174, :Line_175, :Line_176, :Line_177, :Line_178,
+:Line_179, :Line_180, :Line_181, :Line_182, :Line_183, :Line_184, :Line_185, :Line_186,
+:Line_187, :Line_188, :Line_189, :Line_190, :Line_191, :Line_192 ;
+:developsTheme :Theme_CivicStabilityAfterCrisis, :Theme_PatriotismAbovePersonalTies, :Theme_LeadershipAndLaw ;
+:referencesMyth :Myth_ZeusAllSeeing ;
+:relatedTo :Motivation_GovernCitySafely, :Motivation_TestLeadersByOffice, :MoralDecision_PublicDecreePrinciples .
+
+################################################################
+
+# CHARACTERS
+
+################################################################
+
+:Antigone_Character_Creon
+a owl:NamedIndividual, :Character ;
+:hasMotivation :Motivation_GovernCitySafely, :Motivation_TestLeadersByOffice ;
+:makesMoralDecision :MoralDecision_PrioritizeCityOverPrivateFriendship, :MoralDecision_SpeakAgainstRuin, :MoralDecision_PublicDecreePrinciples ;
+:advocatesFor :EthicalPrinciple_Patriotism, :EthicalPrinciple_FrankCounsel, :EthicalPrinciple_LawfulGovernance ;
+:experiencesEmotion :Emotion_ResolveToProtectCity .
+
+################################################################
+
+# MOTIVATIONS, DECISIONS, PRINCIPLES, EMOTIONS, CONFLICTS, THEMES, MYTHS, EVENTS
+
+################################################################
+
+:Motivation_GovernCitySafely
+a :Motivation ;
+:description "To keep the city safe and steady after turmoil and to glorify it through governance."^^xsd:string .
+
+:Motivation_TestLeadersByOffice
+a :Motivation ;
+:description "To evaluate a man’s heart and judgment by seeing him rule."^^xsd:string .
+
+:MoralDecision_PrioritizeCityOverPrivateFriendship
+a :MoralDecision ;
+:description "To condemn leaders who put friends before the country and to prioritize the fatherland."^^xsd:string .
+
+:MoralDecision_SpeakAgainstRuin
+a :MoralDecision ;
+:description "To refuse silence when trouble threatens the safety of society."^^xsd:string .
+
+:MoralDecision_PublicDecreePrinciples
+a :MoralDecision ;
+:description "To issue a public decree guided by these principles of leadership, patriotism, and frank counsel."^^xsd:string .
+
+:EthicalPrinciple_Patriotism
+a :EthicalPrinciple ;
+:description "The country is the common protector; true friends are fellow shipmates within the safeguarded city."^^xsd:string .
+
+:EthicalPrinciple_FrankCounsel
+a :EthicalPrinciple ;
+:description "Fear-driven silence is disgraceful; a leader must speak plainly for the city’s safety."^^xsd:string .
+
+:EthicalPrinciple_LawfulGovernance
+a :EthicalPrinciple ;
+:description "Leadership must be proven in rule; governance requires clear intentions and ordered principles."^^xsd:string .
+
+:Emotion_ResolveToProtectCity
+a :Emotion ;
+:description "Determined confidence to protect the city, denounce cowardly rule, and uphold civic safety."^^xsd:string .
+
+:Conflict_FriendVsFatherland
+a :Conflict ;
+:description "Tension between private friendship and loyalty to the country, which must come first."^^xsd:string ;
+:conflictBetween :EthicalPrinciple_Patriotism, :MoralDecision_PrioritizeCityOverPrivateFriendship .
+
+:Conflict_FearSilenceVsBestCounsel
+a :Conflict ;
+:description "Tension between speaking to prevent danger and remaining silent out of fear."^^xsd:string ;
+:conflictBetween :EthicalPrinciple_FrankCounsel, :MoralDecision_SpeakAgainstRuin .
+
+:Theme_CivicStabilityAfterCrisis
+a :Theme ;
+:description "The city, nearly wrecked by havoc, is restored and must be kept safe."^^xsd:string .
+
+:Theme_PatriotismAbovePersonalTies
+a :Theme ;
+:description "Country and common safety outweigh private friendships; civic solidarity defines true friends."^^xsd:string .
+
+:Theme_LeadershipAndLaw
+a :Theme ;
+:description "A leader’s character is tested in rule; clear intentions, speech, and principles govern the polis."^^xsd:string .
+
+:Myth_ZeusAllSeeing
+a :MythologicalBackground ;
+:description "Zeus invoked as all-seeing witness to Creon’s declarations."^^xsd:string .
+
+:Event_CityThreatenedByHavoc
+a owl:NamedIndividual, owl:Thing ;
+:description "The ship of state is threatened with wreck in a sea of havoc but returns to proper course."^^xsd:string ;
+:relatedTo :Motivation_GovernCitySafely .
+
+:Event_BrothersMutualKilling
+a owl:NamedIndividual, owl:Thing ;
+:description "The two brothers die on the same day, each struck by the other’s bloody hand."^^xsd:string ;
+:relatedTo :Motivation_GovernCitySafely .
+
+:Event_CreonAccession
+a owl:NamedIndividual, owl:Thing ;
+:description "Creon holds full power of the throne as next of kin after the brothers’ deaths."^^xsd:string ;
+:relatedTo :Event_BrothersMutualKilling ;
+:relatedTo :Motivation_GovernCitySafely .
+
+################################################################
+
+# CANONICAL LINES & TRANSLATION VARIANTS (EN)
+
+################################################################
+
+:Line_163 a owl:NamedIndividual, :Line ; :lineNumber 163 ; :canonicalReference "163"^^xsd:string .
+:TV_Line_163_en a :TranslationVariant ;
+:text "Gentlemen, our ship of state, which the gods threatened to wreck in a sea of havoc, has returned to its proper course."^^xsd:string ;
+:relatedTo :Line_163 ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:relatedTo :Event_CityThreatenedByHavoc .
+
+:Line_164 a owl:NamedIndividual, :Line ; :lineNumber 164 ; :canonicalReference "164"^^xsd:string .
+:TV_Line_164_en a :TranslationVariant ;
+:text "I sent messengers to summon you, out of everyone,"^^xsd:string ;
+:relatedTo :Line_164 ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :Motivation_TestLeadersByOffice .
+
+:Line_165 a owl:NamedIndividual, :Line ; :lineNumber 165 ; :canonicalReference "165"^^xsd:string .
+:TV_Line_165_en a :TranslationVariant ;
+:text "Since I’m quite aware that you’ve stayed loyal to Laius’ mighty throne."^^xsd:string ;
+:relatedTo :Line_165 ;
+:hasTheme :Theme_LeadershipAndLaw .
+
+:Line_166 a owl:NamedIndividual, :Line ; :lineNumber 166 ; :canonicalReference "166"^^xsd:string .
+:TV_Line_166_en a :TranslationVariant ;
+:text "When Oedipus was at the helm, you were unwavering,"^^xsd:string ;
+:relatedTo :Line_166 ;
+:hasTheme :Theme_LeadershipAndLaw .
+
+:Line_167 a owl:NamedIndividual, :Line ; :lineNumber 167 ; :canonicalReference "167"^^xsd:string .
+:TV_Line_167_en a :TranslationVariant ;
+:text "And even now that he’s gone, you stand by that man and his children with hearts unchanged."^^xsd:string ;
+:relatedTo :Line_167 ;
+:hasTheme :Theme_LeadershipAndLaw .
+
+:Line_168 a owl:NamedIndividual, :Line ; :lineNumber 168 ; :canonicalReference "168"^^xsd:string .
+:TV_Line_168_en a :TranslationVariant ;
+:text "Since those two in a single day died by a double fate,"^^xsd:string ;
+:relatedTo :Line_168 ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:relatedTo :Event_BrothersMutualKilling .
+
+:Line_169 a owl:NamedIndividual, :Line ; :lineNumber 169 ; :canonicalReference "169"^^xsd:string .
+:TV_Line_169_en a :TranslationVariant ;
+:text "Each one stuck and skewered by the other’s bloody hand,"^^xsd:string ;
+:relatedTo :Line_169 ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:relatedTo :Event_BrothersMutualKilling .
+
+:Line_170 a owl:NamedIndividual, :Line ; :lineNumber 170 ; :canonicalReference "170"^^xsd:string .
+:TV_Line_170_en a :TranslationVariant ;
+:text "I now wield the full power of the throne as next of kin to those fallen brothers."^^xsd:string ;
+:relatedTo :Line_170 ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :Event_CreonAccession .
+
+:Line_171 a owl:NamedIndividual, :Line ; :lineNumber 171 ; :canonicalReference "171"^^xsd:string .
+:TV_Line_171_en a :TranslationVariant ;
+:text "But you never really know the heart, mind, and soul of a man until the day you watch him rule."^^xsd:string ;
+:relatedTo :Line_171 ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :Motivation_TestLeadersByOffice .
+
+:Line_172 a owl:NamedIndividual, :Line ; :lineNumber 172 ; :canonicalReference "172"^^xsd:string .
+:TV_Line_172_en a :TranslationVariant ;
+:text "In my eyes, the worst kind of leader is the one who rules without clear intentions,"^^xsd:string ;
+:relatedTo :Line_172 ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :EthicalPrinciple_LawfulGovernance .
+
+:Line_173 a owl:NamedIndividual, :Line ; :lineNumber 173 ; :canonicalReference "173"^^xsd:string .
+:TV_Line_173_en a :TranslationVariant ;
+:text "Who holds his tongue whenever he’s afraid—now and always, that’s the lowest kind."^^xsd:string ;
+:relatedTo :Line_173 ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:hasConflict :Conflict_FearSilenceVsBestCounsel ;
+:relatedTo :EthicalPrinciple_FrankCounsel .
+
+:Line_174 a owl:NamedIndividual, :Line ; :lineNumber 174 ; :canonicalReference "174"^^xsd:string .
+:TV_Line_174_en a :TranslationVariant ;
+:text "Likewise I have nothing to say for leaders who put their friends before their country."^^xsd:string ;
+:relatedTo :Line_174 ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:hasConflict :Conflict_FriendVsFatherland ;
+:relatedTo :MoralDecision_PrioritizeCityOverPrivateFriendship .
+
+:Line_175 a owl:NamedIndividual, :Line ; :lineNumber 175 ; :canonicalReference "175"^^xsd:string .
+:TV_Line_175_en a :TranslationVariant ;
+:text "Be my witness, all-seeing Zeus:"^^xsd:string ;
+:relatedTo :Line_175 ;
+:referencesMyth :Myth_ZeusAllSeeing ;
+:hasTheme :Theme_LeadershipAndLaw .
+
+:Line_176 a owl:NamedIndividual, :Line ; :lineNumber 176 ; :canonicalReference "176"^^xsd:string .
+:TV_Line_176_en a :TranslationVariant ;
+:text "I would never stay silent if I saw trouble threatening the safety of our society."^^xsd:string ;
+:relatedTo :Line_176 ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:hasConflict :Conflict_FearSilenceVsBestCounsel ;
+:relatedTo :MoralDecision_SpeakAgainstRuin .
+
+:Line_177 a owl:NamedIndividual, :Line ; :lineNumber 177 ; :canonicalReference "177"^^xsd:string .
+:TV_Line_177_en a :TranslationVariant ;
+:text "I would never make friends with my country’s enemies, for I know that she is our common protector,"^^xsd:string ;
+:relatedTo :Line_177 ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:relatedTo :EthicalPrinciple_Patriotism .
+
+:Line_178 a owl:NamedIndividual, :Line ; :lineNumber 178 ; :canonicalReference "178"^^xsd:string .
+:TV_Line_178_en a :TranslationVariant ;
+:text "And that we can consider only our fellow shipmates true friends."^^xsd:string ;
+:relatedTo :Line_178 ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:relatedTo :EthicalPrinciple_Patriotism .
+
+:Line_179 a owl:NamedIndividual, :Line ; :lineNumber 179 ; :canonicalReference "179"^^xsd:string .
+:TV_Line_179_en a :TranslationVariant ;
+:text "According to these principles I will glorify our city."^^xsd:string ;
+:relatedTo :Line_179 ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :Motivation_GovernCitySafely .
+
+:Line_180 a owl:NamedIndividual, :Line ; :lineNumber 180 ; :canonicalReference "180"^^xsd:string .
+:TV_Line_180_en a :TranslationVariant ;
+:text "With them in mind I’ve already made a public decree"^^xsd:string ;
+:relatedTo :Line_180 ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :MoralDecision_PublicDecreePrinciples .
+
+:Line_181 a owl:NamedIndividual, :Line ; :lineNumber 181 ; :canonicalReference "181"^^xsd:string .
+:TV_Line_181_en a :TranslationVariant ; :text ""^^xsd:string ; :relatedTo :Line_181 .
+
+:Line_182 a owl:NamedIndividual, :Line ; :lineNumber 182 ; :canonicalReference "182"^^xsd:string .
+:TV_Line_182_en a :TranslationVariant ; :text ""^^xsd:string ; :relatedTo :Line_182 .
+
+:Line_183 a owl:NamedIndividual, :Line ; :lineNumber 183 ; :canonicalReference "183"^^xsd:string .
+:TV_Line_183_en a :TranslationVariant ; :text ""^^xsd:string ; :relatedTo :Line_183 .
+
+:Line_184 a owl:NamedIndividual, :Line ; :lineNumber 184 ; :canonicalReference "184"^^xsd:string .
+:TV_Line_184_en a :TranslationVariant ; :text ""^^xsd:string ; :relatedTo :Line_184 .
+
+:Line_185 a owl:NamedIndividual, :Line ; :lineNumber 185 ; :canonicalReference "185"^^xsd:string .
+:TV_Line_185_en a :TranslationVariant ; :text ""^^xsd:string ; :relatedTo :Line_185 .
+
+:Line_186 a owl:NamedIndividual, :Line ; :lineNumber 186 ; :canonicalReference "186"^^xsd:string .
+:TV_Line_186_en a :TranslationVariant ; :text ""^^xsd:string ; :relatedTo :Line_186 .
+
+:Line_187 a owl:NamedIndividual, :Line ; :lineNumber 187 ; :canonicalReference "187"^^xsd:string .
+:TV_Line_187_en a :TranslationVariant ; :text ""^^xsd:string ; :relatedTo :Line_187 .
+
+:Line_188 a owl:NamedIndividual, :Line ; :lineNumber 188 ; :canonicalReference "188"^^xsd:string .
+:TV_Line_188_en a :TranslationVariant ; :text ""^^xsd:string ; :relatedTo :Line_188 .
+
+:Line_189 a owl:NamedIndividual, :Line ; :lineNumber 189 ; :canonicalReference "189"^^xsd:string .
+:TV_Line_189_en a :TranslationVariant ; :text ""^^xsd:string ; :relatedTo :Line_189 .
+
+:Line_190 a owl:NamedIndividual, :Line ; :lineNumber 190 ; :canonicalReference "190"^^xsd:string .
+:TV_Line_190_en a :TranslationVariant ; :text ""^^xsd:string ; :relatedTo :Line_190 .
+
+:Line_191 a owl:NamedIndividual, :Line ; :lineNumber 191 ; :canonicalReference "191"^^xsd:string .
+:TV_Line_191_en a :TranslationVariant ; :text ""^^xsd:string ; :relatedTo :Line_191 .
+
+:Line_192 a owl:NamedIndividual, :Line ; :lineNumber 192 ; :canonicalReference "192"^^xsd:string .
+:TV_Line_192_en a :TranslationVariant ; :text ""^^xsd:string ; :relatedTo :Line_192 .

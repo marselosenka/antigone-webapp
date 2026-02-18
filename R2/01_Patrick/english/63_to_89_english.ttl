@@ -1,0 +1,337 @@
+```turtle
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_Dialogue_63_89
+a :Scene ;
+:sceneNumber "Dialogue 63-89"^^xsd:string ;
+:hasSpeech :Speech_Ismene_63_68, :Speech_Antigone_69_77, :Speech_Ismene_78_79, :Speech_Antigone_80_81, :Speech_Ismene_82, :Speech_Antigone_83, :Speech_Ismene_84_85, :Speech_Antigone_86_87, :Speech_Ismene_88, :Speech_Antigone_89 ;
+:developsTheme :Theme_ObedienceToPower, :Theme_BurialDuty, :Theme_DivineHonorForDead, :Theme_DeathAsHonor, :Theme_LoyaltyToUnderworld, :Theme_GenderConstraint, :Theme_SecrecyVsProclamation ;
+:hasConflict :Conflict_DivineHonorVsCivicOrder, :Conflict_SecrecyVsProclamation, :Conflict_GenderConstraintVsAgency .
+
+:Antigone_Character_Antigone
+a :Character ;
+:hasMotivation :Motivation_BuryBrother, :Motivation_PleaseGodsOfDeath, :Motivation_PublicizeDeed ;
+:makesMoralDecision :MoralDecision_BuryBrotherAndAcceptDeath ;
+:advocatesFor :EthicalPrinciple_DivineHonorForDead ;
+:violatesLaw :Law_CivicOrder ;
+:experiencesEmotion :Emotion_DefiantResolve, :Emotion_ReverentPiety, :Emotion_MoralCertainty .
+
+:Antigone_Character_Ismene
+a :Character ;
+:hasMotivation :Motivation_SubmitToPower, :Motivation_AvoidMeddling, :Motivation_KeepDeedSecret, :Motivation_ProtectSister ;
+:makesMoralDecision :MoralDecision_ObeyPower, :MoralDecision_RequestSecrecy ;
+:experiencesEmotion :Emotion_Resignation, :Emotion_FearForAntigone, :Emotion_Worry .
+
+:Antigone_Character_Brother
+a :Character ;
+:description "The brother whose corpse Antigone intends to bury."^^xsd:string .
+
+:Law_CivicOrder
+a :Law ;
+:description "The civic order enforced by the stronger/men in power; forbids the burial act and punishes meddling/defiance."^^xsd:string .
+
+:EthicalPrinciple_DivineHonorForDead
+a :EthicalPrinciple ;
+:description "What the gods honor must not be dishonored; the dead deserve holy rites and respect."^^xsd:string .
+
+:Myth_GodsOfDeath
+a :MythologicalBackground ;
+:description "Reference to the gods of death/underworld powers invoked for mercy and approval."^^xsd:string .
+
+:Motivation_SubmitToPower
+a :Motivation ;
+:description "To obey those in power because the city is ruled by whoever is stronger."^^xsd:string ;
+:relatedTo :Law_CivicOrder .
+
+:Motivation_AvoidMeddling
+a :Motivation ;
+:description "To avoid meddling where one does not belong, accepting imposed circumstances."^^xsd:string ;
+:relatedTo :Law_CivicOrder .
+
+:Motivation_ProtectSister
+a :Motivation ;
+:description "To protect Antigone by expressing fear for her and urging caution."^^xsd:string .
+
+:Motivation_BuryBrother
+a :Motivation ;
+:description "To bury the brother’s corpse even without Ismene’s help."^^xsd:string ;
+:relatedTo :Antigone_Character_Brother ;
+:relatedTo :Law_CivicOrder .
+
+:Motivation_PleaseGodsOfDeath
+a :Motivation ;
+:description "To please the gods of death more than men on Earth, valuing the underworld over the living."^^xsd:string ;
+:relatedTo :Myth_GodsOfDeath ;
+:relatedTo :EthicalPrinciple_DivineHonorForDead .
+
+:Motivation_KeepDeedSecret
+a :Motivation ;
+:description "To conceal the deed and tell no one, keeping it secret."^^xsd:string .
+
+:Motivation_PublicizeDeed
+a :Motivation ;
+:description "To spread the word publicly so the deed is proclaimed to all rather than hidden."^^xsd:string .
+
+:MoralDecision_ObeyPower
+a :MoralDecision ;
+:description "Decision to obey those in power and accept the order and worse."^^xsd:string ;
+:relatedTo :Law_CivicOrder ;
+:relatedTo :Motivation_SubmitToPower .
+
+:MoralDecision_RequestSecrecy
+a :MoralDecision ;
+:description "Decision to keep the deed secret and disclose it to no one."^^xsd:string ;
+:relatedTo :Motivation_KeepDeedSecret .
+
+:MoralDecision_BuryBrotherAndAcceptDeath
+a :MoralDecision ;
+:description "Decision to bury the brother and accept death as a beautiful/honorable consequence, prioritizing the gods of death over men."^^xsd:string ;
+:relatedTo :Motivation_BuryBrother ;
+:relatedTo :Motivation_PleaseGodsOfDeath ;
+:relatedTo :Antigone_Character_Brother ;
+:relatedTo :Law_CivicOrder ;
+:relatedTo :EthicalPrinciple_DivineHonorForDead .
+
+:Emotion_Resignation
+a :Emotion ;
+:description "Resigned acceptance of being bound by circumstances and obeying those in power."^^xsd:string .
+
+:Emotion_FearForAntigone
+a :Emotion ;
+:description "Fear for Antigone’s safety because of the dangerous deed."^^xsd:string .
+
+:Emotion_Worry
+a :Emotion ;
+:description "Anxious concern urging secrecy and caution."^^xsd:string .
+
+:Emotion_DefiantResolve
+a :Emotion ;
+:description "Defiant resolve to proceed alone and reject help, choosing burial despite the order."^^xsd:string .
+
+:Emotion_ReverentPiety
+a :Emotion ;
+:description "God-fearing piety framing the deed as oriented toward divine approval."^^xsd:string .
+
+:Emotion_MoralCertainty
+a :Emotion ;
+:description "Certainty that she is doing the right thing for those who matter most."^^xsd:string .
+
+:Theme_ObedienceToPower
+a :Theme ;
+:description "Obedience to whoever is stronger and to those in power."^^xsd:string .
+
+:Theme_BurialDuty
+a :Theme ;
+:description "Burial of the brother as an obligation and act of loyalty."^^xsd:string .
+
+:Theme_DivineHonorForDead
+a :Theme ;
+:description "Divine honors for the dead versus human orders."^^xsd:string .
+
+:Theme_DeathAsHonor
+a :Theme ;
+:description "Dying in the act framed as beautiful/honorable."^^xsd:string .
+
+:Theme_LoyaltyToUnderworld
+a :Theme ;
+:description "Prioritizing the gods of death and the underworld over earthly authority."^^xsd:string .
+
+:Theme_GenderConstraint
+a :Theme ;
+:description "Women’s political powerlessness contrasted with men’s control of the city."^^xsd:string .
+
+:Theme_SecrecyVsProclamation
+a :Theme ;
+:description "Tension between keeping the deed secret and proclaiming it publicly."^^xsd:string .
+
+:Conflict_DivineHonorVsCivicOrder
+a :Conflict ;
+:description "Conflict between what the gods honor and the civic order enforced by those in power."^^xsd:string ;
+:conflictBetween :EthicalPrinciple_DivineHonorForDead, :Law_CivicOrder .
+
+:Conflict_SecrecyVsProclamation
+a :Conflict ;
+:description "Conflict between Ismene’s insistence on secrecy and Antigone’s demand to tell everyone."^^xsd:string ;
+:conflictBetween :Motivation_KeepDeedSecret, :Motivation_PublicizeDeed .
+
+:Conflict_GenderConstraintVsAgency
+a :Conflict ;
+:description "Conflict between gendered exclusion from civic power and the intention to act decisively anyway."^^xsd:string ;
+:conflictBetween :Theme_GenderConstraint, :Theme_BurialDuty .
+
+:Speech_Ismene_63_68
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_063, :Line_064, :Line_065, :Line_066, :Line_067, :Line_068 ;
+:hasTheme :Theme_ObedienceToPower ;
+:hasConflict :Conflict_DivineHonorVsCivicOrder .
+
+:Speech_Antigone_69_77
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_069, :Line_070, :Line_071, :Line_072, :Line_073, :Line_074, :Line_075, :Line_076, :Line_077 ;
+:hasTheme :Theme_BurialDuty, :Theme_DeathAsHonor, :Theme_LoyaltyToUnderworld, :Theme_DivineHonorForDead ;
+:hasConflict :Conflict_DivineHonorVsCivicOrder .
+
+:Speech_Ismene_78_79
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_078, :Line_079 ;
+:hasTheme :Theme_GenderConstraint, :Theme_ObedienceToPower ;
+:hasConflict :Conflict_GenderConstraintVsAgency .
+
+:Speech_Antigone_80_81
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_080, :Line_081 ;
+:hasTheme :Theme_BurialDuty .
+
+:Speech_Ismene_82
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_082 ;
+:hasTheme :Theme_ObedienceToPower .
+
+:Speech_Antigone_83
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_083 ;
+:hasTheme :Theme_DeathAsHonor .
+
+:Speech_Ismene_84_85
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_084, :Line_085 ;
+:hasTheme :Theme_SecrecyVsProclamation ;
+:hasConflict :Conflict_SecrecyVsProclamation .
+
+:Speech_Antigone_86_87
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_086, :Line_087 ;
+:hasTheme :Theme_SecrecyVsProclamation ;
+:hasConflict :Conflict_SecrecyVsProclamation .
+
+:Speech_Ismene_88
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_088 ;
+:hasTheme :Theme_SecrecyVsProclamation .
+
+:Speech_Antigone_89
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_089 ;
+:hasTheme :Theme_DivineHonorForDead, :Theme_LoyaltyToUnderworld .
+
+:Line_063 a :Line ; :lineNumber 63 ; :canonicalReference "63"^^xsd:string .
+:TV_Line_063_en a :TranslationVariant ; :text "We are ruled by whoever’s stronger,"^^xsd:string ; :relatedTo :Line_063 .
+:Line_063 :hasTheme :Theme_ObedienceToPower .
+
+:Line_064 a :Line ; :lineNumber 64 ; :canonicalReference "64"^^xsd:string .
+:TV_Line_064_en a :TranslationVariant ; :text "And as a result we must obey this order and worse."^^xsd:string ; :relatedTo :Line_064 .
+:Line_064 :hasTheme :Theme_ObedienceToPower ; :relatedTo :Law_CivicOrder .
+
+:Line_065 a :Line ; :lineNumber 65 ; :canonicalReference "65"^^xsd:string .
+:TV_Line_065_en a :TranslationVariant ; :text "I am bound by these circumstances—"^^xsd:string ; :relatedTo :Line_065 .
+:Line_065 :hasTheme :Theme_ObedienceToPower .
+
+:Line_066 a :Line ; :lineNumber 66 ; :canonicalReference "66"^^xsd:string .
+:TV_Line_066_en a :TranslationVariant ; :text "Even as I beg the gods of death for mercy,"^^xsd:string ; :relatedTo :Line_066 .
+:Line_066 :hasTheme :Theme_LoyaltyToUnderworld ; :referencesMyth :Myth_GodsOfDeath .
+
+:Line_067 a :Line ; :lineNumber 67 ; :canonicalReference "67"^^xsd:string .
+:TV_Line_067_en a :TranslationVariant ; :text "I will obey those in power; there’s no sense"^^xsd:string ; :relatedTo :Line_067 .
+:Line_067 :hasTheme :Theme_ObedienceToPower ; :relatedTo :Motivation_SubmitToPower .
+
+:Line_068 a :Line ; :lineNumber 68 ; :canonicalReference "68"^^xsd:string .
+:TV_Line_068_en a :TranslationVariant ; :text "In meddling where you don’t belong."^^xsd:string ; :relatedTo :Line_068 .
+:Line_068 :hasTheme :Theme_ObedienceToPower ; :relatedTo :Motivation_AvoidMeddling .
+
+:Line_069 a :Line ; :lineNumber 69 ; :canonicalReference "69"^^xsd:string .
+:TV_Line_069_en a :TranslationVariant ; :text "I’m not going to force you, but even if you change"^^xsd:string ; :relatedTo :Line_069 .
+:Line_069 :hasTheme :Theme_BurialDuty .
+
+:Line_070 a :Line ; :lineNumber 70 ; :canonicalReference "70"^^xsd:string .
+:TV_Line_070_en a :TranslationVariant ; :text "Your mind, I won’t accept your help now."^^xsd:string ; :relatedTo :Line_070 .
+:Line_070 :hasTheme :Theme_BurialDuty ; :hasConflict :Conflict_SecrecyVsProclamation .
+
+:Line_071 a :Line ; :lineNumber 71 ; :canonicalReference "71"^^xsd:string .
+:TV_Line_071_en a :TranslationVariant ; :text "Do what you think is right; I will bury him."^^xsd:string ; :relatedTo :Line_071 .
+:Line_071 :hasTheme :Theme_BurialDuty ; :relatedTo :Motivation_BuryBrother .
+
+:Line_072 a :Line ; :lineNumber 72 ; :canonicalReference "72"^^xsd:string .
+:TV_Line_072_en a :TranslationVariant ; :text "It’s a beautiful thing, to die in this act."^^xsd:string ; :relatedTo :Line_072 .
+:Line_072 :hasTheme :Theme_DeathAsHonor ; :relatedTo :MoralDecision_BuryBrotherAndAcceptDeath .
+
+:Line_073 a :Line ; :lineNumber 73 ; :canonicalReference "73"^^xsd:string .
+:TV_Line_073_en a :TranslationVariant ; :text "With him I will rest, beloved with beloved,"^^xsd:string ; :relatedTo :Line_073 .
+:Line_073 :hasTheme :Theme_LoyaltyToUnderworld ; :relatedTo :Antigone_Character_Brother .
+
+:Line_074 a :Line ; :lineNumber 74 ; :canonicalReference "74"^^xsd:string .
+:TV_Line_074_en a :TranslationVariant ; :text "And I will be a god-fearing criminal. I need to please"^^xsd:string ; :relatedTo :Line_074 .
+:Line_074 :hasTheme :Theme_DivineHonorForDead ; :referencesMyth :Myth_GodsOfDeath .
+
+:Line_075 a :Line ; :lineNumber 75 ; :canonicalReference "75"^^xsd:string .
+:TV_Line_075_en a :TranslationVariant ; :text "The gods of death more than the men on Earth,"^^xsd:string ; :relatedTo :Line_075 .
+:Line_075 :hasTheme :Theme_LoyaltyToUnderworld ; :referencesMyth :Myth_GodsOfDeath ; :hasConflict :Conflict_DivineHonorVsCivicOrder .
+
+:Line_076 a :Line ; :lineNumber 76 ; :canonicalReference "76"^^xsd:string .
+:TV_Line_076_en a :TranslationVariant ; :text "As I will rest below forever. But if you think it best,"^^xsd:string ; :relatedTo :Line_076 .
+:Line_076 :hasTheme :Theme_LoyaltyToUnderworld .
+
+:Line_077 a :Line ; :lineNumber 77 ; :canonicalReference "77"^^xsd:string .
+:TV_Line_077_en a :TranslationVariant ; :text "Go ahead and dishonor what the gods honor."^^xsd:string ; :relatedTo :Line_077 .
+:Line_077 :hasTheme :Theme_DivineHonorForDead ; :hasConflict :Conflict_DivineHonorVsCivicOrder .
+
+:Line_078 a :Line ; :lineNumber 78 ; :canonicalReference "78"^^xsd:string .
+:TV_Line_078_en a :TranslationVariant ; :text "I’m not dishonoring anyone! And even still, I’m just a woman!"^^xsd:string ; :relatedTo :Line_078 .
+:Line_078 :hasTheme :Theme_GenderConstraint .
+
+:Line_079 a :Line ; :lineNumber 79 ; :canonicalReference "79"^^xsd:string .
+:TV_Line_079_en a :TranslationVariant ; :text "Only men get a say in how the city’s run, you know that."^^xsd:string ; :relatedTo :Line_079 .
+:Line_079 :hasTheme :Theme_GenderConstraint ; :hasTheme :Theme_ObedienceToPower ; :hasConflict :Conflict_GenderConstraintVsAgency .
+
+:Line_080 a :Line ; :lineNumber 80 ; :canonicalReference "80"^^xsd:string .
+:TV_Line_080_en a :TranslationVariant ; :text "You can make that your excuse—"^^xsd:string ; :relatedTo :Line_080 .
+:Line_080 :hasTheme :Theme_GenderConstraint .
+
+:Line_081 a :Line ; :lineNumber 81 ; :canonicalReference "81"^^xsd:string .
+:TV_Line_081_en a :TranslationVariant ; :text "I will bury my brother."^^xsd:string ; :relatedTo :Line_081 .
+:Line_081 :hasTheme :Theme_BurialDuty ; :relatedTo :Motivation_BuryBrother .
+
+:Line_082 a :Line ; :lineNumber 82 ; :canonicalReference "82"^^xsd:string .
+:TV_Line_082_en a :TranslationVariant ; :text "Oh my poor sister, I’m so afraid for you!"^^xsd:string ; :relatedTo :Line_082 .
+:Line_082 :hasTheme :Theme_SecrecyVsProclamation ; :relatedTo :Motivation_ProtectSister .
+
+:Line_083 a :Line ; :lineNumber 83 ; :canonicalReference "83"^^xsd:string .
+:TV_Line_083_en a :TranslationVariant ; :text "Don’t fear for me! Sort your own fate out!"^^xsd:string ; :relatedTo :Line_083 .
+:Line_083 :hasTheme :Theme_DeathAsHonor .
+
+:Line_084 a :Line ; :lineNumber 84 ; :canonicalReference "84"^^xsd:string .
+:TV_Line_084_en a :TranslationVariant ; :text "You mustn’t tell anyone what you’re doing—"^^xsd:string ; :relatedTo :Line_084 .
+:Line_084 :hasTheme :Theme_SecrecyVsProclamation ; :hasConflict :Conflict_SecrecyVsProclamation .
+
+:Line_085 a :Line ; :lineNumber 85 ; :canonicalReference "85"^^xsd:string .
+:TV_Line_085_en a :TranslationVariant ; :text "Keep it secret, and I will, too."^^xsd:string ; :relatedTo :Line_085 .
+:Line_085 :hasTheme :Theme_SecrecyVsProclamation ; :hasConflict :Conflict_SecrecyVsProclamation .
+
+:Line_086 a :Line ; :lineNumber 86 ; :canonicalReference "86"^^xsd:string .
+:TV_Line_086_en a :TranslationVariant ; :text "Oh, on the contrary! Tell them all! If you don’t spread the word"^^xsd:string ; :relatedTo :Line_086 .
+:Line_086 :hasTheme :Theme_SecrecyVsProclamation ; :hasConflict :Conflict_SecrecyVsProclamation ; :relatedTo :Motivation_PublicizeDeed .
+
+:Line_087 a :Line ; :lineNumber 87 ; :canonicalReference "87"^^xsd:string .
+:TV_Line_087_en a :TranslationVariant ; :text "To everyone, they will hate you even more for biting your tongue."^^xsd:string ; :relatedTo :Line_087 .
+:Line_087 :hasTheme :Theme_SecrecyVsProclamation ; :hasConflict :Conflict_SecrecyVsProclamation .
+
+:Line_088 a :Line ; :lineNumber 88 ; :canonicalReference "88"^^xsd:string .
+:TV_Line_088_en a :TranslationVariant ; :text "Your heart is hot for chilling deeds."^^xsd:string ; :relatedTo :Line_088 .
+:Line_088 :hasTheme :Theme_DeathAsHonor .
+
+:Line_089 a :Line ; :lineNumber 89 ; :canonicalReference "89"^^xsd:string .
+:TV_Line_089_en a :TranslationVariant ; :text "But I know that, to those who matter most, I’m doing the right thing."^^xsd:string ; :relatedTo :Line_089 .
+:Line_089 :hasTheme :Theme_DivineHonorForDead ; :hasTheme :Theme_LoyaltyToUnderworld .
+```

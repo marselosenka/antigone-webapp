@@ -1,0 +1,327 @@
+@prefix : [http://example.org/antigone#](http://example.org/antigone#) .
+@prefix owl: [http://www.w3.org/2002/07/owl#](http://www.w3.org/2002/07/owl#) .
+@prefix rdfs: [http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#) .
+@prefix xsd: [http://www.w3.org/2001/XMLSchema#](http://www.w3.org/2001/XMLSchema#) .
+
+################################################################
+
+# SCENE AND SPEECH STRUCTURE
+
+################################################################
+
+:Antigone_Scene_CreonProclamation_163_192
+a owl:NamedIndividual, :Scene ;
+:sceneNumber "Creon.Proclamation"^^xsd:string ;
+:hasSpeech :Speech_Creon_163_192 ;
+:developsTheme :Theme_CivicStabilityAfterCrisis, :Theme_PatriotismAbovePersonalTies, :Theme_LeadershipAndLaw ;
+:hasConflict :Conflict_FriendVsFatherland, :Conflict_FearSilenceVsBestCounsel .
+
+:Speech_Creon_163_192
+a owl:NamedIndividual, :Speech ;
+:speechBy :Antigone_Character_Creon ;
+:containsLine
+:Line_163, :Line_164, :Line_165, :Line_166, :Line_167, :Line_168, :Line_169, :Line_170,
+:Line_171, :Line_172, :Line_173, :Line_174, :Line_175, :Line_176, :Line_177, :Line_178,
+:Line_179, :Line_180, :Line_181, :Line_182, :Line_183, :Line_184, :Line_185, :Line_186,
+:Line_187, :Line_188, :Line_189, :Line_190, :Line_191, :Line_192 ;
+:developsTheme :Theme_CivicStabilityAfterCrisis, :Theme_PatriotismAbovePersonalTies, :Theme_LeadershipAndLaw ;
+:referencesMyth :Myth_ZeusAllSeeing .
+
+################################################################
+
+# CHARACTERS
+
+################################################################
+
+:Antigone_Character_Creon
+a owl:NamedIndividual, :Character ;
+:hasMotivation :Motivation_GovernCitySafely, :Motivation_TestLeadersByOffice ;
+:makesMoralDecision :MoralDecision_PrioritizeCityOverPrivateFriendship, :MoralDecision_SpeakAgainstRuin ;
+:advocatesFor :EthicalPrinciple_Patriotism, :EthicalPrinciple_FrankCounsel, :EthicalPrinciple_LawfulGovernance ;
+:experiencesEmotion :Emotion_ResolveToProtectCity .
+
+################################################################
+
+# MOTIVATIONS, DECISIONS, PRINCIPLES, EMOTIONS, CONFLICTS, THEMES, MYTHS, EVENTS
+
+################################################################
+
+:Motivation_GovernCitySafely
+a :Motivation ;
+:description "To secure the city’s stability after upheaval and to strengthen it through laws and governance."^^xsd:string .
+
+:Motivation_TestLeadersByOffice
+a :Motivation ;
+:description "To judge a man’s character only after he is seen tested in office and laws."^^xsd:string .
+
+:MoralDecision_PrioritizeCityOverPrivateFriendship
+a :MoralDecision ;
+:description "To place the fatherland above private ties and refuse to value a friend over the city."^^xsd:string .
+
+:MoralDecision_SpeakAgainstRuin
+a :MoralDecision ;
+:description "To refuse silence when ruin approaches the citizens instead of salvation."^^xsd:string .
+
+:EthicalPrinciple_Patriotism
+a :EthicalPrinciple ;
+:description "The city’s safety is the basis of friendship and must come before personal attachments."^^xsd:string .
+
+:EthicalPrinciple_FrankCounsel
+a :EthicalPrinciple ;
+:description "A ruler must embrace the best counsels and reject fear-driven silence."^^xsd:string .
+
+:EthicalPrinciple_LawfulGovernance
+a :EthicalPrinciple ;
+:description "A leader must be proved in offices and laws; governance should follow lawful order."^^xsd:string .
+
+:Emotion_ResolveToProtectCity
+a :Emotion ;
+:description "Firm resolve to protect the city, value sound counsel, and uphold civic safety."^^xsd:string .
+
+:Conflict_FriendVsFatherland
+a :Conflict ;
+:description "Conflict between valuing private friendship and prioritizing the fatherland as supreme loyalty."^^xsd:string ;
+:conflictBetween :EthicalPrinciple_Patriotism, :EthicalPrinciple_LawfulGovernance .
+
+:Conflict_FearSilenceVsBestCounsel
+a :Conflict ;
+:description "Conflict between fear-induced silence and the duty to adopt the best counsels for the city."^^xsd:string ;
+:conflictBetween :EthicalPrinciple_FrankCounsel, :MoralDecision_SpeakAgainstRuin .
+
+:Theme_CivicStabilityAfterCrisis
+a :Theme ;
+:description "The city is restored after great turmoil and must be kept secure through leadership."^^xsd:string .
+
+:Theme_PatriotismAbovePersonalTies
+a :Theme ;
+:description "The fatherland’s safety outweighs private bonds; friendships depend on the city’s preservation."^^xsd:string .
+
+:Theme_LeadershipAndLaw
+a :Theme ;
+:description "True character is shown when tested in office and laws; leadership requires sound counsel and lawful governance."^^xsd:string .
+
+:Myth_ZeusAllSeeing
+a :MythologicalBackground ;
+:description "Zeus invoked as the ever-seeing witness to Creon’s stance and declarations."^^xsd:string .
+
+:Event_BrothersDeathPollution
+a owl:NamedIndividual, owl:Thing ;
+:description "The sons perish in one day, striking and being struck by their own hands, bringing pollution."^^xsd:string ;
+:relatedTo :MoralDecision_PrioritizeCityOverPrivateFriendship .
+
+:Event_CreonAccession
+a owl:NamedIndividual, owl:Thing ;
+:description "Creon holds the power and throne by kinship after the death of the former rulers’ children."^^xsd:string ;
+:relatedTo :Event_BrothersDeathPollution ;
+:relatedTo :Motivation_GovernCitySafely .
+
+################################################################
+
+# CANONICAL LINES (Ancient Greek)
+
+################################################################
+
+:Line_163 a owl:NamedIndividual, :Line ;
+:lineNumber 163 ;
+:canonicalReference "163"^^xsd:string ;
+:text "Ἄνδρες, τὰ μὲν δὴ πόλεος ἀσφαλῶς θεοὶ"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis .
+
+:Line_164 a owl:NamedIndividual, :Line ;
+:lineNumber 164 ;
+:canonicalReference "164"^^xsd:string ;
+:text "πολλῷ σάλῳ σείσαντες ὤρθωσαν πάλιν·"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis .
+
+:Line_165 a owl:NamedIndividual, :Line ;
+:lineNumber 165 ;
+:canonicalReference "165"^^xsd:string ;
+:text "ὑμᾶς δ ̓ ἐγὼ πομποῖσιν ἐκ πάντων δίχα"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :Motivation_TestLeadersByOffice .
+
+:Line_166 a owl:NamedIndividual, :Line ;
+:lineNumber 166 ;
+:canonicalReference "166"^^xsd:string ;
+:text "ἔστειλ ̓ ἱκέσθαι, τοῦτο μὲν τὰ Λαΐου"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw .
+
+:Line_167 a owl:NamedIndividual, :Line ;
+:lineNumber 167 ;
+:canonicalReference "167"^^xsd:string ;
+:text "σέβοντας εἰδὼς εὖ θρόνων ἀεὶ κράτη,"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw .
+
+:Line_168 a owl:NamedIndividual, :Line ;
+:lineNumber 168 ;
+:canonicalReference "168"^^xsd:string ;
+:text "τοῦτ ̓ αὖθις, ἡνίκ ̓ Οἰδίπους ὤρθου πόλιν,"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis .
+
+:Line_169 a owl:NamedIndividual, :Line ;
+:lineNumber 169 ;
+:canonicalReference "169"^^xsd:string ;
+:text "κἀπεὶ διώλετ ̓, ἀμφὶ τοὺς κείνων ἔτι"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:relatedTo :Event_CreonAccession .
+
+:Line_170 a owl:NamedIndividual, :Line ;
+:lineNumber 170 ;
+:canonicalReference "170"^^xsd:string ;
+:text "παῖδας μένοντας ἐμπέδοις φρονήμασιν."^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw .
+
+:Line_171 a owl:NamedIndividual, :Line ;
+:lineNumber 171 ;
+:canonicalReference "171"^^xsd:string ;
+:text "Ὅτ ̓ οὖν ἐκεῖνοι πρὸς διπλῆς μοίρας μίαν"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:relatedTo :Event_BrothersDeathPollution .
+
+:Line_172 a owl:NamedIndividual, :Line ;
+:lineNumber 172 ;
+:canonicalReference "172"^^xsd:string ;
+:text "καθ ̓ ἡμέραν ὤλοντο παίσαντές τε καὶ"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:relatedTo :Event_BrothersDeathPollution .
+
+:Line_173 a owl:NamedIndividual, :Line ;
+:lineNumber 173 ;
+:canonicalReference "173"^^xsd:string ;
+:text "πληγέντες αὐτόχειρι σὺν μιάσματι,"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:relatedTo :Event_BrothersDeathPollution .
+
+:Line_174 a owl:NamedIndividual, :Line ;
+:lineNumber 174 ;
+:canonicalReference "174"^^xsd:string ;
+:text "ἐγὼ κράτη δὴ πάντα καὶ θρόνους ἔχω"^^xsd:string ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :Event_CreonAccession .
+
+:Line_175 a owl:NamedIndividual, :Line ;
+:lineNumber 175 ;
+:canonicalReference "175"^^xsd:string ;
+:text "γένους κατ ̓ ἀγχιστεῖα τῶν ὀλωλότων."^^xsd:string ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :Event_CreonAccession .
+
+:Line_176 a owl:NamedIndividual, :Line ;
+:lineNumber 176 ;
+:canonicalReference "176"^^xsd:string ;
+:text "Ἀμήχανον δὲ παντὸς ἀνδρὸς ἐκμαθεῖν"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :Motivation_TestLeadersByOffice .
+
+:Line_177 a owl:NamedIndividual, :Line ;
+:lineNumber 177 ;
+:canonicalReference "177"^^xsd:string ;
+:text "ψυχήν τε καὶ φρόνημα καὶ γνώμην, πρὶν ἂν"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :Motivation_TestLeadersByOffice .
+
+:Line_178 a owl:NamedIndividual, :Line ;
+:lineNumber 178 ;
+:canonicalReference "178"^^xsd:string ;
+:text "ἀρχαῖς τε καὶ νόμοισιν ἐντριβὴς φανῇ."^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :EthicalPrinciple_LawfulGovernance .
+
+:Line_179 a owl:NamedIndividual, :Line ;
+:lineNumber 179 ;
+:canonicalReference "179"^^xsd:string ;
+:text "Ἐμοὶ γὰρ ὅστις πᾶσαν εὐθύνων πόλιν"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw .
+
+:Line_180 a owl:NamedIndividual, :Line ;
+:lineNumber 180 ;
+:canonicalReference "180"^^xsd:string ;
+:text "μὴ τῶν ἀρίστων ἅπτεται βουλευμάτων,"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :EthicalPrinciple_FrankCounsel .
+
+:Line_181 a owl:NamedIndividual, :Line ;
+:lineNumber 181 ;
+:canonicalReference "181"^^xsd:string ;
+:text "ἀλλ ̓ ἐκ φόβου του γλῶσσαν ἐγκλῄσας ἔχει,"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:hasConflict :Conflict_FearSilenceVsBestCounsel .
+
+:Line_182 a owl:NamedIndividual, :Line ;
+:lineNumber 182 ;
+:canonicalReference "182"^^xsd:string ;
+:text "κάκιστος εἶναι νῦν τε καὶ πάλαι δοκεῖ·"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :EthicalPrinciple_FrankCounsel .
+
+:Line_183 a owl:NamedIndividual, :Line ;
+:lineNumber 183 ;
+:canonicalReference "183"^^xsd:string ;
+:text "καὶ μείζον ̓ ὅστις ἀντὶ τῆς αὑτοῦ πάτρας"^^xsd:string ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:hasConflict :Conflict_FriendVsFatherland .
+
+:Line_184 a owl:NamedIndividual, :Line ;
+:lineNumber 184 ;
+:canonicalReference "184"^^xsd:string ;
+:text "φίλον νομίζει, τοῦτον οὐδαμοῦ λέγω."^^xsd:string ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:hasConflict :Conflict_FriendVsFatherland .
+
+:Line_185 a owl:NamedIndividual, :Line ;
+:lineNumber 185 ;
+:canonicalReference "185"^^xsd:string ;
+:text "Ἐγὼ γάρ, ἴστω Ζεὺς ὁ πάνθ ̓ ὁρῶν ἀεί,"^^xsd:string ;
+:referencesMyth :Myth_ZeusAllSeeing ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:relatedTo :MoralDecision_SpeakAgainstRuin .
+
+:Line_186 a owl:NamedIndividual, :Line ;
+:lineNumber 186 ;
+:canonicalReference "186"^^xsd:string ;
+:text "οὔτ ̓ ἂν σιωπήσαιμι τὴν ἄτην ὁρῶν"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:hasConflict :Conflict_FearSilenceVsBestCounsel ;
+:relatedTo :MoralDecision_SpeakAgainstRuin .
+
+:Line_187 a owl:NamedIndividual, :Line ;
+:lineNumber 187 ;
+:canonicalReference "187"^^xsd:string ;
+:text "στείχουσαν ἀστοῖς ἀντὶ τῆς σωτηρίας,"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:relatedTo :MoralDecision_SpeakAgainstRuin .
+
+:Line_188 a owl:NamedIndividual, :Line ;
+:lineNumber 188 ;
+:canonicalReference "188"^^xsd:string ;
+:text "οὔτ ̓ ἂν φίλον ποτ ̓ ἄνδρα δυσμενῆ χθονὸς"^^xsd:string ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:relatedTo :MoralDecision_PrioritizeCityOverPrivateFriendship .
+
+:Line_189 a owl:NamedIndividual, :Line ;
+:lineNumber 189 ;
+:canonicalReference "189"^^xsd:string ;
+:text "θείμην ἐμαυτῷ, τοῦτο γιγνώσκων ὅτι"^^xsd:string ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:relatedTo :MoralDecision_PrioritizeCityOverPrivateFriendship .
+
+:Line_190 a owl:NamedIndividual, :Line ;
+:lineNumber 190 ;
+:canonicalReference "190"^^xsd:string ;
+:text "ἥδ ̓ ἐστὶν ἡ σῴζουσα καὶ ταύτης ἔπι"^^xsd:string ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:relatedTo :EthicalPrinciple_Patriotism .
+
+:Line_191 a owl:NamedIndividual, :Line ;
+:lineNumber 191 ;
+:canonicalReference "191"^^xsd:string ;
+:text "πλέοντες ὀρθῆς τοὺς φίλους ποιούμεθα."^^xsd:string ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:relatedTo :EthicalPrinciple_Patriotism .
+
+:Line_192 a owl:NamedIndividual, :Line ;
+:lineNumber 192 ;
+:canonicalReference "192"^^xsd:string ;
+:text "τοιοῖσδ ̓ ἐγὼ νόμοισι τήνδ ̓ αὔξω πόλιν."^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :EthicalPrinciple_LawfulGovernance .

@@ -1,0 +1,386 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_Dialogue_63_89
+a :Scene ;
+:sceneNumber "Dialogue 63-89"^^xsd:string ;
+:hasSpeech :Speech_Ismene_63_68, :Speech_Antigone_69_77, :Speech_Ismene_78, :Speech_Antigone_79_80, :Speech_Ismene_81, :Speech_Antigone_82, :Speech_Ismene_83, :Speech_Antigone_84, :Speech_Ismene_85, :Speech_Antigone_86_87, :Speech_Ismene_88, :Speech_Antigone_89 ;
+:developsTheme :Theme_BurialDuty, :Theme_DivineLaw, :Theme_ObedienceToAuthority, :Theme_DeathAsHonor, :Theme_LoyaltyToDead, :Theme_SecrecyVsPublicDeclaration ;
+:hasConflict :Conflict_DivineLawVsCivicAuthority, :Conflict_SisterlyDivision, :Conflict_SecrecyVsWitness .
+
+:Antigone_Character_Antigone
+a :Character ;
+:hasMotivation :Motivation_BuryBrotherDespiteRisk, :Motivation_PleaseUnderworld, :Motivation_PublicWitnessForJustice ;
+:makesMoralDecision :MoralDecision_BuryBrotherAndAcceptDeath ;
+:advocatesFor :EthicalPrinciple_DivineHonorForDead ;
+:experiencesEmotion :Emotion_Resolve, :Emotion_ReverentDuty, :Emotion_DefiantCourage, :Emotion_ContemptForSilence ;
+:relatedTo :Law_CivicBurialBan, :EthicalPrinciple_DivineHonorForDead .
+
+:Antigone_Character_Ismene
+a :Character ;
+:hasMotivation :Motivation_ObeyAuthorities, :Motivation_AvoidForcedAction, :Motivation_KeepPlanSecret, :Motivation_ProtectAntigone ;
+:makesMoralDecision :MoralDecision_SubmitToRulers, :MoralDecision_RequestSecrecy ;
+:experiencesEmotion :Emotion_Resignation, :Emotion_FearForAntigone, :Emotion_Anxiety, :Emotion_WarmHeartedConcern ;
+:relatedTo :Law_CivicBurialBan .
+
+:Antigone_Character_Brother a :Character ;
+:description "The brother to be buried (Polyneices implied but not named in this passage)."^^xsd:string .
+
+:Law_CivicBurialBan
+a :Law ;
+:description "Civic authority forbids the burial act; acting 'by force of citizens' is impossible for Ismene, who submits to those in power."^^xsd:string .
+
+:EthicalPrinciple_DivineHonorForDead
+a :EthicalPrinciple ;
+:description "The gods' honors for the dead and the obligation to perform holy rites for kin."^^xsd:string .
+
+:Motivation_BuryBrotherDespiteRisk
+a :Motivation ;
+:description "Antigone intends to bury her dearest brother even if it means death."^^xsd:string ;
+:relatedTo :Antigone_Character_Brother ;
+:relatedTo :Law_CivicBurialBan .
+
+:Motivation_PleaseUnderworld
+a :Motivation ;
+:description "Antigone prioritizes pleasing those below (the dead/underworld) over those here, since she will lie there forever."^^xsd:string ;
+:relatedTo :EthicalPrinciple_DivineHonorForDead .
+
+:Motivation_PublicWitnessForJustice
+a :Motivation ;
+:description "Antigone urges that the deed be proclaimed to all rather than kept silent."^^xsd:string .
+
+:Motivation_ObeyAuthorities
+a :Motivation ;
+:description "Ismene chooses to submit to those in power and avoid acting beyond measure."^^xsd:string ;
+:relatedTo :Law_CivicBurialBan .
+
+:Motivation_AvoidForcedAction
+a :Motivation ;
+:description "Ismene claims she is incapable of acting by force against the citizens."^^xsd:string ;
+:relatedTo :Law_CivicBurialBan .
+
+:Motivation_KeepPlanSecret
+a :Motivation ;
+:description "Ismene asks that the act be disclosed to no one and hidden in secrecy."^^xsd:string .
+
+:Motivation_ProtectAntigone
+a :Motivation ;
+:description "Ismene fears greatly for Antigone and seeks to prevent her ruin."^^xsd:string .
+
+:MoralDecision_SubmitToRulers
+a :MoralDecision ;
+:description "Ismene decides to obey those in authority, requesting understanding from the dead and avoiding excessive action."^^xsd:string ;
+:relatedTo :Law_CivicBurialBan .
+
+:MoralDecision_BuryBrotherAndAcceptDeath
+a :MoralDecision ;
+:description "Antigone decides to bury her brother and accepts death as honorable, committing a holy act to please the underworld."^^xsd:string ;
+:relatedTo :Antigone_Character_Brother ;
+:relatedTo :EthicalPrinciple_DivineHonorForDead ;
+:relatedTo :Law_CivicBurialBan .
+
+:MoralDecision_RequestSecrecy
+a :MoralDecision ;
+:description "Ismene decides to support secrecy: conceal the deed and speak to no one."^^xsd:string ;
+:relatedTo :Motivation_KeepPlanSecret .
+
+:Emotion_Resignation
+a :Emotion ;
+:description "Ismene resigns herself to obeying those in power and asks the dead for understanding."^^xsd:string .
+
+:Emotion_Resolve
+a :Emotion ;
+:description "Antigone shows unwavering resolve to bury her brother."^^xsd:string .
+
+:Emotion_ReverentDuty
+a :Emotion ;
+:description "Antigone frames the burial as a holy duty toward gods and the dead."^^xsd:string .
+
+:Emotion_DefiantCourage
+a :Emotion ;
+:description "Antigone embraces dying for the deed as noble and refuses to fear."^^xsd:string .
+
+:Emotion_FearForAntigone
+a :Emotion ;
+:description "Ismene fears intensely for Antigone's fate."^^xsd:string .
+
+:Emotion_Anxiety
+a :Emotion ;
+:description "Ismene expresses worry and calls Antigone unfortunate, urging caution."^^xsd:string .
+
+:Emotion_ContemptForSilence
+a :Emotion ;
+:description "Antigone rebukes secrecy, saying silence will make Ismene more hated than if she proclaimed it."^^xsd:string .
+
+:Emotion_WarmHeartedConcern
+a :Emotion ;
+:description "Ismene observes Antigone's 'warm heart' and contrasts it with cold circumstances."^^xsd:string .
+
+:Theme_BurialDuty
+a :Theme ;
+:description "Commitment to bury the brother as an act of loyalty and duty to kin."^^xsd:string .
+
+:Theme_DivineLaw
+a :Theme ;
+:description "Honoring what belongs to the gods and the dead, framed as holy obligation."^^xsd:string .
+
+:Theme_ObedienceToAuthority
+a :Theme ;
+:description "Submission to rulers and civic authority, rejecting excessive action."^^xsd:string .
+
+:Theme_DeathAsHonor
+a :Theme ;
+:description "Death embraced as honorable consequence of performing the righteous deed."^^xsd:string .
+
+:Theme_LoyaltyToDead
+a :Theme ;
+:description "Pleasing the underworld and the dead over the living."^^xsd:string .
+
+:Theme_SecrecyVsPublicDeclaration
+a :Theme ;
+:description "Tension between hiding the deed and proclaiming it publicly."^^xsd:string .
+
+:Conflict_DivineLawVsCivicAuthority
+a :Conflict ;
+:description "Conflict between civic law/authority and the gods' honors for the dead."^^xsd:string ;
+:conflictBetween :EthicalPrinciple_DivineHonorForDead, :Law_CivicBurialBan .
+
+:Conflict_SisterlyDivision
+a :Conflict ;
+:description "Conflict between Antigone's resolve and Ismene's submission and fear."^^xsd:string ;
+:conflictBetween :Antigone_Character_Antigone, :Antigone_Character_Ismene .
+
+:Conflict_SecrecyVsWitness
+a :Conflict ;
+:description "Conflict between Ismene's request for secrecy and Antigone's demand for public proclamation."^^xsd:string ;
+:conflictBetween :Motivation_KeepPlanSecret, :Motivation_PublicWitnessForJustice .
+
+:Speech_Ismene_63_68
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_063, :Line_064, :Line_065, :Line_066, :Line_067, :Line_068 ;
+:partOfScene :Antigone_Scene_Dialogue_63_89 ;
+:developsTheme :Theme_ObedienceToAuthority ;
+:makesMoralDecision :MoralDecision_SubmitToRulers ;
+:experiencesEmotion :Emotion_Resignation .
+
+:Speech_Antigone_69_77
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_069, :Line_070, :Line_071, :Line_072, :Line_073, :Line_074, :Line_075, :Line_076, :Line_077 ;
+:partOfScene :Antigone_Scene_Dialogue_63_89 ;
+:developsTheme :Theme_BurialDuty, :Theme_DivineLaw, :Theme_DeathAsHonor, :Theme_LoyaltyToDead ;
+:hasConflict :Conflict_DivineLawVsCivicAuthority ;
+:makesMoralDecision :MoralDecision_BuryBrotherAndAcceptDeath ;
+:hasMotivation :Motivation_BuryBrotherDespiteRisk, :Motivation_PleaseUnderworld ;
+:experiencesEmotion :Emotion_Resolve, :Emotion_ReverentDuty, :Emotion_DefiantCourage .
+
+:Speech_Ismene_78
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_078 ;
+:partOfScene :Antigone_Scene_Dialogue_63_89 ;
+:developsTheme :Theme_DivineLaw, :Theme_ObedienceToAuthority ;
+:experiencesEmotion :Emotion_Resignation ;
+:hasMotivation :Motivation_AvoidForcedAction .
+
+:Speech_Antigone_79_80
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_079, :Line_080 ;
+:partOfScene :Antigone_Scene_Dialogue_63_89 ;
+:developsTheme :Theme_BurialDuty ;
+:hasMotivation :Motivation_BuryBrotherDespiteRisk ;
+:experiencesEmotion :Emotion_Resolve .
+
+:Speech_Ismene_81
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_081 ;
+:partOfScene :Antigone_Scene_Dialogue_63_89 ;
+:developsTheme :Theme_ObedienceToAuthority ;
+:experiencesEmotion :Emotion_FearForAntigone ;
+:hasMotivation :Motivation_ProtectAntigone .
+
+:Speech_Antigone_82
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_082 ;
+:partOfScene :Antigone_Scene_Dialogue_63_89 ;
+:developsTheme :Theme_DeathAsHonor ;
+:experiencesEmotion :Emotion_DefiantCourage .
+
+:Speech_Ismene_83
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_083 ;
+:partOfScene :Antigone_Scene_Dialogue_63_89 ;
+:developsTheme :Theme_SecrecyVsPublicDeclaration ;
+:hasMotivation :Motivation_KeepPlanSecret ;
+:makesMoralDecision :MoralDecision_RequestSecrecy .
+
+:Speech_Antigone_84
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_084 ;
+:partOfScene :Antigone_Scene_Dialogue_63_89 ;
+:developsTheme :Theme_SecrecyVsPublicDeclaration ;
+:hasMotivation :Motivation_PublicWitnessForJustice ;
+:experiencesEmotion :Emotion_ContemptForSilence ;
+:hasConflict :Conflict_SecrecyVsWitness .
+
+:Speech_Ismene_85
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_085 ;
+:partOfScene :Antigone_Scene_Dialogue_63_89 ;
+:developsTheme :Theme_SecrecyVsPublicDeclaration ;
+:experiencesEmotion :Emotion_WarmHeartedConcern .
+
+:Speech_Antigone_86_87
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_086, :Line_087 ;
+:partOfScene :Antigone_Scene_Dialogue_63_89 ;
+:developsTheme :Theme_LoyaltyToDead, :Theme_DivineLaw ;
+:hasMotivation :Motivation_PleaseUnderworld ;
+:experiencesEmotion :Emotion_ReverentDuty, :Emotion_Resolve .
+
+:Speech_Ismene_88
+a :Speech ;
+:speechBy :Antigone_Character_Ismene ;
+:containsLine :Line_088 ;
+:partOfScene :Antigone_Scene_Dialogue_63_89 ;
+:developsTheme :Theme_SecrecyVsPublicDeclaration ;
+:experiencesEmotion :Emotion_WarmHeartedConcern .
+
+:Speech_Antigone_89
+a :Speech ;
+:speechBy :Antigone_Character_Antigone ;
+:containsLine :Line_089 ;
+:partOfScene :Antigone_Scene_Dialogue_63_89 ;
+:developsTheme :Theme_LoyaltyToDead, :Theme_DivineLaw ;
+:hasMotivation :Motivation_PleaseUnderworld ;
+:experiencesEmotion :Emotion_ReverentDuty .
+
+:Line_063 a :Line ; :lineNumber 63 ; :canonicalReference "63"^^xsd:string .
+:TV_Line_063_grc a :TranslationVariant ; :text "ἔπειτα δ ̓ οὕνεκ ̓ ἀρχόμεσθ ̓ ἐκ κρεισσόνων"^^xsd:string ; :relatedTo :Line_063 .
+:Line_063 :hasTheme :Theme_ObedienceToAuthority .
+
+:Line_064 a :Line ; :lineNumber 64 ; :canonicalReference "64"^^xsd:string .
+:TV_Line_064_grc a :TranslationVariant ; :text "καὶ ταῦτ ̓ ἀκούειν κἄτι τῶνδ ̓ ἀλγίονα."^^xsd:string ; :relatedTo :Line_064 .
+:Line_064 :hasTheme :Theme_ObedienceToAuthority ; :experiencesEmotion :Emotion_Resignation .
+
+:Line_065 a :Line ; :lineNumber 65 ; :canonicalReference "65"^^xsd:string .
+:TV_Line_065_grc a :TranslationVariant ; :text "Ἐγὼ μὲν οὖν αἰτοῦσα τοὺς ὑπὸ χθονὸς"^^xsd:string ; :relatedTo :Line_065 .
+:Line_065 :hasTheme :Theme_DivineLaw ; :experiencesEmotion :Emotion_Resignation ; :relatedTo :Motivation_ObeyAuthorities .
+
+:Line_066 a :Line ; :lineNumber 66 ; :canonicalReference "66"^^xsd:string .
+:TV_Line_066_grc a :TranslationVariant ; :text "ξύγγνοιαν ἴσχειν, ὡς βιάζομαι τάδε,"^^xsd:string ; :relatedTo :Line_066 .
+:Line_066 :hasTheme :Theme_ObedienceToAuthority ; :experiencesEmotion :Emotion_Resignation ; :relatedTo :Motivation_AvoidForcedAction .
+
+:Line_067 a :Line ; :lineNumber 67 ; :canonicalReference "67"^^xsd:string .
+:TV_Line_067_grc a :TranslationVariant ; :text "τοῖς ἐν τέλει βεβῶσι πείσομαι· τὸ γὰρ"^^xsd:string ; :relatedTo :Line_067 .
+:Line_067 :hasTheme :Theme_ObedienceToAuthority ; :makesMoralDecision :MoralDecision_SubmitToRulers ; :relatedTo :Law_CivicBurialBan .
+
+:Line_068 a :Line ; :lineNumber 68 ; :canonicalReference "68"^^xsd:string .
+:TV_Line_068_grc a :TranslationVariant ; :text "περισσὰ πράσσειν οὐκ ἔχει νοῦν οὐδένα."^^xsd:string ; :relatedTo :Line_068 .
+:Line_068 :hasTheme :Theme_ObedienceToAuthority ; :hasTheme :Theme_PrudenceAndModeration .
+
+:Theme_PrudenceAndModeration
+a :Theme ;
+:description "Η αντίληψη ότι το να πράττει κανείς 'περισσά' δεν έχει νου."^^xsd:string .
+
+:Line_069 a :Line ; :lineNumber 69 ; :canonicalReference "69"^^xsd:string .
+:TV_Line_069_grc a :TranslationVariant ; :text "Οὔτ ̓ ἂν κελεύσαιμ ̓ οὔτ ̓ ἄν, εἰ θέλοις ἔτι"^^xsd:string ; :relatedTo :Line_069 .
+:Line_069 :hasTheme :Theme_SisterlyDivision ; :hasConflict :Conflict_SisterlyDivision .
+
+:Theme_SisterlyDivision
+a :Theme ;
+:description "Διάσταση ανάμεσα στις αδελφές: η Αντιγόνη απορρίπτει την όψιμη συμπαράσταση."^^xsd:string .
+
+:Line_070 a :Line ; :lineNumber 70 ; :canonicalReference "70"^^xsd:string .
+:TV_Line_070_grc a :TranslationVariant ; :text "πράσσειν, ἐμοῦ γ ̓ ἂν ἡδέως δρῴης μέτα."^^xsd:string ; :relatedTo :Line_070 .
+:Line_070 :hasTheme :Theme_SisterlyDivision ; :hasConflict :Conflict_SisterlyDivision .
+
+:Line_071 a :Line ; :lineNumber 71 ; :canonicalReference "71"^^xsd:string .
+:TV_Line_071_grc a :TranslationVariant ; :text "Ἀλλ ̓ ἴσθ ̓ ὁποῖά σοι δοκεῖ, κεῖνον δ ̓ ἐγὼ"^^xsd:string ; :relatedTo :Line_071 .
+:Line_071 :hasTheme :Theme_BurialDuty ; :experiencesEmotion :Emotion_Resolve ; :hasMotivation :Motivation_BuryBrotherDespiteRisk .
+
+:Line_072 a :Line ; :lineNumber 72 ; :canonicalReference "72"^^xsd:string .
+:TV_Line_072_grc a :TranslationVariant ; :text "θάψω· καλόν μοι τοῦτο ποιούσῃ θανεῖν."^^xsd:string ; :relatedTo :Line_072 .
+:Line_072 :hasTheme :Theme_BurialDuty ; :hasTheme :Theme_DeathAsHonor ; :makesMoralDecision :MoralDecision_BuryBrotherAndAcceptDeath ; :experiencesEmotion :Emotion_DefiantCourage .
+
+:Line_073 a :Line ; :lineNumber 73 ; :canonicalReference "73"^^xsd:string .
+:TV_Line_073_grc a :TranslationVariant ; :text "Φίλη μετ ̓ αὐτοῦ κείσομαι, φίλου μέτα,"^^xsd:string ; :relatedTo :Line_073 .
+:Line_073 :hasTheme :Theme_LoyaltyToDead ; :experiencesEmotion :Emotion_ReverentDuty .
+
+:Line_074 a :Line ; :lineNumber 74 ; :canonicalReference "74"^^xsd:string .
+:TV_Line_074_grc a :TranslationVariant ; :text "ὅσια πανουργήσασ ̓· ἐπεὶ πλείων χρόνος"^^xsd:string ; :relatedTo :Line_074 .
+:Line_074 :hasTheme :Theme_DivineLaw ; :advocatesFor :EthicalPrinciple_DivineHonorForDead ; :experiencesEmotion :Emotion_ReverentDuty .
+
+:Line_075 a :Line ; :lineNumber 75 ; :canonicalReference "75"^^xsd:string .
+:TV_Line_075_grc a :TranslationVariant ; :text "ὃν δεῖ μ ̓ ἀρέσκειν τοῖς κάτω τῶν ἐνθάδε."^^xsd:string ; :relatedTo :Line_075 .
+:Line_075 :hasTheme :Theme_LoyaltyToDead ; :hasMotivation :Motivation_PleaseUnderworld .
+
+:Line_076 a :Line ; :lineNumber 76 ; :canonicalReference "76"^^xsd:string .
+:TV_Line_076_grc a :TranslationVariant ; :text "Ἐκεῖ γὰρ αἰεὶ κείσομαι· σοὶ δ ̓ εἰ δοκεῖ,"^^xsd:string ; :relatedTo :Line_076 .
+:Line_076 :hasTheme :Theme_LoyaltyToDead ; :experiencesEmotion :Emotion_Resolve .
+
+:Line_077 a :Line ; :lineNumber 77 ; :canonicalReference "77"^^xsd:string .
+:TV_Line_077_grc a :TranslationVariant ; :text "τὰ τῶν θεῶν ἔντιμ ̓ ἀτιμάσασ ̓ ἔχε."^^xsd:string ; :relatedTo :Line_077 .
+:Line_077 :hasTheme :Theme_DivineLaw ; :hasConflict :Conflict_DivineLawVsCivicAuthority ; :advocatesFor :EthicalPrinciple_DivineHonorForDead .
+
+:Line_078 a :Line ; :lineNumber 78 ; :canonicalReference "78"^^xsd:string .
+:TV_Line_078_grc a :TranslationVariant ; :text "Ἐγὼ μὲν οὐκ ἄτιμα ποιοῦμαι, τὸ δὲ"^^xsd:string ; :relatedTo :Line_078 .
+:Line_078 :hasTheme :Theme_DivineLaw ; :experiencesEmotion :Emotion_Resignation .
+
+:Line_079 a :Line ; :lineNumber 79 ; :canonicalReference "79"^^xsd:string .
+:TV_Line_079_grc a :TranslationVariant ; :text "βίᾳ πολιτῶν δρᾶν ἔφυν ἀμήχανος."^^xsd:string ; :relatedTo :Line_079 .
+:Line_079 :hasTheme :Theme_ObedienceToAuthority ; :hasMotivation :Motivation_AvoidForcedAction ; :experiencesEmotion :Emotion_Resignation ; :relatedTo :Law_CivicBurialBan .
+
+:Line_080 a :Line ; :lineNumber 80 ; :canonicalReference "80"^^xsd:string .
+:TV_Line_080_grc a :TranslationVariant ; :text "Σὺ μὲν τάδ ̓ ἂν προὔχοι ̓· ἐγὼ δὲ δὴ τάφον"^^xsd:string ; :relatedTo :Line_080 .
+:Line_080 :hasTheme :Theme_BurialDuty ; :hasConflict :Conflict_SisterlyDivision ; :experiencesEmotion :Emotion_Resolve .
+
+:Line_081 a :Line ; :lineNumber 81 ; :canonicalReference "81"^^xsd:string .
+:TV_Line_081_grc a :TranslationVariant ; :text "χώσουσ ̓ ἀδελφῷ φιλτάτῳ πορεύσομαι."^^xsd:string ; :relatedTo :Line_081 .
+:Line_081 :hasTheme :Theme_BurialDuty ; :hasMotivation :Motivation_BuryBrotherDespiteRisk ; :makesMoralDecision :MoralDecision_BuryBrotherAndAcceptDeath ; :experiencesEmotion :Emotion_Resolve .
+
+:Line_082 a :Line ; :lineNumber 82 ; :canonicalReference "82"^^xsd:string .
+:TV_Line_082_grc a :TranslationVariant ; :text "Οἴμοι ταλαίνης ὡς ὑπερδέδοικά σου."^^xsd:string ; :relatedTo :Line_082 .
+:Line_082 :experiencesEmotion :Emotion_FearForAntigone ; :hasTheme :Theme_SisterlyCare .
+
+:Theme_SisterlyCare
+a :Theme ;
+:description "Η στοργή/φροντίδα της Ισμήνης για την Αντιγόνη."^^xsd:string .
+
+:Line_083 a :Line ; :lineNumber 83 ; :canonicalReference "83"^^xsd:string .
+:TV_Line_083_grc a :TranslationVariant ; :text "Μὴ  ̓μοῦ προτάρβει· τὸν σὸν ἐξόρθου πότμον."^^xsd:string ; :relatedTo :Line_083 .
+:Line_083 :hasTheme :Theme_SisterlyDivision ; :experiencesEmotion :Emotion_DefiantCourage .
+
+:Line_084 a :Line ; :lineNumber 84 ; :canonicalReference "84"^^xsd:string .
+:TV_Line_084_grc a :TranslationVariant ; :text "Ἀλλ ̓ οὖν προμηνύσῃς γε τοῦτο μηδενὶ"^^xsd:string ; :relatedTo :Line_084 .
+:Line_084 :hasTheme :Theme_SecrecyVsPublicDeclaration ; :hasMotivation :Motivation_KeepPlanSecret ; :makesMoralDecision :MoralDecision_RequestSecrecy ; :hasConflict :Conflict_SecrecyVsWitness .
+
+:Line_085 a :Line ; :lineNumber 85 ; :canonicalReference "85"^^xsd:string .
+:TV_Line_085_grc a :TranslationVariant ; :text "τοὔργον, κρυφῇ δὲ κεῦθε, σὺν δ ̓ αὔτως ἐγώ."^^xsd:string ; :relatedTo :Line_085 .
+:Line_085 :hasTheme :Theme_SecrecyVsPublicDeclaration ; :hasMotivation :Motivation_KeepPlanSecret ; :hasConflict :Conflict_SecrecyVsWitness .
+
+:Line_086 a :Line ; :lineNumber 86 ; :canonicalReference "86"^^xsd:string .
+:TV_Line_086_grc a :TranslationVariant ; :text "Οἴμοι, καταύδα· πολλὸν ἐχθίων ἔσῃ"^^xsd:string ; :relatedTo :Line_086 .
+:Line_086 :hasTheme :Theme_SecrecyVsPublicDeclaration ; :experiencesEmotion :Emotion_ContemptForSilence ; :hasMotivation :Motivation_PublicWitnessForJustice ; :hasConflict :Conflict_SecrecyVsWitness .
+
+:Line_087 a :Line ; :lineNumber 87 ; :canonicalReference "87"^^xsd:string .
+:TV_Line_087_grc a :TranslationVariant ; :text "σιγῶσ ̓, ἐὰν μὴ πᾶσι κηρύξῃς τάδε."^^xsd:string ; :relatedTo :Line_087 .
+:Line_087 :hasTheme :Theme_SecrecyVsPublicDeclaration ; :hasMotivation :Motivation_PublicWitnessForJustice ; :hasConflict :Conflict_SecrecyVsWitness .
+
+:Line_088 a :Line ; :lineNumber 88 ; :canonicalReference "88"^^xsd:string .
+:TV_Line_088_grc a :TranslationVariant ; :text "Θερμὴν ἐπὶ ψυχροῖσι καρδίαν ἔχεις."^^xsd:string ; :relatedTo :Line_088 .
+:Line_088 :hasTheme :Theme_SisterlyCare ; :experiencesEmotion :Emotion_WarmHeartedConcern .
+
+:Line_089 a :Line ; :lineNumber 89 ; :canonicalReference "89"^^xsd:string .
+:TV_Line_089_grc a :TranslationVariant ; :text "Ἀλλ ̓ οἶδ ̓ ἀρέσκουσ ̓ οἷς μάλισθ ̓ ἁδεῖν με χρή."^^xsd:string ; :relatedTo :Line_089 .
+:Line_089 :hasTheme :Theme_LoyaltyToDead ; :hasTheme :Theme_DivineLaw ; :hasMotivation :Motivation_PleaseUnderworld ; :experiencesEmotion :Emotion_ReverentDuty .

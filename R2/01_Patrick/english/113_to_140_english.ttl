@@ -1,0 +1,225 @@
+```turtle
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+################################################################
+# SCENE AND SPEECH STRUCTURE
+################################################################
+
+:Antigone_Scene_Parodos_115_140_EN
+a :Scene ;
+:sceneNumber "Parodos 115-140 (EN)"^^xsd:string ;
+:hasSpeech :Speech_Chorus_115_140_EN ;
+:developsTheme :Theme_InvasionThreat, :Theme_ThebesDefense, :Theme_WarViolence, :Theme_DivineIntervention, :Theme_ZeusSupremacy, :Theme_HubrisBoast ;
+:hasConflict :Conflict_HubrisVsZeus, :Conflict_InvasionVsCityDefense .
+
+:Speech_Chorus_115_140_EN
+a :Speech ;
+:speechBy :Antigone_Character_Chorus ;
+:partOfScene :Antigone_Scene_Parodos_115_140_EN ;
+:containsLine :Line_115, :Line_116, :Line_117, :Line_118, :Line_119, :Line_120, :Line_121, :Line_122, :Line_123, :Line_124,
+              :Line_125, :Line_126, :Line_127, :Line_128, :Line_129, :Line_130, :Line_131, :Line_132, :Line_133, :Line_134,
+              :Line_135, :Line_136, :Line_137, :Line_138, :Line_139, :Line_140 ;
+:referencesMyth :Myth_EagleInvader, :Myth_SevenGatedThebes, :Myth_HephaestusFire, :Myth_AresWarCry, :Myth_ThebanDragon, :Myth_ZeusThunderbolt ;
+:hasSymbol :Symbol_EagleInvader, :Symbol_SevenGates, :Symbol_SpearsOfSiege, :Symbol_FireBrand, :Symbol_Thunderbolt, :Symbol_DragonDefense ;
+:developsTheme :Theme_InvasionThreat, :Theme_ThebesDefense, :Theme_WarViolence, :Theme_DivineIntervention, :Theme_ZeusSupremacy, :Theme_HubrisBoast ;
+:hasConflict :Conflict_HubrisVsZeus, :Conflict_InvasionVsCityDefense .
+
+:Antigone_Character_Chorus a :Character .
+
+################################################################
+# THEMES, CONFLICTS, MYTHS, SYMBOLS
+################################################################
+
+:Theme_InvasionThreat
+a :Theme ;
+:description "The enemy is depicted as a predatory force hovering over the city, poised to devour and destroy."^^xsd:string .
+
+:Theme_ThebesDefense
+a :Theme ;
+:description "Seven-gated Thebes resists the siege before the attacker can glut on blood or burn the towers."^^xsd:string .
+
+:Theme_WarViolence
+a :Theme ;
+:description "War appears as spears, weapons, battle-cries, fury, and relentless blows dealt in combat."^^xsd:string .
+
+:Theme_DivineIntervention
+a :Theme ;
+:description "A decisive divine strike halts the aggressor at the moment of imminent victory."^^xsd:string .
+
+:Theme_ZeusSupremacy
+a :Theme ;
+:description "Zeus rejects arrogant boasting and enforces order through overwhelming power."^^xsd:string .
+
+:Theme_HubrisBoast
+a :Theme ;
+:description "Boastful speech and triumphant shouting are framed as impious arrogance that provokes divine punishment."^^xsd:string .
+
+:Conflict_HubrisVsZeus
+a :Conflict ;
+:description "Boastful arrogance and the cry of victory clash with Zeus’ contempt for hubris and his punitive thunderbolt."^^xsd:string ;
+:conflictBetween :Theme_HubrisBoast, :Theme_ZeusSupremacy .
+
+:Conflict_InvasionVsCityDefense
+a :Conflict ;
+:description "The siege and bloodthirsty assault confront the defensive survival of seven-gated Thebes."^^xsd:string ;
+:conflictBetween :Theme_InvasionThreat, :Theme_ThebesDefense .
+
+:Myth_EagleInvader
+a :MythologicalBackground ;
+:description "The assailant is imagined as an eagle-like invader hovering over the city with whitened wings and weapons."^^xsd:string .
+
+:Myth_SevenGatedThebes
+a :MythologicalBackground ;
+:description "Reference to Thebes as 'seven-gated' and to its defended entrance under siege."^^xsd:string .
+
+:Myth_HephaestusFire
+a :MythologicalBackground ;
+:description "Hephaestus’ pine-fed flame stands for destructive fire that could seize the towers."^^xsd:string .
+
+:Myth_AresWarCry
+a :MythologicalBackground ;
+:description "Ares’ cry and the distribution of blows evoke the god’s presence as the engine of battle."^^xsd:string .
+
+:Myth_ThebanDragon
+a :MythologicalBackground ;
+:description "The Theban dragon symbolizes the city’s protective power and fierce resistance to attackers."^^xsd:string .
+
+:Myth_ZeusThunderbolt
+a :MythologicalBackground ;
+:description "Zeus hurls a thunderbolt against the arrogant attacker at the brink of triumph."^^xsd:string .
+
+:Symbol_EagleInvader
+a :Symbol ;
+:description "Eagle imagery symbolizes predatory siege and aggressive invasion."^^xsd:string .
+
+:Symbol_SevenGates
+a :Symbol ;
+:description "The seven gates symbolize the city’s vulnerable threshold and communal defense."^^xsd:string .
+
+:Symbol_SpearsOfSiege
+a :Symbol ;
+:description "Bloodthirsty spears symbolize the violence and pressure of siege warfare."^^xsd:string .
+
+:Symbol_FireBrand
+a :Symbol ;
+:description "Fire symbolizes both the threat of destruction and the scorching force that can crown or consume towers."^^xsd:string .
+
+:Symbol_Thunderbolt
+a :Symbol ;
+:description "The thunderbolt symbolizes Zeus’ punitive authority and sudden reversal of human ambition."^^xsd:string .
+
+:Symbol_DragonDefense
+a :Symbol ;
+:description "The Theban dragon symbolizes stubborn local resistance that the invader struggles to overcome."^^xsd:string .
+
+################################################################
+# CANONICAL LINES & TRANSLATION VARIANTS (EN)
+################################################################
+
+:Line_115 a :Line ; :lineNumber 115 ; :canonicalReference "115"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_115_en a :TranslationVariant ; :text "Covered with wing"^^xsd:string ; :relatedTo :Line_115 .
+:Line_115 :hasTheme :Theme_InvasionThreat ; :hasSymbol :Symbol_EagleInvader ; :referencesMyth :Myth_EagleInvader .
+
+:Line_116 a :Line ; :lineNumber 116 ; :canonicalReference "116"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_116_en a :TranslationVariant ; :text "As white as snowy winter,"^^xsd:string ; :relatedTo :Line_116 .
+:Line_116 :hasTheme :Theme_InvasionThreat ; :referencesMyth :Myth_EagleInvader ; :hasSymbol :Symbol_EagleInvader .
+
+:Line_117 a :Line ; :lineNumber 117 ; :canonicalReference "117"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_117_en a :TranslationVariant ; :text "With many a weapon"^^xsd:string ; :relatedTo :Line_117 .
+:Line_117 :hasTheme :Theme_WarViolence .
+
+:Line_118 a :Line ; :lineNumber 118 ; :canonicalReference "118"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_118_en a :TranslationVariant ; :text "And horsehair helmet—"^^xsd:string ; :relatedTo :Line_118 .
+:Line_118 :hasTheme :Theme_WarViolence .
+
+:Line_119 a :Line ; :lineNumber 119 ; :canonicalReference "119"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_119_en a :TranslationVariant ; :text "Perched above our rooftops"^^xsd:string ; :relatedTo :Line_119 .
+:Line_119 :hasTheme :Theme_InvasionThreat ; :hasSymbol :Symbol_EagleInvader .
+
+:Line_120 a :Line ; :lineNumber 120 ; :canonicalReference "120"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_120_en a :TranslationVariant ; :text "And in his gyre gaping"^^xsd:string ; :relatedTo :Line_120 .
+:Line_120 :hasTheme :Theme_InvasionThreat ; :hasSymbol :Symbol_EagleInvader .
+
+:Line_121 a :Line ; :lineNumber 121 ; :canonicalReference "121"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_121_en a :TranslationVariant ; :text "With bloodthirsty spears"^^xsd:string ; :relatedTo :Line_121 .
+:Line_121 :hasTheme :Theme_WarViolence ; :hasSymbol :Symbol_SpearsOfSiege .
+
+:Line_122 a :Line ; :lineNumber 122 ; :canonicalReference "122"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_122_en a :TranslationVariant ; :text "At our seven-gated entrance,"^^xsd:string ; :relatedTo :Line_122 .
+:Line_122 :hasTheme :Theme_ThebesDefense ; :hasSymbol :Symbol_SevenGates ; :referencesMyth :Myth_SevenGatedThebes .
+
+:Line_123 a :Line ; :lineNumber 123 ; :canonicalReference "123"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_123_en a :TranslationVariant ; :text "He yielded before his jaws teemed"^^xsd:string ; :relatedTo :Line_123 .
+:Line_123 :hasTheme :Theme_ThebesDefense ; :hasTheme :Theme_DivineIntervention .
+
+:Line_124 a :Line ; :lineNumber 124 ; :canonicalReference "124"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_124_en a :TranslationVariant ; :text "With our blood or the pine-fed flame"^^xsd:string ; :relatedTo :Line_124 .
+:Line_124 :hasTheme :Theme_WarViolence ; :hasSymbol :Symbol_FireBrand ; :referencesMyth :Myth_HephaestusFire .
+
+:Line_125 a :Line ; :lineNumber 125 ; :canonicalReference "125"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_125_en a :TranslationVariant ; :text "Of Hephaestus seized our crown of towers."^^xsd:string ; :relatedTo :Line_125 .
+:Line_125 :hasTheme :Theme_ThebesDefense ; :hasSymbol :Symbol_FireBrand ; :referencesMyth :Myth_HephaestusFire .
+
+:Line_126 a :Line ; :lineNumber 126 ; :canonicalReference "126"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_126_en a :TranslationVariant ; :text "How Ares’ cry was stretched"^^xsd:string ; :relatedTo :Line_126 .
+:Line_126 :hasTheme :Theme_WarViolence ; :referencesMyth :Myth_AresWarCry .
+
+:Line_127 a :Line ; :lineNumber 127 ; :canonicalReference "127"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_127_en a :TranslationVariant ; :text "Across his back, no easy task"^^xsd:string ; :relatedTo :Line_127 .
+:Line_127 :hasTheme :Theme_WarViolence ; :referencesMyth :Myth_AresWarCry .
+
+:Line_128 a :Line ; :lineNumber 128 ; :canonicalReference "128"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_128_en a :TranslationVariant ; :text "To choke out the Theban dragon!"^^xsd:string ; :relatedTo :Line_128 .
+:Line_128 :hasTheme :Theme_ThebesDefense ; :hasSymbol :Symbol_DragonDefense ; :referencesMyth :Myth_ThebanDragon .
+
+:Line_129 a :Line ; :lineNumber 129 ; :canonicalReference "129"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_129_en a :TranslationVariant ; :text "For Zeus despises the babblings of a boastful"^^xsd:string ; :relatedTo :Line_129 .
+:Line_129 :hasTheme :Theme_ZeusSupremacy ; :hasTheme :Theme_HubrisBoast ; :hasConflict :Conflict_HubrisVsZeus ; :referencesMyth :Myth_ZeusThunderbolt .
+
+:Line_130 a :Line ; :lineNumber 130 ; :canonicalReference "130"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_130_en a :TranslationVariant ; :text "Tongue, and as he watched them advance"^^xsd:string ; :relatedTo :Line_130 .
+:Line_130 :hasTheme :Theme_ZeusSupremacy ; :hasConflict :Conflict_HubrisVsZeus ; :referencesMyth :Myth_ZeusThunderbolt .
+
+:Line_131 a :Line ; :lineNumber 131 ; :canonicalReference "131"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_131_en a :TranslationVariant ; :text "In a vast torrent of men"^^xsd:string ; :relatedTo :Line_131 .
+:Line_131 :hasTheme :Theme_InvasionThreat ; :referencesMyth :Myth_EagleInvader .
+
+:Line_132 a :Line ; :lineNumber 132 ; :canonicalReference "132"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_132_en a :TranslationVariant ; :text "With the arrogance of clanging gold,"^^xsd:string ; :relatedTo :Line_132 .
+:Line_132 :hasTheme :Theme_HubrisBoast ; :hasConflict :Conflict_HubrisVsZeus .
+
+:Line_133 a :Line ; :lineNumber 133 ; :canonicalReference "133"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_133_en a :TranslationVariant ; :text "He brandished a thunderbolt and hurled it"^^xsd:string ; :relatedTo :Line_133 .
+:Line_133 :hasTheme :Theme_DivineIntervention ; :hasSymbol :Symbol_Thunderbolt ; :referencesMyth :Myth_ZeusThunderbolt .
+
+:Line_134 a :Line ; :lineNumber 134 ; :canonicalReference "134"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_134_en a :TranslationVariant ; :text "At the one already raising the cry"^^xsd:string ; :relatedTo :Line_134 .
+:Line_134 :hasTheme :Theme_HubrisBoast ; :hasConflict :Conflict_HubrisVsZeus .
+
+:Line_135 a :Line ; :lineNumber 135 ; :canonicalReference "135"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_135_en a :TranslationVariant ; :text "Of victory as he rushed up our walls."^^xsd:string ; :relatedTo :Line_135 .
+:Line_135 :hasTheme :Theme_InvasionThreat ; :hasTheme :Theme_HubrisBoast ; :hasConflict :Conflict_InvasionVsCityDefense ; :hasConflict :Conflict_HubrisVsZeus .
+
+:Line_136 a :Line ; :lineNumber 136 ; :canonicalReference "136"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_136_en a :TranslationVariant ; :text "He swung and fell hard upon the earth,"^^xsd:string ; :relatedTo :Line_136 .
+:Line_136 :hasTheme :Theme_DivineIntervention ; :referencesMyth :Myth_ZeusThunderbolt .
+
+:Line_137 a :Line ; :lineNumber 137 ; :canonicalReference "137"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_137_en a :TranslationVariant ; :text "A torch in hand—the one who, just now"^^xsd:string ; :relatedTo :Line_137 .
+:Line_137 :hasTheme :Theme_WarViolence ; :hasSymbol :Symbol_FireBrand .
+
+:Line_138 a :Line ; :lineNumber 138 ; :canonicalReference "138"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_138_en a :TranslationVariant ; :text "Raging with mad passion, was breathing"^^xsd:string ; :relatedTo :Line_138 .
+:Line_138 :hasTheme :Theme_WarViolence .
+
+:Line_139 a :Line ; :lineNumber 139 ; :canonicalReference "139"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_139_en a :TranslationVariant ; :text "Fury and slaughter like the winds of a wild storm."^^xsd:string ; :relatedTo :Line_139 .
+:Line_139 :hasTheme :Theme_WarViolence .
+
+:Line_140 a :Line ; :lineNumber 140 ; :canonicalReference "140"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
+:TV_Line_140_en a :TranslationVariant ; :text "Yet these threats turned out otherwise, And to other foes great Ares Dealt other blows, workhorse of battle."^^xsd:string ; :relatedTo :Line_140 .
+:Line_140 :hasTheme :Theme_WarViolence ; :referencesMyth :Myth_AresWarCry .
+```
