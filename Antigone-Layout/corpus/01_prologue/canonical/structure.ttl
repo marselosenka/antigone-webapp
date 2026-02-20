@@ -29,3 +29,83 @@ a :Scene ;
 :Line_017 a :Line ; :lineNumber 17 ; :canonicalReference "17" .
 :Line_018 a :Line ; :lineNumber 18 ; :canonicalReference "18" .
 :Line_019 a :Line ; :lineNumber 19 ; :canonicalReference "19" .
+:Line_020 a :Line ; :lineNumber 20 ; :canonicalReference "20"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_021 a :Line ; :lineNumber 21 ; :canonicalReference "21"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_022 a :Line ; :lineNumber 22 ; :canonicalReference "22"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_023 a :Line ; :lineNumber 23 ; :canonicalReference "23"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_024 a :Line ; :lineNumber 24 ; :canonicalReference "24"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_025 a :Line ; :lineNumber 25 ; :canonicalReference "25"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_026 a :Line ; :lineNumber 26 ; :canonicalReference "26"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_027 a :Line ; :lineNumber 27 ; :canonicalReference "27"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_028 a :Line ; :lineNumber 28 ; :canonicalReference "28"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_029 a :Line ; :lineNumber 29 ; :canonicalReference "29"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_030 a :Line ; :lineNumber 30 ; :canonicalReference "30"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_031 a :Line ; :lineNumber 31 ; :canonicalReference "31"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_032 a :Line ; :lineNumber 32 ; :canonicalReference "32"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_033 a :Line ; :lineNumber 33 ; :canonicalReference "33"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_034 a :Line ; :lineNumber 34 ; :canonicalReference "34"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_035 a :Line ; :lineNumber 35 ; :canonicalReference "35"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_036 a :Line ; :lineNumber 36 ; :canonicalReference "36"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_037 a :Line ; :lineNumber 37 ; :canonicalReference "37"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_038 a :Line ; :lineNumber 38 ; :canonicalReference "38"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_039 a :Line ; :lineNumber 39 ; :canonicalReference "39"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_040 a :Line ; :lineNumber 40 ; :canonicalReference "40"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_041 a :Line ; :lineNumber 41 ; :canonicalReference "41"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+:Line_042 a :Line ; :lineNumber 42 ; :canonicalReference "42"^^xsd:string .
+:Line_043 a :Line ; :lineNumber 43 ; :canonicalReference "43"^^xsd:string .
+:Line_044 a :Line ; :lineNumber 44 ; :canonicalReference "44"^^xsd:string .
+:Line_045 a :Line ; :lineNumber 45 ; :canonicalReference "45"^^xsd:string .
+:Line_046 a :Line ; :lineNumber 46 ; :canonicalReference "46"^^xsd:string .
+:Line_047 a :Line ; :lineNumber 47 ; :canonicalReference "47"^^xsd:string .
+:Line_048 a :Line ; :lineNumber 48 ; :canonicalReference "48"^^xsd:string .
+:Line_049 a :Line ; :lineNumber 49 ; :canonicalReference "49"^^xsd:string .
+:Line_050 a :Line ; :lineNumber 50 ; :canonicalReference "50"^^xsd:string .
+:Line_051 a :Line ; :lineNumber 51 ; :canonicalReference "51"^^xsd:string .
+:Line_052 a :Line ; :lineNumber 52 ; :canonicalReference "52"^^xsd:string .
+:Line_053 a :Line ; :lineNumber 53 ; :canonicalReference "53"^^xsd:string .
+:Line_054 a :Line ; :lineNumber 54 ; :canonicalReference "54"^^xsd:string .
+:Line_055 a :Line ; :lineNumber 55 ; :canonicalReference "55"^^xsd:string .
+:Line_056 a :Line ; :lineNumber 56 ; :canonicalReference "56"^^xsd:string .
+:Line_057 a :Line ; :lineNumber 57 ; :canonicalReference "57"^^xsd:string .
+:Line_058 a :Line ; :lineNumber 58 ; :canonicalReference "58"^^xsd:string .
+:Line_059 a :Line ; :lineNumber 59 ; :canonicalReference "59"^^xsd:string .
+:Line_060 a :Line ; :lineNumber 60 ; :canonicalReference "60"^^xsd:string .
+:Line_061 a :Line ; :lineNumber 61 ; :canonicalReference "61"^^xsd:string .
+:Line_062 a :Line ; :lineNumber 62 ; :canonicalReference "62"^^xsd:string .
+:Line_063 a :Line ; :lineNumber 63 ; :canonicalReference "63"^^xsd:string .
+:Line_064 a :Line ; :lineNumber 64 ; :canonicalReference "64"^^xsd:string .
+:Line_065 a :Line ; :lineNumber 65 ; :canonicalReference "65"^^xsd:string .
+:Line_066 a :Line ; :lineNumber 66 ; :canonicalReference "66"^^xsd:string .
+:Line_067 a :Line ; :lineNumber 67 ; :canonicalReference "67"^^xsd:string .
+:Line_068 a :Line ; :lineNumber 68 ; :canonicalReference "68"^^xsd:string .
+:Line_069 a :Line ; :lineNumber 69 ; :canonicalReference "69"^^xsd:string .
+:Line_070 a :Line ; :lineNumber 70 ; :canonicalReference "70"^^xsd:string .
+:Line_071 a :Line ; :lineNumber 71 ; :canonicalReference "71"^^xsd:string .
+:Line_072 a :Line ; :lineNumber 72 ; :canonicalReference "72"^^xsd:string .
+:Line_073 a :Line ; :lineNumber 73 ; :canonicalReference "73"^^xsd:string .
+:Line_074 a :Line ; :lineNumber 74 ; :canonicalReference "74"^^xsd:string .
+:Line_075 a :Line ; :lineNumber 75 ; :canonicalReference "75"^^xsd:string .
+:Line_076 a :Line ; :lineNumber 76 ; :canonicalReference "76"^^xsd:string .
+:Line_077 a :Line ; :lineNumber 77 ; :canonicalReference "77"^^xsd:string .
+:Line_078 a :Line ; :lineNumber 78 ; :canonicalReference "78"^^xsd:string .
+:Line_079 a :Line ; :lineNumber 79 ; :canonicalReference "79"^^xsd:string .
+:Line_080 a :Line ; :lineNumber 80 ; :canonicalReference "80"^^xsd:string .
+:Line_081 a :Line ; :lineNumber 81 ; :canonicalReference "81"^^xsd:string .
+:Line_082 a :Line ; :lineNumber 82 ; :canonicalReference "82"^^xsd:string .
+:Line_083 a :Line ; :lineNumber 83 ; :canonicalReference "83"^^xsd:string .
+:Line_084 a :Line ; :lineNumber 84 ; :canonicalReference "84"^^xsd:string .
+:Line_085 a :Line ; :lineNumber 85 ; :canonicalReference "85"^^xsd:string .
+:Line_086 a :Line ; :lineNumber 86 ; :canonicalReference "86"^^xsd:string .
+:Line_087 a :Line ; :lineNumber 87 ; :canonicalReference "87"^^xsd:string .
+:Line_088 a :Line ; :lineNumber 88 ; :canonicalReference "88"^^xsd:string .
+:Line_089 a :Line ; :lineNumber 89 ; :canonicalReference "89"^^xsd:string .
+:Line_090 a :Line ; :lineNumber 90 ; :canonicalReference "90"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
+:Line_091 a :Line ; :lineNumber 91 ; :canonicalReference "91"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
+:Line_092 a :Line ; :lineNumber 92 ; :canonicalReference "92"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
+:Line_093 a :Line ; :lineNumber 93 ; :canonicalReference "93"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
+:Line_094 a :Line ; :lineNumber 94 ; :canonicalReference "94"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
+:Line_095 a :Line ; :lineNumber 95 ; :canonicalReference "95"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
+:Line_096 a :Line ; :lineNumber 96 ; :canonicalReference "96"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
+:Line_097 a :Line ; :lineNumber 97 ; :canonicalReference "97"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
+:Line_098 a :Line ; :lineNumber 98 ; :canonicalReference "98"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
+:Line_099 a :Line ; :lineNumber 99 ; :canonicalReference "99"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
