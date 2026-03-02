@@ -3,6 +3,8 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+:prologue-translations-1-19 a owl:Ontology .
+
 # Line 001
 :TV_Line_001_grc a :TranslationVariant ; :text "Ὦ κοινὸν αὐτάδελφον Ἰσμήνης κάρα,"^^xsd:string ; :relatedTo :Line_001 .
 :TV_Line_001_en a :TranslationVariant ; :text "Ismene, sweet Ismene, my dear sister!"^^xsd:string ; :relatedTo :Line_001 .

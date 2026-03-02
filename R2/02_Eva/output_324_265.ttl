@@ -1,0 +1,430 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+############################
+# CHARACTERS
+############################
+
+:Antigone_Character_Creon
+  a owl:NamedIndividual, :Character ;
+  rdfs:label "ΚΡ (Κρέων)"^^xsd:string .
+
+:Antigone_Character_Guard
+  a owl:NamedIndividual, :Character ;
+  rdfs:label "ΦΥ (Φύλαξ)"^^xsd:string .
+
+:Antigone_Character_Chorus
+  a owl:NamedIndividual, :Character ;
+  rdfs:label "ΧΟ (Χορός)"^^xsd:string .
+
+############################
+# SPEECHES
+############################
+
+:Speech_Creon_324_326
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :containsLine :Line_324, :Line_325, :Line_326 .
+
+:Speech_Guard_327_331
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Guard ;
+  :containsLine :Line_327, :Line_328, :Line_329, :Line_330, :Line_331 .
+
+:Speech_Chorus_332_361
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Chorus ;
+  :containsLine :Line_332, :Line_333, :Line_334, :Line_335, :Line_336, :Line_337, :Line_338, :Line_339,
+                :Line_340, :Line_341, :Line_342, :Line_343, :Line_344, :Line_345, :Line_346, :Line_347, :Line_348,
+                :Line_349, :Line_350, :Line_351, :Line_352, :Line_353, :Line_354, :Line_355, :Line_356, :Line_357,
+                :Line_358, :Line_359, :Line_360, :Line_361 .
+
+############################
+# LINES (Ancient Greek MASTER)
+############################
+
+:Line_324 a owl:NamedIndividual, :Line ; :lineNumber 324 ; :canonicalReference "324"^^xsd:string ;
+  :text "Κόμψευέ νυν τὴν δόξαν· εἰ δὲ ταῦτα μὴ"^^xsd:string .
+
+:Line_325 a owl:NamedIndividual, :Line ; :lineNumber 325 ; :canonicalReference "325"^^xsd:string ;
+  :text "φανεῖτέ μοι τοὺς δρῶντας, ἐξερεῖθ ̓ ὅτι"^^xsd:string .
+
+:Line_326 a owl:NamedIndividual, :Line ; :lineNumber 326 ; :canonicalReference "326"^^xsd:string ;
+  :text "τὰ δειλὰ κέρδη πημονὰς ἐργάζεται."^^xsd:string .
+
+:Line_327 a owl:NamedIndividual, :Line ; :lineNumber 327 ; :canonicalReference "327"^^xsd:string ;
+  :text "Ἀλλ ̓ εὑρεθείη μὲν μάλιστ ̓· ἐὰν δέ τοι"^^xsd:string .
+
+:Line_328 a owl:NamedIndividual, :Line ; :lineNumber 328 ; :canonicalReference "328"^^xsd:string ;
+  :text "ληφθῇ τε καὶ μή, τοῦτο γὰρ τύχη κρινεῖ,"^^xsd:string .
+
+:Line_329 a owl:NamedIndividual, :Line ; :lineNumber 329 ; :canonicalReference "329"^^xsd:string ;
+  :text "οὐκ ἔσθ ̓ ὅπως ὄψει σὺ δεῦρ ̓ ἐλθόντα με."^^xsd:string .
+
+:Line_330 a owl:NamedIndividual, :Line ; :lineNumber 330 ; :canonicalReference "330"^^xsd:string ;
+  :text "Καὶ νῦν γὰρ ἐκτὸς ἐλπίδος γνώμης τ ̓ ἐμῆς"^^xsd:string .
+
+:Line_331 a owl:NamedIndividual, :Line ; :lineNumber 331 ; :canonicalReference "331"^^xsd:string ;
+  :text "σωθεὶς ὀφείλω τοῖς θεοῖς πολλὴν χάριν."^^xsd:string .
+
+:Line_332 a owl:NamedIndividual, :Line ; :lineNumber 332 ; :canonicalReference "332"^^xsd:string ;
+  :text "Πολλὰ τὰ δεινὰ κοὐδὲν ἀν-"^^xsd:string .
+
+:Line_333 a owl:NamedIndividual, :Line ; :lineNumber 333 ; :canonicalReference "333"^^xsd:string ;
+  :text "θρώπου δεινότερον πέλει·"^^xsd:string .
+
+:Line_334 a owl:NamedIndividual, :Line ; :lineNumber 334 ; :canonicalReference "334"^^xsd:string ;
+  :text "τοῦτο καὶ πολιοῦ πέραν"^^xsd:string .
+
+:Line_335 a owl:NamedIndividual, :Line ; :lineNumber 335 ; :canonicalReference "335"^^xsd:string ;
+  :text "πόντου χειμερίῳ νότῳ"^^xsd:string .
+
+:Line_336 a owl:NamedIndividual, :Line ; :lineNumber 336 ; :canonicalReference "336"^^xsd:string ;
+  :text "χωρεῖ, περιβρυχίοισιν"^^xsd:string .
+
+:Line_337 a owl:NamedIndividual, :Line ; :lineNumber 337 ; :canonicalReference "337"^^xsd:string ;
+  :text "περῶν ὑπ ̓ οἴδμασιν, θεῶν"^^xsd:string .
+
+:Line_338 a owl:NamedIndividual, :Line ; :lineNumber 338 ; :canonicalReference "338"^^xsd:string ;
+  :text "τε τὰν ὑπερτάταν, Γᾶν"^^xsd:string .
+
+:Line_339 a owl:NamedIndividual, :Line ; :lineNumber 339 ; :canonicalReference "339"^^xsd:string ;
+  :text "ἄφθιτον, ἀκαμάταν, ἀποτρύεται,"^^xsd:string .
+
+:Line_340 a owl:NamedIndividual, :Line ; :lineNumber 340 ; :canonicalReference "340"^^xsd:string ;
+  :text "ἰλλομένων ἀρότρων ἔτος εἰς ἔτος,"^^xsd:string .
+
+:Line_341 a owl:NamedIndividual, :Line ; :lineNumber 341 ; :canonicalReference "341"^^xsd:string ;
+  :text "ἱππείῳ γένει πολεύων."^^xsd:string .
+
+:Line_342 a owl:NamedIndividual, :Line ; :lineNumber 342 ; :canonicalReference "342"^^xsd:string ;
+  :text "Κουφονόων τε φῦλον ὀρ-"^^xsd:string .
+
+:Line_343 a owl:NamedIndividual, :Line ; :lineNumber 343 ; :canonicalReference "343"^^xsd:string ;
+  :text "νίθων ἀμφιβαλὼν ἀγρεῖ"^^xsd:string .
+
+:Line_344 a owl:NamedIndividual, :Line ; :lineNumber 344 ; :canonicalReference "344"^^xsd:string ;
+  :text "καὶ θηρῶν ἀγρίων ἔθνη"^^xsd:string .
+
+:Line_345 a owl:NamedIndividual, :Line ; :lineNumber 345 ; :canonicalReference "345"^^xsd:string ;
+  :text "πόντου τ ̓ εἰναλίαν φύσιν"^^xsd:string .
+
+:Line_346 a owl:NamedIndividual, :Line ; :lineNumber 346 ; :canonicalReference "346"^^xsd:string ;
+  :text "σπείραισι δικτυοκλώστοις,"^^xsd:string .
+
+:Line_347 a owl:NamedIndividual, :Line ; :lineNumber 347 ; :canonicalReference "347"^^xsd:string ;
+  :text "περιφραδὴς ἀνήρ· κρατεῖ"^^xsd:string .
+
+:Line_348 a owl:NamedIndividual, :Line ; :lineNumber 348 ; :canonicalReference "348"^^xsd:string ;
+  :text "δὲ μηχαναῖς ἀγραύλου"^^xsd:string .
+
+:Line_349 a owl:NamedIndividual, :Line ; :lineNumber 349 ; :canonicalReference "349"^^xsd:string ;
+  :text "θηρὸς ὀρεσσιβάτα, λασιαύχενά θ ̓"^^xsd:string .
+
+:Line_350 a owl:NamedIndividual, :Line ; :lineNumber 350 ; :canonicalReference "350"^^xsd:string ;
+  :text "ἵππον ὑπαξέμεν ἀμφίλοφον ζυγὸν"^^xsd:string .
+
+:Line_351 a owl:NamedIndividual, :Line ; :lineNumber 351 ; :canonicalReference "351"^^xsd:string ;
+  :text "οὔρειόν τ ̓ ἀκμῆτα ταῦρον."^^xsd:string .
+
+:Line_352 a owl:NamedIndividual, :Line ; :lineNumber 352 ; :canonicalReference "352"^^xsd:string ;
+  :text "Καὶ φθέγμα καὶ ἀνεμόεν"^^xsd:string .
+
+:Line_353 a owl:NamedIndividual, :Line ; :lineNumber 353 ; :canonicalReference "353"^^xsd:string ;
+  :text "φρόνημα καὶ ἀστυνόμους"^^xsd:string .
+
+:Line_354 a owl:NamedIndividual, :Line ; :lineNumber 354 ; :canonicalReference "354"^^xsd:string ;
+  :text "ὀργὰς ἐδιδάξατο, καὶ δυσαύλων"^^xsd:string .
+
+:Line_355 a owl:NamedIndividual, :Line ; :lineNumber 355 ; :canonicalReference "355"^^xsd:string ;
+  :text "πάγων ὑπαίθρεια καὶ"^^xsd:string .
+
+:Line_356 a owl:NamedIndividual, :Line ; :lineNumber 356 ; :canonicalReference "356"^^xsd:string ;
+  :text "δύσομβρα φεύγειν βέλη"^^xsd:string .
+
+:Line_357 a owl:NamedIndividual, :Line ; :lineNumber 357 ; :canonicalReference "357"^^xsd:string ;
+  :text "παντοπόρος· ἄπορος ἐπ ̓ οὐδὲν ἔρχεται"^^xsd:string .
+
+:Line_358 a owl:NamedIndividual, :Line ; :lineNumber 358 ; :canonicalReference "358"^^xsd:string ;
+  :text "τὸ μέλλον· Ἅιδα μόνον"^^xsd:string .
+
+:Line_359 a owl:NamedIndividual, :Line ; :lineNumber 359 ; :canonicalReference "359"^^xsd:string ;
+  :text "φεῦξιν οὐκ ἐπάξεται·"^^xsd:string .
+
+:Line_360 a owl:NamedIndividual, :Line ; :lineNumber 360 ; :canonicalReference "360"^^xsd:string ;
+  :text "νόσων δ ̓ ἀμηχάνων φυγὰς"^^xsd:string .
+
+:Line_361 a owl:NamedIndividual, :Line ; :lineNumber 361 ; :canonicalReference "361"^^xsd:string ;
+  :text "ξυμπέφρασται."^^xsd:string .
+
+############################
+# TRANSLATION VARIANTS (English) — do not merge EN verse-lines
+############################
+
+:TV_Line_324_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_324 ;
+  :text "CREON. Grumble over this then: if you can’t track down"^^xsd:string .
+:TV_Line_325_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_325 ;
+  :text "The criminal who’s done this, you’ll find that 325"^^xsd:string .
+:TV_Line_326_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_326 ;
+  :text "Your ill-gotten gains bring you only misery."^^xsd:string .
+
+:TV_Line_327_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_327 ;
+  :text "GUARD. O ye gods, may this outlaw be found! Yet it is all one, whether he"^^xsd:string .
+:TV_Line_328_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_328 ;
+  :text "Be caught or be he not—as such is solely in fate’s domain—"^^xsd:string .
+:TV_Line_329_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_329 ;
+  :text "Surely, I shall not be seen here again! O ye gods,"^^xsd:string .
+:TV_Line_330_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_330 ;
+  :text "Rescued so, I owe ye a great many thanks. 330"^^xsd:string .
+:TV_Line_331_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_331 ;
+  :text "Rescued so, I owe ye a great many thanks. 330"^^xsd:string .
+
+:TV_Line_332_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_332 ;
+  :text "CHORUS. There are many marvelous things,"^^xsd:string .
+:TV_Line_333_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_333 ;
+  :text "Yet none more so than man."^^xsd:string .
+:TV_Line_334_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_334 ;
+  :text "This power traverses the sea"^^xsd:string .
+:TV_Line_335_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_335 ;
+  :text "When it is grey with wintry wind, 335"^^xsd:string .
+:TV_Line_336_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_336 ;
+  :text "Passing under the surging swells"^^xsd:string .
+:TV_Line_337_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_337 ;
+  :text "As they nearly engulf him. And of the gods"^^xsd:string .
+:TV_Line_338_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_338 ;
+  :text "The eldest, Gaia immortal, restless Gaia,"^^xsd:string .
+:TV_Line_339_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_339 ;
+  :text "He wears out by turning her soil with plows"^^xsd:string .
+:TV_Line_340_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_340 ;
+  :text "And the stock of horses, moving through and 340"^^xsd:string .
+:TV_Line_341_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_341 ;
+  :text "Back and forth, year after year."^^xsd:string .
+:TV_Line_342_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_342 ;
+  :text "He leads by taking captive"^^xsd:string .
+:TV_Line_343_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_343 ;
+  :text "The race of thoughtless birds,"^^xsd:string .
+:TV_Line_344_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_344 ;
+  :text "The nations of wild beasts"^^xsd:string .
+:TV_Line_345_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_345 ;
+  :text "And the aquatic life of the deep, 345"^^xsd:string .
+:TV_Line_346_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_346 ;
+  :text "In twisted nets woven into meshed coils,"^^xsd:string .
+:TV_Line_347_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_347 ;
+  :text "The very skillful human;"^^xsd:string .
+:TV_Line_348_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_348 ;
+  :text "With contrivance he rules over"^^xsd:string .
+:TV_Line_349_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_349 ;
+  :text "The field animals and the beast of the mountains,"^^xsd:string .
+:TV_Line_350_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_350 ;
+  :text "As he restrains the horse by placing a yoke 350"^^xsd:string .
+:TV_Line_351_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_351 ;
+  :text "Around its shaggy neck, and holds back"^^xsd:string .
+:TV_Line_352_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_352 ;
+  :text "The untiring bull of the mountains."^^xsd:string .
+:TV_Line_353_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_353 ;
+  :text "He has taught himself"^^xsd:string .
+:TV_Line_354_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_354 ;
+  :text "Speech and thought like wind"^^xsd:string .
+:TV_Line_355_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_355 ;
+  :text "And city-maintaining moods, 355"^^xsd:string .
+:TV_Line_356_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_356 ;
+  :text "And how to flee the frosty skies"^^xsd:string .
+:TV_Line_357_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_357 ;
+  :text "And stormy bolts of places inhospitable:"^^xsd:string .
+:TV_Line_358_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_358 ;
+  :text "All-inventive is he -"^^xsd:string .
+:TV_Line_359_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_359 ;
+  :text "He proceeds unknowingly into"^^xsd:string .
+:TV_Line_360_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_360 ;
+  :text "No impending matter: 360"^^xsd:string .
+:TV_Line_361_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_361 ;
+  :text "Only Hades is inescapable, Yet even against irresistible disease He has contrived remedy."^^xsd:string .
+
+############################
+# TRANSLATION VARIANTS (Modern Greek) — do not merge GR verse-lines
+############################
+
+:TV_Line_324_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_324 ;
+  :text "ΚΡΕΩΝ. Καλά, κρύψου εσύ πίσω απ’ το «κρίμα»."^^xsd:string .
+:TV_Line_325_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_325 ;
+  :text "Αν δεν μου φανερώσετε ποιος έκρινε σωστό να κάνει τέτοιο πράγμα, 320"^^xsd:string .
+:TV_Line_326_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_326 ;
+  :text "θα σας μάθω τι σημαίνει άτιμο κέρδος και δίκαιη τιμωρία."^^xsd:string .
+
+:TV_Line_327_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_327 ;
+  :text "ΣΚΟΠΟΣ. Εύχομαι ν’ αποκαλυφθεί. Όμως εμένα,"^^xsd:string .
+:TV_Line_328_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_328 ;
+  :text "συλληφθεί δεν συλληφθεί -αυτό βέβαια θα το κρίνει η τύχη"^^xsd:string .
+:TV_Line_329_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_329 ;
+  :text "δεν θα με ξαναδείς μπροστά σου."^^xsd:string .
+:TV_Line_330_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_330 ;
+  :text "Ακόμα δεν μπορώ να το πιστέψω πώς με γλίτωσαν οι θεοί. 325"^^xsd:string .
+:TV_Line_331_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_331 ;
+  :text "Σώθηκα, τους ευχαριστώ και... τέλος με τις κρίσεις και τα κρίματα."^^xsd:string .
+
+:TV_Line_332_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_332 ;
+  :text "ΧΟΡΟΣ. Γκρεμός ο κόσμος· κι ο άνθρωπος"^^xsd:string .
+:TV_Line_333_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_333 ;
+  :text "ένας γκρεμός στην άκρη του γκρεμού."^^xsd:string .
+:TV_Line_334_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_334 ;
+  :text "Ορθώνεται ακλόνητος στον άγριο χειμώνα του πελάγους"^^xsd:string .
+:TV_Line_335_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_335 ;
+  :text "κι ανοίγει δρόμους μες στις θύελλες που ζητούν 330"^^xsd:string .
+:TV_Line_336_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_336 ;
+  :text "να τον καταποντίσουν."^^xsd:string .
+:TV_Line_337_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_337 ;
+  :text "Τ’ άλογα οπλίζει με άροτρα και χρόνο με τον χρόνο"^^xsd:string .
+:TV_Line_338_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_338 ;
+  :text "δαμάζει, οργώνει , καλλιεργεί"^^xsd:string .
+:TV_Line_339_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_339 ;
+  :text "τη Γη, την ακατάλυτη,"^^xsd:string .
+:TV_Line_340_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_340 ;
+  :text "την άφθαρτη, αθάνατη, υπέρτατη θεά. 335"^^xsd:string .
+:TV_Line_341_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_341 ;
+  :text "Το ανάερο γένος των πουλιών πολιορκεί·"^^xsd:string .
+:TV_Line_342_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_342 ;
+  :text "των αγριμιών και των κατοίκων των βυθών"^^xsd:string .
+:TV_Line_343_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_343 ;
+  :text "τα έθνη υποδουλώνει με δίχτυα αναπόδραστα,"^^xsd:string .
+:TV_Line_344_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_344 ;
+  :text "ο επιτήδειος άνθρωπος:"^^xsd:string .
+:TV_Line_345_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_345 ;
+  :text "παγιδεύει τα θηρία των δασών, 340"^^xsd:string .
+:TV_Line_346_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_346 ;
+  :text "δαμάζει τ’ άλογα και ζεύει άγριους ταύρους."^^xsd:string .
+:TV_Line_347_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_347 ;
+  :text "Γλώσσα και σκέψη ευέλικτη και σταθερούς θεσμούς"^^xsd:string .
+:TV_Line_348_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_348 ;
+  :text "διδάσκει και διδάσκεται"^^xsd:string .
+:TV_Line_349_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_349 ;
+  :text "Της παγωνιάς και της βροχής τα βέλη αποφεύγει"^^xsd:string .
+:TV_Line_350_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_350 ;
+  :text "και πάντα βρίσκει τρόπο ν’ ανταπεξέλθει· αδύναμος 345"^^xsd:string .
+:TV_Line_351_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_351 ;
+  :text "μόνο μπροστά στον θάνατο δείχνεται - όσες πληγές"^^xsd:string .
+:TV_Line_352_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_352 ;
+  :text "κι αρρώστιες κι αν γνωρίζει να γιατρεύει."^^xsd:string .
+
+############################
+# INTENTIONS AND OBJECTIVES
+############################
+
+:Motivation_Creon_DemandPerpetrators_324_326
+  a owl:NamedIndividual, :Motivation ;
+  :description "Demand that the perpetrators be revealed; warn that base profits bring misery."^^xsd:string .
+
+:MoralDecision_Creon_ThreatenConsequences_324_326
+  a owl:NamedIndividual, :MoralDecision ;
+  :description "Threaten consequences if the doer is not revealed; associate profit-seeking with misery."^^xsd:string .
+
+:Motivation_Guard_AvoidReturn_327_329
+  a owl:NamedIndividual, :Motivation ;
+  :description "State he will not be seen here again; frame capture/non-capture as decided by chance/fate."^^xsd:string .
+
+:Motivation_Guard_ExpressGratitude_330_331
+  a owl:NamedIndividual, :Motivation ;
+  :description "Express gratitude to the gods for being saved."^^xsd:string .
+
+:Motivation_Chorus_PraiseHumanPower_332_361
+  a owl:NamedIndividual, :Motivation ;
+  :description "Reflect on human ingenuity and dominion over sea, earth, animals, and social order, with death as the ultimate limit."^^xsd:string .
+
+:Antigone_Character_Creon
+  :hasMotivation :Motivation_Creon_DemandPerpetrators_324_326 ;
+  :makesMoralDecision :MoralDecision_Creon_ThreatenConsequences_324_326 .
+
+:Antigone_Character_Guard
+  :hasMotivation :Motivation_Guard_AvoidReturn_327_329, :Motivation_Guard_ExpressGratitude_330_331 .
+
+:Antigone_Character_Chorus
+  :hasMotivation :Motivation_Chorus_PraiseHumanPower_332_361 .
+
+############################
+# MORAL JUSTIFICATIONS
+############################
+
+:EthicalPrinciple_BaseProfitBringsMisery_326
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Ill-gotten/base gains produce misery/woe (δειλὰ κέρδη → πημονάς)."^^xsd:string .
+
+:Antigone_Character_Creon
+  :advocatesFor :EthicalPrinciple_BaseProfitBringsMisery_326 .
+
+############################
+# EMOTIONAL STATES
+############################
+
+:Emotion_Creon_ThreateningIre_324_326
+  a owl:NamedIndividual, :Emotion ;
+  :description "Threatening irritation and warning."^^xsd:string .
+
+:Emotion_Guard_ReliefAndGratitude_330_331
+  a owl:NamedIndividual, :Emotion ;
+  :description "Relief at survival and gratitude to the gods."^^xsd:string .
+
+:Antigone_Character_Creon
+  :experiencesEmotion :Emotion_Creon_ThreateningIre_324_326 .
+
+:Antigone_Character_Guard
+  :experiencesEmotion :Emotion_Guard_ReliefAndGratitude_330_331 .
+
+############################
+# SEMANTIC CONTRADICTIONS
+############################
+
+:Conflict_DemandVsChance_328_329
+  a owl:NamedIndividual, :Conflict ;
+  :description "Creon presses for revelation; the guard frames capture as decided by τύχη (chance/fate)."^^xsd:string ;
+  :conflictBetween :Antigone_Character_Creon, :Antigone_Character_Guard .
+
+############################
+# CAUSAL RELATIONSHIPS (:relatedTo)
+############################
+
+:Event_BaseGains_326
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Ill-gotten/base gains (δειλὰ κέρδη)."^^xsd:string .
+
+:Event_Misery_326
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Misery/woe (πημονάς) said to be produced by base gains."^^xsd:string .
+
+:Event_BaseGains_326
+  :relatedTo :Event_Misery_326 .
+
+:Event_ChanceDecides_328
+  a owl:NamedIndividual, owl:Thing ;
+  :description "τύχη decides whether the doer is caught or not."^^xsd:string .
+
+:Event_GuardNotSeenAgain_329
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Guard declares he will not be seen coming here again."^^xsd:string .
+
+:Event_ChanceDecides_328
+  :relatedTo :Event_GuardNotSeenAgain_329 .
+
+:Event_Rescued_330_331
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Guard is saved beyond expectation."^^xsd:string .
+
+:Event_ThanksToGods_330_331
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Guard thanks the gods for salvation."^^xsd:string .
+
+:Event_Rescued_330_331
+  :relatedTo :Event_ThanksToGods_330_331 .
+
+############################
+# THEMATIC SIGNALS
+############################
+
+:Speech_Creon_324_326
+  :hasTheme :Theme_GreedAndRuin, :Theme_StrictEnforcement .
+
+:Speech_Guard_327_331
+  :hasTheme :Theme_FateAndSurvival, :Theme_FearOfPunishment .
+
+:Speech_Chorus_332_361
+  :hasTheme :Theme_HumanIngenuity, :Theme_DominionOverNature, :Theme_MortalityAndLimits .

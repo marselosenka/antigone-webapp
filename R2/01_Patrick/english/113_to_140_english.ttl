@@ -1,4 +1,3 @@
-```turtle
 @prefix : <http://example.org/antigone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -222,4 +221,3 @@ a :Symbol ;
 :Line_140 a :Line ; :lineNumber 140 ; :canonicalReference "140"^^xsd:string ; :partOfScene :Antigone_Scene_Parodos_115_140_EN .
 :TV_Line_140_en a :TranslationVariant ; :text "Yet these threats turned out otherwise, And to other foes great Ares Dealt other blows, workhorse of battle."^^xsd:string ; :relatedTo :Line_140 .
 :Line_140 :hasTheme :Theme_WarViolence ; :referencesMyth :Myth_AresWarCry .
-```

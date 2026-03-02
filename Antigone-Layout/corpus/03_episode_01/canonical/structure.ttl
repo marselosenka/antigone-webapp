@@ -1,0 +1,792 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:episode01-structure a owl:Ontology .
+
+:Line_162 a owl:NamedIndividual, :Line ;
+:lineNumber 162 ;
+:canonicalReference "162"^^xsd:string ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :MoralDecision_SummonEldersByCommonProclamation .
+
+:Line_163 a owl:NamedIndividual, :Line ;
+:lineNumber 163 ;
+:canonicalReference "163"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis .
+
+:Line_164 a owl:NamedIndividual, :Line ;
+:lineNumber 164 ;
+:canonicalReference "164"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis .
+
+:Line_165 a owl:NamedIndividual, :Line ;
+:lineNumber 165 ;
+:canonicalReference "165"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :Motivation_TestLeadersByOffice .
+
+:Line_166 a owl:NamedIndividual, :Line ;
+:lineNumber 166 ;
+:canonicalReference "166"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw .
+
+:Line_167 a owl:NamedIndividual, :Line ;
+:lineNumber 167 ;
+:canonicalReference "167"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw .
+
+:Line_168 a owl:NamedIndividual, :Line ;
+:lineNumber 168 ;
+:canonicalReference "168"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis .
+
+:Line_169 a owl:NamedIndividual, :Line ;
+:lineNumber 169 ;
+:canonicalReference "169"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:relatedTo :Event_CreonAccession .
+
+:Line_170 a owl:NamedIndividual, :Line ;
+:lineNumber 170 ;
+:canonicalReference "170"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw .
+
+:Line_171 a owl:NamedIndividual, :Line ;
+:lineNumber 171 ;
+:canonicalReference "171"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:relatedTo :Event_BrothersDeathPollution .
+
+:Line_172 a owl:NamedIndividual, :Line ;
+:lineNumber 172 ;
+:canonicalReference "172"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:relatedTo :Event_BrothersDeathPollution .
+
+:Line_173 a owl:NamedIndividual, :Line ;
+:lineNumber 173 ;
+:canonicalReference "173"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:relatedTo :Event_BrothersDeathPollution .
+
+:Line_174 a owl:NamedIndividual, :Line ;
+:lineNumber 174 ;
+:canonicalReference "174"^^xsd:string ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :Event_CreonAccession .
+
+:Line_175 a owl:NamedIndividual, :Line ;
+:lineNumber 175 ;
+:canonicalReference "175"^^xsd:string ;
+:hasTheme :Theme_PoliticalTransitionToCreon ;
+:relatedTo :Event_CreonAccession .
+
+:Line_176 a owl:NamedIndividual, :Line ;
+:lineNumber 176 ;
+:canonicalReference "176"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :Motivation_TestLeadersByOffice .
+
+:Line_177 a owl:NamedIndividual, :Line ;
+:lineNumber 177 ;
+:canonicalReference "177"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :Motivation_TestLeadersByOffice .
+
+:Line_178 a owl:NamedIndividual, :Line ;
+:lineNumber 178 ;
+:canonicalReference "178"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :EthicalPrinciple_LawfulGovernance .
+
+:Line_179 a owl:NamedIndividual, :Line ;
+:lineNumber 179 ;
+:canonicalReference "179"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw .
+
+:Line_180 a owl:NamedIndividual, :Line ;
+:lineNumber 180 ;
+:canonicalReference "180"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :EthicalPrinciple_FrankCounsel .
+
+:Line_181 a owl:NamedIndividual, :Line ;
+:lineNumber 181 ;
+:canonicalReference "181"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:hasConflict :Conflict_FearSilenceVsBestCounsel .
+
+:Line_182 a owl:NamedIndividual, :Line ;
+:lineNumber 182 ;
+:canonicalReference "182"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :EthicalPrinciple_FrankCounsel .
+
+:Line_183 a owl:NamedIndividual, :Line ;
+:lineNumber 183 ;
+:canonicalReference "183"^^xsd:string ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:hasConflict :Conflict_FriendVsFatherland .
+
+:Line_184 a owl:NamedIndividual, :Line ;
+:lineNumber 184 ;
+:canonicalReference "184"^^xsd:string ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:hasConflict :Conflict_FriendVsFatherland .
+
+:Line_185 a owl:NamedIndividual, :Line ;
+:lineNumber 185 ;
+:canonicalReference "185"^^xsd:string ;
+:referencesMyth :Myth_ZeusAllSeeing ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:relatedTo :MoralDecision_SpeakAgainstRuin .
+
+:Line_186 a owl:NamedIndividual, :Line ;
+:lineNumber 186 ;
+:canonicalReference "186"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:hasConflict :Conflict_FearSilenceVsBestCounsel ;
+:relatedTo :MoralDecision_SpeakAgainstRuin .
+
+:Line_187 a owl:NamedIndividual, :Line ;
+:lineNumber 187 ;
+:canonicalReference "187"^^xsd:string ;
+:hasTheme :Theme_CivicStabilityAfterCrisis ;
+:relatedTo :MoralDecision_SpeakAgainstRuin .
+
+:Line_188 a owl:NamedIndividual, :Line ;
+:lineNumber 188 ;
+:canonicalReference "188"^^xsd:string ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:relatedTo :MoralDecision_PrioritizeCityOverPrivateFriendship .
+
+:Line_189 a owl:NamedIndividual, :Line ;
+:lineNumber 189 ;
+:canonicalReference "189"^^xsd:string ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:relatedTo :MoralDecision_PrioritizeCityOverPrivateFriendship .
+
+:Line_190 a owl:NamedIndividual, :Line ;
+:lineNumber 190 ;
+:canonicalReference "190"^^xsd:string ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:relatedTo :EthicalPrinciple_Patriotism .
+
+:Line_191 a owl:NamedIndividual, :Line ;
+:lineNumber 191 ;
+:canonicalReference "191"^^xsd:string ;
+:hasTheme :Theme_PatriotismAbovePersonalTies ;
+:relatedTo :EthicalPrinciple_Patriotism .
+
+:Line_192 a owl:NamedIndividual, :Line ;
+:lineNumber 192 ;
+:canonicalReference "192"^^xsd:string ;
+:hasTheme :Theme_LeadershipAndLaw ;
+:relatedTo :EthicalPrinciple_LawfulGovernance .
+
+:Line_193 a owl:NamedIndividual, :Line ; :lineNumber 193 ; :canonicalReference "193"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc .
+
+:Line_194 a owl:NamedIndividual, :Line ; :lineNumber 194 ; :canonicalReference "194"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :Antigone_Character_Eteocles .
+
+:Line_195 a owl:NamedIndividual, :Line ; :lineNumber 195 ; :canonicalReference "195"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_JusticeByMerit ;
+:relatedTo :Event_EteoclesDefendsCityDies .
+
+:Line_196 a owl:NamedIndividual, :Line ; :lineNumber 196 ; :canonicalReference "196"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :MoralDecision_BuryEteoclesWithHonors ;
+:hasTheme :Theme_BurialHonorAndDisgrace .
+
+:Line_197 a owl:NamedIndividual, :Line ; :lineNumber 197 ; :canonicalReference "197"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :MoralDecision_BuryEteoclesWithHonors ;
+:hasTheme :Theme_BurialHonorAndDisgrace .
+
+:Line_198 a owl:NamedIndividual, :Line ; :lineNumber 198 ; :canonicalReference "198"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :Antigone_Character_Polyneices .
+
+:Line_199 a owl:NamedIndividual, :Line ; :lineNumber 199 ; :canonicalReference "199"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_PunishmentOfTreason ;
+:relatedTo :Event_PolyneicesAttacksFatherland .
+
+:Line_200 a owl:NamedIndividual, :Line ; :lineNumber 200 ; :canonicalReference "200"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :Event_PolyneicesAttacksFatherland .
+
+:Line_201 a owl:NamedIndividual, :Line ; :lineNumber 201 ; :canonicalReference "201"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :Event_PolyneicesAttacksFatherland .
+
+:Line_202 a owl:NamedIndividual, :Line ; :lineNumber 202 ; :canonicalReference "202"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :Event_PolyneicesAttacksFatherland ;
+:hasTheme :Theme_PunishmentOfTreason .
+
+:Line_203 a owl:NamedIndividual, :Line ; :lineNumber 203 ; :canonicalReference "203"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:relatedTo :MoralDecision_DenyBurialToPolyneices ;
+:relatedTo :Event_CreonProclaimsDecree .
+
+:Line_204 a owl:NamedIndividual, :Line ; :lineNumber 204 ; :canonicalReference "204"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_BurialHonorAndDisgrace ;
+:relatedTo :MoralDecision_DenyBurialToPolyneices .
+
+:Line_205 a owl:NamedIndividual, :Line ; :lineNumber 205 ; :canonicalReference "205"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_BurialHonorAndDisgrace ;
+:relatedTo :MoralDecision_DenyBurialToPolyneices .
+
+:Line_206 a owl:NamedIndividual, :Line ; :lineNumber 206 ; :canonicalReference "206"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_BurialHonorAndDisgrace ;
+:relatedTo :MoralDecision_DenyBurialToPolyneices .
+
+:Line_207 a owl:NamedIndividual, :Line ; :lineNumber 207 ; :canonicalReference "207"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:experiencesEmotion :Emotion_SternResolve .
+
+:Line_208 a owl:NamedIndividual, :Line ; :lineNumber 208 ; :canonicalReference "208"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasConflict :Conflict_HonorWickedVsJust ;
+:relatedTo :EthicalPrinciple_NoHonorForWickedOverJust ;
+:hasTheme :Theme_JusticeByMerit .
+
+:Line_209 a owl:NamedIndividual, :Line ; :lineNumber 209 ; :canonicalReference "209"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_PatriotismAndCivicLoyalty ;
+:relatedTo :MoralDecision_HonorLoyalToCityLivingAndDead .
+
+:Line_210 a owl:NamedIndividual, :Line ; :lineNumber 210 ; :canonicalReference "210"^^xsd:string ;
+:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+:hasTheme :Theme_PatriotismAndCivicLoyalty ;
+:relatedTo :MoralDecision_HonorLoyalToCityLivingAndDead .
+
+
+:Line_211
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 211 ;
+  :canonicalReference "211"^^xsd:string .
+
+:Line_212
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 212 ;
+  :canonicalReference "212"^^xsd:string .
+
+:Line_213
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 213 ;
+  :canonicalReference "213"^^xsd:string .
+
+:Line_214
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 214 ;
+  :canonicalReference "214"^^xsd:string .
+
+:Line_215
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 215 ;
+  :canonicalReference "215"^^xsd:string .
+
+:Line_216
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 216 ;
+  :canonicalReference "216"^^xsd:string .
+
+:Line_217
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 217 ;
+  :canonicalReference "217"^^xsd:string .
+
+:Line_218
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 218 ;
+  :canonicalReference "218"^^xsd:string .
+
+:Line_219
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 219 ;
+  :canonicalReference "219"^^xsd:string .
+
+:Line_220
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 220 ;
+  :canonicalReference "220"^^xsd:string .
+
+:Line_221
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 221 ;
+  :canonicalReference "221"^^xsd:string .
+
+:Line_222
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 222 ;
+  :canonicalReference "222"^^xsd:string .
+
+:Line_223 a owl:NamedIndividual, :Line ;
+:lineNumber 223 ;
+:canonicalReference "223"^^xsd:string .
+
+:Line_224 a owl:NamedIndividual, :Line ;
+  :lineNumber 224 ;
+  :canonicalReference "224"^^xsd:string .
+
+:Line_225 a owl:NamedIndividual, :Line ;
+  :lineNumber 225 ;
+  :canonicalReference "225"^^xsd:string .
+
+
+:Line_226 a owl:NamedIndividual, :Line ;
+  :lineNumber 226 ;
+  :canonicalReference "226"^^xsd:string .
+
+
+:Line_227 a owl:NamedIndividual, :Line ;
+  :lineNumber 227 ;
+  :canonicalReference "227"^^xsd:string .
+
+
+:Line_228 a owl:NamedIndividual, :Line ;
+  :lineNumber 228 ;
+  :canonicalReference "228"^^xsd:string .
+
+
+:Line_229 a owl:NamedIndividual, :Line ;
+  :lineNumber 229 ;
+  :canonicalReference "229"^^xsd:string .
+
+
+:Line_230 a owl:NamedIndividual, :Line ;
+  :lineNumber 230 ;
+  :canonicalReference "230"^^xsd:string .
+
+
+:Line_231 a owl:NamedIndividual, :Line ;
+  :lineNumber 231 ;
+  :canonicalReference "231"^^xsd:string .
+
+
+:Line_232 a owl:NamedIndividual, :Line ;
+  :lineNumber 232 ;
+  :canonicalReference "232"^^xsd:string .
+
+
+:Line_233 a owl:NamedIndividual, :Line ;
+  :lineNumber 233 ;
+  :canonicalReference "233"^^xsd:string .
+
+
+:Line_234 a owl:NamedIndividual, :Line ;
+  :lineNumber 234 ;
+  :canonicalReference "234"^^xsd:string .
+
+
+:Line_235 a owl:NamedIndividual, :Line ;
+  :lineNumber 235 ;
+  :canonicalReference "235"^^xsd:string .
+
+
+:Line_236 a owl:NamedIndividual, :Line ;
+  :lineNumber 236 ;
+  :canonicalReference "236"^^xsd:string .
+
+
+:Line_237 a owl:NamedIndividual, :Line ;
+  :lineNumber 237 ;
+  :canonicalReference "237"^^xsd:string .
+
+
+:Line_238 a owl:NamedIndividual, :Line ;
+  :lineNumber 238 ;
+  :canonicalReference "238"^^xsd:string .
+
+
+:Line_239 a owl:NamedIndividual, :Line ;
+  :lineNumber 239 ;
+  :canonicalReference "239"^^xsd:string .
+
+
+:Line_240 a owl:NamedIndividual, :Line ;
+  :lineNumber 240 ;
+  :canonicalReference "240"^^xsd:string .
+
+
+:Line_241 a owl:NamedIndividual, :Line ;
+  :lineNumber 241 ;
+  :canonicalReference "241"^^xsd:string .
+
+
+:Line_242 a owl:NamedIndividual, :Line ;
+  :lineNumber 242 ;
+  :canonicalReference "242"^^xsd:string .
+
+
+:Line_243 a owl:NamedIndividual, :Line ;
+  :lineNumber 243 ;
+  :canonicalReference "243"^^xsd:string .
+
+
+:Line_244 a owl:NamedIndividual, :Line ;
+    :lineNumber 244 ;
+    :canonicalReference "244"^^xsd:string .
+
+
+:Line_245 a owl:NamedIndividual, :Line ;
+    :lineNumber 245 ;
+    :canonicalReference "245"^^xsd:string .
+
+
+:Line_246 a owl:NamedIndividual, :Line ;
+  :lineNumber 246 ;
+  :canonicalReference "246"^^xsd:string .
+
+
+:Line_247 a owl:NamedIndividual, :Line ;
+  :lineNumber 247 ;
+  :canonicalReference "247"^^xsd:string .
+
+
+:Line_248 a owl:NamedIndividual, :Line ;
+    :lineNumber 248 ;
+    :canonicalReference "248"^^xsd:string .
+
+:Line_249 a owl:NamedIndividual, :Line ;
+    :lineNumber 249 ;
+    :canonicalReference "249"^^xsd:string .
+
+
+:Line_250 a owl:NamedIndividual, :Line ;
+    :lineNumber 250 ;
+    :canonicalReference "250"^^xsd:string .
+
+
+:Line_251 a owl:NamedIndividual, :Line ;
+    :lineNumber 251 ;
+    :canonicalReference "251"^^xsd:string .
+
+
+:Line_252 a owl:NamedIndividual, :Line ;
+    :lineNumber 252 ;
+    :canonicalReference "252"^^xsd:string .
+
+:Line_253 a owl:NamedIndividual, :Line ; 
+    :lineNumber 253 ; 
+    :canonicalReference "253"^^xsd:string .
+
+:Line_254 a owl:NamedIndividual, :Line ; 
+    :lineNumber 254 ; 
+    :canonicalReference "254"^^xsd:string .
+
+:Line_255 a owl:NamedIndividual, :Line ; 
+    :lineNumber 255 ; 
+    :canonicalReference "255"^^xsd:string .
+
+:Line_256 a owl:NamedIndividual, :Line ; 
+    :lineNumber 256 ; 
+    :canonicalReference "256"^^xsd:string .
+
+
+:Line_257 a owl:NamedIndividual, :Line ; 
+    :lineNumber 257 ; 
+    :canonicalReference "257"^^xsd:string .
+
+
+:Line_258 a owl:NamedIndividual, :Line ; 
+    :lineNumber 258 ; 
+    :canonicalReference "258"^^xsd:string .
+
+:Line_259 a owl:NamedIndividual, :Line ;
+    :lineNumber 259 ; 
+    :canonicalReference "259"^^xsd:string .
+
+:Line_260 a owl:NamedIndividual, :Line ; 
+    :lineNumber 260 ; 
+    :canonicalReference "260"^^xsd:string .
+
+:Line_261 a owl:NamedIndividual, :Line ; 
+    :lineNumber 261 ; 
+    :canonicalReference "261"^^xsd:string .
+
+:Line_262 a owl:NamedIndividual, :Line ; 
+    :lineNumber 262 ; 
+    :canonicalReference "262"^^xsd:string .
+
+:Line_263 a owl:NamedIndividual, :Line ; 
+    :lineNumber 263 ; 
+    :canonicalReference "263"^^xsd:string .
+
+:Line_264 a owl:NamedIndividual, :Line ; 
+    :lineNumber 264 ; 
+    :canonicalReference "264"^^xsd:string .
+
+:Line_265 a owl:NamedIndividual, :Line ; 
+    :lineNumber 265 ; 
+    :canonicalReference "265"^^xsd:string .
+
+:Line_266 a owl:NamedIndividual, :Line ; 
+    :lineNumber 266 ; 
+    :canonicalReference "266"^^xsd:string .
+
+:Line_267 a owl:NamedIndividual, :Line ; 
+    :lineNumber 267 ; 
+    :canonicalReference "267"^^xsd:string .
+
+:Line_268 a owl:NamedIndividual, :Line ; 
+    :lineNumber 268 ; 
+    :canonicalReference "268"^^xsd:string .
+
+:Line_269 a owl:NamedIndividual, :Line ; 
+    :lineNumber 269 ; 
+    :canonicalReference "269"^^xsd:string .
+
+:Line_270 a owl:NamedIndividual, :Line ; 
+    :lineNumber 270 ; 
+    :canonicalReference "270"^^xsd:string .
+
+:Line_271 a owl:NamedIndividual, :Line ; 
+    :lineNumber 271 ; 
+    :canonicalReference "271"^^xsd:string .
+
+:Line_272 a owl:NamedIndividual, :Line ; 
+    :lineNumber 272 ; 
+    :canonicalReference "272"^^xsd:string .
+
+:Line_273 a owl:NamedIndividual, :Line ; 
+    :lineNumber 273 ; 
+    :canonicalReference "273"^^xsd:string .
+
+:Line_274 a owl:NamedIndividual, :Line ; 
+    :lineNumber 274 ; 
+    :canonicalReference "274"^^xsd:string .
+
+:Line_275 a owl:NamedIndividual, :Line ; 
+    :lineNumber 275 ; 
+    :canonicalReference "275"^^xsd:string .
+
+:Line_276 a owl:NamedIndividual, :Line ; 
+    :lineNumber 276 ; 
+    :canonicalReference "276"^^xsd:string .
+
+:Line_277 a owl:NamedIndividual, :Line ; 
+    :lineNumber 277 ; 
+    :canonicalReference "277"^^xsd:string .
+
+:Line_278 a owl:NamedIndividual, :Line ; 
+    :lineNumber 278 ; 
+    :canonicalReference "278"^^xsd:string .
+
+:Line_279 a owl:NamedIndividual, :Line ; 
+    :lineNumber 279 ; 
+    :canonicalReference "279"^^xsd:string .
+
+:Line_280 a owl:NamedIndividual, :Line ;
+    :lineNumber 280 ; 
+    :canonicalReference "280"^^xsd:string .
+
+:Line_281 a owl:NamedIndividual, :Line ; 
+    :lineNumber 281 ; 
+    :canonicalReference "281"^^xsd:string .
+
+:Line_282 a owl:NamedIndividual, :Line ; 
+    :lineNumber 282 ; 
+    :canonicalReference "282"^^xsd:string .
+
+:Line_283 a owl:NamedIndividual, :Line ; 
+    :lineNumber 283 ; 
+    :canonicalReference "283"^^xsd:string .
+
+:Line_284 a owl:NamedIndividual, :Line ; 
+    :lineNumber 284 ; 
+    :canonicalReference "284"^^xsd:string .
+
+:Line_285 a owl:NamedIndividual, :Line ; 
+    :lineNumber 285 ; 
+    :canonicalReference "285"^^xsd:string .
+
+:Line_286 a owl:NamedIndividual, :Line ; 
+    :lineNumber 286 ; 
+    :canonicalReference "286"^^xsd:string .
+
+:Line_287 a owl:NamedIndividual, :Line ; 
+    :lineNumber 287 ; 
+    :canonicalReference "287"^^xsd:string .
+
+:Line_288 a owl:NamedIndividual, :Line ; 
+    :lineNumber 288 ; 
+    :canonicalReference "288"^^xsd:string .
+
+:Line_289 a owl:NamedIndividual, :Line ; 
+    :lineNumber 289 ; 
+    :canonicalReference "289"^^xsd:string .
+
+:Line_290 a owl:NamedIndividual, :Line ; 
+    :lineNumber 290 ; 
+    :canonicalReference "290"^^xsd:string .
+
+:Line_291 a owl:NamedIndividual, :Line ; 
+    :lineNumber 291 ; 
+    :canonicalReference "291"^^xsd:string .
+
+:Line_292 a owl:NamedIndividual, :Line ; 
+    :lineNumber 292 ; 
+    :canonicalReference "292"^^xsd:string .
+
+:Line_293 a owl:NamedIndividual, :Line ; 
+    :lineNumber 293 ; 
+    :canonicalReference "293"^^xsd:string .
+
+:Line_294 a owl:NamedIndividual, :Line ; 
+    :lineNumber 294 ; 
+    :canonicalReference "294"^^xsd:string .
+
+:Line_295 a owl:NamedIndividual, :Line ; 
+    :lineNumber 295 ; 
+    :canonicalReference "295"^^xsd:string .
+
+:Line_296 a owl:NamedIndividual, :Line ; 
+    :lineNumber 296 ; 
+    :canonicalReference "296"^^xsd:string .
+
+:Line_297 a owl:NamedIndividual, :Line ; 
+    :lineNumber 297 ; 
+    :canonicalReference "297"^^xsd:string .
+
+:Line_298 a owl:NamedIndividual, :Line ; 
+    :lineNumber 298 ; 
+    :canonicalReference "298"^^xsd:string .
+
+:Line_299 a owl:NamedIndividual, :Line ; 
+    :lineNumber 299 ; 
+    :canonicalReference "299"^^xsd:string .
+
+:Line_300 a owl:NamedIndividual, :Line ; 
+    :lineNumber 300 ; 
+    :canonicalReference "300"^^xsd:string .
+
+:Line_301 a owl:NamedIndividual, :Line ; 
+    :lineNumber 301 ; 
+    :canonicalReference "301"^^xsd:string .
+
+
+:Line_302 a owl:NamedIndividual, :Line ; 
+    :lineNumber 302 ; 
+    :canonicalReference "302"^^xsd:string .
+
+:Line_303 a owl:NamedIndividual, :Line ; 
+    :lineNumber 303 ; 
+    :canonicalReference "303"^^xsd:string .
+
+:Line_304 a owl:NamedIndividual, :Line ; 
+    :lineNumber 304 ; 
+    :canonicalReference "304"^^xsd:string .
+
+:Line_305 a owl:NamedIndividual, :Line ; 
+    :lineNumber 305 ; 
+    :canonicalReference "305"^^xsd:string .
+
+:Line_306 a owl:NamedIndividual, :Line ; 
+    :lineNumber 306 ; 
+    :canonicalReference "306"^^xsd:string .
+
+:Line_307 a owl:NamedIndividual, :Line ; 
+    :lineNumber 307 ; 
+    :canonicalReference "307"^^xsd:string .
+
+:Line_308 a owl:NamedIndividual, :Line ; 
+    :lineNumber 308 ; 
+    :canonicalReference "308"^^xsd:string .
+
+:Line_309 a owl:NamedIndividual, :Line ; 
+    :lineNumber 309 ; 
+    :canonicalReference "309"^^xsd:string .
+
+:Line_310 a owl:NamedIndividual, :Line ; 
+    :lineNumber 310 ; 
+    :canonicalReference "310"^^xsd:string .
+
+:Line_311 a owl:NamedIndividual, :Line ; 
+    :lineNumber 311 ; 
+    :canonicalReference "311"^^xsd:string .
+
+:Line_312 a owl:NamedIndividual, :Line ; 
+    :lineNumber 312 ; 
+    :canonicalReference "312"^^xsd:string .
+
+:Line_313 a owl:NamedIndividual, :Line ; 
+    :lineNumber 313 ; 
+    :canonicalReference "313"^^xsd:string .
+
+:Line_314 a owl:NamedIndividual, :Line ; 
+    :lineNumber 314 ; 
+    :canonicalReference "314"^^xsd:string .
+
+:Line_315 a owl:NamedIndividual, :Line ; 
+    :lineNumber 315 ; 
+    :canonicalReference "315"^^xsd:string .
+
+:Line_316 a owl:NamedIndividual, :Line ; 
+    :lineNumber 316 ; 
+    :canonicalReference "316"^^xsd:string .
+
+:Line_317 a owl:NamedIndividual, :Line ;
+    :lineNumber 317 ; 
+    :canonicalReference "317"^^xsd:string .
+
+:Line_318 a owl:NamedIndividual, :Line ; 
+    :lineNumber 318 ; 
+    :canonicalReference "318"^^xsd:string .
+
+:Line_319 a owl:NamedIndividual, :Line ; 
+    :lineNumber 319 ; 
+    :canonicalReference "319"^^xsd:string .
+
+:Line_320 a owl:NamedIndividual, :Line ; 
+    :lineNumber 320 ; 
+    :canonicalReference "320"^^xsd:string .
+
+:Line_321 a owl:NamedIndividual, :Line ; 
+    :lineNumber 321 ; 
+    :canonicalReference "321"^^xsd:string .
+
+:Line_322 a owl:NamedIndividual, :Line ; 
+    :lineNumber 322 ; 
+    :canonicalReference "322"^^xsd:string .
+
+:Line_323 a owl:NamedIndividual, :Line ; 
+    :lineNumber 323 ; 
+    :canonicalReference "323"^^xsd:string .
+
+:Line_324 a owl:NamedIndividual, :Line ; 
+    :lineNumber 324 ; 
+    :canonicalReference "324"^^xsd:string .
+
+:Line_325 a owl:NamedIndividual, :Line ; 
+    :lineNumber 325 ; 
+    :canonicalReference "325"^^xsd:string .
+
+:Line_326 a owl:NamedIndividual, :Line ; 
+    :lineNumber 326 ; 
+    :canonicalReference "326"^^xsd:string .
+
+:Line_327 a owl:NamedIndividual, :Line ; 
+    :lineNumber 327 ; 
+    :canonicalReference "327"^^xsd:string .
+
+:Line_328 a owl:NamedIndividual, :Line ; 
+    :lineNumber 328 ; 
+    :canonicalReference "328"^^xsd:string .
+
+:Line_329 a owl:NamedIndividual, :Line ; 
+    :lineNumber 329 ; 
+    :canonicalReference "329"^^xsd:string .
+
+:Line_330 a owl:NamedIndividual, :Line ; 
+    :lineNumber 330 ; 
+    :canonicalReference "330"^^xsd:string .

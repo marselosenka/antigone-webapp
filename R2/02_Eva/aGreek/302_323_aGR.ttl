@@ -1,0 +1,318 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Source (Ancient Greek aGR 302–323):  [oai_citation:0‡aGR_302_to_323.txt](sediment://file_000000003a50720a9cd77e76e9e06649)
+
+############################
+# CHARACTERS
+############################
+
+:Antigone_Character_Guard
+  a owl:NamedIndividual, :Character ;
+  rdfs:label "ΦΥ (Φύλαξ)"^^xsd:string .
+
+:Antigone_Character_Creon
+  a owl:NamedIndividual, :Character ;
+  rdfs:label "ΚΡ (Κρέων)"^^xsd:string .
+
+############################
+# SPEECHES
+############################
+
+:Speech_Creon_302_314
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :containsLine :Line_302, :Line_303, :Line_304, :Line_305, :Line_306, :Line_307, :Line_308, :Line_309,
+                :Line_310, :Line_311, :Line_312, :Line_313, :Line_314 .
+
+:Speech_Guard_315
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Guard ;
+  :containsLine :Line_315 .
+
+:Speech_Creon_316
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :containsLine :Line_316 .
+
+:Speech_Guard_317
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Guard ;
+  :containsLine :Line_317 .
+
+:Speech_Creon_318
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :containsLine :Line_318 .
+
+:Speech_Guard_319
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Guard ;
+  :containsLine :Line_319 .
+
+:Speech_Creon_320
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :containsLine :Line_320 .
+
+:Speech_Guard_321
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Guard ;
+  :containsLine :Line_321 .
+
+:Speech_Creon_322
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :containsLine :Line_322 .
+
+:Speech_Guard_323
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Guard ;
+  :containsLine :Line_323 .
+
+############################
+# LINES (Ancient Greek MASTER)
+############################
+
+:Line_302 a owl:NamedIndividual, :Line ;
+  :lineNumber 302 ; :canonicalReference "302"^^xsd:string ;
+  :text "Ὅσοι δὲ μισθαρνοῦντες ἤνυσαν τάδε,"^^xsd:string .
+
+:Line_303 a owl:NamedIndividual, :Line ;
+  :lineNumber 303 ; :canonicalReference "303"^^xsd:string ;
+  :text "χρόνῳ ποτ᾽ ἐξέπραξαν ὡς δοῦναι δίκην."^^xsd:string .
+
+:Line_304 a owl:NamedIndividual, :Line ;
+  :lineNumber 304 ; :canonicalReference "304"^^xsd:string ;
+  :text "Ἀλλ᾽ εἴπερ ἴσχει Ζεὺς ἔτ᾽ ἐξ ἐμοῦ σέβας"^^xsd:string .
+
+:Line_305 a owl:NamedIndividual, :Line ;
+  :lineNumber 305 ; :canonicalReference "305"^^xsd:string ;
+  :text "εὖ τοῦτ᾽ ἐπίστασ᾽, ὅρκιος δέ σοι λέγω,"^^xsd:string .
+
+:Line_306 a owl:NamedIndividual, :Line ;
+  :lineNumber 306 ; :canonicalReference "306"^^xsd:string ;
+  :text "εἰ μὴ τὸν αὐτόχειρα τοῦδε τοῦ τάφου"^^xsd:string .
+
+:Line_307 a owl:NamedIndividual, :Line ;
+  :lineNumber 307 ; :canonicalReference "307"^^xsd:string ;
+  :text "εὑρόντες ἐκφανεῖτ᾽ ἐς ὀφθαλμοὺς ἐμούς,"^^xsd:string .
+
+:Line_308 a owl:NamedIndividual, :Line ;
+  :lineNumber 308 ; :canonicalReference "308"^^xsd:string ;
+  :text "οὐχ ὑμῖν Ἅιδης μοῦνος ἀρκέσει, πρὶν ἂν"^^xsd:string .
+
+:Line_309 a owl:NamedIndividual, :Line ;
+  :lineNumber 309 ; :canonicalReference "309"^^xsd:string ;
+  :text "ζῶντες κρεμαστοὶ τήνδε δηλώσηθ᾽ ὕβριν,"^^xsd:string .
+
+:Line_310 a owl:NamedIndividual, :Line ;
+  :lineNumber 310 ; :canonicalReference "310"^^xsd:string ;
+  :text "ἵν᾽ εἰδότες τὸ κέρδος ἔνθεν οἰστέον"^^xsd:string .
+
+:Line_311 a owl:NamedIndividual, :Line ;
+  :lineNumber 311 ; :canonicalReference "311"^^xsd:string ;
+  :text "τὸ λοιπὸν ἁρπάζητε, καὶ μάθηθ᾽ ὅτι"^^xsd:string .
+
+:Line_312 a owl:NamedIndividual, :Line ;
+  :lineNumber 312 ; :canonicalReference "312"^^xsd:string ;
+  :text "οὐκ ἐξ ἅπαντος δεῖ τὸ κερδαίνειν φιλεῖν."^^xsd:string .
+
+:Line_313 a owl:NamedIndividual, :Line ;
+  :lineNumber 313 ; :canonicalReference "313"^^xsd:string ;
+  :text "Ἐκ τῶν γὰρ αἰσχρῶν λημμάτων τοὺς πλείονας"^^xsd:string .
+
+:Line_314 a owl:NamedIndividual, :Line ;
+  :lineNumber 314 ; :canonicalReference "314"^^xsd:string ;
+  :text "ἀτωμένους ἴδοις ἂν ἢ σεσωσμένους."^^xsd:string .
+
+:Line_315 a owl:NamedIndividual, :Line ;
+  :lineNumber 315 ; :canonicalReference "315"^^xsd:string ;
+  :text "ΦΥ. Εἰπεῖν δὲ δώσεις, ἢ στραφεὶς οὕτως ἴω;"^^xsd:string .
+
+:Line_316 a owl:NamedIndividual, :Line ;
+  :lineNumber 316 ; :canonicalReference "316"^^xsd:string ;
+  :text "ΚΡ. Οὐκ οἶσθα καὶ νῦν ὡς ἀνιαρῶς λέγεις;"^^xsd:string .
+
+:Line_317 a owl:NamedIndividual, :Line ;
+  :lineNumber 317 ; :canonicalReference "317"^^xsd:string ;
+  :text "ΦΥ. Ἐν τοῖσιν ὠσὶν ἢ ἐπὶ τῇ ψυχῇ δάκνῃ;"^^xsd:string .
+
+:Line_318 a owl:NamedIndividual, :Line ;
+  :lineNumber 318 ; :canonicalReference "318"^^xsd:string ;
+  :text "ΚΡ. Tί δὲ ῥυθμίζεις τὴν ἐμὴν λύπην ὅπου;"^^xsd:string .
+
+:Line_319 a owl:NamedIndividual, :Line ;
+  :lineNumber 319 ; :canonicalReference "319"^^xsd:string ;
+  :text "ΦΥ. Ὁ δρῶν σ᾽ ἀνιᾷ τὰς φρένας, τὰ δ᾽ ὦτ᾽ ἐγώ."^^xsd:string .
+
+:Line_320 a owl:NamedIndividual, :Line ;
+  :lineNumber 320 ; :canonicalReference "320"^^xsd:string ;
+  :text "ΚΡ. Οἴμ᾽ ὡς λάλημα δῆλον ἐκπεφυκὸς εἶ."^^xsd:string .
+
+:Line_321 a owl:NamedIndividual, :Line ;
+  :lineNumber 321 ; :canonicalReference "321"^^xsd:string ;
+  :text "ΦΥ. Οὔκουν τό γ᾽ ἔργον τοῦτο ποιήσας ποτέ."^^xsd:string .
+
+:Line_322 a owl:NamedIndividual, :Line ;
+  :lineNumber 322 ; :canonicalReference "322"^^xsd:string ;
+  :text "ΚΡ. Καὶ ταῦτ᾽ ἐπ᾽ ἀργύρῳ γε τὴν ψυχὴν προδούς."^^xsd:string .
+
+:Line_323 a owl:NamedIndividual, :Line ;
+  :lineNumber 323 ; :canonicalReference "323"^^xsd:string ;
+  :text "ΦΥ. Φεῦ· ἦ δεινὸν, ᾧ δοκεῖ γε, καὶ ψευδῆ δοκεῖν."^^xsd:string .
+
+############################
+# INTENTIONS AND OBJECTIVES
+############################
+
+:Motivation_Creon_ForceDisclosure_304_312
+  a owl:NamedIndividual, :Motivation ;
+  :description "Force the guards to reveal the perpetrator of the burial by threatening extreme punishment."^^xsd:string .
+
+:MoralDecision_Creon_ThreatenHanging_308_312
+  a owl:NamedIndividual, :MoralDecision ;
+  :description "Threaten to hang the guards alive until they expose the outrage, to teach them the true cost of profit."^^xsd:string .
+
+:Motivation_Creon_DeterGreed_310_314
+  a owl:NamedIndividual, :Motivation ;
+  :description "Deter pursuit of shameful gain by warning that most are ruined rather than saved by it."^^xsd:string .
+
+:Motivation_Guard_SeekPermission_315
+  a owl:NamedIndividual, :Motivation ;
+  :description "Seek permission to speak further or leave (request for release from the exchange)."^^xsd:string .
+
+:Motivation_Guard_DenyGuilt_321
+  a owl:NamedIndividual, :Motivation ;
+  :description "Insist he did not do the deed."^^xsd:string .
+
+:Antigone_Character_Creon
+  :hasMotivation :Motivation_Creon_ForceDisclosure_304_312, :Motivation_Creon_DeterGreed_310_314 ;
+  :makesMoralDecision :MoralDecision_Creon_ThreatenHanging_308_312 .
+
+:Antigone_Character_Guard
+  :hasMotivation :Motivation_Guard_SeekPermission_315, :Motivation_Guard_DenyGuilt_321 .
+
+############################
+# MORAL JUSTIFICATIONS
+############################
+
+:EthicalPrinciple_BribedMenMustPay_302_303
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Those who acted for hire/bribes will, in time, be made to pay the penalty."^^xsd:string .
+
+:EthicalPrinciple_ProfitHasLimits_310_312
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "One must not love profiting from every source; gain has a boundary and a cost."^^xsd:string .
+
+:EthicalPrinciple_ShamefulGainRuinsMost_313_314
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "From shameful takings, most people are seen ruined rather than saved."^^xsd:string .
+
+:EthicalPrinciple_AccusationOfBribery_322
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Creon’s charge: the guard has sold his soul for money."^^xsd:string .
+
+:Antigone_Character_Creon
+  :advocatesFor :EthicalPrinciple_BribedMenMustPay_302_303,
+                 :EthicalPrinciple_ProfitHasLimits_310_312,
+                 :EthicalPrinciple_ShamefulGainRuinsMost_313_314,
+                 :EthicalPrinciple_AccusationOfBribery_322 .
+
+############################
+# EMOTIONAL STATES
+############################
+
+:Emotion_Creon_RageAndThreat_304_309
+  a owl:NamedIndividual, :Emotion ;
+  :description "Rage expressed through sworn threats and escalating punishment."^^xsd:string .
+
+:Emotion_Creon_Irritation_316_320
+  a owl:NamedIndividual, :Emotion ;
+  :description "Irritation at the guard’s manner of speaking; dismissive contempt for his 'talk'."^^xsd:string .
+
+:Emotion_Guard_Anxiety_315_317
+  a owl:NamedIndividual, :Emotion ;
+  :description "Anxiety about whether he may speak or must withdraw; cautious probing of Creon’s displeasure."^^xsd:string .
+
+:Emotion_Guard_Frustration_323
+  a owl:NamedIndividual, :Emotion ;
+  :description "Frustration at being suspected: distress that someone can 'think falsely'."^^xsd:string .
+
+:Antigone_Character_Creon
+  :experiencesEmotion :Emotion_Creon_RageAndThreat_304_309, :Emotion_Creon_Irritation_316_320 .
+
+:Antigone_Character_Guard
+  :experiencesEmotion :Emotion_Guard_Anxiety_315_317, :Emotion_Guard_Frustration_323 .
+
+############################
+# SEMANTIC CONTRADICTIONS
+############################
+
+:Conflict_InnocenceVsBriberyAccusation_321_322
+  a owl:NamedIndividual, :Conflict ;
+  :description "Guard denies doing the deed, while Creon asserts he has sold his soul for money."^^xsd:string ;
+  :conflictBetween :Antigone_Character_Guard, :Antigone_Character_Creon .
+
+:Conflict_PunishmentAsTeaching_309_312
+  a owl:NamedIndividual, :Conflict ;
+  :description "Creon frames harsh punishment as instruction about profit, contrasting gain-seeking with coercive justice."^^xsd:string ;
+  :conflictBetween :EthicalPrinciple_ProfitHasLimits_310_312, :MoralDecision_Creon_ThreatenHanging_308_312 .
+
+############################
+# CAUSAL RELATIONSHIPS (:relatedTo)
+############################
+
+:Event_ThreatOfHanging_308_309
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Threat to hang the guards alive until the outrage is revealed."^^xsd:string .
+
+:Event_DisclosureOfPerpetrator_306_307
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Demand that the doer of the burial be found and brought into Creon’s sight."^^xsd:string .
+
+:Event_ThreatOfHanging_308_309
+  :relatedTo :Event_DisclosureOfPerpetrator_306_307 .
+
+:Event_ShamefulProfitSeeking_310_314
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Pursuit of profit from shameful sources."^^xsd:string .
+
+:Event_RuinNotRescue_313_314
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Most are ruined rather than saved by shameful takings."^^xsd:string .
+
+:Event_ShamefulProfitSeeking_310_314
+  :relatedTo :Event_RuinNotRescue_313_314 .
+
+:Event_Creon_AccusesBribery_322
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Creon accuses the guard of selling his soul for money."^^xsd:string .
+
+:Event_Guard_DeniesDeed_321
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Guard denies ever having done the deed."^^xsd:string .
+
+:Event_Creon_AccusesBribery_322
+  :relatedTo :Event_Guard_DeniesDeed_321 .
+
+############################
+# THEMATIC SIGNALS
+############################
+
+:Speech_Creon_302_314
+  :hasTheme :Theme_StrictEnforcement, :Theme_CorruptionByMoney, :Theme_GreedAndRuin, :Theme_FearOfPunishment, :Theme_DeathAsDeterrent, :Theme_CoercionAndThreats .
+
+:Speech_Guard_315
+  :hasTheme :Theme_FearOfPunishment, :Theme_JusticeAndInnocence .
+
+:Speech_Creon_316
+  :hasTheme :Theme_SuspicionAndAuthority, :Theme_AuthorityAndInterrogation .
+
+:Speech_Guard_317
+  :hasTheme :Theme_InnerConflict .
+
+:Speech_Creon_322
+  :hasTheme :Theme_CorruptionByMoney, :Theme_SuspicionAndAuthority .

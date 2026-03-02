@@ -1,0 +1,328 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+############################
+# CHARACTERS
+############################
+
+:Antigone_Character_Creon
+  a owl:NamedIndividual, :Character ;
+  rdfs:label "ΚΡ (Κρέων)"^^xsd:string .
+
+############################
+# SPEECHES
+############################
+
+:Speech_Creon_280_301
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :containsLine :Line_280, :Line_281, :Line_282, :Line_283, :Line_284, :Line_285, :Line_286, :Line_287, :Line_288, :Line_289,
+                :Line_290, :Line_291, :Line_292, :Line_293, :Line_294, :Line_295, :Line_296, :Line_297, :Line_298, :Line_299,
+                :Line_300, :Line_301 .
+
+############################
+# LINES (Ancient Greek MASTER)
+############################
+
+:Line_280 a owl:NamedIndividual, :Line ; :lineNumber 280 ; :canonicalReference "280"^^xsd:string ;
+  :text "Παῦσαι, πρὶν ὀργῆς κἀμὲ μεστῶσαι λέγων,"^^xsd:string .
+
+:Line_281 a owl:NamedIndividual, :Line ; :lineNumber 281 ; :canonicalReference "281"^^xsd:string ;
+  :text "μὴ  ̓φευρεθῇς ἄνους τε καὶ γέρων ἅμα."^^xsd:string .
+
+:Line_282 a owl:NamedIndividual, :Line ; :lineNumber 282 ; :canonicalReference "282"^^xsd:string ;
+  :text "Λέγεις γὰρ οὐκ ἀνεκτὰ δαίμονας λέγων"^^xsd:string .
+
+:Line_283 a owl:NamedIndividual, :Line ; :lineNumber 283 ; :canonicalReference "283"^^xsd:string ;
+  :text "πρόνοιαν ἴσχειν τοῦδε τοῦ νεκροῦ πέρι."^^xsd:string .
+
+:Line_284 a owl:NamedIndividual, :Line ; :lineNumber 284 ; :canonicalReference "284"^^xsd:string ;
+  :text "Πότερον ὑπερτιμῶντες ὡς εὐεργέτην"^^xsd:string .
+
+:Line_285 a owl:NamedIndividual, :Line ; :lineNumber 285 ; :canonicalReference "285"^^xsd:string ;
+  :text "ἔκρυπτον αὐτόν, ὅστις ἀμφικίονας"^^xsd:string .
+
+:Line_286 a owl:NamedIndividual, :Line ; :lineNumber 286 ; :canonicalReference "286"^^xsd:string ;
+  :text "ναοὺς πυρώσων ἦλθε κἀναθήματα"^^xsd:string .
+
+:Line_287 a owl:NamedIndividual, :Line ; :lineNumber 287 ; :canonicalReference "287"^^xsd:string ;
+  :text "καὶ γῆν ἐκείνων καὶ νόμους διασκεδῶν;"^^xsd:string .
+
+:Line_288 a owl:NamedIndividual, :Line ; :lineNumber 288 ; :canonicalReference "288"^^xsd:string ;
+  :text "ἢ τοὺς κακοὺς τιμῶντας εἰσορᾷς θεούς;"^^xsd:string .
+
+:Line_289 a owl:NamedIndividual, :Line ; :lineNumber 289 ; :canonicalReference "289"^^xsd:string ;
+  :text "Οὐκ ἔστιν· ἀλλὰ ταῦτα καὶ πάλαι πόλεως"^^xsd:string .
+
+:Line_290 a owl:NamedIndividual, :Line ; :lineNumber 290 ; :canonicalReference "290"^^xsd:string ;
+  :text "ἄνδρες μόλις φέροντες ἐρρόθουν ἐμοὶ"^^xsd:string .
+
+:Line_291 a owl:NamedIndividual, :Line ; :lineNumber 291 ; :canonicalReference "291"^^xsd:string ;
+  :text "κρυφῇ, κάρα σείοντες, οὐδ ̓ ὑπὸ ζυγῷ"^^xsd:string .
+
+:Line_292 a owl:NamedIndividual, :Line ; :lineNumber 292 ; :canonicalReference "292"^^xsd:string ;
+  :text "λόφον δικαίως εἶχον, ὡς στέργειν ἐμέ."^^xsd:string .
+
+:Line_293 a owl:NamedIndividual, :Line ; :lineNumber 293 ; :canonicalReference "293"^^xsd:string ;
+  :text "Ἐκ τῶνδε τούτους ἐξεπίσταμαι καλῶς"^^xsd:string .
+
+:Line_294 a owl:NamedIndividual, :Line ; :lineNumber 294 ; :canonicalReference "294"^^xsd:string ;
+  :text "παρηγμένους μισθοῖσιν εἰργάσθαι τάδε."^^xsd:string .
+
+:Line_295 a owl:NamedIndividual, :Line ; :lineNumber 295 ; :canonicalReference "295"^^xsd:string ;
+  :text "Οὐδὲν γὰρ ἀνθρώποισιν οἷον ἄργυρος"^^xsd:string .
+
+:Line_296 a owl:NamedIndividual, :Line ; :lineNumber 296 ; :canonicalReference "296"^^xsd:string ;
+  :text "κακὸν νόμισμ ̓ ἔβλαστε· τοῦτο καὶ πόλεις"^^xsd:string .
+
+:Line_297 a owl:NamedIndividual, :Line ; :lineNumber 297 ; :canonicalReference "297"^^xsd:string ;
+  :text "πορθεῖ, τόδ ̓ ἄνδρας ἐξανίστησιν δόμων"^^xsd:string .
+
+:Line_298 a owl:NamedIndividual, :Line ; :lineNumber 298 ; :canonicalReference "298"^^xsd:string ;
+  :text "τόδ ̓ ἐκδιδάσκει καὶ παραλλάσσει φρένας"^^xsd:string .
+
+:Line_299 a owl:NamedIndividual, :Line ; :lineNumber 299 ; :canonicalReference "299"^^xsd:string ;
+  :text "χρηστὰς πρὸς αἰσχρὰ πράγμαθ ̓ ἵστασθαι βροτῶν"^^xsd:string .
+
+:Line_300 a owl:NamedIndividual, :Line ; :lineNumber 300 ; :canonicalReference "300"^^xsd:string ;
+  :text "πανουργίας δ ̓ ἔδειξεν ἀνθρώποις ἔχειν"^^xsd:string .
+
+:Line_301 a owl:NamedIndividual, :Line ; :lineNumber 301 ; :canonicalReference "301"^^xsd:string ;
+  :text "καὶ παντὸς ἔργου δυσσέβειαν εἰδέναι."^^xsd:string .
+
+############################
+# TRANSLATION VARIANTS (English) — do not merge EN verse-lines
+############################
+
+:TV_Line_280_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_280 ;
+  :text "CREON. Shut up! Before your words fill me with rage 280"^^xsd:string .
+:TV_Line_281_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_281 ;
+  :text "And we find out that you’re both old and stupid."^^xsd:string .
+:TV_Line_282_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_282 ;
+  :text "What you’ve said is unthinkable,"^^xsd:string .
+:TV_Line_283_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_283 ;
+  :text "That the gods are protecting this corpse."^^xsd:string .
+:TV_Line_284_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_284 ;
+  :text "Did they bury this man"^^xsd:string .
+:TV_Line_285_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_285 ;
+  :text "To honor his good deeds?"^^xsd:string .
+:TV_Line_286_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_286 ;
+  :text "This man who came to burn 285"^^xsd:string .
+:TV_Line_287_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_287 ;
+  :text "Their pillar-girded temples, their holy offerings, their land—"^^xsd:string .
+:TV_Line_288_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_288 ;
+  :text "This man who threw the laws to the wind?"^^xsd:string .
+:TV_Line_289_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_289 ;
+  :text "Do you see the gods honoring such wicked men?"^^xsd:string .
+:TV_Line_289b_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_289 ;
+  :text "I don’t. But from the beginning some men of this city"^^xsd:string .
+:TV_Line_290_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_290 ;
+  :text "Have been muttering against me, 290"^^xsd:string .
+:TV_Line_291_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_291 ;
+  :text "Throwing back their heads in secret, refusing to bring"^^xsd:string .
+:TV_Line_292_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_292 ;
+  :text "Their necks under the yoke in just submission to me."^^xsd:string .
+:TV_Line_293_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_293 ;
+  :text "For this reason it is clear that"^^xsd:string .
+:TV_Line_294_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_294 ;
+  :text "These men were bribed."^^xsd:string .
+:TV_Line_295_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_295 ;
+  :text "In all mankind there is no worse custom 295"^^xsd:string .
+:TV_Line_296_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_296 ;
+  :text "Than money. It corrupts cities,"^^xsd:string .
+:TV_Line_297_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_297 ;
+  :text "It drives men from their homes,"^^xsd:string .
+:TV_Line_298_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_298 ;
+  :text "It seduces them and instructs their otherwise"^^xsd:string .
+:TV_Line_299_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_299 ;
+  :text "Capable minds in the ways of savagery."^^xsd:string .
+:TV_Line_300_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_300 ;
+  :text "It taught mankind wickedness. 300"^^xsd:string .
+:TV_Line_301_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_301 ;
+  :text "It makes every act ungodly."^^xsd:string .
+
+############################
+# TRANSLATION VARIANTS (Modern Greek) — do not merge GR verse-lines
+############################
+
+:TV_Line_280_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_280 ;
+  :text "ΚΡΕΩΝ. Πάψε, πριν χάσω την ψυχραιμία μου! 275"^^xsd:string .
+
+:TV_Line_282_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_282 ;
+  :text "Τι πράγματα είναι αυτά που λες;"^^xsd:string .
+
+:TV_Line_281_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_281 ;
+  :text "Θέλεις να μου αποδείξεις πως εκτός"^^xsd:string .
+:TV_Line_281b_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_281 ;
+  :text "από γέρος είσαι κι ανόητος;"^^xsd:string .
+
+:TV_Line_283_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_283 ;
+  :text "Δεν δέχομαι πως οι θεοί θέλουν να προστατεύσουν"^^xsd:string .
+:TV_Line_283b_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_283 ;
+  :text "τέτοιο νεκρό. Γιατί να το κάνουν; 280"^^xsd:string .
+
+:TV_Line_286_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_286 ;
+  :text "Επειδή τους τίμησε ζητώντας να κάνει στάχτη τους ναούς,"^^xsd:string .
+:TV_Line_287_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_287 ;
+  :text "τ’ αφιερώματα, τη γη τους; Να σκορπίσει"^^xsd:string .
+:TV_Line_287b_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_287 ;
+  :text "τους νόμους τους στους πέντε ανέμους;"^^xsd:string .
+
+:TV_Line_288_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_288 ;
+  :text "Ή μήπως επειδή οι νόμοι τους δικαιώνουν"^^xsd:string .
+:TV_Line_288b_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_288 ;
+  :text "τους άτιμους; Όχι· δεν είναι δυνατόν. 285"^^xsd:string .
+
+:TV_Line_289_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_289 ;
+  :text "Ξέρω εγώ τι έγινε. Απ’ την αρχή ορισμένοι"^^xsd:string .
+:TV_Line_290_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_290 ;
+  :text "πολίτες είχαν πρόβλημα με τη διαταγή μου."^^xsd:string .
+:TV_Line_291_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_291 ;
+  :text "Κουνούσαν το κεφάλι και μουρμούριζαν"^^xsd:string .
+:TV_Line_292_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_292 ;
+  :text "πως δεν θα σκύψουν -τάχα- να τους περάσω χαλινάρι."^^xsd:string .
+
+:TV_Line_293_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_293 ;
+  :text "Αυτοί -είμαι βέβαιος- πλήρωσαν κάποιους να το κάνουν.290"^^xsd:string .
+:TV_Line_294_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_294 ;
+  :text "Αυτοί -είμαι βέβαιος- πλήρωσαν κάποιους να το κάνουν.290"^^xsd:string .
+
+:TV_Line_295_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_295 ;
+  :text "Άτιμη συνήθεια το χρήμα στους ανθρώπους!"^^xsd:string .
+:TV_Line_296_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_296 ;
+  :text "Και πόλεις ρημάζει και σπίτια διαλύει"^^xsd:string .
+:TV_Line_297_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_297 ;
+  :text "Και πόλεις ρημάζει και σπίτια διαλύει"^^xsd:string .
+:TV_Line_298_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_298 ;
+  :text "και συνειδήσεις διαφθείρει."^^xsd:string .
+:TV_Line_299_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_299 ;
+  :text "Κάνει τον έντιμο άτιμο, τον λογικό παράλογο"^^xsd:string .
+:TV_Line_300_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_300 ;
+  :text "και τη ζωή συναλλαγή πανούργα. 295"^^xsd:string .
+
+############################
+# INTENTIONS AND OBJECTIVES
+############################
+
+:Motivation_Creon_RejectDivineCareClaim_280_289
+  a owl:NamedIndividual, :Motivation ;
+  :description "Reject the claim that daimones/gods show providential care for the corpse; deny that gods honor such a dead man."^^xsd:string .
+
+:Motivation_Creon_IdentifyBribedActors_293_294
+  a owl:NamedIndividual, :Motivation ;
+  :description "Identify the men he believes were persuaded by pay to do the deed."^^xsd:string .
+
+:MoralDecision_Creon_AttributeDeedToBribery_293_296
+  a owl:NamedIndividual, :MoralDecision ;
+  :description "Judge that the deed was carried out by men corrupted by wages/money rather than by divine prompting."^^xsd:string .
+
+:Antigone_Character_Creon
+  :hasMotivation :Motivation_Creon_RejectDivineCareClaim_280_289, :Motivation_Creon_IdentifyBribedActors_293_294 ;
+  :makesMoralDecision :MoralDecision_Creon_AttributeDeedToBribery_293_296 .
+
+############################
+# MORAL JUSTIFICATIONS
+############################
+
+:EthicalPrinciple_DivineCareForDead_282_283
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Claim attributed to another speaker: daimones/gods hold providential care concerning this corpse."^^xsd:string .
+
+:EthicalPrinciple_GodsDoNotHonorWicked_284_288
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Creon’s reasoning: the gods do not honor wicked men—especially one who came to burn temples, offerings, land, and scatter laws."^^xsd:string .
+
+:EthicalPrinciple_MoneyCorrupts_295_301
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Money is the greatest evil currency among humans: it corrupts cities, uproots men, seduces minds, teaches wickedness, and makes acts ungodly."^^xsd:string .
+
+:Antigone_Character_Creon
+  :advocatesFor :EthicalPrinciple_GodsDoNotHonorWicked_284_288, :EthicalPrinciple_MoneyCorrupts_295_301 .
+
+############################
+# EMOTIONAL STATES
+############################
+
+:Emotion_Creon_Anger_280_281
+  a owl:NamedIndividual, :Emotion ;
+  :description "Anger rising at the speech addressed to him; harsh rebuke."^^xsd:string .
+
+:Emotion_Creon_Contempt_282_283
+  a owl:NamedIndividual, :Emotion ;
+  :description "Contempt for the claim of divine protection for the corpse."^^xsd:string .
+
+:Emotion_Creon_Suspicion_289_294
+  a owl:NamedIndividual, :Emotion ;
+  :description "Suspicion of secret civic dissent and bribery behind the deed."^^xsd:string .
+
+:Antigone_Character_Creon
+  :experiencesEmotion :Emotion_Creon_Anger_280_281, :Emotion_Creon_Contempt_282_283, :Emotion_Creon_Suspicion_289_294 .
+
+############################
+# SEMANTIC CONTRADICTIONS
+############################
+
+:Conflict_DivineProvidenceVsCreonDenial_282_288
+  a owl:NamedIndividual, :Conflict ;
+  :description "Contradiction between the claim that daimones care for the corpse and Creon’s denial that gods honor the wicked."^^xsd:string ;
+  :conflictBetween :EthicalPrinciple_DivineCareForDead_282_283, :EthicalPrinciple_GodsDoNotHonorWicked_284_288 .
+
+:Conflict_BribesVsPietyExplanation_293_296
+  a owl:NamedIndividual, :Conflict ;
+  :description "Creon attributes the act to bribery and human corruption, rejecting a pious/divine explanation."^^xsd:string ;
+  :conflictBetween :MoralDecision_Creon_AttributeDeedToBribery_293_296, :EthicalPrinciple_DivineCareForDead_282_283 .
+
+############################
+# CAUSAL RELATIONSHIPS (:relatedTo)
+############################
+
+:Event_SecretGrumbling_290_292
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Men of the city grumble secretly and refuse just submission."^^xsd:string .
+
+:Event_BriberyForDeed_293_294
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Men persuaded by wages (μισθοῖσιν) to do the deed."^^xsd:string .
+
+:Event_SecretGrumbling_290_292
+  :relatedTo :Event_BriberyForDeed_293_294 .
+
+:Event_MoneyAsEvilCurrency_295_296
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Money as a harmful currency among humans."^^xsd:string .
+
+:Event_CitiesCorrupted_296
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Cities corrupted/destroyed by money."^^xsd:string .
+
+:Event_MenDrivenFromHomes_297
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Men driven from their homes by money."^^xsd:string .
+
+:Event_MindsSeducedToSavagery_298_299
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Minds seduced/instructed toward savagery."^^xsd:string .
+
+:Event_WickednessTaught_300
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Wickedness taught to mankind."^^xsd:string .
+
+:Event_ActsUngodly_301
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Every act made ungodly."^^xsd:string .
+
+:Event_MoneyAsEvilCurrency_295_296
+  :relatedTo :Event_CitiesCorrupted_296,
+             :Event_MenDrivenFromHomes_297,
+             :Event_MindsSeducedToSavagery_298_299,
+             :Event_WickednessTaught_300,
+             :Event_ActsUngodly_301 .
+
+############################
+# THEMATIC SIGNALS
+############################
+
+:Speech_Creon_280_301
+  :hasTheme :Theme_SuspicionAndAuthority, :Theme_CorruptionByMoney, :Theme_GreedAndRuin, :Theme_PoliticalDissent, :Theme_Impiety .

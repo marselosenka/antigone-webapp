@@ -1,0 +1,205 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:stasimon01-structure a owl:Ontology .
+
+
+# Lines
+:Line_331 a owl:NamedIndividual, :Line ; 
+    :lineNumber 331 ; 
+    :canonicalReference "331"^^xsd:string .
+
+:Line_332 a owl:NamedIndividual, :Line ; 
+    :lineNumber 332 ; 
+    :canonicalReference "332"^^xsd:string .
+
+:Line_333 a owl:NamedIndividual, :Line ; 
+    :lineNumber 333 ; 
+    :canonicalReference "333"^^xsd:string .
+
+:Line_334 a owl:NamedIndividual, :Line ; 
+    :lineNumber 334 ; 
+    :canonicalReference "334"^^xsd:string .
+
+:Line_335 a owl:NamedIndividual, :Line ; 
+    :lineNumber 335 ; 
+    :canonicalReference "335"^^xsd:string .
+
+:Line_336 a owl:NamedIndividual, :Line ; 
+    :lineNumber 336 ; 
+    :canonicalReference "336"^^xsd:string .
+
+:Line_337 a owl:NamedIndividual, :Line ; 
+    :lineNumber 337 ; 
+    :canonicalReference "337"^^xsd:string .
+
+:Line_338 a owl:NamedIndividual, :Line ; 
+    :lineNumber 338 ; 
+    :canonicalReference "338"^^xsd:string .
+
+:Line_339 a owl:NamedIndividual, :Line ; 
+    :lineNumber 339 ; 
+    :canonicalReference "339"^^xsd:string .
+
+:Line_340 a owl:NamedIndividual, :Line ; 
+    :lineNumber 340 ; 
+    :canonicalReference "340"^^xsd:string .
+
+:Line_341 a owl:NamedIndividual, :Line ; 
+    :lineNumber 341 ; 
+    :canonicalReference "341"^^xsd:string .
+
+:Line_342 a owl:NamedIndividual, :Line ; 
+    :lineNumber 342 ; 
+    :canonicalReference "342"^^xsd:string .
+
+:Line_343 a owl:NamedIndividual, :Line ; 
+    :lineNumber 343 ; 
+    :canonicalReference "343"^^xsd:string .
+
+:Line_344 a owl:NamedIndividual, :Line ; 
+    :lineNumber 344 ; 
+    :canonicalReference "344"^^xsd:string .
+
+:Line_345 a owl:NamedIndividual, :Line ; 
+    :lineNumber 345 ; 
+    :canonicalReference "345"^^xsd:string .
+
+:Line_346 a owl:NamedIndividual, :Line ; 
+    :lineNumber 346 ; 
+    :canonicalReference "346"^^xsd:string .
+
+:Line_347 a owl:NamedIndividual, :Line ; 
+    :lineNumber 347 ; 
+    :canonicalReference "347"^^xsd:string .
+
+:Line_348 a owl:NamedIndividual, :Line ; 
+    :lineNumber 348 ; 
+    :canonicalReference "348"^^xsd:string .
+
+:Line_349 a owl:NamedIndividual, :Line ; 
+    :lineNumber 349 ; 
+    :canonicalReference "349"^^xsd:string .
+
+:Line_350 a owl:NamedIndividual, :Line ; 
+    :lineNumber 350 ; 
+    :canonicalReference "350"^^xsd:string .
+
+:Line_351 a owl:NamedIndividual, :Line ; 
+    :lineNumber 351 ; 
+    :canonicalReference "351"^^xsd:string .
+
+:Line_352 a owl:NamedIndividual, :Line ; 
+    :lineNumber 352 ; 
+    :canonicalReference "352"^^xsd:string .
+
+:Line_353 a owl:NamedIndividual, :Line ; 
+    :lineNumber 353 ; 
+    :canonicalReference "353"^^xsd:string .
+
+:Line_354 a owl:NamedIndividual, :Line ; 
+    :lineNumber 354 ; 
+    :canonicalReference "354"^^xsd:string .
+
+:Line_355 a owl:NamedIndividual, :Line ; 
+    :lineNumber 355 ; 
+    :canonicalReference "355"^^xsd:string .
+
+:Line_356 a owl:NamedIndividual, :Line ; 
+    :lineNumber 356 ; 
+    :canonicalReference "356"^^xsd:string .
+
+:Line_357 a owl:NamedIndividual, :Line ; 
+    :lineNumber 357 ; 
+    :canonicalReference "357"^^xsd:string .
+
+:Line_358 a owl:NamedIndividual, :Line ; 
+    :lineNumber 358 ; 
+    :canonicalReference "358"^^xsd:string .
+
+:Line_359 a owl:NamedIndividual, :Line ; 
+    :lineNumber 359 ; 
+    :canonicalReference "359"^^xsd:string .
+
+:Line_360 a owl:NamedIndividual, :Line ; 
+    :lineNumber 360 ; 
+    :canonicalReference "360"^^xsd:string .
+
+:Line_361 a owl:NamedIndividual, :Line ; 
+    :lineNumber 361 ; 
+    :canonicalReference "361"^^xsd:string .
+
+# 362 to 365 are missing
+
+:Line_366 a owl:NamedIndividual, :Line ;
+  :lineNumber 366 ; 
+  :canonicalReference "366"^^xsd:string .
+
+:Line_367 a owl:NamedIndividual, :Line ;
+  :lineNumber 367 ; 
+  :canonicalReference "367"^^xsd:string .
+
+:Line_368 a owl:NamedIndividual, :Line ;
+  :lineNumber 368 ; 
+  :canonicalReference "368"^^xsd:string .
+
+:Line_369 a owl:NamedIndividual, :Line ;
+  :lineNumber 369 ; 
+  :canonicalReference "369"^^xsd:string .
+
+:Line_370 a owl:NamedIndividual, :Line ;
+  :lineNumber 370 ; 
+  :canonicalReference "370"^^xsd:string .
+
+:Line_371 a owl:NamedIndividual, :Line ;
+  :lineNumber 371 ; 
+  :canonicalReference "371"^^xsd:string .
+
+:Line_372 a owl:NamedIndividual, :Line ;
+  :lineNumber 372 ; 
+  :canonicalReference "372"^^xsd:string .
+
+:Line_373 a owl:NamedIndividual, :Line ;
+  :lineNumber 373 ; 
+  :canonicalReference "373"^^xsd:string .
+
+:Line_374 a owl:NamedIndividual, :Line ;
+  :lineNumber 374 ; 
+  :canonicalReference "374"^^xsd:string .
+
+:Line_375 a owl:NamedIndividual, :Line ;
+  :lineNumber 375 ; 
+  :canonicalReference "375"^^xsd:string .
+
+:Line_376 a owl:NamedIndividual, :Line ;
+  :lineNumber 376 ; 
+  :canonicalReference "376"^^xsd:string .
+
+:Line_377 a owl:NamedIndividual, :Line ;
+  :lineNumber 377 ; 
+  :canonicalReference "377"^^xsd:string .
+
+:Line_378 a owl:NamedIndividual, :Line ;
+  :lineNumber 378 ; 
+  :canonicalReference "378"^^xsd:string .
+
+:Line_379 a owl:NamedIndividual, :Line ;
+  :lineNumber 379 ; 
+  :canonicalReference "379"^^xsd:string .
+
+:Line_380 a owl:NamedIndividual, :Line ;
+  :lineNumber 380 ; 
+  :canonicalReference "380"^^xsd:string .
+
+:Line_381 a owl:NamedIndividual, :Line ;
+  :lineNumber 381 ; 
+  :canonicalReference "381"^^xsd:string .
+
+:Line_382 a owl:NamedIndividual, :Line ;
+  :lineNumber 382 ; 
+  :canonicalReference "382"^^xsd:string .
+
+:Line_383 a owl:NamedIndividual, :Line ;
+  :lineNumber 383 ; 
+  :canonicalReference "383"^^xsd:string .

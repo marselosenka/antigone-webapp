@@ -1,4 +1,3 @@
-```turtle
 @prefix : <http://example.org/antigone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -259,4 +258,3 @@ a :Speech ;
 :Line_062 a :Line ; :lineNumber 62 ; :canonicalReference "62"^^xsd:string .
 :TV_Line_062_en a :TranslationVariant ; :text "We aren’t meant to fight battles with men."^^xsd:string ; :relatedTo :Line_062 .
 :TV_Line_062_en :hasTheme :Theme_GenderConstraint ; :hasConflict :Conflict_GenderConstraintVsTyrannicalPower ; :experiencesEmotion :Emotion_Fear .
-```

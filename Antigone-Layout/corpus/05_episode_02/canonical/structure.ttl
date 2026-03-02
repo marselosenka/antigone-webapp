@@ -1,0 +1,1112 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:episode02-structure a owl:Ontology .
+
+:Line_384 a owl:NamedIndividual, :Line ;
+  :lineNumber 384 ; 
+  :canonicalReference "384"^^xsd:string .
+
+:Line_385 a owl:NamedIndividual, :Line ;
+  :lineNumber 385 ; 
+  :canonicalReference "385"^^xsd:string .
+
+:Line_386 a owl:NamedIndividual, :Line ;
+  :lineNumber 386 ; 
+  :canonicalReference "386"^^xsd:string .
+
+:Line_387 a owl:NamedIndividual, :Line ;
+  :lineNumber 387 ; 
+  :canonicalReference "387"^^xsd:string .
+
+  
+:Line_388
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 388 ;
+  :canonicalReference "388"^^xsd:string ;
+  :hasTheme :Theme_ProverbialWisdom .
+
+:Line_389
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 389 ;
+  :canonicalReference "389"^^xsd:string .
+
+:Line_390
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 390 ;
+  :canonicalReference "390"^^xsd:string .
+
+:Line_391
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 391 ;
+  :canonicalReference "391"^^xsd:string .
+
+:Line_392
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 392 ;
+  :canonicalReference "392"^^xsd:string .
+
+:Line_393
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 393 ;
+  :canonicalReference "393"^^xsd:string .
+
+:Line_394
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 394 ;
+  :canonicalReference "394"^^xsd:string .
+
+:Line_395
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 395 ;
+  :canonicalReference "395"^^xsd:string .
+
+:Line_396
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 396 ;
+  :canonicalReference "396"^^xsd:string .
+
+:Line_397
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 397 ;
+  :canonicalReference "397"^^xsd:string .
+
+:Line_398
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 398 ;
+  :canonicalReference "398"^^xsd:string .
+
+:Line_399
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 399 ;
+  :canonicalReference "399"^^xsd:string .
+
+:Line_400
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 400 ;
+  :canonicalReference "400"^^xsd:string .
+
+:Line_401
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 401 ;
+  :canonicalReference "401"^^xsd:string ;
+  :hasTheme :Theme_Surprise, :Theme_Disbelief .
+
+:Line_402
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 402 ;
+  :canonicalReference "402"^^xsd:string ;
+  :hasTheme :Theme_VisualPerception, :Theme_Certainty .
+
+:Line_403
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 403 ;
+  :canonicalReference "403"^^xsd:string ;
+  :hasTheme :Theme_Disbelief, :Theme_Doubt .
+
+:Line_404
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 404 ;
+  :canonicalReference "404"^^xsd:string .
+
+:Line_405
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 405 ;
+  :canonicalReference "405"^^xsd:string .
+
+:Line_406
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 406 ;
+  :canonicalReference "406"^^xsd:string .
+
+:Line_407
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 407 ;
+  :canonicalReference "407"^^xsd:string ;
+  :hasTheme :Theme_NarrativeTechnique, :Theme_OffstageAction .
+
+:Line_408
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 408 ;
+  :canonicalReference "408"^^xsd:string .
+
+:Line_409
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 409 ;
+  :canonicalReference "409"^^xsd:string .
+
+:Line_410
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 410 ;
+  :canonicalReference "410"^^xsd:string .
+
+:Line_411
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 411 ;
+  :canonicalReference "411"^^xsd:string .
+
+:Line_412
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 412 ;
+  :canonicalReference "412"^^xsd:string .
+
+:Line_413
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 413 ;
+  :canonicalReference "413"^^xsd:string .
+
+:Line_414
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 414 ;
+  :canonicalReference "414"^^xsd:string .
+
+:Line_415
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 415 ;
+  :canonicalReference "415"^^xsd:string .
+
+:Line_416
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 416 ;
+  :canonicalReference "416"^^xsd:string .
+
+:Line_417
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 417 ;
+  :canonicalReference "417"^^xsd:string ;
+  :hasTheme :Theme_DivineIntervention, :Theme_Storm ;
+  :referencesMyth :MythologicalBackground_DivineStorm .
+
+:Line_418
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 418 ;
+  :canonicalReference "418"^^xsd:string ;
+  :hasTheme :Theme_DivineIntervention, :Theme_Storm ;
+  :referencesMyth :MythologicalBackground_DivineStorm .
+
+:Line_419
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 419 ;
+  :canonicalReference "419"^^xsd:string .
+
+:Line_420
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 420 ;
+  :canonicalReference "420"^^xsd:string .
+
+:Line_421
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 421 ;
+  :canonicalReference "421"^^xsd:string ;
+  :hasTheme :Theme_Fear, :Theme_DivineIntervention .
+
+:Line_422
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 422 ;
+  :canonicalReference "422"^^xsd:string .
+
+:Line_423
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 423 ;
+  :canonicalReference "423"^^xsd:string .
+
+:Line_424
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 424 ;
+  :canonicalReference "424"^^xsd:string ;
+
+  :containsRhetoricalDevice :Simile_Bird .
+
+:Line_425
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 425 ;
+  :canonicalReference "425"^^xsd:string .
+
+:Line_426
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 426 ;
+  :canonicalReference "426"^^xsd:string .
+
+:Line_427
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 427 ;
+  :canonicalReference "427"^^xsd:string ;
+  :hasTheme :Theme_Curse, :Theme_MagicalPower ;
+  :containsRhetoricalDevice :Metaphor_Curse .
+
+:Line_428
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 428 ;
+  :canonicalReference "428"^^xsd:string ;
+  :hasTheme :Theme_Curse, :Theme_MagicalPower .
+
+:Line_429
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 429 ;
+  :canonicalReference "429"^^xsd:string .
+
+:Line_430
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 430 ;
+  :canonicalReference "430"^^xsd:string .
+
+:Line_431
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 431 ;
+  :canonicalReference "431"^^xsd:string ;
+  :hasTheme :Theme_BurialRites, :Theme_SecondBurial ;
+  :referencesMyth :MythologicalBackground_Hades ;
+  :containsRhetoricalDevice :Symbol_Trispondoi .
+
+:Line_432
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 432 ;
+  :canonicalReference "432"^^xsd:string ;
+  :hasTheme :Theme_Hunting, :Theme_Pursuit, :Theme_Tranquility .
+
+:Line_433
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 433 ;
+  :canonicalReference "433"^^xsd:string .
+
+:Line_434
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 434 ;
+  :canonicalReference "434"^^xsd:string .
+
+:Line_435
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 435 ;
+  :canonicalReference "435"^^xsd:string .
+
+:Line_436
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 436 ;
+  :canonicalReference "436"^^xsd:string ;
+  :hasTheme :Theme_AmbivalentEmotion, :Theme_Relief ;
+  :containsRhetoricalDevice :Oxymoron_BittersweetJoy .
+
+:Line_437
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 437 ;
+  :canonicalReference "437"^^xsd:string .
+
+:Line_438
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 438 ;
+  :canonicalReference "438"^^xsd:string .
+
+:Line_439
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 439 ;
+  :canonicalReference "439"^^xsd:string .
+
+:Line_440
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 440 ;
+  :canonicalReference "440"^^xsd:string ;
+  :hasTheme :Theme_SelfPreservation, :Theme_Selfishness ;
+  :hasMotivation :Motivation_SelfPreservation .
+
+:Line_441
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 441 ;
+  :canonicalReference "441"^^xsd:string ;
+  :hasTheme :Theme_Silence, :Theme_DramaticTechnique .
+
+:Line_442
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 442 ;
+  :canonicalReference "442"^^xsd:string .
+
+:Line_443
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 443 ;
+  :canonicalReference "443"^^xsd:string ;
+  :hasTheme :Theme_MoralCourage, :Theme_Defiance .
+
+:Line_444
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 444 ;
+  :canonicalReference "444"^^xsd:string .
+
+:Line_445
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 445 ;
+  :canonicalReference "445"^^xsd:string .
+
+:Line_446
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 446 ;
+  :canonicalReference "446"^^xsd:string .
+
+:Line_447
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 447 ;
+  :canonicalReference "447"^^xsd:string .
+
+:Line_448
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 448 ;
+  :canonicalReference "448"^^xsd:string ;
+  :hasTheme :Theme_Awareness, :Theme_ConsciousAction .
+
+:Line_449
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 449 ;
+  :canonicalReference "449"^^xsd:string ;
+  :hasConflict :Conflict_DivineVsHumanLaw ;
+  :hasTheme :Theme_Authority .
+
+:Line_450
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 450 ;
+  :canonicalReference "450"^^xsd:string ;
+  :referencesMyth :MythologicalBackground_Zeus ;
+  :hasTheme :Theme_DivineLaw .
+
+:Line_451
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 451 ;
+  :canonicalReference "451"^^xsd:string ;
+  :referencesMyth :MythologicalBackground_Dike, :MythologicalBackground_UnderworldGods ;
+  :hasTheme :Theme_DivineLaw, :Theme_Justice .
+
+:Line_452
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 452 ;
+  :canonicalReference "452"^^xsd:string .
+
+:Line_453
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 453 ;
+  :canonicalReference "453"^^xsd:string .
+
+:Line_454
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 454 ;
+  :canonicalReference "454"^^xsd:string .
+
+:Line_455
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 455 ;
+  :canonicalReference "455"^^xsd:string ;
+  :hasTheme :Theme_DivineLaw, :Theme_MortalLimitation ;
+  :containsRhetoricalDevice :Metaphor_UnwrittenLaws .
+
+:Line_456
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 456 ;
+  :canonicalReference "456"^^xsd:string .
+
+:Line_457
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 457 ;
+  :canonicalReference "457"^^xsd:string .
+
+:Line_458
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 458 ;
+  :canonicalReference "458"^^xsd:string .
+
+:Line_459
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 459 ;
+  :canonicalReference "459"^^xsd:string .
+
+:Line_460
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 460 ;
+  :canonicalReference "460"^^xsd:string .
+
+:Line_461
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 461 ;
+  :canonicalReference "461"^^xsd:string .
+
+:Line_462
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 462 ;
+  :canonicalReference "462"^^xsd:string .
+:Line_463
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 463 ;
+  :canonicalReference "463"^^xsd:string .
+
+:Line_464
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 464 ;
+  :canonicalReference "464"^^xsd:string .
+
+:Line_465
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 465 ;
+  :canonicalReference "465"^^xsd:string .
+
+:Line_466
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 466 ;
+  :canonicalReference "466"^^xsd:string .
+
+:Line_467
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 467 ;
+  :canonicalReference "467"^^xsd:string ;
+  :hasTheme :Theme_FamilyDuty, :Theme_BurialRites .
+
+:Line_468
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 468 ;
+  :canonicalReference "468"^^xsd:string .
+
+:Line_469
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 469 ;
+  :canonicalReference "469"^^xsd:string .
+
+:Line_470
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 470 ;
+  :canonicalReference "470"^^xsd:string .
+
+:Line_471
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 471 ;
+  :canonicalReference "471"^^xsd:string ;
+  :hasTheme :Theme_FamilyHeritage, :Theme_CharacterTrait ;
+  :referencesMyth :MythologicalBackground_Oedipus .
+
+:Line_472
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 472 ;
+  :canonicalReference "472"^^xsd:string .
+
+:Line_473
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 473 ;
+  :canonicalReference "473"^^xsd:string .
+
+:Line_474
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 474 ;
+  :canonicalReference "474"^^xsd:string ;
+  :hasTheme :Theme_CharacterTrait, :Theme_TragicFlaw ;
+  :containsRhetoricalDevice :Metaphor_Iron .
+
+:Line_475
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 475 ;
+  :canonicalReference "475"^^xsd:string .
+
+:Line_476
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 476 ;
+  :canonicalReference "476"^^xsd:string .
+
+:Line_477
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 477 ;
+  :canonicalReference "477"^^xsd:string .
+
+:Line_478
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 478 ;
+  :canonicalReference "478"^^xsd:string .
+:Line_479
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 479 ;
+  :canonicalReference "479"^^xsd:string .
+
+:Line_480
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 480 ;
+  :canonicalReference "480"^^xsd:string .
+:Line_481
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 481 ;
+  :canonicalReference "481"^^xsd:string .
+
+:Line_482
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 482 ;
+  :canonicalReference "482"^^xsd:string .
+
+:Line_483
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 483 ;
+  :canonicalReference "483"^^xsd:string .
+
+:Line_484
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 484 ;
+  :canonicalReference "484"^^xsd:string ;
+  :hasTheme :Theme_GenderRoles ;
+  :containsRhetoricalDevice :Irony_GenderReversal .
+
+:Line_485
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 485 ;
+  :canonicalReference "485"^^xsd:string .
+
+:Line_486
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 486 ;
+  :canonicalReference "486"^^xsd:string .
+
+:Line_487
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 487 ;
+  :canonicalReference "487"^^xsd:string ;
+  :referencesMyth :MythologicalBackground_ZeusHerkeios ;
+  :hasTheme :Theme_FamilyBond, :Theme_DivineLaw .
+
+:Line_488
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 488 ;
+  :canonicalReference "488"^^xsd:string .
+:Line_489
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 489 ;
+  :canonicalReference "489"^^xsd:string .
+
+:Line_490
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 490 ;
+  :canonicalReference "490"^^xsd:string .
+
+:Line_491
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 491 ;
+  :canonicalReference "491"^^xsd:string .
+
+:Line_492
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 492 ;
+  :canonicalReference "492"^^xsd:string .
+
+:Line_493
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 493 ;
+  :canonicalReference "493"^^xsd:string .
+
+:Line_494
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 494 ;
+  :canonicalReference "494"^^xsd:string .
+
+:Line_495
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 495 ;
+  :canonicalReference "495"^^xsd:string .
+:Line_496
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 496 ;
+  :canonicalReference "496"^^xsd:string .
+
+:Line_497
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 497 ;
+  :canonicalReference "497"^^xsd:string ;
+
+  :hasTheme :Theme_Death, :Theme_Acceptance .
+
+:Line_498
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 498 ;
+  :canonicalReference "498"^^xsd:string ;
+  :hasTheme :Theme_Justice, :Theme_Authority .
+
+:Line_499
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 499 ;
+  :canonicalReference "499"^^xsd:string .
+
+:Line_500
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 500 ;
+  :canonicalReference "500"^^xsd:string .
+
+:Line_501
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 501 ;
+  :canonicalReference "501"^^xsd:string .
+
+:Line_502
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 502 ;
+  :canonicalReference "502"^^xsd:string .
+
+:Line_503
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 503 ;
+  :canonicalReference "503"^^xsd:string .
+
+:Line_504
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 504 ;
+  :canonicalReference "504"^^xsd:string ;
+  :hasTheme :Theme_PublicOpinion, :Theme_FearOfTyrant .
+
+:Line_505
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 505 ;
+  :canonicalReference "505"^^xsd:string ;
+  :hasTheme :Theme_FearOfTyrant, :Theme_PublicOpinion .
+
+:Line_506
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 506 ;
+  :canonicalReference "506"^^xsd:string ;
+  :hasTheme :Theme_Tyranny, :Theme_Authority .
+
+:Line_507
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 507 ;
+  :canonicalReference "507"^^xsd:string ;
+  :hasTheme :Theme_Tyranny, :Theme_Authority .
+
+:Line_508
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 508 ;
+  :canonicalReference "508"^^xsd:string ;
+  :hasTheme :Theme_Tyranny, :Theme_Disagreement, :Theme_Authority ;
+  :referencesMyth :MythologicalBackground_Cadmus .
+
+:Line_509
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 509 ;
+  :canonicalReference "509"^^xsd:string ;
+  :hasTheme :Theme_FearOfTyrant, :Theme_PublicOpinion ;
+  :referencesMyth :MythologicalBackground_Cadmus .
+
+:Line_510
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 510 ;
+  :canonicalReference "510"^^xsd:string ;
+  :hasTheme :Theme_Accusation, :Theme_Authority, :Theme_Contempt .
+
+:Line_511
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 511 ;
+  :canonicalReference "511"^^xsd:string ;
+  :hasTheme :Theme_DivineLaw, :Theme_FamilyDuty, :Theme_FamilyBond .
+
+:Line_512
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 512 ;
+  :canonicalReference "512"^^xsd:string ;
+  :hasTheme :Theme_FamilyBond, :Theme_Disagreement .
+
+:Line_513
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 513 ;
+  :canonicalReference "513"^^xsd:string ;
+  :hasTheme :Theme_FamilyBond .
+
+:Line_514
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 514 ;
+  :canonicalReference "514"^^xsd:string ;
+  :hasTheme :Theme_Accusation, :Theme_Disagreement, :Theme_FamilyDuty .
+
+:Line_515
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 515 ;
+  :canonicalReference "515"^^xsd:string ;
+  :hasTheme :Theme_Death, :Theme_Justice, :Theme_Disagreement .
+
+:Line_516
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 516 ;
+  :canonicalReference "516"^^xsd:string ;
+  :hasTheme :Theme_Accusation, :Theme_Disagreement, :Theme_Authority .
+
+:Line_517
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 517 ;
+  :canonicalReference "517"^^xsd:string ;
+  :hasTheme :Theme_FamilyBond, :Theme_FamilyDuty, :Theme_Defiance .
+
+:Line_518
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 518 ;
+  :canonicalReference "518"^^xsd:string ;
+  :hasTheme :Theme_CharacterTrait, :Theme_Authority, :Theme_Disagreement .
+
+:Line_519
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 519 ;
+  :canonicalReference "519"^^xsd:string ;
+  :referencesMyth :MythologicalBackground_Hades ;
+  :hasTheme :Theme_Justice, :Theme_Equality .
+
+:Line_520
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 520 ;
+  :canonicalReference "520"^^xsd:string ;
+  :hasTheme :Theme_Disagreement, :Theme_Authority, :Theme_CharacterTrait .
+
+:Line_521
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 521 ;
+  :canonicalReference "521"^^xsd:string ;
+  :hasTheme :Theme_MortalLimitation, :Theme_Disagreement .
+
+:Line_522
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 522 ;
+  :canonicalReference "522"^^xsd:string ;
+  :hasTheme :Theme_Disagreement, :Theme_Authority, :Theme_Death .
+
+:Line_523
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 523 ;
+  :canonicalReference "523"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_EmotionalState ;
+  :hasMotivation :Motivation_ProtectSister .
+
+:Line_524
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 524 ;
+  :canonicalReference "524"^^xsd:string ;
+  :hasTheme :Theme_Refusal, :Theme_Love, :Theme_Death, :Theme_GenderRoles .
+
+:Line_525
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 525 ;
+  :canonicalReference "525"^^xsd:string ;
+  :hasTheme :Theme_GenderRoles, :Theme_Authority, :Theme_Refusal .
+
+:Line_526
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 526 ;
+  :canonicalReference "526"^^xsd:string ;
+  :hasTheme :Theme_Entrance, :Theme_Announcement .
+
+:Line_527
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 527 ;
+  :canonicalReference "527"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Sorrow, :Theme_EmotionalState .
+
+:Line_528
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 528 ;
+  :canonicalReference "528"^^xsd:string .
+:Line_529
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 529 ;
+  :canonicalReference "529"^^xsd:string .
+
+:Line_530
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 530 ;
+  :canonicalReference "530"^^xsd:string .
+
+:Line_531
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 531 ;
+  :canonicalReference "531"^^xsd:string ;
+  :hasTheme :Theme_Accusation, :Theme_Insult, :Theme_Treachery ;
+  :containsRhetoricalDevice :Metaphor_Serpent .
+
+:Line_532
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 532 ;
+  :canonicalReference "532"^^xsd:string .
+
+:Line_533
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 533 ;
+  :canonicalReference "533"^^xsd:string ;
+  :hasTheme :Theme_Accusation .
+
+:Line_534
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 534 ;
+  :canonicalReference "534"^^xsd:string .
+
+:Line_535
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 535 ;
+  :canonicalReference "535"^^xsd:string .
+
+:Line_536
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 536 ;
+  :canonicalReference "536"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love ;
+  :hasMotivation :Motivation_ShareFate .
+
+:Line_537
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 537 ;
+  :canonicalReference "537"^^xsd:string .
+
+:Line_538
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 538 ;
+  :canonicalReference "538"^^xsd:string ;
+  :hasTheme :Theme_Justice, :Theme_DivineJustice, :Theme_Truth ;
+  :referencesMyth :MythologicalBackground_Nemesis .
+
+:Line_539
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 539 ;
+  :canonicalReference "539"^^xsd:string ;
+  :hasTheme :Theme_Truth, :Theme_Justice, :Theme_Refusal .
+
+:Line_540
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 540 ;
+  :canonicalReference "540"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_SharedResponsibility .
+
+:Line_541
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 541 ;
+  :canonicalReference "541"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_SharedResponsibility .
+
+:Line_542
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 542 ;
+  :canonicalReference "542"^^xsd:string ;
+  :hasTheme :Theme_DivineJustice, :Theme_Refusal, :Theme_Truth ;
+  :referencesMyth :MythologicalBackground_Hades .
+
+:Line_543
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 543 ;
+  :canonicalReference "543"^^xsd:string ;
+  :hasTheme :Theme_Refusal, :Theme_Truth, :Theme_Justice .
+
+:Line_544
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 544 ;
+  :canonicalReference "544"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_Guilt .
+
+:Line_545
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 545 ;
+  :canonicalReference "545"^^xsd:string ;
+  :hasTheme :Theme_FamilyDuty, :Theme_Guilt, :Theme_HonorBrother .
+
+:Line_546
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 546 ;
+  :canonicalReference "546"^^xsd:string ;
+  :hasTheme :Theme_Justice, :Theme_Refusal, :Theme_Sacrifice .
+
+:Line_547
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 547 ;
+  :canonicalReference "547"^^xsd:string ;
+  :hasTheme :Theme_Justice, :Theme_Sacrifice, :Theme_SelfSacrifice .
+
+:Line_548
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 548 ;
+  :canonicalReference "548"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_Death .
+
+:Line_549
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 549 ;
+  :canonicalReference "549"^^xsd:string ;
+  :hasTheme :Theme_Irony, :Theme_Fear, :Theme_CharacterTrait ;
+  :containsRhetoricalDevice :Irony_QuestionCreon .
+
+:Line_550
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 550 ;
+  :canonicalReference "550"^^xsd:string ;
+  :hasTheme :Theme_Hurt, :Theme_EmotionalState .
+
+:Line_551
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 551 ;
+  :canonicalReference "551"^^xsd:string ;
+  :hasTheme :Theme_Irony, :Theme_Mockery, :Theme_Contempt ;
+  :containsRhetoricalDevice :Irony_Mockery .
+
+:Line_552
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 552 ;
+  :canonicalReference "552"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love .
+
+:Line_553
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 553 ;
+  :canonicalReference "553"^^xsd:string ;
+  :hasTheme :Theme_CharacterTrait, :Theme_SelfSacrifice, :Theme_Generosity .
+
+:Line_554
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 554 ;
+  :canonicalReference "554"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_Death, :Theme_EmotionalState .
+
+:Line_555
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 555 ;
+  :canonicalReference "555"^^xsd:string ;
+  :hasTheme :Theme_Choice, :Theme_Death ;
+  :hasConflict :Conflict_AntigoneVsIsmene .
+
+:Line_556
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 556 ;
+  :canonicalReference "556"^^xsd:string ;
+  :hasTheme :Theme_EmotionalState, :Theme_Guilt, :Theme_Justification .
+
+:Line_557
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 557 ;
+  :canonicalReference "557"^^xsd:string ;
+  :hasTheme :Theme_Relativism, :Theme_Fear, :Theme_BlindFaith, :Theme_EthicalPrinciple .
+
+:Line_558
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 558 ;
+  :canonicalReference "558"^^xsd:string ;
+  :hasTheme :Theme_SharedResponsibility, :Theme_Disagreement .
+
+:Line_559
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 559 ;
+  :canonicalReference "559"^^xsd:string ;
+  :hasTheme :Theme_Acceptance, :Theme_Death, :Theme_Foreshadowing .
+
+:Line_560
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 560 ;
+  :canonicalReference "560"^^xsd:string ;
+  :hasTheme :Theme_Acceptance, :Theme_Death, :Theme_Foreshadowing .
+
+:Line_561
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 561 ;
+  :canonicalReference "561"^^xsd:string ;
+  :hasTheme :Theme_Madness, :Theme_CharacterTrait, :Theme_Interruption .
+
+:Line_562
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 562 ;
+  :canonicalReference "562"^^xsd:string ;
+  :hasTheme :Theme_Madness, :Theme_CharacterTrait, :Theme_Interruption .
+
+:Line_563
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 563 ;
+  :canonicalReference "563"^^xsd:string ;
+  :hasTheme :Theme_Misfortune, :Theme_MentalErosion, :Theme_CharacterDegradation .
+
+:Line_564
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 564 ;
+  :canonicalReference "564"^^xsd:string ;
+  :hasTheme :Theme_Misfortune, :Theme_MentalErosion, :Theme_CharacterDegradation .
+
+:Line_565
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 565 ;
+  :canonicalReference "565"^^xsd:string ;
+  :hasTheme :Theme_Accusation, :Theme_Madness, :Theme_Belief .
+
+:Line_566
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 566 ;
+  :canonicalReference "566"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_Fear .
+
+:Line_567
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 567 ;
+  :canonicalReference "567"^^xsd:string ;
+  :hasTheme :Theme_Resignation, :Theme_Abandonment, :Theme_Authority .
+
+:Line_568
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 568 ;
+  :canonicalReference "568"^^xsd:string ;
+  :hasTheme :Theme_Marriage, :Theme_FamilyRelationship, :Theme_Reminder .
+
+:Line_569
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 569 ;
+  :canonicalReference "569"^^xsd:string ;
+  :hasTheme :Theme_Marriage, :Theme_Alternative ;
+  :containsRhetoricalDevice :Metaphor_Field .
+
+:Line_570
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 570 ;
+  :canonicalReference "570"^^xsd:string .
+:Line_571
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 571 ;
+  :canonicalReference "571"^^xsd:string ;
+  :hasTheme :Theme_ExtremeStatement, :Theme_Hatred, :Theme_Marriage .
+
+:Line_572
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 572 ;
+  :canonicalReference "572"^^xsd:string ;
+  :hasTheme :Theme_Insult, :Theme_FamilyRelationship, :Theme_Defense .
+
+:Line_573
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 573 ;
+  :canonicalReference "573"^^xsd:string ;
+  :hasTheme :Theme_Exhaustion, :Theme_Endurance .
+
+:Line_574
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 574 ;
+  :canonicalReference "574"^^xsd:string ;
+  :hasTheme :Theme_Question, :Theme_Marriage, :Theme_DeathPenalty .
+
+:Line_575
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 575 ;
+  :canonicalReference "575"^^xsd:string ;
+  :referencesMyth :MythologicalBackground_Hades ;
+  :hasTheme :Theme_Death, :Theme_Marriage ;
+  :hasConflict :Conflict_AntigoneVsCreon .
+
+:Line_576
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 576 ;
+  :canonicalReference "576"^^xsd:string ;
+  :hasTheme :Theme_CharacterTrait, :Theme_Authority, :Theme_Death .
+
+:Line_577
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 577 ;
+  :canonicalReference "577"^^xsd:string .
+
+:Line_578
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 578 ;
+  :canonicalReference "578"^^xsd:string .
+
+:Line_579
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 579 ;
+  :canonicalReference "579"^^xsd:string .
+
+:Line_580
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 580 ;
+  :canonicalReference "580"^^xsd:string .
+
+:Line_581
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 581 ;
+  :canonicalReference "581"^^xsd:string ;
+  :referencesMyth :MythologicalBackground_Hades ;
+  :hasTheme :Theme_Death, :Theme_Foreshadowing .

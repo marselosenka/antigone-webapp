@@ -1,4 +1,3 @@
-```turtle
 @prefix : <http://example.org/antigone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -280,4 +279,3 @@ a :MythologicalBackground ;
 :Line_112 a :Line ; :lineNumber 112 ; :canonicalReference "112"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_112_EN .
 :TV_Line_112_en a :TranslationVariant ; :text "He flew above our land,"^^xsd:string ; :relatedTo :Line_112 .
 :Line_112 :hasTheme :Theme_WarAftermath ; :referencesMyth :Myth_PolyneicesAttack .
-```

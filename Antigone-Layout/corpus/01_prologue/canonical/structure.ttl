@@ -1,5 +1,6 @@
 @prefix : <http://example.org/antigone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :prologue-structure a owl:Ontology .
 
@@ -9,6 +10,14 @@ a :Scene ;
 :hasSpeech :Speech_Antigone_1_10, :Speech_Ismene_11_17, :Speech_Antigone_18_19 ;
 :developsTheme :Theme_FateOfOedipusLine, :Theme_FamilySuffering, :Theme_PoliticalDecreeThreat, :Theme_EnemiesHarm, :Theme_SecrecyAndTrust ;
 :hasConflict :Conflict_FriendsVsEnemiesEvils .
+
+
+:Antigone_Scene_Dialogue_20_41
+a :Scene ;
+:sceneNumber "Dialogue 20-41"^^xsd:string ;
+:hasSpeech :Speech_Ismene_20, :Speech_Antigone_21_38, :Speech_Ismene_39_40, :Speech_Antigone_41 ;
+:developsTheme :Theme_BurialRites, :Theme_StateEdict, :Theme_FamilyDuty, :Theme_PunishmentThreat ;
+:hasConflict :Conflict_BurialRitesVsCreonEdict .
 
 :Line_001 a :Line ; :lineNumber 1 ; :canonicalReference "1" .
 :Line_002 a :Line ; :lineNumber 2 ; :canonicalReference "2" .
@@ -51,61 +60,413 @@ a :Scene ;
 :Line_039 a :Line ; :lineNumber 39 ; :canonicalReference "39"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
 :Line_040 a :Line ; :lineNumber 40 ; :canonicalReference "40"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
 :Line_041 a :Line ; :lineNumber 41 ; :canonicalReference "41"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_042 a :Line ; :lineNumber 42 ; :canonicalReference "42"^^xsd:string .
-:Line_043 a :Line ; :lineNumber 43 ; :canonicalReference "43"^^xsd:string .
-:Line_044 a :Line ; :lineNumber 44 ; :canonicalReference "44"^^xsd:string .
-:Line_045 a :Line ; :lineNumber 45 ; :canonicalReference "45"^^xsd:string .
-:Line_046 a :Line ; :lineNumber 46 ; :canonicalReference "46"^^xsd:string .
-:Line_047 a :Line ; :lineNumber 47 ; :canonicalReference "47"^^xsd:string .
-:Line_048 a :Line ; :lineNumber 48 ; :canonicalReference "48"^^xsd:string .
-:Line_049 a :Line ; :lineNumber 49 ; :canonicalReference "49"^^xsd:string .
-:Line_050 a :Line ; :lineNumber 50 ; :canonicalReference "50"^^xsd:string .
-:Line_051 a :Line ; :lineNumber 51 ; :canonicalReference "51"^^xsd:string .
-:Line_052 a :Line ; :lineNumber 52 ; :canonicalReference "52"^^xsd:string .
-:Line_053 a :Line ; :lineNumber 53 ; :canonicalReference "53"^^xsd:string .
-:Line_054 a :Line ; :lineNumber 54 ; :canonicalReference "54"^^xsd:string .
-:Line_055 a :Line ; :lineNumber 55 ; :canonicalReference "55"^^xsd:string .
-:Line_056 a :Line ; :lineNumber 56 ; :canonicalReference "56"^^xsd:string .
-:Line_057 a :Line ; :lineNumber 57 ; :canonicalReference "57"^^xsd:string .
-:Line_058 a :Line ; :lineNumber 58 ; :canonicalReference "58"^^xsd:string .
-:Line_059 a :Line ; :lineNumber 59 ; :canonicalReference "59"^^xsd:string .
-:Line_060 a :Line ; :lineNumber 60 ; :canonicalReference "60"^^xsd:string .
-:Line_061 a :Line ; :lineNumber 61 ; :canonicalReference "61"^^xsd:string .
-:Line_062 a :Line ; :lineNumber 62 ; :canonicalReference "62"^^xsd:string .
-:Line_063 a :Line ; :lineNumber 63 ; :canonicalReference "63"^^xsd:string .
-:Line_064 a :Line ; :lineNumber 64 ; :canonicalReference "64"^^xsd:string .
-:Line_065 a :Line ; :lineNumber 65 ; :canonicalReference "65"^^xsd:string .
-:Line_066 a :Line ; :lineNumber 66 ; :canonicalReference "66"^^xsd:string .
-:Line_067 a :Line ; :lineNumber 67 ; :canonicalReference "67"^^xsd:string .
-:Line_068 a :Line ; :lineNumber 68 ; :canonicalReference "68"^^xsd:string .
-:Line_069 a :Line ; :lineNumber 69 ; :canonicalReference "69"^^xsd:string .
-:Line_070 a :Line ; :lineNumber 70 ; :canonicalReference "70"^^xsd:string .
-:Line_071 a :Line ; :lineNumber 71 ; :canonicalReference "71"^^xsd:string .
-:Line_072 a :Line ; :lineNumber 72 ; :canonicalReference "72"^^xsd:string .
-:Line_073 a :Line ; :lineNumber 73 ; :canonicalReference "73"^^xsd:string .
-:Line_074 a :Line ; :lineNumber 74 ; :canonicalReference "74"^^xsd:string .
-:Line_075 a :Line ; :lineNumber 75 ; :canonicalReference "75"^^xsd:string .
-:Line_076 a :Line ; :lineNumber 76 ; :canonicalReference "76"^^xsd:string .
-:Line_077 a :Line ; :lineNumber 77 ; :canonicalReference "77"^^xsd:string .
-:Line_078 a :Line ; :lineNumber 78 ; :canonicalReference "78"^^xsd:string .
-:Line_079 a :Line ; :lineNumber 79 ; :canonicalReference "79"^^xsd:string .
-:Line_080 a :Line ; :lineNumber 80 ; :canonicalReference "80"^^xsd:string .
-:Line_081 a :Line ; :lineNumber 81 ; :canonicalReference "81"^^xsd:string .
-:Line_082 a :Line ; :lineNumber 82 ; :canonicalReference "82"^^xsd:string .
-:Line_083 a :Line ; :lineNumber 83 ; :canonicalReference "83"^^xsd:string .
-:Line_084 a :Line ; :lineNumber 84 ; :canonicalReference "84"^^xsd:string .
-:Line_085 a :Line ; :lineNumber 85 ; :canonicalReference "85"^^xsd:string .
-:Line_086 a :Line ; :lineNumber 86 ; :canonicalReference "86"^^xsd:string .
-:Line_087 a :Line ; :lineNumber 87 ; :canonicalReference "87"^^xsd:string .
-:Line_088 a :Line ; :lineNumber 88 ; :canonicalReference "88"^^xsd:string .
-:Line_089 a :Line ; :lineNumber 89 ; :canonicalReference "89"^^xsd:string .
-:Line_090 a :Line ; :lineNumber 90 ; :canonicalReference "90"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
-:Line_091 a :Line ; :lineNumber 91 ; :canonicalReference "91"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
-:Line_092 a :Line ; :lineNumber 92 ; :canonicalReference "92"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
-:Line_093 a :Line ; :lineNumber 93 ; :canonicalReference "93"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
-:Line_094 a :Line ; :lineNumber 94 ; :canonicalReference "94"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
-:Line_095 a :Line ; :lineNumber 95 ; :canonicalReference "95"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
-:Line_096 a :Line ; :lineNumber 96 ; :canonicalReference "96"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
-:Line_097 a :Line ; :lineNumber 97 ; :canonicalReference "97"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
-:Line_098 a :Line ; :lineNumber 98 ; :canonicalReference "98"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
-:Line_099 a :Line ; :lineNumber 99 ; :canonicalReference "99"^^xsd:string ; :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 .
+
+
+:Line_042 a :Line ;
+    :lineNumber 42 ;
+    :canonicalReference "42"^^xsd:string ;
+    :experiencesEmotion :Emotion_Alarm ;
+    :hasTheme :Theme_SurvivalPrudence .
+
+:Line_043 a :Line ; 
+    :lineNumber 43 ; 
+    :canonicalReference "43"^^xsd:string ;
+    :hasTheme :Theme_BurialRites ; 
+    :hasMotivation :Motivation_BuryBrother .
+    
+:Line_044 a :Line ; 
+    :lineNumber 44 ; 
+    :canonicalReference "44"^^xsd:string ;
+    :hasTheme :Theme_BurialRites ; 
+    :hasTheme :Theme_TyrannicalLaw ; 
+    :hasConflict :Conflict_BurialRitesVsCreonEdict ; 
+    :relatedTo :Law_CreonBurialEdict .
+
+
+:Line_045 a :Line ; 
+    :lineNumber 45 ; 
+    :canonicalReference "45"^^xsd:string ; 
+    :hasTheme :Theme_BurialRites ; 
+    :hasTheme :Theme_FamilyCurse ; 
+    :experiencesEmotion :Emotion_Resolve ; 
+    :hasMotivation :Motivation_RefuseBetrayal .
+
+:Line_046 a :Line ; 
+    :lineNumber 46 ; 
+    :canonicalReference "46"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurse ; 
+    :experiencesEmotion :Emotion_Resolve ; 
+    :hasMotivation :Motivation_RefuseBetrayal .
+
+:Line_047 a :Line ; 
+    :lineNumber 47 ; 
+    :canonicalReference "47"^^xsd:string ;
+    :hasTheme :Theme_TyrannicalLaw ; 
+    :experiencesEmotion :Emotion_Alarm ; 
+    :relatedTo :Law_CreonBurialEdict ; 
+    :hasConflict :Conflict_BurialRitesVsCreonEdict .
+
+:Line_048 a :Line ; 
+    :lineNumber 48 ; 
+    :canonicalReference "48"^^xsd:string ;
+    :experiencesEmotion :Emotion_Defiance ; 
+    :hasTheme :Theme_BurialRites ; 
+    :hasConflict :Conflict_BurialRitesVsCreonEdict ; 
+    :relatedTo :Law_CreonBurialEdict ; 
+    :makesMoralDecision :MoralDecision_DefyEdictForBurial .
+
+:Line_049 a :Line ; 
+    :lineNumber 49 ; 
+    :canonicalReference "49"^^xsd:string ;
+    :experiencesEmotion :Emotion_Grief ; 
+    :hasTheme :Theme_SurvivalPrudence ; 
+    :hasMotivation :Motivation_ProtectSister .
+
+:Line_050 a :Line ; 
+    :lineNumber 50 ; 
+    :canonicalReference "50"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurse ; 
+    :experiencesEmotion :Emotion_Grief ; 
+    :relatedTo :Antigone_Character_Oedipus .
+
+:Line_051 a :Line ; 
+    :lineNumber 51 ; 
+    :canonicalReference "51"^^xsd:string ; 
+    :hasTheme :Theme_FamilyCurse ; 
+    :experiencesEmotion :Emotion_Grief .
+
+:Line_052 a :Line ; 
+    :lineNumber 52 ; 
+    :canonicalReference "52"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurse ; 
+    :experiencesEmotion :Emotion_Grief .
+
+:Line_053 a :Line ; 
+    :lineNumber 53 ; 
+    :canonicalReference "53"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurse ; 
+    :experiencesEmotion :Emotion_Grief .
+
+:Line_054 a :Line ; 
+    :lineNumber 54 ; 
+    :canonicalReference "54"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurse ; 
+    :experiencesEmotion :Emotion_Grief .
+
+:Line_055 a :Line ; 
+    :lineNumber 55 ; 
+    :canonicalReference "55"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurse ; 
+    :experiencesEmotion :Emotion_Grief .
+
+:Line_056 a :Line ; 
+    :lineNumber 56 ; 
+    :canonicalReference "56"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurse ; 
+    :experiencesEmotion :Emotion_Grief .
+
+:Line_057 a :Line ; 
+    :lineNumber 57 ; 
+    :canonicalReference "57"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurse ; 
+    :experiencesEmotion :Emotion_Grief .
+
+:Line_058 a :Line ; 
+    :lineNumber 58 ; 
+    :canonicalReference "58"^^xsd:string ;
+    :hasTheme :Theme_SurvivalPrudence ; 
+    :experiencesEmotion :Emotion_Fear .
+
+:Line_059 a :Line ; 
+    :lineNumber 59 ; 
+    :canonicalReference "59"^^xsd:string ;
+    :hasTheme :Theme_TyrannicalLaw ; 
+    :hasTheme :Theme_SurvivalPrudence ; 
+    :experiencesEmotion :Emotion_Fear ; 
+    :relatedTo :Law_CreonBurialEdict .
+
+:Line_060 a :Line ;
+    :lineNumber 60 ; 
+    :canonicalReference "60"^^xsd:string ;
+    :hasTheme :Theme_TyrannicalLaw ; 
+    :experiencesEmotion :Emotion_Fear ; 
+    :hasMotivation :Motivation_AvoidDefyingTyrant ; 
+    :relatedTo :Law_CreonBurialEdict .
+
+:Line_061 a :Line ; 
+    :lineNumber 61 ; 
+    :canonicalReference "61"^^xsd:string ;
+    :hasTheme :Theme_GenderConstraint ; 
+    :hasConflict :Conflict_GenderVsAuthority ; 
+    :makesMoralDecision :MoralDecision_UrgePrudence .
+
+:Line_062 a :Line ; 
+    :lineNumber 62 ; 
+    :canonicalReference "62"^^xsd:string ;
+    :hasTheme :Theme_GenderConstraint ; 
+    :hasConflict :Conflict_GenderVsAuthority ; 
+    :experiencesEmotion :Emotion_Fear .
+
+:Line_063 a :Line ; 
+    :lineNumber 63 ; 
+    :canonicalReference "63"^^xsd:string ;
+    :hasTheme :Theme_ObedienceToAuthority .
+
+
+:Line_064 a :Line ; 
+    :lineNumber 64 ; 
+    :canonicalReference "64"^^xsd:string ;
+    :hasTheme :Theme_ObedienceToAuthority ; 
+    :experiencesEmotion :Emotion_Resignation .
+
+:Line_065 a :Line ; 
+    :lineNumber 65 ; 
+    :canonicalReference "65"^^xsd:string ;
+    :hasTheme :Theme_DivineLaw ; 
+    :experiencesEmotion :Emotion_Resignation ; 
+    :relatedTo :Motivation_ObeyAuthorities .
+
+:Line_066 a :Line ; 
+    :lineNumber 66 ; 
+    :canonicalReference "66"^^xsd:string ;
+    :hasTheme :Theme_ObedienceToAuthority ; 
+    :experiencesEmotion :Emotion_Resignation ; 
+    :relatedTo :Motivation_AvoidForcedAction .
+
+
+:Line_067 a :Line ; 
+    :lineNumber 67 ; 
+    :canonicalReference "67"^^xsd:string ;
+    :hasTheme :Theme_ObedienceToAuthority ; 
+    :makesMoralDecision :MoralDecision_SubmitToRulers ; 
+    :relatedTo :Law_CivicBurialBan .
+
+
+:Line_068 a :Line ; 
+    :lineNumber 68 ; 
+    :canonicalReference "68"^^xsd:string ;
+    :hasTheme :Theme_ObedienceToAuthority ; 
+    :hasTheme :Theme_PrudenceAndModeration .
+
+:Line_069 a :Line ; 
+    :lineNumber 69 ; 
+    :canonicalReference "69"^^xsd:string ;
+    :hasTheme :Theme_SisterlyDivision ; 
+    :hasConflict :Conflict_SisterlyDivision .
+
+:Line_070 a :Line ; 
+    :lineNumber 70 ; 
+    :canonicalReference "70"^^xsd:string ;
+    :hasTheme :Theme_SisterlyDivision ; 
+    :hasConflict :Conflict_SisterlyDivision .
+
+:Line_071 a :Line ; 
+    :lineNumber 71 ; 
+    :canonicalReference "71"^^xsd:string ;
+    :hasTheme :Theme_BurialDuty ; 
+    :experiencesEmotion :Emotion_Resolve ; 
+    :hasMotivation :Motivation_BuryBrotherDespiteRisk .
+
+:Line_072 a :Line ; 
+    :lineNumber 72 ; 
+    :canonicalReference "72"^^xsd:string ;
+    :hasTheme :Theme_BurialDuty ; 
+    :hasTheme :Theme_DeathAsHonor ; 
+    :makesMoralDecision :MoralDecision_BuryBrotherAndAcceptDeath ; 
+    :experiencesEmotion :Emotion_DefiantCourage .
+
+:Line_073 a :Line ; 
+    :lineNumber 73 ; 
+    :canonicalReference "73"^^xsd:string ;
+    :hasTheme :Theme_LoyaltyToDead ; 
+    :experiencesEmotion :Emotion_ReverentDuty .
+
+:Line_074 a :Line ; 
+    :lineNumber 74 ; 
+    :canonicalReference "74"^^xsd:string ;
+    :hasTheme :Theme_DivineLaw ; 
+    :advocatesFor :EthicalPrinciple_DivineHonorForDead ; 
+    :experiencesEmotion :Emotion_ReverentDuty .
+
+:Line_075 a :Line ;
+    :lineNumber 75 ; 
+    :canonicalReference "75"^^xsd:string ;
+    :hasTheme :Theme_LoyaltyToDead ; 
+    :hasMotivation :Motivation_PleaseUnderworld .
+
+:Line_076 a :Line ;
+    :lineNumber 76 ; 
+    :canonicalReference "76"^^xsd:string ;
+    :hasTheme :Theme_LoyaltyToDead ; 
+    :experiencesEmotion :Emotion_Resolve .
+
+:Line_077 a :Line ; 
+    :lineNumber 77 ; 
+    :canonicalReference "77"^^xsd:string ;
+    :hasTheme :Theme_DivineLaw ; 
+    :hasConflict :Conflict_DivineLawVsCivicAuthority ; 
+    :advocatesFor :EthicalPrinciple_DivineHonorForDead .
+
+:Line_078 a :Line ; 
+    :lineNumber 78 ; 
+    :canonicalReference "78"^^xsd:string ;
+    :hasTheme :Theme_DivineLaw ; 
+    :experiencesEmotion :Emotion_Resignation .
+
+:Line_079 a :Line ; 
+    :lineNumber 79 ; 
+    :canonicalReference "79"^^xsd:string ;
+    :hasTheme :Theme_ObedienceToAuthority ; 
+    :hasMotivation :Motivation_AvoidForcedAction ; 
+    :experiencesEmotion :Emotion_Resignation ; 
+    :relatedTo :Law_CivicBurialBan .
+
+
+:Line_080 a :Line ; 
+    :lineNumber 80 ; 
+    :canonicalReference "80"^^xsd:string ;
+    :hasTheme :Theme_BurialDuty ; 
+    :hasConflict :Conflict_SisterlyDivision ; 
+    :experiencesEmotion :Emotion_Resolve .
+
+:Line_081 a :Line ; 
+    :lineNumber 81 ; 
+    :canonicalReference "81"^^xsd:string ;
+    :hasTheme :Theme_BurialDuty ; 
+    :hasMotivation :Motivation_BuryBrotherDespiteRisk ; 
+    :makesMoralDecision :MoralDecision_BuryBrotherAndAcceptDeath ; 
+    :experiencesEmotion :Emotion_Resolve .
+
+:Line_082 a :Line ; 
+    :lineNumber 82 ; 
+    :canonicalReference "82"^^xsd:string ;
+    :experiencesEmotion :Emotion_FearForAntigone ; 
+    :hasTheme :Theme_SisterlyCare .
+
+:Line_083 a :Line ; 
+    :lineNumber 83 ; 
+    :canonicalReference "83"^^xsd:string ;
+    :hasTheme :Theme_SisterlyDivision ; 
+    :experiencesEmotion :Emotion_DefiantCourage .
+
+:Line_084 a :Line ; 
+    :lineNumber 84 ; 
+    :canonicalReference "84"^^xsd:string ;
+    :hasTheme :Theme_SecrecyVsPublicDeclaration ; 
+    :hasMotivation :Motivation_KeepPlanSecret ; 
+    :makesMoralDecision :MoralDecision_RequestSecrecy ; 
+    :hasConflict :Conflict_SecrecyVsWitness .
+
+:Line_085 a :Line ; 
+    :lineNumber 85 ; 
+    :canonicalReference "85"^^xsd:string ;
+    :hasTheme :Theme_SecrecyVsPublicDeclaration ; 
+    :hasMotivation :Motivation_KeepPlanSecret ; 
+    :hasConflict :Conflict_SecrecyVsWitness .
+
+:Line_086 a :Line ; 
+    :lineNumber 86 ; 
+    :canonicalReference "86"^^xsd:string ;
+    :hasTheme :Theme_SecrecyVsPublicDeclaration ; 
+    :experiencesEmotion :Emotion_ContemptForSilence ; 
+    :hasMotivation :Motivation_PublicWitnessForJustice ; 
+    :hasConflict :Conflict_SecrecyVsWitness .
+
+:Line_087 a :Line ; 
+    :lineNumber 87 ; 
+    :canonicalReference "87"^^xsd:string ;
+    :hasTheme :Theme_SecrecyVsPublicDeclaration ; 
+    :hasMotivation :Motivation_PublicWitnessForJustice ; 
+    :hasConflict :Conflict_SecrecyVsWitness .
+
+:Line_088 a :Line ; 
+    :lineNumber 88 ; 
+    :canonicalReference "88"^^xsd:string ;
+    :hasTheme :Theme_SisterlyCare ; 
+    :experiencesEmotion :Emotion_WarmHeartedConcern .
+
+:Line_089 a :Line ; 
+    :lineNumber 89 ; 
+    :canonicalReference "89"^^xsd:string ;
+    :hasTheme :Theme_LoyaltyToDead ; 
+    :hasTheme :Theme_DivineLaw ; 
+    :hasMotivation :Motivation_PleaseUnderworld ; 
+    :experiencesEmotion :Emotion_ReverentDuty .
+
+:Line_090 a :Line ; 
+    :lineNumber 90 ; 
+    :canonicalReference "90"^^xsd:string ; 
+    :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
+    :hasTheme :Theme_ImpossibleAction ; 
+    :hasMotivation :Motivation_IsmeneDiscourageImpossible ; 
+    :experiencesEmotion :Emotion_IsmeneConcern ; 
+    :hasConflict :Conflict_PrudenceVsHonor .
+
+
+:Line_091 a :Line ; 
+    :lineNumber 91 ; 
+    :canonicalReference "91"^^xsd:string ; 
+    :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
+    :hasTheme :Theme_NobleDeath ; 
+    :hasMotivation :Motivation_AntigonePersistUntilNoStrength ; 
+    :experiencesEmotion :Emotion_AntigoneResolve .
+
+:Line_092 a :Line ; 
+    :lineNumber 92 ; 
+    :canonicalReference "92"^^xsd:string ; 
+    :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
+    :hasTheme :Theme_ImpossibleAction ; 
+    :hasMotivation :Motivation_IsmeneDiscourageImpossible .
+
+:Line_093 a :Line ; 
+    :lineNumber 93 ; 
+    :canonicalReference "93"^^xsd:string ; 
+    :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
+    :hasTheme :Theme_SisterlyConflict ; 
+    :experiencesEmotion :Emotion_AntigoneDefiance .
+
+:Line_094 a :Line ; 
+    :lineNumber 94 ; 
+    :canonicalReference "94"^^xsd:string ; 
+    :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
+    :hasTheme :Theme_HonorDead ; 
+    :advocatesFor :EthicalPrinciple_HonorDead ; 
+    :hasConflict :Conflict_PrudenceVsHonor .
+
+:Line_095 a :Line ; 
+    :lineNumber 95 ; 
+    :canonicalReference "95"^^xsd:string ; 
+    :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
+    :hasTheme :Theme_NobleDeath ; 
+    :hasMotivation :Motivation_AntigoneAcceptConsequences ; 
+    :experiencesEmotion :Emotion_AntigoneResolve .
+
+:Line_096 a :Line ; 
+    :lineNumber 96 ; 
+    :canonicalReference "96"^^xsd:string ; 
+    :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
+    :hasTheme :Theme_NobleDeath ; 
+    :hasMotivation :Motivation_AntigoneAcceptConsequences ; 
+    :hasConflict :Conflict_LoyaltyToDeadVsFear .
+
+:Line_097 a :Line ; 
+    :lineNumber 97 ; 
+    :canonicalReference "97"^^xsd:string ; 
+    :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
+    :hasTheme :Theme_NobleDeath ; 
+    :makesMoralDecision :MoralDecision_DieNoblyForHonor ; 
+    :experiencesEmotion :Emotion_AntigoneResolve .
+
+:Line_098 a :Line ; 
+    :lineNumber 98 ; 
+    :canonicalReference "98"^^xsd:string ; 
+    :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
+    :hasTheme :Theme_SisterlyConflict ; 
+    :experiencesEmotion :Emotion_IsmeneConcern .
+
+:Line_099 a :Line ; 
+    :lineNumber 99 ; 
+    :canonicalReference "99"^^xsd:string ; 
+    :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
+    :hasTheme :Theme_LoyalFriendship ; 
+    :hasMotivation :Motivation_IsmeneReluctantConsent .

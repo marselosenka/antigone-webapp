@@ -1,0 +1,12 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:prologue a owl:Ontology ;
+  owl:imports
+    :prologue-structure ,
+    :prologue-semantics ,
+    :prologue-translations-1-19 ,
+    :prologue-translations-20-41 ,
+    :prologue-translations-42-62 ,
+    :prologue-translations-63-89 ,
+    :prologue-translations-90-99 .

@@ -1,0 +1,445 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+############################
+# CHARACTERS
+############################
+
+:Antigone_Character_Chorus
+  a owl:NamedIndividual, :Character ;
+  rdfs:label "ΧΟ (Χορός)"^^xsd:string .
+
+:Antigone_Character_Guard
+  a owl:NamedIndividual, :Character ;
+  rdfs:label "ΦΥ (Φύλαξ)"^^xsd:string .
+
+:Antigone_Character_Creon
+  a owl:NamedIndividual, :Character ;
+  rdfs:label "ΚΡ (Κρέων)"^^xsd:string .
+
+:Antigone_Character_Antigone
+  a owl:NamedIndividual, :Character ;
+  rdfs:label "Ἀντιγόνη"^^xsd:string .
+
+:Antigone_Character_Oedipus
+  a owl:NamedIndividual, :Character ;
+  rdfs:label "Οἰδίπους"^^xsd:string .
+
+############################
+# SPEECHES
+############################
+
+:Speech_Chorus_366_382
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Chorus ;
+  :containsLine :Line_366, :Line_367, :Line_368, :Line_369, :Line_370, :Line_371, :Line_372, :Line_373,
+                :Line_374, :Line_375, :Line_376, :Line_377, :Line_378, :Line_379, :Line_380, :Line_381, :Line_382 .
+
+:Speech_Guard_383_385
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Guard ;
+  :containsLine :Line_383, :Line_384, :Line_385 .
+
+:Speech_Chorus_386
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Chorus ;
+  :containsLine :Line_386 .
+
+:Speech_Creon_387
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :containsLine :Line_387 .
+
+############################
+# LINES (Ancient Greek MASTER)
+############################
+
+:Line_366 a owl:NamedIndividual, :Line ;
+  :lineNumber 366 ; :canonicalReference "366"^^xsd:string ;
+  :text "τέχνας ὑπὲρ ἐλπίδ ̓ ἔχων,"^^xsd:string .
+
+:Line_367 a owl:NamedIndividual, :Line ;
+  :lineNumber 367 ; :canonicalReference "367"^^xsd:string ;
+  :text "τοτὲ μὲν κακόν, ἄλλοτ ̓ ἐπ ̓ ἐσθλὸν ἕρπει,"^^xsd:string .
+
+:Line_368 a owl:NamedIndividual, :Line ;
+  :lineNumber 368 ; :canonicalReference "368"^^xsd:string ;
+  :text "νόμους περαίνων χθονὸς"^^xsd:string .
+
+:Line_369 a owl:NamedIndividual, :Line ;
+  :lineNumber 369 ; :canonicalReference "369"^^xsd:string ;
+  :text "θεῶν τ ̓ ἔνορκον δίκαν·"^^xsd:string .
+
+:Line_370 a owl:NamedIndividual, :Line ;
+  :lineNumber 370 ; :canonicalReference "370"^^xsd:string ;
+  :text "ὑψίπολις· ἄπολις ὅτῳ τὸ μὴ καλὸν"^^xsd:string .
+
+:Line_371 a owl:NamedIndividual, :Line ;
+  :lineNumber 371 ; :canonicalReference "371"^^xsd:string ;
+  :text "ξύνεστι τόλμας χάριν·"^^xsd:string .
+
+:Line_372 a owl:NamedIndividual, :Line ;
+  :lineNumber 372 ; :canonicalReference "372"^^xsd:string ;
+  :text "μήτ ̓ ἐμοὶ παρέστιος"^^xsd:string .
+
+:Line_373 a owl:NamedIndividual, :Line ;
+  :lineNumber 373 ; :canonicalReference "373"^^xsd:string ;
+  :text "γένοιτο μήτ ̓ ἴσον φρονῶν"^^xsd:string .
+
+:Line_374 a owl:NamedIndividual, :Line ;
+  :lineNumber 374 ; :canonicalReference "374"^^xsd:string ;
+  :text "ὃς τάδ ̓ ἔρδοι."^^xsd:string .
+
+:Line_375 a owl:NamedIndividual, :Line ;
+  :lineNumber 375 ; :canonicalReference "375"^^xsd:string ;
+  :text "Ἐς δαιμόνιον τέρας ἀμφινοῶ"^^xsd:string .
+
+:Line_376 a owl:NamedIndividual, :Line ;
+  :lineNumber 376 ; :canonicalReference "376"^^xsd:string ;
+  :text "τόδε· πῶς εἰδὼς ἀντιλογήσω"^^xsd:string .
+
+:Line_377 a owl:NamedIndividual, :Line ;
+  :lineNumber 377 ; :canonicalReference "377"^^xsd:string ;
+  :text "τήνδ ̓ οὐκ εἶναι παῖδ ̓ Ἀντιγόνην;"^^xsd:string .
+
+:Line_378 a owl:NamedIndividual, :Line ;
+  :lineNumber 378 ; :canonicalReference "378"^^xsd:string ;
+  :text "Ὦ δύστηνος καὶ δυστήνου"^^xsd:string .
+
+:Line_379 a owl:NamedIndividual, :Line ;
+  :lineNumber 379 ; :canonicalReference "379"^^xsd:string ;
+  :text "πατρὸς Οἰδιπόδα,"^^xsd:string .
+
+:Line_380 a owl:NamedIndividual, :Line ;
+  :lineNumber 380 ; :canonicalReference "380"^^xsd:string ;
+  :text "τί ποτ ̓; οὐ δή που σέ γ ̓ ἀπιστοῦσαν"^^xsd:string .
+
+:Line_381 a owl:NamedIndividual, :Line ;
+  :lineNumber 381 ; :canonicalReference "381"^^xsd:string ;
+  :text "τοῖς βασιλείοισιν ἄγουσι νόμοις"^^xsd:string .
+
+:Line_382 a owl:NamedIndividual, :Line ;
+  :lineNumber 382 ; :canonicalReference "382"^^xsd:string ;
+  :text "καὶ ἐν ἀφροσύνῃ καθελόντες;"^^xsd:string .
+
+:Line_383 a owl:NamedIndividual, :Line ;
+  :lineNumber 383 ; :canonicalReference "383"^^xsd:string ;
+  :text "ΦΥ. Ἥδ ̓ ἔστ ̓ ἐκείνη τοὔργον ἡ  ̓ξειργασμένη·"^^xsd:string .
+
+:Line_384 a owl:NamedIndividual, :Line ;
+  :lineNumber 384 ; :canonicalReference "384"^^xsd:string ;
+  :text "τήνδ ̓ εἵλομεν θάπτουσαν·"^^xsd:string .
+
+:Line_385 a owl:NamedIndividual, :Line ;
+  :lineNumber 385 ; :canonicalReference "385"^^xsd:string ;
+  :text "ἀλλὰ ποῦ Κρέων;"^^xsd:string .
+
+:Line_386 a owl:NamedIndividual, :Line ;
+  :lineNumber 386 ; :canonicalReference "386"^^xsd:string ;
+  :text "ΧΟ. Ὅδ ̓ ἐκ δόμων ἄψορρος εἰς δέον περᾷ."^^xsd:string .
+
+:Line_387 a owl:NamedIndividual, :Line ;
+  :lineNumber 387 ; :canonicalReference "387"^^xsd:string ;
+  :text "ΚΡ. Τί δ ̓ ἔστι; ποίᾳ ξύμμετρος προὔβην τύχῃ;"^^xsd:string .
+
+############################
+# TRANSLATION VARIANTS (English) — do not merge EN verse-lines
+############################
+
+:TV_Line_366_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_366 ;
+  :text "Possessing a certain ingenious wisdom,"^^xsd:string .
+:TV_Line_367_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_367 ;
+  :text "Skill unexpected, he veers sometimes towards evil, 365"^^xsd:string .
+:TV_Line_367b_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_367 ;
+  :text "Other times towards good;"^^xsd:string .
+:TV_Line_368_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_368 ;
+  :text "While heeding the law of earth"^^xsd:string .
+:TV_Line_369_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_369 ;
+  :text "And the sworn oath of the gods,"^^xsd:string .
+:TV_Line_370_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_370 ;
+  :text "His city flourishes; stateless is he"^^xsd:string .
+:TV_Line_371_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_371 ;
+  :text "Who boldly dares to commit sin. 370"^^xsd:string .
+:TV_Line_372_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_372 ;
+  :text "May he who does these things"^^xsd:string .
+:TV_Line_373_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_373 ;
+  :text "Neither share my hearth"^^xsd:string .
+:TV_Line_374_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_374 ;
+  :text "Nor think like me!"^^xsd:string .
+:TV_Line_375_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_375 ;
+  :text "CHORUS. I’m confused regarding"^^xsd:string .
+:TV_Line_376_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_376 ;
+  :text "This blessed portent: 375"^^xsd:string .
+:TV_Line_377_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_377 ;
+  :text "How could I deny"^^xsd:string .
+:TV_Line_378_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_378 ;
+  :text "That this child is Antigone?"^^xsd:string .
+:TV_Line_379_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_379 ;
+  :text "Oh Oedipus unfortunate,"^^xsd:string .
+:TV_Line_380_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_380 ;
+  :text "Son of an unfortunate father,"^^xsd:string .
+:TV_Line_380b_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_380 ;
+  :text "What is this?"^^xsd:string .
+:TV_Line_381_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_381 ;
+  :text "They’re certainly not taking you away, 380"^^xsd:string .
+:TV_Line_382_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_382 ;
+  :text "Hauling you off in thoughtlessness"^^xsd:string .
+:TV_Line_382b_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_382 ;
+  :text "On the premise that you disobeyed"^^xsd:string .
+:TV_Line_382c_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_382 ;
+  :text "A royal decree, are they?"^^xsd:string .
+
+:TV_Line_383_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_383 ;
+  :text "GUARD. Praise ye heavenly host! Lo, here is she who hath done the deed!"^^xsd:string .
+:TV_Line_384_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_384 ;
+  :text "It is I who have apprehended her in the act! But, where is Creon? 385"^^xsd:string .
+:TV_Line_385_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_385 ;
+  :text "It is I who have apprehended her in the act! But, where is Creon? 385"^^xsd:string .
+:TV_Line_386_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_386 ;
+  :text "CHORUS. Here he comes now."^^xsd:string .
+:TV_Line_387_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_387 ;
+  :text "CREON. What is it? What am I walking into?"^^xsd:string .
+
+############################
+# TRANSLATION VARIANTS (Modern Greek) — do not merge GR verse-lines
+############################
+
+:TV_Line_366_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_366 ;
+  :text "Σοφός, λοιπόν, ο άνθρωπος· σοφός και επιτήδειος."^^xsd:string .
+:TV_Line_367_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_367 ;
+  :text "Κι όμως τρεκλίζει, σέρνεται"^^xsd:string .
+:TV_Line_367b_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_367 ;
+  :text "στο χείλος του καλού και του κακού. 350"^^xsd:string .
+:TV_Line_368_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_368 ;
+  :text "Άλλος -πολίτης άξιος- σέβεται τους θεσμούς,"^^xsd:string .
+:TV_Line_369_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_369 ;
+  :text "τα ιερά και όσια."^^xsd:string .
+:TV_Line_370_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_370 ;
+  :text "Κι άλλος -ανέστιος- βρίσκεται μόνος με την ατίμωση."^^xsd:string .
+:TV_Line_372_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_372 ;
+  :text "Μακριά από μένα τέτοια συντροφιά."^^xsd:string .
+:TV_Line_373_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_373 ;
+  :text "Μακριά από μένα τέτοια συντροφιά."^^xsd:string .
+:TV_Line_374_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_374 ;
+  :text "Μακριά από μένα τέτοια συντροφιά."^^xsd:string .
+
+:TV_Line_375_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_375 ;
+  :text "Βλέπω καλά ή μου στέλνουν οράματα οι θεοί; 355"^^xsd:string .
+:TV_Line_376_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_376 ;
+  :text "Δεν ξέρω τι να πω!"^^xsd:string .
+:TV_Line_377_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_377 ;
+  :text "Κι όμως θα ορκιζόμουν πως είναι η Αντιγόνη."^^xsd:string .
+:TV_Line_378_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_378 ;
+  :text "Τι θες εδώ δύστυχη κόρη του δύστυχου Οιδίποδα;"^^xsd:string .
+:TV_Line_379_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_379 ;
+  :text "Τι τρέχει; Όχι, δεν μπορεί"^^xsd:string .
+:TV_Line_380_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_380 ;
+  :text "να παραβίασες εσύ 360"^^xsd:string .
+:TV_Line_381_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_381 ;
+  :text "τη διαταγή του βασιλιά!"^^xsd:string .
+:TV_Line_382_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_382 ;
+  :text "Τρελάθηκες, παιδί μου;"^^xsd:string .
+
+:TV_Line_383_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_383 ;
+  :text "ΣΚΟΠΟΣ. Αυτή το έκανε. Την πιάσαμε επ’ αυτοφώρω να τον θάβει."^^xsd:string .
+:TV_Line_384_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_384 ;
+  :text "ΣΚΟΠΟΣ. Αυτή το έκανε. Την πιάσαμε επ’ αυτοφώρω να τον θάβει."^^xsd:string .
+:TV_Line_385_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_385 ;
+  :text "Πού είναι ο Κρέων;"^^xsd:string .
+:TV_Line_386_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_386 ;
+  :text "ΧΟΡΟΣ. Να τον. Πάνω στην ώρα βγαίνει απ’ το παλάτι. 365"^^xsd:string .
+:TV_Line_387_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_387 ;
+  :text "ΚΡΕΩΝ. Τι συμβαίνει; Πάνω σε ποιαν ώρα βγαίνω;"^^xsd:string .
+
+############################
+# INTENTIONS AND OBJECTIVES
+############################
+
+:Motivation_Chorus_ExcludeLawless_370_374
+  a owl:NamedIndividual, :Motivation ;
+  :description "Reject association with the lawless/dishonorable person (not hearth-mate, not like-minded)."^^xsd:string .
+
+:Motivation_Chorus_AssessIdentity_375_378
+  a owl:NamedIndividual, :Motivation ;
+  :description "Try to reconcile what is seen: identify the figure as Antigone."^^xsd:string .
+
+:Motivation_Chorus_SuspectDisobedience_380_382
+  a owl:NamedIndividual, :Motivation ;
+  :description "Suspect Antigone may have disobeyed the king’s laws/decree."^^xsd:string .
+
+:Motivation_Guard_PresentCapturedDoer_383_385
+  a owl:NamedIndividual, :Motivation ;
+  :description "Announce Antigone as the doer; present her as caught burying; seek Creon."^^xsd:string .
+
+:MoralDecision_Guard_DeliverAntigone_383_385
+  a owl:NamedIndividual, :MoralDecision ;
+  :description "Deliver the captured burying agent to Creon’s authority."^^xsd:string .
+
+:Motivation_Creon_SeekExplanation_387
+  a owl:NamedIndividual, :Motivation ;
+  :description "Demand to know what is happening as he enters."^^xsd:string .
+
+:Antigone_Character_Chorus
+  :hasMotivation :Motivation_Chorus_ExcludeLawless_370_374,
+                 :Motivation_Chorus_AssessIdentity_375_378,
+                 :Motivation_Chorus_SuspectDisobedience_380_382 .
+
+:Antigone_Character_Guard
+  :hasMotivation :Motivation_Guard_PresentCapturedDoer_383_385 ;
+  :makesMoralDecision :MoralDecision_Guard_DeliverAntigone_383_385 .
+
+:Antigone_Character_Creon
+  :hasMotivation :Motivation_Creon_SeekExplanation_387 .
+
+############################
+# MORAL JUSTIFICATIONS
+############################
+
+:EthicalPrinciple_ObeyEarthlyLawsAndDivineJustice_368_369
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Right civic standing is tied to fulfilling earth’s laws and the gods’ sworn justice."^^xsd:string .
+
+:EthicalPrinciple_SinMakesOneCityless_370_371
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Daring the not-good/sin results in being 'cityless' rather than flourishing in the city."^^xsd:string .
+
+:EthicalPrinciple_DisobedienceToRoyalDecreeCondemned_381_382
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "The Chorus treats disobedience to royal laws/decree as blameworthy (and linked with folly)."^^xsd:string .
+
+:Antigone_Character_Chorus
+  :advocatesFor :EthicalPrinciple_ObeyEarthlyLawsAndDivineJustice_368_369,
+                 :EthicalPrinciple_SinMakesOneCityless_370_371,
+                 :EthicalPrinciple_DisobedienceToRoyalDecreeCondemned_381_382 .
+
+############################
+# EMOTIONAL STATES
+############################
+
+:Emotion_Chorus_Disapproval_370_374
+  a owl:NamedIndividual, :Emotion ;
+  :description "Disapproval and rejection of lawless, dishonorable companionship."^^xsd:string .
+
+:Emotion_Chorus_Astonishment_375_377
+  a owl:NamedIndividual, :Emotion ;
+  :description "Astonishment/confusion at the portent and recognition of Antigone."^^xsd:string .
+
+:Emotion_Chorus_Pity_378_379
+  a owl:NamedIndividual, :Emotion ;
+  :description "Pity/laments for Antigone and Oedipus."^^xsd:string .
+
+:Emotion_Creon_AlertCuriosity_387
+  a owl:NamedIndividual, :Emotion ;
+  :description "Alert curiosity and concern as he enters the scene."^^xsd:string .
+
+:Antigone_Character_Chorus
+  :experiencesEmotion :Emotion_Chorus_Disapproval_370_374,
+                      :Emotion_Chorus_Astonishment_375_377,
+                      :Emotion_Chorus_Pity_378_379 .
+
+:Antigone_Character_Creon
+  :experiencesEmotion :Emotion_Creon_AlertCuriosity_387 .
+
+############################
+# SEMANTIC CONTRADICTIONS
+############################
+
+:Conflict_HumanSkillGoodOrEvil_366_367
+  a owl:NamedIndividual, :Conflict ;
+  :description "Human skill can veer toward evil or toward good."^^xsd:string ;
+  :conflictBetween :Theme_HumanIngenuity, :Theme_HumanAmbivalence .
+
+:Conflict_CivicHonorVsCityless_370_371
+  a owl:NamedIndividual, :Conflict ;
+  :description "Opposition between civic flourishing and becoming cityless due to daring the not-good."^^xsd:string ;
+  :conflictBetween :Theme_CivicBelonging, :Theme_HubrisAndTransgression .
+
+:Conflict_RoyalDecreeVsBurialAct_381_384
+  a owl:NamedIndividual, :Conflict ;
+  :description "Implied clash between royal decree and Antigone’s burial act (as reported by the Guard)."^^xsd:string ;
+  :conflictBetween :Antigone_Character_Antigone, :Antigone_Character_Creon .
+
+############################
+# CAUSAL RELATIONSHIPS (:relatedTo)
+############################
+
+:Event_HumanSkill_366_367
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Human ingenuity/skill described as exceeding hope and shifting direction."^^xsd:string .
+
+:Event_MoralDirectionShift_367
+  a owl:NamedIndividual, owl:Thing ;
+  :description "The same skill veers toward evil or toward good."^^xsd:string .
+
+:Event_HumanSkill_366_367
+  :relatedTo :Event_MoralDirectionShift_367 .
+
+:Event_DaringNotGood_371
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Embracing the not-good for daring’s sake."^^xsd:string .
+
+:Event_BecomeCityless_370
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Result: being without a city (ἄπολις / 'ανέστιος')."^^xsd:string .
+
+:Event_DaringNotGood_371
+  :relatedTo :Event_BecomeCityless_370 .
+
+:Event_CaughtBurying_384
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Antigone is caught in the act of burying."^^xsd:string .
+
+:Event_GuardBringsAccusation_383_384
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Guard identifies Antigone as the doer and reports capture."^^xsd:string .
+
+:Event_CaughtBurying_384
+  :relatedTo :Event_GuardBringsAccusation_383_384 .
+
+############################
+# THEMATIC SIGNALS
+############################
+
+:Theme_HumanIngenuity
+  a owl:NamedIndividual, :Theme ;
+  :description "Human inventiveness/skill and its power."^^xsd:string .
+
+:Theme_HumanAmbivalence
+  a owl:NamedIndividual, :Theme ;
+  :description "Human capacities can turn toward good or toward evil."^^xsd:string .
+
+:Theme_LawAndJustice
+  a owl:NamedIndividual, :Theme ;
+  :description "Tension between laws of the land and sworn divine justice."^^xsd:string .
+
+:Theme_CivicBelonging
+  a owl:NamedIndividual, :Theme ;
+  :description "Civic flourishing versus exclusion/citylessness."^^xsd:string .
+
+:Theme_HubrisAndTransgression
+  a owl:NamedIndividual, :Theme ;
+  :description "Bold daring that embraces the not-good/sin."^^xsd:string .
+
+:Theme_DefianceOfEdict
+  a owl:NamedIndividual, :Theme ;
+  :description "Defiance of royal decree via burial act."^^xsd:string .
+
+:Theme_RitualAndBurial
+  a owl:NamedIndividual, :Theme ;
+  :description "Burial as a charged ritual action."^^xsd:string .
+
+:Theme_AuthorityAndInterrogation
+  a owl:NamedIndividual, :Theme ;
+  :description "Authority responding to accusation and demanding explanation."^^xsd:string .
+
+:Speech_Chorus_366_382
+  :hasTheme :Theme_HumanIngenuity, :Theme_HumanAmbivalence, :Theme_LawAndJustice, :Theme_CivicBelonging, :Theme_HubrisAndTransgression .
+
+:Speech_Guard_383_385
+  :hasTheme :Theme_DefianceOfEdict, :Theme_RitualAndBurial, :Theme_AuthorityAndInterrogation .
+
+:Speech_Creon_387
+  :hasTheme :Theme_AuthorityAndInterrogation .

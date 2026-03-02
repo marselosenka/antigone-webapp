@@ -1,4 +1,3 @@
-```turtle
 @prefix : <http://example.org/antigone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -334,4 +333,4 @@ a :Speech ;
 :Line_089 a :Line ; :lineNumber 89 ; :canonicalReference "89"^^xsd:string .
 :TV_Line_089_en a :TranslationVariant ; :text "But I know that, to those who matter most, I’m doing the right thing."^^xsd:string ; :relatedTo :Line_089 .
 :Line_089 :hasTheme :Theme_DivineHonorForDead ; :hasTheme :Theme_LoyaltyToUnderworld .
-```
+

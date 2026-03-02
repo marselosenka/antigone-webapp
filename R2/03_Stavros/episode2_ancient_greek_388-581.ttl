@@ -1,0 +1,2569 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+############################
+# SCENE → SPEECH → LINE (STRICT FLOW)
+# EPISODE 2 (Lines 388-581)
+############################
+
+:Antigone_Scene_Episode_2
+  a owl:NamedIndividual, :Scene ;
+  :sceneNumber "Episode 2"^^xsd:string ;
+  :hasTheme :Theme_DivineLaw, :Theme_HumanLaw, :Theme_FamilyDuty, :Theme_Justice, :Theme_Tyranny, :Theme_BurialRites, :Theme_GenderRoles, :Theme_Sisterhood ;
+  :hasConflict :Conflict_AntigoneVsCreon, :Conflict_DivineVsHumanLaw, :Conflict_AntigoneVsIsmene ;
+  :developsTheme :Theme_MoralCourage, :Theme_Authority ;
+  :hasSpeech :Speech_Guard_388_400,
+             :Speech_Creon_401,
+             :Speech_Guard_402,
+             :Speech_Creon_403,
+             :Speech_Guard_404_405,
+             :Speech_Creon_406,
+             :Speech_Guard_407_440,
+             :Speech_Creon_441_442,
+             :Speech_Antigone_443,
+             :Speech_Creon_444_447,
+             :Speech_Antigone_448,
+             :Speech_Creon_449,
+             :Speech_Antigone_450_470,
+             :Speech_Chorus_471_472,
+             :Speech_Creon_473_496,
+             :Speech_Antigone_497,
+             :Speech_Creon_498,
+             :Speech_Antigone_499_507,
+             :Speech_Creon_508,
+             :Speech_Antigone_509,
+             :Speech_Creon_510,
+             :Speech_Antigone_511,
+             :Speech_Creon_512,
+             :Speech_Antigone_513,
+             :Speech_Creon_514,
+             :Speech_Antigone_515,
+             :Speech_Creon_516,
+             :Speech_Antigone_517,
+             :Speech_Creon_518,
+             :Speech_Antigone_519,
+             :Speech_Creon_520,
+             :Speech_Antigone_521,
+             :Speech_Creon_522,
+             :Speech_Antigone_523,
+             :Speech_Creon_524_525,
+             :Speech_Chorus_526_530,
+             :Speech_Creon_531_535,
+             :Speech_Ismene_536_537,
+             :Speech_Antigone_538_539,
+             :Speech_Ismene_540_541,
+             :Speech_Antigone_542_543,
+             :Speech_Ismene_544_545,
+             :Speech_Antigone_546_547,
+             :Speech_Ismene_548,
+             :Speech_Antigone_549,
+             :Speech_Ismene_550,
+             :Speech_Antigone_551,
+             :Speech_Ismene_552,
+             :Speech_Antigone_553,
+             :Speech_Ismene_554,
+             :Speech_Antigone_555,
+             :Speech_Ismene_556,
+             :Speech_Antigone_557,
+             :Speech_Ismene_558,
+             :Speech_Antigone_559_560,
+             :Speech_Creon_561_562,
+             :Speech_Ismene_563_564,
+             :Speech_Creon_565,
+             :Speech_Ismene_566,
+             :Speech_Creon_567,
+             :Speech_Ismene_568,
+             :Speech_Creon_569,
+             :Speech_Ismene_570,
+             :Speech_Creon_571,
+             :Speech_Ismene_572,
+             :Speech_Creon_573,
+             :Speech_Chorus_574,
+             :Speech_Creon_575,
+             :Speech_Chorus_576,
+             :Speech_Creon_577_581 .
+
+############################
+# CHARACTERS & ENTITIES
+############################
+
+:Antigone_Character_Guard
+  a owl:NamedIndividual, :Character ;
+  :experiencesEmotion :Emotion_Fear, :Emotion_Relief, :Emotion_Guilt, :Emotion_Enthusiasm ;
+  :hasMotivation :Motivation_SelfPreservation, :Motivation_Exonerate ;
+  :tragicFlaw "Selfishness"^^xsd:string ;
+  :moralAlignment "Self-preserving"^^xsd:string .
+
+:Antigone_Character_Creon
+  a owl:NamedIndividual, :Character ;
+  :experiencesEmotion :Emotion_Anger, :Emotion_Indignation, :Emotion_Satisfaction ;
+  :hasMotivation :Motivation_MaintainAuthority, :Motivation_EnforceLaw, :Motivation_PunishTransgression, :Motivation_ProtectThrone, :Motivation_TestCourage ;
+  :advocatesFor :EthicalPrinciple_CivicLaw ;
+  :violatesLaw :Law_DivineBurialRite ;
+  :tragicFlaw "Stubbornness, inflexibility, authoritarianism"^^xsd:string ;
+  :moralAlignment "Tyrannical, absolute"^^xsd:string ;
+  :status "Tyrant of Thebes, uncle of Antigone"^^xsd:string .
+
+:Antigone_Character_Antigone
+  a owl:NamedIndividual, :Character ;
+  :experiencesEmotion :Emotion_Defiance, :Emotion_Resolve, :Emotion_Acceptance, :Emotion_Contempt ;
+  :hasMotivation :Motivation_HonorBrother, :Motivation_ObeyDivineLaw ;
+  :advocatesFor :EthicalPrinciple_DivineLaw, :EthicalPrinciple_FamilyDuty ;
+  :makesMoralDecision :MoralDecision_BuryPolyneices ;
+  :isSiblingOf :Antigone_Character_Ismene ;
+  :tragicFlaw "Stubbornness, inflexibility, hubris toward authority"^^xsd:string ;
+  :moralAlignment "Pious, god-fearing, logical, perceptive, harsh, moral, independent, free, self-sufficient, grief-stricken, loving, reactive, strong, dynamic, decisive, irreverent to Creon's office, emotional, angry"^^xsd:string ;
+  :status "Princess, niece of Creon, daughter of Oedipus"^^xsd:string .
+
+:Antigone_Character_Ismene
+  a owl:NamedIndividual, :Character ;
+  :experiencesEmotion :Emotion_Despair, :Emotion_Love, :Emotion_Guilt, :Emotion_Hurt, :Emotion_Regret ;
+  :hasMotivation :Motivation_ShareFate, :Motivation_ProtectSister, :Motivation_LightenBurden, :Motivation_ShareNobleAct, :Motivation_HonorBrother ;
+  :isSiblingOf :Antigone_Character_Antigone ;
+  :tragicFlaw "Weakness, timidity, compromise"^^xsd:string ;
+  :moralAlignment "Completely compromising, flexible, realistic, timid, cowardly, servile, law-abiding, adapted to human authority, weak character, fears Creon"^^xsd:string ;
+  :status "Princess, niece of Creon, daughter of Oedipus, sister of Antigone"^^xsd:string .
+
+:Antigone_Chorus
+  a owl:NamedIndividual, :Character ;
+  :experiencesEmotion :Emotion_Compassion, :Emotion_Observation .
+
+
+############################
+# SPEECHES
+############################
+
+:Speech_Guard_388_400
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Guard ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasMotivation :Motivation_SelfPreservation, :Motivation_Exonerate ;
+  :hasTheme :Theme_DramaticDelay, :Theme_Verbiage ;
+  :containsLine :Line_388, :Line_389, :Line_390, :Line_391, :Line_392, :Line_393, :Line_394, :Line_395, :Line_396, :Line_397, :Line_398, :Line_399, :Line_400 .
+
+:Speech_Creon_401
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_401 .
+
+:Speech_Guard_402
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Guard ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_402 .
+
+:Speech_Creon_403
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_403 .
+
+:Speech_Guard_404_405
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Guard ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_404, :Line_405 .
+
+:Speech_Creon_406
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_406 .
+
+:Speech_Guard_407_440
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Guard ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_NarrativeTechnique, :Theme_OffstageAction, :Theme_Compassion, :Theme_Contrast ;
+  :containsRhetoricalDevice :Simile_Bird ;
+  :containsLine :Line_407, :Line_408, :Line_409, :Line_410, :Line_411, :Line_412, :Line_413, :Line_414, :Line_415, :Line_416, :Line_417, :Line_418, :Line_419, :Line_420, :Line_421, :Line_422, :Line_423, :Line_424, :Line_425, :Line_426, :Line_427, :Line_428, :Line_429, :Line_430, :Line_431, :Line_432, :Line_433, :Line_434, :Line_435, :Line_436, :Line_437, :Line_438, :Line_439, :Line_440 .
+
+:Speech_Creon_441_442
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_441, :Line_442 .
+
+:Speech_Antigone_443
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_443 .
+
+:Speech_Creon_444_447
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_StageDirection, :Theme_Exit ;
+  :containsLine :Line_444, :Line_445, :Line_446, :Line_447 .
+
+:Speech_Antigone_448
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_448 .
+
+:Speech_Creon_449
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_449 .
+
+:Speech_Antigone_450_470
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_DivineLaw, :Theme_FamilyDuty, :Theme_EthicalPrinciple, :Theme_Hubris ;
+  :hasConflict :Conflict_DivineVsHumanLaw ;
+  :containsRhetoricalDevice :Metaphor_UnwrittenLaws ;
+  :containsLine :Line_450, :Line_451, :Line_452, :Line_453, :Line_454, :Line_455, :Line_456, :Line_457, :Line_458, :Line_459, :Line_460, :Line_461, :Line_462, :Line_463, :Line_464, :Line_465, :Line_466, :Line_467, :Line_468, :Line_469, :Line_470 .
+
+:Speech_Chorus_471_472
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Chorus ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_FamilyHeritage, :Theme_CharacterTrait ;
+  :containsLine :Line_471, :Line_472 .
+
+:Speech_Creon_473_496
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Tyranny, :Theme_GenderRoles, :Theme_Punishment, :Theme_FamilyBond ;
+  :hasMotivation :Motivation_PunishTransgression, :Motivation_ProtectThrone ;
+  :containsRhetoricalDevice :Metaphor_Iron, :Metaphor_Horse ;
+  :containsLine :Line_473, :Line_474, :Line_475, :Line_476, :Line_477, :Line_478, :Line_479, :Line_480, :Line_481, :Line_482, :Line_483, :Line_484, :Line_485, :Line_486, :Line_487, :Line_488, :Line_489, :Line_490, :Line_491, :Line_492, :Line_493, :Line_494, :Line_495, :Line_496 .
+
+:Speech_Antigone_497
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_497 .
+
+:Speech_Creon_498
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_498 .
+
+:Speech_Antigone_499_507
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Glory, :Theme_PublicOpinion, :Theme_Disagreement, :Theme_FearOfTyrant ;
+  :containsLine :Line_499, :Line_500, :Line_501, :Line_502, :Line_503, :Line_504, :Line_505, :Line_506, :Line_507 .
+
+:Speech_Creon_508
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_508 .
+
+:Speech_Antigone_509
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_509 .
+
+:Speech_Creon_510
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_510 .
+
+:Speech_Antigone_511
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_511 .
+
+:Speech_Creon_512
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_512 .
+
+:Speech_Antigone_513
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_513 .
+
+:Speech_Creon_514
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_514 .
+
+:Speech_Antigone_515
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_515 .
+
+:Speech_Creon_516
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_516 .
+
+:Speech_Antigone_517
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_517 .
+
+:Speech_Creon_518
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_518 .
+
+:Speech_Antigone_519
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_519 .
+
+:Speech_Creon_520
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_520 .
+
+:Speech_Antigone_521
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_521 .
+
+:Speech_Creon_522
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_522 .
+
+:Speech_Antigone_523
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_523 .
+
+:Speech_Creon_524_525
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Refusal, :Theme_GenderRoles, :Theme_Authority ;
+  :containsLine :Line_524, :Line_525 .
+
+:Speech_Chorus_526_530
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Chorus ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_526, :Line_527, :Line_528, :Line_529, :Line_530 .
+
+:Speech_Creon_531_535
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Accusation, :Theme_ThroneUsurpation, :Theme_Interrogation ;
+  :hasMotivation :Motivation_ProtectThrone, :Motivation_EnforceLaw ;
+  :containsRhetoricalDevice :Metaphor_Serpent ;
+  :containsLine :Line_531, :Line_532, :Line_533, :Line_534, :Line_535 .
+
+:Speech_Ismene_536_537
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Sisterhood, :Theme_SharedResponsibility, :Theme_Love ;
+  :hasMotivation :Motivation_ShareFate, :Motivation_LightenBurden, :Motivation_ShareNobleAct ;
+  :containsLine :Line_536, :Line_537 .
+
+:Speech_Antigone_538_539
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Justice, :Theme_Truth, :Theme_DivineJustice ;
+  :referencesMyth :MythologicalBackground_Nemesis ;
+  :containsLine :Line_538, :Line_539 .
+
+:Speech_Ismene_540_541
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_540, :Line_541 .
+
+:Speech_Antigone_542_543
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_542, :Line_543 .
+
+:Speech_Ismene_544_545
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Guilt, :Theme_HonorBrother, :Theme_SharedResponsibility ;
+  :hasMotivation :Motivation_HonorBrother, :Motivation_ShareFate ;
+  :containsLine :Line_544, :Line_545 .
+
+:Speech_Antigone_546_547
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Justice, :Theme_Sacrifice, :Theme_DivineJustice ;
+  :referencesMyth :MythologicalBackground_Nemesis ;
+  :containsLine :Line_546, :Line_547 .
+
+:Speech_Ismene_548
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_548 .
+
+:Speech_Antigone_549
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Irony, :Theme_CharacterTrait, :Theme_Fear ;
+  :containsRhetoricalDevice :Irony_QuestionCreon ;
+  :containsLine :Line_549 .
+
+:Speech_Ismene_550
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_550 .
+
+:Speech_Antigone_551
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Irony, :Theme_Mockery, :Theme_Contempt ;
+  :containsRhetoricalDevice :Irony_Mockery ;
+  :containsLine :Line_551 .
+
+:Speech_Ismene_552
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_552 .
+
+:Speech_Antigone_553
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_CharacterTrait, :Theme_SelfSacrifice, :Theme_Generosity ;
+  :containsLine :Line_553 .
+
+:Speech_Ismene_554
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_554 .
+
+:Speech_Antigone_555
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_555 .
+
+:Speech_Ismene_556
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_556 .
+
+:Speech_Antigone_557
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Relativism, :Theme_Fear, :Theme_BlindFaith, :Theme_EthicalPrinciple ;
+  :containsLine :Line_557 .
+
+:Speech_Ismene_558
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_558 .
+
+:Speech_Antigone_559_560
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Acceptance, :Theme_Death ;
+  :containsLine :Line_559, :Line_560 .
+
+:Speech_Creon_561_562
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Madness, :Theme_CharacterTrait, :Theme_Interruption ;
+  :containsLine :Line_561, :Line_562 .
+
+:Speech_Ismene_563_564
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Misfortune, :Theme_MentalErosion, :Theme_CharacterDegradation ;
+  :containsLine :Line_563, :Line_564 .
+
+:Speech_Creon_565
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Accusation, :Theme_Madness, :Theme_Belief ;
+  :containsLine :Line_565 .
+
+:Speech_Ismene_566
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_566 .
+
+:Speech_Creon_567
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Resignation, :Theme_Abandonment ;
+  :containsLine :Line_567 .
+
+:Speech_Ismene_568
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Marriage, :Theme_FamilyRelationship, :Theme_Reminder ;
+  :containsLine :Line_568 .
+
+:Speech_Creon_569
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Marriage, :Theme_Alternative ;
+  :containsRhetoricalDevice :Metaphor_Field ;
+  :containsLine :Line_569 .
+
+:Speech_Ismene_570
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_570 .
+
+:Speech_Creon_571
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_ExtremeStatement, :Theme_Hatred, :Theme_Marriage ;
+  :containsLine :Line_571 .
+
+:Speech_Ismene_572
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Ismene ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Insult, :Theme_FamilyRelationship, :Theme_Defense ;
+  :containsLine :Line_572 .
+
+:Speech_Creon_573
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Exhaustion, :Theme_Endurance ;
+  :containsLine :Line_573 .
+
+:Speech_Chorus_574
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Chorus ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Question, :Theme_Marriage, :Theme_DeathPenalty ;
+  :containsLine :Line_574 .
+
+:Speech_Creon_575
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :containsLine :Line_575 .
+
+:Speech_Chorus_576
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Chorus ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Recognition, :Theme_Unchangeable, :Theme_Resignation ;
+  :containsLine :Line_576 .
+
+:Speech_Creon_577_581
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :partOfScene :Antigone_Scene_Episode_2 ;
+  :hasTheme :Theme_Order, :Theme_Imprisonment, :Theme_FearOfDeath, :Theme_InternalThought ;
+  :hasMotivation :Motivation_EnforceLaw, :Motivation_TestCourage ;
+  :containsLine :Line_577, :Line_578, :Line_579, :Line_580, :Line_581 .
+
+############################
+# CANONICAL LINES 
+# Lines 388-581
+############################
+
+:Line_388
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 388 ;
+  :canonicalReference "Episode 2.388"^^xsd:string ;
+  :text "Ἄναξ, βροτοῖσιν οὐδέν ἐστ ̓ ἀπώμοτον·"^^xsd:string ;
+  :hasTheme :Theme_ProverbialWisdom .
+
+:Line_389
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 389 ;
+  :canonicalReference "Episode 2.389"^^xsd:string ;
+  :text "ψεύδει γὰρ ἡ  ̓πίνοια τὴν γνώμην· ἐπεὶ"^^xsd:string .
+
+:Line_390
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 390 ;
+  :canonicalReference "Episode 2.390"^^xsd:string ;
+  :text "σχολῇ ποθ ̓ ἥξειν δεῦρ ̓ ἂν ἐξηύχουν ἐγὼ"^^xsd:string .
+
+:Line_391
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 391 ;
+  :canonicalReference "Episode 2.391"^^xsd:string ;
+  :text "ταῖς σαῖς ἀπειλαῖς αἷς ἐχειμάσθην τότε."^^xsd:string .
+
+:Line_392
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 392 ;
+  :canonicalReference "Episode 2.392"^^xsd:string ;
+  :text "Ἀλλ ̓ ἡ γὰρ ἐκτὸς καὶ παρ ̓ ἐλπίδας χαρὰ"^^xsd:string .
+
+:Line_393
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 393 ;
+  :canonicalReference "Episode 2.393"^^xsd:string ;
+  :text "ἔοικεν ἄλλῃ μῆκος οὐδὲν ἡδονῇ,"^^xsd:string .
+
+:Line_394
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 394 ;
+  :canonicalReference "Episode 2.394"^^xsd:string ;
+  :text "ἥκω, δι ̓ ὅρκων καίπερ ὢν ἀπώμοτος,"^^xsd:string .
+
+:Line_395
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 395 ;
+  :canonicalReference "Episode 2.395"^^xsd:string ;
+  :text "κόρην ἄγων τήνδ ̓, ἣ καθῃρέθη τάφον"^^xsd:string .
+
+:Line_396
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 396 ;
+  :canonicalReference "Episode 2.396"^^xsd:string ;
+  :text "κοσμοῦσα. Κλῆρος ἐνθάδ ̓ οὐκ ἐπάλλετο,"^^xsd:string .
+
+:Line_397
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 397 ;
+  :canonicalReference "Episode 2.397"^^xsd:string ;
+  :text "ἀλλ ̓ ἔστ ̓ ἐμὸν θοὔρμαιον, οὐκ ἄλλου, τόδε."^^xsd:string .
+
+:Line_398
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 398 ;
+  :canonicalReference "Episode 2.398"^^xsd:string ;
+  :text "Καὶ νῦν, ἄναξ, τήνδ ̓ αὐτός, ὡς θέλεις, λαβὼν"^^xsd:string .
+
+:Line_399
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 399 ;
+  :canonicalReference "Episode 2.399"^^xsd:string ;
+  :text "καὶ κρῖνε κἀξέλεγχ ̓· ἐγὼ δ ̓ ἐλεύθερος"^^xsd:string .
+
+:Line_400
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 400 ;
+  :canonicalReference "Episode 2.400"^^xsd:string ;
+  :text "δίκαιός εἰμι τῶνδ ̓ ἀπηλλάχθαι κακῶν."^^xsd:string .
+
+:Line_401
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 401 ;
+  :canonicalReference "Episode 2.401"^^xsd:string ;
+  :text "Ἄγεις δὲ τήνδε τῷ τρόπῳ πόθεν λαβών;"^^xsd:string ;
+  :hasTheme :Theme_Surprise, :Theme_Disbelief .
+
+:Line_402
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 402 ;
+  :canonicalReference "Episode 2.402"^^xsd:string ;
+  :text "Αὕτη τὸν ἄνδρ ̓ ἔθαπτε· πάντ ̓ ἐπίστασαι."^^xsd:string ;
+  :hasTheme :Theme_VisualPerception, :Theme_Certainty .
+
+:Line_403
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 403 ;
+  :canonicalReference "Episode 2.403"^^xsd:string ;
+  :text "Ἦ καὶ ξυνίης καὶ λέγεις ὀρθῶς ἃ φῄς;"^^xsd:string ;
+  :hasTheme :Theme_Disbelief, :Theme_Doubt .
+
+:Line_404
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 404 ;
+  :canonicalReference "Episode 2.404"^^xsd:string ;
+  :text "Ταύτην γ ̓ ἰδὼν θάπτουσαν ὃν σὺ τὸν νεκρὸν"^^xsd:string .
+
+:Line_405
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 405 ;
+  :canonicalReference "Episode 2.405"^^xsd:string ;
+  :text "ἀπεῖπας. Ἆρ ̓ ἔνδηλα καὶ σαφῆ λέγω;"^^xsd:string .
+
+:Line_406
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 406 ;
+  :canonicalReference "Episode 2.406"^^xsd:string ;
+  :text "Καὶ πῶς ὁρᾶται κἀπίληπτος ᾑρέθη;"^^xsd:string .
+
+:Line_407
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 407 ;
+  :canonicalReference "Episode 2.407"^^xsd:string ;
+  :text "Τοιοῦτον ἦν τὸ πρᾶγμ ̓· ὅπως γὰρ ἥκομεν,"^^xsd:string ;
+  :hasTheme :Theme_NarrativeTechnique, :Theme_OffstageAction .
+
+:Line_408
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 408 ;
+  :canonicalReference "Episode 2.408"^^xsd:string ;
+  :text "πρὸς σοῦ τὰ δείν ̓ ἐκεῖν ̓ ἐπηπειλημένοι,"^^xsd:string .
+
+:Line_409
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 409 ;
+  :canonicalReference "Episode 2.409"^^xsd:string ;
+  :text "πᾶσαν κόνιν σήραντες ἣ κατεῖχε τὸν"^^xsd:string .
+
+:Line_410
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 410 ;
+  :canonicalReference "Episode 2.410"^^xsd:string ;
+  :text "νέκυν, μυδῶν τε σῶμα γυμνώσαντες εὖ,"^^xsd:string .
+
+:Line_411
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 411 ;
+  :canonicalReference "Episode 2.411"^^xsd:string ;
+  :text "καθήμεθ ̓ ἄκρων ἐκ πάγων ὑπήνεμοι,"^^xsd:string .
+
+:Line_412
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 412 ;
+  :canonicalReference "Episode 2.412"^^xsd:string ;
+  :text "ὀσμὴν ἀπ ̓ αὐτοῦ μὴ βάλῃ πεφευγότες,"^^xsd:string .
+
+:Line_413
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 413 ;
+  :canonicalReference "Episode 2.413"^^xsd:string ;
+  :text "ἐγερτὶ κινῶν ἄνδρ ̓ ἀνὴρ ἐπιρρόθοις"^^xsd:string .
+
+:Line_414
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 414 ;
+  :canonicalReference "Episode 2.414"^^xsd:string ;
+  :text "κακοῖσιν, εἴ τις τοῦδ ̓ ἀκηδήσοι πόνου."^^xsd:string .
+
+:Line_415
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 415 ;
+  :canonicalReference "Episode 2.415"^^xsd:string ;
+  :text "Χρόνον τάδ ̓ ἦν τοσοῦτον, ἔστ ̓ ἐν αἰθέρι"^^xsd:string .
+
+:Line_416
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 416 ;
+  :canonicalReference "Episode 2.416"^^xsd:string ;
+  :text "μέσῳ κατέστη λαμπρὸς ἡλίου κύκλος"^^xsd:string .
+
+:Line_417
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 417 ;
+  :canonicalReference "Episode 2.417"^^xsd:string ;
+  :text "καὶ καῦμ ̓ ἔθαλπε· καὶ τότ ̓ ἐξαίφνης χθονὸς"^^xsd:string ;
+  :hasTheme :Theme_DivineIntervention, :Theme_Storm ;
+  :referencesMyth :MythologicalBackground_DivineStorm .
+
+:Line_418
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 418 ;
+  :canonicalReference "Episode 2.418"^^xsd:string ;
+  :text "τυφὼς ἀείρας σκηπτόν, οὐράνιον ἄχος,"^^xsd:string ;
+  :hasTheme :Theme_DivineIntervention, :Theme_Storm ;
+  :referencesMyth :MythologicalBackground_DivineStorm .
+
+:Line_419
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 419 ;
+  :canonicalReference "Episode 2.419"^^xsd:string ;
+  :text "πίμπλησι πεδίον πᾶσαν αἰκίζων φόβην"^^xsd:string .
+
+:Line_420
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 420 ;
+  :canonicalReference "Episode 2.420"^^xsd:string ;
+  :text "ὕλης πεδιάδος, ἐν δ ̓ ἐμεστώθη μέγας"^^xsd:string .
+
+:Line_421
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 421 ;
+  :canonicalReference "Episode 2.421"^^xsd:string ;
+  :text "αἰθήρ· μύσαντες δ ̓ εἴχομεν θείαν νόσον."^^xsd:string ;
+  :hasTheme :Theme_Fear, :Theme_DivineIntervention .
+
+:Line_422
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 422 ;
+  :canonicalReference "Episode 2.422"^^xsd:string ;
+  :text "Καὶ τοῦδ ̓ ἀπαλλαγέντος ἐν χρόνῳ μακρῷ,"^^xsd:string .
+
+:Line_423
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 423 ;
+  :canonicalReference "Episode 2.423"^^xsd:string ;
+  :text "ἡ παῖς ὁρᾶται κἀνακωκύει πικρᾶς"^^xsd:string .
+
+:Line_424
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 424 ;
+  :canonicalReference "Episode 2.424"^^xsd:string ;
+  :text "ὄρνιθος ὀξὺν φθόγγον, ὡς ὅταν κενῆς"^^xsd:string ;
+  :containsRhetoricalDevice :Simile_Bird .
+
+:Line_425
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 425 ;
+  :canonicalReference "Episode 2.425"^^xsd:string ;
+  :text "εὐνῆς νεοσσῶν ὀρφανὸν βλέψῃ λέχος·"^^xsd:string .
+
+:Line_426
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 426 ;
+  :canonicalReference "Episode 2.426"^^xsd:string ;
+  :text "οὕτω δὲ χαὔτη, ψιλὸν ὡς ὁρᾷ νέκυν,"^^xsd:string .
+
+:Line_427
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 427 ;
+  :canonicalReference "Episode 2.427"^^xsd:string ;
+  :text "γόοισιν ἐξῴμωξεν, ἐκ δ ̓ ἀρὰς κακὰς"^^xsd:string ;
+  :hasTheme :Theme_Curse, :Theme_MagicalPower ;
+  :containsRhetoricalDevice :Metaphor_Curse .
+
+:Line_428
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 428 ;
+  :canonicalReference "Episode 2.428"^^xsd:string ;
+  :text "ἠρᾶτο τοῖσι τοὔργον ἐξειργασμένοις."^^xsd:string ;
+  :hasTheme :Theme_Curse, :Theme_MagicalPower .
+
+:Line_429
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 429 ;
+  :canonicalReference "Episode 2.429"^^xsd:string ;
+  :text "Καὶ χερσὶν εὐθὺς διψίαν φέρει κόνιν,"^^xsd:string .
+
+:Line_430
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 430 ;
+  :canonicalReference "Episode 2.430"^^xsd:string ;
+  :text "ἔκ τ ̓ εὐκροτήτου χαλκέας ἄρδην πρόχου"^^xsd:string .
+
+:Line_431
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 431 ;
+  :canonicalReference "Episode 2.431"^^xsd:string ;
+  :text "χοαῖσι τρισπόνδοισι τὸν νέκυν στέφει."^^xsd:string ;
+  :hasTheme :Theme_BurialRites, :Theme_SecondBurial ;
+  :referencesMyth :MythologicalBackground_Hades ;
+  :containsRhetoricalDevice :Symbol_Trispondoi .
+
+:Line_432
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 432 ;
+  :canonicalReference "Episode 2.432"^^xsd:string ;
+  :text "Χἠμεῖς ἰδόντες ἱέμεσθα, σὺν δέ νιν"^^xsd:string ;
+  :hasTheme :Theme_Hunting, :Theme_Pursuit, :Theme_Tranquility .
+
+:Line_433
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 433 ;
+  :canonicalReference "Episode 2.433"^^xsd:string ;
+  :text "θηρώμεθ ̓ εὐθὺς οὐδὲν ἐκπεπληγμένην,"^^xsd:string .
+
+:Line_434
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 434 ;
+  :canonicalReference "Episode 2.434"^^xsd:string ;
+  :text "καὶ τάς τε πρόσθεν τάς τε νῦν ἠλέγχομεν"^^xsd:string .
+
+:Line_435
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 435 ;
+  :canonicalReference "Episode 2.435"^^xsd:string ;
+  :text "πράξεις· ἄπαρνος δ ̓ οὐδενὸς καθίστατο,"^^xsd:string .
+
+:Line_436
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 436 ;
+  :canonicalReference "Episode 2.436"^^xsd:string ;
+  :text "ἅμ ̓ ἡδέως ἔμοιγε κἀλγεινῶς ἅμα."^^xsd:string ;
+  :hasTheme :Theme_AmbivalentEmotion, :Theme_Relief ;
+  :containsRhetoricalDevice :Oxymoron_BittersweetJoy .
+
+:Line_437
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 437 ;
+  :canonicalReference "Episode 2.437"^^xsd:string ;
+  :text "Τὸ μὲν γὰρ αὐτὸν ἐκ κακῶν πεφευγέναι"^^xsd:string .
+
+:Line_438
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 438 ;
+  :canonicalReference "Episode 2.438"^^xsd:string ;
+  :text "ἥδιστον, ἐς κακὸν δὲ τοὺς φίλους ἄγειν"^^xsd:string .
+
+:Line_439
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 439 ;
+  :canonicalReference "Episode 2.439"^^xsd:string ;
+  :text "ἀλγεινόν· ἀλλὰ πάντα ταῦθ ̓ ἥσσω λαβεῖν"^^xsd:string .
+
+:Line_440
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 440 ;
+  :canonicalReference "Episode 2.440"^^xsd:string ;
+  :text "ἐμοὶ πέφυκεν τῆς ἐμῆς σωτηρίας."^^xsd:string ;
+  :hasTheme :Theme_SelfPreservation, :Theme_Selfishness ;
+  :hasMotivation :Motivation_SelfPreservation .
+
+:Line_441
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 441 ;
+  :canonicalReference "Episode 2.441"^^xsd:string ;
+  :text "Σὲ δή, σὲ τὴν νεύουσαν εἰς πέδον κάρα,"^^xsd:string ;
+  :hasTheme :Theme_Silence, :Theme_DramaticTechnique .
+
+:Line_442
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 442 ;
+  :canonicalReference "Episode 2.442"^^xsd:string ;
+  :text "φῄς, ἢ καταρνῇ μὴ δεδρακέναι τάδε;"^^xsd:string .
+
+:Line_443
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 443 ;
+  :canonicalReference "Episode 2.443"^^xsd:string ;
+  :text "Καὶ φημὶ δρᾶσαι κοὐκ ἀπαρνοῦμαι τὸ μή."^^xsd:string ;
+  :hasTheme :Theme_MoralCourage, :Theme_Defiance .
+
+:Line_444
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 444 ;
+  :canonicalReference "Episode 2.444"^^xsd:string ;
+  :text "Σὺ μὲν κομίζοις ἂν σεαυτὸν ᾗ θέλεις"^^xsd:string .
+
+:Line_445
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 445 ;
+  :canonicalReference "Episode 2.445"^^xsd:string ;
+  :text "ἔξω βαρείας αἰτίας ἐλεύθερον·"^^xsd:string .
+
+:Line_446
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 446 ;
+  :canonicalReference "Episode 2.446"^^xsd:string ;
+  :text "σὺ δ ̓ εἰπέ μοι μὴ μῆκος, ἀλλὰ συντόμως,"^^xsd:string .
+
+:Line_447
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 447 ;
+  :canonicalReference "Episode 2.447"^^xsd:string ;
+  :text "ᾔδησθα κηρυχθέντα μὴ πράσσειν τάδε;"^^xsd:string .
+
+:Line_448
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 448 ;
+  :canonicalReference "Episode 2.448"^^xsd:string ;
+  :text "Ἤιδη· τί δ ̓ οὐκ ἔμελλον; ἐμφανῆ γὰρ ἦν."^^xsd:string ;
+  :hasTheme :Theme_Awareness, :Theme_ConsciousAction .
+
+:Line_449
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 449 ;
+  :canonicalReference "Episode 2.449"^^xsd:string ;
+  :text "Καὶ δῆτ ̓ ἐτόλμας τούσδ ̓ ὑπερβαίνειν νόμους;"^^xsd:string ;
+  :hasConflict :Conflict_DivineVsHumanLaw ;
+  :hasTheme :Theme_Authority .
+
+:Line_450
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 450 ;
+  :canonicalReference "Episode 2.450"^^xsd:string ;
+  :text "Οὐ γάρ τί μοι Ζεὺς ἦν ὁ κηρύξας τάδε,"^^xsd:string ;
+  :referencesMyth :MythologicalBackground_Zeus ;
+  :hasTheme :Theme_DivineLaw .
+
+:Line_451
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 451 ;
+  :canonicalReference "Episode 2.451"^^xsd:string ;
+  :text "οὐδ ̓ ἡ ξύνοικος τῶν κάτω θεῶν Δίκη"^^xsd:string ;
+  :referencesMyth :MythologicalBackground_Dike, :MythologicalBackground_UnderworldGods ;
+  :hasTheme :Theme_DivineLaw, :Theme_Justice .
+
+:Line_452
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 452 ;
+  :canonicalReference "Episode 2.452"^^xsd:string ;
+  :text "τοιούσδ ̓ ἐν ἀνθρώποισιν ὥρισεν νόμους,"^^xsd:string .
+
+:Line_453
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 453 ;
+  :canonicalReference "Episode 2.453"^^xsd:string ;
+  :text "οὐδὲ σθένειν τοσοῦτον ᾠόμην τὰ σὰ"^^xsd:string .
+
+:Line_454
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 454 ;
+  :canonicalReference "Episode 2.454"^^xsd:string ;
+  :text "κηρύγμαθ ̓ ὥστ ̓ ἄγραπτα κἀσφαλῆ θεῶν"^^xsd:string .
+
+:Line_455
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 455 ;
+  :canonicalReference "Episode 2.455"^^xsd:string ;
+  :text "νόμιμα δύνασθαι θνητὸν ὄνθ ̓ ὑπερδραμεῖν."^^xsd:string ;
+  :hasTheme :Theme_DivineLaw, :Theme_MortalLimitation ;
+  :containsRhetoricalDevice :Metaphor_UnwrittenLaws .
+
+:Line_456
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 456 ;
+  :canonicalReference "Episode 2.456"^^xsd:string ;
+  :text "Οὐ γάρ τι νῦν γε κἀχθές, ἀλλ ̓ ἀεί ποτε"^^xsd:string .
+
+:Line_457
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 457 ;
+  :canonicalReference "Episode 2.457"^^xsd:string ;
+  :text "ζῇ ταῦτα, κοὐδεὶς οἶδεν ἐξ ὅτου  ̓φάνη."^^xsd:string .
+
+:Line_458
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 458 ;
+  :canonicalReference "Episode 2.458"^^xsd:string ;
+  :text "Τούτων ἐγὼ οὐκ ἔμελλον, ἀνδρὸς οὐδενὸς"^^xsd:string .
+
+:Line_459
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 459 ;
+  :canonicalReference "Episode 2.459"^^xsd:string ;
+  :text "φρόνημα δείσασ ̓, ἐν θεοῖσι τὴν δίκην"^^xsd:string .
+
+:Line_460
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 460 ;
+  :canonicalReference "Episode 2.460"^^xsd:string ;
+  :text "δώσειν· θανουμένη γὰρ ἐξῄδη, τί δ ̓ οὔ;"^^xsd:string .
+
+:Line_461
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 461 ;
+  :canonicalReference "Episode 2.461"^^xsd:string ;
+  :text "κεἰ μὴ σὺ προὐκήρυξας. Εἰ δὲ τοῦ χρόνου"^^xsd:string .
+
+:Line_462
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 462 ;
+  :canonicalReference "Episode 2.462"^^xsd:string ;
+  :text "πρόσθεν θανοῦμαι, κέρδος αὔτ ̓ ἐγὼ λέγω·"^^xsd:string .
+
+:Line_463
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 463 ;
+  :canonicalReference "Episode 2.463"^^xsd:string ;
+  :text "ὅστις γὰρ ἐν πολλοῖσιν ὡς ἐγὼ κακοῖς"^^xsd:string .
+
+:Line_464
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 464 ;
+  :canonicalReference "Episode 2.464"^^xsd:string ;
+  :text "ζῇ, πῶς ὅδ ̓ οὐχὶ κατθανὼν κέρδος φέρει;"^^xsd:string .
+
+:Line_465
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 465 ;
+  :canonicalReference "Episode 2.465"^^xsd:string ;
+  :text "Οὕτως ἔμοιγε τοῦδε τοῦ μόρου τυχεῖν"^^xsd:string .
+
+:Line_466
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 466 ;
+  :canonicalReference "Episode 2.466"^^xsd:string ;
+  :text "παρ ̓ οὐδὲν ἄλγος· ἀλλ ̓ ἄν, εἰ τὸν ἐξ ἐμῆς"^^xsd:string .
+
+:Line_467
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 467 ;
+  :canonicalReference "Episode 2.467"^^xsd:string ;
+  :text μητρὸς θανόντ ̓ ἄθαπτον ἠνσχόμην νέκυν,"^^xsd:string ;
+  :hasTheme :Theme_FamilyDuty, :Theme_BurialRites .
+
+:Line_468
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 468 ;
+  :canonicalReference "Episode 2.468"^^xsd:string ;
+  :text "κείνοις ἂν ἤλγουν· τοῖσδε δ ̓ οὐκ ἀλγύνομαι."^^xsd:string .
+
+:Line_469
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 469 ;
+  :canonicalReference "Episode 2.469"^^xsd:string ;
+  :text "Σοὶ δ ̓ εἰ δοκῶ νῦν μῶρα δρῶσα τυγχάνειν,"^^xsd:string .
+
+:Line_470
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 470 ;
+  :canonicalReference "Episode 2.470"^^xsd:string ;
+  :text "σχεδόν τι μώρῳ μωρίαν ὀφλισκάνω."^^xsd:string .
+
+:Line_471
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 471 ;
+  :canonicalReference "Episode 2.471"^^xsd:string ;
+  :text "Δηλοῖ τὸ γέννημ ̓ ὠμὸν ἐξ ὠμοῦ πατρὸς"^^xsd:string ;
+  :hasTheme :Theme_FamilyHeritage, :Theme_CharacterTrait ;
+  :referencesMyth :MythologicalBackground_Oedipus .
+
+:Line_472
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 472 ;
+  :canonicalReference "Episode 2.472"^^xsd:string ;
+  :text "τῆς παιδός· εἴκειν δ ̓ οὐκ ἐπίσταται κακοῖς."^^xsd:string .
+
+:Line_473
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 473 ;
+  :canonicalReference "Episode 2.473"^^xsd:string ;
+  :text "Ἀλλ ̓ ἴσθι τοι τὰ σκλήρ ̓ ἄγαν φρονήματα"^^xsd:string .
+
+:Line_474
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 474 ;
+  :canonicalReference "Episode 2.474"^^xsd:string ;
+  :text "πίπτειν μάλιστα, καὶ τὸν ἐγκρατέστατον"^^xsd:string ;
+  :hasTheme :Theme_CharacterTrait, :Theme_TragicFlaw ;
+  :containsRhetoricalDevice :Metaphor_Iron .
+
+:Line_475
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 475 ;
+  :canonicalReference "Episode 2.475"^^xsd:string ;
+  :text "σίδηρον ὀπτὸν ἐκ πυρὸς περισκελῆ"^^xsd:string .
+
+:Line_476
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 476 ;
+  :canonicalReference "Episode 2.476"^^xsd:string ;
+  :text "θραυσθέντα καὶ ῥαγέντα πλεῖστ ̓ ἂν εἰσίδοις."^^xsd:string .
+
+:Line_477
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 477 ;
+  :canonicalReference "Episode 2.477"^^xsd:string ;
+  :text "Σμικρῷ χαλινῷ δ ̓ οἶδα τοὺς θυμουμένους"^^xsd:string .
+
+:Line_478
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 478 ;
+  :canonicalReference "Episode 2.478"^^xsd:string ;
+  :text "ἵππους καταρτυθέντας· οὐ γὰρ ἐκπέλει"^^xsd:string .
+
+:Line_479
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 479 ;
+  :canonicalReference "Episode 2.479"^^xsd:string ;
+  :text "φρονεῖν μέγ ̓ ὅστις δοῦλός ἐστι τῶν πέλας."^^xsd:string .
+
+:Line_480
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 480 ;
+  :canonicalReference "Episode 2.480"^^xsd:string ;
+  :text "Αὕτη δ ̓ ὑβρίζειν μὲν τότ ̓ ἐξηπίστατο,"^^xsd:string .
+
+:Line_481
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 481 ;
+  :canonicalReference "Episode 2.481"^^xsd:string ;
+  :text "νόμους ὑπερβαίνουσα τοὺς προκειμένους·"^^xsd:string .
+
+:Line_482
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 482 ;
+  :canonicalReference "Episode 2.482"^^xsd:string ;
+  :text "ὕβρις δ ̓, ἐπεὶ δέδρακεν, ἥδε δευτέρα,"^^xsd:string .
+
+:Line_483
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 483 ;
+  :canonicalReference "Episode 2.483"^^xsd:string ;
+  :text "τούτοις ἐπαυχεῖν καὶ δεδρακυῖαν γελᾶν."^^xsd:string .
+
+:Line_484
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 484 ;
+  :canonicalReference "Episode 2.484"^^xsd:string ;
+  :text "Ἦ νῦν ἐγὼ μὲν οὐκ ἀνήρ, αὕτη δ ̓ ἀνήρ,"^^xsd:string ;
+  :hasTheme :Theme_GenderRoles ;
+  :containsRhetoricalDevice :Irony_GenderReversal .
+
+:Line_485
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 485 ;
+  :canonicalReference "Episode 2.485"^^xsd:string ;
+  :text εἰ ταῦτ ̓ ἀνατὶ τῇδε κείσεται κράτη."^^xsd:string .
+
+:Line_486
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 486 ;
+  :canonicalReference "Episode 2.486"^^xsd:string ;
+  :text "Ἀλλ ̓ εἴτ ̓ ἀδελφῆς εἴθ ̓ ὁμαιμονεστέρα"^^xsd:string .
+
+:Line_487
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 487 ;
+  :canonicalReference "Episode 2.487"^^xsd:string ;
+  :text "τοῦ παντὸς ἡμῖν Ζηνὸς Ἑρκείου κυρεῖ,"^^xsd:string ;
+  :referencesMyth :MythologicalBackground_ZeusHerkeios ;
+  :hasTheme :Theme_FamilyBond, :Theme_DivineLaw .
+
+:Line_488
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 488 ;
+  :canonicalReference "Episode 2.488"^^xsd:string ;
+  :text "αὐτή τε χἠ ξύναιμος οὐκ ἀλύξετον"^^xsd:string .
+
+:Line_489
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 489 ;
+  :canonicalReference "Episode 2.489"^^xsd:string ;
+  :text "μόρου κακίστου· καὶ γὰρ οὖν κείνην ἴσον"^^xsd:string .
+
+:Line_490
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 490 ;
+  :canonicalReference "Episode 2.490"^^xsd:string ;
+  :text "ἐπαιτιῶμαι τοῦδε βουλεῦσαι τάφου."^^xsd:string .
+
+:Line_491
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 491 ;
+  :canonicalReference "Episode 2.491"^^xsd:string ;
+  :text "Καί νιν καλεῖτ ̓· ἔσω γὰρ εἶδον ἀρτίως"^^xsd:string .
+
+:Line_492
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 492 ;
+  :canonicalReference "Episode 2.492"^^xsd:string ;
+  :text "λυσσῶσαν αὐτὴν οὐδ ̓ ἐπήβολον φρενῶν."^^xsd:string .
+
+:Line_493
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 493 ;
+  :canonicalReference "Episode 2.493"^^xsd:string ;
+  :text "Φιλεῖ δ ̓ ὁ θυμὸς πρόσθεν ᾑρῆσθαι κλοπεὺς"^^xsd:string .
+
+:Line_494
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 494 ;
+  :canonicalReference "Episode 2.494"^^xsd:string ;
+  :text "τῶν μηδὲν ὀρθῶς ἐν σκότῳ τεχνωμένων."^^xsd:string .
+
+:Line_495
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 495 ;
+  :canonicalReference "Episode 2.495"^^xsd:string ;
+  :text "Μισῶ γε μέντοι χὤταν ἐν κακοῖσί τις"^^xsd:string .
+
+:Line_496
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 496 ;
+  :canonicalReference "Episode 2.496"^^xsd:string ;
+  :text "ἁλοὺς ἔπειτα τοῦτο καλλύνειν θέλῃ."^^xsd:string .
+
+:Line_497
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 497 ;
+  :canonicalReference "Episode 2.497"^^xsd:string ;
+  :text "Θέλεις τι μεῖζον ἢ κατακτεῖναί μ ̓ ἑλών;"^^xsd:string ;
+  :hasTheme :Theme_Death, :Theme_Acceptance .
+
+:Line_498
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 498 ;
+  :canonicalReference "Episode 2.498"^^xsd:string ;
+  :text "Ἐγὼ μὲν οὐδέν· τοῦτ ̓ ἔχων ἅπαντ ̓ ἔχω."^^xsd:string ;
+  :hasTheme :Theme_Justice, :Theme_Authority .
+
+:Line_499
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 499 ;
+  :canonicalReference "Episode 2.499"^^xsd:string ;
+  :text "Τί δῆτα μέλλεις; ὡς ἐμοὶ τῶν σῶν λόγων"^^xsd:string .
+
+:Line_500
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 500 ;
+  :canonicalReference "Episode 2.500"^^xsd:string ;
+  :text "ἀρεστὸν οὐδέν, μηδ ̓ ἀρεσθείη ποτέ,"^^xsd:string .
+
+:Line_501
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 501 ;
+  :canonicalReference "Episode 2.501"^^xsd:string ;
+  :text "οὕτω δὲ καὶ σοὶ τἄμ ̓ ἀφανδάνοντ ̓ ἔφυ."^^xsd:string .
+
+:Line_502
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 502 ;
+  :canonicalReference "Episode 2.502"^^xsd:string ;
+  :text "Καίτοι πόθεν κλέος γ ̓ ἂν εὐκλεέστερον"^^xsd:string .
+
+:Line_503
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 503 ;
+  :canonicalReference "Episode 2.503"^^xsd:string ;
+  :text "κατέσχον ἢ τὸν αὐτάδελφον ἐν τάφῳ"^^xsd:string .
+
+:Line_504
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 504 ;
+  :canonicalReference "Episode 2.504"^^xsd:string ;
+  :text "τιθεῖσα; τούτοις τοῦτο πᾶσιν ἁνδάνειν"^^xsd:string ;
+  :hasTheme :Theme_PublicOpinion, :Theme_FearOfTyrant .
+
+:Line_505
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 505 ;
+  :canonicalReference "Episode 2.505"^^xsd:string ;
+  :text "λέγοιτ ̓ ἄν, εἰ μὴ γλῶσσαν ἐγκλῄοι φόβος."^^xsd:string ;
+  :hasTheme :Theme_FearOfTyrant, :Theme_PublicOpinion .
+
+:Line_506
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 506 ;
+  :canonicalReference "Episode 2.506"^^xsd:string ;
+  :text "Ἀλλ ̓ ἡ τυραννὶς πολλά τ ̓ ἄλλ ̓ εὐδαιμονεῖ"^^xsd:string ;
+  :hasTheme :Theme_Tyranny, :Theme_Authority .
+
+:Line_507
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 507 ;
+  :canonicalReference "Episode 2.507"^^xsd:string ;
+  :text "κἄξεστιν αὐτῇ δρᾶν λέγειν θ ̓ ἃ βούλεται."^^xsd:string ;
+  :hasTheme :Theme_Tyranny, :Theme_Authority .
+
+:Line_508
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 508 ;
+  :canonicalReference "Episode 2.508"^^xsd:string ;
+  :text "Σὺ τοῦτο μούνη τῶνδε Καδμείων ὁρᾷς."^^xsd:string ;
+  :hasTheme :Theme_Tyranny, :Theme_Disagreement, :Theme_Authority ;
+  :referencesMyth :MythologicalBackground_Cadmus .
+
+:Line_509
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 509 ;
+  :canonicalReference "Episode 2.509"^^xsd:string ;
+  :text "Ὁρῶσι χοὖτοι· σοὶ δ ̓ ὑπίλλουσι στόμα."^^xsd:string ;
+  :hasTheme :Theme_FearOfTyrant, :Theme_PublicOpinion ;
+  :referencesMyth :MythologicalBackground_Cadmus .
+
+:Line_510
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 510 ;
+  :canonicalReference "Episode 2.510"^^xsd:string ;
+  :text "Σὺ δ ̓ οὐκ ἐπαιδῇ, τῶνδε χωρὶς εἰ φρονεῖς;"^^xsd:string ;
+  :hasTheme :Theme_Accusation, :Theme_Authority, :Theme_Contempt .
+
+:Line_511
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 511 ;
+  :canonicalReference "Episode 2.511"^^xsd:string ;
+  :text "Οὐδὲν γὰρ αἰσχρὸν τοὺς ὁμοσπλάγχνους σέβειν."^^xsd:string ;
+  :hasTheme :Theme_DivineLaw, :Theme_FamilyDuty, :Theme_FamilyBond .
+
+:Line_512
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 512 ;
+  :canonicalReference "Episode 2.512"^^xsd:string ;
+  :text "Οὔκουν ὅμαιμος χὠ καταντίον θανών;"^^xsd:string ;
+  :hasTheme :Theme_FamilyBond, :Theme_Disagreement .
+
+:Line_513
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 513 ;
+  :canonicalReference "Episode 2.513"^^xsd:string ;
+  :text "Ὅμαιμος ἐκ μιᾶς τε καὶ ταὐτοῦ πατρός."^^xsd:string ;
+  :hasTheme :Theme_FamilyBond .
+
+:Line_514
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 514 ;
+  :canonicalReference "Episode 2.514"^^xsd:string ;
+  :text "Πῶς δῆτ ̓ ἐκείνῳ δυσσεβῆ τιμᾷς χάριν;"^^xsd:string ;
+  :hasTheme :Theme_Accusation, :Theme_Disagreement, :Theme_FamilyDuty .
+
+:Line_515
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 515 ;
+  :canonicalReference "Episode 2.515"^^xsd:string ;
+  :text "Οὐ μαρτυρήσει ταῦθ ̓ ὁ κατθανὼν νέκυς."^^xsd:string ;
+  :hasTheme :Theme_Death, :Theme_Justice, :Theme_Disagreement .
+
+:Line_516
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 516 ;
+  :canonicalReference "Episode 2.516"^^xsd:string ;
+  :text "Εἴ τοί σφε τιμᾷς ἐξ ἴσου τῷ δυσσεβεῖ."^^xsd:string ;
+  :hasTheme :Theme_Accusation, :Theme_Disagreement, :Theme_Authority .
+
+:Line_517
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 517 ;
+  :canonicalReference "Episode 2.517"^^xsd:string ;
+  :text "Οὐ γάρ τι δοῦλος, ἀλλ ̓ ἀδελφὸς ὤλετο."^^xsd:string ;
+  :hasTheme :Theme_FamilyBond, :Theme_FamilyDuty, :Theme_Defiance .
+
+:Line_518
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 518 ;
+  :canonicalReference "Episode 2.518"^^xsd:string ;
+  :text "Πορθῶν δὲ τήνδε γῆν· ὁ δ ̓ ἀντιστὰς ὕπερ."^^xsd:string ;
+  :hasTheme :Theme_CharacterTrait, :Theme_Authority, :Theme_Disagreement .
+
+:Line_519
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 519 ;
+  :canonicalReference "Episode 2.519"^^xsd:string ;
+  :text "Ὅμως ὅ γ ̓ Ἅιδης τοὺς νόμους ἴσους ποθεῖ."^^xsd:string ;
+  :referencesMyth :MythologicalBackground_Hades ;
+  :hasTheme :Theme_Justice, :Theme_Equality .
+
+:Line_520
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 520 ;
+  :canonicalReference "Episode 2.520"^^xsd:string ;
+  :text "Ἀλλ ̓ οὐχ ὁ χρηστὸς τῷ κακῷ λαχεῖν ἴσος."^^xsd:string ;
+  :hasTheme :Theme_Disagreement, :Theme_Authority, :Theme_CharacterTrait .
+
+:Line_521
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 521 ;
+  :canonicalReference "Episode 2.521"^^xsd:string ;
+  :text "Τίς οἶδεν εἰ κάτωθεν εὐαγῆ τάδε;"^^xsd:string ;
+  :hasTheme :Theme_MortalLimitation, :Theme_Disagreement .
+
+:Line_522
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 522 ;
+  :canonicalReference "Episode 2.522"^^xsd:string ;
+  :text "Οὔτοι ποθ ̓ οὑχθρός, οὐδ ̓ ὅταν θάνῃ, φίλος."^^xsd:string ;
+  :hasTheme :Theme_Disagreement, :Theme_Authority, :Theme_Death .
+
+:Line_523
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 523 ;
+  :canonicalReference "Episode 2.523"^^xsd:string ;
+  :text "Οὔτοι συνέχθειν, ἀλλὰ συμφιλεῖν ἔφυν."^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_EmotionalState ;
+  :hasMotivation :Motivation_ProtectSister .
+
+:Line_524
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 524 ;
+  :canonicalReference "Episode 2.524"^^xsd:string ;
+  :text "Κάτω νυν ἐλθοῦσ ̓, εἰ φιλητέον, φίλει"^^xsd:string ;
+  :hasTheme :Theme_Refusal, :Theme_Love, :Theme_Death, :Theme_GenderRoles .
+
+:Line_525
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 525 ;
+  :canonicalReference "Episode 2.525"^^xsd:string ;
+  :text "κείνους· ἐμοῦ δὲ ζῶντος οὐκ ἄρξει γυνή."^^xsd:string ;
+  :hasTheme :Theme_GenderRoles, :Theme_Authority, :Theme_Refusal .
+
+:Line_526
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 526 ;
+  :canonicalReference "Episode 2.526"^^xsd:string ;
+  :text "Καὶ μὴν πρὸ πυλῶν ἥδ ̓ Ἰσμήνη,"^^xsd:string ;
+  :hasTheme :Theme_Entrance, :Theme_Announcement .
+
+:Line_527
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 527 ;
+  :canonicalReference "Episode 2.527"^^xsd:string ;
+  :text "φιλάδελφα κάτω δάκρυ ̓ εἰβομένη·"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Sorrow, :Theme_EmotionalState .
+
+:Line_528
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 528 ;
+  :canonicalReference "Episode 2.528"^^xsd:string ;
+  :text "νεφέλη δ ̓ ὀφρύων ὕπερ αἱματόεν"^^xsd:string .
+
+:Line_529
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 529 ;
+  :canonicalReference "Episode 2.529"^^xsd:string ;
+  :text "ῥέθος αἰσχύνει,"^^xsd:string .
+
+:Line_530
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 530 ;
+  :canonicalReference "Episode 2.530"^^xsd:string ;
+  :text "τέγγουσ ̓ εὐῶπα παρειάν."^^xsd:string .
+
+:Line_531
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 531 ;
+  :canonicalReference "Episode 2.531"^^xsd:string ;
+  :text "Σὺ δ ̓, ἣ κατ ̓ οἴκους ὡς ἔχιδν ̓ ὑφειμένη"^^xsd:string ;
+  :hasTheme :Theme_Accusation, :Theme_Insult, :Theme_Treachery ;
+  :containsRhetoricalDevice :Metaphor_Serpent .
+
+:Line_532
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 532 ;
+  :canonicalReference "Episode 2.532"^^xsd:string ;
+  :text "λήθουσά μ ̓ ἐξέπινες, οὐδ ̓ ἐμάνθανον"^^xsd:string .
+
+:Line_533
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 533 ;
+  :canonicalReference "Episode 2.533"^^xsd:string ;
+  :text "τρέφων δύ ̓ ἄτα κἀπαναστάσεις θρόνων,"^^xsd:string ;
+  :hasTheme :Theme_Accusation .
+
+:Line_534
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 534 ;
+  :canonicalReference "Episode 2.534"^^xsd:string ;
+  :text "φέρ ̓, εἰπὲ δή μοι, καὶ σὺ τοῦδε τοῦ τάφου"^^xsd:string .
+
+:Line_535
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 535 ;
+  :canonicalReference "Episode 2.535"^^xsd:string ;
+  :text "φήσεις μετασχεῖν, ἢ  ̓ξομῇ τὸ μὴ εἰδέναι;"^^xsd:string .
+
+:Line_536
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 536 ;
+  :canonicalReference "Episode 2.536"^^xsd:string ;
+  :text "Δέδρακα τοὔργον, εἴπερ ἥδ ̓ ὁμορροθεῖ,"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love ;
+  :hasMotivation :Motivation_ShareFate .
+
+:Line_537
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 537 ;
+  :canonicalReference "Episode 2.537"^^xsd:string ;
+  :text "καὶ ξυμμετίσχω καὶ φέρω τῆς αἰτίας."^^xsd:string .
+
+:Line_538
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 538 ;
+  :canonicalReference "Episode 2.538"^^xsd:string ;
+  :text "Ἀλλ ̓ οὐκ ἐάσει τοῦτό γ ̓ ἡ δίκη σ ̓, ἐπεὶ"^^xsd:string ;
+  :hasTheme :Theme_Justice, :Theme_DivineJustice, :Theme_Truth ;
+  :referencesMyth :MythologicalBackground_Nemesis .
+
+:Line_539
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 539 ;
+  :canonicalReference "Episode 2.539"^^xsd:string ;
+  :text "οὔτ ̓ ἠθέλησας οὔτ ̓ ἐγὼ  ̓κοινωσάμην."^^xsd:string ;
+  :hasTheme :Theme_Truth, :Theme_Justice, :Theme_Refusal .
+
+:Line_540
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 540 ;
+  :canonicalReference "Episode 2.540"^^xsd:string ;
+  :text "Ἀλλ ̓ ἐν κακοῖς τοῖς σοῖσιν οὐκ αἰσχύνομαι"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_SharedResponsibility .
+
+:Line_541
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 541 ;
+  :canonicalReference "Episode 2.541"^^xsd:string ;
+  :text "ξύμπλουν ἐμαυτὴν τοῦ πάθους ποιουμένη."^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_SharedResponsibility .
+
+:Line_542
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 542 ;
+  :canonicalReference "Episode 2.542"^^xsd:string ;
+  :text "Ὧν τοὔργον Ἅιδης χοἰ κάτω ξυνίστορες·"^^xsd:string ;
+  :hasTheme :Theme_DivineJustice, :Theme_Refusal, :Theme_Truth ;
+  :referencesMyth :MythologicalBackground_Hades .
+
+:Line_543
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 543 ;
+  :canonicalReference "Episode 2.543"^^xsd:string ;
+  :text "λόγοις δ ̓ ἐγὼ φιλοῦσαν οὐ στέργω φίλην."^^xsd:string ;
+  :hasTheme :Theme_Refusal, :Theme_Truth, :Theme_Justice .
+
+:Line_544
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 544 ;
+  :canonicalReference "Episode 2.544"^^xsd:string ;
+  :text "Μήτοι, κασιγνήτη, μ ̓ ἀτιμάσῃς τὸ μὴ οὐ"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_Guilt .
+
+:Line_545
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 545 ;
+  :canonicalReference "Episode 2.545"^^xsd:string ;
+  :text "θανεῖν τε σὺν σοὶ τὸν θανόντα θ ̓ ἁγνίσαι."^^xsd:string ;
+  :hasTheme :Theme_FamilyDuty, :Theme_Guilt, :Theme_HonorBrother .
+
+:Line_546
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 546 ;
+  :canonicalReference "Episode 2.546"^^xsd:string ;
+  :text "Μή μοι θάνῃς σὺ κοινά, μηδ ̓ ἃ μὴ  ̓θιγες"^^xsd:string ;
+  :hasTheme :Theme_Justice, :Theme_Refusal, :Theme_Sacrifice .
+
+:Line_547
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 547 ;
+  :canonicalReference "Episode 2.547"^^xsd:string ;
+  :text "ποιοῦ σεαυτῆς· ἀρκέσω θνῄσκουσ ̓ ἐγώ."^^xsd:string ;
+  :hasTheme :Theme_Justice, :Theme_Sacrifice, :Theme_SelfSacrifice .
+
+:Line_548
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 548 ;
+  :canonicalReference "Episode 2.548"^^xsd:string ;
+  :text "Καὶ τίς βίος μοι σοῦ λελειμμένῃ φίλος;"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_Death .
+
+:Line_549
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 549 ;
+  :canonicalReference "Episode 2.549"^^xsd:string ;
+  :text "Κρέοντ ̓ ἐρώτα· τοῦδε γὰρ σὺ κηδεμών."^^xsd:string ;
+  :hasTheme :Theme_Irony, :Theme_Fear, :Theme_CharacterTrait ;
+  :containsRhetoricalDevice :Irony_QuestionCreon .
+
+:Line_550
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 550 ;
+  :canonicalReference "Episode 2.550"^^xsd:string ;
+  :text "Τί ταῦτ ̓ ἀνιᾷς μ ̓ οὐδὲν ὠφελουμένη;"^^xsd:string ;
+  :hasTheme :Theme_Hurt, :Theme_EmotionalState .
+
+:Line_551
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 551 ;
+  :canonicalReference "Episode 2.551"^^xsd:string ;
+  :text "Ἀλγοῦσα μὲν δῆτ ̓, εἰ γέλωτ ̓ ἐν σοὶ γελῶ."^^xsd:string ;
+  :hasTheme :Theme_Irony, :Theme_Mockery, :Theme_Contempt ;
+  :containsRhetoricalDevice :Irony_Mockery .
+
+:Line_552
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 552 ;
+  :canonicalReference "Episode 2.552"^^xsd:string ;
+  :text "Τί δῆτ ̓ ἂν ἀλλὰ νῦν σ ̓ ἔτ ̓ ὠφελοῖμ ̓ ἐγώ;"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love .
+
+:Line_553
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 553 ;
+  :canonicalReference "Episode 2.553"^^xsd:string ;
+  :text "Σῶσον σεαυτήν· οὐ φθονῶ σ ̓ ὑπεκφυγεῖν."^^xsd:string ;
+  :hasTheme :Theme_CharacterTrait, :Theme_SelfSacrifice, :Theme_Generosity .
+
+:Line_554
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 554 ;
+  :canonicalReference "Episode 2.554"^^xsd:string ;
+  :text "Οἴμοι τάλαινα, κἀμπλάκω τοῦ σοῦ μόρου;"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_Death, :Theme_EmotionalState .
+
+:Line_555
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 555 ;
+  :canonicalReference "Episode 2.555"^^xsd:string ;
+  :text "Σὺ μὲν γὰρ εἵλου ζῆν, ἐγὼ δὲ κατθανεῖν."^^xsd:string ;
+  :hasTheme :Theme_Choice, :Theme_Death ;
+  :hasConflict :Conflict_AntigoneVsIsmene .
+
+:Line_556
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 556 ;
+  :canonicalReference "Episode 2.556"^^xsd:string ;
+  :text "Ἀλλ ̓ οὐκ ἐπ ̓ ἀρρήτοις γε τοῖς ἐμοῖς λόγοις."^^xsd:string ;
+  :hasTheme :Theme_EmotionalState, :Theme_Guilt, :Theme_Justification .
+
+:Line_557
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 557 ;
+  :canonicalReference "Episode 2.557"^^xsd:string ;
+  :text "Καλῶς σὺ μὲν τοῖς, τοῖς δ ̓ ἐγὼ  ̓δόκουν φρονεῖν."^^xsd:string ;
+  :hasTheme :Theme_Relativism, :Theme_Fear, :Theme_BlindFaith, :Theme_EthicalPrinciple .
+
+:Line_558
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 558 ;
+  :canonicalReference "Episode 2.558"^^xsd:string ;
+  :text "Καὶ μὴν ἴση νῷν ἐστιν ἡ  ̓ξαμαρτία."^^xsd:string ;
+  :hasTheme :Theme_SharedResponsibility, :Theme_Disagreement .
+
+:Line_559
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 559 ;
+  :canonicalReference "Episode 2.559"^^xsd:string ;
+  :text "Θάρσει· σὺ μὲν ζῇς, ἡ δ ̓ ἐμὴ ψυχὴ πάλαι"^^xsd:string ;
+  :hasTheme :Theme_Acceptance, :Theme_Death, :Theme_Foreshadowing .
+
+:Line_560
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 560 ;
+  :canonicalReference "Episode 2.560"^^xsd:string ;
+  :text "τέθνηκεν, ὥστε τοῖς θανοῦσιν ὠφελεῖν."^^xsd:string ;
+  :hasTheme :Theme_Acceptance, :Theme_Death, :Theme_Foreshadowing .
+
+:Line_561
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 561 ;
+  :canonicalReference "Episode 2.561"^^xsd:string ;
+  :text "Τὼ παῖδε φημὶ τώδε τὴν μὲν ἀρτίως"^^xsd:string ;
+  :hasTheme :Theme_Madness, :Theme_CharacterTrait, :Theme_Interruption .
+
+:Line_562
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 562 ;
+  :canonicalReference "Episode 2.562"^^xsd:string ;
+  :text "ἄνουν πεφάνθαι, τὴν δ ̓ ἀφ ̓ οὗ τὰ πρῶτ ̓ ἔφυ."^^xsd:string ;
+  :hasTheme :Theme_Madness, :Theme_CharacterTrait, :Theme_Interruption .
+
+:Line_563
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 563 ;
+  :canonicalReference "Episode 2.563"^^xsd:string ;
+  :text "Οὐ γάρ ποτ ̓, ὦναξ, οὐδ' ὃς ἂν βλάστῃ μένει"^^xsd:string ;
+  :hasTheme :Theme_Misfortune, :Theme_MentalErosion, :Theme_CharacterDegradation .
+
+:Line_564
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 564 ;
+  :canonicalReference "Episode 2.564"^^xsd:string ;
+  :text "νοῦς τοῖς κακῶς πράσσουσιν, ἀλλ ̓ ἐξίσταται."^^xsd:string ;
+  :hasTheme :Theme_Misfortune, :Theme_MentalErosion, :Theme_CharacterDegradation .
+
+:Line_565
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 565 ;
+  :canonicalReference "Episode 2.565"^^xsd:string ;
+  :text "Σοὶ γοῦν, ὅθ ̓ εἵλου σὺν κακοῖς πράσσειν κακά."^^xsd:string ;
+  :hasTheme :Theme_Accusation, :Theme_Madness, :Theme_Belief .
+
+:Line_566
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 566 ;
+  :canonicalReference "Episode 2.566"^^xsd:string ;
+  :text "Τί γὰρ μόνῃ μοι τῆσδ ̓ ἄτερ βιώσιμον;"^^xsd:string ;
+  :hasTheme :Theme_Sisterhood, :Theme_Love, :Theme_Fear .
+
+:Line_567
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 567 ;
+  :canonicalReference "Episode 2.567"^^xsd:string ;
+  :text "Ἀλλ ̓ ἥδε μέντοι μὴ λέγ ̓· οὐ γὰρ ἔστ ̓ ἔτι."^^xsd:string ;
+  :hasTheme :Theme_Resignation, :Theme_Abandonment, :Theme_Authority .
+
+:Line_568
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 568 ;
+  :canonicalReference "Episode 2.568"^^xsd:string ;
+  :text "Ἀλλὰ κτενεῖς νυμφεῖα τοῦ σαυτοῦ τέκνου;"^^xsd:string ;
+  :hasTheme :Theme_Marriage, :Theme_FamilyRelationship, :Theme_Reminder .
+
+:Line_569
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 569 ;
+  :canonicalReference "Episode 2.569"^^xsd:string ;
+  :text "Ἀρώσιμοι γὰρ χἀτέρων εἰσὶν γύαι."^^xsd:string ;
+  :hasTheme :Theme_Marriage, :Theme_Alternative ;
+  :containsRhetoricalDevice :Metaphor_Field .
+
+:Line_570
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 570 ;
+  :canonicalReference "Episode 2.570"^^xsd:string ;
+  :text "Οὐχ ὥς γ ̓ ἐκείνῳ τῇδέ τ ̓ ἦν ἡρμοσμένα."^^xsd:string .
+
+:Line_571
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 571 ;
+  :canonicalReference "Episode 2.571"^^xsd:string ;
+  :text "Κακὰς ἐγὼ γυναῖκας υἱέσι στυγῶ."^^xsd:string ;
+  :hasTheme :Theme_ExtremeStatement, :Theme_Hatred, :Theme_Marriage .
+
+:Line_572
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 572 ;
+  :canonicalReference "Episode 2.572"^^xsd:string ;
+  :text "Ὦ φίλταθ ̓ Αἷμον, ὥς σ ̓ ἀτιμάζει πατήρ."^^xsd:string ;
+  :hasTheme :Theme_Insult, :Theme_FamilyRelationship, :Theme_Defense .
+
+:Line_573
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 573 ;
+  :canonicalReference "Episode 2.573"^^xsd:string ;
+  :text "Ἄγαν γε λυπεῖς καὶ σὺ καὶ τὸ σὸν λέχος."^^xsd:string ;
+  :hasTheme :Theme_Exhaustion, :Theme_Endurance .
+
+:Line_574
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 574 ;
+  :canonicalReference "Episode 2.574"^^xsd:string ;
+  :text "Ἦ γὰρ στερήσεις τῆσδε τὸν σαυτοῦ γόνον;"^^xsd:string ;
+  :hasTheme :Theme_Question, :Theme_Marriage, :Theme_DeathPenalty .
+
+:Line_575
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 575 ;
+  :canonicalReference "Episode 2.575"^^xsd:string ;
+  :text "Ἅιδης ὁ παύσων τούσδε τοὺς γάμους ἐμοί."^^xsd:string ;
+  :referencesMyth :MythologicalBackground_Hades ;
+  :hasTheme :Theme_Death, :Theme_Marriage ;
+  :hasConflict :Conflict_AntigoneVsCreon .
+
+:Line_576
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 576 ;
+  :canonicalReference "Episode 2.576"^^xsd:string ;
+  :text "Δεδογμέν ̓, ὡς ἔοικε, τήνδε κατθανεῖν."^^xsd:string ;
+  :hasTheme :Theme_CharacterTrait, :Theme_Authority, :Theme_Death .
+
+:Line_577
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 577 ;
+  :canonicalReference "Episode 2.577"^^xsd:string ;
+  :text "Καὶ σοί γε κἀμοί. Μὴ τριβὰς ἔτ ̓, ἀλλά νιν"^^xsd:string .
+
+:Line_578
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 578 ;
+  :canonicalReference "Episode 2.578"^^xsd:string ;
+  :text "κομίζετ ̓ εἴσω, δμῶες· ἐκδέτους δὲ χρὴ"^^xsd:string .
+
+:Line_579
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 579 ;
+  :canonicalReference "Episode 2.579"^^xsd:string ;
+  :text "γυναῖκας εἶναι τάσδε μηδ ̓ ἀνειμένας."^^xsd:string .
+
+:Line_580
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 580 ;
+  :canonicalReference "Episode 2.580"^^xsd:string ;
+  :text "Φεύγουσι γάρ τοι χοἰ θρασεῖς, ὅταν πέλας"^^xsd:string .
+
+:Line_581
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 581 ;
+  :canonicalReference "Episode 2.581"^^xsd:string ;
+  :text "ἤδη τὸν Ἅιδην εἰσορῶσι τοῦ βίου."^^xsd:string ;
+  :referencesMyth :MythologicalBackground_Hades ;
+  :hasTheme :Theme_Death, :Theme_Foreshadowing .
+
+############################
+# THEMES, EMOTIONS, CONFLICTS, MOTIVATIONS
+############################
+
+:Theme_DivineLaw
+  a owl:NamedIndividual, :Theme ;
+  :description "The unwritten, eternal laws of the gods that supersede human decrees."^^xsd:string .
+
+:Theme_HumanLaw
+  a owl:NamedIndividual, :Theme ;
+  :description "The laws and decrees established by human rulers and the state."^^xsd:string .
+
+:Theme_FamilyDuty
+  a owl:NamedIndividual, :Theme ;
+  :description "The obligation to honor and bury family members, especially siblings."^^xsd:string .
+
+:Theme_Justice
+  a owl:NamedIndividual, :Theme ;
+  :description "The concept of fairness, equality, and divine justice."^^xsd:string .
+
+:Theme_Tyranny
+  a owl:NamedIndividual, :Theme ;
+  :description "The abuse of power and authority by a ruler."^^xsd:string .
+
+:Theme_BurialRites
+  a owl:NamedIndividual, :Theme ;
+  :description "The religious and cultural practices surrounding the burial of the dead."^^xsd:string .
+
+:Theme_GenderRoles
+  a owl:NamedIndividual, :Theme ;
+  :description "Expectations and limitations placed on individuals based on gender."^^xsd:string .
+
+:Theme_Sisterhood
+  a owl:NamedIndividual, :Theme ;
+  :description "The bond between sisters and the conflict between different approaches to the same situation."^^xsd:string .
+
+:Theme_MoralCourage
+  a owl:NamedIndividual, :Theme ;
+  :description "The strength to act according to one's principles despite consequences."^^xsd:string .
+
+:Theme_Authority
+  a owl:NamedIndividual, :Theme ;
+  :description "The exercise of power and control, and resistance to it."^^xsd:string .
+
+:Theme_FamilyHeritage
+  a owl:NamedIndividual, :Theme ;
+  :description "The inheritance of character traits and fate from one's ancestors."^^xsd:string .
+
+:Theme_CharacterTrait
+  a owl:NamedIndividual, :Theme ;
+  :description "Inherent qualities of character, including tragic flaws."^^xsd:string .
+
+:Theme_Glory
+  a owl:NamedIndividual, :Theme ;
+  :description "The pursuit of honor and renown through noble actions."^^xsd:string .
+
+:Theme_PublicOpinion
+  a owl:NamedIndividual, :Theme ;
+  :description "The views and judgments of the community, often suppressed by fear."^^xsd:string .
+
+:Theme_Acceptance
+  a owl:NamedIndividual, :Theme ;
+  :description "The resignation to one's fate and acceptance of death."^^xsd:string .
+
+:Theme_Death
+  a owl:NamedIndividual, :Theme ;
+  :description "Mortality, the afterlife, and the acceptance of death as preferable to dishonor."^^xsd:string .
+
+:Theme_MortalLimitation
+  a owl:NamedIndividual, :Theme ;
+  :description "The boundaries of human power in relation to divine will."^^xsd:string .
+
+:Theme_FamilyBond
+  a owl:NamedIndividual, :Theme ;
+  :description "The sacred connection between family members, protected by Zeus."^^xsd:string .
+
+:Theme_Love
+  a owl:NamedIndividual, :Theme ;
+  :description "The bond of love between siblings and family members."^^xsd:string .
+
+:Theme_Marriage
+  a owl:NamedIndividual, :Theme ;
+  :description "The institution of marriage and its disruption by death."^^xsd:string .
+
+:Theme_TragicFlaw
+  a owl:NamedIndividual, :Theme ;
+  :description "The character defect that leads to a hero's downfall."^^xsd:string .
+
+:Theme_Foreshadowing
+  a owl:NamedIndividual, :Theme ;
+  :description "The anticipation of future events, particularly death."^^xsd:string .
+
+:Theme_Defiance
+  a owl:NamedIndividual, :Theme ;
+  :description "Bold resistance to authority and unjust laws."^^xsd:string .
+
+:Theme_Choice
+  a owl:NamedIndividual, :Theme ;
+  :description "The fundamental choice between life and death, honor and dishonor."^^xsd:string .
+
+:Theme_ProverbialWisdom
+  a owl:NamedIndividual, :Theme ;
+  :description "A gnomic statement or proverb expressing general truth."^^xsd:string .
+
+:Theme_Surprise
+  a owl:NamedIndividual, :Theme ;
+  :description "The emotion of astonishment or shock at unexpected events."^^xsd:string .
+
+:Theme_Disbelief
+  a owl:NamedIndividual, :Theme ;
+  :description "Inability or refusal to accept something as true."^^xsd:string .
+
+:Theme_VisualPerception
+  a owl:NamedIndividual, :Theme ;
+  :description "The powerful significance of visual witness in ancient Greek culture, providing absolute certainty."^^xsd:string .
+
+:Theme_Certainty
+  a owl:NamedIndividual, :Theme ;
+  :description "Absolute conviction based on direct observation."^^xsd:string .
+
+:Theme_Doubt
+  a owl:NamedIndividual, :Theme ;
+  :description "Uncertainty or hesitation in accepting information."^^xsd:string .
+
+:Theme_NarrativeTechnique
+  a owl:NamedIndividual, :Theme ;
+  :description "Sophoclean device for conveying offstage action through narration."^^xsd:string .
+
+:Theme_OffstageAction
+  a owl:NamedIndividual, :Theme ;
+  :description "Events occurring outside the visible stage, related through messenger speeches."^^xsd:string .
+
+:Theme_Storm
+  a owl:NamedIndividual, :Theme ;
+  :description "The divine tempest that facilitated Antigone's burial ritual."^^xsd:string .
+
+:Theme_Curse
+  a owl:NamedIndividual, :Theme ;
+  :description "The belief in the magical power of curses in ancient Greek thought."^^xsd:string .
+
+:Theme_MagicalPower
+  a owl:NamedIndividual, :Theme ;
+  :description "The supernatural force attributed to curses and imprecations."^^xsd:string .
+
+:Theme_SecondBurial
+  a owl:NamedIndividual, :Theme ;
+  :description "Antigone's return to complete the burial rites after the first attempt."^^xsd:string .
+
+:Theme_Hunting
+  a owl:NamedIndividual, :Theme ;
+  :description "The pursuit of Antigone by the guards, described in hunting terms."^^xsd:string .
+
+:Theme_Pursuit
+  a owl:NamedIndividual, :Theme ;
+  :description "The act of chasing or seeking after someone."^^xsd:string .
+
+:Theme_Tranquility
+  a owl:NamedIndividual, :Theme ;
+  :description "Antigone's calm and fearless demeanor during the burial."^^xsd:string .
+
+:Theme_AmbivalentEmotion
+  a owl:NamedIndividual, :Theme ;
+  :description "Mixed feelings of joy and pain simultaneously."^^xsd:string .
+
+:Theme_Relief
+  a owl:NamedIndividual, :Theme ;
+  :description "The alleviation of distress or anxiety."^^xsd:string .
+
+:Theme_Selfishness
+  a owl:NamedIndividual, :Theme ;
+  :description "The Guard's primary concern with his own safety over others' welfare."^^xsd:string .
+
+:Theme_Silence
+  a owl:NamedIndividual, :Theme ;
+  :description "Theatrical technique of managing audience attention through absence of speech."^^xsd:string .
+
+:Theme_DramaticTechnique
+  a owl:NamedIndividual, :Theme ;
+  :description "Sophoclean devices for controlling narrative pacing and attention."^^xsd:string .
+
+:Theme_DramaticDelay
+  a owl:NamedIndividual, :Theme ;
+  :description "Verbiage used to slow the confrontation between Creon and Antigone."^^xsd:string .
+
+:Theme_Verbiage
+  a owl:NamedIndividual, :Theme ;
+  :description "Excessive wordiness, used here as a dramatic device."^^xsd:string .
+
+:Theme_Awareness
+  a owl:NamedIndividual, :Theme ;
+  :description "Conscious knowledge of one's actions and their consequences."^^xsd:string .
+
+:Theme_ConsciousAction
+  a owl:NamedIndividual, :Theme ;
+  :description "Deliberate acts performed with full knowledge."^^xsd:string .
+
+:Theme_EthicalPrinciple
+  a owl:NamedIndividual, :Theme ;
+  :description "Fundamental moral rules governing conduct."^^xsd:string .
+
+:Theme_Hubris
+  a owl:NamedIndividual, :Theme ;
+  :description "Excessive pride or arrogance, particularly in challenging the gods."^^xsd:string .
+
+:Theme_Punishment
+  a owl:NamedIndividual, :Theme ;
+  :description "The penalty imposed for transgression of laws."^^xsd:string .
+
+:Theme_Disagreement
+  a owl:NamedIndividual, :Theme ;
+  :description "Fundamental opposition of opinions between characters."^^xsd:string .
+
+:Theme_FearOfTyrant
+  a owl:NamedIndividual, :Theme ;
+  :description "The suppression of public opinion due to fear of authoritarian rule."^^xsd:string .
+
+:Theme_Accusation
+  a owl:NamedIndividual, :Theme ;
+  :description "The act of charging someone with wrongdoing."^^xsd:string .
+
+:Theme_ThroneUsurpation
+  a owl:NamedIndividual, :Theme ;
+  :description "Creon's suspicion that the sisters seek to overthrow him."^^xsd:string .
+
+:Theme_Interrogation
+  a owl:NamedIndividual, :Theme ;
+  :description "The process of questioning to extract information or confession."^^xsd:string .
+
+:Theme_SharedResponsibility
+  a owl:NamedIndividual, :Theme ;
+  :description "Ismene's claim of complicity in the burial."^^xsd:string .
+
+:Theme_Truth
+  a owl:NamedIndividual, :Theme ;
+  :description "Correspondence with fact or reality, opposed to falsehood."^^xsd:string .
+
+:Theme_DivineJustice
+  a owl:NamedIndividual, :Theme ;
+  :description "The principle of justice enforced by the gods, represented by Nemesis."^^xsd:string .
+
+:Theme_Entrance
+  a owl:NamedIndividual, :Theme ;
+  :description "The arrival of a character on stage."^^xsd:string .
+
+:Theme_Announcement
+  a owl:NamedIndividual, :Theme ;
+  :description "The Chorus's report of Ismene's arrival."^^xsd:string .
+
+:Theme_Sorrow
+  a owl:NamedIndividual, :Theme ;
+  :description "Deep distress caused by loss or misfortune."^^xsd:string .
+
+:Theme_EmotionalState
+  a owl:NamedIndividual, :Theme ;
+  :description "The psychological condition of a character at a given moment."^^xsd:string .
+
+:Theme_Treachery
+  a owl:NamedIndividual, :Theme ;
+  :description "Betrayal of trust, as Creon accuses Ismene."^^xsd:string .
+
+:Theme_Insult
+  a owl:NamedIndividual, :Theme ;
+  :description "Disrespectful or offensive remark."^^xsd:string .
+
+:Theme_Mockery
+  a owl:NamedIndividual, :Theme ;
+  :description "Teasing or contemptuous language."^^xsd:string .
+
+:Theme_Contempt
+  a owl:NamedIndividual, :Theme ;
+  :description "The feeling that someone or something is worthless."^^xsd:string .
+
+:Theme_SelfSacrifice
+  a owl:NamedIndividual, :Theme ;
+  :description "Antigone's willingness to give up her life for her principles."^^xsd:string .
+
+:Theme_Generosity
+  a owl:NamedIndividual, :Theme ;
+  :description "The quality of being selfless and giving."^^xsd:string .
+
+:Theme_Relativism
+  a owl:NamedIndividual, :Theme ;
+  :description "The acknowledgment that different people hold different valid viewpoints."^^xsd:string .
+
+:Theme_BlindFaith
+  a owl:NamedIndividual, :Theme ;
+  :description "Unquestioning acceptance of authority or laws."^^xsd:string .
+
+:Theme_Madness
+  a owl:NamedIndividual, :Theme ;
+  :description "Loss of reason or sanity."^^xsd:string .
+
+:Theme_Interruption
+  a owl:NamedIndividual, :Theme ;
+  :description "Creon's sudden interjection into the sisters' dialogue."^^xsd:string .
+
+:Theme_Misfortune
+  a owl:NamedIndividual, :Theme ;
+  :description "Bad luck or adverse circumstances."^^xsd:string .
+
+:Theme_MentalErosion
+  a owl:NamedIndividual, :Theme ;
+  :description "The gradual degradation of mental faculties under stress."^^xsd:string .
+
+:Theme_CharacterDegradation
+  a owl:NamedIndividual, :Theme ;
+  :description "The deterioration of a person's moral or mental state."^^xsd:string .
+
+:Theme_Belief
+  a owl:NamedIndividual, :Theme ;
+  :description "Acceptance that something is true without proof."^^xsd:string .
+
+:Theme_Resignation
+  a owl:NamedIndividual, :Theme ;
+  :description "Acceptance of something undesirable but inevitable."^^xsd:string .
+
+:Theme_Abandonment
+  a owl:NamedIndividual, :Theme ;
+  :description "The act of giving up or leaving behind."^^xsd:string .
+
+:Theme_FamilyRelationship
+  a owl:NamedIndividual, :Theme ;
+  :description "The connection between family members, including marriage ties."^^xsd:string .
+
+:Theme_Reminder
+  a owl:NamedIndividual, :Theme ;
+  :description "A statement that brings something to attention again."^^xsd:string .
+
+:Theme_Alternative
+  a owl:NamedIndividual, :Theme ;
+  :description "Other options available besides the current choice."^^xsd:string .
+
+:Theme_ExtremeStatement
+  a owl:NamedIndividual, :Theme ;
+  :description "An extreme or absolute declaration."^^xsd:string .
+
+:Theme_Hatred
+  a owl:NamedIndividual, :Theme ;
+  :description "Intense dislike or animosity."^^xsd:string .
+
+:Theme_Defense
+  a owl:NamedIndividual, :Theme ;
+  :description "Protection or justification of someone or something."^^xsd:string .
+
+:Theme_Exhaustion
+  a owl:NamedIndividual, :Theme ;
+  :description "State of extreme tiredness, physical or emotional."^^xsd:string .
+
+:Theme_Endurance
+  a owl:NamedIndividual, :Theme ;
+  :description "The ability to withstand hardship or difficulty."^^xsd:string .
+
+:Theme_Question
+  a owl:NamedIndividual, :Theme ;
+  :description "An inquiry seeking information or confirmation."^^xsd:string .
+
+:Theme_DeathPenalty
+  a owl:NamedIndividual, :Theme ;
+  :description "The punishment of execution for a crime."^^xsd:string .
+
+:Theme_Recognition
+  a owl:NamedIndividual, :Theme ;
+  :description "The realization or acknowledgment of a fact."^^xsd:string .
+
+:Theme_Unchangeable
+  a owl:NamedIndividual, :Theme ;
+  :description "Something that cannot be altered or modified."^^xsd:string .
+
+:Theme_Order
+  a owl:NamedIndividual, :Theme ;
+  :description "A command or directive given by authority."^^xsd:string .
+
+:Theme_Imprisonment
+  a owl:NamedIndividual, :Theme ;
+  :description "The state of being confined or locked up."^^xsd:string .
+
+:Theme_FearOfDeath
+  a owl:NamedIndividual, :Theme ;
+  :description "The apprehension that facing death will cause characters to seek survival."^^xsd:string .
+
+:Theme_InternalThought
+  a owl:NamedIndividual, :Theme ;
+  :description "Creon's private reasoning revealed to the audience."^^xsd:string .
+
+:Theme_Refusal
+  a owl:NamedIndividual, :Theme ;
+  :description "The act of declining to do something."^^xsd:string .
+
+:Theme_Exit
+  a owl:NamedIndividual, :Theme ;
+  :description "The departure of a character from the stage."^^xsd:string .
+
+:Theme_Compassion
+  a owl:NamedIndividual, :Theme ;
+  :description "Sympathetic pity and concern for the sufferings of others."^^xsd:string .
+
+:Theme_Guilt
+  a owl:NamedIndividual, :Theme ;
+  :description "The feeling of responsibility or remorse for wrongdoing."^^xsd:string .
+
+:Theme_Justification
+  a owl:NamedIndividual, :Theme ;
+  :description "The act of providing reasons or explanations for one's actions."^^xsd:string .
+
+:Theme_Contrast
+  a owl:NamedIndividual, :Theme ;
+  :description "The juxtaposition of differing qualities, as between Guard and Antigone."^^xsd:string .
+
+:Emotion_Fear
+  a owl:NamedIndividual, :Emotion ;
+  :description "The Guard's fear of Creon's threats and punishment."^^xsd:string .
+
+:Emotion_Relief
+  a owl:NamedIndividual, :Emotion ;
+  :description "The Guard's relief at having caught the perpetrator and avoiding punishment."^^xsd:string .
+
+:Emotion_Anger
+  a owl:NamedIndividual, :Emotion ;
+  :description "Creon's rage at Antigone's defiance and challenge to his authority."^^xsd:string .
+
+:Emotion_Indignation
+  a owl:NamedIndividual, :Emotion ;
+  :description "Creon's righteous anger at what he perceives as disobedience and hubris."^^xsd:string .
+
+:Emotion_Defiance
+  a owl:NamedIndividual, :Emotion ;
+  :description "Antigone's bold resistance to Creon's decree."^^xsd:string .
+
+:Emotion_Resolve
+  a owl:NamedIndividual, :Emotion ;
+  :description "Antigone's unwavering determination to honor her brother despite consequences."^^xsd:string .
+
+:Emotion_Acceptance
+  a owl:NamedIndividual, :Emotion ;
+  :description "Antigone's peaceful acceptance of her death sentence."^^xsd:string .
+
+:Emotion_Despair
+  a owl:NamedIndividual, :Emotion ;
+  :description "Ismene's hopelessness and desire to share Antigone's fate."^^xsd:string .
+
+:Emotion_Love
+  a owl:NamedIndividual, :Emotion ;
+  :description "Ismene's love for her sister and desire to protect her."^^xsd:string .
+
+:Emotion_Guilt
+  a owl:NamedIndividual, :Emotion ;
+  :description "Ismene's guilt for not having helped Antigone initially."^^xsd:string .
+
+:Emotion_Compassion
+  a owl:NamedIndividual, :Emotion ;
+  :description "The Chorus's pity and understanding for the sisters' plight."^^xsd:string .
+
+:Emotion_Observation
+  a owl:NamedIndividual, :Emotion ;
+  :description "The Chorus's detached observation and commentary on the events."^^xsd:string .
+
+:Emotion_Guilt
+  a owl:NamedIndividual, :Emotion ;
+  :description "The Guard's sense of culpability and eagerness to be absolved."^^xsd:string .
+
+:Emotion_Enthusiasm
+  a owl:NamedIndividual, :Emotion ;
+  :description "The Guard's eager presentation of Antigone, fulfilling the tyrant's order."^^xsd:string .
+
+:Emotion_Satisfaction
+  a owl:NamedIndividual, :Emotion ;
+  :description "Creon's contentment at having captured the perpetrator."^^xsd:string .
+
+:Emotion_Hurt
+  a owl:NamedIndividual, :Emotion ;
+  :description "Ismene's pain from Antigone's harsh words."^^xsd:string .
+
+:Emotion_Regret
+  a owl:NamedIndividual, :Emotion ;
+  :description "Ismene's remorse for not having helped Antigone initially and desire to justify her earlier choice."^^xsd:string .
+
+:Emotion_Contempt
+  a owl:NamedIndividual, :Emotion ;
+  :description "Antigone's disdainful feeling toward those who act out of fear or self-interest."^^xsd:string .
+
+:Conflict_AntigoneVsCreon
+  a owl:NamedIndividual, :Conflict ;
+  :conflictBetween :Antigone_Character_Antigone, :Antigone_Character_Creon ;
+  :description "The central conflict between Antigone's duty to divine law and Creon's assertion of human authority."^^xsd:string ;
+  :relatedTo :Conflict_DivineVsHumanLaw .
+
+:Conflict_DivineVsHumanLaw
+  a owl:NamedIndividual, :Conflict ;
+  :conflictBetween :EthicalPrinciple_DivineLaw, :EthicalPrinciple_CivicLaw ;
+  :description "The fundamental opposition between unwritten divine laws and human decrees."^^xsd:string .
+
+:Conflict_AntigoneVsIsmene
+  a owl:NamedIndividual, :Conflict ;
+  :conflictBetween :Antigone_Character_Antigone, :Antigone_Character_Ismene ;
+  :description "The tension between Antigone's active defiance and Ismene's initial passivity, later resolved by Ismene's desire to share the fate."^^xsd:string .
+
+:Motivation_SelfPreservation
+  a owl:NamedIndividual, :Motivation ;
+  :description "The Guard's need to protect himself from Creon's wrath by finding the perpetrator."^^xsd:string .
+
+:Motivation_MaintainAuthority
+  a owl:NamedIndividual, :Motivation ;
+  :description "Creon's drive to assert and maintain his power as ruler."^^xsd:string .
+
+:Motivation_EnforceLaw
+  a owl:NamedIndividual, :Motivation ;
+  :description "Creon's commitment to enforcing his decree to maintain order."^^xsd:string .
+
+:Motivation_HonorBrother
+  a owl:NamedIndividual, :Motivation ;
+  :description "Antigone's determination to give her brother Polyneices proper burial rites."^^xsd:string .
+
+:Motivation_ObeyDivineLaw
+  a owl:NamedIndividual, :Motivation ;
+  :description "Antigone's commitment to following the unwritten laws of the gods."^^xsd:string .
+
+:Motivation_ShareFate
+  a owl:NamedIndividual, :Motivation ;
+  :description "Ismene's desire to die alongside her sister rather than live without her."^^xsd:string .
+
+:Motivation_ProtectSister
+  a owl:NamedIndividual, :Motivation ;
+  :description "Ismene's wish to protect Antigone by claiming shared responsibility."^^xsd:string .
+
+:Motivation_Exonerate
+  a owl:NamedIndividual, :Motivation ;
+  :description "The Guard's desire to clear himself of blame and avoid punishment."^^xsd:string .
+
+:Motivation_PunishTransgression
+  a owl:NamedIndividual, :Motivation ;
+  :description "Creon's drive to punish Antigone for her boldness in breaking the law."^^xsd:string .
+
+:Motivation_ProtectThrone
+  a owl:NamedIndividual, :Motivation ;
+  :description "Creon's need to protect his position and authority from perceived threats."^^xsd:string .
+
+:Motivation_LightenBurden
+  a owl:NamedIndividual, :Motivation ;
+  :description "Ismene's wish to share Antigone's burden of accusation."^^xsd:string .
+
+:Motivation_ShareNobleAct
+  a owl:NamedIndividual, :Motivation ;
+  :description "Ismene's desire to partake in her sister's noble deed of burial."^^xsd:string .
+
+:Motivation_TestCourage
+  a owl:NamedIndividual, :Motivation ;
+  :description "Creon's belief that fear of death will cause the sisters to seek salvation."^^xsd:string .
+
+:EthicalPrinciple_DivineLaw
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "The eternal, unwritten laws established by the gods that take precedence over human law."^^xsd:string .
+
+:EthicalPrinciple_CivicLaw
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "The laws and decrees of the state, established by human rulers."^^xsd:string .
+
+:EthicalPrinciple_FamilyDuty
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "The moral obligation to honor and care for family members, especially in death."^^xsd:string .
+
+:Law_DivineBurialRite
+  a owl:NamedIndividual, :Law ;
+  :description "The divine law requiring proper burial of the dead, regardless of their status in life."^^xsd:string .
+
+:MoralDecision_BuryPolyneices
+  a owl:NamedIndividual, :MoralDecision ;
+  :description "Antigone's choice to bury her brother despite Creon's decree, prioritizing divine law over human law."^^xsd:string .
+
+############################
+# MYTHOLOGICAL BACKGROUND
+############################
+
+:MythologicalBackground_Zeus
+  a owl:NamedIndividual, :MythologicalBackground ;
+  :description "Zeus, the king of the gods, who establishes divine laws that mortals cannot override."^^xsd:string .
+
+:MythologicalBackground_Dike
+  a owl:NamedIndividual, :MythologicalBackground ;
+  :description "Dike (Justice), the goddess who dwells with the gods below and ensures divine justice."^^xsd:string .
+
+:MythologicalBackground_UnderworldGods
+  a owl:NamedIndividual, :MythologicalBackground ;
+  :description "The gods of the underworld (Hades, Persephone, and others) who govern the dead and require proper burial rites."^^xsd:string .
+
+:MythologicalBackground_Hades
+  a owl:NamedIndividual, :MythologicalBackground ;
+  :description "Hades, the god of the underworld, who demands equal treatment for all the dead regardless of their status in life."^^xsd:string .
+
+:MythologicalBackground_ZeusHerkeios
+  a owl:NamedIndividual, :MythologicalBackground ;
+  :description "Zeus Herkeios (Zeus of the Hearth), protector of family bonds and household relationships."^^xsd:string .
+
+:MythologicalBackground_Oedipus
+  a owl:NamedIndividual, :MythologicalBackground ;
+  :description "Oedipus, the father of Antigone and Ismene, whose tragic fate and character traits are inherited by his children."^^xsd:string .
+
+:MythologicalBackground_DivineStorm
+  a owl:NamedIndividual, :MythologicalBackground ;
+  :description "The divine tempest that appeared as a gift from the gods, hiding Antigone during the burial and allowing her to complete the rites."^^xsd:string .
+
+:MythologicalBackground_Hermes
+  a owl:NamedIndividual, :MythologicalBackground ;
+  :description "Hermes, god of luck and discoveries, to whom the 'thourmaion' (lucky find) was traditionally attributed."^^xsd:string .
+
+:MythologicalBackground_Nemesis
+  a owl:NamedIndividual, :MythologicalBackground ;
+  :description "Nemesis, daughter of Zeus and Themis, who with the Erinyes oversees moral order and punishes those who violate it."^^xsd:string .
+
+:MythologicalBackground_Cadmus
+  a owl:NamedIndividual, :MythologicalBackground ;
+  :description "Cadmus, the mythological founder of Thebes, from whom the Thebans are called Cadmeans (Κάδμειοι)."^^xsd:string .
+
+############################
+# RHETORICAL DEVICES
+############################
+
+:Metaphor_UnwrittenLaws
+  a owl:NamedIndividual, :MetaphorSimile ;
+  :description "The metaphor of unwritten, eternal divine laws that exist beyond human decrees."^^xsd:string .
+
+:Metaphor_Iron
+  a owl:NamedIndividual, :MetaphorSimile ;
+  :description "Creon's metaphor comparing rigid, unyielding character to iron that breaks when hardened and struck."^^xsd:string .
+
+:Metaphor_Horse
+  a owl:NamedIndividual, :MetaphorSimile ;
+  :description "Creon's metaphor comparing the need to control strong-willed individuals to taming spirited horses with a small bit."^^xsd:string .
+
+:Simile_Bird
+  a owl:NamedIndividual, :MetaphorSimile ;
+  :description "The Guard's simile comparing Antigone's cries of grief to a bird's sharp call when it finds its nest empty."^^xsd:string .
+
+:Irony_GenderReversal
+  a owl:NamedIndividual, :Irony ;
+  :description "Creon's ironic statement that he is not a man while Antigone is, highlighting the reversal of traditional gender roles."^^xsd:string .
+
+:Metaphor_Curse
+  a owl:NamedIndividual, :MetaphorSimile ;
+  :description "The powerful curses that Antigone utters against those who desecrated the body, believed to have magical force."^^xsd:string .
+
+:Oxymoron_BittersweetJoy
+  a owl:NamedIndividual, :RhetoricalDevice ;
+  :description "The Guard's simultaneous feeling of joy and pain ('ἡδέως κἀλγεινῶς') at catching Antigone."^^xsd:string .
+
+:Symbol_Trispondoi
+  a owl:NamedIndividual, :Symbol ;
+  :description "The three libations (honey, milk, wine) offered to the dead, representing proper burial rites."^^xsd:string .
+
+:Metaphor_Serpent
+  a owl:NamedIndividual, :MetaphorSimile ;
+  :description "Creon's comparison of Ismene to a serpent hidden in the house, representing treachery and danger."^^xsd:string .
+
+:Irony_QuestionCreon
+  a owl:NamedIndividual, :Irony ;
+  :description "Antigone's ironic suggestion that Ismene ask Creon, whom she fears or loves too much, highlighting Ismene's character."^^xsd:string .
+
+:Irony_Mockery
+  a owl:NamedIndividual, :Irony ;
+  :description "Antigone's mockery of Ismene, using the word 'γελῶ' (laugh/mock/contempt) to express derision or falsehood."^^xsd:string .
+
+:Metaphor_Field
+  a owl:NamedIndividual, :MetaphorSimile ;
+  :description "Creon's metaphor comparing available women to fields ready for sowing seed, expressing interchangeability."^^xsd:string .
+
+
+# REPORT: 
+# - Produced canonical lines 388-581 (194 Line individuals created)
+# - Created Scene structure for Episode 2
+# - Created Speech individuals linking characters to lines
+# - Characters defined: Guard, Creon, Antigone, Ismene, Chorus
+# - Enhanced with detailed annotations from notes.txt:
+# - No verse splitting issues identified. All lines are distinct canonical individuals.
