@@ -1,0 +1,424 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_Unknown_929_965
+  a owl:NamedIndividual, :Scene ;
+  :sceneNumber "929-965"^^xsd:string ;
+  :hasSpeech :Speech_Chorus_929_930 ,
+             :Speech_Creon_931_932 ,
+             :Speech_Antigone_933_934 ,
+             :Speech_Creon_935_935 ,
+             :Speech_Antigone_936_943 ,
+             :Speech_Chorus_944_965 ;
+  :hasConflict :Conflict_AntigonePietyVsCreonAuthority ;
+  :developsTheme :Theme_InevitabilityOfFate ,
+                 :Theme_PietyAndSuffering ,
+                 :Theme_DivinePowerOverHumanWill .
+
+:Speech_Chorus_929_930
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Chorus_Character_Chorus ;
+  :containsLine :Line_929, :Line_930 ;
+  :hasTheme :Theme_PersistenceOfGrief .
+
+:Speech_Creon_931_932
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Creon_Character_Creon ;
+  :containsLine :Line_931, :Line_932 ;
+  :hasTheme :Theme_PunishmentForDelay .
+
+:Speech_Antigone_933_934
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :containsLine :Line_933, :Line_934 ;
+  :hasTheme :Theme_ApproachOfDeath .
+
+:Speech_Creon_935_935
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Creon_Character_Creon ;
+  :containsLine :Line_935 ;
+  :hasTheme :Theme_ResolveToEnforceDecision .
+
+:Speech_Antigone_936_943
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :containsLine :Line_936, :Line_937, :Line_938, :Line_939, :Line_940, :Line_941, :Line_942, :Line_943 ;
+  :hasTheme :Theme_PublicWitnessAndShame ,
+            :Theme_PietyAndSuffering .
+
+:Speech_Chorus_944_965
+  a owl:NamedIndividual, :Speech, :ChoralSong ;
+  :speechBy :Chorus_Character_Chorus ;
+  :containsLine :Line_944, :Line_945, :Line_946, :Line_947, :Line_948, :Line_949, :Line_950, :Line_951, :Line_952, :Line_953, :Line_954, :Line_955, :Line_956, :Line_957, :Line_958, :Line_959, :Line_960, :Line_961, :Line_962, :Line_963, :Line_964, :Line_965 ;
+  :hasTheme :Theme_InevitabilityOfFate ,
+            :Theme_DivinePowerOverHumanWill .
+
+:Chorus_Character_Chorus
+  a owl:NamedIndividual, :Character ;
+  :experiencesEmotion :ChorusEmotion_ConcernAtPersistentGrief ;
+  :advocatesFor :EthicalPrinciple_SubmissionToFate .
+
+:Creon_Character_Creon
+  a owl:NamedIndividual, :Character ;
+  :hasMotivation :CreonMotivation_PunishDelayAndProceed ;
+  :makesMoralDecision :CreonDecision_ConfirmSentence ;
+  :experiencesEmotion :CreonEmotion_UnyieldingResolve ;
+  :advocatesFor :EthicalPrinciple_CivicAuthority .
+
+:Antigone_Character_Antigone
+  a owl:NamedIndividual, :Character ;
+  :experiencesEmotion :AntigoneEmotion_LamentAndDread ;
+  :hasMotivation :AntigoneMotivation_AffirmPietyBeforeDeath ;
+  :advocatesFor :EthicalPrinciple_Piety .
+
+:CreonMotivation_PunishDelayAndProceed
+  a owl:NamedIndividual, :Motivation ;
+  :description "Creon intends that those leading Antigone away will have lamentation as a consequence of their slowness; he presses the process forward."^^xsd:string .
+
+:CreonDecision_ConfirmSentence
+  a owl:NamedIndividual, :MoralDecision ;
+  :description "Creon refuses to offer reassurance and insists the outcome will be confirmed as decided."^^xsd:string .
+
+:AntigoneMotivation_AffirmPietyBeforeDeath
+  a owl:NamedIndividual, :Motivation ;
+  :description "Antigone seeks to bear witness to her suffering and to frame it as the result of honoring piety (εὐσέβεια) as she is led away."^^xsd:string .
+
+:EthicalPrinciple_Piety
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Reverence toward gods and ancestral/divine obligations (εὐσέβεια) as a guiding moral claim."^^xsd:string .
+
+:EthicalPrinciple_CivicAuthority
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "The ruler's authority and enforcement of civic order as a moral priority."^^xsd:string .
+
+:EthicalPrinciple_SubmissionToFate
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Recognition that allotted destiny (μοῖρα) is inescapable and must be endured."^^xsd:string .
+
+:ChorusEmotion_ConcernAtPersistentGrief
+  a owl:NamedIndividual, :Emotion ;
+  :description "The Chorus notes the same gusts of the soul still persist, implying ongoing agitation and grief."^^xsd:string .
+
+:CreonEmotion_UnyieldingResolve
+  a owl:NamedIndividual, :Emotion ;
+  :description "Creon shows firmness and lack of consolation; he will not be persuaded otherwise."^^xsd:string .
+
+:AntigoneEmotion_LamentAndDread
+  a owl:NamedIndividual, :Emotion ;
+  :description "Antigone laments (οἴμοι) and recognizes the nearness of death as she is led away."^^xsd:string .
+
+:Conflict_AntigonePietyVsCreonAuthority
+  a owl:NamedIndividual, :Conflict ;
+  :description "Opposition between Antigone's claim to piety (εὐσέβεια) and Creon's insistence on civic authority and the confirmed sentence."^^xsd:string ;
+  :conflictBetween :Antigone_Character_Antigone ,
+                   :Creon_Character_Creon ,
+                   :EthicalPrinciple_Piety ,
+                   :EthicalPrinciple_CivicAuthority .
+
+:Theme_PersistenceOfGrief
+  a owl:NamedIndividual, :Theme ;
+  :description "The persistence of inner turmoil and grief, described as recurring winds/gusts of the soul."^^xsd:string .
+
+:Theme_PunishmentForDelay
+  a owl:NamedIndividual, :Theme ;
+  :description "Delay in carrying out harsh action brings consequences and lamentation."^^xsd:string .
+
+:Theme_ApproachOfDeath
+  a owl:NamedIndividual, :Theme ;
+  :description "Death is imminent; speech recognizes the closeness of the fatal outcome."^^xsd:string .
+
+:Theme_ResolveToEnforceDecision
+  a owl:NamedIndividual, :Theme ;
+  :description "The ruler's determination that the decided course will be ratified and carried through."^^xsd:string .
+
+:Theme_PublicWitnessAndShame
+  a owl:NamedIndividual, :Theme ;
+  :description "Antigone calls on Thebes and its leaders to witness her being led away and her suffering."^^xsd:string .
+
+:Theme_PietyAndSuffering
+  a owl:NamedIndividual, :Theme ;
+  :description "Suffering is presented as the cost of honoring piety; the pious person endures punishment."^^xsd:string .
+
+:Theme_InevitabilityOfFate
+  a owl:NamedIndividual, :Theme ;
+  :description "Fate (μοῖρα) is a fearful power from which prosperity, war, fortifications, and ships cannot escape."^^xsd:string .
+
+:Theme_DivinePowerOverHumanWill
+  a owl:NamedIndividual, :Theme ;
+  :description "Divine forces (e.g., Dionysus) overpower human resistance; impiety toward a god leads to binding and ruin."^^xsd:string .
+
+:Line_929
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 929 ;
+  :canonicalReference "929"^^xsd:string ;
+  :text "Ἔτι τῶν αὐτῶν ἀνέμων αὑταὶ"^^xsd:string ;
+  :hasTheme :Theme_PersistenceOfGrief .
+
+:Line_930
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 930 ;
+  :canonicalReference "930"^^xsd:string ;
+  :text "ψυχῆς ῥιπαὶ τήνδε γ’ ἔχουσιν."^^xsd:string ;
+  :hasTheme :Theme_PersistenceOfGrief .
+
+:Line_931
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 931 ;
+  :canonicalReference "931"^^xsd:string ;
+  :text "Τοιγὰρ τούτων τοῖσιν ἄγουσιν"^^xsd:string ;
+  :hasTheme :Theme_PunishmentForDelay .
+
+:Line_932
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 932 ;
+  :canonicalReference "932"^^xsd:string ;
+  :text "κλαύμαθ’ ὑπάρξει βραδυτῆτος ὕπερ."^^xsd:string ;
+  :hasTheme :Theme_PunishmentForDelay .
+
+:Line_933
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 933 ;
+  :canonicalReference "933"^^xsd:string ;
+  :text "Οἴμοι, θανάτου τοῦτ’ ἐγγυτάτω"^^xsd:string ;
+  :hasTheme :Theme_ApproachOfDeath .
+
+:Line_934
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 934 ;
+  :canonicalReference "934"^^xsd:string ;
+  :text "τοὔπος ἀφῖκται."^^xsd:string ;
+  :hasTheme :Theme_ApproachOfDeath .
+
+:Line_935
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 935 ;
+  :canonicalReference "935"^^xsd:string ;
+  :text "Θαρσεῖν οὐδὲν παραμυθοῦμαι μὴ οὐ τάδε ταύτῃ κατακυροῦσθαι."^^xsd:string ;
+  :hasTheme :Theme_ResolveToEnforceDecision .
+
+:Line_936
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 936 ;
+  :canonicalReference "936"^^xsd:string ;
+  :text "Ὦ γῆς Θήβης ἄστυ πατρῷον"^^xsd:string ;
+  :hasTheme :Theme_PublicWitnessAndShame .
+
+:Line_937
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 937 ;
+  :canonicalReference "937"^^xsd:string ;
+  :text "καὶ θεοὶ προγενεῖς,"^^xsd:string ;
+  :hasTheme :Theme_PublicWitnessAndShame .
+
+:Line_938
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 938 ;
+  :canonicalReference "938"^^xsd:string ;
+  :text "ἄγομαι δὴ κοὐκέτι μέλλω."^^xsd:string ;
+  :hasTheme :Theme_ApproachOfDeath .
+
+:Line_939
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 939 ;
+  :canonicalReference "939"^^xsd:string ;
+  :text "Λεύσσετε, Θήβης οἱ κοιρανίδαι,"^^xsd:string ;
+  :hasTheme :Theme_PublicWitnessAndShame .
+
+:Line_940
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 940 ;
+  :canonicalReference "940"^^xsd:string ;
+  :text "τὴν βασιλειδᾶν μούνην λοιπήν,"^^xsd:string ;
+  :hasTheme :Theme_PublicWitnessAndShame .
+
+:Line_941
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 941 ;
+  :canonicalReference "941"^^xsd:string ;
+  :text "οἷα πρὸς οἵων ἀνδρῶν πάσχω,"^^xsd:string ;
+  :hasTheme :Theme_PublicWitnessAndShame .
+
+:Line_942
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 942 ;
+  :canonicalReference "942"^^xsd:string ;
+  :text "τὴν εὐσεβίαν σεβίσασα."^^xsd:string ;
+  :hasTheme :Theme_PietyAndSuffering .
+
+:Line_943
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 943 ;
+  :canonicalReference "943"^^xsd:string ;
+  :text "Ἔτλα καὶ Δανάας οὐράνιον φῶς"^^xsd:string ;
+  :hasTheme :Theme_PietyAndSuffering .
+
+:Line_944
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 944 ;
+  :canonicalReference "944"^^xsd:string ;
+  :text "ἀλλάξαι δέμας ἐν χαλκοδέτοις"^^xsd:string ;
+  :hasTheme :Theme_PietyAndSuffering .
+
+:Line_945
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 945 ;
+  :canonicalReference "945"^^xsd:string ;
+  :text "αὐλαῖς· κρυπτομένα δ’ ἐν"^^xsd:string ;
+  :hasTheme :Theme_PietyAndSuffering .
+
+:Line_946
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 946 ;
+  :canonicalReference "946"^^xsd:string ;
+  :text "τυμβήρει θαλάμῳ κατεζεύχθη·"^^xsd:string ;
+  :hasTheme :Theme_PietyAndSuffering .
+
+:Line_947
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 947 ;
+  :canonicalReference "947"^^xsd:string ;
+  :text "καίτοι καὶ γενεᾷ τίμιος, ὦ παῖ, παῖ,"^^xsd:string ;
+  :hasTheme :Theme_PietyAndSuffering .
+
+:Line_948
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 948 ;
+  :canonicalReference "948"^^xsd:string ;
+  :text "καὶ Ζηνὸς ταμιεύεσκε γονὰς χρυσορύτους."^^xsd:string ;
+  :hasTheme :Theme_PietyAndSuffering .
+
+:Line_949
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 949 ;
+  :canonicalReference "949"^^xsd:string ;
+  :text "σκε γονὰς χρυσορύτους."^^xsd:string ;
+  :hasTheme :Theme_PietyAndSuffering .
+
+:Line_950
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 950 ;
+  :canonicalReference "950"^^xsd:string ;
+  :text "Ἀλλ’ ἁ μοιριδία τις"^^xsd:string ;
+  :hasTheme :Theme_InevitabilityOfFate .
+
+:Line_951
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 951 ;
+  :canonicalReference "951"^^xsd:string ;
+  :text "δύνασις δεινά·"^^xsd:string ;
+  :hasTheme :Theme_InevitabilityOfFate .
+
+:Line_952
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 952 ;
+  :canonicalReference "952"^^xsd:string ;
+  :text "οὔτ’ ἄν νιν ὄλβος οὔτ’ Ἄρης,"^^xsd:string ;
+  :hasTheme :Theme_InevitabilityOfFate .
+
+:Line_953
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 953 ;
+  :canonicalReference "953"^^xsd:string ;
+  :text "οὐ πύργος, οὐχ ἁλίκτυποι"^^xsd:string ;
+  :hasTheme :Theme_InevitabilityOfFate .
+
+:Line_954
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 954 ;
+  :canonicalReference "954"^^xsd:string ;
+  :text "κελαιναὶ νᾶες ἐκφύγοιεν."^^xsd:string ;
+  :hasTheme :Theme_InevitabilityOfFate .
+
+:Line_955
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 955 ;
+  :canonicalReference "955"^^xsd:string ;
+  :text "Ζεύχθη δ’ ὀξύχολος παῖς ὁ Δρύαντος"^^xsd:string ;
+  :hasTheme :Theme_DivinePowerOverHumanWill .
+
+:Line_956
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 956 ;
+  :canonicalReference "956"^^xsd:string ;
+  :text "Ἠδωνῶν βασιλεύς, κερτομίοις"^^xsd:string ;
+  :hasTheme :Theme_DivinePowerOverHumanWill .
+
+:Line_957
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 957 ;
+  :canonicalReference "957"^^xsd:string ;
+  :text "ὀργαῖς ἐκ Διονύσου"^^xsd:string ;
+  :hasTheme :Theme_DivinePowerOverHumanWill .
+
+:Line_958
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 958 ;
+  :canonicalReference "958"^^xsd:string ;
+  :text "πετρώδει κατάφαρκτος ἐν δεσμῷ."^^xsd:string ;
+  :hasTheme :Theme_DivinePowerOverHumanWill .
+
+:Line_959
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 959 ;
+  :canonicalReference "959"^^xsd:string ;
+  :text "Οὕτω τᾶς μανίας δεινὸν ἀποστάζει ἀνθηρόν τε μένος."^^xsd:string ;
+  :hasTheme :Theme_DivinePowerOverHumanWill .
+
+:Line_960
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 960 ;
+  :canonicalReference "960"^^xsd:string ;
+  :text "νὸν ἀποστάζει ἀνθηρόν τε μένος."^^xsd:string ;
+  :hasTheme :Theme_DivinePowerOverHumanWill .
+
+:Line_961
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 961 ;
+  :canonicalReference "961"^^xsd:string ;
+  :text "Κεῖνος ἐπέγνω μανίαις"^^xsd:string ;
+  :hasTheme :Theme_DivinePowerOverHumanWill .
+
+:Line_962
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 962 ;
+  :canonicalReference "962"^^xsd:string ;
+  :text "ψαύων τὸν θεὸν ἐν κερτομίοις γλώσσαις."^^xsd:string ;
+  :hasTheme :Theme_DivinePowerOverHumanWill .
+
+:Line_963
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 963 ;
+  :canonicalReference "963"^^xsd:string ;
+  :text "τομίοις γλώσσαις."^^xsd:string ;
+  :hasTheme :Theme_DivinePowerOverHumanWill .
+
+:Line_964
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 964 ;
+  :canonicalReference "964"^^xsd:string ;
+  :text "Παύεσκε μὲν γὰρ ἐνθέους"^^xsd:string ;
+  :hasTheme :Theme_DivinePowerOverHumanWill .
+
+:Line_965
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 965 ;
+  :canonicalReference "965"^^xsd:string ;
+  :text "γυναῖκας εὔιόν τε πῦρ, φιλαύλους τ’ ἠρέθιζε Μούσας."^^xsd:string ;
+  :hasTheme :Theme_DivinePowerOverHumanWill .
+
+:ChorusFateEvent_MoiridiaPower
+  a owl:NamedIndividual, owl:Thing ;
+  :description "The Chorus asserts that a certain allotted power (μοιριδία δύνασις) is terrible and inescapable."^^xsd:string ;
+  :relatedTo :Theme_InevitabilityOfFate .
+
+:AntigoneDecision_AcceptBeingLed
+  a owl:NamedIndividual, :MoralDecision ;
+  :description "Antigone acknowledges she is being led away and will no longer delay, accepting the immediate course toward death."^^xsd:string ;
+  :relatedTo :AntigoneMotivation_AffirmPietyBeforeDeath .
+
+:Antigone_Character_Antigone
+  :makesMoralDecision :AntigoneDecision_AcceptBeingLed .
+
+# REPORT: Created canonical :Line_929–:Line_965 inclusive. Verse-splitting issues remain in the source at 948 (ταμιεύε-), 959 (δει-), and 962 (κερ-) where the transmitted text is hyphenated; full-word reconstruction not possible from provided excerpt. Scene type not explicitly given; used a generic :Scene with sceneNumber "929-965".

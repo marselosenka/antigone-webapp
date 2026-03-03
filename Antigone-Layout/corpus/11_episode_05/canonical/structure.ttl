@@ -1,0 +1,600 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:episode05-structure a owl:Ontology .
+
+:Line_988 a :Line ;
+  :lineNumber 988 ;
+  :canonicalReference "988" .
+
+:Line_989 a :Line ;
+  :lineNumber 989 ;
+  :canonicalReference "989" ;
+  :hasTheme :Theme_BlindnessVsSight .
+
+:Line_990 a :Line ;
+  :lineNumber 990 ;
+  :canonicalReference "990" .
+
+:Line_991 a :Line ;
+  :lineNumber 991 ;
+  :canonicalReference "991" .
+
+:Line_992 a :Line ;
+  :lineNumber 992 ;
+  :canonicalReference "992" .
+
+:Line_993 a :Line ;
+  :lineNumber 993 ;
+  :canonicalReference "993" ;
+  :hasMotivation :Motivation_HeedProphet .
+
+:Line_994 a :Line ;
+  :lineNumber 994 ;
+  :canonicalReference "994" .
+
+:Line_995 a :Line ;
+  :lineNumber 995 ;
+  :canonicalReference "995" .
+
+:Line_996 a :Line ;
+  :lineNumber 996 ;
+  :canonicalReference "996" ;
+  :containsRhetoricalDevice :Device_Metaphor_RazorEdge .
+
+:Line_997 a :Line ;
+  :lineNumber 997 ;
+  :canonicalReference "997" ;
+  :experiencesEmotion :Emotion_TremblingFear .
+
+:Line_998 a :Line ;
+  :lineNumber 998 ;
+  :canonicalReference "998" .
+
+:Line_999 a :Line ;
+  :lineNumber 999 ;
+  :canonicalReference "999" .
+
+:Line_1000 a :Line ;
+  :lineNumber 1000 ;
+  :canonicalReference "1000" .
+
+:Line_1001 a :Line ;
+  :lineNumber 1001 ;
+  :canonicalReference "1001" ;
+  :hasSymbol :Symbol_FightingBirds .
+
+:Line_1002 a :Line ;
+  :lineNumber 1002 ;
+  :canonicalReference "1002" .
+
+:Line_1003 a :Line ;
+  :lineNumber 1003 ;
+  :canonicalReference "1003" .
+
+:Line_1004 a :Line ;
+  :lineNumber 1004 ;
+  :canonicalReference "1004" .
+
+:Line_1005 a :Line ;
+  :lineNumber 1005 ;
+  :canonicalReference "1005" ;
+  :experiencesEmotion :Emotion_PropheticDread .
+
+:Line_1006 a :Line ;
+  :lineNumber 1006 ;
+  :canonicalReference "1006" .
+
+:Line_1007 a :Line ;
+  :lineNumber 1007 ;
+  :canonicalReference "1007" ;
+  :hasSymbol :Symbol_FailedSacrifice ;
+  :referencesMyth :Antigone_Character_Hephaestus .
+
+:Line_1008 a :Line ;
+  :lineNumber 1008 ;
+  :canonicalReference "1008" .
+
+:Line_1009 a :Line ;
+  :lineNumber 1009 ;
+  :canonicalReference "1009" .
+
+:Line_1010 a :Line ;
+  :lineNumber 1010 ;
+  :canonicalReference "1010" .
+
+:Line_1011 a :Line ;
+  :lineNumber 1011 ;
+  :canonicalReference "1011" .
+
+:Line_1012 a :Line ;
+  :lineNumber 1012 ;
+  :canonicalReference "1012" .
+
+:Line_1013 a :Line ;
+  :lineNumber 1013 ;
+  :canonicalReference "1013" .
+
+:Line_1014 a :Line ;
+  :lineNumber 1014 ;
+  :canonicalReference "1014" .
+
+:Line_1015 a :Line ;
+  :lineNumber 1015 ;
+  :canonicalReference "1015" ;
+  :hasTheme :Theme_CivicPollution .
+
+:Line_1016 a :Line ;
+  :lineNumber 1016 ;
+  :canonicalReference "1016" .
+
+:Line_1017 a :Line ;
+  :lineNumber 1017 ;
+  :canonicalReference "1017" .
+
+:Line_1018 a :Line ;
+  :lineNumber 1018 ;
+  :canonicalReference "1018" ;
+  :relatedTo :Antigone_Character_Polyneices .
+
+:Line_1019 a :Line ;
+  :lineNumber 1019 ;
+  :canonicalReference "1019" ;
+  :hasTheme :Theme_DivineSilence .
+
+:Line_1020 a :Line ;
+  :lineNumber 1020 ;
+  :canonicalReference "1020" .
+
+:Line_1021 a :Line ;
+  :lineNumber 1021 ;
+  :canonicalReference "1021" .
+
+:Line_1022 a :Line ;
+  :lineNumber 1022 ;
+  :canonicalReference "1022" .
+
+:Line_1023 a :Line ;
+  :lineNumber 1023 ;
+  :canonicalReference "1023" .
+
+:Line_1024 a :Line ;
+  :lineNumber 1024 ;
+  :canonicalReference "1024" ;
+  :hasTheme :Theme_WisdomFlexibility ;
+  :advocatesFor :Ethical_Amends .
+
+:Line_1025 a :Line ;
+  :lineNumber 1025 ;
+  :canonicalReference "1025" .
+
+:Line_1026 a :Line ;
+  :lineNumber 1026 ;
+  :canonicalReference "1026" .
+
+:Line_1027 a :Line ;
+  :lineNumber 1027 ;
+  :canonicalReference "1027" .
+
+:Line_1028 a :Line ;
+  :lineNumber 1028 ;
+  :canonicalReference "1028" .
+
+:Line_1029 a :Line ;
+  :lineNumber 1029 ;
+  :canonicalReference "1029" ;
+  :advocatesFor :Ethical_Amends .
+
+:Line_1030 a :Line ;
+  :lineNumber 1030 ;
+  :canonicalReference "1030" .
+
+:Line_1031 a :Line ;
+  :lineNumber 1031 ;
+  :canonicalReference "1031" .
+
+:Line_1032 a :Line ;
+  :lineNumber 1032 ;
+  :canonicalReference "1032" .
+
+  
+:Line_1033 a :Line ;
+  :lineNumber 1033 ;
+  :canonicalReference "1033" ;
+  :containsRhetoricalDevice :Device_Simile_Archers .
+
+:Line_1034 a :Line ;
+  :lineNumber 1034 ;
+  :canonicalReference "1034" .
+
+:Line_1035 a :Line ;
+  :lineNumber 1035 ;
+  :canonicalReference "1035" .
+
+:Line_1036 a :Line ;
+  :lineNumber 1036 ;
+  :canonicalReference "1036" ;
+  :hasTheme :Theme_Corruption .
+
+:Line_1037 a :Line ;
+  :lineNumber 1037 ;
+  :canonicalReference "1037" .
+
+:Line_1038 a :Line ;
+  :lineNumber 1038 ;
+  :canonicalReference "1038" .
+
+:Line_1039 a :Line ;
+  :lineNumber 1039 ;
+  :canonicalReference "1039" .
+
+:Line_1040 a :Line ;
+  :lineNumber 1040 ;
+  :canonicalReference "1040" ;
+  :containsRhetoricalDevice :Device_Hyperbole_Eagles .
+
+:Line_1041 a :Line ;
+  :lineNumber 1041 ;
+  :canonicalReference "1041" ;
+  :hasTheme :Theme_Hybris .
+
+:Line_1042 a :Line ;
+  :lineNumber 1042 ;
+  :canonicalReference "1042" .
+
+:Line_1043 a :Line ;
+  :lineNumber 1043 ;
+  :canonicalReference "1043" .
+
+:Line_1044 a :Line ;
+  :lineNumber 1044 ;
+  :canonicalReference "1044" ;
+  :advocatesFor :Principle_DivineInvulnerability .
+
+:Line_1045 a :Line ;
+  :lineNumber 1045 ;
+  :canonicalReference "1045" .
+
+:Line_1046 a :Line ;
+  :lineNumber 1046 ;
+  :canonicalReference "1046" .
+
+:Line_1047 a :Line ;
+  :lineNumber 1047 ;
+  :canonicalReference "1047" .
+
+:Line_1048 a :Line ;
+  :lineNumber 1048 ;
+  :canonicalReference "1048" .
+
+:Line_1049 a :Line ;
+  :lineNumber 1049 ;
+  :canonicalReference "1049" .
+
+:Line_1050 a :Line ;
+  :lineNumber 1050 ;
+  :canonicalReference "1050" ;
+  :hasTheme :Theme_WisdomVsFolly ;
+  :advocatesFor :Principle_PrimacyOfReason .
+
+:Line_1051 a :Line ;
+  :lineNumber 1051 ;
+  :canonicalReference "1051" .
+
+:Line_1052 a :Line ;
+  :lineNumber 1052 ;
+  :canonicalReference "1052" .
+
+:Line_1053 a :Line ;
+  :lineNumber 1053 ;
+  :canonicalReference "1053" .
+
+:Line_1054 a :Line ;
+  :lineNumber 1054 ;
+  :canonicalReference "1054" .
+
+:Line_1055 a :Line ;
+  :lineNumber 1055 ;
+  :canonicalReference "1055" ;
+  :hasTheme :Theme_Corruption .
+
+:Line_1056 a :Line ;
+  :lineNumber 1056 ;
+  :canonicalReference "1056" ;
+  :hasTheme :Theme_StateVsProphecy .
+
+:Line_1057 a :Line ;
+  :lineNumber 1057 ;
+  :canonicalReference "1057" ;
+  :hasMotivation :Motivation_AssertAuthority .
+
+:Line_1058 a :Line ;
+  :lineNumber 1058 ;
+  :canonicalReference "1058" .
+
+:Line_1059 a :Line ;
+  :lineNumber 1059 ;
+  :canonicalReference "1059" .
+
+:Line_1060 a :Line ;
+  :lineNumber 1060 ;
+  :canonicalReference "1060" ;
+  :hasMotivation :Motivation_RevealTruth .
+
+:Line_1061 a :Line ;
+  :lineNumber 1061 ;
+  :canonicalReference "1061" .
+
+:Line_1062 a :Line ;
+  :lineNumber 1062 ;
+  :canonicalReference "1062" .
+
+:Line_1063 a :Line ;
+  :lineNumber 1063 ;
+  :canonicalReference "1063" ;
+  :hasConflict :Conflict_ProfitVsTruth .
+
+:Line_1064 a :Line ;
+  :lineNumber 1064 ;
+  :canonicalReference "1064" .
+
+:Line_1065 a :Line ;
+  :lineNumber 1065 ;
+  :canonicalReference "1065" .
+
+:Line_1066 a :Line ;
+  :lineNumber 1066 ;
+  :canonicalReference "1066" ;
+  :relatedTo :Antigone_Character_Haemon .
+
+:Line_1067 a :Line ;
+  :lineNumber 1067 ;
+  :canonicalReference "1067" ;
+  :hasTheme :Theme_DivineRetribution .
+
+:Line_1068 a :Line ;
+  :lineNumber 1068 ;
+  :canonicalReference "1068" .
+
+:Line_1069 a :Line ;
+  :lineNumber 1069 ;
+  :canonicalReference "1069" ;
+  :hasConflict :Conflict_UpperLowerWorlds .
+
+:Line_1070 a :Line ;
+  :lineNumber 1070 ;
+  :canonicalReference "1070" .
+
+:Line_1071 a :Line ;
+  :lineNumber 1071 ;
+  :canonicalReference "1071" ;
+  :hasTheme :Theme_NaturalOrder .
+
+:Line_1072 a :Line ;
+  :lineNumber 1072 ;
+  :canonicalReference "1072" .
+
+:Line_1073 a :Line ;
+  :lineNumber 1073 ;
+  :canonicalReference "1073" .
+
+:Line_1074 a :Line ;
+  :lineNumber 1074 ;
+  :canonicalReference "1074" .
+
+:Line_1075 a :Line ;
+  :lineNumber 1075 ;
+  :canonicalReference "1075" ;
+  :referencesMyth :Antigone_Character_Furies .
+
+:Line_1076 a :Line ;
+  :lineNumber 1076 ;
+  :canonicalReference "1076" .
+
+:Line_1077 a :Line ;
+  :lineNumber 1077 ;
+  :canonicalReference "1077" .
+
+:Line_1078 a :Line ;
+  :lineNumber 1078 ;
+  :canonicalReference "1078" .
+
+:Line_1079 a :Line ;
+  :lineNumber 1079 ;
+  :canonicalReference "1079" .
+
+:Line_1080 a :Line ;
+  :lineNumber 1080 ;
+  :canonicalReference "1080" ;
+  :hasTheme :Theme_CivicPollution .
+
+:Line_1081 a :Line ;
+  :lineNumber 1081 ;
+  :canonicalReference "1081" .
+
+:Line_1082 a :Line ;
+  :lineNumber 1082 ;
+  :canonicalReference "1082" .
+
+:Line_1083 a :Line ;
+  :lineNumber 1083 ;
+  :canonicalReference "1083" .
+
+:Line_1084 a :Line ;
+  :lineNumber 1084 ;
+  :canonicalReference "1084" ;
+  :containsRhetoricalDevice :Device_Metaphor_Arrows .
+
+:Line_1085 a :Line ;
+  :lineNumber 1085 ;
+  :canonicalReference "1085" .
+
+:Line_1086 a :Line ;
+  :lineNumber 1086 ;
+  :canonicalReference "1086" .
+
+:Line_1087 a :Line ;
+  :lineNumber 1087 ;
+  :canonicalReference "1087" .
+
+:Line_1088 a :Line ;
+  :lineNumber 1088 ;
+  :canonicalReference "1088" .
+
+:Line_1089 a :Line ;
+  :lineNumber 1089 ;
+  :canonicalReference "1089" .
+
+:Line_1090 a :Line ;
+  :lineNumber 1090 ;
+  :canonicalReference "1090" .
+
+:Line_1091 a :Line ;
+  :lineNumber 1091 ;
+  :canonicalReference "1091" .
+
+:Line_1092 a :Line ;
+  :lineNumber 1092 ;
+  :canonicalReference "1092" .
+
+:Line_1093 a :Line ;
+  :lineNumber 1093 ;
+  :canonicalReference "1093" .
+
+:Line_1094 a :Line ;
+  :lineNumber 1094 ;
+  :canonicalReference "1094" ;
+  :advocatesFor :Principle_PropheticTruth .
+
+
+:Line_1095 a :Line ; 
+    :lineNumber 1095 ; 
+    :canonicalReference "1095" ;
+    :experiencesEmotion :Emotion_TerrifiedHesitation .
+
+# --- 1096 ---
+
+:Line_1096 a :Line ; 
+    :lineNumber 1096 ; 
+    :canonicalReference "1096" .
+
+# --- 1097 ---
+
+:Line_1097 a :Line ; 
+    :lineNumber 1097 ; 
+    :canonicalReference "1097" ;
+    :hasConflict :Conflict_InternalCreon .
+
+# --- 1098 ---
+
+:Line_1098 a :Line ; 
+    :lineNumber 1098 ; 
+    :canonicalReference "1098" .
+
+
+# --- 1099 ---
+
+:Line_1099 a :Line ; 
+    :lineNumber 1099 ; 
+    :canonicalReference "1099" .
+
+
+# --- 1100 ---
+
+:Line_1100 a :Line ; 
+    :lineNumber 1100 ; 
+    :canonicalReference "1100" .
+
+# --- 1101 ---
+
+:Line_1101 a :Line ; 
+    :lineNumber 1101 ; 
+    :canonicalReference "1101" .
+
+
+# --- 1102 ---
+
+:Line_1102 a :Line ; 
+    :lineNumber 1102 ; 
+    :canonicalReference "1102" .
+
+# --- 1103 ---
+
+:Line_1103 a :Line ; 
+    :lineNumber 1103 ; 
+    :canonicalReference "1103" .
+
+
+# --- 1104 ---
+
+:Line_1104 a :Line ; 
+    :lineNumber 1104 ; 
+    :canonicalReference "1104" .
+
+
+# --- 1105 ---
+
+:Line_1105 a :Line ; 
+    :lineNumber 1105 ; 
+    :canonicalReference "1105" .
+
+# --- 1106 ---
+
+:Line_1106 a :Line ; 
+    :lineNumber 1106 ; 
+    :canonicalReference "1106" ;
+:makesMoralDecision :Decision_RevokeEdict .
+
+# --- 1107 ---
+
+:Line_1107 a :Line ; 
+    :lineNumber 1107 ; 
+    :canonicalReference "1107" .
+
+# --- 1108 ---
+
+:Line_1108 a :Line ; 
+    :lineNumber 1108 ; 
+    :canonicalReference "1108" .
+
+
+# --- 1109 ---
+
+:Line_1109 a :Line ; 
+    :lineNumber 1109 ; 
+    :canonicalReference "1109" .
+
+
+# --- 1110 ---
+
+:Line_1110 a :Line ; 
+    :lineNumber 1110 ; 
+    :canonicalReference "1110" .
+
+# --- 1111 ---
+
+:Line_1111 a :Line ; 
+    :lineNumber 1111 ; 
+    :canonicalReference "1111" ;
+:relatedTo :Event_Peripeteia .
+
+# --- 1112 ---
+
+:Line_1112 a :Line ; 
+:lineNumber 1112 ; 
+:canonicalReference "1112" .
+
+# --- 1113 ---
+
+:Line_1113 a :Line ; 
+:lineNumber 1113 ; 
+:canonicalReference "1113" .
+
+
+# --- 1114 ---
+
+:Line_1114 a :Line ; 
+:lineNumber 1114 ; 
+:canonicalReference "1114" ;
+:advocatesFor :Ethical_TraditionalLaws .

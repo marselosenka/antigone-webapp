@@ -1,0 +1,84 @@
+@prefix : [http://example.org/antigone#](http://example.org/antigone#) .
+@prefix owl: [http://www.w3.org/2002/07/owl#](http://www.w3.org/2002/07/owl#) .
+@prefix rdfs: [http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#) .
+@prefix xsd: [http://www.w3.org/2001/XMLSchema#](http://www.w3.org/2001/XMLSchema#) .
+
+:Chorus a :Character .
+:Haemon a :Character .
+:Antigone a :Character .
+:Creon a :Character .
+
+:Motivation_MournBride a :Motivation ;
+:description "Η υποτιθέμενη πρόθεση του Αίμονα να θρηνήσει τη μοίρα της νύφης του Αντιγόνης και να πενθήσει για τον χαμένο του γάμο."^^xsd:string .
+
+:Haemon :hasMotivation :Motivation_MournBride .
+
+:Motivation_AssessSonLoyalty a :Motivation ;
+:description "Η πρόθεση του Κρέοντα να διαπιστώσει αν ο γιος του παραμένει πιστός σύμμαχος (φίλος) αφού άκουσε για την καταδίκη της νύφης του."^^xsd:string .
+
+:Creon :hasMotivation :Motivation_AssessSonLoyalty .
+
+:EthicalPrinciple_FilialLoyalty a :EthicalPrinciple ;
+:description "Η αρχή ότι ένας γιος πρέπει να παραμένει άνευ όρων σύμμαχος στον πατέρα του σε κάθε περίσταση (πανταχῇ δρῶντες φίλοι)."^^xsd:string .
+
+:Creon :advocatesFor :EthicalPrinciple_FilialLoyalty .
+
+:Emotion_Grief a :Emotion ;
+:description "Η θλίψη (ἀχνύμενος) και το πένθος για τη μοίρα μιας νύφης και η υπερβολική οδύνη για την απώλεια του συζυγικού κρεβατιού (ἀπάτας λεχέων ὑπεραλγῶν)."^^xsd:string .
+
+:Haemon :experiencesEmotion :Emotion_Grief .
+
+:Emotion_Raving a :Emotion ;
+:description "Ο παράφορος θυμός και η μανία (λυσσαίνων) για την απώλεια της μελλοντικής νύφης."^^xsd:string .
+
+:Haemon :experiencesEmotion :Emotion_Raving .
+
+:Conflict_EvilAppearingAsGood a :Conflict ;
+:description "Η γνωστική και ηθική αντίφαση όπου το κακό φαίνεται ως καλό (τὸ κακὸν δοκεῖν ποτ' ἐσθλὸν) σε ένα μυαλό που οδηγείται στην καταστροφή."^^xsd:string ;
+:conflictBetween :Theme_FalseHope, :Event_InevitableRuin .
+
+:Conflict_LoyaltyVsLove a :Conflict ;
+:description "Η ένταση ανάμεσα στον ρομαντικό δεσμό του Αίμονα με την Αντιγόνη και τη συγγενική του υποχρέωση προς τον Κρέοντα."^^xsd:string ;
+:conflictBetween :Antigone, :Creon .
+
+:Cause_DivineDeception a owl:Thing ;
+:description "Οι θεοί που οδηγούν το μυαλό ενός θνητού στην καταστροφή (ὅτῳ φρένας θεὸς ἄγει πρὸς ἄταν)."^^xsd:string .
+
+:Effect_MoralBlindness a owl:Thing ;
+:description "Το κακό που φαίνεται ως καλό στον εξαπατημένο θνητό."^^xsd:string .
+
+:Effect_InevitableRuin a owl:Thing ;
+:description "Ο θνητός που παραμένει ελεύθερος από την καταστροφή για ελάχιστο μόνο χρόνο."^^xsd:string .
+
+:Cause_DivineDeception :relatedTo :Effect_MoralBlindness .
+:Effect_MoralBlindness :relatedTo :Effect_InevitableRuin .
+
+:Cause_FalseHope a owl:Thing ;
+:description "Η περιπλανώμενη ελπίδα που λειτουργεί ως απάτη επιπόλαιων επιθυμιών (ἀπάτα κουφονόων ἐρώτων)."^^xsd:string .
+
+:Effect_UnexpectedPain a owl:Thing ;
+:description "Το ανύποπτο θύμα που καίει το πόδι του σε καυτή φωτιά (πυρὶ θερμῷ πόδα τις προσαύσῃ)."^^xsd:string .
+
+:Cause_FalseHope :relatedTo :Effect_UnexpectedPain .
+
+:Event_FinalVote a owl:Thing ;
+:description "Η ρίψη της τελικής ψήφου (τελείαν ψῆφον) που καταδικάζει την Αντιγόνη."^^xsd:string .
+
+:Event_FinalVote :relatedTo :Emotion_Grief .
+:Event_FinalVote :relatedTo :Emotion_Raving .
+
+:Theme_FalseHope a :Theme ;
+:description "Η ελπίδα ως πλάνη που ξεγελά τις επιπόλαιες επιθυμίες και οδηγεί ανεπίγνωστα στον πόνο."^^xsd:string .
+
+:Theme_DivineMadness a :Theme ;
+:description "Η διαστρέβλωση της ανθρώπινης αντίληψης από τους θεούς, ώστε να φαίνεται το κακό ως καλό πριν από την καταστροφή."^^xsd:string .
+
+:Theme_FilialDuty a :Theme ;
+:description "Η προσδοκία της απόλυτης πίστης και συμμαχίας ενός γιου προς τον πατέρα του."^^xsd:string .
+
+:Passage_Lines_616_634_grc a owl:Thing ;
+:hasTheme :Theme_FalseHope ;
+:hasTheme :Theme_DivineMadness ;
+:developsTheme :Theme_FilialDuty ;
+:hasConflict :Conflict_EvilAppearingAsGood ;
+:hasConflict :Conflict_LoyaltyVsLove .

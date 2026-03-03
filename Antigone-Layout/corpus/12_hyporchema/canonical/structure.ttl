@@ -1,0 +1,217 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:hyporchema-structure a owl:Ontology .
+
+:Line_1115
+a owl:NamedIndividual, :Line ;
+:lineNumber 1115 ;
+:canonicalReference "1115"^^xsd:string ;
+:referencesMyth :MythologicalBackground_Semele ;
+:hasTheme :Theme_DivineIntervention .
+
+:Line_1116
+a owl:NamedIndividual, :Line ;
+:lineNumber 1116 ;
+:canonicalReference "1116"^^xsd:string .
+
+:Line_1117
+a owl:NamedIndividual, :Line ;
+:lineNumber 1117 ;
+:canonicalReference "1117"^^xsd:string .
+
+:Line_1118
+a owl:NamedIndividual, :Line ;
+:lineNumber 1118 ;
+:canonicalReference "1118"^^xsd:string .
+
+:Line_1119
+a owl:NamedIndividual, :Line ;
+:lineNumber 1119 ;
+:canonicalReference "1119"^^xsd:string ;
+:referencesMyth :MythologicalBackground_Dionysus .
+
+:Line_1120
+a owl:NamedIndividual, :Line ;
+:lineNumber 1120 ;
+:canonicalReference "1120"^^xsd:string .
+
+:Line_1121
+a owl:NamedIndividual, :Line ;
+:lineNumber 1121 ;
+:canonicalReference "1121"^^xsd:string ;
+:hasTheme :Theme_ThebesPatronage .
+
+:Line_1122
+a owl:NamedIndividual, :Line ;
+:lineNumber 1122 ;
+:canonicalReference "1122"^^xsd:string .
+
+:Line_1123
+a owl:NamedIndividual, :Line ;
+:lineNumber 1123 ;
+:canonicalReference "1123"^^xsd:string .
+
+:Line_1124
+a owl:NamedIndividual, :Line ;
+:lineNumber 1124 ;
+:canonicalReference "1124"^^xsd:string ;
+:referencesMyth :MythologicalBackground_Dragon .
+
+:Line_1125
+a owl:NamedIndividual, :Line ;
+:lineNumber 1125 ;
+:canonicalReference "1125"^^xsd:string .
+
+:Line_1126
+a owl:NamedIndividual, :Line ;
+:lineNumber 1126 ;
+:canonicalReference "1126"^^xsd:string .
+
+:Line_1127
+a owl:NamedIndividual, :Line ;
+:lineNumber 1127 ;
+:canonicalReference "1127"^^xsd:string .
+
+:Line_1128
+a owl:NamedIndividual, :Line ;
+:lineNumber 1128 ;
+:canonicalReference "1128"^^xsd:string .
+
+:Line_1129
+a owl:NamedIndividual, :Line ;
+:lineNumber 1129 ;
+:canonicalReference "1129"^^xsd:string .
+
+:Line_1130
+a owl:NamedIndividual, :Line ;
+:lineNumber 1130 ;
+:canonicalReference "1130"^^xsd:string .
+
+:Line_1131
+a owl:NamedIndividual, :Line ;
+:lineNumber 1131 ;
+:canonicalReference "1131"^^xsd:string .
+
+:Line_1132
+a owl:NamedIndividual, :Line ;
+:lineNumber 1132 ;
+:canonicalReference "1132"^^xsd:string .
+
+:Line_1133
+a owl:NamedIndividual, :Line ;
+:lineNumber 1133 ;
+:canonicalReference "1133"^^xsd:string .
+
+:Line_1134
+a owl:NamedIndividual, :Line ;
+:lineNumber 1134 ;
+:canonicalReference "1134"^^xsd:string .
+
+:Line_1135
+a owl:NamedIndividual, :Line ;
+:lineNumber 1135 ;
+:canonicalReference "1135"^^xsd:string .
+
+:Line_1136
+a owl:NamedIndividual, :Line ;
+:lineNumber 1136 ;
+:canonicalReference "1136"^^xsd:string .
+
+:Line_1137
+a owl:NamedIndividual, :Line ;
+:lineNumber 1137 ;
+:canonicalReference "1137"^^xsd:string ;
+:description "Reference to Dionysus honoring Thebes above all cities."^^xsd:string .
+
+:Line_1138
+a owl:NamedIndividual, :Line ;
+:lineNumber 1138 ;
+:canonicalReference "1138"^^xsd:string .
+
+:Line_1139
+a owl:NamedIndividual, :Line ;
+:lineNumber 1139 ;
+:canonicalReference "1139"^^xsd:string ;
+:referencesMyth :MythologicalBackground_Semele .
+
+:Line_1140
+a owl:NamedIndividual, :Line ;
+:lineNumber 1140 ;
+:canonicalReference "1140"^^xsd:string ;
+:hasConflict :Conflict_ThebesVsPlague .
+
+:Line_1141
+a owl:NamedIndividual, :Line ;
+:lineNumber 1141 ;
+:canonicalReference "1141"^^xsd:string ;
+:hasTheme :Theme_CivicCleansing ;
+:containsRhetoricalDevice :Metaphor_Disease .
+
+:Line_1142
+a owl:NamedIndividual, :Line ;
+:lineNumber 1142 ;
+:canonicalReference "1142"^^xsd:string .
+
+:Line_1143
+a owl:NamedIndividual, :Line ;
+:lineNumber 1143 ;
+:canonicalReference "1143"^^xsd:string ;
+:hasTheme :Theme_Purification .
+
+:Line_1144
+a owl:NamedIndividual, :Line ;
+:lineNumber 1144 ;
+:canonicalReference "1144"^^xsd:string .
+
+:Line_1145
+a owl:NamedIndividual, :Line ;
+:lineNumber 1145 ;
+:canonicalReference "1145"^^xsd:string .
+
+:Line_1146
+a owl:NamedIndividual, :Line ;
+:lineNumber 1146 ;
+:canonicalReference "1146"^^xsd:string .
+
+:Line_1147
+a owl:NamedIndividual, :Line ;
+:lineNumber 1147 ;
+:canonicalReference "1147"^^xsd:string .
+
+:Line_1148
+a owl:NamedIndividual, :Line ;
+:lineNumber 1148 ;
+:canonicalReference "1148"^^xsd:string .
+
+:Line_1149
+a owl:NamedIndividual, :Line ;
+:lineNumber 1149 ;
+:canonicalReference "1149"^^xsd:string .
+
+:Line_1150
+a owl:NamedIndividual, :Line ;
+:lineNumber 1150 ;
+:canonicalReference "1150"^^xsd:string .
+
+:Line_1151
+a owl:NamedIndividual, :Line ;
+:lineNumber 1151 ;
+:canonicalReference "1151"^^xsd:string .
+
+:Line_1152
+a owl:NamedIndividual, :Line ;
+:lineNumber 1152 ;
+:canonicalReference "1152"^^xsd:string ;
+:hasTheme :Theme_DionysiacWorship .
+
+:Line_1153
+a owl:NamedIndividual, :Line ;
+:lineNumber 1153 ;
+:canonicalReference "1153"^^xsd:string .
+
+:Line_1154
+a owl:NamedIndividual, :Line ;
+:lineNumber 1154 ;
+:canonicalReference "1154"^^xsd:string .

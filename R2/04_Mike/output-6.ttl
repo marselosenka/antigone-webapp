@@ -1,0 +1,121 @@
+@prefix : [http://example.org/antigone#](http://example.org/antigone#) .
+@prefix owl: [http://www.w3.org/2002/07/owl#](http://www.w3.org/2002/07/owl#) .
+@prefix rdfs: [http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#) .
+@prefix xsd: [http://www.w3.org/2001/XMLSchema#](http://www.w3.org/2001/XMLSchema#) .
+
+:Chorus a :Character .
+:Creon a :Character .
+:Haemon a :Character .
+:Antigone a :Character .
+
+:Motivation_HelpFather a :Motivation ;
+:description "Η πρόθεση του Αίμονα να προστατεύσει τον πατέρα του από τα λάθη του (σοῦ γὰρ οὖν προκήδομαι)."^^xsd:string .
+
+:Haemon :hasMotivation :Motivation_HelpFather .
+
+:Motivation_DefendAuthority a :Motivation ;
+:description "Η πρόθεση του Κρέοντα να υπερασπιστεί την απόλυτη εξουσία του και να μην επιτρέψει να διδαχθεί από έναν νεότερο (Οἱ τηλικοίδε καὶ διδαξόμεσθα δὴ φρονεῖν ὑπ' ἀνδρὸς τηλικοῦδε)."^^xsd:string .
+
+:Creon :hasMotivation :Motivation_DefendAuthority .
+
+:MoralDecision_ExecuteAntigoneBeforeHaemon a :MoralDecision ;
+:description "Η εκδικητική απόφαση του Κρέοντα να φέρει την Αντιγόνη και να τη θανατώσει αμέσως, μπροστά στα μάτια του νυμφίου της (ὡς κατ' ὄμματ' αὐτίκα παρόντι θνῄσκῃ πλησία τῷ νυμφίῳ)."^^xsd:string .
+
+:Creon :makesMoralDecision :MoralDecision_ExecuteAntigoneBeforeHaemon .
+
+:EthicalPrinciple_MutualLearning a :EthicalPrinciple ;
+:description "Η αρχή ότι οι άνθρωποι πρέπει να μαθαίνουν ο ένας από τον άλλον όταν τα λόγια είναι σωστά και καίρια."^^xsd:string .
+
+:Chorus :advocatesFor :EthicalPrinciple_MutualLearning .
+
+:EthicalPrinciple_JudgeByActions a :EthicalPrinciple ;
+:description "Η αρχή ότι η ορθότητα και η αξία πρέπει να κρίνονται από τα έργα και όχι από την ηλικία (οὐ τὸν χρόνον χρὴ μᾶλλον ἢ τἄργα σκοπεῖν)."^^xsd:string .
+
+:Haemon :advocatesFor :EthicalPrinciple_JudgeByActions .
+
+:EthicalPrinciple_CollectiveRule a :EthicalPrinciple ;
+:description "Η πολιτική αρχή ότι μια πόλη δεν αποτελεί ιδιοκτησία ενός μόνο άνδρα (Πόλις γὰρ οὐκ ἔσθ' ἥτις ἀνδρός ἐσθ' ἑνός)."^^xsd:string .
+
+:Haemon :advocatesFor :EthicalPrinciple_CollectiveRule .
+
+:EthicalPrinciple_DivineReverence a :EthicalPrinciple ;
+:description "Η ηθική επιταγή ότι η ανθρώπινη εξουσία δεν πρέπει να καταπατά τις τιμές των θεών (τιμάς γε τὰς θεῶν πατῶν)."^^xsd:string .
+
+:Haemon :advocatesFor :EthicalPrinciple_DivineReverence .
+
+:EthicalPrinciple_TyrannicalOwnership a :EthicalPrinciple ;
+:description "Η αυταρχική πεποίθηση ότι η πόλη ανήκει νομίμως σε αυτόν που την κυβερνά (Οὐ τοῦ κρατοῦντος ἡ πόλις νομίζεται;)."^^xsd:string .
+
+:Creon :advocatesFor :EthicalPrinciple_TyrannicalOwnership .
+
+:Emotion_InsultedPride a :Emotion ;
+:description "Η οργή και ο πληγωμένος εγωισμός του Κρέοντα στην ιδέα ότι θα διδαχθεί και θα κριθεί από έναν νέο."^^xsd:string .
+
+:Creon :experiencesEmotion :Emotion_InsultedPride .
+
+:Emotion_Outrage a :Emotion ;
+:description "Η εκρηκτική οργή του Κρέοντα για τις επικρίσεις του Αίμονα, που τον οδηγεί στην άμεση καταδίκη της Αντιγόνης."^^xsd:string .
+
+:Creon :experiencesEmotion :Emotion_Outrage .
+
+:Emotion_Frustration a :Emotion ;
+:description "Η αγανάκτηση του Αίμονα για την αλαζονεία, τον παραλογισμό (κενὰς γνώμας) και την άρνηση του πατέρα του να ακούσει."^^xsd:string .
+
+:Haemon :experiencesEmotion :Emotion_Frustration .
+
+:Conflict_AgeVsWisdom a :Conflict ;
+:description "Η σύγκρουση μεταξύ της ηλικίας ως απόλυτο τεκμήριο σοφίας και της αξιολόγησης βάσει των πράξεων (τἄργα)."^^xsd:string ;
+:conflictBetween :Creon, :Haemon .
+
+:Conflict_AutocracyVsCollectiveCity a :Conflict ;
+:description "Η σύγκρουση μεταξύ της τυραννικής ιδιοκτησίας της πόλης (Κρέων) και της πόλης ως συλλογικό σώμα (Αίμων)."^^xsd:string ;
+:conflictBetween :Creon, :Haemon .
+
+:Conflict_HumanAuthorityVsDivineLaw a :Conflict ;
+:description "Η σύγκρουση μεταξύ του σεβασμού στην αποκλειστική ανθρώπινη εξουσία (τὰς ἐμὰς ἀρχὰς σέβων) και του σεβασμού στους θεϊκούς νόμους."^^xsd:string ;
+:conflictBetween :Creon, :Theme_DivineLaw .
+
+:Event_AntigonesDeath a owl:Thing ;
+:description "Ο επικείμενος θάνατος της Αντιγόνης (Ἥδ' οὖν θανεῖται)."^^xsd:string .
+
+:Event_AnotherDeath a owl:Thing ;
+:description "Ο θάνατος ενός άλλου προσώπου, μια άμεση απειλή για την αυτοκτονία του Αίμονα (θανοῦσ' ὀλεῖ τινα)."^^xsd:string .
+
+:Event_AntigonesDeath :relatedTo :Event_AnotherDeath .
+
+:Cause_AbsoluteTyranny a owl:Thing ;
+:description "Η διακυβέρνηση όπου ο ηγέτης θεωρεί την πόλη δική του και αγνοεί τους πολίτες."^^xsd:string .
+
+:Effect_Wasteland a owl:Thing ;
+:description "Το αποτέλεσμα να κυβερνά κανείς τέλεια, αλλά μόνος του σε μια έρημη γη (ερήμης γῆς)."^^xsd:string .
+
+:Cause_AbsoluteTyranny :relatedTo :Effect_Wasteland .
+
+:Cause_ListeningToWomen a owl:Thing ;
+:description "Η υπεράσπιση των πράξεων μιας γυναίκας, που θεωρείται υποδούλωση (γυναικὸς ὢν δούλευμα)."^^xsd:string .
+
+:Effect_CloudedJudgement a owl:Thing ;
+:description "Η αντιμετώπιση του ανθρώπου ως μιαρού και κατώτερου (μιαρὸν ἦθος καὶ γυναικὸς ὕστερον)."^^xsd:string .
+
+:Cause_ListeningToWomen :relatedTo :Effect_CloudedJudgement .
+
+:Theme_Tyranny a :Theme ;
+:description "Η καταστροφική φύση της αυταρχικής εξουσίας, όπου ο μονάρχης ταυτίζει τον εαυτό του με την πόλη."^^xsd:string .
+
+:Theme_AgeVsYouth a :Theme ;
+:description "Η ηλικιακή ένταση μεταξύ της εδραιωμένης, παραδοσιακής εξουσίας των γερόντων και της λογικής των νέων."^^xsd:string .
+
+:Theme_Misogyny a :Theme ;
+:description "Ο μισογυνισμός ως εργαλείο της πατριαρχικής εξουσίας για την υποτίμηση της αντίθετης άποψης."^^xsd:string .
+
+:Theme_DivineLaw a :Theme ;
+:description "Η υπεροχή και τα δικαιώματα (τιμάς) των χθόνιων θεών, τα οποία κανένας θνητός άρχοντας δεν μπορεί να καταπατά."^^xsd:string .
+
+:Passage_Lines_724_761_grc a owl:Thing ;
+:hasTheme :Theme_Tyranny ;
+:hasTheme :Theme_AgeVsYouth ;
+:hasTheme :Theme_Misogyny ;
+:hasTheme :Theme_DivineLaw ;
+:hasConflict :Conflict_AgeVsWisdom ;
+:hasConflict :Conflict_AutocracyVsCollectiveCity ;
+:hasConflict :Conflict_HumanAuthorityVsDivineLaw .

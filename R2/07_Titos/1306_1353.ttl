@@ -1,0 +1,116 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+############################
+# SCENE & SPEECH DEFINITIONS
+############################
+
+:Antigone_Scene_Exodus_Final
+    a owl:NamedIndividual, :Scene ;
+    :sceneNumber "Exodus (Conclusion)"^^xsd:string ;
+    :hasSpeech :Speech_Creon_1306_1311, :Speech_Exangelos_1312_1313, :Speech_Creon_1314, 
+                :Speech_Exangelos_1315_1316, :Speech_Creon_1317_1325, :Speech_Chorus_1326_1327, 
+                :Speech_Creon_1328_1332, :Speech_Chorus_1333_1335, :Speech_Creon_1336, 
+                :Speech_Chorus_1337_1338, :Speech_Creon_1339_1346, :Speech_Chorus_1347_1352 ;
+    :developsTheme :Theme_WisdomThroughSuffering, :Theme_InevitabilityOfFate, :Theme_Piety .
+
+:Speech_Creon_1306_1311 a owl:NamedIndividual, :Speech ; :speechBy :Creon_Character_Creon ; :containsLine :Line_1306, :Line_1307, :Line_1308, :Line_1309, :Line_1310, :Line_1311 .
+:Speech_Exangelos_1312_1313 a owl:NamedIndividual, :Speech ; :speechBy :Exangelos_Character_Exangelos ; :containsLine :Line_1312, :Line_1313 .
+:Speech_Creon_1317_1325 a owl:NamedIndividual, :Speech ; :speechBy :Creon_Character_Creon ; :containsLine :Line_1317, :Line_1318, :Line_1319, :Line_1320, :Line_1321, :Line_1322, :Line_1323, :Line_1324, :Line_1325 ; :hasTheme :Theme_FullConfession .
+:Speech_Chorus_1347_1352 a owl:NamedIndividual, :Speech ; :speechBy :Chorus_Character_Chorus ; :containsLine :Line_1347, :Line_1348, :Line_1349, :Line_1350, :Line_1351, :Line_1352 ; :hasTheme :Theme_WisdomThroughSuffering .
+
+############################
+# CHARACTERS & ENTITIES
+############################
+
+:Creon_Character_Creon
+    a owl:NamedIndividual, :Character ;
+    :experiencesEmotion :CreonEmotion_ShatteredIdentity, :CreonEmotion_SuicidalGrief ;
+    :makesMoralDecision :CreonDecision_AcceptGuilt ;
+    :hasMotivation :CreonMotivation_DeathWish .
+
+:Chorus_Character_Chorus
+    a owl:NamedIndividual, :Character ;
+    :experiencesEmotion :ChorusEmotion_Resignation ;
+    :advocatesFor :EthicalPrinciple_Phronein .
+
+############################
+# CANONICAL LINES (1306-1352)
+############################
+
+:Line_1306 a :Line ; :lineNumber 1306 ; :canonicalReference "1306" ; :text "ΚΡ. Αἰαῖ αἰαῖ, στροφή β ́"^^xsd:string .
+:Line_1307 a :Line ; :lineNumber 1307 ; :canonicalReference "1307" ; :text "ἀνέπταν φόβῳ. Τί μ ̓ οὐκ ἀνταίαν"^^xsd:string .
+:Line_1308 a :Line ; :lineNumber 1308 ; :canonicalReference "1308" ; :text "ἔπαισέν τις ἀμφιθήκτῳ ξίφει;"^^xsd:string .
+:Line_1309 a :Line ; :lineNumber 1309 ; :canonicalReference "1309" ; :text "δείλαιος ἐγώ, αἰαῖ,"^^xsd:string .
+:Line_1311 a :Line ; :lineNumber 1311 ; :canonicalReference "1311" ; :text "δειλαίᾳ δὲ συγκέκραμαι δύᾳ."^^xsd:string .
+:Line_1312 a :Line ; :lineNumber 1312 ; :canonicalReference "1312" ; :text "ΕΞ. Ὡς αἰτίαν γε τῶνδε κἀκείνων ἔχων"^^xsd:string .
+:Line_1313 a :Line ; :lineNumber 1313 ; :canonicalReference "1313" ; :text "πρὸς τῆς θανούσης τῆσδ ̓ ἐπεσκήπτου μόρων."^^xsd:string .
+:Line_1314 a :Line ; :lineNumber 1314 ; :canonicalReference "1314" ; :text "ΚΡ. Ποίῳ δὲ κἀπελύετ ̓ ἐν φοναῖς τρόπῳ;"^^xsd:string .
+:Line_1315 a :Line ; :lineNumber 1315 ; :canonicalReference "1315" ; :text "ΕΞ. Παίσασ ̓ ὑφ ἧπαρ αὐτόχειρ αὑτήν, ὅπως"^^xsd:string .
+:Line_1316 a :Line ; :lineNumber 1316 ; :canonicalReference "1316" ; :text "παιδὸς τόδ ̓ ᾔσθετ ̓ ὀξυκώκυτον πάθος."^^xsd:string .
+:Line_1317 a :Line ; :lineNumber 1317 ; :canonicalReference "1317" ; :text "ᬬμοι μοι, τάδ ̓ οὐκ ἐπ ̓ ἄλλον βροτῶν"^^xsd:string .
+:Line_1318 a :Line ; :lineNumber 1318 ; :canonicalReference "1318" ; :text "ἐμᾶς ἁρμόσει ποτ ̓ ἐξ αἰτίας."^^xsd:string .
+:Line_1319 a :Line ; :lineNumber 1319 ; :canonicalReference "1319" ; :text "Ἐγὼ γάρ σ ̓ ἐγώ σ ̓ ἔκανον, ὢ μέλεος,"^^xsd:string ; :hasTheme :Theme_FullConfession .
+:Line_1320 a :Line ; :lineNumber 1320 ; :canonicalReference "1320" ; :text "ἐγώ, φάμ ̓ ἔτυμον. Ἰὼ πρόσπολοι,"^^xsd:string .
+:Line_1321 a :Line ; :lineNumber 1321 ; :canonicalReference "1321" ; :text "ἀπάγετέ μ ̓ ὅτι τάχος,"^^xsd:string .
+:Line_1322 a :Line ; :lineNumber 1322 ; :canonicalReference "1322" ; :text "ἄγετέ μ ̓ ἐκποδών,"^^xsd:string .
+:Line_1325 a :Line ; :lineNumber 1325 ; :canonicalReference "1325" ; :text "τὸν οὐκ ὄντα μᾶλλον ἢ μηδένα."^^xsd:string .
+:Line_1326 a :Line ; :lineNumber 1326 ; :canonicalReference "1326" ; :text "ΧΟ. Κέρδη παραινεῖς, εἴ τι κέρδος ἐν κακοῖς·"^^xsd:string .
+:Line_1327 a :Line ; :lineNumber 1327 ; :canonicalReference "1327" ; :text "βράχιστα γὰρ κράτιστα τἀν ποσὶν κακά."^^xsd:string .
+:Line_1328 a :Line ; :lineNumber 1328 ; :canonicalReference "1328" ; :text "ΚΡ. Ἴτω ἴτω, αντιστρ. β ́"^^xsd:string .
+:Line_1329 a :Line ; :lineNumber 1329 ; :canonicalReference "1329" ; :text "φανήτω μόρων ὁ κάλλιστ ̓ ἐμῶν"^^xsd:string .
+:Line_1330 a :Line ; :lineNumber 1330 ; :canonicalReference "1330" ; :text "ἐμοὶ τερμίαν ἄγων ἁμέραν"^^xsd:string .
+:Line_1331 a :Line ; :lineNumber 1331 ; :canonicalReference "1331" ; :text "ὕπατος· ἴτω, ἴτω,"^^xsd:string .
+:Line_1332 a :Line ; :lineNumber 1332 ; :canonicalReference "1332" ; :text "ὅπως μηκέτ ἆμαρ ἄλλ ̓ εἰσίδω."^^xsd:string .
+:Line_1334 a :Line ; :lineNumber 1334 ; :canonicalReference "1334" ; :text "ΧΟ. Μέλλοντα ταῦτα. Τῶν προκειμένων τι χρὴ"^^xsd:string .
+:Line_1335 a :Line ; :lineNumber 1335 ; :canonicalReference "1335" ; :text "πράσσειν· μέλει γὰρ τῶνδ ̓ ὅτοισι χρὴ μέλειν."^^xsd:string .
+:Line_1336 a :Line ; :lineNumber 1336 ; :canonicalReference "1336" ; :text "ΚΡ. Ἀλλ ̓ ὧν ἐρῶμεν ταῦτα συγκατηυξάμην."^^xsd:string .
+:Line_1337 a :Line ; :lineNumber 1337 ; :canonicalReference "1337" ; :text "ΧΟ. Μή νυν προσεύχου μηδέν· ὡς πεπρωμένης"^^xsd:string ; :hasTheme :Theme_InevitabilityOfFate .
+:Line_1338 a :Line ; :lineNumber 1338 ; :canonicalReference "1338" ; :text "οὐκ ἔστι θνητοῖς συμφορᾶς ἀπαλλαγή."^^xsd:string .
+:Line_1339 a :Line ; :lineNumber 1339 ; :canonicalReference "1339" ; :text "ΚΡ. Ἄγοιτ ἂν μάταιον ἄνδρ ̓ ἐκποδών,"^^xsd:string .
+:Line_1340 a :Line ; :lineNumber 1340 ; :canonicalReference "1340" ; :text "ὅς, ὦ παῖ, σέ τ ̓ οὐχ ἑκὼν κατέκανον"^^xsd:string .
+:Line_1341 a :Line ; :lineNumber 1341 ; :canonicalReference "1341" ; :text "σέ τ ̓ αὖ τάνδ ̓, ὤμοι μέλεος,"^^xsd:string .
+:Line_1342 a :Line ; :lineNumber 1342 ; :canonicalReference "1342" ; :text "οὐδ ̓ ἔχω"^^xsd:string .
+:Line_1343 a :Line ; :lineNumber 1343 ; :canonicalReference "1343" ; :text "πρὸς πότερον ἴδω, πᾷ κλιθῶ·"^^xsd:string .
+:Line_1344 a :Line ; :lineNumber 1344 ; :canonicalReference "1344" ; :text "πάντα γὰρ"^^xsd:string .
+:Line_1345 a :Line ; :lineNumber 1345 ; :canonicalReference "1345" ; :text "λέχρια τἀν χεροῖν,"^^xsd:string .
+:Line_1346 a :Line ; :lineNumber 1346 ; :canonicalReference "1346" ; :text "τὰ δ ̓ ἐπὶ κρατί μοι πότμος δυσκόμιστος εἰσήλατο."^^xsd:string .
+:Line_1347 a :Line ; :lineNumber 1347 ; :canonicalReference "1347" ; :text "ΧΟ. Πολλῷ τὸ φρονεῖν εὐδαιμονίας"^^xsd:string ; :hasTheme :Theme_WisdomThroughSuffering .
+:Line_1348 a :Line ; :lineNumber 1348 ; :canonicalReference "1348" ; :text "πρῶτον ὑπάρχει· χρὴ δὲ τά γ ̓ εἰς θεοὺς"^^xsd:string ; :hasTheme :Theme_Piety .
+:Line_1349 a :Line ; :lineNumber 1349 ; :canonicalReference "1349" ; :text "μηδὲν ἀσεπτεῖν; μεγάλοι δὲ λόγοι"^^xsd:string .
+:Line_1350 a :Line ; :lineNumber 1350 ; :canonicalReference "1350" ; :text "μεγάλας πληγὰς τῶν ὑπεραύχων"^^xsd:string .
+:Line_1351 a :Line ; :lineNumber 1351 ; :canonicalReference "1351" ; :text "ἀποτείσαντες"^^xsd:string .
+:Line_1352 a :Line ; :lineNumber 1352 ; :canonicalReference "1352" ; :text "γήρᾳ τὸ φρονεῖν ἐδίδαξαν."^^xsd:string .
+
+############################
+# TRANSLATION VARIANTS (EN)
+############################
+
+:TV_Line_1319_en a :TranslationVariant ; :relatedTo :Line_1319 ; :text "For I, I killed you, wretched that I am."^^xsd:string .
+:TV_Line_1337_en a :TranslationVariant ; :relatedTo :Line_1337 ; :text "Pray no more; for mortals have no escape from destined misfortune."^^xsd:string .
+:TV_Line_1347_en a :TranslationVariant ; :relatedTo :Line_1347 ; :text "Wisdom is the supreme part of happiness."^^xsd:string .
+:TV_Line_1350_en a :TranslationVariant ; :relatedTo :Line_1350 ; :text "Great words of the overbearing are paid back with great blows."^^xsd:string .
+
+############################
+# THEMES, EMOTIONS, CONFLICTS
+############################
+
+:Theme_WisdomThroughSuffering a owl:NamedIndividual, :Theme ; :description "The final moral of the play: wisdom (phronein) is learned through the heavy punishment of pride (hybris)."^^xsd:string .
+:Theme_InevitabilityOfFate a owl:NamedIndividual, :Theme ; :description "The absolute power of destiny (pepromene) from which no mortal can escape."^^xsd:string .
+:Theme_Piety a owl:NamedIndividual, :Theme ; :description "The requirement of reverence toward the gods as a foundation for happiness."^^xsd:string .
+:Theme_FullConfession a owl:NamedIndividual, :Theme ; :description "Creon's complete and public acceptance of responsibility for the deaths of his family."^^xsd:string .
+
+:CreonEmotion_ShatteredIdentity a owl:NamedIndividual, :Emotion ; :description "Creon's feeling of becoming 'nothing' or 'less than nobody' after his fall."^^xsd:string .
+:CreonEmotion_SuicidalGrief a owl:NamedIndividual, :Emotion ; :description "The desperate wish for a sword to end his misery and for his last day to arrive."^^xsd:string .
+
+:CreonDecision_AcceptGuilt a owl:NamedIndividual, :MoralDecision ; :description "Creon's internal shift from blaming fate or others to declaring 'I killed you'."^^xsd:string .
+:CreonMotivation_DeathWish a owl:NamedIndividual, :Motivation ; :description "The longing for death as the only release from the 'great weight' of his actions."^^xsd:string .
+
+:Conflict_CreonVsFate_Final a owl:NamedIndividual, :Conflict ;
+    :conflictBetween :Creon_Character_Creon, :FateConcept_Pepromene ;
+    :description "The final state of the conflict where the human will is completely broken by the destined outcome."^^xsd:string .
+
+:FateConcept_Pepromene a owl:NamedIndividual, :FateConcept ; :description "Fixed destiny/fate which allows no liberation for mortals."^^xsd:string .
+:EthicalPrinciple_Phronein a owl:NamedIndividual, :EthicalPrinciple ; :description "Practical wisdom and sound judgment, the absence of which caused the tragedy."^^xsd:string .

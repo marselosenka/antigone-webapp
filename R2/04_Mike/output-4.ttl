@@ -1,0 +1,123 @@
+@prefix : [http://example.org/antigone#](http://example.org/antigone#) .
+@prefix owl: [http://www.w3.org/2002/07/owl#](http://www.w3.org/2002/07/owl#) .
+@prefix rdfs: [http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#) .
+@prefix xsd: [http://www.w3.org/2001/XMLSchema#](http://www.w3.org/2001/XMLSchema#) .
+
+:Haemon a :Character .
+:Creon a :Character .
+:Antigone a :Character .
+:Zeus a :Character .
+
+:Motivation_FollowFathersGuidance a :Motivation ;
+:description "Η πρόθεση του Αίμονα να ακολουθήσει την ορθή κρίση του πατέρα του, βάζοντάς την πάνω από κάθε γάμο (οὐδεὶς ἀξιώσεται γάμος μείζων φέρεσθαι)."^^xsd:string .
+
+:Haemon :hasMotivation :Motivation_FollowFathersGuidance .
+
+:Motivation_DemandObedience a :Motivation ;
+:description "Η απαίτηση του Κρέοντα για απόλυτη υπακοή των παιδιών, ώστε να τιμούν τους φίλους και να πολεμούν τους εχθρούς (γνώμης πατρῴας πάντ' ὄπισθεν ἑστάναι)."^^xsd:string .
+
+:Creon :hasMotivation :Motivation_DemandObedience .
+
+:Motivation_MaintainPatriarchalDominance a :Motivation ;
+:description "Η απόλυτη άρνηση του Κρέοντα να ηττηθεί ή να υποταχθεί σε γυναίκα, προτιμώντας να πέσει από ανδρικό χέρι."^^xsd:string .
+
+:Creon :hasMotivation :Motivation_MaintainPatriarchalDominance .
+
+:MoralDecision_ExecuteAntigone a :MoralDecision ;
+:description "Η αμετάκλητη απόφαση του Κρέοντα να θανατώσει (κτενῶ) την Αντιγόνη για την ανοιχτή της απείθεια απέναντι στην πόλη."^^xsd:string .
+
+:Creon :makesMoralDecision :MoralDecision_ExecuteAntigone .
+
+:EthicalPrinciple_FilialPiety a :EthicalPrinciple ;
+:description "Η αρχή της υιικής ευσέβειας και της πλήρους υποταγής ενός γιου στη θέληση του πατέρα του."^^xsd:string .
+
+:Haemon :advocatesFor :EthicalPrinciple_FilialPiety .
+:Creon :advocatesFor :EthicalPrinciple_FilialPiety .
+
+:EthicalPrinciple_AbsoluteCivicObedience a :EthicalPrinciple ;
+:description "Η πεποίθηση ότι οι πολίτες πρέπει να υπακούν τυφλά στον εκλεγμένο ηγέτη σε όλα τα ζητήματα, είτε μικρά και δίκαια, είτε τα αντίθετά τους (καὶ σμικρὰ καὶ δίκαια καὶ τἀναντία)."^^xsd:string .
+
+:Creon :advocatesFor :EthicalPrinciple_AbsoluteCivicObedience .
+
+:EthicalPrinciple_HouseholdGovernance a :EthicalPrinciple ;
+:description "Ο κανόνας ότι όποιος διοικεί σωστά τον οίκο του, αποδεικνύεται δίκαιος και στη διοίκηση της πόλης."^^xsd:string .
+
+:Creon :advocatesFor :EthicalPrinciple_HouseholdGovernance .
+
+:Emotion_FearOfMockery a :Emotion ;
+:description "Ο φόβος του Κρέοντα μήπως γίνει περίγελος στους εχθρούς του (πολὺν δὲ τοῖσιν ἐχθροῖσιν γέλων) ανατρέφοντας ανυπάκουα τέκνα."^^xsd:string .
+
+:Creon :experiencesEmotion :Emotion_FearOfMockery .
+
+:Emotion_Contempt a :Emotion ;
+:description "Η βαθιά περιφρόνηση του Κρέοντα προς την Αντιγόνη, την οποία θεωρεί 'ψυχρό αγκάλιασμα' (ψυχρὸν παραγκάλισμα) και εχθρό."^^xsd:string .
+
+:Creon :experiencesEmotion :Emotion_Contempt .
+
+:Conflict_StateAuthorityVsIndividualDefiance a :Conflict ;
+:description "Η σύγκρουση μεταξύ της απόλυτης εξουσίας του ηγέτη και του ατόμου που παραβιάζει τους νόμους ή προσπαθεί να επιβάλει τη θέλησή του στην εξουσία."^^xsd:string ;
+:conflictBetween :Creon, :Antigone .
+
+:Conflict_MaleAuthorityVsFemaleDefiance a :Conflict ;
+:description "Η έμφυλη σύγκρουση και ο φόβος του άνδρα ηγέτη να φανεί κατώτερος και πιο αδύναμος από μια γυναίκα."^^xsd:string ;
+:conflictBetween :Creon, :Antigone .
+
+:Cause_DisobedientChildren a owl:Thing ;
+:description "Η ανατροφή ανώφελων και ανυπάκουων παιδιών."^^xsd:string .
+
+:Effect_EnemyMockery a owl:Thing ;
+:description "Η πρόκληση κόπων για τον ίδιο τον πατέρα και άφθονου γέλιου για τους εχθρούς."^^xsd:string .
+
+:Cause_DisobedientChildren :relatedTo :Effect_EnemyMockery .
+
+:Cause_LustForWoman a owl:Thing ;
+:description "Η απώλεια του λογικού εξαιτίας της ηδονής για μια γυναίκα."^^xsd:string .
+
+:Effect_ColdMarriage a owl:Thing ;
+:description "Η κατάληξη σε ένα ψυχρό αγκάλιασμα με μια κακή σύζυγο μέσα στο σπίτι."^^xsd:string .
+
+:Cause_LustForWoman :relatedTo :Effect_ColdMarriage .
+
+:Cause_TolerateFamilyDisobedience a owl:Thing ;
+:description "Η ανοχή της απειθαρχίας στους ανθρώπους του ίδιου του συγγενικού κύκλου."^^xsd:string .
+
+:Effect_GeneralAnarchy a owl:Thing ;
+:description "Η πεποίθηση ότι αν οι συγγενείς είναι άτακτοι, τότε και οι εκτός γένους θα γίνουν ανεξέλεγκτοι."^^xsd:string .
+
+:Cause_TolerateFamilyDisobedience :relatedTo :Effect_GeneralAnarchy .
+
+:Cause_Disobedience a owl:Thing ;
+:description "Η αναρχία, ως το μεγαλύτερο από όλα τα κακά (Ἀναρχίας δὲ μεῖζον οὐκ ἔστιν κακόν)."^^xsd:string .
+
+:Effect_SocialCollapse a owl:Thing ;
+:description "Η καταστροφή των πόλεων, η ερήμωση των οίκων και η διάσπαση του στρατού."^^xsd:string .
+
+:Cause_Disobedience :relatedTo :Effect_SocialCollapse .
+
+:Cause_CivicObedience a owl:Thing ;
+:description "Η πειθαρχία (ἡ πειθαρχία) και η υπακοή στην εξουσία."^^xsd:string .
+
+:Effect_PreservationOfLife a owl:Thing ;
+:description "Η διάσωση των ζωών όσων ακολουθούν την τάξη (σῴζει τὰ πολλὰ σώμαθ')."^^xsd:string .
+
+:Cause_CivicObedience :relatedTo :Effect_PreservationOfLife .
+
+:Theme_AbsoluteAuthority a :Theme ;
+:description "Η επιβολή της απόλυτης εξουσίας, η οποία απαιτεί υποταγή σε κάθε εντολή, είτε αυτή είναι δίκαιη είτε άδικη."^^xsd:string .
+
+:Theme_CivicOrderVsAnarchy a :Theme ;
+:description "Η αντίθεση ανάμεσα στην πειθαρχία που σώζει την πόλη και την αναρχία που φέρνει τον απόλυτο όλεθρο."^^xsd:string .
+
+:Theme_Patriarchy a :Theme ;
+:description "Ο πατριαρχικός κώδικας τιμής που θεωρεί ανεπίτρεπτη την υποταγή ενός άνδρα στις επιθυμίες ή την εξουσία μιας γυναίκας."^^xsd:string .
+
+:Theme_FilialPiety a :Theme ;
+:description "Η συστημική προσδοκία της πλήρους αφοσίωσης του γιου στα προστάγματα και τις έχθρες του πατέρα του."^^xsd:string .
+
+:Passage_Lines_635_680_grc a owl:Thing ;
+:hasTheme :Theme_AbsoluteAuthority ;
+:hasTheme :Theme_CivicOrderVsAnarchy ;
+:hasTheme :Theme_Patriarchy ;
+:developsTheme :Theme_FilialPiety ;
+:hasConflict :Conflict_StateAuthorityVsIndividualDefiance ;
+:hasConflict :Conflict_MaleAuthorityVsFemaleDefiance .

@@ -1,0 +1,415 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_Stasimon4_ExodosTransition
+  a owl:NamedIndividual, :Scene ;
+  :sceneNumber "Kommos/lyric exchange (Antigone with Chorus), lines 823-871"^^xsd:string ;
+  :setting "Before the palace at Thebes; Antigone led toward her living tomb (implied by text)."^^xsd:string ;
+  :hasSpeech :Speech_Antigone_823_853 ;
+  :hasSpeech :Speech_Chorus_854_855 ;
+  :hasSpeech :Speech_Antigone_856_871 ;
+  :developsTheme :Theme_LivingDeathAndExile ;
+  :developsTheme :Theme_FamilyCurseOfLabdacids ;
+  :developsTheme :Theme_DivineVsMortalCondition ;
+  :hasConflict :Conflict_AntigoneVsChorusOnDivineComparison .
+
+:Speech_Antigone_823_853
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :containsLine :Line_823, :Line_824, :Line_825, :Line_826, :Line_827, :Line_828, :Line_829, :Line_830, :Line_831, :Line_832, :Line_833, :Line_834, :Line_835, :Line_836, :Line_837, :Line_838, :Line_839, :Line_840, :Line_841, :Line_842, :Line_843, :Line_844, :Line_845, :Line_846, :Line_847, :Line_848, :Line_849, :Line_850, :Line_851, :Line_852, :Line_853 ;
+  :hasTheme :Theme_LivingDeathAndExile .
+
+:Speech_Chorus_854_855
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Chorus_Character_Chorus ;
+  :containsLine :Line_854, :Line_855 ;
+  :hasTheme :Theme_DivineVsMortalCondition .
+
+:Speech_Antigone_856_871
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Antigone ;
+  :containsLine :Line_856, :Line_857, :Line_858, :Line_859, :Line_860, :Line_861, :Line_862, :Line_863, :Line_864, :Line_865, :Line_866, :Line_867, :Line_868, :Line_869, :Line_870, :Line_871 ;
+  :hasTheme :Theme_FamilyCurseOfLabdacids ;
+  :hasTheme :Theme_LivingDeathAndExile .
+
+:Antigone_Character_Antigone
+  a owl:NamedIndividual, :Character ;
+  :experiencesEmotion :AntigoneEmotion_HumiliationAtMockery ;
+  :experiencesEmotion :AntigoneEmotion_LamentationAndDespair ;
+  :hasMotivation :AntigoneMotivation_AppealToCityAsWitness ;
+  :hasMotivation :AntigoneMotivation_InterpretFateAsDivineLullingToRest ;
+  :advocatesFor :EthicalPrinciple_RespectForAncestralGodsAndCity ;
+  :relatedTo :Theme_LivingDeathAndExile ;
+  :relatedTo :Theme_FamilyCurseOfLabdacids .
+
+:Chorus_Character_Chorus
+  a owl:NamedIndividual, :Character ;
+  :advocatesFor :EthicalPrinciple_MortalHumilityBeforeGods ;
+  :experiencesEmotion :ChorusEmotion_AustereAdmonition .
+
+:EthicalPrinciple_MortalHumilityBeforeGods
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Humans are mortal and must not claim equality with gods; divine status is separate from human fate."^^xsd:string .
+
+:EthicalPrinciple_RespectForAncestralGodsAndCity
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Appeal to ancestral gods and the civic community as moral witnesses; insistence on being judged within sacred/civic frameworks."^^xsd:string .
+
+:AntigoneEmotion_HumiliationAtMockery
+  a owl:NamedIndividual, :Emotion ;
+  :description "Antigone feels mocked and dishonoured ('γελῶμαι', 'ὑβρίζεις') while still visible and not yet gone."^^xsd:string .
+
+:AntigoneEmotion_LamentationAndDespair
+  a owl:NamedIndividual, :Emotion ;
+  :description "Lament for her fate as neither among the living nor the dead; grief over family curse and isolation."^^xsd:string .
+
+:ChorusEmotion_AustereAdmonition
+  a owl:NamedIndividual, :Emotion ;
+  :description "Sober, admonitory stance: stresses mortal limits and frames Antigone's suffering as consequence of daring against Justice."^^xsd:string .
+
+:AntigoneMotivation_AppealToCityAsWitness
+  a owl:NamedIndividual, :Motivation ;
+  :description "She calls on Thebes (Dirce's springs, the grove) and its citizens as witnesses to her unwept, friendless march to the tomb."^^xsd:string .
+
+:AntigoneMotivation_InterpretFateAsDivineLullingToRest
+  a owl:NamedIndividual, :Motivation ;
+  :description "She interprets her situation through the paradigm of Niobe and says a daimon 'lulls' her into a similar rest—seeking meaning in divine causation."^^xsd:string .
+
+:Theme_LivingDeathAndExile
+  a owl:NamedIndividual, :Theme ;
+  :description "Antigone is led to a tomb while alive, describing herself as a metic among neither living nor dead."^^xsd:string .
+
+:Theme_FamilyCurseOfLabdacids
+  a owl:NamedIndividual, :Theme ;
+  :description "The inherited ruin of Oedipus' house: maternal bed-curses, incest, and the ancestral doom of the Labdacids."^^xsd:string .
+
+:Theme_DivineVsMortalCondition
+  a owl:NamedIndividual, :Theme ;
+  :description "Contrast between gods (and god-born) and mortals; warning against claiming godlike status in suffering or honour."^^xsd:string .
+
+:Conflict_AntigoneVsChorusOnDivineComparison
+  a owl:NamedIndividual, :Conflict ;
+  :description "Antigone's self-comparison to Niobe and appeal to divine framing clashes with the Chorus' insistence on mortal humility and separation from the divine."^^xsd:string ;
+  :conflictBetween :Antigone_Character_Antigone ;
+  :conflictBetween :Chorus_Character_Chorus ;
+  :conflictBetween :EthicalPrinciple_MortalHumilityBeforeGods .
+
+:Event_AntigoneLedToLivingTomb
+  a owl:NamedIndividual, :MoralDecision ;
+  :description "Antigone is taken toward the 'τυμβόχωστον ἕργμα'—a tomb-like enclosure while alive."^^xsd:string ;
+  :relatedTo :Theme_LivingDeathAndExile .
+
+:Line_823
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 823 ;
+  :canonicalReference "823"^^xsd:string ;
+  :text "Ἤκουσα δὴ λυγροτάταν ὀλέσθαι"^^xsd:string ;
+  :hasTheme :Theme_FamilyCurseOfLabdacids .
+
+:Line_824
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 824 ;
+  :canonicalReference "824"^^xsd:string ;
+  :text "τὰν Φρυγίαν ξέναν"^^xsd:string .
+
+:Line_825
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 825 ;
+  :canonicalReference "825"^^xsd:string ;
+  :text "Ταντάλου Σιπύλῳ πρὸς ἄκρῳ, τὰν κισσὸς ὡς ἀτενὴς"^^xsd:string .
+
+:Line_826
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 826 ;
+  :canonicalReference "826"^^xsd:string ;
+  :text "πετραία βλάστα δάμασεν,"^^xsd:string .
+
+:Line_827
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 827 ;
+  :canonicalReference "827"^^xsd:string ;
+  :text "καί νιν ὄμβροι τακομέναν,"^^xsd:string .
+
+:Line_828
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 828 ;
+  :canonicalReference "828"^^xsd:string ;
+  :text "ὡς φάτις ἀνδρῶν,"^^xsd:string .
+
+:Line_829
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 829 ;
+  :canonicalReference "829"^^xsd:string ;
+  :text "χιών τ᾽ οὐδαμὰ λείπει,"^^xsd:string .
+
+:Line_830
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 830 ;
+  :canonicalReference "830"^^xsd:string ;
+  :text "τέγγει θ᾽ ὑπ᾽ ὀφρύσι παγκλαύτοις δειράδας·"^^xsd:string .
+
+:Line_831
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 831 ;
+  :canonicalReference "831"^^xsd:string ;
+  :text "ᾇ με δαίμων ὁμοιοτάταν κατευνάζει."^^xsd:string .
+
+:Line_832
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 832 ;
+  :canonicalReference "832"^^xsd:string ;
+  :text "Ἀλλὰ θεός τοι καὶ θεογεννής,"^^xsd:string ;
+  :hasTheme :Theme_DivineVsMortalCondition .
+
+:Line_833
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 833 ;
+  :canonicalReference "833"^^xsd:string ;
+  :text "ἡμεῖς δὲ βροτοὶ καὶ θνατογενεῖς."^^xsd:string ;
+  :hasTheme :Theme_DivineVsMortalCondition .
+
+:Line_834
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 834 ;
+  :canonicalReference "834"^^xsd:string ;
+  :text "Καίτοι φθιμένᾳ μέγα κἀκοῦσαι"^^xsd:string .
+
+:Line_835
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 835 ;
+  :canonicalReference "835"^^xsd:string ;
+  :text "τοῖς ἰσοθέοις σύγκληρα λαχεῖν"^^xsd:string ;
+  :hasTheme :Theme_DivineVsMortalCondition .
+
+:Line_836
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 836 ;
+  :canonicalReference "836"^^xsd:string ;
+  :text "ζῶσαν καὶ ἔπειτα θανοῦσαν."^^xsd:string ;
+  :hasTheme :Theme_LivingDeathAndExile .
+
+:Line_837
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 837 ;
+  :canonicalReference "837"^^xsd:string ;
+  :text "Οἴμοι γελῶμαι."^^xsd:string .
+
+:Line_838
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 838 ;
+  :canonicalReference "838"^^xsd:string ;
+  :text "Τί με, πρὸς θεῶν πατρῴων,"^^xsd:string .
+
+:Line_839
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 839 ;
+  :canonicalReference "839"^^xsd:string ;
+  :text "οὐκ οἰχομέναν ὑβρίζεις,"^^xsd:string .
+
+:Line_840
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 840 ;
+  :canonicalReference "840"^^xsd:string ;
+  :text "ἀλλ᾽ ἐπίφαντον;"^^xsd:string .
+
+:Line_841
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 841 ;
+  :canonicalReference "841"^^xsd:string ;
+  :text "Ὦ πόλις, ὦ πόλεως"^^xsd:string .
+
+:Line_842
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 842 ;
+  :canonicalReference "842"^^xsd:string ;
+  :text "πολυκτήμονες ἄνδρες·"^^xsd:string .
+
+:Line_843
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 843 ;
+  :canonicalReference "843"^^xsd:string ;
+  :text "ἰὼ Διρκαῖαι κρῆναι Θήβας τ᾽ εὐαρμάτου ἄλσος,"^^xsd:string .
+
+:Line_844
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 844 ;
+  :canonicalReference "844"^^xsd:string ;
+  :text "ἔμπας ξυμμάρτυρας ὔμμ᾽ ἐπικτῶμαι,"^^xsd:string .
+
+:Line_845
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 845 ;
+  :canonicalReference "845"^^xsd:string ;
+  :text "οἵα φίλων ἄκλαυτος, οἵοις νόμοις"^^xsd:string .
+
+:Line_846
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 846 ;
+  :canonicalReference "846"^^xsd:string ;
+  :text "πρὸς ἕργμα τυμβόχωστον ἔρχομαι τάφου ποταινίου·"^^xsd:string ;
+  :hasTheme :Theme_LivingDeathAndExile ;
+  :relatedTo :Event_AntigoneLedToLivingTomb .
+
+:Line_847
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 847 ;
+  :canonicalReference "847"^^xsd:string ;
+  :text "ἰὼ δύστανος, βροτοῖς"^^xsd:string .
+
+:Line_848
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 848 ;
+  :canonicalReference "848"^^xsd:string ;
+  :text "οὔτ᾽ νεκρὸς νεκροῖσιν"^^xsd:string ;
+  :hasTheme :Theme_LivingDeathAndExile .
+
+:Line_849
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 849 ;
+  :canonicalReference "849"^^xsd:string ;
+  :text "μέτοικος, οὐ ζῶσιν, οὐ θανοῦσιν."^^xsd:string ;
+  :hasTheme :Theme_LivingDeathAndExile .
+
+:Line_850
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 850 ;
+  :canonicalReference "850"^^xsd:string ;
+  :text "Προβᾶσ᾽ ἐπ᾽ ἔσχατον θράσους"^^xsd:string .
+
+:Line_851
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 851 ;
+  :canonicalReference "851"^^xsd:string ;
+  :text "ὑψηλὸν ἐς Δίκας βάθρον"^^xsd:string .
+
+:Line_852
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 852 ;
+  :canonicalReference "852"^^xsd:string ;
+  :text "πολὺ προσέπεσας, ὦ τέκνον."^^xsd:string .
+
+:Line_853
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 853 ;
+  :canonicalReference "853"^^xsd:string ;
+  :text "πατρῷον δ᾽ ἐκτίνεις τιν᾽ ἆθλον."^^xsd:string ;
+  :hasTheme :Theme_FamilyCurseOfLabdacids .
+
+:Line_854
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 854 ;
+  :canonicalReference "854"^^xsd:string ;
+  :text "Ἔψαυσας ἀλγεινοτάτας"^^xsd:string .
+
+:Line_855
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 855 ;
+  :canonicalReference "855"^^xsd:string ;
+  :text "ἐμοὶ μερίμνας,"^^xsd:string .
+
+:Line_856
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 856 ;
+  :canonicalReference "856"^^xsd:string ;
+  :text "πατρὸς τριπόλιστον οἶτον,"^^xsd:string ;
+  :hasTheme :Theme_FamilyCurseOfLabdacids .
+
+:Line_857
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 857 ;
+  :canonicalReference "857"^^xsd:string ;
+  :text "τοῦ τε πρόπαντος"^^xsd:string .
+
+:Line_858
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 858 ;
+  :canonicalReference "858"^^xsd:string ;
+  :text "ἁμετέρου πότμου"^^xsd:string ;
+  :hasTheme :Theme_FamilyCurseOfLabdacids .
+
+:Line_859
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 859 ;
+  :canonicalReference "859"^^xsd:string ;
+  :text "κλεινοῖς Λαβδακίδαισιν."^^xsd:string ;
+  :hasTheme :Theme_FamilyCurseOfLabdacids .
+
+:Line_860
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 860 ;
+  :canonicalReference "860"^^xsd:string ;
+  :text "Ἰὼ ματρῷαι λέκτρων ἆται"^^xsd:string ;
+  :hasTheme :Theme_FamilyCurseOfLabdacids .
+
+:Line_861
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 861 ;
+  :canonicalReference "861"^^xsd:string ;
+  :text "κοιμήματά τ᾽ αὐτογέννητ᾽ ἐμῷ πατρὶ δυσμόρου ματρός,"^^xsd:string ;
+  :hasTheme :Theme_FamilyCurseOfLabdacids .
+
+:Line_862
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 862 ;
+  :canonicalReference "862"^^xsd:string ;
+  :text "οἵων ἐγώ ποθ᾽ ἁ ταλαίφρων ἔφυν·"^^xsd:string .
+
+:Line_863
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 863 ;
+  :canonicalReference "863"^^xsd:string ;
+  :text "πρὸς οὓς ἀραῖος ἄγαμος, ἅδ᾽"^^xsd:string .
+
+:Line_864
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 864 ;
+  :canonicalReference "864"^^xsd:string ;
+  :text "ἐγὼ μέτοικος ἔρχομαι."^^xsd:string ;
+  :hasTheme :Theme_LivingDeathAndExile .
+
+:Line_865
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 865 ;
+  :canonicalReference "865"^^xsd:string ;
+  :text "Ἰὼ δυσπότμων, κασίγνητε,"^^xsd:string .
+
+:Line_866
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 866 ;
+  :canonicalReference "866"^^xsd:string ;
+  :text "γάμων κυρήσας,"^^xsd:string .
+
+:Line_867
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 867 ;
+  :canonicalReference "867"^^xsd:string ;
+  :text "θανὼν ἔτ᾽ οὖσαν κατήναρές με."^^xsd:string ;
+  :relatedTo :Theme_FamilyCurseOfLabdacids .
+
+:Line_868
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 868 ;
+  :canonicalReference "868"^^xsd:string ;
+  :text ""^^xsd:string .
+
+:Line_869
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 869 ;
+  :canonicalReference "869"^^xsd:string ;
+  :text ""^^xsd:string .
+
+:Line_870
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 870 ;
+  :canonicalReference "870"^^xsd:string ;
+  :text ""^^xsd:string .
+
+:Line_871
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 871 ;
+  :canonicalReference "871"^^xsd:string ;
+  :text ""^^xsd:string .
+
+# REPORT: Created canonical :Line_823–:Line_871. Source passage provides Greek through line 867; lines 868–871 are not present in the supplied text, so their :text values were left empty to satisfy the requirement to instantiate every verse without inventing missing Greek. Potential mismatch: Chorus material begins at supplied "ΧΟ." after Antigone's Niobe comparison; exact line-to-speaker segmentation may differ by edition.

@@ -1,0 +1,198 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_Stasimon4
+  a owl:NamedIndividual, :Scene ;
+  :sceneNumber "Stasimon 4"^^xsd:string ;
+  :hasSpeech :Speech_Antigone_806_815 ;
+  :hasSpeech :Speech_Chorus_816_822 ;
+  :developsTheme :Theme_DeathAsMarriage ;
+  :developsTheme :Theme_IsolationAndFameInDeath ;
+  :hasConflict :Conflict_LifeVsDeathTransition .
+
+:Speech_Antigone_806_815
+  a owl:NamedIndividual, :Speech, :ChoralSong ;
+  :speechBy :Antigone_Character_Antigone ;
+  :containsLine :Line_806, :Line_807, :Line_808, :Line_809, :Line_810, :Line_811, :Line_812, :Line_813, :Line_814, :Line_815 ;
+  :text "Ὁρᾶτ’ ἔμ’, ὦ γᾶς πατρίας πολῖται, τὰν νεάταν ὁδὸν στείχουσαν, νέατον δὲ φέγγος λεύσσουσαν ἀελίου, κοὔποτ’ αὖθις, ἀλλά μ’ ὁ παγκοίτας Ἅιδας ζῶσαν ἄγει τὰν Ἀχέροντος ἀκτάν, οὔθ’ ὑμεναίων ἔγκληρον, οὔτ’ ἐπὶ νυμφείοις πώ μέ τις ὕμνος ὕμνησεν, ἀλλ’ Ἀχέροντι νυμφεύσω."^^xsd:string ;
+  :hasTheme :Theme_DeathAsMarriage ;
+  :hasTheme :Theme_LamentForLostMarriage .
+
+:Speech_Chorus_816_822
+  a owl:NamedIndividual, :Speech, :ChoralSong ;
+  :speechBy :Chorus_Character_Chorus ;
+  :containsLine :Line_816, :Line_817, :Line_818, :Line_819, :Line_820, :Line_821, :Line_822 ;
+  :text "Οὐκοῦν κλεινὴ καὶ ἔπαινον ἔχουσ’ ἐς τόδ’ ἀπέρχῃ κεῦθος νεκύων, οὔτε φθινάσιν πληγεῖσα νόσοις οὔτε ξιφέων ἐπίχειρα λαχοῦσ’, ἀλλ’ αὐτόνομος ζῶσα μόνη δὴ θνητῶν Ἀίδην καταβήσῃ."^^xsd:string ;
+  :hasTheme :Theme_IsolationAndFameInDeath .
+
+:Antigone_Character_Antigone
+  a owl:NamedIndividual, :Character ;
+  :experiencesEmotion :AntigoneEmotion_LamentAndDespair ;
+  :hasMotivation :AntigoneMotivation_AddressCitizensAsWitnesses ;
+  :makesMoralDecision :AntigoneDecision_AcceptDeathAsAcheronBride ;
+  :relatedTo :Theme_DeathAsMarriage .
+
+:Chorus_Character_Chorus
+  a owl:NamedIndividual, :Character ;
+  :experiencesEmotion :ChorusEmotion_AweAndPity ;
+  :relatedTo :Theme_IsolationAndFameInDeath .
+
+:AntigoneEmotion_LamentAndDespair
+  a owl:NamedIndividual, :Emotion ;
+  :description "Θρῆνος καὶ ἀπόγνωσις: ὁρᾶται βαδίζουσα τὴν νεάταν ὁδόν, ἀπολείπουσα τὸ φέγγος ἡλίου, ἄνευ ὑμεναίων."^^xsd:string .
+
+:ChorusEmotion_AweAndPity
+  a owl:NamedIndividual, :Emotion ;
+  :description "Θαῦμα καὶ οἶκτος: κλεινὴ καὶ ἔπαινον ἔχουσα, αὐτόνομος ζῶσα μόνη καταβαίνει πρὸς Ἅιδην."^^xsd:string .
+
+:AntigoneMotivation_AddressCitizensAsWitnesses
+  a owl:NamedIndividual, :Motivation ;
+  :description "Βούλεται τοὺς πολίτας μάρτυρας ποιήσασθαι τῆς ἐσχάτης πορείας καὶ τῆς ἀδικίας/μοίρας τῆς ἄγουσας."^^xsd:string .
+
+:AntigoneDecision_AcceptDeathAsAcheronBride
+  a owl:NamedIndividual, :MoralDecision ;
+  :description "Ἀντὶ γάμου ἐν νυμφείοις, Ἀχέροντι νυμφεύσεσθαι: ἀποδέχεται τὴν κάθοδον ὡς 'γάμον' πρὸς τὸν κάτω κόσμον."^^xsd:string ;
+  :relatedTo :Theme_DeathAsMarriage .
+
+:Conflict_LifeVsDeathTransition
+  a owl:NamedIndividual, :Conflict ;
+  :description "Ἀντίθεσις μεταξὺ τοῦ φέγγους ἡλίου (βίος) καὶ τοῦ παγκοίτου Ἅιδου/Ἀχέροντος (θάνατος), ὡς ἀναγκαστικὴ μετάβασις."^^xsd:string ;
+  :conflictBetween :EthicalPrinciple_Life, :FateConcept_DeathInevitability .
+
+:EthicalPrinciple_Life
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Ἀξία τοῦ ζῆν καὶ τοῦ ὁρᾶν τὸ φέγγος ἡλίου."^^xsd:string .
+
+:FateConcept_DeathInevitability
+  a owl:NamedIndividual, :FateConcept ;
+  :description "Ἀναπόδραστος κάθοδος πρὸς Ἅιδην· ὁ θάνατος ὡς ἀνάγκη."^^xsd:string ;
+  :determinesOutcomeOf :Conflict_LifeVsDeathTransition .
+
+:Theme_DeathAsMarriage
+  a owl:NamedIndividual, :Theme ;
+  :description "Ὁ θάνατος παρασταίνεται ὡς νυμφεία/γάμος: Ἅιδης 'παγκοίτας', Ἀχέρων νυμφίος."^^xsd:string .
+
+:Theme_LamentForLostMarriage
+  a owl:NamedIndividual, :Theme ;
+  :description "Στέρησις ὑμεναίων καὶ ὕμνων· ἀντὶ ἀνθρωπίνου γάμου ἡ κάθοδος."^^xsd:string .
+
+:Theme_IsolationAndFameInDeath
+  a owl:NamedIndividual, :Theme ;
+  :description "Κλέος/ἔπαινος ἐν θανάτῳ καὶ ἰδιότροπος μοῖρα: αὐτόνομος, ζῶσα μόνη, ἄνευ νόσου καὶ ξίφους, καταβαίνει."^^xsd:string .
+
+:Line_806
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 806 ;
+  :canonicalReference "806"^^xsd:string ;
+  :text "Ὁρᾶτ’ ἔμ’, ὦ γᾶς πατρίας πολῖται,"^^xsd:string ;
+  :hasTheme :Theme_LamentForLostMarriage .
+
+:Line_807
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 807 ;
+  :canonicalReference "807"^^xsd:string ;
+  :text "τὰν νεάταν ὁδὸν"^^xsd:string .
+
+:Line_808
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 808 ;
+  :canonicalReference "808"^^xsd:string ;
+  :text "στείχουσαν, νέατον δὲ φέγγος"^^xsd:string .
+
+:Line_809
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 809 ;
+  :canonicalReference "809"^^xsd:string ;
+  :text "λεύσσουσαν ἀελίου,"^^xsd:string .
+
+:Line_810
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 810 ;
+  :canonicalReference "810"^^xsd:string ;
+  :text "κοὔποτ’ αὖθις, ἀλλά μ’ ὁ παγκοίτας Ἅιδας ζῶσαν ἄγει"^^xsd:string ;
+  :hasTheme :Theme_DeathAsMarriage .
+
+:Line_811
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 811 ;
+  :canonicalReference "811"^^xsd:string ;
+  :text "τὰν Ἀχέροντος"^^xsd:string ;
+  :hasTheme :Theme_DeathAsMarriage .
+
+:Line_812
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 812 ;
+  :canonicalReference "812"^^xsd:string ;
+  :text "ἀκτάν, οὔθ’ ὑμεναίων"^^xsd:string ;
+  :hasTheme :Theme_LamentForLostMarriage .
+
+:Line_813
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 813 ;
+  :canonicalReference "813"^^xsd:string ;
+  :text "ἔγκληρον, οὔτ’ ἐπὶ νυμφείοις"^^xsd:string ;
+  :hasTheme :Theme_LamentForLostMarriage .
+
+:Line_814
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 814 ;
+  :canonicalReference "814"^^xsd:string ;
+  :text "πώ μέ τις ὕμνος ὕμνησεν,"^^xsd:string ;
+  :hasTheme :Theme_LamentForLostMarriage .
+
+:Line_815
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 815 ;
+  :canonicalReference "815"^^xsd:string ;
+  :text "ἀλλ’ Ἀχέροντι νυμφεύσω."^^xsd:string ;
+  :hasTheme :Theme_DeathAsMarriage .
+
+:Line_816
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 816 ;
+  :canonicalReference "816"^^xsd:string ;
+  :text "Οὐκοῦν κλεινὴ καὶ ἔπαινον ἔχουσ’"^^xsd:string ;
+  :hasTheme :Theme_IsolationAndFameInDeath .
+
+:Line_817
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 817 ;
+  :canonicalReference "817"^^xsd:string ;
+  :text "ἐς τόδ’ ἀπέρχῃ κεῦθος νεκύων,"^^xsd:string ;
+  :hasTheme :Theme_IsolationAndFameInDeath .
+
+:Line_818
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 818 ;
+  :canonicalReference "818"^^xsd:string ;
+  :text "οὔτε φθινάσιν πληγεῖσα νόσοις"^^xsd:string .
+
+:Line_819
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 819 ;
+  :canonicalReference "819"^^xsd:string ;
+  :text "οὔτε ξιφέων ἐπίχειρα λαχοῦσ’,"^^xsd:string .
+
+:Line_820
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 820 ;
+  :canonicalReference "820"^^xsd:string ;
+  :text "ἀλλ’ αὐτόνομος ζῶσα μόνη δὴ"^^xsd:string ;
+  :hasTheme :Theme_IsolationAndFameInDeath .
+
+:Line_821
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 821 ;
+  :canonicalReference "821"^^xsd:string ;
+  :text "θνητῶν Ἀίδην καταβήσῃ."^^xsd:string ;
+  :hasTheme :Theme_IsolationAndFameInDeath .
+
+:Line_822
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 822 ;
+  :canonicalReference "822"^^xsd:string ;
+  :text ""^^xsd:string .
+
+# REPORT: Created canonical :Line_806–:Line_822. Source text provides only 17 verses (806–822) but visually contains 16 distinct verse-lines; line 822 has no Greek text in the provided passage, so :Line_822 :text left empty to preserve required numbering. Scene/speech boundaries inferred from speaker labels ΑΝ. and ΧΟ.; "στροφή ά" indicates choral song section.

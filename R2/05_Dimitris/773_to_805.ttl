@@ -1,0 +1,297 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_ThirdStasimon_773_805
+  a owl:NamedIndividual, :Scene ;
+  :sceneNumber "Stasimon 3"^^xsd:string ;
+  :hasSpeech :Speech_Creon_773_780 ;
+  :hasSpeech :Speech_Chorus_781_805 ;
+  :hasConflict :Conflict_ErosVsJustice ;
+  :developsTheme :Theme_ErosOverpowersReasonAndLaw ;
+  :developsTheme :Theme_DeathAndHadesReverence .
+
+:Speech_Creon_773_780
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Creon_Character_Creon ;
+  :containsLine :Line_773, :Line_774, :Line_775, :Line_776, :Line_777, :Line_778, :Line_779, :Line_780 ;
+  :hasTheme :Theme_CivicPurityAndMiasma ;
+  :hasTheme :Theme_DeathAndHadesReverence .
+
+:Speech_Chorus_781_805
+  a owl:NamedIndividual, :Speech, :ChoralSong ;
+  :speechBy :Chorus_Character_Chorus ;
+  :containsLine :Line_781, :Line_782, :Line_783, :Line_784, :Line_785, :Line_786, :Line_787, :Line_788, :Line_789, :Line_790, :Line_791, :Line_792, :Line_793, :Line_794, :Line_795, :Line_796, :Line_797, :Line_798, :Line_799, :Line_800, :Line_801, :Line_802, :Line_803, :Line_804, :Line_805 ;
+  :hasTheme :Theme_ErosOverpowersReasonAndLaw ;
+  :hasTheme :Theme_TearsAndPityAtBridalChamberOfDeath .
+
+:Creon_Character_Creon
+  a owl:NamedIndividual, :Character ;
+  :makesMoralDecision :CreonDecision_EntombAntigoneAlive ;
+  :hasMotivation :CreonMotivation_AvoidMiasmaForCity ;
+  :advocatesFor :EthicalPrinciple_CivicPurity ;
+  :advocatesFor :EthicalPrinciple_AvoidMiasma .
+
+:Chorus_Character_Chorus
+  a owl:NamedIndividual, :Character ;
+  :experiencesEmotion :ChorusEmotion_AweAtErosPower ;
+  :experiencesEmotion :ChorusEmotion_TearsAndPityForAntigone .
+
+:Antigone_Character_Antigone
+  a owl:NamedIndividual, :Character ;
+  :relatedTo :CreonDecision_EntombAntigoneAlive .
+
+:EthicalPrinciple_CivicPurity
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Protection of the polis from pollution; prioritizing civic well-being."^^xsd:string .
+
+:EthicalPrinciple_AvoidMiasma
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Avoidance of ritual pollution (μίασμα) as a public danger."^^xsd:string .
+
+:EthicalPrinciple_Justice
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Commitment to what is just (δίκαια) in judgment and action."^^xsd:string .
+
+:EthicalPrinciple_ErosDesire
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Eros/desire as a compelling force that bends minds and actions."^^xsd:string .
+
+:CreonDecision_EntombAntigoneAlive
+  a owl:NamedIndividual, :MoralDecision ;
+  :description "Creon decides to hide Antigone alive in a rocky underground chamber with minimal food."^^xsd:string ;
+  :relatedTo :CreonMotivation_AvoidMiasmaForCity .
+
+:CreonMotivation_AvoidMiasmaForCity
+  a owl:NamedIndividual, :Motivation ;
+  :description "To ensure the city escapes pollution by shifting responsibility to Hades and isolating the condemned."^^xsd:string .
+
+:ChorusEmotion_AweAtErosPower
+  a owl:NamedIndividual, :Emotion ;
+  :description "Awe at Eros as an invincible power that drives all to madness."^^xsd:string .
+
+:ChorusEmotion_TearsAndPityForAntigone
+  a owl:NamedIndividual, :Emotion ;
+  :description "Tears and pity at the sight of Antigone going to the all-shared bridal chamber (death)."^^xsd:string .
+
+:Conflict_ErosVsJustice
+  a owl:NamedIndividual, :Conflict ;
+  :description "Eros overthrows just minds, turning the just toward injustice and stirring kin-strife."^^xsd:string ;
+  :conflictBetween :EthicalPrinciple_ErosDesire, :EthicalPrinciple_Justice .
+
+:Theme_CivicPurityAndMiasma
+  a owl:NamedIndividual, :Theme ;
+  :description "Civic anxiety about ritual pollution and the attempt to protect the polis from miasma."^^xsd:string .
+
+:Theme_DeathAndHadesReverence
+  a owl:NamedIndividual, :Theme ;
+  :description "The logic of death: appeal to Hades and the futility or cost of revering the underworld."^^xsd:string .
+
+:Theme_ErosOverpowersReasonAndLaw
+  a owl:NamedIndividual, :Theme ;
+  :description "Eros as an irresistible force that subverts reason, justice, and social order."^^xsd:string .
+
+:Theme_TearsAndPityAtBridalChamberOfDeath
+  a owl:NamedIndividual, :Theme ;
+  :description "Pathos: tears at Antigone's approach to the 'bridal chamber' of death."^^xsd:string .
+
+:Line_773
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 773 ;
+  :canonicalReference "773"^^xsd:string ;
+  :text "Ἄγων ἔρημος ἔνθ ̓ ἂν ᾖ βροτῶν στίβος"^^xsd:string .
+
+:Line_774
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 774 ;
+  :canonicalReference "774"^^xsd:string ;
+  :text "κρύψω πετρώδει ζῶσαν ἐν κατώρυχι,"^^xsd:string .
+
+:Line_775
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 775 ;
+  :canonicalReference "775"^^xsd:string ;
+  :text "φορβῆς τοσοῦτον ὡς ἄγος μόνον προθείς,"^^xsd:string .
+
+:Line_776
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 776 ;
+  :canonicalReference "776"^^xsd:string ;
+  :text "ὅπως μίασμα πᾶσ ̓ ὑπεκφύγῃ πόλις·"^^xsd:string .
+
+:Line_777
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 777 ;
+  :canonicalReference "777"^^xsd:string ;
+  :text "κἀκεῖ τὸν Ἅιδην, ὃν μόνον σέβει θεῶν,"^^xsd:string .
+
+:Line_778
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 778 ;
+  :canonicalReference "778"^^xsd:string ;
+  :text "αἰτουμένη που τεύξεται τὸ μὴ θανεῖν,"^^xsd:string .
+
+:Line_779
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 779 ;
+  :canonicalReference "779"^^xsd:string ;
+  :text "ἢ γνώσεται γοῦν ἀλλὰ τηνικαῦθ ̓ ὅτι"^^xsd:string .
+
+:Line_780
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 780 ;
+  :canonicalReference "780"^^xsd:string ;
+  :text "πόνος περισσός ἐστι τἀν Ἅιδου σέβειν."^^xsd:string .
+
+:Line_781
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 781 ;
+  :canonicalReference "781"^^xsd:string ;
+  :text "Ἔρως ἀνίκατε μάχαν, στροφή"^^xsd:string .
+
+:Line_782
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 782 ;
+  :canonicalReference "782"^^xsd:string ;
+  :text "Ἔρως, ὃς ἐν κτήμασι πίπτεις"^^xsd:string .
+
+:Line_783
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 783 ;
+  :canonicalReference "783"^^xsd:string ;
+  :text "πτεις, ὃς ἐν μαλακαῖς παρειαῖς"^^xsd:string .
+
+:Line_784
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 784 ;
+  :canonicalReference "784"^^xsd:string ;
+  :text "αῖς νεάνιδος ἐννυχεύεις,"^^xsd:string .
+
+:Line_785
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 785 ;
+  :canonicalReference "785"^^xsd:string ;
+  :text "φοιτᾷς δ ̓ ὑπερπόντιος ἔν τ ̓"^^xsd:string .
+
+:Line_786
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 786 ;
+  :canonicalReference "786"^^xsd:string ;
+  :text "ἀγρονόμοις αὐλαῖς·"^^xsd:string .
+
+:Line_787
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 787 ;
+  :canonicalReference "787"^^xsd:string ;
+  :text "καί σ ̓ οὔτ ̓ ἀθανάτων"^^xsd:string .
+
+:Line_788
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 788 ;
+  :canonicalReference "788"^^xsd:string ;
+  :text "φύξιμος οὐδεὶς οὔθ ̓"^^xsd:string .
+
+:Line_789
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 789 ;
+  :canonicalReference "789"^^xsd:string ;
+  :text "ἁμερίων σέ γ ̓ ἀνθρώπων, ὁ δ ̓ ἔχων μέμηνεν."^^xsd:string .
+
+:Line_790
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 790 ;
+  :canonicalReference "790"^^xsd:string ;
+  :text "Σὺ καὶ δικαίων ἀδίκους αντιστρ."^^xsd:string .
+
+:Line_791
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 791 ;
+  :canonicalReference "791"^^xsd:string ;
+  :text "φρένας παρασπᾷς ἐπὶ λώβᾳ·"^^xsd:string .
+
+:Line_792
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 792 ;
+  :canonicalReference "792"^^xsd:string ;
+  :text "σὺ καὶ τόδε νεῖκος ἀνδρῶν"^^xsd:string .
+
+:Line_793
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 793 ;
+  :canonicalReference "793"^^xsd:string ;
+  :text "δρῶν ξύναιμον ἔχεις ταράξας·"^^xsd:string .
+
+:Line_794
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 794 ;
+  :canonicalReference "794"^^xsd:string ;
+  :text "νικᾷ δ ̓ ἐναργὴς βλεφάρων"^^xsd:string .
+
+:Line_795
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 795 ;
+  :canonicalReference "795"^^xsd:string ;
+  :text "ἵμερος εὐλέκτρου"^^xsd:string .
+
+:Line_796
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 796 ;
+  :canonicalReference "796"^^xsd:string ;
+  :text "νύμφας, τῶν μεγάλων"^^xsd:string .
+
+:Line_797
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 797 ;
+  :canonicalReference "797"^^xsd:string ;
+  :text "πάρεδρος ἐν ἀρχαῖς θεσμῶν· ἄμαχος γὰρ ἐμπαίζει θεὸς Ἀφροδίτα."^^xsd:string .
+
+:Line_798
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 798 ;
+  :canonicalReference "798"^^xsd:string ;
+  :text "Νῦν δ ̓ ἤδη  ̓γὼ καὐτὸς θεσμῶν"^^xsd:string .
+
+:Line_799
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 799 ;
+  :canonicalReference "799"^^xsd:string ;
+  :text "ἔξω φέρομαι τάδ ̓ ὁρῶν, ἴσχειν δ ̓"^^xsd:string .
+
+:Line_800
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 800 ;
+  :canonicalReference "800"^^xsd:string ;
+  :text "οὐκέτι πηγὰς δύναμαι δακρύων,"^^xsd:string .
+
+:Line_801
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 801 ;
+  :canonicalReference "801"^^xsd:string ;
+  :text "τὸν παγκοίταν ὅθ ̓ ὁρῶ θάλαμον"^^xsd:string .
+
+:Line_802
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 802 ;
+  :canonicalReference "802"^^xsd:string ;
+  :text "τήνδ ̓ Ἀντιγόνην ἀνύτουσαν."^^xsd:string .
+
+:Line_803
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 803 ;
+  :canonicalReference "803"^^xsd:string ;
+  :text ""^^xsd:string .
+
+:Line_804
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 804 ;
+  :canonicalReference "804"^^xsd:string ;
+  :text ""^^xsd:string .
+
+:Line_805
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 805 ;
+  :canonicalReference "805"^^xsd:string ;
+  :text ""^^xsd:string .
+
+# REPORT: Created canonical :Line_773–:Line_805. Verse splitting/fragmentation present in the source (e.g., 782–783, 791–792). Lines 803–805 lacked Greek text in the provided passage (only 805 number shown); left :text empty for 803–805 to preserve required line anchors.

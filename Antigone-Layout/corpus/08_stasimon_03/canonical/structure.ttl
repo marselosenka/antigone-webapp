@@ -1,0 +1,131 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:stasimon03-structure a owl:Ontology .
+
+:Line_781
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 781 ;
+  :canonicalReference "781"^^xsd:string .
+
+:Line_782
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 782 ;
+  :canonicalReference "782"^^xsd:string .
+
+:Line_783
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 783 ;
+  :canonicalReference "783"^^xsd:string .
+
+:Line_784
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 784 ;
+  :canonicalReference "784"^^xsd:string ;
+  :text "αῖς νεάνιδος ἐννυχεύεις,"^^xsd:string .
+
+:Line_785
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 785 ;
+  :canonicalReference "785"^^xsd:string .
+
+:Line_786
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 786 ;
+  :canonicalReference "786"^^xsd:string .
+
+:Line_787
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 787 ;
+  :canonicalReference "787"^^xsd:string .
+
+:Line_788
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 788 ;
+  :canonicalReference "788"^^xsd:string .
+
+:Line_789
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 789 ;
+  :canonicalReference "789"^^xsd:string .
+
+:Line_790
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 790 ;
+  :canonicalReference "790"^^xsd:string .
+
+:Line_791
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 791 ;
+  :canonicalReference "791"^^xsd:string .
+
+:Line_792
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 792 ;
+  :canonicalReference "792"^^xsd:string .
+
+:Line_793
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 793 ;
+  :canonicalReference "793"^^xsd:string .
+
+:Line_794
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 794 ;
+  :canonicalReference "794"^^xsd:string .
+
+:Line_795
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 795 ;
+  :canonicalReference "795"^^xsd:string .
+
+:Line_796
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 796 ;
+  :canonicalReference "796"^^xsd:string .
+
+:Line_797
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 797 ;
+  :canonicalReference "797"^^xsd:string .
+
+:Line_798
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 798 ;
+  :canonicalReference "798"^^xsd:string .
+
+:Line_799
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 799 ;
+  :canonicalReference "799"^^xsd:string .
+
+:Line_800
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 800 ;
+  :canonicalReference "800"^^xsd:string .
+
+:Line_801
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 801 ;
+  :canonicalReference "801"^^xsd:string .
+
+:Line_802
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 802 ;
+  :canonicalReference "802"^^xsd:string .
+
+:Line_803
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 803 ;
+  :canonicalReference "803"^^xsd:string .
+
+:Line_804
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 804 ;
+  :canonicalReference "804"^^xsd:string .
+
+:Line_805
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 805 ;
+  :canonicalReference "805"^^xsd:string .

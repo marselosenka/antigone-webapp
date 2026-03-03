@@ -1,0 +1,219 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+################################################################
+# SCENE AND SPEECH STRUCTURE (ANCIENT GREEK)
+################################################################
+
+:Antigone_Scene_Episode5_Cont
+  a :Scene ;
+  :sceneNumber "Episode 5 (Continued)"^^xsd:string ;
+  :hasSpeech :Speech_Creon_Ep5_Defense, :Speech_Stichomythia_Ep5 .
+
+:Speech_Creon_Ep5_Defense
+  a :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :containsLine :Line_1033, :Line_1034, :Line_1035, :Line_1036, :Line_1037, :Line_1038, :Line_1039, :Line_1040, :Line_1041, :Line_1042, :Line_1043, :Line_1044, :Line_1045, :Line_1046, :Line_1047 ;
+  :containsRhetoricalDevice :Device_Simile_Archers, :Device_Hyperbole_Eagles .
+
+:Speech_Stichomythia_Ep5
+  a :Speech ;
+  :speechBy :Antigone_Character_Creon, :Antigone_Character_Teiresias ;
+  :containsLine :Line_1048, :Line_1049, :Line_1050, :Line_1051, :Line_1052, :Line_1053, :Line_1054, :Line_1055, :Line_1056, :Line_1057, :Line_1058, :Line_1059, :Line_1060, :Line_1061, :Line_1062, :Line_1063 .
+
+################################################################
+# CONCEPTS (REUSE/ENRICHMENT)
+################################################################
+
+:Device_Simile_Archers
+  a :MetaphorSimile ;
+  :description "Metaphor of archers shooting at a target (τοξόται σκοποῦ τοξεύετ)."^^xsd:string .
+
+:Device_Hyperbole_Eagles
+  a :RhetoricalDevice ;
+  :description "Hyperbole involving the Eagles of Zeus (Ζηνὸς αἰετοὶ) carrying carrion to the throne (Διὸς θρόνους)."^^xsd:string .
+
+:Principle_DivineInvulnerability
+  a :EthicalPrinciple ;
+  :description "The belief that no human has the power to pollute the gods (θεοὺς μιαίνειν οὔτις ἀνθρώπων σθένει)."^^xsd:string .
+
+:Principle_PrimacyOfReason
+  a :PhilosophicalConcept ;
+  :description "The concept of 'εὐβουλία' (good counsel/prudence) as the greatest possession."^^xsd:string .
+
+:Theme_WisdomVsFolly
+  a :Theme ;
+  :description "Contrast between 'εὐβουλία' (wisdom) and 'μὴ φρονεῖν' (thoughtlessness)."^^xsd:string .
+
+################################################################
+# CANONICAL LINES (ANCIENT GREEK TEXT)
+################################################################
+
+:Line_1033 a :Line ;
+  :lineNumber 1033 ;
+  :canonicalReference "1033" ;
+  :text "ΚΡ. Ὦ πρέσβυ, πάντες ὥστε τοξόται σκοποῦ"^^xsd:string ;
+  :containsRhetoricalDevice :Device_Simile_Archers .
+
+:Line_1034 a :Line ;
+  :lineNumber 1034 ;
+  :canonicalReference "1034" ;
+  :text "τοξεύετ ̓ ἀνδρὸς τοῦδε, κοὐδὲ μαντικῆς"^^xsd:string .
+
+:Line_1035 a :Line ;
+  :lineNumber 1035 ;
+  :canonicalReference "1035" ;
+  :text "ἄπρακτος ὑμῖν εἰμι, τῶν δ ̓ ὑπαὶ γένους"^^xsd:string .
+
+:Line_1036 a :Line ;
+  :lineNumber 1036 ;
+  :canonicalReference "1036" ;
+  :text "ἐξημπόλημαι κἀμπεφόρτισμαι πάλαι."^^xsd:string ;
+  :hasTheme :Theme_Corruption .
+
+:Line_1037 a :Line ;
+  :lineNumber 1037 ;
+  :canonicalReference "1037" ;
+  :text "Κερδαίνετ ̓, ἐμπολᾶτε τἀπὸ Σάρδεων"^^xsd:string .
+
+:Line_1038 a :Line ;
+  :lineNumber 1038 ;
+  :canonicalReference "1038" ;
+  :text "ἤλεκτρον, εἰ βούλεσθε, καὶ τὸν Ἰνδικὸν"^^xsd:string .
+
+:Line_1039 a :Line ;
+  :lineNumber 1039 ;
+  :canonicalReference "1039" ;
+  :text "χρυσόν· τάφῳ δ ̓ ἐκεῖνον οὐχὶ κρύψετε,"^^xsd:string .
+
+:Line_1040 a :Line ;
+  :lineNumber 1040 ;
+  :canonicalReference "1040" ;
+  :text "οὐδ ̓ ἢν θέλωσ ̓ οἱ Ζηνὸς αἰετοὶ βορὰν"^^xsd:string ;
+  :containsRhetoricalDevice :Device_Hyperbole_Eagles .
+
+:Line_1041 a :Line ;
+  :lineNumber 1041 ;
+  :canonicalReference "1041" ;
+  :text "φέρειν νιν ἁρπάζοντες ἐς Διὸς θρόνους,"^^xsd:string ;
+  :hasTheme :Theme_Hybris .
+
+:Line_1042 a :Line ;
+  :lineNumber 1042 ;
+  :canonicalReference "1042" ;
+  :text "οὐδ ̓ ὣς μίασμα τοῦτο μὴ τρέσας ἐγὼ"^^xsd:string .
+
+:Line_1043 a :Line ;
+  :lineNumber 1043 ;
+  :canonicalReference "1043" ;
+  :text "θάπτειν παρήσω κεῖνον· εὖ γὰρ οἶδ ̓ ὅτι"^^xsd:string .
+
+:Line_1044 a :Line ;
+  :lineNumber 1044 ;
+  :canonicalReference "1044" ;
+  :text "θεοὺς μιαίνειν οὔτις ἀνθρώπων σθένει."^^xsd:string ;
+  :advocatesFor :Principle_DivineInvulnerability .
+
+:Line_1045 a :Line ;
+  :lineNumber 1045 ;
+  :canonicalReference "1045" ;
+  :text "Πίπτουσι δ ̓, ὦ γεραιὲ Τειρεσία, βροτῶν"^^xsd:string .
+
+:Line_1046 a :Line ;
+  :lineNumber 1046 ;
+  :canonicalReference "1046" ;
+  :text "χοἰ πολλὰ δεινοὶ πτώματ ̓ αἴσχρ ̓, ὅταν λόγους"^^xsd:string .
+
+:Line_1047 a :Line ;
+  :lineNumber 1047 ;
+  :canonicalReference "1047" ;
+  :text "αἰσχροὺς καλῶς λέγωσι τοῦ κέρδους χάριν."^^xsd:string .
+
+:Line_1048 a :Line ;
+  :lineNumber 1048 ;
+  :canonicalReference "1048" ;
+  :text "ΤΕΙ. Φεῦ· ἆρ ̓ οἶδεν ἀνθρώπων τις, ἆρα φράζεται,"^^xsd:string .
+
+:Line_1049 a :Line ;
+  :lineNumber 1049 ;
+  :canonicalReference "1049" ;
+  :text "ΚΡ. Τί χρῆμα; ποῖον τοῦτο πάγκοινον λέγεις;"^^xsd:string .
+
+:Line_1050 a :Line ;
+  :lineNumber 1050 ;
+  :canonicalReference "1050" ;
+  :text "ΤΕΙ. Ὅσῳ κράτιστον κτημάτων εὐβουλία;"^^xsd:string ;
+  :hasTheme :Theme_WisdomVsFolly ;
+  :advocatesFor :Principle_PrimacyOfReason .
+
+:Line_1051 a :Line ;
+  :lineNumber 1051 ;
+  :canonicalReference "1051" ;
+  :text "ΚΡ. Ὅσῳπερ, οἶμαι, μὴ φρονεῖν πλείστη βλάβη."^^xsd:string .
+
+:Line_1052 a :Line ;
+  :lineNumber 1052 ;
+  :canonicalReference "1052" ;
+  :text "ΤΕΙ. Ταύτης σὺ μέντοι τῆς νόσου πλήρης ἔφυς."^^xsd:string .
+
+:Line_1053 a :Line ;
+  :lineNumber 1053 ;
+  :canonicalReference "1053" ;
+  :text "ΚΡ. Οὐ βούλομαι τὸν μάντιν ἀντειπεῖν κακῶς."^^xsd:string .
+
+:Line_1054 a :Line ;
+  :lineNumber 1054 ;
+  :canonicalReference "1054" ;
+  :text "ΤΕΙ. Καὶ μὴν λέγεις, ψευδῆ με θεσπίζειν λέγων."^^xsd:string .
+
+:Line_1055 a :Line ;
+  :lineNumber 1055 ;
+  :canonicalReference "1055" ;
+  :text "ΚΡ. Τὸ μαντικὸν γὰρ πᾶν φιλάργυρον γένος."^^xsd:string ;
+  :hasTheme :Theme_Corruption .
+
+:Line_1056 a :Line ;
+  :lineNumber 1056 ;
+  :canonicalReference "1056" ;
+  :text "ΤΕΙ. Τὸ δέ γε τυράννων αἰσχροκέρδειαν φιλεῖ."^^xsd:string ;
+  :hasTheme :Theme_StateVsProphecy .
+
+:Line_1057 a :Line ;
+  :lineNumber 1057 ;
+  :canonicalReference "1057" ;
+  :text "ΚΡ. Ἆρ ̓ οἶσθα ταγοὺς ὄντας ἃν λέγῃς λέγων;"^^xsd:string ;
+  :hasMotivation :Motivation_AssertAuthority .
+
+:Line_1058 a :Line ;
+  :lineNumber 1058 ;
+  :canonicalReference "1058" ;
+  :text "ΤΕΙ. Οἶδ ̓· ἐξ ἐμοῦ γὰρ τήνδ ̓ ἔχεις σώσας πόλιν."^^xsd:string .
+
+:Line_1059 a :Line ;
+  :lineNumber 1059 ;
+  :canonicalReference "1059" ;
+  :text "ΚΡ. Σοφὸς σὺ μάντις, ἀλλὰ τἀδικεῖν φιλῶν."^^xsd:string .
+
+:Line_1060 a :Line ;
+  :lineNumber 1060 ;
+  :canonicalReference "1060" ;
+  :text "ΤΕΙ. Ὄρσεις με τἀκίνητα διὰ φρενῶν φράσαι."^^xsd:string ;
+  :hasMotivation :Motivation_RevealTruth .
+
+:Line_1061 a :Line ;
+  :lineNumber 1061 ;
+  :canonicalReference "1061" ;
+  :text "ΚΡ. Κίνει, μόνον δὲ μὴ  ̓πὶ κέρδεσιν λέγων."^^xsd:string .
+
+:Line_1062 a :Line ;
+  :lineNumber 1062 ;
+  :canonicalReference "1062" ;
+  :text "ΤΕ. Οὕτω γὰρ ἤδη καὶ δοκῶ τὸ σὸν μέρος."^^xsd:string .
+
+:Line_1063 a :Line ;
+  :lineNumber 1063 ;
+  :canonicalReference "1063" ;
+  :text "ΚΡ. Ὡς μὴ  ̓μπολήσων ἴσθι τὴν ἐμὴν φρένα."^^xsd:string ;
+  :hasConflict :Conflict_ProfitVsTruth .
