@@ -347,74 +347,297 @@
     :lineNumber 1227 ; 
     :canonicalReference "1227" ; 
     :text "χωρεῖ πρὸς αὐτὸν κἀνακωκύσας καλεῖ·"^^xsd:string .
+
+:Line_1228 a :Line ;
+    :lineNumber 1228 ; 
+    :canonicalReference "1228" ; 
+    :text "Ὦ τλῆμον, οἷον ἔργον εἴργασαι· τίνα"^^xsd:string .
     
-:Line_1228 a :Line ; :lineNumber 1228 ; :canonicalReference "1228" ; :text "Ὦ τλῆμον, οἷον ἔργον εἴργασαι· τίνα"^^xsd:string .
-:Line_1229 a :Line ; :lineNumber 1229 ; :canonicalReference "1229" ; :text "νοῦν ἔσχες; ἐν τῷ συμφορᾶς διεφθάρης;"^^xsd:string .
-:Line_1230 a :Line ; :lineNumber 1230 ; :canonicalReference "1230" ; :text "Ἔξελθε, τέκνον, ἱκέσιός σε λίσσομαι."^^xsd:string .
-:Line_1231 a :Line ; :lineNumber 1231 ; :canonicalReference "1231" ; :text "Τὸν δ ̓ ἀγρίοις ὄσσοισι παπτήνας ὁ παῖς,"^^xsd:string ; :hasConflict :Conflict_HaemonVsCreon_Violence .
-:Line_1232 a :Line ; :lineNumber 1232 ; :canonicalReference "1232" ; :text "πτύσας προσώπῳ κοὐδὲν ἀντειπών, ξίφους"^^xsd:string .
-:Line_1233 a :Line ; :lineNumber 1233 ; :canonicalReference "1233" ; :text "ἕλκει διπλοῦς κνώδοντας, ἐκ δ ̓ ὁρμωμένου"^^xsd:string .
-:Line_1234 a :Line ; :lineNumber 1234 ; :canonicalReference "1234" ; :text "πατρὸς φυγαῖσιν ἤμπλακ ̓· εἶθ ̓ ὁ δύσμορος"^^xsd:string .
-:Line_1235 a :Line ; :lineNumber 1235 ; :canonicalReference "1235" ; :text "αὑτῷ χολωθείς, ὥσπερ εἶχ ̓, ἐπενταθεὶς"^^xsd:string .
-:Line_1236 a :Line ; :lineNumber 1236 ; :canonicalReference "1236" ; :text "ἤρεισε πλευραῖς μέσσον ἔγχος, ἐς δ ̓ ὑγρὸν"^^xsd:string .
-:Line_1237 a :Line ; :lineNumber 1237 ; :canonicalReference "1237" ; :text "ἀγκῶν ̓ ἔτ ̓ ἔμφρων παρθένῳ προσπτύσσεται·"^^xsd:string .
-:Line_1238 a :Line ; :lineNumber 1238 ; :canonicalReference "1238" ; :text "καὶ φυσιῶν ὀξεῖαν ἐκβάλλει ῥοὴν"^^xsd:string .
-:Line_1239 a :Line ; :lineNumber 1239 ; :canonicalReference "1239" ; :text "λευκῇ παρειᾷ φοινίου σταλάγματος."^^xsd:string .
-:Line_1240 a :Line ; :lineNumber 1240 ; :canonicalReference "1240" ; :text "Κεῖται δὲ νεκρὸς περὶ νεκρῷ, τὰ νυμφικὰ"^^xsd:string ; :hasTheme :Theme_MarriageToDeath .
-:Line_1241 a :Line ; :lineNumber 1241 ; :canonicalReference "1241" ; :text "τέλη λαχὼν δείλαιος εἰν Ἅιδου δόμοις,"^^xsd:string .
-:Line_1242 a :Line ; :lineNumber 1242 ; :canonicalReference "1242" ; :text "δείξας ἐν ἀνθρώποισι τὴν ἀβουλίαν"^^xsd:string ; :hasTheme :Theme_Aboulia .
-:Line_1243 a :Line ; :lineNumber 1243 ; :canonicalReference "1243" ; :text "ὅσῳ μέγιστον ἀνδρὶ πρόσκειται κακόν."^^xsd:string .
+:Line_1229 a :Line ;   
+    :lineNumber 1229 ; 
+    :canonicalReference "1229" ; 
+    :text "νοῦν ἔσχες; ἐν τῷ συμφορᾶς διεφθάρης;"^^xsd:string .
+
+:Line_1230 a :Line ; 
+    :lineNumber 1230 ; 
+    :canonicalReference "1230" ; 
+    :text "Ἔξελθε, τέκνον, ἱκέσιός σε λίσσομαι."^^xsd:string .
+
+:Line_1231 a :Line ; 
+    :lineNumber 1231 ; 
+    :canonicalReference "1231" ; 
+    :text "Τὸν δ ̓ ἀγρίοις ὄσσοισι παπτήνας ὁ παῖς,"^^xsd:string ; 
+    :hasConflict :Conflict_HaemonVsCreon_Violence .
+
+:Line_1232 a :Line ; 
+    :lineNumber 1232 ; 
+    :canonicalReference "1232" ; 
+    :text "πτύσας προσώπῳ κοὐδὲν ἀντειπών, ξίφους"^^xsd:string .
+
+:Line_1233 a :Line ; 
+    :lineNumber 1233 ; 
+    :canonicalReference "1233" ; 
+    :text "ἕλκει διπλοῦς κνώδοντας, ἐκ δ ̓ ὁρμωμένου"^^xsd:string .
+
+:Line_1234 a :Line ; 
+    :lineNumber 1234 ; 
+    :canonicalReference "1234" ; 
+    :text "πατρὸς φυγαῖσιν ἤμπλακ ̓· εἶθ ̓ ὁ δύσμορος"^^xsd:string .
+
+:Line_1235 a :Line ; 
+    :lineNumber 1235 ; 
+    :canonicalReference "1235" ; 
+    :text "αὑτῷ χολωθείς, ὥσπερ εἶχ ̓, ἐπενταθεὶς"^^xsd:string .
+
+:Line_1236 a :Line ; 
+    :lineNumber 1236 ; 
+    :canonicalReference "1236" ; 
+    :text "ἤρεισε πλευραῖς μέσσον ἔγχος, ἐς δ ̓ ὑγρὸν"^^xsd:string .
+
+:Line_1237 a :Line ; 
+    :lineNumber 1237 ; 
+    :canonicalReference "1237" ; 
+    :text "ἀγκῶν ̓ ἔτ ̓ ἔμφρων παρθένῳ προσπτύσσεται·"^^xsd:string .
+
+:Line_1238 a :Line ; 
+    :lineNumber 1238 ; 
+    :canonicalReference "1238" ; 
+    :text "καὶ φυσιῶν ὀξεῖαν ἐκβάλλει ῥοὴν"^^xsd:string .
+
+:Line_1239 a :Line ; 
+    :lineNumber 1239 ; 
+    :canonicalReference "1239" ; 
+    :text "λευκῇ παρειᾷ φοινίου σταλάγματος."^^xsd:string .
+
+:Line_1240 a :Line ; 
+    :lineNumber 1240 ; 
+    :canonicalReference "1240" ; 
+    :text "Κεῖται δὲ νεκρὸς περὶ νεκρῷ, τὰ νυμφικὰ"^^xsd:string ; 
+    :hasTheme :Theme_MarriageToDeath .
+
+:Line_1241 a :Line ; 
+    :lineNumber 1241 ; 
+    :canonicalReference "1241" ; 
+    :text "τέλη λαχὼν δείλαιος εἰν Ἅιδου δόμοις,"^^xsd:string .
+
+:Line_1242 a :Line ; 
+    :lineNumber 1242 ; 
+    :canonicalReference "1242" ; 
+    :text "δείξας ἐν ἀνθρώποισι τὴν ἀβουλίαν"^^xsd:string ; 
+    :hasTheme :Theme_Aboulia .
+
+:Line_1243 a :Line ; 
+    :lineNumber 1243 ; 
+    :canonicalReference "1243" ; 
+    :text "ὅσῳ μέγιστον ἀνδρὶ πρόσκειται κακόν."^^xsd:string .
 
 
-:Line_1244 a :Line ; :lineNumber 1244 ; :text "ΧΟ. Τί τοῦτ ̓ ἂν εἰκάσειας; ἡ γυνὴ πάλιν"^^xsd:string .
-:Line_1245 a :Line ; :lineNumber 1245 ; :text "φρούδη, πρὶν εἰπεῖν ἐσθλὸν ἢ κακὸν λόγον."^^xsd:string .
-:Line_1246 a :Line ; :lineNumber 1246 ; :text "ΑΓ. Καὐτὸς τεθάμβηκ ̓· ἐλπίσιν δὲ βόσκομαι"^^xsd:string .
-:Line_1247 a :Line ; :lineNumber 1247 ; :text "ἄχη τέκνου κλύουσαν ἐς πόλιν γόου"^^xsd:string .
-:Line_1248 a :Line ; :lineNumber 1248 ; :text "οὐκ ἀξιώσειν, ἀλλ ̓ ὑπὸ στέγης ἔσω"^^xsd:string .
-:Line_1249 a :Line ; :lineNumber 1249 ; :text "δμωαῖς προθήσειν πένθος οἰκεῖον στένειν."^^xsd:string .
-:Line_1250 a :Line ; :lineNumber 1250 ; :text "Γνώμης γὰρ οὐκ ἄπειρος, ὥσθ ̓ ἁμαρτάνειν."^^xsd:string .
-:Line_1251 a :Line ; :lineNumber 1251 ; :text "ΧΟ. Οὐκ οἶδ ̓· ἐμοὶ δ ̓ οὖν ἥ τ ̓ ἄγαν σιγὴ βαρὺ"^^xsd:string .
-:Line_1252 a :Line ; :lineNumber 1252 ; :text "δοκεῖ προσεῖναι χἠ μάτην πολλὴ βοή."^^xsd:string .
-:Line_1253 a :Line ; :lineNumber 1253 ; :text "ΑΓ. Ἀλλ ̓ εἰσόμεσθα μή τι καὶ κατάσχετον"^^xsd:string .
-:Line_1254 a :Line ; :lineNumber 1254 ; :text "κρυφῇ καλύπτει καρδίᾳ θυμουμένῃ,"^^xsd:string .
-:Line_1255 a :Line ; :lineNumber 1255 ; :text "δόμους παραστείχοντες· εὖ γὰρ οὖν λέγεις·"^^xsd:string .
-:Line_1256 a :Line ; :lineNumber 1256 ; :text "καὶ τῆς ἄγαν γάρ ἐστί που σιγῆς βάρος."^^xsd:string .
-:Line_1257 a :Line ; :lineNumber 1257 ; :text "ΧΟ. Καὶ μὴν ὅδ ̓ ἄναξ αὐτὸς ἐφήκει"^^xsd:string .
-:Line_1258 a :Line ; :lineNumber 1258 ; :text "μνῆμ ̓ ἐπίσημον διὰ χειρὸς ἔχων,"^^xsd:string .
-:Line_1259 a :Line ; :lineNumber 1259 ; :text "εἰ θέμις εἰπεῖν, οὐκ ἀλλοτρίαν"^^xsd:string .
-:Line_1260 a :Line ; :lineNumber 1260 ; :text "ἄτην, ἀλλ ̓ αὐτὸς ἁμαρτών."^^xsd:string .
-:Line_1261 a :Line ; :lineNumber 1261 ; :text "ΚΡ. Ἰὼ φρενῶν δυσφρόνων ἁμαρτήματα"^^xsd:string ; :hasTheme :Theme_Misjudgment .
-:Line_1262 a :Line ; :lineNumber 1262 ; :text "στερεὰ θανατόεντ ̓,"^^xsd:string .
-:Line_1263 a :Line ; :lineNumber 1263 ; :text "ὦ κτανόντας τε καὶ"^^xsd:string .
-:Line_1264 a :Line ; :lineNumber 1264 ; :text "θανόντας βλέποντες ἐμφυλίους."^^xsd:string .
-:Line_1265 a :Line ; :lineNumber 1265 ; :text "Ὤμοι ἐμῶν ἄνολβα βουλευμάτων."^^xsd:string .
-:Line_1266 a :Line ; :lineNumber 1266 ; :text "Ἰὼ παῖ, νέος νέῳ ξὺν μόρῳ,"^^xsd:string .
-:Line_1267 a :Line ; :lineNumber 1267 ; :text "αἰαῖ αἰαῖ,"^^xsd:string .
-:Line_1268 a :Line ; :lineNumber 1268 ; :text "ἔθανες, ἀπελύθης,"^^xsd:string .
-:Line_1269 a :Line ; :lineNumber 1269 ; :text "ἐμαῖς οὐδὲ σαῖσι δυσβουλίαις."^^xsd:string .
-:Line_1270 a :Line ; :lineNumber 1270 ; :text "ΧΟ. Οἴμ ̓ ὡς ἔοικας ὀψὲ τὴν δίκην ἰδεῖν."^^xsd:string ; :hasTheme :Theme_LateJustice .
-:Line_1271 a :Line ; :lineNumber 1271 ; :text "ΚΡ. Οἴμοι,"^^xsd:string .
-:Line_1272 a :Line ; :lineNumber 1272 ; :text "ἔχω μαθὼν δείλαιος· ἐν δ ̓ ἐμῷ κάρᾳ"^^xsd:string .
-:Line_1273 a :Line ; :lineNumber 1273 ; :text "θεὸς τότ ̓ ἄρα τότε μέγα βάρος μ ̓ ἔχων"^^xsd:string ; :hasTheme :Theme_DivineRetribution .
-:Line_1274 a :Line ; :lineNumber 1274 ; :text "ἔπαισεν, ἐν δ ̓ ἔσεισεν ἀγρίαις ὁδοῖς,"^^xsd:string .
-:Line_1275 a :Line ; :lineNumber 1275 ; :text "οἴμοι, λακπάτητον ἀντρέπων χαράν."^^xsd:string .
-:Line_1276 a :Line ; :lineNumber 1276 ; :text "Φεῦ φεῦ, ἰὼ πόνοι βροτῶν δύσπονοι."^^xsd:string .
+:Line_1244 a :Line ; 
+    :lineNumber 1244 ; 
+    :text "ΧΟ. Τί τοῦτ ̓ ἂν εἰκάσειας; ἡ γυνὴ πάλιν"^^xsd:string .
+
+:Line_1245 a :Line ; 
+    :lineNumber 1245 ; 
+    :text "φρούδη, πρὶν εἰπεῖν ἐσθλὸν ἢ κακὸν λόγον."^^xsd:string .
+
+:Line_1246 a :Line ; 
+    :lineNumber 1246 ; 
+    :text "ΑΓ. Καὐτὸς τεθάμβηκ ̓· ἐλπίσιν δὲ βόσκομαι"^^xsd:string .
+
+:Line_1247 a :Line ; 
+    :lineNumber 1247 ; 
+    :text "ἄχη τέκνου κλύουσαν ἐς πόλιν γόου"^^xsd:string .
+
+:Line_1248 a :Line ; 
+    :lineNumber 1248 ; 
+    :text "οὐκ ἀξιώσειν, ἀλλ ̓ ὑπὸ στέγης ἔσω"^^xsd:string .
+
+:Line_1249 a :Line ; 
+    :lineNumber 1249 ; 
+    :text "δμωαῖς προθήσειν πένθος οἰκεῖον στένειν."^^xsd:string .
+
+:Line_1250 a :Line ;
+    :lineNumber 1250 ; 
+    :text "Γνώμης γὰρ οὐκ ἄπειρος, ὥσθ ̓ ἁμαρτάνειν."^^xsd:string .
+
+:Line_1251 a :Line ; 
+    :lineNumber 1251 ; 
+    :text "ΧΟ. Οὐκ οἶδ ̓· ἐμοὶ δ ̓ οὖν ἥ τ ̓ ἄγαν σιγὴ βαρὺ"^^xsd:string .
+
+:Line_1252 a :Line ; 
+    :lineNumber 1252 ; 
+    :text "δοκεῖ προσεῖναι χἠ μάτην πολλὴ βοή."^^xsd:string .
+
+:Line_1253 a :Line ; 
+    :lineNumber 1253 ; 
+    :text "ΑΓ. Ἀλλ ̓ εἰσόμεσθα μή τι καὶ κατάσχετον"^^xsd:string .
+
+:Line_1254 a :Line ; 
+    :lineNumber 1254 ; 
+    :text "κρυφῇ καλύπτει καρδίᾳ θυμουμένῃ,"^^xsd:string .
+
+:Line_1255 a :Line ; 
+    :lineNumber 1255 ; 
+    :text "δόμους παραστείχοντες· εὖ γὰρ οὖν λέγεις·"^^xsd:string .
+
+:Line_1256 a :Line ; 
+    :lineNumber 1256 ; 
+    :text "καὶ τῆς ἄγαν γάρ ἐστί που σιγῆς βάρος."^^xsd:string .
+
+:Line_1257 a :Line ; 
+    :lineNumber 1257 ; 
+    :text "ΧΟ. Καὶ μὴν ὅδ ̓ ἄναξ αὐτὸς ἐφήκει"^^xsd:string .
+
+:Line_1258 a :Line ;
+    :lineNumber 1258 ; 
+    :text "μνῆμ ̓ ἐπίσημον διὰ χειρὸς ἔχων,"^^xsd:string .
 
 
-:Line_1277 a :Line ; :lineNumber 1277 ; :canonicalReference "1277" ; :text "Ὦ δέσποθ ̓, ὡς ἔχων τε καὶ κεκτημένος,"^^xsd:string .
-:Line_1278 a :Line ; :lineNumber 1278 ; :canonicalReference "1278" ; :text "τὰ μὲν πρὸ χειρῶν τάδε φέρειν, τὰ δ ̓ ἐν δόμοις"^^xsd:string .
-:Line_1280 a :Line ; :lineNumber 1280 ; :canonicalReference "1280" ; :text "ἔοικας ἥκων καὶ τάχ ̓ ὄψεσθαι κακά."^^xsd:string .
-:Line_1281 a :Line ; :lineNumber 1281 ; :canonicalReference "1281" ; :text "Τί δ; ἔστιν αὖ κάκιον ἐκ κακῶν ἔτι;"^^xsd:string .
-:Line_1282 a :Line ; :lineNumber 1282 ; :canonicalReference "1282" ; :text "ΕΞ. Γυνὴ τέθνηκεν, τοῦδε παμμήτωρ νεκρού,"^^xsd:string .
-:Line_1283 a :Line ; :lineNumber 1283 ; :canonicalReference "1283" ; :text "δύστηνος, ἄρτι νεοτόμοισι πλήγμασιν."^^xsd:string .
-:Line_1284 a :Line ; :lineNumber 1284 ; :canonicalReference "1284" ; :text "ΚΡ. Ἰὼ, ἰὼ δυσκάθαρτος Ἅιδου λιμήν,"^^xsd:string ; :hasTheme :Theme_HadesHarbor .
-:Line_1285 a :Line ; :lineNumber 1285 ; :canonicalReference "1285" ; :text "τί μ ̓ ἄρα τί μ ̓ ὀλέκεις;"^^xsd:string .
-:Line_1286 a :Line ; :lineNumber 1286 ; :canonicalReference "1286" ; :text "Ὦ κακάγγελτά μοι"^^xsd:string .
-:Line_1287 a :Line ; :lineNumber 1287 ; :canonicalReference "1287" ; :text "προπέμψας ἄχη, τίνα θροεῖς λόγον;"^^xsd:string .
-:Line_1288 a :Line ; :lineNumber 1288 ; :canonicalReference "1288" ; :text "Αἰαῖ, ὀλωλότ ̓ ἄνδρ ̓ ἐπεξειργάσω."^^xsd:string .
-:Line_1289 a :Line ; :lineNumber 1289 ; :canonicalReference "1289" ; :text "Τί φῄς, ὦ παῖ; τίνα λέγεις μοι νέον,"^^xsd:string .
-:Line_1290 a :Line ; :lineNumber 1290 ; :canonicalReference "1290" ; :text "αἰαῖ, αἰαῖ,"^^xsd:string .
-:Line_1291 a :Line ; :lineNumber 1291 ; :canonicalReference "1291" ; :text "σφάγιον ἐπ ̓ ὀλέθρῳ,"^^xsd:string .
+:Line_1259 a :Line ; 
+    :lineNumber 1259 ; 
+    :text "εἰ θέμις εἰπεῖν, οὐκ ἀλλοτρίαν"^^xsd:string .
+
+:Line_1260 a :Line ; 
+    :lineNumber 1260 ; 
+    :text "ἄτην, ἀλλ ̓ αὐτὸς ἁμαρτών."^^xsd:string .
+
+:Line_1261 a :Line ; 
+    :lineNumber 1261 ; 
+    :text "ΚΡ. Ἰὼ φρενῶν δυσφρόνων ἁμαρτήματα"^^xsd:string ; 
+    :hasTheme :Theme_Misjudgment .
+
+:Line_1262 a :Line ; 
+    :lineNumber 1262 ; 
+    :text "στερεὰ θανατόεντ ̓,"^^xsd:string .
+
+:Line_1263 a :Line ; 
+    :lineNumber 1263 ; 
+    :text "ὦ κτανόντας τε καὶ"^^xsd:string .
+
+:Line_1264 a :Line ; 
+    :lineNumber 1264 ; 
+    :text "θανόντας βλέποντες ἐμφυλίους."^^xsd:string .
+
+:Line_1265 a :Line ; 
+    :lineNumber 1265 ; 
+    :text "Ὤμοι ἐμῶν ἄνολβα βουλευμάτων."^^xsd:string .
+
+:Line_1266 a :Line ; 
+    :lineNumber 1266 ; 
+    :text "Ἰὼ παῖ, νέος νέῳ ξὺν μόρῳ,"^^xsd:string .
+
+:Line_1267 a :Line ; 
+    :lineNumber 1267 ; 
+    :text "αἰαῖ αἰαῖ,"^^xsd:string .
+
+:Line_1268 a :Line ; 
+    :lineNumber 1268 ; 
+    :text "ἔθανες, ἀπελύθης,"^^xsd:string .
+
+:Line_1269 a :Line ; 
+    :lineNumber 1269 ; 
+    :text "ἐμαῖς οὐδὲ σαῖσι δυσβουλίαις."^^xsd:string .
+
+:Line_1270 a :Line ; 
+    :lineNumber 1270 ; 
+    :text "ΧΟ. Οἴμ ̓ ὡς ἔοικας ὀψὲ τὴν δίκην ἰδεῖν."^^xsd:string ; 
+    :hasTheme :Theme_LateJustice .
+
+:Line_1271 a :Line ; 
+    :lineNumber 1271 ; 
+    :text "ΚΡ. Οἴμοι,"^^xsd:string .
+
+:Line_1272 a :Line ; 
+    :lineNumber 1272 ; 
+    :text "ἔχω μαθὼν δείλαιος· ἐν δ ̓ ἐμῷ κάρᾳ"^^xsd:string .
+
+:Line_1273 a :Line ; 
+    :lineNumber 1273 ; 
+    :text "θεὸς τότ ̓ ἄρα τότε μέγα βάρος μ ̓ ἔχων"^^xsd:string ; 
+    :hasTheme :Theme_DivineRetribution .
+
+:Line_1274 a :Line ; 
+    :lineNumber 1274 ; 
+    :text "ἔπαισεν, ἐν δ ̓ ἔσεισεν ἀγρίαις ὁδοῖς,"^^xsd:string .
+
+:Line_1275 a :Line ; 
+    :lineNumber 1275 ; 
+    :text "οἴμοι, λακπάτητον ἀντρέπων χαράν."^^xsd:string .
+
+:Line_1276 a :Line ; 
+    :lineNumber 1276 ; 
+    :text "Φεῦ φεῦ, ἰὼ πόνοι βροτῶν δύσπονοι."^^xsd:string .
+
+:Line_1277 a :Line ; 
+    :lineNumber 1277 ; 
+    :canonicalReference "1277" ; 
+    :text "Ὦ δέσποθ ̓, ὡς ἔχων τε καὶ κεκτημένος,"^^xsd:string .
+
+:Line_1278 a :Line ; 
+    :lineNumber 1278 ; 
+    :canonicalReference "1278" ; 
+    :text "τὰ μὲν πρὸ χειρῶν τάδε φέρειν, τὰ δ ̓ ἐν δόμοις"^^xsd:string .
+
+:Line_1280 a :Line ; 
+    :lineNumber 1280 ; 
+    :canonicalReference "1280" ; 
+    :text "ἔοικας ἥκων καὶ τάχ ̓ ὄψεσθαι κακά."^^xsd:string .
+
+:Line_1281 a :Line ; 
+    :lineNumber 1281 ; 
+    :canonicalReference "1281" ; 
+    :text "Τί δ; ἔστιν αὖ κάκιον ἐκ κακῶν ἔτι;"^^xsd:string .
+
+:Line_1282 a :Line ; 
+    :lineNumber 1282 ; 
+    :canonicalReference "1282" ; 
+    :text "ΕΞ. Γυνὴ τέθνηκεν, τοῦδε παμμήτωρ νεκρού,"^^xsd:string .
+
+:Line_1283 a :Line ; 
+    :lineNumber 1283 ; 
+    :canonicalReference "1283" ; 
+    :text "δύστηνος, ἄρτι νεοτόμοισι πλήγμασιν."^^xsd:string .
+
+:Line_1284 a :Line ; 
+    :lineNumber 1284 ; 
+    :canonicalReference "1284" ; 
+    :text "ΚΡ. Ἰὼ, ἰὼ δυσκάθαρτος Ἅιδου λιμήν,"^^xsd:string ; 
+    :hasTheme :Theme_HadesHarbor .
+
+:Line_1285 a :Line ; 
+    :lineNumber 1285 ; 
+    :canonicalReference "1285" ; 
+    :text "τί μ ̓ ἄρα τί μ ̓ ὀλέκεις;"^^xsd:string .
+
+:Line_1286 a :Line ; 
+    :lineNumber 1286 ; 
+    :canonicalReference "1286" ; 
+    :text "Ὦ κακάγγελτά μοι"^^xsd:string .
+
+:Line_1287 a :Line ; 
+    :lineNumber 1287 ; 
+    :canonicalReference "1287" ; 
+    :text "προπέμψας ἄχη, τίνα θροεῖς λόγον;"^^xsd:string .
+
+:Line_1288 a :Line ; 
+    :lineNumber 1288 ; 
+    :canonicalReference "1288" ; 
+    :text "Αἰαῖ, ὀλωλότ ̓ ἄνδρ ̓ ἐπεξειργάσω."^^xsd:string .
+
+:Line_1289 a :Line ; 
+    :lineNumber 1289 ; 
+    :canonicalReference "1289" ; 
+    :text "Τί φῄς, ὦ παῖ; τίνα λέγεις μοι νέον,"^^xsd:string .
+
+:Line_1290 a :Line ; 
+    :lineNumber 1290 ; 
+    :canonicalReference "1290" ; 
+    :text "αἰαῖ, αἰαῖ,"^^xsd:string .
+
+:Line_1291 a :Line ; 
+    :lineNumber 1291 ; 
+    :canonicalReference "1291" ; 
+    :text "σφάγιον ἐπ ̓ ὀλέθρῳ,"^^xsd:string .
 :Line_1292 a :Line ; :lineNumber 1292 ; :canonicalReference "1292" ; :text "γυναικεῖον ἀμφικεῖσθαι μόρον;"^^xsd:string .
 :Line_1293 a :Line ; :lineNumber 1293 ; :canonicalReference "1293" ; :text "ΧΟ. Ὁρᾶν πάρεστιν· οὐ γὰρ ἐν μυχοῖς ἔτι."^^xsd:string .
 :Line_1294 a :Line ; :lineNumber 1294 ; :canonicalReference "1294" ; :text "ΚΡ. Οἴμοι,"^^xsd:string .
