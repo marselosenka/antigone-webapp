@@ -1,4 +1,4 @@
-@prefix : <http://example.org/antigone#> .
+﻿@prefix : <http://example.org/antigone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -19,61 +19,209 @@ a :Scene ;
 :developsTheme :Theme_BurialRites, :Theme_StateEdict, :Theme_FamilyDuty, :Theme_PunishmentThreat ;
 :hasConflict :Conflict_BurialRitesVsCreonEdict .
 
-:Line_001 a :Line ; :lineNumber 1 ; :canonicalReference "1" .
-:Line_002 a :Line ; :lineNumber 2 ; :canonicalReference "2" .
-:Line_003 a :Line ; :lineNumber 3 ; :canonicalReference "3" .
-:Line_004 a :Line ; :lineNumber 4 ; :canonicalReference "4" .
-:Line_005 a :Line ; :lineNumber 5 ; :canonicalReference "5" .
-:Line_006 a :Line ; :lineNumber 6 ; :canonicalReference "6" .
-:Line_007 a :Line ; :lineNumber 7 ; :canonicalReference "7" .
-:Line_008 a :Line ; :lineNumber 8 ; :canonicalReference "8" .
-:Line_009 a :Line ; :lineNumber 9 ; :canonicalReference "9" .
-:Line_010 a :Line ; :lineNumber 10 ; :canonicalReference "10" .
-:Line_011 a :Line ; :lineNumber 11 ; :canonicalReference "11" .
-:Line_012 a :Line ; :lineNumber 12 ; :canonicalReference "12" .
-:Line_013 a :Line ; :lineNumber 13 ; :canonicalReference "13" .
-:Line_014 a :Line ; :lineNumber 14 ; :canonicalReference "14" .
-:Line_015 a :Line ; :lineNumber 15 ; :canonicalReference "15" .
-:Line_016 a :Line ; :lineNumber 16 ; :canonicalReference "16" .
-:Line_017 a :Line ; :lineNumber 17 ; :canonicalReference "17" .
-:Line_018 a :Line ; :lineNumber 18 ; :canonicalReference "18" .
-:Line_019 a :Line ; :lineNumber 19 ; :canonicalReference "19" .
-:Line_020 a :Line ; :lineNumber 20 ; :canonicalReference "20"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_021 a :Line ; :lineNumber 21 ; :canonicalReference "21"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_022 a :Line ; :lineNumber 22 ; :canonicalReference "22"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_023 a :Line ; :lineNumber 23 ; :canonicalReference "23"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_024 a :Line ; :lineNumber 24 ; :canonicalReference "24"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_025 a :Line ; :lineNumber 25 ; :canonicalReference "25"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_026 a :Line ; :lineNumber 26 ; :canonicalReference "26"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_027 a :Line ; :lineNumber 27 ; :canonicalReference "27"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_028 a :Line ; :lineNumber 28 ; :canonicalReference "28"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_029 a :Line ; :lineNumber 29 ; :canonicalReference "29"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_030 a :Line ; :lineNumber 30 ; :canonicalReference "30"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_031 a :Line ; :lineNumber 31 ; :canonicalReference "31"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_032 a :Line ; :lineNumber 32 ; :canonicalReference "32"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_033 a :Line ; :lineNumber 33 ; :canonicalReference "33"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_034 a :Line ; :lineNumber 34 ; :canonicalReference "34"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_035 a :Line ; :lineNumber 35 ; :canonicalReference "35"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_036 a :Line ; :lineNumber 36 ; :canonicalReference "36"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_037 a :Line ; :lineNumber 37 ; :canonicalReference "37"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_038 a :Line ; :lineNumber 38 ; :canonicalReference "38"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_039 a :Line ; :lineNumber 39 ; :canonicalReference "39"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_040 a :Line ; :lineNumber 40 ; :canonicalReference "40"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
-:Line_041 a :Line ; :lineNumber 41 ; :canonicalReference "41"^^xsd:string ; :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 001 ---
+:Line_001 a :Line ;
+    :lineNumber 1 ;
+    :canonicalReference "1" .
+# --- 002 ---
+:Line_002 a :Line ;
+    :lineNumber 2 ;
+    :canonicalReference "2" .
+# --- 003 ---
+:Line_003 a :Line ;
+    :lineNumber 3 ;
+    :canonicalReference "3" .
+# --- 004 ---
+:Line_004 a :Line ;
+    :lineNumber 4 ;
+    :canonicalReference "4" .
+# --- 005 ---
+:Line_005 a :Line ;
+    :lineNumber 5 ;
+    :canonicalReference "5" .
+# --- 006 ---
+:Line_006 a :Line ;
+    :lineNumber 6 ;
+    :canonicalReference "6" .
+# --- 007 ---
+:Line_007 a :Line ;
+    :lineNumber 7 ;
+    :canonicalReference "7" .
+# --- 008 ---
+:Line_008 a :Line ;
+    :lineNumber 8 ;
+    :canonicalReference "8" .
+# --- 009 ---
+:Line_009 a :Line ;
+    :lineNumber 9 ;
+    :canonicalReference "9" .
+# --- 010 ---
+:Line_010 a :Line ;
+    :lineNumber 10 ;
+    :canonicalReference "10" .
+# --- 011 ---
+:Line_011 a :Line ;
+    :lineNumber 11 ;
+    :canonicalReference "11" .
+# --- 012 ---
+:Line_012 a :Line ;
+    :lineNumber 12 ;
+    :canonicalReference "12" .
+# --- 013 ---
+:Line_013 a :Line ;
+    :lineNumber 13 ;
+    :canonicalReference "13" .
+# --- 014 ---
+:Line_014 a :Line ;
+    :lineNumber 14 ;
+    :canonicalReference "14" .
+# --- 015 ---
+:Line_015 a :Line ;
+    :lineNumber 15 ;
+    :canonicalReference "15" .
+# --- 016 ---
+:Line_016 a :Line ;
+    :lineNumber 16 ;
+    :canonicalReference "16" .
+# --- 017 ---
+:Line_017 a :Line ;
+    :lineNumber 17 ;
+    :canonicalReference "17" .
+# --- 018 ---
+:Line_018 a :Line ;
+    :lineNumber 18 ;
+    :canonicalReference "18" .
+# --- 019 ---
+:Line_019 a :Line ;
+    :lineNumber 19 ;
+    :canonicalReference "19" .
+# --- 020 ---
+:Line_020 a :Line ;
+    :lineNumber 20 ;
+    :canonicalReference "20"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 021 ---
+:Line_021 a :Line ;
+    :lineNumber 21 ;
+    :canonicalReference "21"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 022 ---
+:Line_022 a :Line ;
+    :lineNumber 22 ;
+    :canonicalReference "22"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 023 ---
+:Line_023 a :Line ;
+    :lineNumber 23 ;
+    :canonicalReference "23"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 024 ---
+:Line_024 a :Line ;
+    :lineNumber 24 ;
+    :canonicalReference "24"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 025 ---
+:Line_025 a :Line ;
+    :lineNumber 25 ;
+    :canonicalReference "25"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 026 ---
+:Line_026 a :Line ;
+    :lineNumber 26 ;
+    :canonicalReference "26"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 027 ---
+:Line_027 a :Line ;
+    :lineNumber 27 ;
+    :canonicalReference "27"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 028 ---
+:Line_028 a :Line ;
+    :lineNumber 28 ;
+    :canonicalReference "28"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 029 ---
+:Line_029 a :Line ;
+    :lineNumber 29 ;
+    :canonicalReference "29"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 030 ---
+:Line_030 a :Line ;
+    :lineNumber 30 ;
+    :canonicalReference "30"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 031 ---
+:Line_031 a :Line ;
+    :lineNumber 31 ;
+    :canonicalReference "31"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 032 ---
+:Line_032 a :Line ;
+    :lineNumber 32 ;
+    :canonicalReference "32"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 033 ---
+:Line_033 a :Line ;
+    :lineNumber 33 ;
+    :canonicalReference "33"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 034 ---
+:Line_034 a :Line ;
+    :lineNumber 34 ;
+    :canonicalReference "34"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 035 ---
+:Line_035 a :Line ;
+    :lineNumber 35 ;
+    :canonicalReference "35"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 036 ---
+:Line_036 a :Line ;
+    :lineNumber 36 ;
+    :canonicalReference "36"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 037 ---
+:Line_037 a :Line ;
+    :lineNumber 37 ;
+    :canonicalReference "37"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 038 ---
+:Line_038 a :Line ;
+    :lineNumber 38 ;
+    :canonicalReference "38"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 039 ---
+:Line_039 a :Line ;
+    :lineNumber 39 ;
+    :canonicalReference "39"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 040 ---
+:Line_040 a :Line ;
+    :lineNumber 40 ;
+    :canonicalReference "40"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+# --- 041 ---
+:Line_041 a :Line ;
+    :lineNumber 41 ;
+    :canonicalReference "41"^^xsd:string ;
+    :partOfScene :Antigone_Scene_Dialogue_20_41 .
 
 
+# --- 042 ---
 :Line_042 a :Line ;
     :lineNumber 42 ;
     :canonicalReference "42"^^xsd:string ;
     :experiencesEmotion :Emotion_Alarm ;
     :hasTheme :Theme_SurvivalPrudence .
 
+# --- 043 ---
 :Line_043 a :Line ; 
     :lineNumber 43 ; 
     :canonicalReference "43"^^xsd:string ;
     :hasTheme :Theme_BurialRites ; 
     :hasMotivation :Motivation_BuryBrother .
     
+# --- 044 ---
 :Line_044 a :Line ; 
     :lineNumber 44 ; 
     :canonicalReference "44"^^xsd:string ;
@@ -83,6 +231,7 @@ a :Scene ;
     :relatedTo :Law_CreonBurialEdict .
 
 
+# --- 045 ---
 :Line_045 a :Line ; 
     :lineNumber 45 ; 
     :canonicalReference "45"^^xsd:string ; 
@@ -91,6 +240,7 @@ a :Scene ;
     :experiencesEmotion :Emotion_Resolve ; 
     :hasMotivation :Motivation_RefuseBetrayal .
 
+# --- 046 ---
 :Line_046 a :Line ; 
     :lineNumber 46 ; 
     :canonicalReference "46"^^xsd:string ;
@@ -98,6 +248,7 @@ a :Scene ;
     :experiencesEmotion :Emotion_Resolve ; 
     :hasMotivation :Motivation_RefuseBetrayal .
 
+# --- 047 ---
 :Line_047 a :Line ; 
     :lineNumber 47 ; 
     :canonicalReference "47"^^xsd:string ;
@@ -106,6 +257,7 @@ a :Scene ;
     :relatedTo :Law_CreonBurialEdict ; 
     :hasConflict :Conflict_BurialRitesVsCreonEdict .
 
+# --- 048 ---
 :Line_048 a :Line ; 
     :lineNumber 48 ; 
     :canonicalReference "48"^^xsd:string ;
@@ -115,6 +267,7 @@ a :Scene ;
     :relatedTo :Law_CreonBurialEdict ; 
     :makesMoralDecision :MoralDecision_DefyEdictForBurial .
 
+# --- 049 ---
 :Line_049 a :Line ; 
     :lineNumber 49 ; 
     :canonicalReference "49"^^xsd:string ;
@@ -122,6 +275,7 @@ a :Scene ;
     :hasTheme :Theme_SurvivalPrudence ; 
     :hasMotivation :Motivation_ProtectSister .
 
+# --- 050 ---
 :Line_050 a :Line ; 
     :lineNumber 50 ; 
     :canonicalReference "50"^^xsd:string ;
@@ -129,54 +283,63 @@ a :Scene ;
     :experiencesEmotion :Emotion_Grief ; 
     :relatedTo :Antigone_Character_Oedipus .
 
+# --- 051 ---
 :Line_051 a :Line ; 
     :lineNumber 51 ; 
     :canonicalReference "51"^^xsd:string ; 
     :hasTheme :Theme_FamilyCurse ; 
     :experiencesEmotion :Emotion_Grief .
 
+# --- 052 ---
 :Line_052 a :Line ; 
     :lineNumber 52 ; 
     :canonicalReference "52"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
     :experiencesEmotion :Emotion_Grief .
 
+# --- 053 ---
 :Line_053 a :Line ; 
     :lineNumber 53 ; 
     :canonicalReference "53"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
     :experiencesEmotion :Emotion_Grief .
 
+# --- 054 ---
 :Line_054 a :Line ; 
     :lineNumber 54 ; 
     :canonicalReference "54"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
     :experiencesEmotion :Emotion_Grief .
 
+# --- 055 ---
 :Line_055 a :Line ; 
     :lineNumber 55 ; 
     :canonicalReference "55"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
     :experiencesEmotion :Emotion_Grief .
 
+# --- 056 ---
 :Line_056 a :Line ; 
     :lineNumber 56 ; 
     :canonicalReference "56"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
     :experiencesEmotion :Emotion_Grief .
 
+# --- 057 ---
 :Line_057 a :Line ; 
     :lineNumber 57 ; 
     :canonicalReference "57"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
     :experiencesEmotion :Emotion_Grief .
 
+# --- 058 ---
 :Line_058 a :Line ; 
     :lineNumber 58 ; 
     :canonicalReference "58"^^xsd:string ;
     :hasTheme :Theme_SurvivalPrudence ; 
     :experiencesEmotion :Emotion_Fear .
 
+# --- 059 ---
 :Line_059 a :Line ; 
     :lineNumber 59 ; 
     :canonicalReference "59"^^xsd:string ;
@@ -185,6 +348,7 @@ a :Scene ;
     :experiencesEmotion :Emotion_Fear ; 
     :relatedTo :Law_CreonBurialEdict .
 
+# --- 060 ---
 :Line_060 a :Line ;
     :lineNumber 60 ; 
     :canonicalReference "60"^^xsd:string ;
@@ -193,6 +357,7 @@ a :Scene ;
     :hasMotivation :Motivation_AvoidDefyingTyrant ; 
     :relatedTo :Law_CreonBurialEdict .
 
+# --- 061 ---
 :Line_061 a :Line ; 
     :lineNumber 61 ; 
     :canonicalReference "61"^^xsd:string ;
@@ -200,6 +365,7 @@ a :Scene ;
     :hasConflict :Conflict_GenderVsAuthority ; 
     :makesMoralDecision :MoralDecision_UrgePrudence .
 
+# --- 062 ---
 :Line_062 a :Line ; 
     :lineNumber 62 ; 
     :canonicalReference "62"^^xsd:string ;
@@ -207,18 +373,21 @@ a :Scene ;
     :hasConflict :Conflict_GenderVsAuthority ; 
     :experiencesEmotion :Emotion_Fear .
 
+# --- 063 ---
 :Line_063 a :Line ; 
     :lineNumber 63 ; 
     :canonicalReference "63"^^xsd:string ;
     :hasTheme :Theme_ObedienceToAuthority .
 
 
+# --- 064 ---
 :Line_064 a :Line ; 
     :lineNumber 64 ; 
     :canonicalReference "64"^^xsd:string ;
     :hasTheme :Theme_ObedienceToAuthority ; 
     :experiencesEmotion :Emotion_Resignation .
 
+# --- 065 ---
 :Line_065 a :Line ; 
     :lineNumber 65 ; 
     :canonicalReference "65"^^xsd:string ;
@@ -226,6 +395,7 @@ a :Scene ;
     :experiencesEmotion :Emotion_Resignation ; 
     :relatedTo :Motivation_ObeyAuthorities .
 
+# --- 066 ---
 :Line_066 a :Line ; 
     :lineNumber 66 ; 
     :canonicalReference "66"^^xsd:string ;
@@ -234,6 +404,7 @@ a :Scene ;
     :relatedTo :Motivation_AvoidForcedAction .
 
 
+# --- 067 ---
 :Line_067 a :Line ; 
     :lineNumber 67 ; 
     :canonicalReference "67"^^xsd:string ;
@@ -242,24 +413,28 @@ a :Scene ;
     :relatedTo :Law_CivicBurialBan .
 
 
+# --- 068 ---
 :Line_068 a :Line ; 
     :lineNumber 68 ; 
     :canonicalReference "68"^^xsd:string ;
     :hasTheme :Theme_ObedienceToAuthority ; 
     :hasTheme :Theme_PrudenceAndModeration .
 
+# --- 069 ---
 :Line_069 a :Line ; 
     :lineNumber 69 ; 
     :canonicalReference "69"^^xsd:string ;
     :hasTheme :Theme_SisterlyDivision ; 
     :hasConflict :Conflict_SisterlyDivision .
 
+# --- 070 ---
 :Line_070 a :Line ; 
     :lineNumber 70 ; 
     :canonicalReference "70"^^xsd:string ;
     :hasTheme :Theme_SisterlyDivision ; 
     :hasConflict :Conflict_SisterlyDivision .
 
+# --- 071 ---
 :Line_071 a :Line ; 
     :lineNumber 71 ; 
     :canonicalReference "71"^^xsd:string ;
@@ -267,6 +442,7 @@ a :Scene ;
     :experiencesEmotion :Emotion_Resolve ; 
     :hasMotivation :Motivation_BuryBrotherDespiteRisk .
 
+# --- 072 ---
 :Line_072 a :Line ; 
     :lineNumber 72 ; 
     :canonicalReference "72"^^xsd:string ;
@@ -275,12 +451,14 @@ a :Scene ;
     :makesMoralDecision :MoralDecision_BuryBrotherAndAcceptDeath ; 
     :experiencesEmotion :Emotion_DefiantCourage .
 
+# --- 073 ---
 :Line_073 a :Line ; 
     :lineNumber 73 ; 
     :canonicalReference "73"^^xsd:string ;
     :hasTheme :Theme_LoyaltyToDead ; 
     :experiencesEmotion :Emotion_ReverentDuty .
 
+# --- 074 ---
 :Line_074 a :Line ; 
     :lineNumber 74 ; 
     :canonicalReference "74"^^xsd:string ;
@@ -288,18 +466,21 @@ a :Scene ;
     :advocatesFor :EthicalPrinciple_DivineHonorForDead ; 
     :experiencesEmotion :Emotion_ReverentDuty .
 
+# --- 075 ---
 :Line_075 a :Line ;
     :lineNumber 75 ; 
     :canonicalReference "75"^^xsd:string ;
     :hasTheme :Theme_LoyaltyToDead ; 
     :hasMotivation :Motivation_PleaseUnderworld .
 
+# --- 076 ---
 :Line_076 a :Line ;
     :lineNumber 76 ; 
     :canonicalReference "76"^^xsd:string ;
     :hasTheme :Theme_LoyaltyToDead ; 
     :experiencesEmotion :Emotion_Resolve .
 
+# --- 077 ---
 :Line_077 a :Line ; 
     :lineNumber 77 ; 
     :canonicalReference "77"^^xsd:string ;
@@ -307,12 +488,14 @@ a :Scene ;
     :hasConflict :Conflict_DivineLawVsCivicAuthority ; 
     :advocatesFor :EthicalPrinciple_DivineHonorForDead .
 
+# --- 078 ---
 :Line_078 a :Line ; 
     :lineNumber 78 ; 
     :canonicalReference "78"^^xsd:string ;
     :hasTheme :Theme_DivineLaw ; 
     :experiencesEmotion :Emotion_Resignation .
 
+# --- 079 ---
 :Line_079 a :Line ; 
     :lineNumber 79 ; 
     :canonicalReference "79"^^xsd:string ;
@@ -322,6 +505,7 @@ a :Scene ;
     :relatedTo :Law_CivicBurialBan .
 
 
+# --- 080 ---
 :Line_080 a :Line ; 
     :lineNumber 80 ; 
     :canonicalReference "80"^^xsd:string ;
@@ -329,6 +513,7 @@ a :Scene ;
     :hasConflict :Conflict_SisterlyDivision ; 
     :experiencesEmotion :Emotion_Resolve .
 
+# --- 081 ---
 :Line_081 a :Line ; 
     :lineNumber 81 ; 
     :canonicalReference "81"^^xsd:string ;
@@ -337,18 +522,21 @@ a :Scene ;
     :makesMoralDecision :MoralDecision_BuryBrotherAndAcceptDeath ; 
     :experiencesEmotion :Emotion_Resolve .
 
+# --- 082 ---
 :Line_082 a :Line ; 
     :lineNumber 82 ; 
     :canonicalReference "82"^^xsd:string ;
     :experiencesEmotion :Emotion_FearForAntigone ; 
     :hasTheme :Theme_SisterlyCare .
 
+# --- 083 ---
 :Line_083 a :Line ; 
     :lineNumber 83 ; 
     :canonicalReference "83"^^xsd:string ;
     :hasTheme :Theme_SisterlyDivision ; 
     :experiencesEmotion :Emotion_DefiantCourage .
 
+# --- 084 ---
 :Line_084 a :Line ; 
     :lineNumber 84 ; 
     :canonicalReference "84"^^xsd:string ;
@@ -357,6 +545,7 @@ a :Scene ;
     :makesMoralDecision :MoralDecision_RequestSecrecy ; 
     :hasConflict :Conflict_SecrecyVsWitness .
 
+# --- 085 ---
 :Line_085 a :Line ; 
     :lineNumber 85 ; 
     :canonicalReference "85"^^xsd:string ;
@@ -364,6 +553,7 @@ a :Scene ;
     :hasMotivation :Motivation_KeepPlanSecret ; 
     :hasConflict :Conflict_SecrecyVsWitness .
 
+# --- 086 ---
 :Line_086 a :Line ; 
     :lineNumber 86 ; 
     :canonicalReference "86"^^xsd:string ;
@@ -372,6 +562,7 @@ a :Scene ;
     :hasMotivation :Motivation_PublicWitnessForJustice ; 
     :hasConflict :Conflict_SecrecyVsWitness .
 
+# --- 087 ---
 :Line_087 a :Line ; 
     :lineNumber 87 ; 
     :canonicalReference "87"^^xsd:string ;
@@ -379,12 +570,14 @@ a :Scene ;
     :hasMotivation :Motivation_PublicWitnessForJustice ; 
     :hasConflict :Conflict_SecrecyVsWitness .
 
+# --- 088 ---
 :Line_088 a :Line ; 
     :lineNumber 88 ; 
     :canonicalReference "88"^^xsd:string ;
     :hasTheme :Theme_SisterlyCare ; 
     :experiencesEmotion :Emotion_WarmHeartedConcern .
 
+# --- 089 ---
 :Line_089 a :Line ; 
     :lineNumber 89 ; 
     :canonicalReference "89"^^xsd:string ;
@@ -393,6 +586,7 @@ a :Scene ;
     :hasMotivation :Motivation_PleaseUnderworld ; 
     :experiencesEmotion :Emotion_ReverentDuty .
 
+# --- 090 ---
 :Line_090 a :Line ; 
     :lineNumber 90 ; 
     :canonicalReference "90"^^xsd:string ; 
@@ -403,6 +597,7 @@ a :Scene ;
     :hasConflict :Conflict_PrudenceVsHonor .
 
 
+# --- 091 ---
 :Line_091 a :Line ; 
     :lineNumber 91 ; 
     :canonicalReference "91"^^xsd:string ; 
@@ -411,6 +606,7 @@ a :Scene ;
     :hasMotivation :Motivation_AntigonePersistUntilNoStrength ; 
     :experiencesEmotion :Emotion_AntigoneResolve .
 
+# --- 092 ---
 :Line_092 a :Line ; 
     :lineNumber 92 ; 
     :canonicalReference "92"^^xsd:string ; 
@@ -418,6 +614,7 @@ a :Scene ;
     :hasTheme :Theme_ImpossibleAction ; 
     :hasMotivation :Motivation_IsmeneDiscourageImpossible .
 
+# --- 093 ---
 :Line_093 a :Line ; 
     :lineNumber 93 ; 
     :canonicalReference "93"^^xsd:string ; 
@@ -425,6 +622,7 @@ a :Scene ;
     :hasTheme :Theme_SisterlyConflict ; 
     :experiencesEmotion :Emotion_AntigoneDefiance .
 
+# --- 094 ---
 :Line_094 a :Line ; 
     :lineNumber 94 ; 
     :canonicalReference "94"^^xsd:string ; 
@@ -433,6 +631,7 @@ a :Scene ;
     :advocatesFor :EthicalPrinciple_HonorDead ; 
     :hasConflict :Conflict_PrudenceVsHonor .
 
+# --- 095 ---
 :Line_095 a :Line ; 
     :lineNumber 95 ; 
     :canonicalReference "95"^^xsd:string ; 
@@ -441,6 +640,7 @@ a :Scene ;
     :hasMotivation :Motivation_AntigoneAcceptConsequences ; 
     :experiencesEmotion :Emotion_AntigoneResolve .
 
+# --- 096 ---
 :Line_096 a :Line ; 
     :lineNumber 96 ; 
     :canonicalReference "96"^^xsd:string ; 
@@ -449,6 +649,7 @@ a :Scene ;
     :hasMotivation :Motivation_AntigoneAcceptConsequences ; 
     :hasConflict :Conflict_LoyaltyToDeadVsFear .
 
+# --- 097 ---
 :Line_097 a :Line ; 
     :lineNumber 97 ; 
     :canonicalReference "97"^^xsd:string ; 
@@ -457,6 +658,7 @@ a :Scene ;
     :makesMoralDecision :MoralDecision_DieNoblyForHonor ; 
     :experiencesEmotion :Emotion_AntigoneResolve .
 
+# --- 098 ---
 :Line_098 a :Line ; 
     :lineNumber 98 ; 
     :canonicalReference "98"^^xsd:string ; 
@@ -464,6 +666,7 @@ a :Scene ;
     :hasTheme :Theme_SisterlyConflict ; 
     :experiencesEmotion :Emotion_IsmeneConcern .
 
+# --- 099 ---
 :Line_099 a :Line ; 
     :lineNumber 99 ; 
     :canonicalReference "99"^^xsd:string ; 

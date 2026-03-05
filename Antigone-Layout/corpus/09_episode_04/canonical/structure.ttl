@@ -1,225 +1,266 @@
-@prefix : <http://example.org/antigone#> .
+﻿@prefix : <http://example.org/antigone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :episode04-structure a owl:Ontology .
 
+# --- 806 ---
 :Line_806
   a owl:NamedIndividual, :Line ;
   :lineNumber 806 ;
   :canonicalReference "806"^^xsd:string ;
   :hasTheme :Theme_LamentForLostMarriage .
 
+# --- 807 ---
 :Line_807
   a owl:NamedIndividual, :Line ;
   :lineNumber 807 ;
   :canonicalReference "807"^^xsd:string .
 
+# --- 808 ---
 :Line_808
   a owl:NamedIndividual, :Line ;
   :lineNumber 808 ;
   :canonicalReference "808"^^xsd:string .
 
+# --- 809 ---
 :Line_809
   a owl:NamedIndividual, :Line ;
   :lineNumber 809 ;
   :canonicalReference "809"^^xsd:string .
 
+# --- 810 ---
 :Line_810
   a owl:NamedIndividual, :Line ;
   :lineNumber 810 ;
   :canonicalReference "810"^^xsd:string ;
   :hasTheme :Theme_DeathAsMarriage .
 
+# --- 811 ---
 :Line_811
   a owl:NamedIndividual, :Line ;
   :lineNumber 811 ;
   :canonicalReference "811"^^xsd:string ;
   :hasTheme :Theme_DeathAsMarriage .
 
+# --- 812 ---
 :Line_812
   a owl:NamedIndividual, :Line ;
   :lineNumber 812 ;
   :canonicalReference "812"^^xsd:string ;
   :hasTheme :Theme_LamentForLostMarriage .
 
+# --- 813 ---
 :Line_813
   a owl:NamedIndividual, :Line ;
   :lineNumber 813 ;
   :canonicalReference "813"^^xsd:string ;
   :hasTheme :Theme_LamentForLostMarriage .
 
+# --- 814 ---
 :Line_814
   a owl:NamedIndividual, :Line ;
   :lineNumber 814 ;
   :canonicalReference "814"^^xsd:string ;
   :hasTheme :Theme_LamentForLostMarriage .
 
+# --- 815 ---
 :Line_815
   a owl:NamedIndividual, :Line ;
   :lineNumber 815 ;
   :canonicalReference "815"^^xsd:string ;
   :hasTheme :Theme_DeathAsMarriage .
 
+# --- 816 ---
 :Line_816
   a owl:NamedIndividual, :Line ;
   :lineNumber 816 ;
   :canonicalReference "816"^^xsd:string ;
   :hasTheme :Theme_IsolationAndFameInDeath .
 
+# --- 817 ---
 :Line_817
   a owl:NamedIndividual, :Line ;
   :lineNumber 817 ;
   :canonicalReference "817"^^xsd:string ;
   :hasTheme :Theme_IsolationAndFameInDeath .
 
+# --- 818 ---
 :Line_818
   a owl:NamedIndividual, :Line ;
   :lineNumber 818 ;
   :canonicalReference "818"^^xsd:string .
 
+# --- 819 ---
 :Line_819
   a owl:NamedIndividual, :Line ;
   :lineNumber 819 ;
   :canonicalReference "819"^^xsd:string .
 
+# --- 820 ---
 :Line_820
   a owl:NamedIndividual, :Line ;
   :lineNumber 820 ;
   :canonicalReference "820"^^xsd:string ;
   :hasTheme :Theme_IsolationAndFameInDeath .
 
+# --- 821 ---
 :Line_821
   a owl:NamedIndividual, :Line ;
   :lineNumber 821 ;
   :canonicalReference "821"^^xsd:string ;
   :hasTheme :Theme_IsolationAndFameInDeath .
 
+# --- 822 ---
 :Line_822
   a owl:NamedIndividual, :Line ;
   :lineNumber 822 ;
   :canonicalReference "822"^^xsd:string .
 
 
+# --- 823 ---
 :Line_823
   a owl:NamedIndividual, :Line ;
   :lineNumber 823 ;
   :canonicalReference "823"^^xsd:string ;
   :hasTheme :Theme_FamilyCurseOfLabdacids .
 
+# --- 824 ---
 :Line_824
   a owl:NamedIndividual, :Line ;
   :lineNumber 824 ;
   :canonicalReference "824"^^xsd:string .
 
+# --- 825 ---
 :Line_825
   a owl:NamedIndividual, :Line ;
   :lineNumber 825 ;
   :canonicalReference "825"^^xsd:string .
 
+# --- 826 ---
 :Line_826
   a owl:NamedIndividual, :Line ;
   :lineNumber 826 ;
   :canonicalReference "826"^^xsd:string .
 
+# --- 827 ---
 :Line_827
   a owl:NamedIndividual, :Line ;
   :lineNumber 827 ;
   :canonicalReference "827"^^xsd:string .
 
+# --- 828 ---
 :Line_828
   a owl:NamedIndividual, :Line ;
   :lineNumber 828 ;
   :canonicalReference "828"^^xsd:string .
 
+# --- 829 ---
 :Line_829
   a owl:NamedIndividual, :Line ;
   :lineNumber 829 ;
   :canonicalReference "829"^^xsd:string .
 
+# --- 830 ---
 :Line_830
   a owl:NamedIndividual, :Line ;
   :lineNumber 830 ;
   :canonicalReference "830"^^xsd:string .
 
+# --- 831 ---
 :Line_831
   a owl:NamedIndividual, :Line ;
   :lineNumber 831 ;
   :canonicalReference "831"^^xsd:string .
 
+# --- 832 ---
 :Line_832
   a owl:NamedIndividual, :Line ;
   :lineNumber 832 ;
   :canonicalReference "832"^^xsd:string ;
   :hasTheme :Theme_DivineVsMortalCondition .
 
+# --- 833 ---
 :Line_833
   a owl:NamedIndividual, :Line ;
   :lineNumber 833 ;
   :canonicalReference "833"^^xsd:string ;
   :hasTheme :Theme_DivineVsMortalCondition .
 
+# --- 834 ---
 :Line_834
   a owl:NamedIndividual, :Line ;
   :lineNumber 834 ;
   :canonicalReference "834"^^xsd:string .
 
+# --- 835 ---
 :Line_835
   a owl:NamedIndividual, :Line ;
   :lineNumber 835 ;
   :canonicalReference "835"^^xsd:string ;
   :hasTheme :Theme_DivineVsMortalCondition .
 
+# --- 836 ---
 :Line_836
   a owl:NamedIndividual, :Line ;
   :lineNumber 836 ;
   :canonicalReference "836"^^xsd:string ;
   :hasTheme :Theme_LivingDeathAndExile .
 
+# --- 837 ---
 :Line_837
   a owl:NamedIndividual, :Line ;
   :lineNumber 837 ;
   :canonicalReference "837"^^xsd:string .
 
+# --- 838 ---
 :Line_838
   a owl:NamedIndividual, :Line ;
   :lineNumber 838 ;
   :canonicalReference "838"^^xsd:string .
 
+# --- 839 ---
 :Line_839
   a owl:NamedIndividual, :Line ;
   :lineNumber 839 ;
   :canonicalReference "839"^^xsd:string .
 
+# --- 840 ---
 :Line_840
   a owl:NamedIndividual, :Line ;
   :lineNumber 840 ;
   :canonicalReference "840"^^xsd:string .
 
+# --- 841 ---
 :Line_841
   a owl:NamedIndividual, :Line ;
   :lineNumber 841 ;
   :canonicalReference "841"^^xsd:string .
 
+# --- 842 ---
 :Line_842
   a owl:NamedIndividual, :Line ;
   :lineNumber 842 ;
   :canonicalReference "842"^^xsd:string .
+# --- 843 ---
 :Line_843
   a owl:NamedIndividual, :Line ;
   :lineNumber 843 ;
   :canonicalReference "843"^^xsd:string .
 
+# --- 844 ---
 :Line_844
   a owl:NamedIndividual, :Line ;
   :lineNumber 844 ;
   :canonicalReference "844"^^xsd:string .
 
+# --- 845 ---
 :Line_845
   a owl:NamedIndividual, :Line ;
   :lineNumber 845 ;
   :canonicalReference "845"^^xsd:string .
 
+# --- 846 ---
 :Line_846
   a owl:NamedIndividual, :Line ;
   :lineNumber 846 ;
@@ -227,518 +268,615 @@
   :hasTheme :Theme_LivingDeathAndExile ;
   :relatedTo :Event_AntigoneLedToLivingTomb .
 
+# --- 847 ---
 :Line_847
   a owl:NamedIndividual, :Line ;
   :lineNumber 847 ;
   :canonicalReference "847"^^xsd:string .
 
+# --- 848 ---
 :Line_848
   a owl:NamedIndividual, :Line ;
   :lineNumber 848 ;
   :canonicalReference "848"^^xsd:string ;
   :hasTheme :Theme_LivingDeathAndExile .
 
+# --- 849 ---
 :Line_849
   a owl:NamedIndividual, :Line ;
   :lineNumber 849 ;
   :canonicalReference "849"^^xsd:string ;
   :hasTheme :Theme_LivingDeathAndExile .
 
+# --- 850 ---
 :Line_850
   a owl:NamedIndividual, :Line ;
   :lineNumber 850 ;
   :canonicalReference "850"^^xsd:string .
 
+# --- 851 ---
 :Line_851
   a owl:NamedIndividual, :Line ;
   :lineNumber 851 ;
   :canonicalReference "851"^^xsd:string .
 
+# --- 852 ---
 :Line_852
   a owl:NamedIndividual, :Line ;
   :lineNumber 852 ;
   :canonicalReference "852"^^xsd:string .
 
+# --- 853 ---
 :Line_853
   a owl:NamedIndividual, :Line ;
   :lineNumber 853 ;
   :canonicalReference "853"^^xsd:string ;
   :hasTheme :Theme_FamilyCurseOfLabdacids .
 
+# --- 854 ---
 :Line_854
   a owl:NamedIndividual, :Line ;
   :lineNumber 854 ;
   :canonicalReference "854"^^xsd:string .
 
+# --- 855 ---
 :Line_855
   a owl:NamedIndividual, :Line ;
   :lineNumber 855 ;
   :canonicalReference "855"^^xsd:string .
 
+# --- 856 ---
 :Line_856
   a owl:NamedIndividual, :Line ;
   :lineNumber 856 ;
   :canonicalReference "856"^^xsd:string ;
   :hasTheme :Theme_FamilyCurseOfLabdacids .
 
+# --- 857 ---
 :Line_857
   a owl:NamedIndividual, :Line ;
   :lineNumber 857 ;
   :canonicalReference "857"^^xsd:string .
 
+# --- 858 ---
 :Line_858
   a owl:NamedIndividual, :Line ;
   :lineNumber 858 ;
   :canonicalReference "858"^^xsd:string ;
   :hasTheme :Theme_FamilyCurseOfLabdacids .
 
+# --- 859 ---
 :Line_859
   a owl:NamedIndividual, :Line ;
   :lineNumber 859 ;
   :canonicalReference "859"^^xsd:string ;
   :hasTheme :Theme_FamilyCurseOfLabdacids .
 
+# --- 860 ---
 :Line_860
   a owl:NamedIndividual, :Line ;
   :lineNumber 860 ;
   :canonicalReference "860"^^xsd:string ;
   :hasTheme :Theme_FamilyCurseOfLabdacids .
 
+# --- 861 ---
 :Line_861
   a owl:NamedIndividual, :Line ;
   :lineNumber 861 ;
   :canonicalReference "861"^^xsd:string ;
   :hasTheme :Theme_FamilyCurseOfLabdacids .
 
+# --- 862 ---
 :Line_862
   a owl:NamedIndividual, :Line ;
   :lineNumber 862 ;
   :canonicalReference "862"^^xsd:string .
 
+# --- 863 ---
 :Line_863
   a owl:NamedIndividual, :Line ;
   :lineNumber 863 ;
   :canonicalReference "863"^^xsd:string .
 
+# --- 864 ---
 :Line_864
   a owl:NamedIndividual, :Line ;
   :lineNumber 864 ;
   :canonicalReference "864"^^xsd:string ;
   :hasTheme :Theme_LivingDeathAndExile .
 
+# --- 865 ---
 :Line_865
   a owl:NamedIndividual, :Line ;
   :lineNumber 865 ;
   :canonicalReference "865"^^xsd:string .
 
+# --- 866 ---
 :Line_866
   a owl:NamedIndividual, :Line ;
   :lineNumber 866 ;
   :canonicalReference "866"^^xsd:string .
 
+# --- 867 ---
 :Line_867
   a owl:NamedIndividual, :Line ;
   :lineNumber 867 ;
   :canonicalReference "867"^^xsd:string ;
   :relatedTo :Theme_FamilyCurseOfLabdacids .
 
+# --- 868 ---
 :Line_868
   a owl:NamedIndividual, :Line ;
   :lineNumber 868 ;
   :canonicalReference "868"^^xsd:string .
 
+# --- 869 ---
 :Line_869
   a owl:NamedIndividual, :Line ;
   :lineNumber 869 ;
   :canonicalReference "869"^^xsd:string .
 
+# --- 870 ---
 :Line_870
   a owl:NamedIndividual, :Line ;
   :lineNumber 870 ;
   :canonicalReference "870"^^xsd:string .
 
+# --- 871 ---
 :Line_871
   a owl:NamedIndividual, :Line ;
   :lineNumber 871 ;
   :canonicalReference "871"^^xsd:string .
 
+# --- 872 ---
 :Line_872
   a owl:NamedIndividual, :Line ;
   :lineNumber 872 ;
   :canonicalReference "872"^^xsd:string ;
   :hasTheme :Theme_PietyAndPunishment .
 
+# --- 873 ---
 :Line_873
   a owl:NamedIndividual, :Line ;
   :lineNumber 873 ;
   :canonicalReference "873"^^xsd:string .
 
+# --- 874 ---
 :Line_874
   a owl:NamedIndividual, :Line ;
   :lineNumber 874 ;
   :canonicalReference "874"^^xsd:string .
 
+# --- 875 ---
 :Line_875
   a owl:NamedIndividual, :Line ;
   :lineNumber 875 ;
   :canonicalReference "875"^^xsd:string .
 
+# --- 876 ---
 :Line_876
   a owl:NamedIndividual, :Line ;
   :lineNumber 876 ;
   :canonicalReference "876"^^xsd:string ;
   :hasTheme :Theme_IsolationAndDeath .
 
+# --- 877 ---
 :Line_877
   a owl:NamedIndividual, :Line ;
   :lineNumber 877 ;
   :canonicalReference "877"^^xsd:string .
 
+# --- 878 ---
 :Line_878
   a owl:NamedIndividual, :Line ;
   :lineNumber 878 ;
   :canonicalReference "878"^^xsd:string .
 
+# --- 879 ---
 :Line_879
   a owl:NamedIndividual, :Line ;
   :lineNumber 879 ;
   :canonicalReference "879"^^xsd:string .
 
+# --- 880 ---
 :Line_880
   a owl:NamedIndividual, :Line ;
   :lineNumber 880 ;
   :canonicalReference "880"^^xsd:string .
 
+# --- 881 ---
 :Line_881
   a owl:NamedIndividual, :Line ;
   :lineNumber 881 ;
   :canonicalReference "881"^^xsd:string .
 
+# --- 882 ---
 :Line_882
   a owl:NamedIndividual, :Line ;
   :lineNumber 882 ;
   :canonicalReference "882"^^xsd:string .
 
+# --- 883 ---
 :Line_883
   a owl:NamedIndividual, :Line ;
   :lineNumber 883 ;
   :canonicalReference "883"^^xsd:string ;
   :hasTheme :Theme_StatePowerAndControl .
 
+# --- 884 ---
 :Line_884
   a owl:NamedIndividual, :Line ;
   :lineNumber 884 ;
   :canonicalReference "884"^^xsd:string .
 
+# --- 885 ---
 :Line_885
   a owl:NamedIndividual, :Line ;
   :lineNumber 885 ;
   :canonicalReference "885"^^xsd:string .
 
+# --- 886 ---
 :Line_886
   a owl:NamedIndividual, :Line ;
   :lineNumber 886 ;
   :canonicalReference "886"^^xsd:string .
 
+# --- 887 ---
 :Line_887
   a owl:NamedIndividual, :Line ;
   :lineNumber 887 ;
   :canonicalReference "887"^^xsd:string .
 
+# --- 888 ---
 :Line_888
   a owl:NamedIndividual, :Line ;
   :lineNumber 888 ;
   :canonicalReference "888"^^xsd:string .
 
+# --- 889 ---
 :Line_889
   a owl:NamedIndividual, :Line ;
   :lineNumber 889 ;
   :canonicalReference "889"^^xsd:string .
 
+# --- 890 ---
 :Line_890
   a owl:NamedIndividual, :Line ;
   :lineNumber 890 ;
   :canonicalReference "890"^^xsd:string .
 
+# --- 891 ---
 :Line_891
   a owl:NamedIndividual, :Line ;
   :lineNumber 891 ;
   :canonicalReference "891"^^xsd:string ;
   :hasTheme :Theme_IsolationAndDeath .
 
+# --- 892 ---
 :Line_892
   a owl:NamedIndividual, :Line ;
   :lineNumber 892 ;
   :canonicalReference "892"^^xsd:string .
 
+# --- 893 ---
 :Line_893
   a owl:NamedIndividual, :Line ;
   :lineNumber 893 ;
   :canonicalReference "893"^^xsd:string .
 
+# --- 894 ---
 :Line_894
   a owl:NamedIndividual, :Line ;
   :lineNumber 894 ;
   :canonicalReference "894"^^xsd:string .
 
+# --- 895 ---
 :Line_895
   a owl:NamedIndividual, :Line ;
   :lineNumber 895 ;
   :canonicalReference "895"^^xsd:string .
 
+# --- 896 ---
 :Line_896
   a owl:NamedIndividual, :Line ;
   :lineNumber 896 ;
   :canonicalReference "896"^^xsd:string .
 
+# --- 897 ---
 :Line_897
   a owl:NamedIndividual, :Line ;
   :lineNumber 897 ;
   :canonicalReference "897"^^xsd:string .
 
+# --- 898 ---
 :Line_898
   a owl:NamedIndividual, :Line ;
   :lineNumber 898 ;
   :canonicalReference "898"^^xsd:string .
 
+# --- 899 ---
 :Line_899
   a owl:NamedIndividual, :Line ;
   :lineNumber 899 ;
   :canonicalReference "899"^^xsd:string ;
   :hasTheme :Theme_FamilyLoyalty .
 
+# --- 900 ---
 :Line_900
   a owl:NamedIndividual, :Line ;
   :lineNumber 900 ;
   :canonicalReference "900"^^xsd:string .
 
+# --- 901 ---
 :Line_901
   a owl:NamedIndividual, :Line ;
   :lineNumber 901 ;
   :canonicalReference "901"^^xsd:string .
 
+# --- 902 ---
 :Line_902
   a owl:NamedIndividual, :Line ;
   :lineNumber 902 ;
   :canonicalReference "902"^^xsd:string .
 
+# --- 903 ---
 :Line_903
   a owl:NamedIndividual, :Line ;
   :lineNumber 903 ;
   :canonicalReference "903"^^xsd:string .
 
+# --- 904 ---
 :Line_904
   a owl:NamedIndividual, :Line ;
   :lineNumber 904 ;
   :canonicalReference "904"^^xsd:string .
 
+# --- 905 ---
 :Line_905
   a owl:NamedIndividual, :Line ;
   :lineNumber 905 ;
   :canonicalReference "905"^^xsd:string .
 
+# --- 906 ---
 :Line_906
   a owl:NamedIndividual, :Line ;
   :lineNumber 906 ;
   :canonicalReference "906"^^xsd:string .
 
+# --- 907 ---
 :Line_907
   a owl:NamedIndividual, :Line ;
   :lineNumber 907 ;
   :canonicalReference "907"^^xsd:string .
 
+# --- 908 ---
 :Line_908
   a owl:NamedIndividual, :Line ;
   :lineNumber 908 ;
   :canonicalReference "908"^^xsd:string .
 
+# --- 909 ---
 :Line_909
   a owl:NamedIndividual, :Line ;
   :lineNumber 909 ;
   :canonicalReference "909"^^xsd:string .
 
+# --- 910 ---
 :Line_910
   a owl:NamedIndividual, :Line ;
   :lineNumber 910 ;
   :canonicalReference "910"^^xsd:string .
 
+# --- 911 ---
 :Line_911
   a owl:NamedIndividual, :Line ;
   :lineNumber 911 ;
   :canonicalReference "911"^^xsd:string .
 
+# --- 912 ---
 :Line_912
   a owl:NamedIndividual, :Line ;
   :lineNumber 912 ;
   :canonicalReference "912"^^xsd:string .
 
+# --- 913 ---
 :Line_913
   a owl:NamedIndividual, :Line ;
   :lineNumber 913 ;
   :canonicalReference "913"^^xsd:string .
 
+# --- 914 ---
 :Line_914
   a owl:NamedIndividual, :Line ;
   :lineNumber 914 ;
   :canonicalReference "914"^^xsd:string .
 
+# --- 915 ---
 :Line_915
   a owl:NamedIndividual, :Line ;
   :lineNumber 915 ;
   :canonicalReference "915"^^xsd:string .
 
+# --- 916 ---
 :Line_916
   a owl:NamedIndividual, :Line ;
   :lineNumber 916 ;
   :canonicalReference "916"^^xsd:string .
 
+# --- 917 ---
 :Line_917
   a owl:NamedIndividual, :Line ;
   :lineNumber 917 ;
   :canonicalReference "917"^^xsd:string ;
   :hasTheme :Theme_IsolationAndDeath .
 
+# --- 918 ---
 :Line_918
   a owl:NamedIndividual, :Line ;
   :lineNumber 918 ;
   :canonicalReference "918"^^xsd:string .
 
+# --- 919 ---
 :Line_919
   a owl:NamedIndividual, :Line ;
   :lineNumber 919 ;
   :canonicalReference "919"^^xsd:string .
 
+# --- 920 ---
 :Line_920
   a owl:NamedIndividual, :Line ;
   :lineNumber 920 ;
   :canonicalReference "920"^^xsd:string .
 
+# --- 921 ---
 :Line_921
   a owl:NamedIndividual, :Line ;
   :lineNumber 921 ;
   :canonicalReference "921"^^xsd:string ;
   :hasTheme :Theme_PietyAndPunishment .
 
+# --- 922 ---
 :Line_922
   a owl:NamedIndividual, :Line ;
   :lineNumber 922 ;
   :canonicalReference "922"^^xsd:string .
 
+# --- 923 ---
 :Line_923
   a owl:NamedIndividual, :Line ;
   :lineNumber 923 ;
   :canonicalReference "923"^^xsd:string .
 
+# --- 924 ---
 :Line_924
   a owl:NamedIndividual, :Line ;
   :lineNumber 924 ;
   :canonicalReference "924"^^xsd:string .
 
+# --- 925 ---
 :Line_925
   a owl:NamedIndividual, :Line ;
   :lineNumber 925 ;
   :canonicalReference "925"^^xsd:string .
 
+# --- 926 ---
 :Line_926
   a owl:NamedIndividual, :Line ;
   :lineNumber 926 ;
   :canonicalReference "926"^^xsd:string .
 
+# --- 927 ---
 :Line_927
   a owl:NamedIndividual, :Line ;
   :lineNumber 927 ;
   :canonicalReference "927"^^xsd:string .
 
+# --- 928 ---
 :Line_928
   a owl:NamedIndividual, :Line ;
   :lineNumber 928 ;
   :canonicalReference "928"^^xsd:string .
 
 
+# --- 929 ---
 :Line_929
   a owl:NamedIndividual, :Line ;
   :lineNumber 929 ;
   :canonicalReference "929"^^xsd:string ;
   :hasTheme :Theme_PersistenceOfGrief .
 
+# --- 930 ---
 :Line_930
   a owl:NamedIndividual, :Line ;
   :lineNumber 930 ;
   :canonicalReference "930"^^xsd:string ;
   :hasTheme :Theme_PersistenceOfGrief .
 
+# --- 931 ---
 :Line_931
   a owl:NamedIndividual, :Line ;
   :lineNumber 931 ;
   :canonicalReference "931"^^xsd:string ;
   :hasTheme :Theme_PunishmentForDelay .
 
+# --- 932 ---
 :Line_932
   a owl:NamedIndividual, :Line ;
   :lineNumber 932 ;
   :canonicalReference "932"^^xsd:string ;
   :hasTheme :Theme_PunishmentForDelay .
 
+# --- 933 ---
 :Line_933
   a owl:NamedIndividual, :Line ;
   :lineNumber 933 ;
   :canonicalReference "933"^^xsd:string ;
   :hasTheme :Theme_ApproachOfDeath .
 
+# --- 934 ---
 :Line_934
   a owl:NamedIndividual, :Line ;
   :lineNumber 934 ;
   :canonicalReference "934"^^xsd:string ;
   :hasTheme :Theme_ApproachOfDeath .
 
+# --- 935 ---
 :Line_935
   a owl:NamedIndividual, :Line ;
   :lineNumber 935 ;
   :canonicalReference "935"^^xsd:string ;
   :hasTheme :Theme_ResolveToEnforceDecision .
 
+# --- 936 ---
 :Line_936
   a owl:NamedIndividual, :Line ;
   :lineNumber 936 ;
   :canonicalReference "936"^^xsd:string ;
   :hasTheme :Theme_PublicWitnessAndShame .
 
+# --- 937 ---
 :Line_937
   a owl:NamedIndividual, :Line ;
   :lineNumber 937 ;
   :canonicalReference "937"^^xsd:string ;
   :hasTheme :Theme_PublicWitnessAndShame .
 
+# --- 938 ---
 :Line_938
   a owl:NamedIndividual, :Line ;
   :lineNumber 938 ;
   :canonicalReference "938"^^xsd:string ;
   :hasTheme :Theme_ApproachOfDeath .
 
+# --- 939 ---
 :Line_939
   a owl:NamedIndividual, :Line ;
   :lineNumber 939 ;
   :canonicalReference "939"^^xsd:string ;
   :hasTheme :Theme_PublicWitnessAndShame .
 
+# --- 940 ---
 :Line_940
   a owl:NamedIndividual, :Line ;
   :lineNumber 940 ;
   :canonicalReference "940"^^xsd:string ;
   :hasTheme :Theme_PublicWitnessAndShame .
 
+# --- 941 ---
 :Line_941
   a owl:NamedIndividual, :Line ;
   :lineNumber 941 ;
   :canonicalReference "941"^^xsd:string ;
   :hasTheme :Theme_PublicWitnessAndShame .
 
+# --- 942 ---
 :Line_942
   a owl:NamedIndividual, :Line ;
   :lineNumber 942 ;
   :canonicalReference "942"^^xsd:string ;
   :hasTheme :Theme_PietyAndSuffering .
 
+# --- 943 ---
 :Line_943
   a owl:NamedIndividual, :Line ;
   :lineNumber 943 ;

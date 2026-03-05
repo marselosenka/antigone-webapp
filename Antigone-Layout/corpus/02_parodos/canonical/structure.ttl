@@ -1,4 +1,4 @@
-@prefix : <http://example.org/antigone#> .
+﻿@prefix : <http://example.org/antigone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -6,6 +6,7 @@
 
 
 # 100 is missing
+# --- 101 ---
 :Line_101 a :Line ;
     :lineNumber 101 ; 
     :canonicalReference "101"^^xsd:string ; 
@@ -14,6 +15,7 @@
     :hasSymbol :Symbol_SunRay ; 
     :referencesMyth :Myth_Sunlight .
 
+# --- 102 ---
 :Line_102 a :Line ;
     :lineNumber 102 ; 
     :canonicalReference "102"^^xsd:string ; 
@@ -23,6 +25,7 @@
     :referencesMyth 
     :Myth_ThebesSevenGates .
 
+# --- 103 ---
 :Line_103 a :Line ;
     :lineNumber 103 ; 
     :canonicalReference "103"^^xsd:string ;
@@ -30,6 +33,7 @@
     :hasTheme :Theme_DawnHope ; 
     :referencesMyth :Myth_ThebesSevenGates .
 
+# --- 104 ---
 :Line_104 a :Line ; 
     :lineNumber 104 ; 
     :canonicalReference "104"^^xsd:string ; 
@@ -38,6 +42,7 @@
     :referencesMyth :Myth_Sunlight ;
     :hasSymbol :Symbol_SunRay .
 
+# --- 105 ---
 :Line_105 a :Line ; 
     :lineNumber 105 ; 
     :canonicalReference "105"^^xsd:string ; 
@@ -45,6 +50,7 @@
     :hasTheme :Theme_DawnHope ; 
     :referencesMyth :Myth_DirceStreams .
 
+# --- 106 ---
 :Line_106 a :Line ; 
     :lineNumber 106 ; 
     :canonicalReference "106"^^xsd:string ; 
@@ -52,6 +58,7 @@
     :hasTheme :Theme_DawnHope ; 
     :referencesMyth :Myth_DirceStreams .
 
+# --- 107 ---
 :Line_107 a :Line ; 
     :lineNumber 107 ; 
     :canonicalReference "107"^^xsd:string ; 
@@ -59,6 +66,7 @@
     :hasTheme :Theme_WarAftermath ; 
     :referencesMyth :Myth_ArgiveArmy .
 
+# --- 108 ---
 :Line_108 a :Line ; 
     :lineNumber 108 ; 
     :canonicalReference "108"^^xsd:string ; 
@@ -66,6 +74,7 @@
     :hasTheme :Theme_WarAftermath ; 
     :referencesMyth :Myth_ArgiveArmy .
 
+# --- 109 ---
 :Line_109 a :Line ; 
     :lineNumber 109 ; 
     :canonicalReference "109"^^xsd:string ; 
@@ -73,6 +82,7 @@
     :hasTheme :Theme_WarAftermath ; 
     :referencesMyth :Myth_ArgiveArmy .
 
+# --- 110 ---
 :Line_110 a :Line ; 
     :lineNumber 110 ; 
     :canonicalReference "110"^^xsd:string ; 
@@ -80,6 +90,7 @@
     :hasTheme :Theme_WarAftermath ; 
     :referencesMyth :Myth_PolyneicesAttack .
 
+# --- 111 ---
 :Line_111 a :Line ; 
     :lineNumber 111 ; 
     :canonicalReference "111"^^xsd:string ; 
@@ -87,6 +98,7 @@
     :hasTheme :Theme_WarAftermath ; 
     :referencesMyth :Myth_PolyneicesAttack .
 
+# --- 112 ---
 :Line_112 a :Line ; 
     :lineNumber 112 ; 
     :canonicalReference "112"^^xsd:string ; 
@@ -94,6 +106,7 @@
     :hasTheme :Theme_WarAftermath ; 
     :referencesMyth :Myth_PolyneicesAttack .
 
+# --- 113 ---
 :Line_113 a :Line ; 
     :lineNumber 113 ; 
     :canonicalReference "113"^^xsd:string ; 
@@ -102,6 +115,7 @@
     :referencesMyth :Myth_PolyneicesAttack .
 # 114 is missing
 
+# --- 115 ---
 :Line_115 a :Line ; 
     :lineNumber 115 ; 
     :canonicalReference "115"^^xsd:string ; 
@@ -110,6 +124,7 @@
     :hasSymbol :Symbol_EagleInvader ; 
     :referencesMyth :Myth_ArgiveEagleAssault .
 
+# --- 116 ---
 :Line_116 a :Line ; 
     :lineNumber 116 ; 
     :canonicalReference "116"^^xsd:string ; 
@@ -117,6 +132,7 @@
     :hasTheme :Theme_InvasionThreat ; 
     :referencesMyth :Myth_ArgiveEagleAssault .
 
+# --- 117 ---
 :Line_117 a :Line ; 
     :lineNumber 117 ; 
     :canonicalReference "117"^^xsd:string ; 
@@ -124,6 +140,7 @@
     :hasTheme :Theme_WarViolence ; 
     :referencesMyth :Myth_ArgiveEagleAssault .
 
+# --- 118 ---
 :Line_118 a :Line ; 
     :lineNumber 118 ; 
     :canonicalReference "118"^^xsd:string ; 
@@ -132,6 +149,7 @@
     :referencesMyth :Myth_ArgiveEagleAssault .
 
 
+# --- 119 ---
 :Line_119 a :Line ; 
     :lineNumber 119 ; 
     :canonicalReference "119"^^xsd:string ; 
@@ -140,6 +158,7 @@
     :hasSymbol :Symbol_EagleInvader ; 
     :referencesMyth :Myth_ArgiveEagleAssault .
 
+# --- 120 ---
 :Line_120 a :Line ; 
     :lineNumber 120 ; 
     :canonicalReference "120"^^xsd:string ; 
@@ -148,6 +167,7 @@
     :hasSymbol :Symbol_EagleInvader ; 
     :referencesMyth :Myth_ArgiveEagleAssault .
 
+# --- 121 ---
 :Line_121 a :Line ; 
     :lineNumber 121 ; 
     :canonicalReference "121"^^xsd:string ; 
@@ -156,18 +176,21 @@
     :hasSymbol :Symbol_SevenSpears ; 
     :referencesMyth :Myth_SevenGates .
 
+# --- 122 ---
 :Line_122 a :Line ; 
     :lineNumber 122 ; 
     :canonicalReference "122"^^xsd:string ; 
     :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR ;
     :hasTheme :Theme_ThebesDefense .
 
+# --- 123 ---
 :Line_123 a :Line ; 
     :lineNumber 123 ; 
     :canonicalReference "123"^^xsd:string ; 
     :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR ;
     :hasTheme :Theme_WarViolence .
 
+# --- 124 ---
 :Line_124 a :Line ;
     :lineNumber 124 ; 
     :canonicalReference "124"^^xsd:string ; 
@@ -175,6 +198,7 @@
     :hasTheme :Theme_ThebesDefense ; 
     :referencesMyth :Myth_SevenGates .
 
+# --- 125 ---
 :Line_125 a :Line ; 
     :lineNumber 125 ; 
     :canonicalReference "125"^^xsd:string ; 
@@ -185,6 +209,7 @@
 
 
 
+# --- 126 ---
 :Line_126 a :Line ; 
     :lineNumber 126 ; 
     :canonicalReference "126"^^xsd:string ; 
@@ -192,6 +217,7 @@
     :hasTheme :Theme_WarViolence ; 
     :referencesMyth :Myth_AresWarClash .
 
+# --- 127 ---
 :Line_127 a :Line ; 
     :lineNumber 127 ; 
     :canonicalReference "127"^^xsd:string ; 
@@ -199,6 +225,7 @@
     :hasTheme :Theme_WarViolence ; 
     :referencesMyth :Myth_AresWarClash .
 
+# --- 128 ---
 :Line_128 a :Line ; 
     :lineNumber 128 ; 
     :canonicalReference "128"^^xsd:string ; 
@@ -206,6 +233,7 @@
     :hasTheme :Theme_WarViolence ; 
     :referencesMyth :Myth_DragonDefender .
 
+# --- 129 ---
 :Line_129 a :Line ; 
     :lineNumber 129 ; 
     :canonicalReference "129"^^xsd:string ; 
@@ -214,6 +242,7 @@
     :hasConflict :Conflict_HubrisVsDivineOrder ; 
     :referencesMyth :Myth_ZeusLightningStrike .
 
+# --- 130 ---
 :Line_130 a :Line ; 
     :lineNumber 130 ; 
     :canonicalReference "130"^^xsd:string ; 
@@ -222,6 +251,7 @@
     :referencesMyth :Myth_ZeusLightningStrike ; 
     :hasConflict :Conflict_HubrisVsDivineOrder .
 
+# --- 131 ---
 :Line_131 a :Line ; 
     :lineNumber 131 ; 
     :canonicalReference "131"^^xsd:string ; 
@@ -229,6 +259,7 @@
     :hasTheme :Theme_DivineIntervention ; 
     :referencesMyth :Myth_ZeusLightningStrike .
 
+# --- 132 ---
 :Line_132 a :Line ; 
     :lineNumber 132 ; 
     :canonicalReference "132"^^xsd:string ; 
@@ -237,6 +268,7 @@
     :hasConflict :Conflict_HubrisVsDivineOrder ; 
     :referencesMyth :Myth_ZeusLightningStrike .
 
+# --- 133 ---
 :Line_133 a :Line ; 
     :lineNumber 133 ; 
     :canonicalReference "133"^^xsd:string ; 
@@ -245,12 +277,14 @@
     :hasSymbol :Symbol_FireBrand ; 
     :referencesMyth :Myth_ZeusLightningStrike .
 
+# --- 134 ---
 :Line_134 a :Line ; 
     :lineNumber 134 ; 
     :canonicalReference "134"^^xsd:string ; 
     :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR ;
     :hasTheme :Theme_DivineIntervention .
 
+# --- 135 ---
 :Line_135 a :Line ; 
     :lineNumber 135 ; 
     :canonicalReference "135"^^xsd:string ; 
@@ -259,6 +293,7 @@
     :hasConflict :Conflict_HubrisVsDivineOrder ; 
     :referencesMyth :Myth_ZeusLightningStrike .
 
+# --- 136 ---
 :Line_136 a :Line ; 
     :lineNumber 136 ; 
     :canonicalReference "136"^^xsd:string ; 
@@ -266,6 +301,7 @@
     :hasTheme :Theme_DivineIntervention ; 
     :referencesMyth :Myth_ZeusLightningStrike .
 
+# --- 137 ---
 :Line_137 a :Line ; 
     :lineNumber 137 ; 
     :canonicalReference "137"^^xsd:string ; 
@@ -273,18 +309,21 @@
     :hasTheme :Theme_WarViolence ; 
     :hasSymbol :Symbol_FireBrand .
 
+# --- 138 ---
 :Line_138 a :Line ; 
     :lineNumber 138 ; 
     :canonicalReference "138"^^xsd:string ; 
     :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR ;
     :hasTheme :Theme_WarViolence .
 
+# --- 139 ---
 :Line_139 a :Line ; 
     :lineNumber 139 ; 
     :canonicalReference "139"^^xsd:string ; 
     :partOfScene :Antigone_Scene_Parodos_StropheA_115_140_GR ;
     :hasTheme :Theme_WarViolence .
 
+# --- 140 ---
 :Line_140 a :Line ; 
     :lineNumber 140 ; 
     :canonicalReference "140"^^xsd:string ; 
@@ -294,46 +333,54 @@
 
 # 141 to 161 are missing some properties, but they are all in the same scene and have the same theme, 
 # so we can add those properties to all of them together.
+# --- 141 ---
 :Line_141 a owl:NamedIndividual, :Line ;
     :lineNumber 141 ;
     :canonicalReference "141"^^xsd:string ;
     :hasTheme :Theme_ThebanVictoryThanksgiving .
 
+# --- 142 ---
 :Line_142 a owl:NamedIndividual, :Line ;
     :lineNumber 142 ;
     :canonicalReference "142"^^xsd:string ;
     :hasTheme :Theme_ThebanVictoryThanksgiving .
 
+# --- 143 ---
 :Line_143 a owl:NamedIndividual, :Line ;
     :lineNumber 143 ;
     :canonicalReference "143"^^xsd:string ;
     :referencesMyth :Myth_ZeusTropaios ;
     :hasTheme :Theme_ThebanVictoryThanksgiving .
 
+# --- 144 ---
 :Line_144 a owl:NamedIndividual, :Line ;
     :lineNumber 144 ;
     :canonicalReference "144"^^xsd:string ;
     :hasTheme :Theme_FraternalCivilWar ;
     :hasConflict :Conflict_BrothersMutualDeath .
 
+# --- 145 ---
 :Line_145 a owl:NamedIndividual, :Line ;
     :lineNumber 145 ;
     :canonicalReference "145"^^xsd:string ;
     :hasTheme :Theme_FraternalCivilWar ;
     :hasConflict :Conflict_BrothersMutualDeath .
 
+# --- 146 ---
 :Line_146 a owl:NamedIndividual, :Line ;
     :lineNumber 146 ;
     :canonicalReference "146"^^xsd:string ;
     :hasTheme :Theme_FraternalCivilWar ;
     :hasConflict :Conflict_BrothersMutualDeath .
 
+# --- 147 ---
 :Line_147 a owl:NamedIndividual, :Line ;
     :lineNumber 147 ;
     :canonicalReference "147"^^xsd:string ;
     :hasTheme :Theme_FraternalCivilWar ;
     :hasConflict :Conflict_BrothersMutualDeath .
 
+# --- 148 ---
 :Line_148 a owl:NamedIndividual, :Line ;
     :lineNumber 148 ;
     :canonicalReference "148"^^xsd:string ;
@@ -341,36 +388,42 @@
     :hasTheme :Theme_ThebanVictoryThanksgiving ;
     :relatedTo :Event_VictoryArrivesAtThebes .
 
+# --- 149 ---
 :Line_149 a owl:NamedIndividual, :Line ;
     :lineNumber 149 ;
     :canonicalReference "149"^^xsd:string ;
     :hasTheme :Theme_ThebanVictoryThanksgiving ;
     :relatedTo :Event_VictoryArrivesAtThebes .
 
+# --- 150 ---
 :Line_150 a owl:NamedIndividual, :Line ;
     :lineNumber 150 ;
     :canonicalReference "150"^^xsd:string ;
     :hasTheme :Theme_ThebanVictoryThanksgiving ;
     :relatedTo :Motivation_CelebrateVictoryWithChorusDances .
 
+# --- 151 ---
 :Line_151 a owl:NamedIndividual, :Line ;
     :lineNumber 151 ;
     :canonicalReference "151"^^xsd:string ;
     :hasTheme :Theme_ThebanVictoryThanksgiving ;
     :relatedTo :Motivation_CelebrateVictoryWithChorusDances .
 
+# --- 152 ---
 :Line_152 a owl:NamedIndividual, :Line ;
     :lineNumber 152 ;
     :canonicalReference "152"^^xsd:string ;
     :hasTheme :Theme_ThebanVictoryThanksgiving ;
     :relatedTo :Motivation_CelebrateVictoryWithChorusDances .
 
+# --- 153 ---
 :Line_153 a owl:NamedIndividual, :Line ;
     :lineNumber 153 ;
     :canonicalReference "153"^^xsd:string ;
     :hasTheme :Theme_ThebanVictoryThanksgiving ;
     :relatedTo :Motivation_CelebrateVictoryWithChorusDances .
 
+# --- 154 ---
 :Line_154 a owl:NamedIndividual, :Line ;
     :lineNumber 154 ;
     :canonicalReference "154"^^xsd:string ;
@@ -378,6 +431,7 @@
     :referencesMyth :Myth_Bacchus ;
     :relatedTo :Motivation_CelebrateVictoryWithChorusDances .
 
+# --- 155 ---
 :Line_155 a owl:NamedIndividual, :Line ;
     :lineNumber 155 ;
     :canonicalReference "155"^^xsd:string ;
@@ -385,12 +439,14 @@
     :referencesMyth :Myth_Bacchus ;
     :relatedTo :Motivation_CelebrateVictoryWithChorusDances .
 
+# --- 156 ---
 :Line_156 a owl:NamedIndividual, :Line ;
     :lineNumber 156 ;
     :canonicalReference "156"^^xsd:string ;
     :hasTheme :Theme_PoliticalTransitionToCreon ;
     :relatedTo :Event_CreonApproachesAsNewRuler .
 
+# --- 157 ---
 :Line_157 a owl:NamedIndividual, :Line ;
     :lineNumber 157 ;
     :canonicalReference "157"^^xsd:string ;
@@ -398,24 +454,28 @@
     :hasTheme :Theme_PoliticalTransitionToCreon ;
     :relatedTo :Event_CreonApproachesAsNewRuler .
 
+# --- 158 ---
 :Line_158 a owl:NamedIndividual, :Line ;
     :lineNumber 158 ;
     :canonicalReference "158"^^xsd:string ;
     :hasTheme :Theme_PoliticalTransitionToCreon ;
     :relatedTo :Event_CreonApproachesAsNewRuler .
 
+# --- 159 ---
 :Line_159 a owl:NamedIndividual, :Line ;
     :lineNumber 159 ;
     :canonicalReference "159"^^xsd:string ;
     :hasTheme :Theme_PoliticalTransitionToCreon ;
     :relatedTo :Motivation_CreonConveneEldersCouncil .
 
+# --- 160 ---
 :Line_160 a owl:NamedIndividual, :Line ;
     :lineNumber 160 ;
     :canonicalReference "160"^^xsd:string ;
     :hasTheme :Theme_PoliticalTransitionToCreon ;
     :relatedTo :MoralDecision_SummonEldersByCommonProclamation .
 
+# --- 161 ---
 :Line_161 a owl:NamedIndividual, :Line ;
     :lineNumber 161 ;
     :canonicalReference "161"^^xsd:string ;
