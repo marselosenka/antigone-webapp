@@ -1,0 +1,254 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Translation variants for lines 280-301
+
+:TV_Line_280_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_280 ;
+  :text "CREON. Shut up! Before your words fill me with rage 280"^^xsd:string .
+
+:TV_Line_281_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_281 ;
+  :text "And we find out that you’re both old and stupid."^^xsd:string .
+
+:TV_Line_282_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_282 ;
+  :text "What you’ve said is unthinkable,"^^xsd:string .
+
+:TV_Line_283_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_283 ;
+  :text "That the gods are protecting this corpse."^^xsd:string .
+
+:TV_Line_284_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_284 ;
+  :text "Did they bury this man"^^xsd:string .
+
+:TV_Line_285_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_285 ;
+  :text "To honor his good deeds?"^^xsd:string .
+
+:TV_Line_286_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_286 ;
+  :text "This man who came to burn 285"^^xsd:string .
+
+:TV_Line_287_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_287 ;
+  :text "Their pillar-girded temples, their holy offerings, their land—"^^xsd:string .
+
+:TV_Line_288_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_288 ;
+  :text "This man who threw the laws to the wind?"^^xsd:string .
+
+:TV_Line_289_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_289 ;
+  :text "Do you see the gods honoring such wicked men?"^^xsd:string .
+
+:TV_Line_289b_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_289 ;
+  :text "I don’t. But from the beginning some men of this city"^^xsd:string .
+
+:TV_Line_290_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_290 ;
+  :text "Have been muttering against me, 290"^^xsd:string .
+
+:TV_Line_291_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_291 ;
+  :text "Throwing back their heads in secret, refusing to bring"^^xsd:string .
+
+:TV_Line_292_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_292 ;
+  :text "Their necks under the yoke in just submission to me."^^xsd:string .
+
+:TV_Line_293_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_293 ;
+  :text "For this reason it is clear that"^^xsd:string .
+
+:TV_Line_294_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_294 ;
+  :text "These men were bribed."^^xsd:string .
+
+:TV_Line_295_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_295 ;
+  :text "In all mankind there is no worse custom 295"^^xsd:string .
+
+:TV_Line_296_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_296 ;
+  :text "Than money. It corrupts cities,"^^xsd:string .
+
+:TV_Line_297_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_297 ;
+  :text "It drives men from their homes,"^^xsd:string .
+
+:TV_Line_298_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_298 ;
+  :text "It seduces them and instructs their otherwise"^^xsd:string .
+
+:TV_Line_299_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_299 ;
+  :text "Capable minds in the ways of savagery."^^xsd:string .
+
+:TV_Line_300_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_300 ;
+  :text "It taught mankind wickedness. 300"^^xsd:string .
+
+:TV_Line_301_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_301 ;
+  :text "It makes every act ungodly."^^xsd:string .
+
+:TV_Line_280_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_280 ;
+  :text "ΚΡΕΩΝ. Πάψε, πριν χάσω την ψυχραιμία μου! 275"^^xsd:string .
+
+:TV_Line_282_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_282 ;
+  :text "Τι πράγματα είναι αυτά που λες;"^^xsd:string .
+
+:TV_Line_281_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_281 ;
+  :text "Θέλεις να μου αποδείξεις πως εκτός"^^xsd:string .
+
+:TV_Line_281b_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_281 ;
+  :text "από γέρος είσαι κι ανόητος;"^^xsd:string .
+
+:TV_Line_283_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_283 ;
+  :text "Δεν δέχομαι πως οι θεοί θέλουν να προστατεύσουν"^^xsd:string .
+
+:TV_Line_283b_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_283 ;
+  :text "τέτοιο νεκρό. Γιατί να το κάνουν; 280"^^xsd:string .
+
+:TV_Line_286_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_286 ;
+  :text "Επειδή τους τίμησε ζητώντας να κάνει στάχτη τους ναούς,"^^xsd:string .
+
+:TV_Line_287_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_287 ;
+  :text "τ’ αφιερώματα, τη γη τους; Να σκορπίσει"^^xsd:string .
+
+:TV_Line_287b_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_287 ;
+  :text "τους νόμους τους στους πέντε ανέμους;"^^xsd:string .
+
+:TV_Line_288_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_288 ;
+  :text "Ή μήπως επειδή οι νόμοι τους δικαιώνουν"^^xsd:string .
+
+:TV_Line_288b_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_288 ;
+  :text "τους άτιμους; Όχι· δεν είναι δυνατόν. 285"^^xsd:string .
+
+:TV_Line_289_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_289 ;
+  :text "Ξέρω εγώ τι έγινε. Απ’ την αρχή ορισμένοι"^^xsd:string .
+
+:TV_Line_290_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_290 ;
+  :text "πολίτες είχαν πρόβλημα με τη διαταγή μου."^^xsd:string .
+
+:TV_Line_291_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_291 ;
+  :text "Κουνούσαν το κεφάλι και μουρμούριζαν"^^xsd:string .
+
+:TV_Line_292_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_292 ;
+  :text "πως δεν θα σκύψουν -τάχα- να τους περάσω χαλινάρι."^^xsd:string .
+
+:TV_Line_293_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_293 ;
+  :text "Αυτοί -είμαι βέβαιος- πλήρωσαν κάποιους να το κάνουν.290"^^xsd:string .
+
+:TV_Line_294_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_294 ;
+  :text "Αυτοί -είμαι βέβαιος- πλήρωσαν κάποιους να το κάνουν.290"^^xsd:string .
+
+:TV_Line_295_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_295 ;
+  :text "Άτιμη συνήθεια το χρήμα στους ανθρώπους!"^^xsd:string .
+
+:TV_Line_296_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_296 ;
+  :text "Και πόλεις ρημάζει και σπίτια διαλύει"^^xsd:string .
+
+:TV_Line_297_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_297 ;
+  :text "Και πόλεις ρημάζει και σπίτια διαλύει"^^xsd:string .
+
+:TV_Line_298_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_298 ;
+  :text "και συνειδήσεις διαφθείρει."^^xsd:string .
+
+:TV_Line_299_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_299 ;
+  :text "Κάνει τον έντιμο άτιμο, τον λογικό παράλογο"^^xsd:string .
+
+:TV_Line_300_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_300 ;
+  :text "και τη ζωή συναλλαγή πανούργα. 295"^^xsd:string .
+
+:TV_Line_280_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_280 ;
+  :text "Παῦσαι, πρὶν ὀργῆς κἀμὲ μεστῶσαι λέγων,"^^xsd:string .
+
+:TV_Line_281_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_281 ;
+  :text "μὴ  ̓φευρεθῇς ἄνους τε καὶ γέρων ἅμα."^^xsd:string .
+
+:TV_Line_282_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_282 ;
+  :text "Λέγεις γὰρ οὐκ ἀνεκτὰ δαίμονας λέγων"^^xsd:string .
+
+:TV_Line_283_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_283 ;
+  :text "πρόνοιαν ἴσχειν τοῦδε τοῦ νεκροῦ πέρι."^^xsd:string .
+
+:TV_Line_284_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_284 ;
+  :text "Πότερον ὑπερτιμῶντες ὡς εὐεργέτην"^^xsd:string .
+
+:TV_Line_285_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_285 ;
+  :text "ἔκρυπτον αὐτόν, ὅστις ἀμφικίονας"^^xsd:string .
+
+:TV_Line_286_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_286 ;
+  :text "ναοὺς πυρώσων ἦλθε κἀναθήματα"^^xsd:string .
+
+:TV_Line_287_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_287 ;
+  :text "καὶ γῆν ἐκείνων καὶ νόμους διασκεδῶν;"^^xsd:string .
+
+:TV_Line_288_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_288 ;
+  :text "ἢ τοὺς κακοὺς τιμῶντας εἰσορᾷς θεούς;"^^xsd:string .
+
+:TV_Line_289_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_289 ;
+  :text "Οὐκ ἔστιν· ἀλλὰ ταῦτα καὶ πάλαι πόλεως"^^xsd:string .
+
+:TV_Line_290_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_290 ;
+  :text "ἄνδρες μόλις φέροντες ἐρρόθουν ἐμοὶ"^^xsd:string .
+
+:TV_Line_291_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_291 ;
+  :text "κρυφῇ, κάρα σείοντες, οὐδ ̓ ὑπὸ ζυγῷ"^^xsd:string .
+
+:TV_Line_292_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_292 ;
+  :text "λόφον δικαίως εἶχον, ὡς στέργειν ἐμέ."^^xsd:string .
+
+:TV_Line_293_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_293 ;
+  :text "Ἐκ τῶνδε τούτους ἐξεπίσταμαι καλῶς"^^xsd:string .
+
+:TV_Line_294_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_294 ;
+  :text "παρηγμένους μισθοῖσιν εἰργάσθαι τάδε."^^xsd:string .
+
+:TV_Line_295_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_295 ;
+  :text "Οὐδὲν γὰρ ἀνθρώποισιν οἷον ἄργυρος"^^xsd:string .
+
+:TV_Line_296_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_296 ;
+  :text "κακὸν νόμισμ ̓ ἔβλαστε· τοῦτο καὶ πόλεις"^^xsd:string .
+
+:TV_Line_297_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_297 ;
+  :text "πορθεῖ, τόδ ̓ ἄνδρας ἐξανίστησιν δόμων"^^xsd:string .
+
+:TV_Line_298_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_298 ;
+  :text "τόδ ̓ ἐκδιδάσκει καὶ παραλλάσσει φρένας"^^xsd:string .
+
+:TV_Line_299_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_299 ;
+  :text "χρηστὰς πρὸς αἰσχρὰ πράγμαθ ̓ ἵστασθαι βροτῶν"^^xsd:string .
+
+:TV_Line_300_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_300 ;
+  :text "πανουργίας δ ̓ ἔδειξεν ἀνθρώποις ἔχειν"^^xsd:string .
+
+:TV_Line_301_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_301 ;
+  :text "καὶ παντὸς ἔργου δυσσέβειαν εἰδέναι."^^xsd:string .
+

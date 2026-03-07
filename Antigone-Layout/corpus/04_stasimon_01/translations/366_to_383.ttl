@@ -1,0 +1,216 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Translation variants for lines 366-383
+
+:TV_Line_366_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_366 ;
+  :text "Possessing a certain ingenious wisdom,"^^xsd:string .
+
+:TV_Line_367_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_367 ;
+  :text "Skill unexpected, he veers sometimes towards evil, 365"^^xsd:string .
+
+:TV_Line_367b_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_367 ;
+  :text "Other times towards good;"^^xsd:string .
+
+:TV_Line_368_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_368 ;
+  :text "While heeding the law of earth"^^xsd:string .
+
+:TV_Line_369_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_369 ;
+  :text "And the sworn oath of the gods,"^^xsd:string .
+
+:TV_Line_370_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_370 ;
+  :text "His city flourishes; stateless is he"^^xsd:string .
+
+:TV_Line_371_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_371 ;
+  :text "Who boldly dares to commit sin. 370"^^xsd:string .
+
+:TV_Line_372_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_372 ;
+  :text "May he who does these things"^^xsd:string .
+
+:TV_Line_373_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_373 ;
+  :text "Neither share my hearth"^^xsd:string .
+
+:TV_Line_374_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_374 ;
+  :text "Nor think like me!"^^xsd:string .
+
+:TV_Line_375_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_375 ;
+  :text "CHORUS. I’m confused regarding"^^xsd:string .
+
+:TV_Line_376_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_376 ;
+  :text "This blessed portent: 375"^^xsd:string .
+
+:TV_Line_377_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_377 ;
+  :text "How could I deny"^^xsd:string .
+
+:TV_Line_378_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_378 ;
+  :text "That this child is Antigone?"^^xsd:string .
+
+:TV_Line_379_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_379 ;
+  :text "Oh Oedipus unfortunate,"^^xsd:string .
+
+:TV_Line_380_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_380 ;
+  :text "Son of an unfortunate father,"^^xsd:string .
+
+:TV_Line_380b_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_380 ;
+  :text "What is this?"^^xsd:string .
+
+:TV_Line_381_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_381 ;
+  :text "They’re certainly not taking you away, 380"^^xsd:string .
+
+:TV_Line_382_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_382 ;
+  :text "Hauling you off in thoughtlessness"^^xsd:string .
+
+:TV_Line_382b_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_382 ;
+  :text "On the premise that you disobeyed"^^xsd:string .
+
+:TV_Line_382c_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_382 ;
+  :text "A royal decree, are they?"^^xsd:string .
+
+:TV_Line_383_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_383 ;
+  :text "GUARD. Praise ye heavenly host! Lo, here is she who hath done the deed!"^^xsd:string .
+
+:TV_Line_366_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_366 ;
+  :text "Σοφός, λοιπόν, ο άνθρωπος· σοφός και επιτήδειος."^^xsd:string .
+
+:TV_Line_367_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_367 ;
+  :text "Κι όμως τρεκλίζει, σέρνεται"^^xsd:string .
+
+:TV_Line_367b_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_367 ;
+  :text "στο χείλος του καλού και του κακού. 350"^^xsd:string .
+
+:TV_Line_368_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_368 ;
+  :text "Άλλος -πολίτης άξιος- σέβεται τους θεσμούς,"^^xsd:string .
+
+:TV_Line_369_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_369 ;
+  :text "τα ιερά και όσια."^^xsd:string .
+
+:TV_Line_370_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_370 ;
+  :text "Κι άλλος -ανέστιος- βρίσκεται μόνος με την ατίμωση."^^xsd:string .
+
+:TV_Line_372_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_372 ;
+  :text "Μακριά από μένα τέτοια συντροφιά."^^xsd:string .
+
+:TV_Line_373_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_373 ;
+  :text "Μακριά από μένα τέτοια συντροφιά."^^xsd:string .
+
+:TV_Line_374_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_374 ;
+  :text "Μακριά από μένα τέτοια συντροφιά."^^xsd:string .
+
+:TV_Line_375_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_375 ;
+  :text "Βλέπω καλά ή μου στέλνουν οράματα οι θεοί; 355"^^xsd:string .
+
+:TV_Line_376_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_376 ;
+  :text "Δεν ξέρω τι να πω!"^^xsd:string .
+
+:TV_Line_377_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_377 ;
+  :text "Κι όμως θα ορκιζόμουν πως είναι η Αντιγόνη."^^xsd:string .
+
+:TV_Line_378_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_378 ;
+  :text "Τι θες εδώ δύστυχη κόρη του δύστυχου Οιδίποδα;"^^xsd:string .
+
+:TV_Line_379_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_379 ;
+  :text "Τι τρέχει; Όχι, δεν μπορεί"^^xsd:string .
+
+:TV_Line_380_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_380 ;
+  :text "να παραβίασες εσύ 360"^^xsd:string .
+
+:TV_Line_381_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_381 ;
+  :text "τη διαταγή του βασιλιά!"^^xsd:string .
+
+:TV_Line_382_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_382 ;
+  :text "Τρελάθηκες, παιδί μου;"^^xsd:string .
+
+:TV_Line_383_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_383 ;
+  :text "ΣΚΟΠΟΣ. Αυτή το έκανε. Την πιάσαμε επ’ αυτοφώρω να τον θάβει."^^xsd:string .
+
+:TV_Line_366_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_366 ;
+  :text "τέχνας ὑπὲρ ἐλπίδ ̓ ἔχων,"^^xsd:string .
+
+:TV_Line_367_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_367 ;
+  :text "τοτὲ μὲν κακόν, ἄλλοτ ̓ ἐπ ̓ ἐσθλὸν ἕρπει,"^^xsd:string .
+
+:TV_Line_368_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_368 ;
+  :text "νόμους περαίνων χθονὸς"^^xsd:string .
+
+:TV_Line_369_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_369 ;
+  :text "θεῶν τ ̓ ἔνορκον δίκαν·"^^xsd:string .
+
+:TV_Line_370_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_370 ;
+  :text "ὑψίπολις· ἄπολις ὅτῳ τὸ μὴ καλὸν"^^xsd:string .
+
+:TV_Line_371_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_371 ;
+  :text "ξύνεστι τόλμας χάριν·"^^xsd:string .
+
+:TV_Line_372_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_372 ;
+  :text "μήτ ̓ ἐμοὶ παρέστιος"^^xsd:string .
+
+:TV_Line_373_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_373 ;
+  :text "γένοιτο μήτ ̓ ἴσον φρονῶν"^^xsd:string .
+
+:TV_Line_374_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_374 ;
+  :text "ὃς τάδ ̓ ἔρδοι."^^xsd:string .
+
+:TV_Line_375_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_375 ;
+  :text "Ἐς δαιμόνιον τέρας ἀμφινοῶ"^^xsd:string .
+
+:TV_Line_376_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_376 ;
+  :text "τόδε· πῶς εἰδὼς ἀντιλογήσω"^^xsd:string .
+
+:TV_Line_377_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_377 ;
+  :text "τήνδ ̓ οὐκ εἶναι παῖδ ̓ Ἀντιγόνην;"^^xsd:string .
+
+:TV_Line_378_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_378 ;
+  :text "Ὦ δύστηνος καὶ δυστήνου"^^xsd:string .
+
+:TV_Line_379_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_379 ;
+  :text "πατρὸς Οἰδιπόδα,"^^xsd:string .
+
+:TV_Line_380_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_380 ;
+  :text "τί ποτ ̓; οὐ δή που σέ γ ̓ ἀπιστοῦσαν"^^xsd:string .
+
+:TV_Line_381_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_381 ;
+  :text "τοῖς βασιλείοισιν ἄγουσι νόμοις"^^xsd:string .
+
+:TV_Line_382_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_382 ;
+  :text "καὶ ἐν ἀφροσύνῃ καθελόντες;"^^xsd:string .
+
+:TV_Line_383_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_383 ;
+  :text "ΦΥ. Ἥδ ̓ ἔστ ̓ ἐκείνη τοὔργον ἡ  ̓ξειργασμένη·"^^xsd:string .
+

@@ -1,0 +1,72 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:episode02-semantics a owl:Ontology .
+
+:Antigone_Scene_Episode_2_384_581
+  a :Scene ;
+  :sceneNumber "Episode 2 (384-581)"^^xsd:string ;
+  :hasSpeech :Speech_Block_384_440,
+             :Speech_Block_441_479,
+             :Speech_Block_480_507,
+             :Speech_Block_508_535,
+             :Speech_Block_536_562,
+             :Speech_Block_563_581 ;
+  :hasConflict :Conflict_DivineVsHumanLaw,
+               :Conflict_AntigoneVsCreon,
+               :Conflict_AntigoneVsIsmene ;
+  :developsTheme :Theme_DivineLaw,
+                 :Theme_HumanLaw,
+                 :Theme_FamilyDuty,
+                 :Theme_Authority,
+                 :Theme_BurialRites .
+
+:Antigone_Character_Guard a :Character ; rdfs:label "ΦΥ (Φύλαξ)"^^xsd:string .
+:Antigone_Character_Creon a :Character ; rdfs:label "ΚΡ (Κρέων)"^^xsd:string .
+:Antigone_Character_Antigone a :Character ; rdfs:label "Ἀντιγόνη"^^xsd:string .
+:Antigone_Character_Ismene a :Character ; rdfs:label "Ἰσμήνη"^^xsd:string .
+:Antigone_Character_Chorus a :Character ; rdfs:label "ΧΟ (Χορός)"^^xsd:string .
+
+:Speech_Block_384_440 a :Speech ;
+  :speechBy :Antigone_Character_Guard, :Antigone_Character_Creon, :Antigone_Character_Antigone .
+
+:Speech_Block_441_479 a :Speech ;
+  :speechBy :Antigone_Character_Creon, :Antigone_Character_Antigone, :Antigone_Character_Chorus .
+
+:Speech_Block_480_507 a :Speech ;
+  :speechBy :Antigone_Character_Creon, :Antigone_Character_Antigone .
+
+:Speech_Block_508_535 a :Speech ;
+  :speechBy :Antigone_Character_Creon, :Antigone_Character_Antigone, :Antigone_Character_Chorus .
+
+:Speech_Block_536_562 a :Speech ;
+  :speechBy :Antigone_Character_Ismene, :Antigone_Character_Antigone, :Antigone_Character_Creon .
+
+:Speech_Block_563_581 a :Speech ;
+  :speechBy :Antigone_Character_Ismene, :Antigone_Character_Creon, :Antigone_Character_Chorus .
+
+:Theme_DivineLaw a :Theme ;
+  :description "Antigone privileges unwritten divine law over royal decree."^^xsd:string .
+
+:Theme_HumanLaw a :Theme ;
+  :description "Creon enforces civic authority as absolute state law."^^xsd:string .
+
+:Theme_FamilyDuty a :Theme ;
+  :description "Burial and kinship obligations shape decisions and conflict."^^xsd:string .
+
+:Theme_Authority a :Theme ;
+  :description "Political power, coercion, and resistance structure the episode."^^xsd:string .
+
+:Theme_BurialRites a :Theme ;
+  :description "Burial is treated as a sacred and politically contested act."^^xsd:string .
+
+:Conflict_DivineVsHumanLaw a :Conflict ;
+  :description "Moral collision between divine ordinance and state decree."^^xsd:string .
+
+:Conflict_AntigoneVsCreon a :Conflict ;
+  :description "Direct confrontation between personal piety and political sovereignty."^^xsd:string .
+
+:Conflict_AntigoneVsIsmene a :Conflict ;
+  :description "Sisterly disagreement over courage, complicity, and shared fate."^^xsd:string .

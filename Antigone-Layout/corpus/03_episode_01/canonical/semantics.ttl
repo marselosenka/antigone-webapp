@@ -1,0 +1,103 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:episode01-semantics a owl:Ontology .
+
+:Antigone_Scene_Episode_1_211_330
+  a :Scene ;
+  :sceneNumber "Episode 1 (211-330)"^^xsd:string ;
+  :hasSpeech :Speech_Chorus_211_214,
+             :Speech_Creon_215,
+             :Speech_Chorus_216,
+             :Speech_Creon_217,
+             :Speech_Chorus_218,
+             :Speech_Creon_219,
+             :Speech_Chorus_220,
+             :Speech_Creon_221_222,
+             :Speech_Guard_223_236,
+             :Speech_Creon_237,
+             :Speech_Guard_238_240,
+             :Speech_Creon_241_242,
+             :Speech_Guard_243,
+             :Speech_Creon_244,
+             :Speech_Guard_245_247,
+             :Speech_Creon_248,
+             :Speech_Guard_249_252,
+             :Speech_Guard_253_277,
+             :Speech_Chorus_278_279,
+             :Speech_Creon_280_301,
+             :Speech_Creon_302_314,
+             :Speech_Guard_315,
+             :Speech_Creon_316,
+             :Speech_Guard_317,
+             :Speech_Creon_318,
+             :Speech_Guard_319,
+             :Speech_Creon_320,
+             :Speech_Guard_321,
+             :Speech_Creon_322,
+             :Speech_Guard_323,
+             :Speech_Creon_324_326,
+             :Speech_Guard_327_330 ;
+  :developsTheme :Theme_AuthorityAndLaw,
+                 :Theme_BurialEdict,
+                 :Theme_FearAndResponsibility,
+                 :Theme_CorruptionByMoney .
+
+:Antigone_Character_Chorus
+  a :Character ;
+  rdfs:label "ΧΟ (Χορός)"^^xsd:string .
+
+:Antigone_Character_Creon
+  a :Character ;
+  rdfs:label "ΚΡ (Κρέων)"^^xsd:string .
+
+:Antigone_Character_Guard
+  a :Character ;
+  rdfs:label "ΦΥ (Φύλαξ)"^^xsd:string .
+
+:Speech_Chorus_211_214 a :Speech ; :speechBy :Antigone_Character_Chorus .
+:Speech_Creon_215 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Chorus_216 a :Speech ; :speechBy :Antigone_Character_Chorus .
+:Speech_Creon_217 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Chorus_218 a :Speech ; :speechBy :Antigone_Character_Chorus .
+:Speech_Creon_219 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Chorus_220 a :Speech ; :speechBy :Antigone_Character_Chorus .
+:Speech_Creon_221_222 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Guard_223_236 a :Speech ; :speechBy :Antigone_Character_Guard .
+:Speech_Creon_237 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Guard_238_240 a :Speech ; :speechBy :Antigone_Character_Guard .
+:Speech_Creon_241_242 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Guard_243 a :Speech ; :speechBy :Antigone_Character_Guard .
+:Speech_Creon_244 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Guard_245_247 a :Speech ; :speechBy :Antigone_Character_Guard .
+:Speech_Creon_248 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Guard_249_252 a :Speech ; :speechBy :Antigone_Character_Guard .
+:Speech_Guard_253_277 a :Speech ; :speechBy :Antigone_Character_Guard .
+:Speech_Chorus_278_279 a :Speech ; :speechBy :Antigone_Character_Chorus .
+:Speech_Creon_280_301 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Creon_302_314 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Guard_315 a :Speech ; :speechBy :Antigone_Character_Guard .
+:Speech_Creon_316 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Guard_317 a :Speech ; :speechBy :Antigone_Character_Guard .
+:Speech_Creon_318 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Guard_319 a :Speech ; :speechBy :Antigone_Character_Guard .
+:Speech_Creon_320 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Guard_321 a :Speech ; :speechBy :Antigone_Character_Guard .
+:Speech_Creon_322 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Guard_323 a :Speech ; :speechBy :Antigone_Character_Guard .
+:Speech_Creon_324_326 a :Speech ; :speechBy :Antigone_Character_Creon .
+:Speech_Guard_327_330 a :Speech ; :speechBy :Antigone_Character_Guard .
+
+:Theme_AuthorityAndLaw a :Theme ;
+  :description "Creon asserts political authority through strict civic law."^^xsd:string .
+
+:Theme_BurialEdict a :Theme ;
+  :description "The burial prohibition drives interrogation, suspicion, and punishment threats."^^xsd:string .
+
+:Theme_FearAndResponsibility a :Theme ;
+  :description "The Guard oscillates between fear, survival, and duty to report."^^xsd:string .
+
+:Theme_CorruptionByMoney a :Theme ;
+  :description "Creon links the crime to bribery and the corrupting force of money."^^xsd:string .

@@ -1,0 +1,254 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# Translation variants for lines 302-323
+
+:TV_Line_302_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_302 ;
+  :text "But every man who accepts such bribery"^^xsd:string .
+
+:TV_Line_303_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_303 ;
+  :text "Will pay price at some point or other."^^xsd:string .
+
+:TV_Line_304_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_304 ;
+  :text "As Zeus still has my prayers,"^^xsd:string .
+
+:TV_Line_305_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_305 ;
+  :text "Mark my words—I swear to you that"^^xsd:string .
+
+:TV_Line_306_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_306 ;
+  :text "If you do not bring before my eyes"^^xsd:string .
+
+:TV_Line_307_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_307 ;
+  :text "The criminal who performed this burial,"^^xsd:string .
+
+:TV_Line_308_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_308 ;
+  :text "You’ll have a fate worse than death:"^^xsd:string .
+
+:TV_Line_309_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_309 ;
+  :text "You’ll be strung up alive until you confess your crime—"^^xsd:string .
+
+:TV_Line_310_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_310 ;
+  :text "Then, as you steal, you’ll know where your income"^^xsd:string .
+
+:TV_Line_311_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_311 ;
+  :text "Should be coming from, and you’ll finally learn that"^^xsd:string .
+
+:TV_Line_312_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_312 ;
+  :text "More money isn’t always a good thing."^^xsd:string .
+
+:TV_Line_313_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_313 ;
+  :text "You know that you lose more than you gain"^^xsd:string .
+
+:TV_Line_314_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_314 ;
+  :text "In such shameful pursuits."^^xsd:string .
+
+:TV_Line_315_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_315 ;
+  :text "GUARD. Might I speak or begone with me forthwith?"^^xsd:string .
+
+:TV_Line_316_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_316 ;
+  :text "CREON. Can’t you see every word you say brings me pain?"^^xsd:string .
+
+:TV_Line_317_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_317 ;
+  :text "GUARD. Do I pain your ears or your heart?"^^xsd:string .
+
+:TV_Line_318_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_318 ;
+  :text "CREON. Why test the limits of my grief?"^^xsd:string .
+
+:TV_Line_319_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_319 ;
+  :text "GUARD. The criminal pains your heart, I only pain your ears."^^xsd:string .
+
+:TV_Line_320_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_320 ;
+  :text "CREON. Now you’re just spewing nonsense."^^xsd:string .
+
+:TV_Line_321_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_321 ;
+  :text "GUARD. Mayhap, but I did not commit this crime."^^xsd:string .
+
+:TV_Line_322_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_322 ;
+  :text "CREON. You traded your soul for silver."^^xsd:string .
+
+:TV_Line_323_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_323 ;
+  :text "GUARD. Well now, ‘tis a shame when the judge misjudges."^^xsd:string .
+
+:TV_Line_302_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_302 ;
+  :text "Όποιος πληρώθηκε, λοιπόν,"^^xsd:string .
+
+:TV_Line_302b_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_302 ;
+  :text "για να το κάνει αυτό το πράγμα,"^^xsd:string .
+
+:TV_Line_303_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_303 ;
+  :text "αργά ή γρήγορα θα το πληρώσει και με το πάρα πάνω."^^xsd:string .
+
+:TV_Line_304_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_304 ;
+  :text "Όσο για σας, ορκίζομαι στον Δία"^^xsd:string .
+
+:TV_Line_304b_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_304 ;
+  :text "-που εγώ τουλάχιστον ακόμα τον τιμώ 300"^^xsd:string .
+
+:TV_Line_305_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_305 ;
+  :text "πως αν δεν μου αποκαλύψετε τον δράστη -ακούτε?- "^^xsd:string .
+
+:TV_Line_306_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_306 ;
+  :text "αν δεν τον φέρετε μπροστά μου,"^^xsd:string .
+
+:TV_Line_307_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_307 ;
+  :text "αν δεν τον φέρετε μπροστά μου,"^^xsd:string .
+
+:TV_Line_308_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_308 ;
+  :text "ούτε ο θάνατος δεν σας γλιτώνει."^^xsd:string .
+
+:TV_Line_309_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_309 ;
+  :text "Θα σας κρεμάσω έναν-έναν ζωντανούς και δεν θα βρείτε"^^xsd:string .
+
+:TV_Line_309b_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_309 ;
+  :text "τον δρόμο για τον Άδη πριν μαρτυρήσετε τον ένοχο. 305"^^xsd:string .
+
+:TV_Line_310_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_310 ;
+  :text "Να δείτε καθαρά τι είναι κέρδος και τι κλεψιά. "^^xsd:string .
+
+:TV_Line_311_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_311 ;
+  :text "Να καταλάβετε πως όποιος"^^xsd:string .
+
+:TV_Line_312_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_312 ;
+  :text "θέλει να κερδίζει από τους πάντες,"^^xsd:string .
+
+:TV_Line_314_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_314 ;
+  :text "συχνά χάνει τα πάντα."^^xsd:string .
+
+:TV_Line_315_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_315 ;
+  :text "ΣΚΟΠΟΣ. Να μιλήσω ή να φύγω;"^^xsd:string .
+
+:TV_Line_316_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_316 ;
+  :text "ΚΡΕΩΝ. Δεν κατάλαβες ακόμα πως κι ο ήχος της φωνής σου μ’ ενοχλεί;"^^xsd:string .
+
+:TV_Line_317_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_317 ;
+  :text "ΣΚΟΠΟΣ. Στ’ αυτιά ή στην ψυχή;"^^xsd:string .
+
+:TV_Line_318_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_318 ;
+  :text "ΚΡΕΩΝ. Τι σημασία έχει;"^^xsd:string .
+
+:TV_Line_319_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_319 ;
+  :text "ΣΚΟΠΟΣ. Τ’ αυτιά σου τα ενοχλώ εγώ· την ψυχή σου, ο δράστης."^^xsd:string .
+
+:TV_Line_320_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_320 ;
+  :text "ΚΡΕΩΝ. Για δες! Εσύ είσαι γεννημένος για τα παιχνίδια με τις λέξεις. 315"^^xsd:string .
+
+:TV_Line_321_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_321 ;
+  :text "ΣΚΟΠΟΣ. Μπορεί. Πάντως το έργο αυτό δεν το έγραψα εγώ. "^^xsd:string .
+
+:TV_Line_322_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_322 ;
+  :text "ΚΡΕΩΝ. Και μάλιστα πουλώντας την ψυχή σου."^^xsd:string .
+
+:TV_Line_323_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_323 ;
+  :text "ΣΚΟΠΟΣ. Αχ, Κρέων, είναι κρίμα να κρίνει άκριτα ο κριτής."^^xsd:string .
+
+:TV_Line_302_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_302 ;
+  :text "Ὅσοι δὲ μισθαρνοῦντες ἤνυσαν τάδε,"^^xsd:string .
+
+:TV_Line_303_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_303 ;
+  :text "χρόνῳ ποτ᾽ ἐξέπραξαν ὡς δοῦναι δίκην."^^xsd:string .
+
+:TV_Line_304_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_304 ;
+  :text "Ἀλλ᾽ εἴπερ ἴσχει Ζεὺς ἔτ᾽ ἐξ ἐμοῦ σέβας"^^xsd:string .
+
+:TV_Line_305_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_305 ;
+  :text "εὖ τοῦτ᾽ ἐπίστασ᾽, ὅρκιος δέ σοι λέγω,"^^xsd:string .
+
+:TV_Line_306_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_306 ;
+  :text "εἰ μὴ τὸν αὐτόχειρα τοῦδε τοῦ τάφου"^^xsd:string .
+
+:TV_Line_307_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_307 ;
+  :text "εὑρόντες ἐκφανεῖτ᾽ ἐς ὀφθαλμοὺς ἐμούς,"^^xsd:string .
+
+:TV_Line_308_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_308 ;
+  :text "οὐχ ὑμῖν Ἅιδης μοῦνος ἀρκέσει, πρὶν ἂν"^^xsd:string .
+
+:TV_Line_309_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_309 ;
+  :text "ζῶντες κρεμαστοὶ τήνδε δηλώσηθ᾽ ὕβριν,"^^xsd:string .
+
+:TV_Line_310_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_310 ;
+  :text "ἵν᾽ εἰδότες τὸ κέρδος ἔνθεν οἰστέον"^^xsd:string .
+
+:TV_Line_311_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_311 ;
+  :text "τὸ λοιπὸν ἁρπάζητε, καὶ μάθηθ᾽ ὅτι"^^xsd:string .
+
+:TV_Line_312_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_312 ;
+  :text "οὐκ ἐξ ἅπαντος δεῖ τὸ κερδαίνειν φιλεῖν."^^xsd:string .
+
+:TV_Line_313_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_313 ;
+  :text "Ἐκ τῶν γὰρ αἰσχρῶν λημμάτων τοὺς πλείονας"^^xsd:string .
+
+:TV_Line_314_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_314 ;
+  :text "ἀτωμένους ἴδοις ἂν ἢ σεσωσμένους."^^xsd:string .
+
+:TV_Line_315_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_315 ;
+  :text "ΦΥ. Εἰπεῖν δὲ δώσεις, ἢ στραφεὶς οὕτως ἴω;"^^xsd:string .
+
+:TV_Line_316_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_316 ;
+  :text "ΚΡ. Οὐκ οἶσθα καὶ νῦν ὡς ἀνιαρῶς λέγεις;"^^xsd:string .
+
+:TV_Line_317_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_317 ;
+  :text "ΦΥ. Ἐν τοῖσιν ὠσὶν ἢ ἐπὶ τῇ ψυχῇ δάκνῃ;"^^xsd:string .
+
+:TV_Line_318_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_318 ;
+  :text "ΚΡ. Tί δὲ ῥυθμίζεις τὴν ἐμὴν λύπην ὅπου;"^^xsd:string .
+
+:TV_Line_319_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_319 ;
+  :text "ΦΥ. Ὁ δρῶν σ᾽ ἀνιᾷ τὰς φρένας, τὰ δ᾽ ὦτ᾽ ἐγώ."^^xsd:string .
+
+:TV_Line_320_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_320 ;
+  :text "ΚΡ. Οἴμ᾽ ὡς λάλημα δῆλον ἐκπεφυκὸς εἶ."^^xsd:string .
+
+:TV_Line_321_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_321 ;
+  :text "ΦΥ. Οὔκουν τό γ᾽ ἔργον τοῦτο ποιήσας ποτέ."^^xsd:string .
+
+:TV_Line_322_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_322 ;
+  :text "ΚΡ. Καὶ ταῦτ᾽ ἐπ᾽ ἀργύρῳ γε τὴν ψυχὴν προδούς."^^xsd:string .
+
+:TV_Line_323_grc
+  a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_323 ;
+  :text "ΦΥ. Φεῦ· ἦ δεινὸν, ᾧ δοκεῖ γε, καὶ ψευδῆ δοκεῖν."^^xsd:string .
+

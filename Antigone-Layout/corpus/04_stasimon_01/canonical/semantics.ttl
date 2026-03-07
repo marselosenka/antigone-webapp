@@ -1,0 +1,39 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:stasimon01-semantics a owl:Ontology .
+
+:Antigone_Scene_Stasimon_1_331_383
+  a :Scene ;
+  :sceneNumber "Stasimon 1 (331-383)"^^xsd:string ;
+  :hasSpeech :Speech_Guard_327_331,
+             :Speech_Chorus_332_361,
+             :Speech_Chorus_362_382,
+             :Speech_Guard_383 ;
+  :developsTheme :Theme_HumanPowerAndLimits,
+                 :Theme_LawAndCity,
+                 :Theme_ForeshadowingAntigone .
+
+:Antigone_Character_Chorus
+  a :Character ;
+  rdfs:label "ΧΟ (Χορός)"^^xsd:string .
+
+:Antigone_Character_Guard
+  a :Character ;
+  rdfs:label "ΦΥ (Φύλαξ)"^^xsd:string .
+
+:Speech_Guard_327_331 a :Speech ; :speechBy :Antigone_Character_Guard .
+:Speech_Chorus_332_361 a :Speech ; :speechBy :Antigone_Character_Chorus .
+:Speech_Chorus_362_382 a :Speech ; :speechBy :Antigone_Character_Chorus .
+:Speech_Guard_383 a :Speech ; :speechBy :Antigone_Character_Guard .
+
+:Theme_HumanPowerAndLimits a :Theme ;
+  :description "The ode celebrates human ingenuity while stressing moral and existential limits."^^xsd:string .
+
+:Theme_LawAndCity a :Theme ;
+  :description "Belonging to the city depends on respecting law and justice."^^xsd:string .
+
+:Theme_ForeshadowingAntigone a :Theme ;
+  :description "The chorus' reflection shifts toward recognition of Antigone's transgression."^^xsd:string .
