@@ -22,189 +22,270 @@ a :Scene ;
 # --- 001 ---
 :Line_001 a :Line ;
     :lineNumber 1 ;
-    :canonicalReference "1" .
+    :canonicalReference "1" ;
+    :text "Ὦ κοινὸν αὐτάδελφον Ἰσμήνης κάρα,"^^xsd:string .
+
 # --- 002 ---
 :Line_002 a :Line ;
     :lineNumber 2 ;
-    :canonicalReference "2" .
+    :canonicalReference "2" ;
+    :text "ἆρ ̓ οἶσθ ̓ ὅ τι Ζεὺς τῶν ἀπ ̓ Οἰδίπου κακῶν"^^xsd:string .
+
 # --- 003 ---
 :Line_003 a :Line ;
     :lineNumber 3 ;
-    :canonicalReference "3" .
+    :canonicalReference "3" ;
+    :text "ὁποῖον οὐχὶ νῷν ἔτι ζώσαιν τελεῖ;"^^xsd:string .
+
 # --- 004 ---
 :Line_004 a :Line ;
     :lineNumber 4 ;
-    :canonicalReference "4" .
+    :canonicalReference "4" ;
+    :text "Οὐδὲν γὰρ οὔτ ̓ ἀλγεινὸν οὔτ ̓ ἄτης ἄτερ"^^xsd:string .
+
 # --- 005 ---
 :Line_005 a :Line ;
     :lineNumber 5 ;
-    :canonicalReference "5" .
+    :canonicalReference "5" ;
+    :text "οὔτ ̓ αἰσχρὸν οὔτ ̓ ἄτιμόν ἐσθ ̓ ὁποῖον οὐ"^^xsd:string .
+
 # --- 006 ---
 :Line_006 a :Line ;
     :lineNumber 6 ;
-    :canonicalReference "6" .
+    :canonicalReference "6" ;
+    :text "τῶν σῶν τε κἀμῶν οὐκ ὄπωπ ̓ ἐγὼ κακῶν."^^xsd:string .
+
 # --- 007 ---
 :Line_007 a :Line ;
     :lineNumber 7 ;
-    :canonicalReference "7" .
+    :canonicalReference "7" ;
+    :text "Kαὶ νῦν τί τοῦτ ̓ αὖ φασι πανδήμῳ πόλει"^^xsd:string .
+
 # --- 008 ---
 :Line_008 a :Line ;
     :lineNumber 8 ;
-    :canonicalReference "8" .
+    :canonicalReference "8" ;
+    :text "κήρυγμα θεῖναι τὸν στρατηγὸν ἀρτίως;"^^xsd:string .
+
 # --- 009 ---
 :Line_009 a :Line ;
     :lineNumber 9 ;
-    :canonicalReference "9" .
+    :canonicalReference "9" ;
+    :text "Ἔχεις τι κεἰσήκουσας; ἤ σε λανθάνει"^^xsd:string .
+
 # --- 010 ---
 :Line_010 a :Line ;
     :lineNumber 10 ;
-    :canonicalReference "10" .
+    :canonicalReference "10" ;
+    :text "πρὸς τοὺς φίλους στείχοντα τῶν ἐχθρῶν κακά;"^^xsd:string .
+
 # --- 011 ---
 :Line_011 a :Line ;
     :lineNumber 11 ;
-    :canonicalReference "11" .
+    :canonicalReference "11" ;
+    :text "Ἐμοὶ μὲν οὐδεὶς μῦθος, Ἀντιγόνη, φίλων"^^xsd:string .
+
 # --- 012 ---
 :Line_012 a :Line ;
     :lineNumber 12 ;
-    :canonicalReference "12" .
+    :canonicalReference "12" ;
+    :text "οὔθ ̓ ἡδὺς οὔτ ̓ ἀλγεινὸς ἵκετ ̓, ἐξ ὅτου"^^xsd:string .
+
 # --- 013 ---
 :Line_013 a :Line ;
     :lineNumber 13 ;
-    :canonicalReference "13" .
+    :canonicalReference "13" ;
+    :text "δυοῖν ἀδελφοῖν ἐστερήθημεν δύο"^^xsd:string .
+
 # --- 014 ---
 :Line_014 a :Line ;
     :lineNumber 14 ;
-    :canonicalReference "14" .
+    :canonicalReference "14" ;
+    :text "μιᾷ θανόντοιν ἡμέρᾳ διπλῇ χερί·"^^xsd:string .
+
 # --- 015 ---
 :Line_015 a :Line ;
     :lineNumber 15 ;
-    :canonicalReference "15" .
+    :canonicalReference "15" ;
+    :text "ἐπεὶ δὲ φροῦδός ἐστιν Ἀργείων στρατὸς"^^xsd:string .
+
 # --- 016 ---
 :Line_016 a :Line ;
     :lineNumber 16 ;
-    :canonicalReference "16" .
+    :canonicalReference "16" ;
+    :text "ἐν νυκτὶ τῇ νῦν, οὐδὲν οἶδ ̓ ὑπέρτερον,"^^xsd:string .
+
 # --- 017 ---
 :Line_017 a :Line ;
     :lineNumber 17 ;
-    :canonicalReference "17" .
+    :canonicalReference "17" ;
+    :text "οὔτ ̓ εὐτυχοῦσα μᾶλλον οὔτ ̓ ἀτωμένη."^^xsd:string .
+
 # --- 018 ---
 :Line_018 a :Line ;
     :lineNumber 18 ;
-    :canonicalReference "18" .
+    :canonicalReference "18" ;
+    :text "Ἤιδη καλῶς, καί σ ̓ ἐκτὸς αὐλείων πυλῶν"^^xsd:string .
+
 # --- 019 ---
 :Line_019 a :Line ;
     :lineNumber 19 ;
-    :canonicalReference "19" .
+    :canonicalReference "19" ;
+    :text "τοῦδ ̓ οὕνεκ ̓ ἐξέπεμπον, ὡς μόνη κλύοις."^^xsd:string .
 # --- 020 ---
+
 :Line_020 a :Line ;
     :lineNumber 20 ;
     :canonicalReference "20"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "Τί δ ̓ ἔστι; δηλοῖς γάρ τι καλχαίνουσ ̓ ἔπος."^^xsd:string .
+
 # --- 021 ---
 :Line_021 a :Line ;
     :lineNumber 21 ;
     :canonicalReference "21"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "Οὐ γὰρ τάφου νῷν τὼ κασιγνήτω Κρέων"^^xsd:string .
+
 # --- 022 ---
 :Line_022 a :Line ;
     :lineNumber 22 ;
     :canonicalReference "22"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "τὸν μὲν προτίσας, τὸν δ ̓ ἀτιμάσας ἔχει;"^^xsd:string .
+
 # --- 023 ---
 :Line_023 a :Line ;
     :lineNumber 23 ;
     :canonicalReference "23"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "Ἐτεοκλέα μέν, ὡς λέγουσι, σὺν δίκῃ"^^xsd:string .
+
 # --- 024 ---
 :Line_024 a :Line ;
     :lineNumber 24 ;
     :canonicalReference "24"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "χρησθεὶς δικαίᾳ καὶ νόμῳ, κατὰ χθονὸς"^^xsd:string .
+
 # --- 025 ---
 :Line_025 a :Line ;
     :lineNumber 25 ;
     :canonicalReference "25"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "ἔκρυψε τοῖς ἔνερθεν ἔντιμον νεκροῖς,"^^xsd:string .
+
 # --- 026 ---
 :Line_026 a :Line ;
     :lineNumber 26 ;
     :canonicalReference "26"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "τὸν δ ̓ ἀθλίως θανόντα Πολυνείκους νέκυν"^^xsd:string .
+
 # --- 027 ---
 :Line_027 a :Line ;
     :lineNumber 27 ;
     :canonicalReference "27"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "ἀστοῖσί φασιν ἐκκεκηρῦχθαι τὸ μὴ"^^xsd:string .
+
 # --- 028 ---
 :Line_028 a :Line ;
     :lineNumber 28 ;
     :canonicalReference "28"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "τάφῳ καλύψαι μηδὲ κωκῦσαί τινα,"^^xsd:string .
+
 # --- 029 ---
 :Line_029 a :Line ;
     :lineNumber 29 ;
     :canonicalReference "29"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "ἐᾶν δ ̓ ἄκλαυτον, ἄταφον, οἰωνοῖς γλυκὺν"^^xsd:string .
+
 # --- 030 ---
 :Line_030 a :Line ;
     :lineNumber 30 ;
     :canonicalReference "30"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "θησαυρὸν εἰσορῶσι πρὸς χάριν βορᾶς."^^xsd:string .
+
 # --- 031 ---
 :Line_031 a :Line ;
     :lineNumber 31 ;
     :canonicalReference "31"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "Τοιαῦτά φασι τὸν ἀγαθὸν Κρέοντα σοὶ"^^xsd:string .
+
 # --- 032 ---
 :Line_032 a :Line ;
     :lineNumber 32 ;
     :canonicalReference "32"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "κἀμοί, λέγω γὰρ κἀμέ, κηρύξαντ ̓ ἔχειν,"^^xsd:string .
+
 # --- 033 ---
 :Line_033 a :Line ;
     :lineNumber 33 ;
     :canonicalReference "33"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "καὶ δεῦρο νεῖσθαι ταῦτα τοῖσι μὴ εἰδόσιν"^^xsd:string .
+
 # --- 034 ---
 :Line_034 a :Line ;
     :lineNumber 34 ;
     :canonicalReference "34"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "σαφῆ προκηρύξοντα, καὶ τὸ πρᾶγμ ̓ ἄγειν"^^xsd:string .
+
 # --- 035 ---
 :Line_035 a :Line ;
     :lineNumber 35 ;
     :canonicalReference "35"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "οὐχ ὡς παρ ̓ οὐδέν, ἀλλ ̓ ὃς ἂν τούτων τι δρᾷ"^^xsd:string .
+
 # --- 036 ---
 :Line_036 a :Line ;
     :lineNumber 36 ;
     :canonicalReference "36"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "φόνον προκεῖσθαι δημόλευστον ἐν πόλει."^^xsd:string .
+
 # --- 037 ---
 :Line_037 a :Line ;
     :lineNumber 37 ;
     :canonicalReference "37"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "Οὕτως ἔχει σοι ταῦτα, καὶ δείξεις τάχα"^^xsd:string .
+
 # --- 038 ---
 :Line_038 a :Line ;
     :lineNumber 38 ;
     :canonicalReference "38"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "εἴτ ̓ εὐγενὴς πὲφυκας εἴτ ̓ ἐσθλῶν κακή."^^xsd:string .
+
 # --- 039 ---
 :Line_039 a :Line ;
     :lineNumber 39 ;
     :canonicalReference "39"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "Τί δ ̓, ὦ ταλαῖφρον, εἰ τάδ ̓ ἐν τούτοις, ἐγὼ"^^xsd:string .
+
 # --- 040 ---
 :Line_040 a :Line ;
     :lineNumber 40 ;
     :canonicalReference "40"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "λύουσ ̓ ἂν εἴθ ̓ ἅπτουσα προσθείμην πλέον;"^^xsd:string .
+
 # --- 041 ---
 :Line_041 a :Line ;
     :lineNumber 41 ;
     :canonicalReference "41"^^xsd:string ;
-    :partOfScene :Antigone_Scene_Dialogue_20_41 .
+    :partOfScene :Antigone_Scene_Dialogue_20_41 ;
+    :text "Εἰ ξυμπονήσεις καὶ ξυνεργάσῃ σκόπει."^^xsd:string .
 
 
 # --- 042 ---
@@ -212,14 +293,16 @@ a :Scene ;
     :lineNumber 42 ;
     :canonicalReference "42"^^xsd:string ;
     :experiencesEmotion :Emotion_Alarm ;
-    :hasTheme :Theme_SurvivalPrudence .
+    :hasTheme :Theme_SurvivalPrudence ;
+    :text "Ποῖόν τι κινδύνευμα; ποῖ γνώμης ποτ ̓ εἶ;"^^xsd:string .
 
 # --- 043 ---
 :Line_043 a :Line ; 
     :lineNumber 43 ; 
     :canonicalReference "43"^^xsd:string ;
     :hasTheme :Theme_BurialRites ; 
-    :hasMotivation :Motivation_BuryBrother .
+    :hasMotivation :Motivation_BuryBrother ;
+    :text "Εἰ τὸν νεκρὸν ξὺν τῇδε κουφιεῖς χερί."^^xsd:string .
     
 # --- 044 ---
 :Line_044 a :Line ; 
@@ -228,8 +311,8 @@ a :Scene ;
     :hasTheme :Theme_BurialRites ; 
     :hasTheme :Theme_TyrannicalLaw ; 
     :hasConflict :Conflict_BurialRitesVsCreonEdict ; 
-    :relatedTo :Law_CreonBurialEdict .
-
+    :relatedTo :Law_CreonBurialEdict ;
+    :text "Ἦ γὰρ νοεῖς θάπτειν σφ ̓, ἀπόρρητον πόλει;"^^xsd:string .
 
 # --- 045 ---
 :Line_045 a :Line ; 
@@ -238,7 +321,8 @@ a :Scene ;
     :hasTheme :Theme_BurialRites ; 
     :hasTheme :Theme_FamilyCurse ; 
     :experiencesEmotion :Emotion_Resolve ; 
-    :hasMotivation :Motivation_RefuseBetrayal .
+    :hasMotivation :Motivation_RefuseBetrayal ;
+    :text "Τὸν γοῦν ἐμὸν καὶ τὸν σόν, ἢν σὺ μὴ θέλῃς,"^^xsd:string .
 
 # --- 046 ---
 :Line_046 a :Line ; 
@@ -246,7 +330,8 @@ a :Scene ;
     :canonicalReference "46"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
     :experiencesEmotion :Emotion_Resolve ; 
-    :hasMotivation :Motivation_RefuseBetrayal .
+    :hasMotivation :Motivation_RefuseBetrayal ;
+    :text "ἀδελφόν· οὐ γὰρ δὴ προδοῦσ ̓ ἁλώσομαι."^^xsd:string .
 
 # --- 047 ---
 :Line_047 a :Line ; 
@@ -255,7 +340,8 @@ a :Scene ;
     :hasTheme :Theme_TyrannicalLaw ; 
     :experiencesEmotion :Emotion_Alarm ; 
     :relatedTo :Law_CreonBurialEdict ; 
-    :hasConflict :Conflict_BurialRitesVsCreonEdict .
+    :hasConflict :Conflict_BurialRitesVsCreonEdict ;
+    :text "Ὦ σχετλία, Κρέοντος ἀντειρηκότος;"^^xsd:string .
 
 # --- 048 ---
 :Line_048 a :Line ; 
@@ -265,7 +351,8 @@ a :Scene ;
     :hasTheme :Theme_BurialRites ; 
     :hasConflict :Conflict_BurialRitesVsCreonEdict ; 
     :relatedTo :Law_CreonBurialEdict ; 
-    :makesMoralDecision :MoralDecision_DefyEdictForBurial .
+    :makesMoralDecision :MoralDecision_DefyEdictForBurial ;
+    :text "Ἀλλ ̓ οὐδὲν αὐτῷ τῶν ἐμῶν μ ̓ εἴργειν μέτα."^^xsd:string .
 
 # --- 049 ---
 :Line_049 a :Line ; 
@@ -273,7 +360,8 @@ a :Scene ;
     :canonicalReference "49"^^xsd:string ;
     :experiencesEmotion :Emotion_Grief ; 
     :hasTheme :Theme_SurvivalPrudence ; 
-    :hasMotivation :Motivation_ProtectSister .
+    :hasMotivation :Motivation_ProtectSister ;
+    :text "Οἴμοι· φρόνησον, ὦ κασιγνήτη, πατὴρ"^^xsd:string .
 
 # --- 050 ---
 :Line_050 a :Line ; 
@@ -281,63 +369,72 @@ a :Scene ;
     :canonicalReference "50"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
     :experiencesEmotion :Emotion_Grief ; 
-    :relatedTo :Antigone_Character_Oedipus .
+    :relatedTo :Antigone_Character_Oedipus ;
+    :text "ὡς νῷν ἀπεχθὴς δυσκλεής τ ̓ ἀπώλετο,"^^xsd:string .
 
 # --- 051 ---
 :Line_051 a :Line ; 
     :lineNumber 51 ; 
     :canonicalReference "51"^^xsd:string ; 
     :hasTheme :Theme_FamilyCurse ; 
-    :experiencesEmotion :Emotion_Grief .
+    :experiencesEmotion :Emotion_Grief ;
+    :text "πρὸς αὐτοφώρων ἀμπλακημάτων διπλᾶς"^^xsd:string .
 
 # --- 052 ---
 :Line_052 a :Line ; 
     :lineNumber 52 ; 
     :canonicalReference "52"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
-    :experiencesEmotion :Emotion_Grief .
+    :experiencesEmotion :Emotion_Grief ;
+    :text "ὄψεις ἀράξας αὐτὸς αὐτουργῷ χερί·"^^xsd:string .
 
 # --- 053 ---
 :Line_053 a :Line ; 
     :lineNumber 53 ; 
     :canonicalReference "53"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
-    :experiencesEmotion :Emotion_Grief .
+    :experiencesEmotion :Emotion_Grief ;
+    :text "ἔπειτα μήτηρ καὶ γυνή, διπλοῦν ἔπος,"^^xsd:string .
 
 # --- 054 ---
 :Line_054 a :Line ; 
     :lineNumber 54 ; 
     :canonicalReference "54"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
-    :experiencesEmotion :Emotion_Grief .
+    :experiencesEmotion :Emotion_Grief ;
+    :text "πλεκταῖσιν ἀρτάναισι λωβᾶται βίον·"^^xsd:string .
 
 # --- 055 ---
 :Line_055 a :Line ; 
     :lineNumber 55 ; 
     :canonicalReference "55"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
-    :experiencesEmotion :Emotion_Grief .
+    :experiencesEmotion :Emotion_Grief ;
+    :text "τρίτον δ ̓ ἀδελφὼ δύο μίαν καθ ̓ ἡμέραν"^^xsd:string .
 
 # --- 056 ---
 :Line_056 a :Line ; 
     :lineNumber 56 ; 
     :canonicalReference "56"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
-    :experiencesEmotion :Emotion_Grief .
+    :experiencesEmotion :Emotion_Grief ;
+    :text "αὐτοκτονοῦντε τὼ ταλαιπώρω μόρον"^^xsd:string .
 
 # --- 057 ---
 :Line_057 a :Line ; 
     :lineNumber 57 ; 
     :canonicalReference "57"^^xsd:string ;
     :hasTheme :Theme_FamilyCurse ; 
-    :experiencesEmotion :Emotion_Grief .
+    :experiencesEmotion :Emotion_Grief ;
+    :text "κοινὸν κατειργάσαντ ̓ ἐπαλλήλοιν χεροῖν."^^xsd:string .
 
 # --- 058 ---
 :Line_058 a :Line ; 
     :lineNumber 58 ; 
     :canonicalReference "58"^^xsd:string ;
     :hasTheme :Theme_SurvivalPrudence ; 
-    :experiencesEmotion :Emotion_Fear .
+    :experiencesEmotion :Emotion_Fear ;
+    :text "Νῦν δ ̓ αὖ μόνα δὴ νὼ λελειμμένα σκόπει"^^xsd:string .
 
 # --- 059 ---
 :Line_059 a :Line ; 
@@ -346,7 +443,8 @@ a :Scene ;
     :hasTheme :Theme_TyrannicalLaw ; 
     :hasTheme :Theme_SurvivalPrudence ; 
     :experiencesEmotion :Emotion_Fear ; 
-    :relatedTo :Law_CreonBurialEdict .
+    :relatedTo :Law_CreonBurialEdict ;
+    :text "ὅσῳ κάκιστ ̓ ὀλούμεθ ̓, εἰ νόμου βίᾳ"^^xsd:string .
 
 # --- 060 ---
 :Line_060 a :Line ;
@@ -355,7 +453,8 @@ a :Scene ;
     :hasTheme :Theme_TyrannicalLaw ; 
     :experiencesEmotion :Emotion_Fear ; 
     :hasMotivation :Motivation_AvoidDefyingTyrant ; 
-    :relatedTo :Law_CreonBurialEdict .
+    :relatedTo :Law_CreonBurialEdict ;
+    :text "ψῆφον τυράννων ἢ κράτη παρέξιμεν."^^xsd:string .
 
 # --- 061 ---
 :Line_061 a :Line ; 
@@ -363,7 +462,8 @@ a :Scene ;
     :canonicalReference "61"^^xsd:string ;
     :hasTheme :Theme_GenderConstraint ; 
     :hasConflict :Conflict_GenderVsAuthority ; 
-    :makesMoralDecision :MoralDecision_UrgePrudence .
+    :makesMoralDecision :MoralDecision_UrgePrudence ;
+    :text "Ἀλλ ̓ ἐννοεῖν χρὴ τοῦτο μὲν γυναῖχ ̓ ὅτι"^^xsd:string .
 
 # --- 062 ---
 :Line_062 a :Line ; 
@@ -371,21 +471,24 @@ a :Scene ;
     :canonicalReference "62"^^xsd:string ;
     :hasTheme :Theme_GenderConstraint ; 
     :hasConflict :Conflict_GenderVsAuthority ; 
-    :experiencesEmotion :Emotion_Fear .
+    :experiencesEmotion :Emotion_Fear ;
+    :text "ἔφυμεν, ὡς πρὸς ἄνδρας οὐ μαχουμένα·"^^xsd:string .
+
 
 # --- 063 ---
 :Line_063 a :Line ; 
     :lineNumber 63 ; 
     :canonicalReference "63"^^xsd:string ;
-    :hasTheme :Theme_ObedienceToAuthority .
-
+    :hasTheme :Theme_ObedienceToAuthority ;
+    :text "ἔπειτα δ ̓ οὕνεκ ̓ ἀρχόμεσθ ̓ ἐκ κρεισσόνων"^^xsd:string .
 
 # --- 064 ---
 :Line_064 a :Line ; 
     :lineNumber 64 ; 
     :canonicalReference "64"^^xsd:string ;
     :hasTheme :Theme_ObedienceToAuthority ; 
-    :experiencesEmotion :Emotion_Resignation .
+    :experiencesEmotion :Emotion_Resignation ;
+    :text "καὶ ταῦτ ̓ ἀκούειν κἄτι τῶνδ ̓ ἀλγίονα."^^xsd:string .
 
 # --- 065 ---
 :Line_065 a :Line ; 
@@ -393,7 +496,8 @@ a :Scene ;
     :canonicalReference "65"^^xsd:string ;
     :hasTheme :Theme_DivineLaw ; 
     :experiencesEmotion :Emotion_Resignation ; 
-    :relatedTo :Motivation_ObeyAuthorities .
+    :relatedTo :Motivation_ObeyAuthorities ;
+    :text "Ἐγὼ μὲν οὖν αἰτοῦσα τοὺς ὑπὸ χθονὸς"^^xsd:string .
 
 # --- 066 ---
 :Line_066 a :Line ; 
@@ -401,8 +505,8 @@ a :Scene ;
     :canonicalReference "66"^^xsd:string ;
     :hasTheme :Theme_ObedienceToAuthority ; 
     :experiencesEmotion :Emotion_Resignation ; 
-    :relatedTo :Motivation_AvoidForcedAction .
-
+    :relatedTo :Motivation_AvoidForcedAction ;
+    :text "ξύγγνοιαν ἴσχειν, ὡς βιάζομαι τάδε,"^^xsd:string .
 
 # --- 067 ---
 :Line_067 a :Line ; 
@@ -410,29 +514,32 @@ a :Scene ;
     :canonicalReference "67"^^xsd:string ;
     :hasTheme :Theme_ObedienceToAuthority ; 
     :makesMoralDecision :MoralDecision_SubmitToRulers ; 
-    :relatedTo :Law_CivicBurialBan .
-
+    :relatedTo :Law_CivicBurialBan ;
+    :text "τοῖς ἐν τέλει βεβῶσι πείσομαι· τὸ γὰρ"^^xsd:string .
 
 # --- 068 ---
 :Line_068 a :Line ; 
     :lineNumber 68 ; 
     :canonicalReference "68"^^xsd:string ;
     :hasTheme :Theme_ObedienceToAuthority ; 
-    :hasTheme :Theme_PrudenceAndModeration .
+    :hasTheme :Theme_PrudenceAndModeration ;
+    :text "περισσὰ πράσσειν οὐκ ἔχει νοῦν οὐδένα."^^xsd:string .
 
 # --- 069 ---
 :Line_069 a :Line ; 
     :lineNumber 69 ; 
     :canonicalReference "69"^^xsd:string ;
     :hasTheme :Theme_SisterlyDivision ; 
-    :hasConflict :Conflict_SisterlyDivision .
+    :hasConflict :Conflict_SisterlyDivision ;
+    :text "Οὔτ ̓ ἂν κελεύσαιμ ̓ οὔτ ̓ ἄν, εἰ θέλοις ἔτι"^^xsd:string .
 
 # --- 070 ---
 :Line_070 a :Line ; 
     :lineNumber 70 ; 
     :canonicalReference "70"^^xsd:string ;
     :hasTheme :Theme_SisterlyDivision ; 
-    :hasConflict :Conflict_SisterlyDivision .
+    :hasConflict :Conflict_SisterlyDivision ;
+    :text "πράσσειν, ἐμοῦ γ ̓ ἂν ἡδέως δρῴης μέτα."^^xsd:string .
 
 # --- 071 ---
 :Line_071 a :Line ; 
@@ -440,7 +547,8 @@ a :Scene ;
     :canonicalReference "71"^^xsd:string ;
     :hasTheme :Theme_BurialDuty ; 
     :experiencesEmotion :Emotion_Resolve ; 
-    :hasMotivation :Motivation_BuryBrotherDespiteRisk .
+    :hasMotivation :Motivation_BuryBrotherDespiteRisk ;
+    :text "Ἀλλ ̓ ἴσθ ̓ ὁποῖά σοι δοκεῖ, κεῖνον δ ̓ ἐγὼ"^^xsd:string .
 
 # --- 072 ---
 :Line_072 a :Line ; 
@@ -449,14 +557,16 @@ a :Scene ;
     :hasTheme :Theme_BurialDuty ; 
     :hasTheme :Theme_DeathAsHonor ; 
     :makesMoralDecision :MoralDecision_BuryBrotherAndAcceptDeath ; 
-    :experiencesEmotion :Emotion_DefiantCourage .
+    :experiencesEmotion :Emotion_DefiantCourage ;
+    :text "θάψω· καλόν μοι τοῦτο ποιούσῃ θανεῖν."^^xsd:string .
 
 # --- 073 ---
 :Line_073 a :Line ; 
     :lineNumber 73 ; 
     :canonicalReference "73"^^xsd:string ;
     :hasTheme :Theme_LoyaltyToDead ; 
-    :experiencesEmotion :Emotion_ReverentDuty .
+    :experiencesEmotion :Emotion_ReverentDuty ;
+    :text "Φίλη μετ ̓ αὐτοῦ κείσομαι, φίλου μέτα,"^^xsd:string .
 
 # --- 074 ---
 :Line_074 a :Line ; 
@@ -464,21 +574,24 @@ a :Scene ;
     :canonicalReference "74"^^xsd:string ;
     :hasTheme :Theme_DivineLaw ; 
     :advocatesFor :EthicalPrinciple_DivineHonorForDead ; 
-    :experiencesEmotion :Emotion_ReverentDuty .
+    :experiencesEmotion :Emotion_ReverentDuty ;
+    :text "ὅσια πανουργήσασ ̓· ἐπεὶ πλείων χρόνος"^^xsd:string .
 
 # --- 075 ---
 :Line_075 a :Line ;
     :lineNumber 75 ; 
     :canonicalReference "75"^^xsd:string ;
     :hasTheme :Theme_LoyaltyToDead ; 
-    :hasMotivation :Motivation_PleaseUnderworld .
+    :hasMotivation :Motivation_PleaseUnderworld ;
+    :text "ὃν δεῖ μ ̓ ἀρέσκειν τοῖς κάτω τῶν ἐνθάδε."^^xsd:string .
 
 # --- 076 ---
 :Line_076 a :Line ;
     :lineNumber 76 ; 
     :canonicalReference "76"^^xsd:string ;
     :hasTheme :Theme_LoyaltyToDead ; 
-    :experiencesEmotion :Emotion_Resolve .
+    :experiencesEmotion :Emotion_Resolve ;
+    :text "Ἐκεῖ γὰρ αἰεὶ κείσομαι· σοὶ δ ̓ εἰ δοκεῖ,"^^xsd:string .
 
 # --- 077 ---
 :Line_077 a :Line ; 
@@ -486,14 +599,16 @@ a :Scene ;
     :canonicalReference "77"^^xsd:string ;
     :hasTheme :Theme_DivineLaw ; 
     :hasConflict :Conflict_DivineLawVsCivicAuthority ; 
-    :advocatesFor :EthicalPrinciple_DivineHonorForDead .
+    :advocatesFor :EthicalPrinciple_DivineHonorForDead ;
+    :text "τὰ τῶν θεῶν ἔντιμ ̓ ἀτιμάσασ ̓ ἔχε."^^xsd:string .
 
 # --- 078 ---
 :Line_078 a :Line ; 
     :lineNumber 78 ; 
     :canonicalReference "78"^^xsd:string ;
     :hasTheme :Theme_DivineLaw ; 
-    :experiencesEmotion :Emotion_Resignation .
+    :experiencesEmotion :Emotion_Resignation ;
+    :text "Ἐγὼ μὲν οὐκ ἄτιμα ποιοῦμαι, τὸ δὲ"^^xsd:string .
 
 # --- 079 ---
 :Line_079 a :Line ; 
@@ -502,8 +617,8 @@ a :Scene ;
     :hasTheme :Theme_ObedienceToAuthority ; 
     :hasMotivation :Motivation_AvoidForcedAction ; 
     :experiencesEmotion :Emotion_Resignation ; 
-    :relatedTo :Law_CivicBurialBan .
-
+    :relatedTo :Law_CivicBurialBan ;
+    :text "βίᾳ πολιτῶν δρᾶν ἔφυν ἀμήχανος."^^xsd:string .
 
 # --- 080 ---
 :Line_080 a :Line ; 
@@ -511,7 +626,8 @@ a :Scene ;
     :canonicalReference "80"^^xsd:string ;
     :hasTheme :Theme_BurialDuty ; 
     :hasConflict :Conflict_SisterlyDivision ; 
-    :experiencesEmotion :Emotion_Resolve .
+    :experiencesEmotion :Emotion_Resolve ;
+    :text "Σὺ μὲν τάδ ̓ ἂν προὔχοι ̓· ἐγὼ δὲ δὴ τάφον"^^xsd:string .
 
 # --- 081 ---
 :Line_081 a :Line ; 
@@ -520,21 +636,24 @@ a :Scene ;
     :hasTheme :Theme_BurialDuty ; 
     :hasMotivation :Motivation_BuryBrotherDespiteRisk ; 
     :makesMoralDecision :MoralDecision_BuryBrotherAndAcceptDeath ; 
-    :experiencesEmotion :Emotion_Resolve .
+    :experiencesEmotion :Emotion_Resolve ;
+    :text "χώσουσ ̓ ἀδελφῷ φιλτάτῳ πορεύσομαι."^^xsd:string .
 
 # --- 082 ---
 :Line_082 a :Line ; 
     :lineNumber 82 ; 
     :canonicalReference "82"^^xsd:string ;
     :experiencesEmotion :Emotion_FearForAntigone ; 
-    :hasTheme :Theme_SisterlyCare .
+    :hasTheme :Theme_SisterlyCare ;
+    :text "Οἴμοι ταλαίνης ὡς ὑπερδέδοικά σου."^^xsd:string .
 
 # --- 083 ---
 :Line_083 a :Line ; 
     :lineNumber 83 ; 
     :canonicalReference "83"^^xsd:string ;
     :hasTheme :Theme_SisterlyDivision ; 
-    :experiencesEmotion :Emotion_DefiantCourage .
+    :experiencesEmotion :Emotion_DefiantCourage ;
+    :text "Μὴ  ̓μοῦ προτάρβει· τὸν σὸν ἐξόρθου πότμον."^^xsd:string .
 
 # --- 084 ---
 :Line_084 a :Line ; 
@@ -543,7 +662,8 @@ a :Scene ;
     :hasTheme :Theme_SecrecyVsPublicDeclaration ; 
     :hasMotivation :Motivation_KeepPlanSecret ; 
     :makesMoralDecision :MoralDecision_RequestSecrecy ; 
-    :hasConflict :Conflict_SecrecyVsWitness .
+    :hasConflict :Conflict_SecrecyVsWitness ;
+    :text "Ἀλλ ̓ οὖν προμηνύσῃς γε τοῦτο μηδενὶ"^^xsd:string .
 
 # --- 085 ---
 :Line_085 a :Line ; 
@@ -551,7 +671,8 @@ a :Scene ;
     :canonicalReference "85"^^xsd:string ;
     :hasTheme :Theme_SecrecyVsPublicDeclaration ; 
     :hasMotivation :Motivation_KeepPlanSecret ; 
-    :hasConflict :Conflict_SecrecyVsWitness .
+    :hasConflict :Conflict_SecrecyVsWitness ;
+    :text "τοὔργον, κρυφῇ δὲ κεῦθε, σὺν δ ̓ αὔτως ἐγώ."^^xsd:string .
 
 # --- 086 ---
 :Line_086 a :Line ; 
@@ -560,7 +681,8 @@ a :Scene ;
     :hasTheme :Theme_SecrecyVsPublicDeclaration ; 
     :experiencesEmotion :Emotion_ContemptForSilence ; 
     :hasMotivation :Motivation_PublicWitnessForJustice ; 
-    :hasConflict :Conflict_SecrecyVsWitness .
+    :hasConflict :Conflict_SecrecyVsWitness ;
+    :text "Οἴμοι, καταύδα· πολλὸν ἐχθίων ἔσῃ"^^xsd:string .
 
 # --- 087 ---
 :Line_087 a :Line ; 
@@ -568,14 +690,16 @@ a :Scene ;
     :canonicalReference "87"^^xsd:string ;
     :hasTheme :Theme_SecrecyVsPublicDeclaration ; 
     :hasMotivation :Motivation_PublicWitnessForJustice ; 
-    :hasConflict :Conflict_SecrecyVsWitness .
+    :hasConflict :Conflict_SecrecyVsWitness ;
+    :text "σιγῶσ ̓, ἐὰν μὴ πᾶσι κηρύξῃς τάδε."^^xsd:string .
 
 # --- 088 ---
 :Line_088 a :Line ; 
     :lineNumber 88 ; 
     :canonicalReference "88"^^xsd:string ;
     :hasTheme :Theme_SisterlyCare ; 
-    :experiencesEmotion :Emotion_WarmHeartedConcern .
+    :experiencesEmotion :Emotion_WarmHeartedConcern ;
+    :text "Θερμὴν ἐπὶ ψυχροῖσι καρδίαν ἔχεις."^^xsd:string .
 
 # --- 089 ---
 :Line_089 a :Line ; 
@@ -584,7 +708,8 @@ a :Scene ;
     :hasTheme :Theme_LoyaltyToDead ; 
     :hasTheme :Theme_DivineLaw ; 
     :hasMotivation :Motivation_PleaseUnderworld ; 
-    :experiencesEmotion :Emotion_ReverentDuty .
+    :experiencesEmotion :Emotion_ReverentDuty ;
+    :text "Ἀλλ ̓ οἶδ ̓ ἀρέσκουσ ̓ οἷς μάλισθ ̓ ἁδεῖν με χρή."^^xsd:string .
 
 # --- 090 ---
 :Line_090 a :Line ; 
@@ -594,8 +719,8 @@ a :Scene ;
     :hasTheme :Theme_ImpossibleAction ; 
     :hasMotivation :Motivation_IsmeneDiscourageImpossible ; 
     :experiencesEmotion :Emotion_IsmeneConcern ; 
-    :hasConflict :Conflict_PrudenceVsHonor .
-
+    :hasConflict :Conflict_PrudenceVsHonor ;
+    :text "Εἰ καὶ δυνήσῃ γ ̓· ἀλλ ̓ ἀμηχάνων ἐρᾷς."^^xsd:string .
 
 # --- 091 ---
 :Line_091 a :Line ; 
@@ -604,7 +729,8 @@ a :Scene ;
     :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
     :hasTheme :Theme_NobleDeath ; 
     :hasMotivation :Motivation_AntigonePersistUntilNoStrength ; 
-    :experiencesEmotion :Emotion_AntigoneResolve .
+    :experiencesEmotion :Emotion_AntigoneResolve ;
+    :text "Οὐκοῦν, ὅταν δὴ μὴ σθένω, πεπαύσομαι."^^xsd:string .
 
 # --- 092 ---
 :Line_092 a :Line ; 
@@ -612,7 +738,8 @@ a :Scene ;
     :canonicalReference "92"^^xsd:string ; 
     :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
     :hasTheme :Theme_ImpossibleAction ; 
-    :hasMotivation :Motivation_IsmeneDiscourageImpossible .
+    :hasMotivation :Motivation_IsmeneDiscourageImpossible ;
+    :text "Ἀρχὴν δὲ θηρᾶν οὐ πρέπει τἀμήχανα."^^xsd:string .
 
 # --- 093 ---
 :Line_093 a :Line ; 
@@ -620,7 +747,8 @@ a :Scene ;
     :canonicalReference "93"^^xsd:string ; 
     :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
     :hasTheme :Theme_SisterlyConflict ; 
-    :experiencesEmotion :Emotion_AntigoneDefiance .
+    :experiencesEmotion :Emotion_AntigoneDefiance ;
+    :text "Εἰ ταῦτα λέξεις, ἐχθαρῇ μὲν ἐξ ἐμοῦ,"^^xsd:string .
 
 # --- 094 ---
 :Line_094 a :Line ; 
@@ -629,7 +757,8 @@ a :Scene ;
     :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
     :hasTheme :Theme_HonorDead ; 
     :advocatesFor :EthicalPrinciple_HonorDead ; 
-    :hasConflict :Conflict_PrudenceVsHonor .
+    :hasConflict :Conflict_PrudenceVsHonor ;
+    :text "ἐχθρὰ δὲ τῷ θανόντι προσκείσῃ δίκῃ."^^xsd:string .
 
 # --- 095 ---
 :Line_095 a :Line ; 
@@ -638,7 +767,8 @@ a :Scene ;
     :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
     :hasTheme :Theme_NobleDeath ; 
     :hasMotivation :Motivation_AntigoneAcceptConsequences ; 
-    :experiencesEmotion :Emotion_AntigoneResolve .
+    :experiencesEmotion :Emotion_AntigoneResolve ;
+    :text "Ἀλλ ̓ ἔα με καὶ τὴν ἐξ ἐμοῦ δυσβουλίαν"^^xsd:string .
 
 # --- 096 ---
 :Line_096 a :Line ; 
@@ -647,7 +777,8 @@ a :Scene ;
     :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
     :hasTheme :Theme_NobleDeath ; 
     :hasMotivation :Motivation_AntigoneAcceptConsequences ; 
-    :hasConflict :Conflict_LoyaltyToDeadVsFear .
+    :hasConflict :Conflict_LoyaltyToDeadVsFear ;
+    :text "παθεῖν τὸ δεινὸν τοῦτο· πείσομαι γὰρ οὐ"^^xsd:string .
 
 # --- 097 ---
 :Line_097 a :Line ; 
@@ -656,7 +787,8 @@ a :Scene ;
     :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
     :hasTheme :Theme_NobleDeath ; 
     :makesMoralDecision :MoralDecision_DieNoblyForHonor ; 
-    :experiencesEmotion :Emotion_AntigoneResolve .
+    :experiencesEmotion :Emotion_AntigoneResolve ;
+    :text "τοσοῦτον οὐδὲν ὥστε μὴ οὐ καλῶς θανεῖν."^^xsd:string .
 
 # --- 098 ---
 :Line_098 a :Line ; 
@@ -664,7 +796,8 @@ a :Scene ;
     :canonicalReference "98"^^xsd:string ; 
     :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
     :hasTheme :Theme_SisterlyConflict ; 
-    :experiencesEmotion :Emotion_IsmeneConcern .
+    :experiencesEmotion :Emotion_IsmeneConcern ;
+    :text "Ἀλλ ̓, εἰ δοκεῖ σοι, στεῖχε· τοῦτο δ ̓ ἴσθ ̓ ὅτι"^^xsd:string .
 
 # --- 099 ---
 :Line_099 a :Line ; 
@@ -672,4 +805,5 @@ a :Scene ;
     :canonicalReference "99"^^xsd:string ; 
     :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
     :hasTheme :Theme_LoyalFriendship ; 
-    :hasMotivation :Motivation_IsmeneReluctantConsent .
+    :hasMotivation :Motivation_IsmeneReluctantConsent ;
+    :text "ἄνους μὲν ἔρχῃ, τοῖς φίλοις δ ̓ ὀρθῶς φίλη."^^xsd:string .
