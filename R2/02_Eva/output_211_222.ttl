@@ -1,0 +1,295 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+############################
+# CHARACTERS
+############################
+
+:Antigone_Character_Chorus
+  a owl:NamedIndividual, :Character ;
+  rdfs:label "ΧΟ (Χορός)"^^xsd:string .
+
+:Antigone_Character_Creon
+  a owl:NamedIndividual, :Character ;
+  rdfs:label "ΚΡ (Κρέων)"^^xsd:string .
+
+############################
+# SPEECHES
+############################
+
+:Speech_Chorus_211_214
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Chorus ;
+  :containsLine :Line_211, :Line_212, :Line_213, :Line_214 .
+
+:Speech_Creon_215
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :containsLine :Line_215 .
+
+:Speech_Chorus_216
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Chorus ;
+  :containsLine :Line_216 .
+
+:Speech_Creon_217
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :containsLine :Line_217 .
+
+:Speech_Chorus_218
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Chorus ;
+  :containsLine :Line_218 .
+
+:Speech_Creon_219
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :containsLine :Line_219 .
+
+:Speech_Chorus_220
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Chorus ;
+  :containsLine :Line_220 .
+
+:Speech_Creon_221_222
+  a owl:NamedIndividual, :Speech ;
+  :speechBy :Antigone_Character_Creon ;
+  :containsLine :Line_221, :Line_222 .
+
+############################
+# LINES (Ancient Greek MASTER)
+############################
+
+:Line_211 a owl:NamedIndividual, :Line ;
+  :lineNumber 211 ; :canonicalReference "211"^^xsd:string ;
+  :text "Σοὶ ταῦτ᾽ ἀρέσκει, παῖ Μενοικέως, ποιεῖν"^^xsd:string .
+
+:Line_212 a owl:NamedIndividual, :Line ;
+  :lineNumber 212 ; :canonicalReference "212"^^xsd:string ;
+  :text "τὸν τῇδε δύσνουν καὶ τὸν εὐμενῆ πόλει·"^^xsd:string .
+
+:Line_213 a owl:NamedIndividual, :Line ;
+  :lineNumber 213 ; :canonicalReference "213"^^xsd:string ;
+  :text "νόμῳ δὲ χρῆσθαι παντί, τοῦτ᾽ ἔνεστί σοι"^^xsd:string .
+
+:Line_214 a owl:NamedIndividual, :Line ;
+  :lineNumber 214 ; :canonicalReference "214"^^xsd:string ;
+  :text "καὶ τῶν θανόντων χὠπόσοι ζῶμεν πέρι."^^xsd:string .
+
+:Line_215 a owl:NamedIndividual, :Line ;
+  :lineNumber 215 ; :canonicalReference "215"^^xsd:string ;
+  :text "Ὡς ἂν σκοποὶ νῦν ἦτε τῶν εἰρημένων"^^xsd:string .
+
+:Line_216 a owl:NamedIndividual, :Line ;
+  :lineNumber 216 ; :canonicalReference "216"^^xsd:string ;
+  :text "Νεωτέρῳ τῳ τοῦτο βαστάζειν πρόθες."^^xsd:string .
+
+:Line_217 a owl:NamedIndividual, :Line ;
+  :lineNumber 217 ; :canonicalReference "217"^^xsd:string ;
+  :text "Ἀλλ᾽ εἴσ᾽ ἑτοῖμοι τοῦ νεκροῦ γ᾽ ἐπίσκοποι."^^xsd:string .
+
+:Line_218 a owl:NamedIndividual, :Line ;
+  :lineNumber 218 ; :canonicalReference "218"^^xsd:string ;
+  :text "Τί δῆτ᾽ ἂν ἄλλο τοῦτ᾽ ἐπεντέλλοις ἔτι;"^^xsd:string .
+
+:Line_219 a owl:NamedIndividual, :Line ;
+  :lineNumber 219 ; :canonicalReference "219"^^xsd:string ;
+  :text "Τὸ μὴ ἐπιχωρεῖν τοῖς ἀπιστοῦσιν τάδε."^^xsd:string .
+
+:Line_220 a owl:NamedIndividual, :Line ;
+  :lineNumber 220 ; :canonicalReference "220"^^xsd:string ;
+  :text "Οὐκ ἔστιν οὕτω μῶρος ὃς θανεῖν ἐρᾷ."^^xsd:string .
+
+:Line_221 a owl:NamedIndividual, :Line ;
+  :lineNumber 221 ; :canonicalReference "221"^^xsd:string ;
+  :text "Καὶ μὴν ὁ μισθός γ᾽ οὗτος· ἀλλ᾽ ὑπ᾽ ἐλπίδων"^^xsd:string .
+
+:Line_222 a owl:NamedIndividual, :Line ;
+  :lineNumber 222 ; :canonicalReference "222"^^xsd:string ;
+  :text "ἄνδρας τὸ κέρδος πολλάκις διώλεσεν."^^xsd:string .
+
+############################
+# TRANSLATION VARIANTS (English) — do not merge EN verse-lines
+############################
+
+:TV_Line_211_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_211 ;
+  :text "CHORUS. Such is your will, Creon son of Menoeceus,"^^xsd:string .
+
+:TV_Line_212_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_212 ;
+  :text "For the friends and the enemies of the state."^^xsd:string .
+
+:TV_Line_213_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_213 ;
+  :text "You have the power, I suppose, to enforce any law"^^xsd:string .
+
+:TV_Line_214_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_214 ;
+  :text "Concerning the living and the dead."^^xsd:string .
+
+:TV_Line_215_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_215 ;
+  :text "CREON. Make sure my orders are enforced."^^xsd:string .
+
+:TV_Line_216_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_216 ;
+  :text "CHORUS. Set that burden on some younger man."^^xsd:string .
+
+:TV_Line_217_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_217 ;
+  :text "CREON. No, no—there are already guards watching the corpse."^^xsd:string .
+
+:TV_Line_218_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_218 ;
+  :text "CHORUS. To be clear, what else are you asking?"^^xsd:string .
+
+:TV_Line_219_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_219 ;
+  :text "CREON. Don’t give an inch to those who disobey."^^xsd:string .
+
+:TV_Line_220_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_220 ;
+  :text "CHORUS. No one is foolish enough to love death."^^xsd:string .
+
+:TV_Line_221_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_221 ;
+  :text "CREON. You’re right, death is the reward; but greed"^^xsd:string .
+
+:TV_Line_222_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_222 ;
+  :text "Will often crush a man beneath his own desires."^^xsd:string .
+
+############################
+# TRANSLATION VARIANTS (Modern Greek) — do not merge GR verse-lines
+############################
+
+:TV_Line_211_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_211 ;
+  :text "ΧΟΡΟΣ. Μεταχειρίσου όπως θέλεις τους προδότες"^^xsd:string .
+
+:TV_Line_212_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_212 ;
+  :text "και τους πατριώτες, γιε του Μενοικέα."^^xsd:string .
+
+:TV_Line_213_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_213 ;
+  :text "Έχεις κάθε δικαίωμα να χρησιμοποιήσεις τους νόμους, για να κρίνεις"^^xsd:string .
+
+:TV_Line_214_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_214 ;
+  :text "και κείνους τους νεκρούς κι εμάς εδώ τους ζωντανούς."^^xsd:string .
+
+:TV_Line_215_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_215 ;
+  :text "ΚΡΕΩΝ. Σε ορίζω φύλακα, λοιπόν, της εντολής μου."^^xsd:string .
+
+:TV_Line_216_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_216 ;
+  :text "ΧΟΡΟΣ. Πρέπει να βρεις κανέναν νέο ν’ αναθέσεις τέτοιο βάρος."^^xsd:string .
+
+:TV_Line_217_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_217 ;
+  :text "ΚΡΕΩΝ. Δεν εννοώ αυτό. Ήδη φυλάσσεται ο νεκρός."^^xsd:string .
+
+:TV_Line_218_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_218 ;
+  :text "ΧΟΡΟΣ. Τότε τι να φυλάξω;"^^xsd:string .
+
+:TV_Line_219_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_219 ;
+  :text "ΚΡΕΩΝ. Εσένα · μακριά απ’ τους αντιφρονούντες."^^xsd:string .
+
+:TV_Line_220_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_220 ;
+  :text "ΧΟΡΟΣ. Δεν είμαι πια τόσο ξεμωραμένος που να θέλω να χάσω τη ζωή μου."^^xsd:string .
+
+:TV_Line_221_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_221 ;
+  :text "ΚΡΕΩΝ. Ναι, θα την χάσεις, όπως το είπες. Όμως, συχνά, το κέρδος κάνει"^^xsd:string .
+
+:TV_Line_222_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_222 ;
+  :text "τους ανθρώπους να ξεχνούν τι πρόκειται να χάσουν."^^xsd:string .
+
+############################
+# INTENTIONS AND OBJECTIVES
+############################
+
+:Motivation_Creon_StrictControl_215_219
+  a owl:NamedIndividual, :Motivation ;
+  :description "Ensure the orders are enforced and do not yield to those who disobey."^^xsd:string .
+
+:MoralDecision_Creon_NoConcession_219
+  a owl:NamedIndividual, :MoralDecision ;
+  :description "Decide not to grant any ground to disobedient opponents."^^xsd:string .
+
+:Motivation_Chorus_ShiftBurden_216
+  a owl:NamedIndividual, :Motivation ;
+  :description "Propose assigning the burden to a younger man."^^xsd:string .
+
+:Antigone_Character_Creon
+  :hasMotivation :Motivation_Creon_StrictControl_215_219 ;
+  :makesMoralDecision :MoralDecision_Creon_NoConcession_219 .
+
+:Antigone_Character_Chorus
+  :hasMotivation :Motivation_Chorus_ShiftBurden_216 .
+
+############################
+# MORAL JUSTIFICATIONS
+############################
+
+:EthicalPrinciple_RulerMayUseLaw_211_214
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "The ruler may enforce law over both friends and enemies of the city, concerning the living and the dead."^^xsd:string .
+
+:EthicalPrinciple_NoYieldToDisobedient_219
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Do not yield to those who disobey/distrust the command."^^xsd:string .
+
+:EthicalPrinciple_GreedLeadsToRuin_221_222
+  a owl:NamedIndividual, :EthicalPrinciple ;
+  :description "Greed/profit can destroy people by drawing them under their own desires/hopes."^^xsd:string .
+
+:Antigone_Character_Chorus
+  :advocatesFor :EthicalPrinciple_RulerMayUseLaw_211_214 .
+
+:Antigone_Character_Creon
+  :advocatesFor :EthicalPrinciple_NoYieldToDisobedient_219,
+                 :EthicalPrinciple_GreedLeadsToRuin_221_222 .
+
+############################
+# EMOTIONAL STATES
+############################
+
+:Emotion_Creon_SternResolve_215_222
+  a owl:NamedIndividual, :Emotion ;
+  :description "Stern resolve: insists on enforcement and warns against greed’s destructive pull."^^xsd:string .
+
+:Antigone_Character_Creon
+  :experiencesEmotion :Emotion_Creon_SternResolve_215_222 .
+
+############################
+# SEMANTIC CONTRADICTIONS
+############################
+
+:Conflict_ShiftBurdenVsAlreadyGuarded_216_217
+  a owl:NamedIndividual, :Conflict ;
+  :description "The Chorus suggests assigning the task to a younger man, while Creon insists guards are already watching the corpse."^^xsd:string ;
+  :conflictBetween :Antigone_Character_Chorus, :Antigone_Character_Creon .
+
+############################
+# CAUSAL RELATIONSHIPS (:relatedTo)
+############################
+
+:Event_GreedOrProfit_221_222
+  a owl:NamedIndividual, owl:Thing ;
+  :description "Greed/profit (κέρδος) and hopes/desires (ἐλπίδες)."^^xsd:string .
+
+:Event_RuinOrCrushing_221_222
+  a owl:NamedIndividual, owl:Thing ;
+  :description "People are destroyed/crushed by pursuing gain."^^xsd:string .
+
+:Event_GreedOrProfit_221_222
+  :relatedTo :Event_RuinOrCrushing_221_222 .
+
+############################
+# THEMATIC SIGNALS
+############################
+
+:Speech_Chorus_211_214
+  :hasTheme :Theme_AuthorityOfLaw, :Theme_StateLoyalty .
+
+:Speech_Creon_215
+  :hasTheme :Theme_StrictEnforcement .
+
+:Speech_Creon_217
+  :hasTheme :Theme_Surveillance .
+
+:Speech_Creon_219
+  :hasTheme :Theme_StrictEnforcement .
+
+:Speech_Chorus_220
+  :hasTheme :Theme_DeathAsDeterrent .
+
+:Speech_Creon_221_222
+  :hasTheme :Theme_GreedAndRuin .

@@ -6,956 +6,1155 @@
 
 # --- 162 ---
 :Line_162 a owl:NamedIndividual, :Line ;
-:lineNumber 162 ;
-:canonicalReference "162"^^xsd:string ;
-:hasTheme :Theme_PoliticalTransitionToCreon ;
-:relatedTo :MoralDecision_SummonEldersByCommonProclamation .
+    :lineNumber 162 ;
+    :canonicalReference "162"^^xsd:string ;
+    :hasTheme :Theme_CivicStabilityAfterCrisis ;
+    :text "Ἄνδρες, τὰ μὲν δὴ πόλεος ἀσφαλῶς θεοὶ"^^xsd:string .
 
 # --- 163 ---
 :Line_163 a owl:NamedIndividual, :Line ;
-:lineNumber 163 ;
-:canonicalReference "163"^^xsd:string ;
-:hasTheme :Theme_CivicStabilityAfterCrisis .
+    :lineNumber 163 ;
+    :canonicalReference "163"^^xsd:string ;
+    :hasTheme :Theme_CivicStabilityAfterCrisis ;
+    :text "πολλῷ σάλῳ σείσαντες ὤρθωσαν πάλιν·"^^xsd:string .
 
 # --- 164 ---
 :Line_164 a owl:NamedIndividual, :Line ;
-:lineNumber 164 ;
-:canonicalReference "164"^^xsd:string ;
-:hasTheme :Theme_CivicStabilityAfterCrisis .
+    :lineNumber 164 ;
+    :canonicalReference "164"^^xsd:string ;
+    :hasTheme :Theme_LeadershipAndLaw ;
+    :relatedTo :Motivation_TestLeadersByOffice ;
+    :text "ὑμᾶς δ ̓ ἐγὼ πομποῖσιν ἐκ πάντων δίχα"^^xsd:string .
 
 # --- 165 ---
 :Line_165 a owl:NamedIndividual, :Line ;
-:lineNumber 165 ;
-:canonicalReference "165"^^xsd:string ;
-:hasTheme :Theme_LeadershipAndLaw ;
-:relatedTo :Motivation_TestLeadersByOffice .
+    :lineNumber 165 ;
+    :canonicalReference "165"^^xsd:string ;
+    :hasTheme :Theme_LeadershipAndLaw ;
+    :text "ἔστειλ ̓ ἱκέσθαι, τοῦτο μὲν τὰ Λαΐου"^^xsd:string .
 
 # --- 166 ---
 :Line_166 a owl:NamedIndividual, :Line ;
-:lineNumber 166 ;
-:canonicalReference "166"^^xsd:string ;
-:hasTheme :Theme_LeadershipAndLaw .
+    :lineNumber 166 ;
+    :canonicalReference "166"^^xsd:string ;
+    :hasTheme :Theme_LeadershipAndLaw ;
+    :text "σέβοντας εἰδὼς εὖ θρόνων ἀεὶ κράτη,"^^xsd:string .
 
 # --- 167 ---
 :Line_167 a owl:NamedIndividual, :Line ;
-:lineNumber 167 ;
-:canonicalReference "167"^^xsd:string ;
-:hasTheme :Theme_LeadershipAndLaw .
+    :lineNumber 167 ;
+    :canonicalReference "167"^^xsd:string ;
+    :hasTheme :Theme_CivicStabilityAfterCrisis ;
+    :text "τοῦτ ̓ αὖθις, ἡνίκ ̓ Οἰδίπους ὤρθου πόλιν,"^^xsd:string .
 
 # --- 168 ---
 :Line_168 a owl:NamedIndividual, :Line ;
-:lineNumber 168 ;
-:canonicalReference "168"^^xsd:string ;
-:hasTheme :Theme_CivicStabilityAfterCrisis .
+    :lineNumber 168 ;
+    :canonicalReference "168"^^xsd:string ;
+    :hasTheme :Theme_CivicStabilityAfterCrisis ;
+    :relatedTo :Event_CreonAccession ;
+    :text "κἀπεὶ διώλετ ̓, ἀμφὶ τοὺς κείνων ἔτι παῖδας"^^xsd:string .
 
 # --- 169 ---
 :Line_169 a owl:NamedIndividual, :Line ;
-:lineNumber 169 ;
-:canonicalReference "169"^^xsd:string ;
-:hasTheme :Theme_CivicStabilityAfterCrisis ;
-:relatedTo :Event_CreonAccession .
+    :lineNumber 169 ;
+    :canonicalReference "169"^^xsd:string ;
+    :hasTheme :Theme_LeadershipAndLaw ;
+    :text "μένοντας ἐμπέδοις φρονήμασιν."^^xsd:string .
 
 # --- 170 ---
 :Line_170 a owl:NamedIndividual, :Line ;
-:lineNumber 170 ;
-:canonicalReference "170"^^xsd:string ;
-:hasTheme :Theme_LeadershipAndLaw .
+    :lineNumber 170 ;
+    :canonicalReference "170"^^xsd:string ;
+    :hasTheme :Theme_CivicStabilityAfterCrisis ;
+    :relatedTo :Event_BrothersDeathPollution ;
+    :text "Ὅτ ̓ οὖν ἐκεῖνοι πρὸς διπλῆς μοίρας μίαν"^^xsd:string .
 
 # --- 171 ---
 :Line_171 a owl:NamedIndividual, :Line ;
-:lineNumber 171 ;
-:canonicalReference "171"^^xsd:string ;
-:hasTheme :Theme_CivicStabilityAfterCrisis ;
-:relatedTo :Event_BrothersDeathPollution .
+    :lineNumber 171 ;
+    :canonicalReference "171"^^xsd:string ;
+    :hasTheme :Theme_CivicStabilityAfterCrisis ;
+    :relatedTo :Event_BrothersDeathPollution ;
+    :text "καθ ̓ ἡμέραν ὤλοντο παίσαντές τε καὶ"^^xsd:string .
 
 # --- 172 ---
 :Line_172 a owl:NamedIndividual, :Line ;
-:lineNumber 172 ;
-:canonicalReference "172"^^xsd:string ;
-:hasTheme :Theme_CivicStabilityAfterCrisis ;
-:relatedTo :Event_BrothersDeathPollution .
+    :lineNumber 172 ;
+    :canonicalReference "172"^^xsd:string ;
+    :hasTheme :Theme_CivicStabilityAfterCrisis ;
+    :relatedTo :Event_BrothersDeathPollution ;
+    :text "πληγέντες αὐτόχειρι σὺν μιάσματι,"^^xsd:string .
 
 # --- 173 ---
 :Line_173 a owl:NamedIndividual, :Line ;
-:lineNumber 173 ;
-:canonicalReference "173"^^xsd:string ;
-:hasTheme :Theme_CivicStabilityAfterCrisis ;
-:relatedTo :Event_BrothersDeathPollution .
+    :lineNumber 173 ;
+    :canonicalReference "173"^^xsd:string ;
+    :hasTheme :Theme_PoliticalTransitionToCreon ;
+    :relatedTo :Event_CreonAccession ;
+    :text "ἐγὼ κράτη δὴ πάντα καὶ θρόνους ἔχω"^^xsd:string .
 
 # --- 174 ---
 :Line_174 a owl:NamedIndividual, :Line ;
-:lineNumber 174 ;
-:canonicalReference "174"^^xsd:string ;
-:hasTheme :Theme_PoliticalTransitionToCreon ;
-:relatedTo :Event_CreonAccession .
+    :lineNumber 174 ;
+    :canonicalReference "174"^^xsd:string ;
+    :hasTheme :Theme_PoliticalTransitionToCreon ;
+    :relatedTo :Event_CreonAccession ;
+    :text "γένους κατ ̓ ἀγχιστεῖα τῶν ὀλωλότων."^^xsd:string .
 
 # --- 175 ---
 :Line_175 a owl:NamedIndividual, :Line ;
-:lineNumber 175 ;
-:canonicalReference "175"^^xsd:string ;
-:hasTheme :Theme_PoliticalTransitionToCreon ;
-:relatedTo :Event_CreonAccession .
+    :lineNumber 175 ;
+    :canonicalReference "175"^^xsd:string ;
+    :hasTheme :Theme_LeadershipAndLaw ;
+    :relatedTo :Motivation_TestLeadersByOffice ;
+    :text "Ἀμήχανον δὲ παντὸς ἀνδρὸς ἐκμαθεῖν"^^xsd:string .
 
 # --- 176 ---
 :Line_176 a owl:NamedIndividual, :Line ;
-:lineNumber 176 ;
-:canonicalReference "176"^^xsd:string ;
-:hasTheme :Theme_LeadershipAndLaw ;
-:relatedTo :Motivation_TestLeadersByOffice .
+    :lineNumber 176 ;
+    :canonicalReference "176"^^xsd:string ;
+    :hasTheme :Theme_LeadershipAndLaw ;
+    :relatedTo :Motivation_TestLeadersByOffice ;
+    :text "ψυχήν τε καὶ φρόνημα καὶ γνώμην, πρὶν ἂν"^^xsd:string .
 
 # --- 177 ---
 :Line_177 a owl:NamedIndividual, :Line ;
-:lineNumber 177 ;
-:canonicalReference "177"^^xsd:string ;
-:hasTheme :Theme_LeadershipAndLaw ;
-:relatedTo :Motivation_TestLeadersByOffice .
+    :lineNumber 177 ;
+    :canonicalReference "177"^^xsd:string ;
+    :hasTheme :Theme_LeadershipAndLaw ;
+    :relatedTo :EthicalPrinciple_LawfulGovernance ;
+    :text "ἀρχαῖς τε καὶ νόμοισιν ἐντριβὴς φανῇ."^^xsd:string .
 
 # --- 178 ---
 :Line_178 a owl:NamedIndividual, :Line ;
-:lineNumber 178 ;
-:canonicalReference "178"^^xsd:string ;
-:hasTheme :Theme_LeadershipAndLaw ;
-:relatedTo :EthicalPrinciple_LawfulGovernance .
+    :lineNumber 178 ;
+    :canonicalReference "178"^^xsd:string ;
+    :hasTheme :Theme_LeadershipAndLaw ;
+    :text "Ἐμοὶ γὰρ ὅστις πᾶσαν εὐθύνων πόλιν"^^xsd:string .
 
 # --- 179 ---
 :Line_179 a owl:NamedIndividual, :Line ;
-:lineNumber 179 ;
-:canonicalReference "179"^^xsd:string ;
-:hasTheme :Theme_LeadershipAndLaw .
+    :lineNumber 179 ;
+    :canonicalReference "179"^^xsd:string ;
+    :hasTheme :Theme_LeadershipAndLaw ;
+    :relatedTo :EthicalPrinciple_FrankCounsel ;
+    :text "μὴ τῶν ἀρίστων ἅπτεται βουλευμάτων,"^^xsd:string .
 
 # --- 180 ---
 :Line_180 a owl:NamedIndividual, :Line ;
-:lineNumber 180 ;
-:canonicalReference "180"^^xsd:string ;
-:hasTheme :Theme_LeadershipAndLaw ;
-:relatedTo :EthicalPrinciple_FrankCounsel .
+    :lineNumber 180 ;
+    :canonicalReference "180"^^xsd:string ;
+    :hasTheme :Theme_LeadershipAndLaw ;
+    :hasConflict :Conflict_FearSilenceVsBestCounsel ;
+    :text "ἀλλ ̓ ἐκ φόβου του γλῶσσαν ἐγκλῄσας ἔχει,"^^xsd:string .
 
 # --- 181 ---
 :Line_181 a owl:NamedIndividual, :Line ;
-:lineNumber 181 ;
-:canonicalReference "181"^^xsd:string ;
-:hasTheme :Theme_LeadershipAndLaw ;
-:hasConflict :Conflict_FearSilenceVsBestCounsel .
+    :lineNumber 181 ;
+    :canonicalReference "181"^^xsd:string ;
+    :hasTheme :Theme_LeadershipAndLaw ;
+    :relatedTo :EthicalPrinciple_FrankCounsel ;
+    :text "κάκιστος εἶναι νῦν τε καὶ πάλαι δοκεῖ·"^^xsd:string .
 
 # --- 182 ---
 :Line_182 a owl:NamedIndividual, :Line ;
-:lineNumber 182 ;
-:canonicalReference "182"^^xsd:string ;
-:hasTheme :Theme_LeadershipAndLaw ;
-:relatedTo :EthicalPrinciple_FrankCounsel .
+    :lineNumber 182 ;
+    :canonicalReference "182"^^xsd:string ;
+    :hasTheme :Theme_PatriotismAbovePersonalTies ;
+    :hasConflict :Conflict_FriendVsFatherland ;
+    :text "καὶ μείζον ̓ ὅστις ἀντὶ τῆς αὑτοῦ πάτρας"^^xsd:string .
 
 # --- 183 ---
 :Line_183 a owl:NamedIndividual, :Line ;
-:lineNumber 183 ;
-:canonicalReference "183"^^xsd:string ;
-:hasTheme :Theme_PatriotismAbovePersonalTies ;
-:hasConflict :Conflict_FriendVsFatherland .
+    :lineNumber 183 ;
+    :canonicalReference "183"^^xsd:string ;
+    :hasTheme :Theme_PatriotismAbovePersonalTies ;
+    :hasConflict :Conflict_FriendVsFatherland ;
+    :text "φίλον νομίζει, τοῦτον οὐδαμοῦ λέγω."^^xsd:string .
 
 # --- 184 ---
 :Line_184 a owl:NamedIndividual, :Line ;
-:lineNumber 184 ;
-:canonicalReference "184"^^xsd:string ;
-:hasTheme :Theme_PatriotismAbovePersonalTies ;
-:hasConflict :Conflict_FriendVsFatherland .
+    :lineNumber 184 ;
+    :canonicalReference "184"^^xsd:string ;
+    :referencesMyth :Myth_ZeusAllSeeing ;
+    :hasTheme :Theme_PatriotismAbovePersonalTies ;
+    :relatedTo :MoralDecision_SpeakAgainstRuin ;
+    :text "Ἐγὼ γάρ, ἴστω Ζεὺς ὁ πάνθ ̓ ὁρῶν ἀεί,"^^xsd:string .
 
 # --- 185 ---
 :Line_185 a owl:NamedIndividual, :Line ;
-:lineNumber 185 ;
-:canonicalReference "185"^^xsd:string ;
-:referencesMyth :Myth_ZeusAllSeeing ;
-:hasTheme :Theme_PatriotismAbovePersonalTies ;
-:relatedTo :MoralDecision_SpeakAgainstRuin .
+    :lineNumber 185 ;
+    :canonicalReference "185"^^xsd:string ;
+    :hasTheme :Theme_LeadershipAndLaw ;
+    :hasConflict :Conflict_FearSilenceVsBestCounsel ;
+    :relatedTo :MoralDecision_SpeakAgainstRuin ;
+    :text "οὔτ ̓ ἂν σιωπήσαιμι τὴν ἄτην ὁρῶν"^^xsd:string .
 
 # --- 186 ---
 :Line_186 a owl:NamedIndividual, :Line ;
-:lineNumber 186 ;
-:canonicalReference "186"^^xsd:string ;
-:hasTheme :Theme_LeadershipAndLaw ;
-:hasConflict :Conflict_FearSilenceVsBestCounsel ;
-:relatedTo :MoralDecision_SpeakAgainstRuin .
+    :lineNumber 186 ;
+    :canonicalReference "186"^^xsd:string ;
+    :hasTheme :Theme_CivicStabilityAfterCrisis ;
+    :relatedTo :MoralDecision_SpeakAgainstRuin ;
+    :text "στείχουσαν ἀστοῖς ἀντὶ τῆς σωτηρίας,"^^xsd:string .
 
 # --- 187 ---
 :Line_187 a owl:NamedIndividual, :Line ;
-:lineNumber 187 ;
-:canonicalReference "187"^^xsd:string ;
-:hasTheme :Theme_CivicStabilityAfterCrisis ;
-:relatedTo :MoralDecision_SpeakAgainstRuin .
+    :lineNumber 187 ;
+    :canonicalReference "187"^^xsd:string ;
+    :hasTheme :Theme_PatriotismAbovePersonalTies ;
+    :relatedTo :MoralDecision_PrioritizeCityOverPrivateFriendship ;
+    :text "οὔτ ̓ ἂν φίλον ποτ ̓ ἄνδρα δυσμενῆ χθονὸς"^^xsd:string .
 
 # --- 188 ---
 :Line_188 a owl:NamedIndividual, :Line ;
-:lineNumber 188 ;
-:canonicalReference "188"^^xsd:string ;
-:hasTheme :Theme_PatriotismAbovePersonalTies ;
-:relatedTo :MoralDecision_PrioritizeCityOverPrivateFriendship .
+    :lineNumber 188 ;
+    :canonicalReference "188"^^xsd:string ;
+    :hasTheme :Theme_PatriotismAbovePersonalTies ;
+    :relatedTo :MoralDecision_PrioritizeCityOverPrivateFriendship ;
+    :text "θείμην ἐμαυτῷ, τοῦτο γιγνώσκων ὅτι"^^xsd:string .
 
 # --- 189 ---
 :Line_189 a owl:NamedIndividual, :Line ;
-:lineNumber 189 ;
-:canonicalReference "189"^^xsd:string ;
-:hasTheme :Theme_PatriotismAbovePersonalTies ;
-:relatedTo :MoralDecision_PrioritizeCityOverPrivateFriendship .
+    :lineNumber 189 ;
+    :canonicalReference "189"^^xsd:string ;
+    :hasTheme :Theme_PatriotismAbovePersonalTies ;
+    :relatedTo :EthicalPrinciple_Patriotism ;
+    :text "ἥδ ̓ ἐστὶν ἡ σῴζουσα καὶ ταύτης ἔπι"^^xsd:string .
 
 # --- 190 ---
 :Line_190 a owl:NamedIndividual, :Line ;
-:lineNumber 190 ;
-:canonicalReference "190"^^xsd:string ;
-:hasTheme :Theme_PatriotismAbovePersonalTies ;
-:relatedTo :EthicalPrinciple_Patriotism .
+    :lineNumber 190 ;
+    :canonicalReference "190"^^xsd:string ;
+    :hasTheme :Theme_PatriotismAbovePersonalTies ;
+    :relatedTo :EthicalPrinciple_Patriotism ;
+    :text "πλέοντες ὀρθῆς τοὺς φίλους ποιούμεθα."^^xsd:string .
 
 # --- 191 ---
 :Line_191 a owl:NamedIndividual, :Line ;
-:lineNumber 191 ;
-:canonicalReference "191"^^xsd:string ;
-:hasTheme :Theme_PatriotismAbovePersonalTies ;
-:relatedTo :EthicalPrinciple_Patriotism .
+    :lineNumber 191 ;
+    :canonicalReference "191"^^xsd:string ;
+    :hasTheme :Theme_LeadershipAndLaw ;
+    :relatedTo :EthicalPrinciple_LawfulGovernance ;
+    :text "τοιοῖσδ ̓ ἐγὼ νόμοισι τήνδ ̓ αὔξω πόλιν."^^xsd:string .
 
-# --- 192 ---
-:Line_192 a owl:NamedIndividual, :Line ;
-:lineNumber 192 ;
-:canonicalReference "192"^^xsd:string ;
-:hasTheme :Theme_LeadershipAndLaw ;
-:relatedTo :EthicalPrinciple_LawfulGovernance .
+# 192 missing
 
 # --- 193 ---
-:Line_193 a owl:NamedIndividual, :Line ; :lineNumber 193 ; :canonicalReference "193"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc .
+:Line_193 a owl:NamedIndividual, :Line ;
+    :lineNumber 193 ;
+    :canonicalReference "193"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :text "ἀστοῖσι παίδων τῶν ἀπ ̓ Οἰδίπου πέρι·"^^xsd:string .
 
 # --- 194 ---
-:Line_194 a owl:NamedIndividual, :Line ; :lineNumber 194 ; :canonicalReference "194"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:relatedTo :Antigone_Character_Eteocles .
+:Line_194 a owl:NamedIndividual, :Line ;
+    :lineNumber 194 ;
+    :canonicalReference "194"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :relatedTo :Antigone_Character_Eteocles ;
+    :text "Ἐτεοκλέα μέν, ὃς πόλεως ὑπερμαχῶν"^^xsd:string .
 
 # --- 195 ---
-:Line_195 a owl:NamedIndividual, :Line ; :lineNumber 195 ; :canonicalReference "195"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:hasTheme :Theme_JusticeByMerit ;
-:relatedTo :Event_EteoclesDefendsCityDies .
+:Line_195 a owl:NamedIndividual, :Line ;
+    :lineNumber 195 ;
+    :canonicalReference "195"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :hasTheme :Theme_JusticeByMerit ;
+    :relatedTo :Event_EteoclesDefendsCityDies ;
+    :text "ὄλωλε τῆσδε, πάντ ̓ ἀριστεύσας δορί,"^^xsd:string .
 
 # --- 196 ---
-:Line_196 a owl:NamedIndividual, :Line ; :lineNumber 196 ; :canonicalReference "196"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:relatedTo :MoralDecision_BuryEteoclesWithHonors ;
-:hasTheme :Theme_BurialHonorAndDisgrace .
+:Line_196 a owl:NamedIndividual, :Line ;
+    :lineNumber 196 ;
+    :canonicalReference "196"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :relatedTo :MoralDecision_BuryEteoclesWithHonors ;
+    :hasTheme :Theme_BurialHonorAndDisgrace ;
+    :text "τάφῳ τε κρύψαι καὶ τὰ πάντ ̓ ἀφαγνίσαι"^^xsd:string .
 
 # --- 197 ---
-:Line_197 a owl:NamedIndividual, :Line ; :lineNumber 197 ; :canonicalReference "197"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:relatedTo :MoralDecision_BuryEteoclesWithHonors ;
-:hasTheme :Theme_BurialHonorAndDisgrace .
+:Line_197 a owl:NamedIndividual, :Line ;
+    :lineNumber 197 ;
+    :canonicalReference "197"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :relatedTo :MoralDecision_BuryEteoclesWithHonors ;
+    :hasTheme :Theme_BurialHonorAndDisgrace ;
+    :text "ἃ τοῖς ἀρίστοις ἔρχεται κάτω νεκροῖς·"^^xsd:string .
 
 # --- 198 ---
-:Line_198 a owl:NamedIndividual, :Line ; :lineNumber 198 ; :canonicalReference "198"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:relatedTo :Antigone_Character_Polyneices .
+:Line_198 a owl:NamedIndividual, :Line ;
+    :lineNumber 198 ;
+    :canonicalReference "198"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :relatedTo :Antigone_Character_Polyneices ;
+    :text "τὸν δ ̓ αὖ ξύναιμον τοῦδε, Πολυνείκην λέγω,"^^xsd:string .
 
 # --- 199 ---
-:Line_199 a owl:NamedIndividual, :Line ; :lineNumber 199 ; :canonicalReference "199"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:hasTheme :Theme_PunishmentOfTreason ;
-:relatedTo :Event_PolyneicesAttacksFatherland .
+:Line_199 a owl:NamedIndividual, :Line ;
+    :lineNumber 199 ;
+    :canonicalReference "199"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :hasTheme :Theme_PunishmentOfTreason ;
+    :relatedTo :Event_PolyneicesAttacksFatherland ;
+    :text "ὃς γῆν πατρῴαν καὶ θεοὺς τοὺς ἐγγενεῖς"^^xsd:string .
 
 # --- 200 ---
-:Line_200 a owl:NamedIndividual, :Line ; :lineNumber 200 ; :canonicalReference "200"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:relatedTo :Event_PolyneicesAttacksFatherland .
+:Line_200 a owl:NamedIndividual, :Line ;
+    :lineNumber 200 ;
+    :canonicalReference "200"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :relatedTo :Event_PolyneicesAttacksFatherland ;
+    :text "φυγὰς κατελθὼν ἠθέλησε μὲν πυρὶ"^^xsd:string .
 
 # --- 201 ---
-:Line_201 a owl:NamedIndividual, :Line ; :lineNumber 201 ; :canonicalReference "201"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:relatedTo :Event_PolyneicesAttacksFatherland .
+:Line_201 a owl:NamedIndividual, :Line ;
+    :lineNumber 201 ;
+    :canonicalReference "201"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :relatedTo :Event_PolyneicesAttacksFatherland ;
+    :text "πρῆσαι κατάκρας, ἠθέλησε δ ̓ αἵματος"^^xsd:string .
 
 # --- 202 ---
-:Line_202 a owl:NamedIndividual, :Line ; :lineNumber 202 ; :canonicalReference "202"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:relatedTo :Event_PolyneicesAttacksFatherland ;
-:hasTheme :Theme_PunishmentOfTreason .
+:Line_202 a owl:NamedIndividual, :Line ;
+    :lineNumber 202 ;
+    :canonicalReference "202"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :relatedTo :Event_PolyneicesAttacksFatherland ;
+    :hasTheme :Theme_PunishmentOfTreason ;
+    :text "κοινοῦ πάσασθαι, τοὺς δὲ δουλώσας ἄγειν,"^^xsd:string .
 
 # --- 203 ---
-:Line_203 a owl:NamedIndividual, :Line ; :lineNumber 203 ; :canonicalReference "203"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:relatedTo :MoralDecision_DenyBurialToPolyneices ;
-:relatedTo :Event_CreonProclaimsDecree .
+:Line_203 a owl:NamedIndividual, :Line ;
+    :lineNumber 203 ;
+    :canonicalReference "203"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :relatedTo :MoralDecision_DenyBurialToPolyneices ;
+    :relatedTo :Event_CreonProclaimsDecree ;
+    :text "τοῦτον πόλει τῇδ ̓ ἐκκεκήρυκται τάφῳ"^^xsd:string .
 
 # --- 204 ---
-:Line_204 a owl:NamedIndividual, :Line ; :lineNumber 204 ; :canonicalReference "204"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:hasTheme :Theme_BurialHonorAndDisgrace ;
-:relatedTo :MoralDecision_DenyBurialToPolyneices .
+:Line_204 a owl:NamedIndividual, :Line ;
+    :lineNumber 204 ;
+    :canonicalReference "204"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :hasTheme :Theme_BurialHonorAndDisgrace ;
+    :relatedTo :MoralDecision_DenyBurialToPolyneices ;
+    :text "μήτε κτερίζειν μήτε κωκῦσαί τινα,"^^xsd:string .
 
 # --- 205 ---
-:Line_205 a owl:NamedIndividual, :Line ; :lineNumber 205 ; :canonicalReference "205"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:hasTheme :Theme_BurialHonorAndDisgrace ;
-:relatedTo :MoralDecision_DenyBurialToPolyneices .
+:Line_205 a owl:NamedIndividual, :Line ;
+    :lineNumber 205 ;
+    :canonicalReference "205"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :hasTheme :Theme_BurialHonorAndDisgrace ;
+    :relatedTo :MoralDecision_DenyBurialToPolyneices ;
+    :text "ἐᾶν δ ̓ ἄθαπτον καὶ πρὸς οἰωνῶν δέμας"^^xsd:string .
 
 # --- 206 ---
-:Line_206 a owl:NamedIndividual, :Line ; :lineNumber 206 ; :canonicalReference "206"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:hasTheme :Theme_BurialHonorAndDisgrace ;
-:relatedTo :MoralDecision_DenyBurialToPolyneices .
+:Line_206 a owl:NamedIndividual, :Line ;
+    :lineNumber 206 ;
+    :canonicalReference "206"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :hasTheme :Theme_BurialHonorAndDisgrace ;
+    :relatedTo :MoralDecision_DenyBurialToPolyneices ;
+    :text "καὶ πρὸς κυνῶν ἐδεστὸν αἰκισθέν τ ̓ ἰδεῖν."^^xsd:string .
 
 # --- 207 ---
-:Line_207 a owl:NamedIndividual, :Line ; :lineNumber 207 ; :canonicalReference "207"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:experiencesEmotion :Emotion_SternResolve .
+:Line_207 a owl:NamedIndividual, :Line ;
+    :lineNumber 207 ;
+    :canonicalReference "207"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :experiencesEmotion :Emotion_SternResolve ;
+    :text "Τοιόνδ ̓ ἐμὸν φρόνημα, κοὔποτ ̓ ἔκ γ ̓ ἐμοῦ"^^xsd:string .
 
 # --- 208 ---
-:Line_208 a owl:NamedIndividual, :Line ; :lineNumber 208 ; :canonicalReference "208"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:hasConflict :Conflict_HonorWickedVsJust ;
-:relatedTo :EthicalPrinciple_NoHonorForWickedOverJust ;
-:hasTheme :Theme_JusticeByMerit .
+:Line_208 a owl:NamedIndividual, :Line ;
+    :lineNumber 208 ;
+    :canonicalReference "208"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :hasConflict :Conflict_HonorWickedVsJust ;
+    :relatedTo :EthicalPrinciple_NoHonorForWickedOverJust ;
+    :hasTheme :Theme_JusticeByMerit ;
+    :text "τιμὴν προέξουσ ̓ οἱ κακοὶ τῶν ἐνδίκων."^^xsd:string .
 
 # --- 209 ---
-:Line_209 a owl:NamedIndividual, :Line ; :lineNumber 209 ; :canonicalReference "209"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:hasTheme :Theme_PatriotismAndCivicLoyalty ;
-:relatedTo :MoralDecision_HonorLoyalToCityLivingAndDead .
+:Line_209 a owl:NamedIndividual, :Line ;
+    :lineNumber 209 ;
+    :canonicalReference "209"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :hasTheme :Theme_PatriotismAndCivicLoyalty ;
+    :relatedTo :MoralDecision_HonorLoyalToCityLivingAndDead ;
+    :text "Ἀλλ ̓ ὅστις εὔνους τῇδε τῇ πόλει, θανὼν"^^xsd:string .
 
 # --- 210 ---
-:Line_210 a owl:NamedIndividual, :Line ; :lineNumber 210 ; :canonicalReference "210"^^xsd:string ;
-:partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
-:hasTheme :Theme_PatriotismAndCivicLoyalty ;
-:relatedTo :MoralDecision_HonorLoyalToCityLivingAndDead .
+:Line_210 a owl:NamedIndividual, :Line ;
+    :lineNumber 210 ;
+    :canonicalReference "210"^^xsd:string ;
+    :partOfScene :Antigone_Scene_CreonDecree_193_210_grc ;
+    :hasTheme :Theme_PatriotismAndCivicLoyalty ;
+    :relatedTo :MoralDecision_HonorLoyalToCityLivingAndDead ;
+    :text "καὶ ζῶν ὁμοίως ἐξ ἐμοῦ τιμήσεται."^^xsd:string .
 
 
 # --- 211 ---
 :Line_211
   a owl:NamedIndividual, :Line ;
   :lineNumber 211 ;
-  :canonicalReference "211"^^xsd:string .
+  :canonicalReference "211"^^xsd:string ;
+  :text "Σοὶ ταῦτ᾽ ἀρέσκει, παῖ Μενοικέως, ποιεῖν"^^xsd:string .
 
 # --- 212 ---
 :Line_212
   a owl:NamedIndividual, :Line ;
   :lineNumber 212 ;
-  :canonicalReference "212"^^xsd:string .
+  :canonicalReference "212"^^xsd:string ;
+  :text "τὸν τῇδε δύσνουν καὶ τὸν εὐμενῆ πόλει·"^^xsd:string .
 
 # --- 213 ---
 :Line_213
   a owl:NamedIndividual, :Line ;
   :lineNumber 213 ;
-  :canonicalReference "213"^^xsd:string .
+  :canonicalReference "213"^^xsd:string ;
+  :text "νόμῳ δὲ χρῆσθαι παντί, τοῦτ᾽ ἔνεστί σοι"^^xsd:string .
 
 # --- 214 ---
 :Line_214
   a owl:NamedIndividual, :Line ;
   :lineNumber 214 ;
-  :canonicalReference "214"^^xsd:string .
+  :canonicalReference "214"^^xsd:string ;
+  :text "καὶ τῶν θανόντων χὠπόσοι ζῶμεν πέρι."^^xsd:string .
 
 # --- 215 ---
 :Line_215
   a owl:NamedIndividual, :Line ;
   :lineNumber 215 ;
-  :canonicalReference "215"^^xsd:string .
+  :canonicalReference "215"^^xsd:string ;
+  :text "Ὡς ἂν σκοποὶ νῦν ἦτε τῶν εἰρημένων"^^xsd:string .
 
 # --- 216 ---
 :Line_216
   a owl:NamedIndividual, :Line ;
   :lineNumber 216 ;
-  :canonicalReference "216"^^xsd:string .
+  :canonicalReference "216"^^xsd:string ;
+  :text "Νεωτέρῳ τῳ τοῦτο βαστάζειν πρόθες."^^xsd:string .
 
 # --- 217 ---
 :Line_217
   a owl:NamedIndividual, :Line ;
   :lineNumber 217 ;
-  :canonicalReference "217"^^xsd:string .
+  :canonicalReference "217"^^xsd:string ;
+  :text "Ἀλλ᾽ εἴσ᾽ ἑτοῖμοι τοῦ νεκροῦ γ᾽ ἐπίσκοποι."^^xsd:string .
 
 # --- 218 ---
 :Line_218
   a owl:NamedIndividual, :Line ;
   :lineNumber 218 ;
-  :canonicalReference "218"^^xsd:string .
+  :canonicalReference "218"^^xsd:string ;
+  :text "Τί δῆτ᾽ ἂν ἄλλο τοῦτ᾽ ἐπεντέλλοις ἔτι;"^^xsd:string .
 
 # --- 219 ---
 :Line_219
   a owl:NamedIndividual, :Line ;
   :lineNumber 219 ;
-  :canonicalReference "219"^^xsd:string .
+  :canonicalReference "219"^^xsd:string ;
+  :text "Τὸ μὴ ἐπιχωρεῖν τοῖς ἀπιστοῦσιν τάδε."^^xsd:string .
 
 # --- 220 ---
 :Line_220
   a owl:NamedIndividual, :Line ;
   :lineNumber 220 ;
-  :canonicalReference "220"^^xsd:string .
+  :canonicalReference "220"^^xsd:string ;
+  :text "Οὐκ ἔστιν οὕτω μῶρος ὃς θανεῖν ἐρᾷ."^^xsd:string .
 
 # --- 221 ---
 :Line_221
   a owl:NamedIndividual, :Line ;
   :lineNumber 221 ;
-  :canonicalReference "221"^^xsd:string .
+  :canonicalReference "221"^^xsd:string ;
+  :text "Καὶ μὴν ὁ μισθός γ᾽ οὗτος· ἀλλ᾽ ὑπ᾽ ἐλπίδων"^^xsd:string .
 
 # --- 222 ---
 :Line_222
   a owl:NamedIndividual, :Line ;
   :lineNumber 222 ;
-  :canonicalReference "222"^^xsd:string .
+  :canonicalReference "222"^^xsd:string ;
+  :text "ἄνδρας τὸ κέρδος πολλάκις διώλεσεν."^^xsd:string .
 
 # --- 223 ---
-:Line_223 a owl:NamedIndividual, :Line ;
-:lineNumber 223 ;
-:canonicalReference "223"^^xsd:string .
+:Line_223
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 223 ;
+  :canonicalReference "223"^^xsd:string ;
+  :text "Ἄναξ, ἐρῶ μὲν οὐχ ὅπως τάχους ὕπο"^^xsd:string .
 
 # --- 224 ---
-:Line_224 a owl:NamedIndividual, :Line ;
+:Line_224
+  a owl:NamedIndividual, :Line ;
   :lineNumber 224 ;
-  :canonicalReference "224"^^xsd:string .
+  :canonicalReference "224"^^xsd:string ;
+  :text "δύσπνους ἱκάνω κοῦφον ἐξάρας πόδα."^^xsd:string .
 
 # --- 225 ---
-:Line_225 a owl:NamedIndividual, :Line ;
+:Line_225
+  a owl:NamedIndividual, :Line ;
   :lineNumber 225 ;
-  :canonicalReference "225"^^xsd:string .
-
+  :canonicalReference "225"^^xsd:string ;
+  :text "Πολλὰς γὰρ ἔσχον φροντίδων ἐπιστάσεις,"^^xsd:string .
 
 # --- 226 ---
-:Line_226 a owl:NamedIndividual, :Line ;
+:Line_226
+  a owl:NamedIndividual, :Line ;
   :lineNumber 226 ;
-  :canonicalReference "226"^^xsd:string .
-
+  :canonicalReference "226"^^xsd:string ;
+  :text "ὁδοῖς κυκλῶν ἐμαυτὸν εἰς ἀναστροφήν·"^^xsd:string .
 
 # --- 227 ---
-:Line_227 a owl:NamedIndividual, :Line ;
+:Line_227
+  a owl:NamedIndividual, :Line ;
   :lineNumber 227 ;
-  :canonicalReference "227"^^xsd:string .
-
+  :canonicalReference "227"^^xsd:string ;
+  :text "ψυχὴ γὰρ ηὔδα πολλά μοι μυθουμένη,"^^xsd:string .
 
 # --- 228 ---
-:Line_228 a owl:NamedIndividual, :Line ;
+:Line_228
+  a owl:NamedIndividual, :Line ;
   :lineNumber 228 ;
-  :canonicalReference "228"^^xsd:string .
-
+  :canonicalReference "228"^^xsd:string ;
+  :text "τάλας, τί χωρεῖς οἷ μολὼν δώσεις δίκην;"^^xsd:string .
 
 # --- 229 ---
-:Line_229 a owl:NamedIndividual, :Line ;
+:Line_229
+  a owl:NamedIndividual, :Line ;
   :lineNumber 229 ;
-  :canonicalReference "229"^^xsd:string .
-
+  :canonicalReference "229"^^xsd:string ;
+  :text "τλήμων, μενεῖς αὖ; κεἰ τάδ ̓ εἴσεται Κρέων"^^xsd:string .
 
 # --- 230 ---
-:Line_230 a owl:NamedIndividual, :Line ;
+:Line_230
+  a owl:NamedIndividual, :Line ;
   :lineNumber 230 ;
-  :canonicalReference "230"^^xsd:string .
-
+  :canonicalReference "230"^^xsd:string ;
+  :text "ἄλλου παρ ̓ ἀνδρός, πῶς σὺ δῆτ ̓ οὐκ ἀλγυνῇ;"^^xsd:string .
 
 # --- 231 ---
-:Line_231 a owl:NamedIndividual, :Line ;
+:Line_231
+  a owl:NamedIndividual, :Line ;
   :lineNumber 231 ;
-  :canonicalReference "231"^^xsd:string .
-
+  :canonicalReference "231"^^xsd:string ;
+  :text "Τοιαῦθ ̓ ἑλίσσων ἤνυτον σχολῇ βραδύς,"^^xsd:string .
 
 # --- 232 ---
-:Line_232 a owl:NamedIndividual, :Line ;
+:Line_232
+  a owl:NamedIndividual, :Line ;
   :lineNumber 232 ;
-  :canonicalReference "232"^^xsd:string .
-
+  :canonicalReference "232"^^xsd:string ;
+  :text "χοὔτως ὁδὸς βραχεῖα γίγνεται μακρά."^^xsd:string .
 
 # --- 233 ---
-:Line_233 a owl:NamedIndividual, :Line ;
+:Line_233
+  a owl:NamedIndividual, :Line ;
   :lineNumber 233 ;
-  :canonicalReference "233"^^xsd:string .
-
+  :canonicalReference "233"^^xsd:string ;
+  :text "Τέλος γε μέντοι δεῦρ ̓ ἐνίκησεν μολεῖν"^^xsd:string .
 
 # --- 234 ---
-:Line_234 a owl:NamedIndividual, :Line ;
+:Line_234
+  a owl:NamedIndividual, :Line ;
   :lineNumber 234 ;
-  :canonicalReference "234"^^xsd:string .
-
+  :canonicalReference "234"^^xsd:string ;
+  :text "σοί· κεἰ τὸ μηδὲν ἐξερῶ, φράσω δ ̓ ὅμως."^^xsd:string .
 
 # --- 235 ---
-:Line_235 a owl:NamedIndividual, :Line ;
+:Line_235
+  a owl:NamedIndividual, :Line ;
   :lineNumber 235 ;
-  :canonicalReference "235"^^xsd:string .
-
+  :canonicalReference "235"^^xsd:string ;
+  :text "Τῆς ἐλπίδος γὰρ ἔρχομαι δεδραγμένος,"^^xsd:string .
 
 # --- 236 ---
-:Line_236 a owl:NamedIndividual, :Line ;
+:Line_236
+  a owl:NamedIndividual, :Line ;
   :lineNumber 236 ;
-  :canonicalReference "236"^^xsd:string .
-
+  :canonicalReference "236"^^xsd:string ;
+  :text "τὸ μὴ παθεῖν ἂν ἄλλο πλὴν τὸ μόρσιμον."^^xsd:string .
 
 # --- 237 ---
-:Line_237 a owl:NamedIndividual, :Line ;
+:Line_237
+  a owl:NamedIndividual, :Line ;
   :lineNumber 237 ;
-  :canonicalReference "237"^^xsd:string .
-
+  :canonicalReference "237"^^xsd:string ;
+  :text "Τί δ ̓ ἐστὶν ἀνθ ̓ οὗ τήνδ ̓ ἔχεις ἀθυμίαν;"^^xsd:string .
 
 # --- 238 ---
-:Line_238 a owl:NamedIndividual, :Line ;
+:Line_238
+  a owl:NamedIndividual, :Line ;
   :lineNumber 238 ;
-  :canonicalReference "238"^^xsd:string .
-
+  :canonicalReference "238"^^xsd:string ;
+  :text "Φράσαι θέλω σοι πρῶτα τἀμαυτοῦ· τὸ γὰρ"^^xsd:string .
 
 # --- 239 ---
-:Line_239 a owl:NamedIndividual, :Line ;
+:Line_239
+  a owl:NamedIndividual, :Line ;
   :lineNumber 239 ;
-  :canonicalReference "239"^^xsd:string .
-
+  :canonicalReference "239"^^xsd:string ;
+  :text "πρᾶγμ ̓ οὔτ ̓ ἔδρασ ̓ οὔτ ̓ εἶδον ὅστις ἦν ὁ δρῶν"^^xsd:string .
 
 # --- 240 ---
-:Line_240 a owl:NamedIndividual, :Line ;
+:Line_240
+  a owl:NamedIndividual, :Line ;
   :lineNumber 240 ;
-  :canonicalReference "240"^^xsd:string .
-
+  :canonicalReference "240"^^xsd:string ;
+  :text "οὐδ ̓ ἂν δικαίως ἐς κακὸν πέσοιμί τι."^^xsd:string .
 
 # --- 241 ---
-:Line_241 a owl:NamedIndividual, :Line ;
+:Line_241
+  a owl:NamedIndividual, :Line ;
   :lineNumber 241 ;
-  :canonicalReference "241"^^xsd:string .
-
+  :canonicalReference "241"^^xsd:string ;
+  :text "Εὖ γε στοχάζῃ κἀποφράγνυσαι κύκλῳ"^^xsd:string .
 
 # --- 242 ---
-:Line_242 a owl:NamedIndividual, :Line ;
+:Line_242
+  a owl:NamedIndividual, :Line ;
   :lineNumber 242 ;
-  :canonicalReference "242"^^xsd:string .
-
+  :canonicalReference "242"^^xsd:string ;
+  :text "τὸ πρᾶγμα· δηλοῖς δ ̓ ὥς τι σημανῶν νέον."^^xsd:string .
 
 # --- 243 ---
-:Line_243 a owl:NamedIndividual, :Line ;
+:Line_243
+  a owl:NamedIndividual, :Line ;
   :lineNumber 243 ;
-  :canonicalReference "243"^^xsd:string .
-
+  :canonicalReference "243"^^xsd:string ;
+  :text "Τὰ δεινὰ γάρ τοι προστίθησ ̓ ὄκνον πολύν."^^xsd:string .
 
 # --- 244 ---
-:Line_244 a owl:NamedIndividual, :Line ;
-    :lineNumber 244 ;
-    :canonicalReference "244"^^xsd:string .
-
+:Line_244
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 244 ;
+  :canonicalReference "244"^^xsd:string ;
+  :text "Οὔκουν ἐρεῖς ποτ ̓, εἶτ ̓ ἀπαλλαχθεὶς ἄπει;"^^xsd:string .
 
 # --- 245 ---
-:Line_245 a owl:NamedIndividual, :Line ;
-    :lineNumber 245 ;
-    :canonicalReference "245"^^xsd:string .
-
+:Line_245
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 245 ;
+  :canonicalReference "245"^^xsd:string ;
+  :text "Καὶ δὴ λέγω σοι· τὸν νεκρόν τις ἀρτίως"^^xsd:string .
 
 # --- 246 ---
-:Line_246 a owl:NamedIndividual, :Line ;
+:Line_246
+  a owl:NamedIndividual, :Line ;
   :lineNumber 246 ;
-  :canonicalReference "246"^^xsd:string .
-
+  :canonicalReference "246"^^xsd:string ;
+  :text "θάψας βέβηκε κἀπὶ χρωτὶ διψίαν"^^xsd:string .
 
 # --- 247 ---
-:Line_247 a owl:NamedIndividual, :Line ;
+:Line_247
+  a owl:NamedIndividual, :Line ;
   :lineNumber 247 ;
-  :canonicalReference "247"^^xsd:string .
-
+  :canonicalReference "247"^^xsd:string ;
+  :text "κόνιν παλύνας κἀφαγιστεύσας ἃ χρή."^^xsd:string .
 
 # --- 248 ---
-:Line_248 a owl:NamedIndividual, :Line ;
-    :lineNumber 248 ;
-    :canonicalReference "248"^^xsd:string .
+:Line_248
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 248 ;
+  :canonicalReference "248"^^xsd:string ;
+  :text "Τί φῄς; τίς ἀνδρῶν ἦν ὁ τολμήσας τάδε;"^^xsd:string .
 
 # --- 249 ---
-:Line_249 a owl:NamedIndividual, :Line ;
-    :lineNumber 249 ;
-    :canonicalReference "249"^^xsd:string .
-
+:Line_249
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 249 ;
+  :canonicalReference "249"^^xsd:string ;
+  :text "Οὐκ οἶδ ̓· ἐκεῖ γὰρ οὔτε του γενῇδος ἦν"^^xsd:string .
 
 # --- 250 ---
-:Line_250 a owl:NamedIndividual, :Line ;
-    :lineNumber 250 ;
-    :canonicalReference "250"^^xsd:string .
-
+:Line_250
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 250 ;
+  :canonicalReference "250"^^xsd:string ;
+  :text "πλῆγμ ̓, οὐ δικέλλης ἐκβολή· στύφλος δὲ γῆ"^^xsd:string .
 
 # --- 251 ---
-:Line_251 a owl:NamedIndividual, :Line ;
-    :lineNumber 251 ;
-    :canonicalReference "251"^^xsd:string .
-
+:Line_251
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 251 ;
+  :canonicalReference "251"^^xsd:string ;
+  :text "καὶ χέρσος, ἀρρὼξ οὐδ ̓ ἐπημαξευμένη"^^xsd:string .
 
 # --- 252 ---
-:Line_252 a owl:NamedIndividual, :Line ;
-    :lineNumber 252 ;
-    :canonicalReference "252"^^xsd:string .
+:Line_252
+  a owl:NamedIndividual, :Line ;
+  :lineNumber 252 ;
+  :canonicalReference "252"^^xsd:string ;
+  :text "τροχοῖσιν, ἀλλ ̓ ἄσημος οὑργάτης τις ἦν."^^xsd:string .
 
 # --- 253 ---
-:Line_253 a owl:NamedIndividual, :Line ; 
-    :lineNumber 253 ; 
-    :canonicalReference "253"^^xsd:string .
+:Line_253 a owl:NamedIndividual, :Line ;
+  :lineNumber 253 ;
+  :canonicalReference "253"^^xsd:string ;
+  :text "Ὅπως δ ̓ ὁ πρῶτος ἡμὶν ἡμεροσκόπος"^^xsd:string .
 
 # --- 254 ---
-:Line_254 a owl:NamedIndividual, :Line ; 
-    :lineNumber 254 ; 
-    :canonicalReference "254"^^xsd:string .
+:Line_254 a owl:NamedIndividual, :Line ;
+  :lineNumber 254 ;
+  :canonicalReference "254"^^xsd:string ;
+  :text "δείκνυσι, πᾶσι θαῦμα δυσχερὲς παρῆν·"^^xsd:string .
 
 # --- 255 ---
-:Line_255 a owl:NamedIndividual, :Line ; 
-    :lineNumber 255 ; 
-    :canonicalReference "255"^^xsd:string .
+:Line_255 a owl:NamedIndividual, :Line ;
+  :lineNumber 255 ;
+  :canonicalReference "255"^^xsd:string ;
+  :text "ὁ μὲν γὰρ ἠφάνιστο, τυμβήρης μὲν οὔ,"^^xsd:string .
 
 # --- 256 ---
-:Line_256 a owl:NamedIndividual, :Line ; 
-    :lineNumber 256 ; 
-    :canonicalReference "256"^^xsd:string .
-
+:Line_256 a owl:NamedIndividual, :Line ;
+  :lineNumber 256 ;
+  :canonicalReference "256"^^xsd:string ;
+  :text "λεπτὴ δ ̓, ἄγος φεύγοντος ὣς ἐπῆν κόνις."^^xsd:string .
 
 # --- 257 ---
-:Line_257 a owl:NamedIndividual, :Line ; 
-    :lineNumber 257 ; 
-    :canonicalReference "257"^^xsd:string .
-
+:Line_257 a owl:NamedIndividual, :Line ;
+  :lineNumber 257 ;
+  :canonicalReference "257"^^xsd:string ;
+  :text "Σημεῖα δ ̓ οὔτε θηρὸς οὔτε του κυνῶν"^^xsd:string .
 
 # --- 258 ---
-:Line_258 a owl:NamedIndividual, :Line ; 
-    :lineNumber 258 ; 
-    :canonicalReference "258"^^xsd:string .
+:Line_258 a owl:NamedIndividual, :Line ;
+  :lineNumber 258 ;
+  :canonicalReference "258"^^xsd:string ;
+  :text "ἐλθόντος, οὐ σπάσαντος, ἐξεφαίνετο."^^xsd:string .
 
 # --- 259 ---
 :Line_259 a owl:NamedIndividual, :Line ;
-    :lineNumber 259 ; 
-    :canonicalReference "259"^^xsd:string .
+  :lineNumber 259 ;
+  :canonicalReference "259"^^xsd:string ;
+  :text "Λόγοι δ ̓ ἐν ἀλλήλοισιν ἐρρόθουν κακοί,"^^xsd:string .
 
 # --- 260 ---
-:Line_260 a owl:NamedIndividual, :Line ; 
-    :lineNumber 260 ; 
-    :canonicalReference "260"^^xsd:string .
+:Line_260 a owl:NamedIndividual, :Line ;
+  :lineNumber 260 ;
+  :canonicalReference "260"^^xsd:string ;
+  :text "φύλαξ ἐλέγχων φύλακα, κἂν ἐγίγνετο"^^xsd:string .
 
 # --- 261 ---
-:Line_261 a owl:NamedIndividual, :Line ; 
-    :lineNumber 261 ; 
-    :canonicalReference "261"^^xsd:string .
+:Line_261 a owl:NamedIndividual, :Line ;
+  :lineNumber 261 ;
+  :canonicalReference "261"^^xsd:string ;
+  :text "πληγὴ τελευτῶσ ̓, οὐδ ̓ ὁ κωλύσων παρῆν."^^xsd:string .
 
 # --- 262 ---
-:Line_262 a owl:NamedIndividual, :Line ; 
-    :lineNumber 262 ; 
-    :canonicalReference "262"^^xsd:string .
+:Line_262 a owl:NamedIndividual, :Line ;
+  :lineNumber 262 ;
+  :canonicalReference "262"^^xsd:string ;
+  :text "Εἷς γάρ τις ἦν ἕκαστος οὑξειργασμένος,"^^xsd:string .
 
 # --- 263 ---
-:Line_263 a owl:NamedIndividual, :Line ; 
-    :lineNumber 263 ; 
-    :canonicalReference "263"^^xsd:string .
+:Line_263 a owl:NamedIndividual, :Line ;
+  :lineNumber 263 ;
+  :canonicalReference "263"^^xsd:string ;
+  :text "κοὐδεὶς ἐναργής, ἀλλ ̓ ἔφευγε μὴ εἰδέναι."^^xsd:string .
 
 # --- 264 ---
-:Line_264 a owl:NamedIndividual, :Line ; 
-    :lineNumber 264 ; 
-    :canonicalReference "264"^^xsd:string .
+:Line_264 a owl:NamedIndividual, :Line ;
+  :lineNumber 264 ;
+  :canonicalReference "264"^^xsd:string ;
+  :text "Ἦμεν δ ̓ ἑτοῖμοι καὶ μύδρους αἴρειν χεροῖν,"^^xsd:string .
 
 # --- 265 ---
-:Line_265 a owl:NamedIndividual, :Line ; 
-    :lineNumber 265 ; 
-    :canonicalReference "265"^^xsd:string .
+:Line_265 a owl:NamedIndividual, :Line ;
+  :lineNumber 265 ;
+  :canonicalReference "265"^^xsd:string ;
+  :text "καὶ πῦρ διέρπειν, καὶ θεοὺς ὁρκωμοτεῖν"^^xsd:string .
 
 # --- 266 ---
-:Line_266 a owl:NamedIndividual, :Line ; 
-    :lineNumber 266 ; 
-    :canonicalReference "266"^^xsd:string .
+:Line_266 a owl:NamedIndividual, :Line ;
+  :lineNumber 266 ;
+  :canonicalReference "266"^^xsd:string ;
+  :text "τὸ μήτε δρᾶσαι μήτε τῳ ξυνειδέναι"^^xsd:string .
 
 # --- 267 ---
-:Line_267 a owl:NamedIndividual, :Line ; 
-    :lineNumber 267 ; 
-    :canonicalReference "267"^^xsd:string .
+:Line_267 a owl:NamedIndividual, :Line ;
+  :lineNumber 267 ;
+  :canonicalReference "267"^^xsd:string ;
+  :text "τὸ πρᾶγμα βουλεύσαντι μήτ ̓ εἰργασμένῳ."^^xsd:string .
 
 # --- 268 ---
-:Line_268 a owl:NamedIndividual, :Line ; 
-    :lineNumber 268 ; 
-    :canonicalReference "268"^^xsd:string .
+:Line_268 a owl:NamedIndividual, :Line ;
+  :lineNumber 268 ;
+  :canonicalReference "268"^^xsd:string ;
+  :text "Τέλος δ ̓ ὅτ ̓ οὐδὲν ἦν ἐρευνῶσιν πλέον,"^^xsd:string .
 
 # --- 269 ---
-:Line_269 a owl:NamedIndividual, :Line ; 
-    :lineNumber 269 ; 
-    :canonicalReference "269"^^xsd:string .
+:Line_269 a owl:NamedIndividual, :Line ;
+  :lineNumber 269 ;
+  :canonicalReference "269"^^xsd:string ;
+  :text "λέγει τις εἷς, ὃς πάντας ἐς πέδον κάρα"^^xsd:string .
 
 # --- 270 ---
-:Line_270 a owl:NamedIndividual, :Line ; 
-    :lineNumber 270 ; 
-    :canonicalReference "270"^^xsd:string .
+:Line_270 a owl:NamedIndividual, :Line ;
+  :lineNumber 270 ;
+  :canonicalReference "270"^^xsd:string ;
+  :text "νεῦσαι φόβῳ προὔτρεψεν· οὐ γὰρ εἴχομεν"^^xsd:string .
 
 # --- 271 ---
-:Line_271 a owl:NamedIndividual, :Line ; 
-    :lineNumber 271 ; 
-    :canonicalReference "271"^^xsd:string .
+:Line_271 a owl:NamedIndividual, :Line ;
+  :lineNumber 271 ;
+  :canonicalReference "271"^^xsd:string ;
+  :text "οὔτ ̓ ἀντιφωνεῖν οὔθ ̓ ὅπως δρῶντες καλῶς"^^xsd:string .
 
 # --- 272 ---
-:Line_272 a owl:NamedIndividual, :Line ; 
-    :lineNumber 272 ; 
-    :canonicalReference "272"^^xsd:string .
+:Line_272 a owl:NamedIndividual, :Line ;
+  :lineNumber 272 ;
+  :canonicalReference "272"^^xsd:string ;
+  :text "πράξαιμεν. Ἦν δ ̓ ὁ μῦθος ὡς ἀνοιστέον"^^xsd:string .
 
 # --- 273 ---
-:Line_273 a owl:NamedIndividual, :Line ; 
-    :lineNumber 273 ; 
-    :canonicalReference "273"^^xsd:string .
+:Line_273 a owl:NamedIndividual, :Line ;
+  :lineNumber 273 ;
+  :canonicalReference "273"^^xsd:string ;
+  :text "σοὶ τοὔργον εἴη τοῦτο κοὐχὶ κρυπτέον."^^xsd:string .
 
 # --- 274 ---
-:Line_274 a owl:NamedIndividual, :Line ; 
-    :lineNumber 274 ; 
-    :canonicalReference "274"^^xsd:string .
+:Line_274 a owl:NamedIndividual, :Line ;
+  :lineNumber 274 ;
+  :canonicalReference "274"^^xsd:string ;
+  :text "Καὶ ταῦτ ̓ ἐνίκα, κἀμὲ τὸν δυσδαίμονα"^^xsd:string .
 
 # --- 275 ---
-:Line_275 a owl:NamedIndividual, :Line ; 
-    :lineNumber 275 ; 
-    :canonicalReference "275"^^xsd:string .
+:Line_275 a owl:NamedIndividual, :Line ;
+  :lineNumber 275 ;
+  :canonicalReference "275"^^xsd:string ;
+  :text "πάλος καθαιρεῖ τοῦτο τἀγαθὸν λαβεῖν."^^xsd:string .
 
 # --- 276 ---
-:Line_276 a owl:NamedIndividual, :Line ; 
-    :lineNumber 276 ; 
-    :canonicalReference "276"^^xsd:string .
+:Line_276 a owl:NamedIndividual, :Line ;
+  :lineNumber 276 ;
+  :canonicalReference "276"^^xsd:string ;
+  :text "Πάρειμι δ ̓ ἄκων οὐχ ἑκοῦσιν, οἶδ ̓ ὅτι·"^^xsd:string .
 
 # --- 277 ---
-:Line_277 a owl:NamedIndividual, :Line ; 
-    :lineNumber 277 ; 
-    :canonicalReference "277"^^xsd:string .
+:Line_277 a owl:NamedIndividual, :Line ;
+  :lineNumber 277 ;
+  :canonicalReference "277"^^xsd:string ;
+  :text "στέργει γὰρ οὐδεὶς ἄγγελον κακῶν ἐπῶν."^^xsd:string .
 
 # --- 278 ---
-:Line_278 a owl:NamedIndividual, :Line ; 
-    :lineNumber 278 ; 
-    :canonicalReference "278"^^xsd:string .
+:Line_278 a owl:NamedIndividual, :Line ;
+  :lineNumber 278 ;
+  :canonicalReference "278"^^xsd:string ;
+  :text "Ἄναξ, ἐμοί τοι μή τι καὶ θεήλατον"^^xsd:string .
 
 # --- 279 ---
-:Line_279 a owl:NamedIndividual, :Line ; 
-    :lineNumber 279 ; 
-    :canonicalReference "279"^^xsd:string .
+:Line_279 a owl:NamedIndividual, :Line ;
+  :lineNumber 279 ;
+  :canonicalReference "279"^^xsd:string ;
+  :text "τοὔργον τόδ ̓ ἡ ξύννοια βουλεύει πάλαι."^^xsd:string .
 
 # --- 280 ---
 :Line_280 a owl:NamedIndividual, :Line ;
     :lineNumber 280 ; 
-    :canonicalReference "280"^^xsd:string .
+    :canonicalReference "280"^^xsd:string ;
+    :text "Παῦσαι, πρὶν ὀργῆς κἀμὲ μεστῶσαι λέγων,"^^xsd:string .
 
 # --- 281 ---
 :Line_281 a owl:NamedIndividual, :Line ; 
     :lineNumber 281 ; 
-    :canonicalReference "281"^^xsd:string .
+    :canonicalReference "281"^^xsd:string ;
+    :text "μὴ  ̓φευρεθῇς ἄνους τε καὶ γέρων ἅμα."^^xsd:string .
 
 # --- 282 ---
 :Line_282 a owl:NamedIndividual, :Line ; 
     :lineNumber 282 ; 
-    :canonicalReference "282"^^xsd:string .
+    :canonicalReference "282"^^xsd:string ;
+    :text "Λέγεις γὰρ οὐκ ἀνεκτὰ δαίμονας λέγων"^^xsd:string .
 
 # --- 283 ---
 :Line_283 a owl:NamedIndividual, :Line ; 
     :lineNumber 283 ; 
-    :canonicalReference "283"^^xsd:string .
+    :canonicalReference "283"^^xsd:string ;
+    :text "πρόνοιαν ἴσχειν τοῦδε τοῦ νεκροῦ πέρι."^^xsd:string .
 
 # --- 284 ---
 :Line_284 a owl:NamedIndividual, :Line ; 
     :lineNumber 284 ; 
-    :canonicalReference "284"^^xsd:string .
+    :canonicalReference "284"^^xsd:string ;
+    :text "Πότερον ὑπερτιμῶντες ὡς εὐεργέτην"^^xsd:string .
 
 # --- 285 ---
 :Line_285 a owl:NamedIndividual, :Line ; 
     :lineNumber 285 ; 
-    :canonicalReference "285"^^xsd:string .
+    :canonicalReference "285"^^xsd:string ;
+    :text "ἔκρυπτον αὐτόν, ὅστις ἀμφικίονας"^^xsd:string .
 
 # --- 286 ---
 :Line_286 a owl:NamedIndividual, :Line ; 
     :lineNumber 286 ; 
-    :canonicalReference "286"^^xsd:string .
+    :canonicalReference "286"^^xsd:string ;
+    :text "ναοὺς πυρώσων ἦλθε κἀναθήματα"^^xsd:string .
 
 # --- 287 ---
 :Line_287 a owl:NamedIndividual, :Line ; 
     :lineNumber 287 ; 
-    :canonicalReference "287"^^xsd:string .
+    :canonicalReference "287"^^xsd:string ;
+    :text "καὶ γῆν ἐκείνων καὶ νόμους διασκεδῶν;"^^xsd:string .
 
 # --- 288 ---
 :Line_288 a owl:NamedIndividual, :Line ; 
     :lineNumber 288 ; 
-    :canonicalReference "288"^^xsd:string .
+    :canonicalReference "288"^^xsd:string ;
+    :text "ἢ τοὺς κακοὺς τιμῶντας εἰσορᾷς θεούς;"^^xsd:string .
 
 # --- 289 ---
 :Line_289 a owl:NamedIndividual, :Line ; 
     :lineNumber 289 ; 
-    :canonicalReference "289"^^xsd:string .
+    :canonicalReference "289"^^xsd:string ;
+    :text "Οὐκ ἔστιν· ἀλλὰ ταῦτα καὶ πάλαι πόλεως"^^xsd:string .
 
 # --- 290 ---
 :Line_290 a owl:NamedIndividual, :Line ; 
     :lineNumber 290 ; 
-    :canonicalReference "290"^^xsd:string .
+    :canonicalReference "290"^^xsd:string ;
+    :text "ἄνδρες μόλις φέροντες ἐρρόθουν ἐμοὶ"^^xsd:string .
 
 # --- 291 ---
 :Line_291 a owl:NamedIndividual, :Line ; 
     :lineNumber 291 ; 
-    :canonicalReference "291"^^xsd:string .
+    :canonicalReference "291"^^xsd:string ;
+    :text "κρυφῇ, κάρα σείοντες, οὐδ ̓ ὑπὸ ζυγῷ"^^xsd:string .
 
 # --- 292 ---
 :Line_292 a owl:NamedIndividual, :Line ; 
     :lineNumber 292 ; 
-    :canonicalReference "292"^^xsd:string .
+    :canonicalReference "292"^^xsd:string ;
+    :text "λόφον δικαίως εἶχον, ὡς στέργειν ἐμέ."^^xsd:string .
 
 # --- 293 ---
 :Line_293 a owl:NamedIndividual, :Line ; 
     :lineNumber 293 ; 
-    :canonicalReference "293"^^xsd:string .
+    :canonicalReference "293"^^xsd:string ;
+    :text "Ἐκ τῶνδε τούτους ἐξεπίσταμαι καλῶς"^^xsd:string .
 
 # --- 294 ---
 :Line_294 a owl:NamedIndividual, :Line ; 
     :lineNumber 294 ; 
-    :canonicalReference "294"^^xsd:string .
+    :canonicalReference "294"^^xsd:string ;
+    :text "παρηγμένους μισθοῖσιν εἰργάσθαι τάδε."^^xsd:string .
 
 # --- 295 ---
 :Line_295 a owl:NamedIndividual, :Line ; 
     :lineNumber 295 ; 
-    :canonicalReference "295"^^xsd:string .
+    :canonicalReference "295"^^xsd:string ;
+    :text "Οὐδὲν γὰρ ἀνθρώποισιν οἷον ἄργυρος"^^xsd:string .
 
 # --- 296 ---
 :Line_296 a owl:NamedIndividual, :Line ; 
     :lineNumber 296 ; 
-    :canonicalReference "296"^^xsd:string .
+    :canonicalReference "296"^^xsd:string ;
+    :text "κακὸν νόμισμ ̓ ἔβλαστε· τοῦτο καὶ πόλεις"^^xsd:string .
 
 # --- 297 ---
 :Line_297 a owl:NamedIndividual, :Line ; 
     :lineNumber 297 ; 
-    :canonicalReference "297"^^xsd:string .
+    :canonicalReference "297"^^xsd:string ;
+    :text "πορθεῖ, τόδ ̓ ἄνδρας ἐξανίστησιν δόμων"^^xsd:string .
 
 # --- 298 ---
 :Line_298 a owl:NamedIndividual, :Line ; 
     :lineNumber 298 ; 
-    :canonicalReference "298"^^xsd:string .
+    :canonicalReference "298"^^xsd:string ;
+    :text "τόδ ̓ ἐκδιδάσκει καὶ παραλλάσσει φρένας"^^xsd:string .
 
 # --- 299 ---
 :Line_299 a owl:NamedIndividual, :Line ; 
     :lineNumber 299 ; 
-    :canonicalReference "299"^^xsd:string .
+    :canonicalReference "299"^^xsd:string ;
+    :text "χρηστὰς πρὸς αἰσχρὰ πράγμαθ ̓ ἵστασθαι βροτῶν"^^xsd:string .
 
 # --- 300 ---
 :Line_300 a owl:NamedIndividual, :Line ; 
     :lineNumber 300 ; 
-    :canonicalReference "300"^^xsd:string .
+    :canonicalReference "300"^^xsd:string ;
+    :text "πανουργίας δ ̓ ἔδειξεν ἀνθρώποις ἔχειν"^^xsd:string .
 
 # --- 301 ---
 :Line_301 a owl:NamedIndividual, :Line ; 
     :lineNumber 301 ; 
-    :canonicalReference "301"^^xsd:string .
-
-
+    :canonicalReference "301"^^xsd:string ;
+    :text "καὶ παντὸς ἔργου δυσσέβειαν εἰδέναι."^^xsd:string .
 # --- 302 ---
 :Line_302 a owl:NamedIndividual, :Line ; 
     :lineNumber 302 ; 
-    :canonicalReference "302"^^xsd:string .
+    :canonicalReference "302"^^xsd:string ;
+    :text "Ὅσοι δὲ μισθαρνοῦντες ἤνυσαν τάδε,"^^xsd:string .
 
 # --- 303 ---
 :Line_303 a owl:NamedIndividual, :Line ; 
     :lineNumber 303 ; 
-    :canonicalReference "303"^^xsd:string .
+    :canonicalReference "303"^^xsd:string ;
+    :text "χρόνῳ ποτ᾽ ἐξέπραξαν ὡς δοῦναι δίκην."^^xsd:string .
 
 # --- 304 ---
 :Line_304 a owl:NamedIndividual, :Line ; 
     :lineNumber 304 ; 
-    :canonicalReference "304"^^xsd:string .
+    :canonicalReference "304"^^xsd:string ;
+    :text "Ἀλλ᾽ εἴπερ ἴσχει Ζεὺς ἔτ᾽ ἐξ ἐμοῦ σέβας"^^xsd:string .
 
 # --- 305 ---
 :Line_305 a owl:NamedIndividual, :Line ; 
     :lineNumber 305 ; 
-    :canonicalReference "305"^^xsd:string .
+    :canonicalReference "305"^^xsd:string ;
+    :text "εὖ τοῦτ᾽ ἐπίστασ᾽, ὅρκιος δέ σοι λέγω,"^^xsd:string .
 
 # --- 306 ---
 :Line_306 a owl:NamedIndividual, :Line ; 
     :lineNumber 306 ; 
-    :canonicalReference "306"^^xsd:string .
+    :canonicalReference "306"^^xsd:string ;
+    :text "εἰ μὴ τὸν αὐτόχειρα τοῦδε τοῦ τάφου"^^xsd:string .
 
 # --- 307 ---
 :Line_307 a owl:NamedIndividual, :Line ; 
     :lineNumber 307 ; 
-    :canonicalReference "307"^^xsd:string .
+    :canonicalReference "307"^^xsd:string ;
+    :text "εὑρόντες ἐκφανεῖτ᾽ ἐς ὀφθαλμοὺς ἐμούς,"^^xsd:string .
 
 # --- 308 ---
 :Line_308 a owl:NamedIndividual, :Line ; 
     :lineNumber 308 ; 
-    :canonicalReference "308"^^xsd:string .
+    :canonicalReference "308"^^xsd:string ;
+    :text "οὐχ ὑμῖν Ἅιδης μοῦνος ἀρκέσει, πρὶν ἂν"^^xsd:string .
 
 # --- 309 ---
 :Line_309 a owl:NamedIndividual, :Line ; 
     :lineNumber 309 ; 
-    :canonicalReference "309"^^xsd:string .
+    :canonicalReference "309"^^xsd:string ;
+    :text "ζῶντες κρεμαστοὶ τήνδε δηλώσηθ᾽ ὕβριν,"^^xsd:string .
 
 # --- 310 ---
 :Line_310 a owl:NamedIndividual, :Line ; 
     :lineNumber 310 ; 
-    :canonicalReference "310"^^xsd:string .
+    :canonicalReference "310"^^xsd:string ;
+    :text "ἵν᾽ εἰδότες τὸ κέρδος ἔνθεν οἰστέον"^^xsd:string .
 
 # --- 311 ---
 :Line_311 a owl:NamedIndividual, :Line ; 
     :lineNumber 311 ; 
-    :canonicalReference "311"^^xsd:string .
+    :canonicalReference "311"^^xsd:string ;
+    :text "τὸ λοιπὸν ἁρπάζητε, καὶ μάθηθ᾽ ὅτι"^^xsd:string .
 
 # --- 312 ---
 :Line_312 a owl:NamedIndividual, :Line ; 
     :lineNumber 312 ; 
-    :canonicalReference "312"^^xsd:string .
+    :canonicalReference "312"^^xsd:string ;
+    :text "οὐκ ἐξ ἅπαντος δεῖ τὸ κερδαίνειν φιλεῖν."^^xsd:string .
 
 # --- 313 ---
 :Line_313 a owl:NamedIndividual, :Line ; 
     :lineNumber 313 ; 
-    :canonicalReference "313"^^xsd:string .
+    :canonicalReference "313"^^xsd:string ;
+    :text "Ἐκ τῶν γὰρ αἰσχρῶν λημμάτων τοὺς πλείονας"^^xsd:string .
 
 # --- 314 ---
 :Line_314 a owl:NamedIndividual, :Line ; 
     :lineNumber 314 ; 
-    :canonicalReference "314"^^xsd:string .
+    :canonicalReference "314"^^xsd:string ;
+    :text "ἀτωμένους ἴδοις ἂν ἢ σεσωσμένους."^^xsd:string .
 
 # --- 315 ---
 :Line_315 a owl:NamedIndividual, :Line ; 
     :lineNumber 315 ; 
-    :canonicalReference "315"^^xsd:string .
+    :canonicalReference "315"^^xsd:string ;
+    :text "Εἰπεῖν δὲ δώσεις, ἢ στραφεὶς οὕτως ἴω;"^^xsd:string .
 
 # --- 316 ---
 :Line_316 a owl:NamedIndividual, :Line ; 
     :lineNumber 316 ; 
-    :canonicalReference "316"^^xsd:string .
+    :canonicalReference "316"^^xsd:string ;
+    :text "Οὐκ οἶσθα καὶ νῦν ὡς ἀνιαρῶς λέγεις;"^^xsd:string .
 
 # --- 317 ---
 :Line_317 a owl:NamedIndividual, :Line ;
     :lineNumber 317 ; 
-    :canonicalReference "317"^^xsd:string .
+    :canonicalReference "317"^^xsd:string ;
+    :text "Ἐν τοῖσιν ὠσὶν ἢ ἐπὶ τῇ ψυχῇ δάκνῃ;"^^xsd:string .
 
 # --- 318 ---
 :Line_318 a owl:NamedIndividual, :Line ; 
     :lineNumber 318 ; 
-    :canonicalReference "318"^^xsd:string .
+    :canonicalReference "318"^^xsd:string ;
+    :text "Tί δὲ ῥυθμίζεις τὴν ἐμὴν λύπην ὅπου;"^^xsd:string .
 
 # --- 319 ---
 :Line_319 a owl:NamedIndividual, :Line ; 
     :lineNumber 319 ; 
-    :canonicalReference "319"^^xsd:string .
+    :canonicalReference "319"^^xsd:string ;
+    :text "Ὁ δρῶν σ᾽ ἀνιᾷ τὰς φρένας, τὰ δ᾽ ὦτ᾽ ἐγώ."^^xsd:string .
 
 # --- 320 ---
 :Line_320 a owl:NamedIndividual, :Line ; 
     :lineNumber 320 ; 
-    :canonicalReference "320"^^xsd:string .
+    :canonicalReference "320"^^xsd:string ;
+    :text "Οἴμ᾽ ὡς λάλημα δῆλον ἐκπεφυκὸς εἶ."^^xsd:string .
 
 # --- 321 ---
 :Line_321 a owl:NamedIndividual, :Line ; 
     :lineNumber 321 ; 
-    :canonicalReference "321"^^xsd:string .
+    :canonicalReference "321"^^xsd:string ;
+    :text "Οὔκουν τό γ᾽ ἔργον τοῦτο ποιήσας ποτέ."^^xsd:string .
 
 # --- 322 ---
 :Line_322 a owl:NamedIndividual, :Line ; 
     :lineNumber 322 ; 
-    :canonicalReference "322"^^xsd:string .
+    :canonicalReference "322"^^xsd:string ;
+    :text "Καὶ ταῦτ᾽ ἐπ᾽ ἀργύρῳ γε τὴν ψυχὴν προδούς."^^xsd:string .
 
 # --- 323 ---
 :Line_323 a owl:NamedIndividual, :Line ; 
     :lineNumber 323 ; 
-    :canonicalReference "323"^^xsd:string .
+    :canonicalReference "323"^^xsd:string ;
+    :text "Φεῦ· ἦ δεινὸν, ᾧ δοκεῖ γε, καὶ ψευδῆ δοκεῖν."^^xsd:string .
 
 # --- 324 ---
 :Line_324 a owl:NamedIndividual, :Line ; 
     :lineNumber 324 ; 
-    :canonicalReference "324"^^xsd:string .
+    :canonicalReference "324"^^xsd:string ;
+    :text "Κόμψευέ νυν τὴν δόξαν· εἰ δὲ ταῦτα μὴ"^^xsd:string .
 
 # --- 325 ---
 :Line_325 a owl:NamedIndividual, :Line ; 
     :lineNumber 325 ; 
-    :canonicalReference "325"^^xsd:string .
+    :canonicalReference "325"^^xsd:string ;
+    :text "φανεῖτέ μοι τοὺς δρῶντας, ἐξερεῖθ ̓ ὅτι"^^xsd:string .
 
 # --- 326 ---
 :Line_326 a owl:NamedIndividual, :Line ; 
     :lineNumber 326 ; 
-    :canonicalReference "326"^^xsd:string .
+    :canonicalReference "326"^^xsd:string ;
+    :text "τὰ δειλὰ κέρδη πημονὰς ἐργάζεται."^^xsd:string .
 
 # --- 327 ---
 :Line_327 a owl:NamedIndividual, :Line ; 
     :lineNumber 327 ; 
-    :canonicalReference "327"^^xsd:string .
+    :canonicalReference "327"^^xsd:string ;
+    :text "Ἀλλ ̓ εὑρεθείη μὲν μάλιστ ̓· ἐὰν δέ τοι"^^xsd:string .
 
 # --- 328 ---
 :Line_328 a owl:NamedIndividual, :Line ; 
     :lineNumber 328 ; 
-    :canonicalReference "328"^^xsd:string .
+    :canonicalReference "328"^^xsd:string ;
+    :text "ληφθῇ τε καὶ μή, τοῦτο γὰρ τύχη κρινεῖ,"^^xsd:string .
 
 # --- 329 ---
 :Line_329 a owl:NamedIndividual, :Line ; 
     :lineNumber 329 ; 
-    :canonicalReference "329"^^xsd:string .
+    :canonicalReference "329"^^xsd:string ;
+    :text "οὐκ ἔσθ ̓ ὅπως ὄψει σὺ δεῦρ ̓ ἐλθόντα με."^^xsd:string .
 
 # --- 330 ---
 :Line_330 a owl:NamedIndividual, :Line ; 
     :lineNumber 330 ; 
-    :canonicalReference "330"^^xsd:string .
+    :canonicalReference "330"^^xsd:string ;
+    :text "Καὶ νῦν γὰρ ἐκτὸς ἐλπίδος γνώμης τ ̓ ἐμῆς"^^xsd:string .
