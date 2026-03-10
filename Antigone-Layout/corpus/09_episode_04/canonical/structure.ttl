@@ -777,7 +777,6 @@
   :lineNumber 928 ;
   :canonicalReference "928"^^xsd:string .
 
-
 # --- 929 ---
 :Line_929
   a owl:NamedIndividual, :Line ;

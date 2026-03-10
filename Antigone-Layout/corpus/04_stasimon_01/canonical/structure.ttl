@@ -15,13 +15,13 @@
 :Line_332 a owl:NamedIndividual, :Line ; 
     :lineNumber 332 ; 
     :canonicalReference "332"^^xsd:string ;
-    :text "Πολλὰ τὰ δεινὰ κοὐδὲν ἀν-"^^xsd:string .
+    :text "Πολλὰ τὰ δεινὰ κοὐδὲν"^^xsd:string . # Group 32
 
 # --- 333 ---
 :Line_333 a owl:NamedIndividual, :Line ; 
     :lineNumber 333 ; 
     :canonicalReference "333"^^xsd:string ;
-    :text "θρώπου δεινότερον πέλει·"^^xsd:string .
+    :text "ανθρώπου δεινότερον πέλει·"^^xsd:string .
 
 # --- 334 ---
 :Line_334 a owl:NamedIndividual, :Line ; 
@@ -114,171 +114,186 @@
     :text "δὲ μηχαναῖς ἀγραύλου"^^xsd:string .
 
 # --- 349 ---
-:Line_349 a owl:NamedIndividual, :Line ; 
-    :lineNumber 349 ; 
-    :canonicalReference "349"^^xsd:string ;
-    :text "θηρὸς ὀρεσσιβάτα, λασιαύχενά θ ̓"^^xsd:string .
+#:Line_349 a owl:NamedIndividual, :Line ; 
+#    :lineNumber 349 ; 
+#    :canonicalReference "349"^^xsd:string ;
+#    :text "θηρὸς ὀρεσσιβάτα, λασιαύχενά θ ̓"^^xsd:string .
 
 # --- 350 ---
 :Line_350 a owl:NamedIndividual, :Line ; 
     :lineNumber 350 ; 
     :canonicalReference "350"^^xsd:string ;
-    :text "ἵππον ὑπαξέμεν ἀμφίλοφον ζυγὸν"^^xsd:string .
+    :text "θηρὸς ὀρεσσιβάτα, λασιαύχενά θ᾽"^^xsd:string .
 
 # --- 351 ---
 :Line_351 a owl:NamedIndividual, :Line ; 
     :lineNumber 351 ; 
     :canonicalReference "351"^^xsd:string ;
-    :text "οὔρειόν τ ̓ ἀκμῆτα ταῦρον."^^xsd:string .
+    :text "ἵππον ὑπαξέμεν ἀμφίλοφον ζυγὸν"^^xsd:string .
 
 # --- 352 ---
 :Line_352 a owl:NamedIndividual, :Line ; 
     :lineNumber 352 ; 
     :canonicalReference "352"^^xsd:string ;
-    :text "Καὶ φθέγμα καὶ ἀνεμόεν"^^xsd:string .
+    :text "οὔρειόν τʼ ἀκμῆτα ταῦρον."^^xsd:string .
 
 # --- 353 ---
-:Line_353 a owl:NamedIndividual, :Line ; 
-    :lineNumber 353 ; 
-    :canonicalReference "353"^^xsd:string ;
-    :text "φρόνημα καὶ ἀστυνόμους"^^xsd:string .
+#:Line_353 a owl:NamedIndividual, :Line ; 
+#    :lineNumber 353 ; 
+#    :canonicalReference "353"^^xsd:string ;
+#    :text "φρόνημα καὶ ἀστυνόμους"^^xsd:string .
 
 # --- 354 ---
-:Line_354 a owl:NamedIndividual, :Line ; 
-    :lineNumber 354 ; 
-    :canonicalReference "354"^^xsd:string ;
-    :text "ὀργὰς ἐδιδάξατο, καὶ δυσαύλων"^^xsd:string .
+#:Line_354 a owl:NamedIndividual, :Line ; 
+#    :lineNumber 354 ; 
+#    :canonicalReference "354"^^xsd:string ;
+#    :text "ὀργὰς ἐδιδάξατο, καὶ δυσαύλων"^^xsd:string .
 
 # --- 355 ---
 :Line_355 a owl:NamedIndividual, :Line ; 
     :lineNumber 355 ; 
     :canonicalReference "355"^^xsd:string ;
-    :text "πάγων ὑπαίθρεια καὶ"^^xsd:string .
+    :text "καὶ φθέγμα καὶ ἀνεμόεν φρόνημα καὶ ἀστυνόμους"^^xsd:string .
 
 # --- 356 ---
 :Line_356 a owl:NamedIndividual, :Line ; 
     :lineNumber 356 ; 
     :canonicalReference "356"^^xsd:string ;
-    :text "δύσομβρα φεύγειν βέλη"^^xsd:string .
+    :text "ὀργὰς ἐδιδάξατο καὶ δυσαύλων"^^xsd:string .
 
 # --- 357 ---
 :Line_357 a owl:NamedIndividual, :Line ; 
     :lineNumber 357 ; 
     :canonicalReference "357"^^xsd:string ;
-    :text "παντοπόρος· ἄπορος ἐπ ̓ οὐδὲν ἔρχεται"^^xsd:string .
+    :text "πάγων ὑπαίθρεια καὶ δύσομβρα φεύγειν βέλη"^^xsd:string .
 
 # --- 358 ---
 :Line_358 a owl:NamedIndividual, :Line ; 
     :lineNumber 358 ; 
     :canonicalReference "358"^^xsd:string ;
-    :text "τὸ μέλλον· Ἅιδα μόνον"^^xsd:string .
+    :text "παντοπόρος· ἄπορος ἐπʼ οὐδὲν ἔρχεται"^^xsd:string .
 
 # --- 359 ---
-:Line_359 a owl:NamedIndividual, :Line ; 
-    :lineNumber 359 ; 
-    :canonicalReference "359"^^xsd:string ;
-    :text "φεῦξιν οὐκ ἐπάξεται·"^^xsd:string .
+#:Line_359 a owl:NamedIndividual, :Line ; 
+#    :lineNumber 359 ; 
+#    :canonicalReference "359"^^xsd:string ;
+#    :text "φεῦξιν οὐκ ἐπάξεται·"^^xsd:string .
 
 # --- 360 ---
 :Line_360 a owl:NamedIndividual, :Line ; 
     :lineNumber 360 ; 
     :canonicalReference "360"^^xsd:string ;
-    :text "νόσων δ ̓ ἀμηχάνων φυγὰς"^^xsd:string .
+    :text "τὸ μέλλον· Ἅιδα μόνον φεῦξιν οὐκ ἐπάξεται·"^^xsd:string .
 
 # --- 361 ---
 :Line_361 a owl:NamedIndividual, :Line ; 
     :lineNumber 361 ; 
     :canonicalReference "361"^^xsd:string ;
-    :text "ξυμπέφρασται."^^xsd:string .
+    :text "νόσων δʼ ἀμηχάνων φυγὰς ξυμπέφρασται."^^xsd:string .
 
-# 362 to 365 are missing
+# 362-365 does not exist in Anigone.
 
 # --- 366 ---
 :Line_366 a owl:NamedIndividual, :Line ;
   :lineNumber 366 ; 
-  :canonicalReference "366"^^xsd:string .
+  :canonicalReference "366"^^xsd:string ;
+  :text "τοτὲ μὲν κακόν, ἄλλοτʼ ἐπʼ ἐσθλὸν ἕρπει,"^^xsd:string .
 
 # --- 367 ---
 :Line_367 a owl:NamedIndividual, :Line ;
   :lineNumber 367 ; 
-  :canonicalReference "367"^^xsd:string .
+  :canonicalReference "367"^^xsd:string ;
+  :text "νόμους γεραίρων χθονὸς θεῶν τʼ ἔνορκον δίκαν,"^^xsd:string .
 
 # --- 368 ---
-:Line_368 a owl:NamedIndividual, :Line ;
-  :lineNumber 368 ; 
-  :canonicalReference "368"^^xsd:string .
+#:Line_368 a owl:NamedIndividual, :Line ;
+#  :lineNumber 368 ; 
+#  :canonicalReference "368"^^xsd:string ;
 
 # --- 369 ---
-:Line_369 a owl:NamedIndividual, :Line ;
-  :lineNumber 369 ; 
-  :canonicalReference "369"^^xsd:string .
+#:Line_369 a owl:NamedIndividual, :Line ;
+#  :lineNumber 369 ; 
+#  :canonicalReference "369"^^xsd:string ;
+#  :text "τόδε· πῶς εἰδὼς ἀντιλογήσω"^^xsd:string .
 
 # --- 370 ---
 :Line_370 a owl:NamedIndividual, :Line ;
   :lineNumber 370 ; 
-  :canonicalReference "370"^^xsd:string .
+  :canonicalReference "370"^^xsd:string ;
+  :text "ὑψίπολις· ἄπολις ὅτῳ τὸ μὴ καλὸν"^^xsd:string .
+
 
 # --- 371 ---
 :Line_371 a owl:NamedIndividual, :Line ;
   :lineNumber 371 ; 
-  :canonicalReference "371"^^xsd:string .
+  :canonicalReference "371"^^xsd:string ;
+  :text "ξύνεστι τόλμας χάριν. μήτʼ ἐμοὶ παρέστιος"^^xsd:string .
 
 # --- 372 ---
-:Line_372 a owl:NamedIndividual, :Line ;
-  :lineNumber 372 ; 
-  :canonicalReference "372"^^xsd:string .
+#:Line_372 a owl:NamedIndividual, :Line ;
+#  :lineNumber 372 ; 
+#  :canonicalReference "372"^^xsd:string .
 
 # --- 373 ---
-:Line_373 a owl:NamedIndividual, :Line ;
-  :lineNumber 373 ; 
-  :canonicalReference "373"^^xsd:string .
+#:Line_373 a owl:NamedIndividual, :Line ;
+#  :lineNumber 373 ; 
+#  :canonicalReference "373"^^xsd:string .
 
 # --- 374 ---
-:Line_374 a owl:NamedIndividual, :Line ;
-  :lineNumber 374 ; 
-  :canonicalReference "374"^^xsd:string .
+#:Line_374 a owl:NamedIndividual, :Line ;
+#  :lineNumber 374 ; 
+#  :canonicalReference "374"^^xsd:string .
 
 # --- 375 ---
 :Line_375 a owl:NamedIndividual, :Line ;
   :lineNumber 375 ; 
-  :canonicalReference "375"^^xsd:string .
+  :canonicalReference "375"^^xsd:string ;
+  :text "γένοιτο μήτʼ ἴσον φρονῶν ὃς τάδʼ ἔρδει."^^xsd:string .
 
 # --- 376 ---
 :Line_376 a owl:NamedIndividual, :Line ;
   :lineNumber 376 ; 
-  :canonicalReference "376"^^xsd:string .
+  :canonicalReference "376"^^xsd:string ;
+  :text "ἐς δαιμόνιον τέρας ἀμφινοῶ"^^xsd:string .
 
 # --- 377 ---
 :Line_377 a owl:NamedIndividual, :Line ;
   :lineNumber 377 ; 
-  :canonicalReference "377"^^xsd:string .
+  :canonicalReference "377"^^xsd:string ;
+  :text "τόδε· πῶς εἰδὼς ἀντιλογήσω"^^xsd:string .
 
 # --- 378 ---
 :Line_378 a owl:NamedIndividual, :Line ;
   :lineNumber 378 ; 
-  :canonicalReference "378"^^xsd:string .
+  :canonicalReference "378"^^xsd:string ;
+  :text "τήν δʼ οὐκ εἶναι παῖδʼ Ἀντιγόνην."^^xsd:string .
 
 # --- 379 ---
 :Line_379 a owl:NamedIndividual, :Line ;
   :lineNumber 379 ; 
-  :canonicalReference "379"^^xsd:string .
+  :canonicalReference "379"^^xsd:string ;
+  :text "ὦ δύστηνος"^^xsd:string .
 
 # --- 380 ---
 :Line_380 a owl:NamedIndividual, :Line ;
   :lineNumber 380 ; 
-  :canonicalReference "380"^^xsd:string .
+  :canonicalReference "380"^^xsd:string ;
+  :text "καὶ δυστήνου πατρὸς Οἰδιπόδα,"^^xsd:string .
 
 # --- 381 ---
 :Line_381 a owl:NamedIndividual, :Line ;
   :lineNumber 381 ; 
-  :canonicalReference "381"^^xsd:string .
+  :canonicalReference "381"^^xsd:string ;
+  :text "τί ποτʼ; οὐ δή που σέ γʼ ἀπιστοῦσαν"^^xsd:string .
 
 # --- 382 ---
 :Line_382 a owl:NamedIndividual, :Line ;
   :lineNumber 382 ; 
-  :canonicalReference "382"^^xsd:string .
+  :canonicalReference "382"^^xsd:string ;
+  :text "τοῖς βασιλείοισιν ἄγουσι νόμοις"^^xsd:string .
 
 # --- 383 ---
 :Line_383 a owl:NamedIndividual, :Line ;
   :lineNumber 383 ; 
-  :canonicalReference "383"^^xsd:string .
+  :canonicalReference "383"^^xsd:string ;
+  :text "καὶ ἐν ἀφροσύνῃ καθελόντες;"^^xsd:string .
