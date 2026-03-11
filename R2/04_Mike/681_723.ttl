@@ -1,0 +1,331 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Chorus a :Character .
+:Haemon a :Character .
+:Creon a :Character .
+:CommonMan a :Character .
+:City a :Character .
+:Antigone a :Character .
+
+# --- Semantic Entities (Greek) ---
+
+:Motivation_InformAndProtectFather a :Motivation ;
+    :description "Η πρόθεση του Αίμονα να προστατεύσει τον πατέρα του, ακούγοντας κρυφά στο σκοτάδι (ὑπὸ σκότου) και μεταφέροντάς του την πραγματική άποψη της πόλης."^^xsd:string .
+:Haemon :hasMotivation :Motivation_InformAndProtectFather .
+
+:Motivation_PersuadeToYield a :Motivation ;
+    :description "Ο στόχος του Αίμονα να πείσει τον Κρέοντα να αφήσει τον θυμό του (εἶκε θυμῷ) και να είναι ανοιχτός σε διαφορετικές απόψεις."^^xsd:string .
+:Haemon :hasMotivation :Motivation_PersuadeToYield .
+
+:EthicalPrinciple_SupremacyOfReason a :EthicalPrinciple ;
+    :description "Η αρχή ότι οι θεοί προικίζουν τους ανθρώπους με τη λογική (φρένας), το οποίο είναι το ύψιστο όλων των αγαθών."^^xsd:string .
+:Haemon :advocatesFor :EthicalPrinciple_SupremacyOfReason .
+
+:EthicalPrinciple_ValueOfFlexibility a :EthicalPrinciple ;
+    :description "Η ηθική στάση ότι ακόμα και ένας σοφός άνδρας πρέπει να μανθάνει πολλά και να μην είναι υπερβολικά άκαμπτος (τὸ μὴ τείνειν ἄγαν)."^^xsd:string .
+:Haemon :advocatesFor :EthicalPrinciple_ValueOfFlexibility .
+
+:EthicalPrinciple_HonorForPiousDeeds a :EthicalPrinciple ;
+    :description "Η πεποίθηση ότι μια γυναίκα που δεν άφησε τον νεκρό αδελφό της να κατασπαραχθεί από σκυλιά αξίζει χρυσή τιμή (χρυσῆς ἀξία τιμῆς λαχεῖν)."^^xsd:string .
+:City :advocatesFor :EthicalPrinciple_HonorForPiousDeeds .
+
+:Emotion_FearOfTyrant a :Emotion ;
+    :description "Ο φόβος του κοινού θνητού (ἀνδρὶ δημότῃ) απέναντι στο τρομερό βλέμμα (ὄμμα δεινὸν) του Κρέοντα, που αποτρέπει την ανοιχτή διαφωνία."^^xsd:string .
+:CommonMan :experiencesEmotion :Emotion_FearOfTyrant .
+
+:Emotion_PublicMourning a :Emotion ;
+    :description "Η οδύνη και ο θρήνος της πόλης (οἷ' ὀδύρεται πόλις) για την άδικη καταδίκη της Αντιγόνης."^^xsd:string .
+:City :experiencesEmotion :Emotion_PublicMourning .
+
+:Emotion_Wrath a :Emotion ;
+    :description "Ο θυμός (θυμός) του Κρέοντα, τον οποίο ο Αίμονας ζητά να υποχωρήσει."^^xsd:string .
+:Creon :experiencesEmotion :Emotion_Wrath .
+
+:Conflict_TyrantVsPublicOpinion a :Conflict ;
+    :description "Η αντίφαση ανάμεσα στη σκληρή στάση του Κρέοντα και την κρυφή, πραγματική γνώμη της πόλης που τον θεωρεί άδικο."^^xsd:string ;
+    :conflictBetween :Creon, :City .
+
+:Conflict_RigidityVsFlexibility a :Conflict ;
+    :description "Η σύγκρουση ανάμεσα στο απόλυτο, άκαμπτο πείσμα και τη σοφή προσαρμοστικότητα."^^xsd:string ;
+    :conflictBetween :Theme_Stubbornness, :Theme_Flexibility .
+
+:Cause_FrightfulEye a owl:Thing ;
+    :description "Το εκφοβιστικό βλέμμα του Κρέοντα προς τους υπηκόους του."^^xsd:string .
+
+:Effect_SuppressedSpeech a owl:Thing ;
+    :description "Ο λαός εκφράζει τη γνώμη του μόνο μέσω σκοτεινών, σιωπηλών φημών (ἐρεμνὴ σῖγ' ἐπέρχεται φάτις)."^^xsd:string .
+:Cause_FrightfulEye :relatedTo :Effect_SuppressedSpeech .
+
+:Cause_PiousBurial a owl:Thing ;
+    :description "Η πράξη της Αντιγόνης να προστατεύσει τον νεκρό της αδελφό από τα σκυλιά και τα όρνεα."^^xsd:string .
+
+:Effect_DeservingHonor a owl:Thing ;
+    :description "Το συμπέρασμα της πόλης ότι η Αντιγόνη αξίζει ύψιστης τιμής για το ευκλεές της έργο."^^xsd:string .
+:Cause_PiousBurial :relatedTo :Effect_DeservingHonor .
+
+:Cause_RigidStubbornness a owl:Thing ;
+    :description "Ένα δέντρο που αντιστέκεται στα ρεύματα ή ένα πλοίο που έχει τεντωμένα τα πανιά του δίχως να υποχωρεί."^^xsd:string .
+
+:Effect_Destruction a owl:Thing ;
+    :description "Η πλήρης καταστροφή, ξεριζώνοντας το δέντρο (αὐτόπρεμν' ἀπόλλυται) ή ανατρέποντας το πλοίο (ὑπτίοις κάτω στρέψας)."^^xsd:string .
+:Cause_RigidStubbornness :relatedTo :Effect_Destruction .
+
+:Cause_YieldingToForce a owl:Thing ;
+    :description "Ένα δέντρο που υποχωρεί στα ορμητικά νερά (δένδρων ὑπείκει)."^^xsd:string .
+
+:Effect_Survival a owl:Thing ;
+    :description "Η διάσωση των κλαδιών και η επιβίωση του δέντρου (κλῶνας ὡς ἐκσῴζεται)."^^xsd:string .
+:Cause_YieldingToForce :relatedTo :Effect_Survival .
+
+:Theme_DivineGiftOfReason a :Theme ;
+    :description "Η έννοια ότι οι θεοί προικίζουν τον άνθρωπο με λογική (φρένας), η οποία είναι υπέρτατη αξία."^^xsd:string .
+
+:Theme_Flexibility a :Theme ;
+    :description "Η σοφία της προσαρμοστικότητας, της υποχώρησης και της συνεχούς μάθησης, σε αντίθεση με την καταστροφική ακαμψία."^^xsd:string .
+
+:Theme_Stubbornness a :Theme ;
+    :description "Η αλαζονεία της μονολιθικής σκέψης (ἓν ἦθος μοῦνον) και η ψευδαίσθηση της μοναδικής ευφυΐας που αποδεικνύεται κενή."^^xsd:string .
+
+:Theme_PublicOpinionVsTyranny a :Theme ;
+    :description "Οι κρυφές φήμες (ἐρεμνὴ φάτις) των πολιτών που αναγνωρίζουν το σωστό αλλά αποσιωπώνται από τον φόβο του τυράννου."^^xsd:string .
+
+# --- Line-by-Line Extraction with Translation Variants ---
+
+:Line_681 a owl:NamedIndividual, :Line ; :lineNumber 681 ; :canonicalReference "681"^^xsd:string .
+:TV_Line_681_grc a :TranslationVariant ;
+    :text "ΧΟ. Ἡμῖν μέν, εἰ μὴ τῷ χρόνῳ κεκλέμμεθα,"^^xsd:string ;
+    :relatedTo :Line_681 .
+
+:Line_682 a owl:NamedIndividual, :Line ; :lineNumber 682 ; :canonicalReference "682"^^xsd:string .
+:TV_Line_682_grc a :TranslationVariant ;
+    :text "λέγειν φρονούντως ὧν λέγεις δοκεῖς πέρι."^^xsd:string ;
+    :relatedTo :Line_682 .
+
+:Line_683 a owl:NamedIndividual, :Line ; :lineNumber 683 ; :canonicalReference "683"^^xsd:string .
+:TV_Line_683_grc a :TranslationVariant ;
+    :text "ΑΙ. Πάτερ, θεοὶ φύουσιν ἀνθρώποις φρένας,"^^xsd:string ;
+    :relatedTo :Line_683 ;
+    :hasTheme :Theme_DivineGiftOfReason ;
+    :advocatesFor :EthicalPrinciple_SupremacyOfReason .
+
+:Line_684 a owl:NamedIndividual, :Line ; :lineNumber 684 ; :canonicalReference "684"^^xsd:string .
+:TV_Line_684_grc a :TranslationVariant ;
+    :text "πάντων ὅσ ̓ ἐστὶ χρημάτων ὑπέρτατον·"^^xsd:string ;
+    :relatedTo :Line_684 .
+
+:Line_685 a owl:NamedIndividual, :Line ; :lineNumber 685 ; :canonicalReference "685"^^xsd:string .
+:TV_Line_685_grc a :TranslationVariant ;
+    :text "Ἐγὼ δ ̓ ὅπως σὺ μὴ λέγεις ὀρθῶς τάδε,"^^xsd:string ;
+    :relatedTo :Line_685 .
+
+:Line_686 a owl:NamedIndividual, :Line ; :lineNumber 686 ; :canonicalReference "686"^^xsd:string .
+:TV_Line_686_grc a :TranslationVariant ;
+    :text "οὔτ ̓ ἂν δυναίμην μήτ ̓ ἐπισταίμην λέγειν·"^^xsd:string ;
+    :relatedTo :Line_686 .
+
+:Line_687 a owl:NamedIndividual, :Line ; :lineNumber 687 ; :canonicalReference "687"^^xsd:string .
+:TV_Line_687_grc a :TranslationVariant ;
+    :text "γένοιτο μεντἂν χἀτέρῳ καλῶς ἔχον."^^xsd:string ;
+    :relatedTo :Line_687 .
+
+:Line_688 a owl:NamedIndividual, :Line ; :lineNumber 688 ; :canonicalReference "688"^^xsd:string .
+:TV_Line_688_grc a :TranslationVariant ;
+    :text "Σοῦ δ ̓ οὖν πέφυκα πάντα προσκοπεῖν ὅσα"^^xsd:string ;
+    :relatedTo :Line_688 ;
+    :hasMotivation :Motivation_InformAndProtectFather .
+
+:Line_689 a owl:NamedIndividual, :Line ; :lineNumber 689 ; :canonicalReference "689"^^xsd:string .
+:TV_Line_689_grc a :TranslationVariant ;
+    :text "λέγει τις ἢ πράσσει τις ἢ ψέγειν ἔχει·"^^xsd:string ;
+    :relatedTo :Line_689 .
+
+:Line_690 a owl:NamedIndividual, :Line ; :lineNumber 690 ; :canonicalReference "690"^^xsd:string .
+:TV_Line_690_grc a :TranslationVariant ;
+    :text "τὸ γὰρ σὸν ὄμμα δεινὸν ἀνδρὶ δημότῃ"^^xsd:string ;
+    :relatedTo :Line_690 ;
+    :relatedTo :Cause_FrightfulEye ;
+    :experiencesEmotion :Emotion_FearOfTyrant .
+
+:Line_691 a owl:NamedIndividual, :Line ; :lineNumber 691 ; :canonicalReference "691"^^xsd:string .
+:TV_Line_691_grc a :TranslationVariant ;
+    :text "λόγοις τοιούτοις, οἷς σὺ μὴ τέρψῃ κλύων."^^xsd:string ;
+    :relatedTo :Line_691 ;
+    :relatedTo :Effect_SuppressedSpeech .
+
+:Line_692 a owl:NamedIndividual, :Line ; :lineNumber 692 ; :canonicalReference "692"^^xsd:string .
+:TV_Line_692_grc a :TranslationVariant ;
+    :text "Ἐμοὶ δ ̓ ἀκούειν ἔσθ ̓ ὑπὸ σκότου τάδε,"^^xsd:string ;
+    :relatedTo :Line_692 .
+
+:Line_693 a owl:NamedIndividual, :Line ; :lineNumber 693 ; :canonicalReference "693"^^xsd:string .
+:TV_Line_693_grc a :TranslationVariant ;
+    :text "τὴν παῖδα ταύτην οἷ ̓ ὀδύρεται πόλις,"^^xsd:string ;
+    :relatedTo :Line_693 ;
+    :experiencesEmotion :Emotion_PublicMourning .
+
+:Line_694 a owl:NamedIndividual, :Line ; :lineNumber 694 ; :canonicalReference "694"^^xsd:string .
+:TV_Line_694_grc a :TranslationVariant ;
+    :text "πασῶν γυναικῶν ὡς ἀναξιωτάτη"^^xsd:string ;
+    :relatedTo :Line_694 .
+
+:Line_695 a owl:NamedIndividual, :Line ; :lineNumber 695 ; :canonicalReference "695"^^xsd:string .
+:TV_Line_695_grc a :TranslationVariant ;
+    :text "κάκιστ ̓ ἀπ ̓ ἔργων εὐκλεεστάτων φθίνει·"^^xsd:string ;
+    :relatedTo :Line_695 .
+
+:Line_696 a owl:NamedIndividual, :Line ; :lineNumber 696 ; :canonicalReference "696"^^xsd:string .
+:TV_Line_696_grc a :TranslationVariant ;
+    :text "ἥτις τὸν αὑτῆς αὐτάδελφον ἐν φοναῖς"^^xsd:string ;
+    :relatedTo :Line_696 ;
+    :relatedTo :Cause_PiousBurial .
+
+:Line_697 a owl:NamedIndividual, :Line ; :lineNumber 697 ; :canonicalReference "697"^^xsd:string .
+:TV_Line_697_grc a :TranslationVariant ;
+    :text "πεπτῶτ ̓ ἄθαπτον μήθ ̓ ὑπ ̓ ὠμηστῶν κυνῶν"^^xsd:string ;
+    :relatedTo :Line_697 .
+
+:Line_698 a owl:NamedIndividual, :Line ; :lineNumber 698 ; :canonicalReference "698"^^xsd:string .
+:TV_Line_698_grc a :TranslationVariant ;
+    :text "εἴασ ̓ ὀλέσθαι μήθ ̓ ὑπ ̓ οἰωνῶν τινος·"^^xsd:string ;
+    :relatedTo :Line_698 .
+
+:Line_699 a owl:NamedIndividual, :Line ; :lineNumber 699 ; :canonicalReference "699"^^xsd:string .
+:TV_Line_699_grc a :TranslationVariant ;
+    :text "οὐχ ἥδε χρυσῆς ἀξία τιμῆς λαχεῖν;"^^xsd:string ;
+    :relatedTo :Line_699 ;
+    :relatedTo :Effect_DeservingHonor ;
+    :advocatesFor :EthicalPrinciple_HonorForPiousDeeds .
+
+:Line_700 a owl:NamedIndividual, :Line ; :lineNumber 700 ; :canonicalReference "700"^^xsd:string .
+:TV_Line_700_grc a :TranslationVariant ;
+    :text "τοιάδ ̓ ἐρεμνὴ σῖγ ̓ ἐπέρχεται φάτις."^^xsd:string ;
+    :relatedTo :Line_700 ;
+    :hasTheme :Theme_PublicOpinionVsTyranny ;
+    :hasConflict :Conflict_TyrantVsPublicOpinion .
+
+:Line_701 a owl:NamedIndividual, :Line ; :lineNumber 701 ; :canonicalReference "701"^^xsd:string .
+:TV_Line_701_grc a :TranslationVariant ;
+    :text "Ἐμοὶ δὲ σοῦ πράσσοντος εὐτυχῶς, πάτερ,"^^xsd:string ;
+    :relatedTo :Line_701 .
+
+:Line_702 a owl:NamedIndividual, :Line ; :lineNumber 702 ; :canonicalReference "702"^^xsd:string .
+:TV_Line_702_grc a :TranslationVariant ;
+    :text "οὐκ ἔστιν οὐδὲν κτῆμα τιμιώτερον·"^^xsd:string ;
+    :relatedTo :Line_702 .
+
+:Line_703 a owl:NamedIndividual, :Line ; :lineNumber 703 ; :canonicalReference "703"^^xsd:string .
+:TV_Line_703_grc a :TranslationVariant ;
+    :text "τί γὰρ πατρὸς θάλλοντος εὐκλείας τέκνοις"^^xsd:string ;
+    :relatedTo :Line_703 .
+
+:Line_704 a owl:NamedIndividual, :Line ; :lineNumber 704 ; :canonicalReference "704"^^xsd:string .
+:TV_Line_704_grc a :TranslationVariant ;
+    :text "ἄγαλμα μεῖζον ἢ τί πρὸς παίδων πατρί;"^^xsd:string ;
+    :relatedTo :Line_704 .
+
+:Line_705 a owl:NamedIndividual, :Line ; :lineNumber 705 ; :canonicalReference "705"^^xsd:string .
+:TV_Line_705_grc a :TranslationVariant ;
+    :text "Μή νυν ἓν ἦθος μοῦνον ἐν σαυτῷ φόρει,"^^xsd:string ;
+    :relatedTo :Line_705 ;
+    :hasTheme :Theme_Stubbornness .
+
+:Line_706 a owl:NamedIndividual, :Line ; :lineNumber 706 ; :canonicalReference "706"^^xsd:string .
+:TV_Line_706_grc a :TranslationVariant ;
+    :text "ὡς φῂς σύ, κοὐδὲν ἄλλο, τοῦτ ̓ ὀρθῶς ἔχειν·"^^xsd:string ;
+    :relatedTo :Line_706 .
+
+:Line_707 a owl:NamedIndividual, :Line ; :lineNumber 707 ; :canonicalReference "707"^^xsd:string .
+:TV_Line_707_grc a :TranslationVariant ;
+    :text "ὅστις γὰρ αὐτὸς ἢ φρονεῖν μόνος δοκεῖ,"^^xsd:string ;
+    :relatedTo :Line_707 .
+
+:Line_708 a owl:NamedIndividual, :Line ; :lineNumber 708 ; :canonicalReference "708"^^xsd:string .
+:TV_Line_708_grc a :TranslationVariant ;
+    :text "ἢ γλῶσσαν ἣν οὐκ ἄλλος, ἢ ψυχὴν ἔχειν,"^^xsd:string ;
+    :relatedTo :Line_708 .
+
+:Line_709 a owl:NamedIndividual, :Line ; :lineNumber 709 ; :canonicalReference "709"^^xsd:string .
+:TV_Line_709_grc a :TranslationVariant ;
+    :text "οὗτοι διαπτυχθέντες ὤφθησαν κενοί."^^xsd:string ;
+    :relatedTo :Line_709 .
+
+:Line_710 a owl:NamedIndividual, :Line ; :lineNumber 710 ; :canonicalReference "710"^^xsd:string .
+:TV_Line_710_grc a :TranslationVariant ;
+    :text "Ἀλλ ̓ ἄνδρα, κεἴ τις ᾖ σοφός, τὸ μανθάνειν"^^xsd:string ;
+    :relatedTo :Line_710 ;
+    :advocatesFor :EthicalPrinciple_ValueOfFlexibility .
+
+:Line_711 a owl:NamedIndividual, :Line ; :lineNumber 711 ; :canonicalReference "711"^^xsd:string .
+:TV_Line_711_grc a :TranslationVariant ;
+    :text "πόλλ ̓ αἰσχρὸν οὐδὲν καὶ τὸ μὴ τείνειν ἄγαν."^^xsd:string ;
+    :relatedTo :Line_711 .
+
+:Line_712 a owl:NamedIndividual, :Line ; :lineNumber 712 ; :canonicalReference "712"^^xsd:string .
+:TV_Line_712_grc a :TranslationVariant ;
+    :text "Ὁρᾷς παρὰ ῥείθροισι χειμάρροις ὅσα"^^xsd:string ;
+    :relatedTo :Line_712 ;
+    :relatedTo :Cause_YieldingToForce .
+
+:Line_713 a owl:NamedIndividual, :Line ; :lineNumber 713 ; :canonicalReference "713"^^xsd:string .
+:TV_Line_713_grc a :TranslationVariant ;
+    :text "δένδρων ὑπείκει, κλῶνας ὡς ἐκσῴζεται,"^^xsd:string ;
+    :relatedTo :Line_713 ;
+    :relatedTo :Effect_Survival .
+
+:Line_714 a owl:NamedIndividual, :Line ; :lineNumber 714 ; :canonicalReference "714"^^xsd:string .
+:TV_Line_714_grc a :TranslationVariant ;
+    :text "τὰ δ ̓ ἀντιτείνοντ ̓ αὐτόπρεμν ̓ ἀπόλλυται."^^xsd:string ;
+    :relatedTo :Line_714 ;
+    :relatedTo :Cause_RigidStubbornness .
+
+:Line_715 a owl:NamedIndividual, :Line ; :lineNumber 715 ; :canonicalReference "715"^^xsd:string .
+:TV_Line_715_grc a :TranslationVariant ;
+    :text "Αὔτως δὲ ναὸς ὅστις ἐγκρατῆ πόδα"^^xsd:string ;
+    :relatedTo :Line_715 .
+
+:Line_716 a owl:NamedIndividual, :Line ; :lineNumber 716 ; :canonicalReference "716"^^xsd:string .
+:TV_Line_716_grc a :TranslationVariant ;
+    :text "τείνας ὑπείκει μηδέν, ὑπτίοις κάτω"^^xsd:string ;
+    :relatedTo :Line_716 .
+
+:Line_717 a owl:NamedIndividual, :Line ; :lineNumber 717 ; :canonicalReference "717"^^xsd:string .
+:TV_Line_717_grc a :TranslationVariant ;
+    :text "στρέψας τὸ λοιπὸν σέλμασιν ναυτίλλεται."^^xsd:string ;
+    :relatedTo :Line_717 ;
+    :relatedTo :Effect_Destruction .
+
+:Line_718 a owl:NamedIndividual, :Line ; :lineNumber 718 ; :canonicalReference "718"^^xsd:string .
+:TV_Line_718_grc a :TranslationVariant ;
+    :text "Ἀλλ ̓ εἶκε θυμῷ καὶ μετάστασιν δίδου."^^xsd:string ;
+    :relatedTo :Line_718 ;
+    :hasMotivation :Motivation_PersuadeToYield .
+
+:Line_719 a owl:NamedIndividual, :Line ; :lineNumber 719 ; :canonicalReference "719"^^xsd:string .
+:TV_Line_719_grc a :TranslationVariant ;
+    :text "Γνώμη γὰρ εἴ τις κἀπ ̓ ἐμοῦ νεωτέρου"^^xsd:string ;
+    :relatedTo :Line_719 .
+
+:Line_720 a owl:NamedIndividual, :Line ; :lineNumber 720 ; :canonicalReference "720"^^xsd:string .
+:TV_Line_720_grc a :TranslationVariant ;
+    :text "πρόσεστι, φήμ ̓ ἔγωγε πρεσβεύειν πολὺ"^^xsd:string ;
+    :relatedTo :Line_720 .
+
+:Line_721 a owl:NamedIndividual, :Line ; :lineNumber 721 ; :canonicalReference "721"^^xsd:string .
+:TV_Line_721_grc a :TranslationVariant ;
+    :text "φῦναί τιν ̓ ἄνδρα πάντ ̓ ἐπιστήμης πλέων·"^^xsd:string ;
+    :relatedTo :Line_721 .
+
+:Line_722 a owl:NamedIndividual, :Line ; :lineNumber 722 ; :canonicalReference "722"^^xsd:string .
+:TV_Line_722_grc a :TranslationVariant ;
+    :text "εἰ δ ̓ οὖν, φιλεῖ γὰρ τοῦτο μὴ ταύτῃ ῥέπειν,"^^xsd:string ;
+    :relatedTo :Line_722 .
+
+:Line_723 a owl:NamedIndividual, :Line ; :lineNumber 723 ; :canonicalReference "723"^^xsd:string .
+:TV_Line_723_grc a :TranslationVariant ;
+    :text "καὶ τῶν λεγόντων εὖ καλὸν τὸ μανθάνειν."^^xsd:string ;
+    :relatedTo :Line_723 ;
+    :hasTheme :Theme_Flexibility ;
+    :hasConflict :Conflict_RigidityVsFlexibility .

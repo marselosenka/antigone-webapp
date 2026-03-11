@@ -1,583 +1,577 @@
-﻿@prefix : <http://example.org/antigone#> .
+@prefix : <http://example.org/antigone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :episode05-structure a owl:Ontology .
 
-# --- 988 ---
+
 :Line_988 a :Line ;
   :lineNumber 988 ;
-  :canonicalReference "988" .
+  :canonicalReference "988" ;
+  :text "Θήβης ἄνακτες, ἥκομεν κοινὴν ὁδὸν"^^xsd:string .
 
-# --- 989 ---
 :Line_989 a :Line ;
   :lineNumber 989 ;
   :canonicalReference "989" ;
+  :text "δύ ̓ ἐξ ἑνὸς βλέποντε· τοῖς τυφλοῖσι γὰρ"^^xsd:string ;
   :hasTheme :Theme_BlindnessVsSight .
-
-# --- 990 ---
 
 :Line_990 a :Line ;
   :lineNumber 990 ;
-  :canonicalReference "990" .
-
-# --- 991 ---
+  :canonicalReference "990" ;
+  :text "αὕτη κέλευθος ἐκ προηγητοῦ πέλει."^^xsd:string .
 
 :Line_991 a :Line ;
   :lineNumber 991 ;
-  :canonicalReference "991" .
-
-# --- 992 ---
+  :canonicalReference "991" ;
+  :text "Τί δ ̓ ἔστιν, ὦ γεραιὲ Τειρεσία, νέον;"^^xsd:string .
 
 :Line_992 a :Line ;
   :lineNumber 992 ;
-  :canonicalReference "992" .
-
-# --- 993 ---
+  :canonicalReference "992" ;
+  :text "Ἐγὼ διδάξω, καὶ σὺ τῷ μάντει πιθοῦ."^^xsd:string .
 
 :Line_993 a :Line ;
   :lineNumber 993 ;
   :canonicalReference "993" ;
+  :text "Οὔκουν πάρος γε σῆς ἀπεστάτουν φρενός."^^xsd:string ;
   :hasMotivation :Motivation_HeedProphet .
-
-# --- 994 ---
 
 :Line_994 a :Line ;
   :lineNumber 994 ;
-  :canonicalReference "994" .
-
-# --- 995 ---
+  :canonicalReference "994" ;
+  :text "Τοιγὰρ δι ̓ ὀρθῆς τήνδ ̓ ναυκληρεῖς πόλιν."^^xsd:string .
 
 :Line_995 a :Line ;
   :lineNumber 995 ;
-  :canonicalReference "995" .
+  :canonicalReference "995" ;
+  :text "Ἔχω πεπονθὼς μαρτυρεῖν ὀνήσιμα."^^xsd:string .
 
-# --- 996 ---
 :Line_996 a :Line ;
   :lineNumber 996 ;
   :canonicalReference "996" ;
+  :text "Φρόνει βεβὼς αὖ νῦν ἐπὶ ξυροῦ τύχης."^^xsd:string ;
   :containsRhetoricalDevice :Device_Metaphor_RazorEdge .
 
-# --- 997 ---
 :Line_997 a :Line ;
   :lineNumber 997 ;
   :canonicalReference "997" ;
+  :text "Τί δ ̓ ἔστιν; ὡς ἐγὼ τὸ σὸν φρίσσω στόμα."^^xsd:string ;
   :experiencesEmotion :Emotion_TremblingFear .
 
-# --- 998 ---
 :Line_998 a :Line ;
   :lineNumber 998 ;
-  :canonicalReference "998" .
+  :canonicalReference "998" ;
+  :text "Γνώσῃ, τέχνης σημεῖα τῆς ἐμῆς κλύων."^^xsd:string .
 
-# --- 999 ---
 :Line_999 a :Line ;
   :lineNumber 999 ;
-  :canonicalReference "999" .
+  :canonicalReference "999" ;
+  :text "Εἰς γὰρ παλαιὸν θᾶκον ὀρνιθοσκόπον"^^xsd:string .
 
-# --- 1000 ---
 :Line_1000 a :Line ;
   :lineNumber 1000 ;
-  :canonicalReference "1000" .
+  :canonicalReference "1000" ;
+  :text "ἵζων, ἵν ̓ ἦν μοι παντὸς οἰωνοῦ λιμήν,"^^xsd:string .
 
-# --- 1001 ---
 :Line_1001 a :Line ;
   :lineNumber 1001 ;
   :canonicalReference "1001" ;
+  :text "ἀγνῶτ ̓ ἀκούω φθόγγον ὀρνίθων, κακῷ"^^xsd:string ;
   :hasSymbol :Symbol_FightingBirds .
 
-# --- 1002 ---
 :Line_1002 a :Line ;
   :lineNumber 1002 ;
-  :canonicalReference "1002" .
+  :canonicalReference "1002" ;
+  :text "κλάζοντας οἴστρῳ καὶ βεβαρβαρωμένῳ·"^^xsd:string .
 
-# --- 1003 ---
 :Line_1003 a :Line ;
   :lineNumber 1003 ;
-  :canonicalReference "1003" .
+  :canonicalReference "1003" ;
+  :text "καὶ σπῶντας ἐν χηλαῖσιν ἀλλήλους φοναῖς"^^xsd:string .
 
-# --- 1004 ---
 :Line_1004 a :Line ;
   :lineNumber 1004 ;
-  :canonicalReference "1004" .
+  :canonicalReference "1004" ;
+  :text "ἔγνων· πτερῶν γὰρ ῥοῖβδος οὐκ ἄσημος ἦν."^^xsd:string .
 
-# --- 1005 ---
 :Line_1005 a :Line ;
   :lineNumber 1005 ;
   :canonicalReference "1005" ;
+  :text "Εὐθὺς δὲ δείσας ἐμπύρων ἐγευόμην"^^xsd:string ;
   :experiencesEmotion :Emotion_PropheticDread .
 
-# --- 1006 ---
 :Line_1006 a :Line ;
   :lineNumber 1006 ;
-  :canonicalReference "1006" .
+  :canonicalReference "1006" ;
+  :text "βωμοῖσι παμφλέκτοισιν· ἐκ δὲ θυμάτων"^^xsd:string .
 
-# --- 1007 ---
 :Line_1007 a :Line ;
   :lineNumber 1007 ;
   :canonicalReference "1007" ;
+  :text "Ἥφαιστος οὐκ ἔλαμπεν, ἀλλ ̓ ἐπὶ σποδῷ"^^xsd:string ;
   :hasSymbol :Symbol_FailedSacrifice ;
   :referencesMyth :Antigone_Character_Hephaestus .
 
-# --- 1008 ---
 :Line_1008 a :Line ;
   :lineNumber 1008 ;
-  :canonicalReference "1008" .
+  :canonicalReference "1008" ;
+  :text "μυδῶσα κηκὶς μηρίων ἐτήκετο"^^xsd:string .
 
-# --- 1009 ---
 :Line_1009 a :Line ;
   :lineNumber 1009 ;
-  :canonicalReference "1009" .
+  :canonicalReference "1009" ;
+  :text "κἄτυφε κἀνέπτυε, καὶ μετάρσιοι"^^xsd:string .
 
-# --- 1010 ---
 :Line_1010 a :Line ;
   :lineNumber 1010 ;
-  :canonicalReference "1010" .
+  :canonicalReference "1010" ;
+  :text "χολαὶ διεσπείροντο, καὶ καταρρυεῖς"^^xsd:string .
 
-# --- 1011 ---
 :Line_1011 a :Line ;
   :lineNumber 1011 ;
-  :canonicalReference "1011" .
+  :canonicalReference "1011" ;
+  :text "μηροὶ καλυπτῆς ἐξέκειντο πιμελῆς."^^xsd:string .
 
-# --- 1012 ---
 :Line_1012 a :Line ;
   :lineNumber 1012 ;
-  :canonicalReference "1012" .
+  :canonicalReference "1012" ;
+  :text "Τοιαῦτα παιδὸς τοῦδ ̓ ἐμάνθανον πάρα"^^xsd:string .
 
-# --- 1013 ---
 :Line_1013 a :Line ;
   :lineNumber 1013 ;
-  :canonicalReference "1013" .
+  :canonicalReference "1013" ;
+  :text "φθίνοντ ̓ ἀσήμων ὀργίων μαντεύματα·"^^xsd:string .
 
-# --- 1014 ---
 :Line_1014 a :Line ;
   :lineNumber 1014 ;
-  :canonicalReference "1014" .
+  :canonicalReference "1014" ;
+  :text "ἐμοὶ γὰρ οὗτος ἡγεμών, ἄλλοις δ ̓ ἐγώ."^^xsd:string .
 
-# --- 1015 ---
 :Line_1015 a :Line ;
   :lineNumber 1015 ;
   :canonicalReference "1015" ;
+  :text "Καὶ ταῦτα τῆς σῆς ἐκ φρενὸς νοσεῖ πόλις·"^^xsd:string ;
   :hasTheme :Theme_CivicPollution .
 
-# --- 1016 ---
 :Line_1016 a :Line ;
   :lineNumber 1016 ;
-  :canonicalReference "1016" .
+  :canonicalReference "1016" ;
+  :text "βωμοὶ γὰρ ἡμῖν ἐσχάραι τε παντελεῖς"^^xsd:string .
 
-# --- 1017 ---
 :Line_1017 a :Line ;
   :lineNumber 1017 ;
-  :canonicalReference "1017" .
+  :canonicalReference "1017" ;
+  :text "πλήρεις ὑπ ̓ οἰωνῶν τε καὶ κυνῶν βορᾶς"^^xsd:string .
 
-# --- 1018 ---
 :Line_1018 a :Line ;
   :lineNumber 1018 ;
   :canonicalReference "1018" ;
+  :text "τοῦ δυσμόρου πεπτῶτος Οἰδίπου γόνου."^^xsd:string ;
   :relatedTo :Antigone_Character_Polyneices .
 
-# --- 1019 ---
 :Line_1019 a :Line ;
   :lineNumber 1019 ;
   :canonicalReference "1019" ;
+  :text "Κᾆτ ̓ οὐ δέχονται θυστάδας λιτὰς ἔτι"^^xsd:string ;
   :hasTheme :Theme_DivineSilence .
 
-# --- 1020 ---
 :Line_1020 a :Line ;
   :lineNumber 1020 ;
-  :canonicalReference "1020" .
+  :canonicalReference "1020" ;
+  :text "θεοὶ παρ ̓ ἡμῶν οὐδὲ μηρίων φλόγα,"^^xsd:string .
 
-# --- 1021 ---
 :Line_1021 a :Line ;
   :lineNumber 1021 ;
-  :canonicalReference "1021" .
+  :canonicalReference "1021" ;
+  :text "οὐδ ̓ ὄρνις εὐσήμους ἀπορροιβδεῖ βοάς,"^^xsd:string .
 
-# --- 1022 ---
 :Line_1022 a :Line ;
   :lineNumber 1022 ;
-  :canonicalReference "1022" .
+  :canonicalReference "1022" ;
+  :text "ἀνδροφθόρου βεβρῶτες αἵματος λίπος."^^xsd:string .
 
-# --- 1023 ---
 :Line_1023 a :Line ;
   :lineNumber 1023 ;
-  :canonicalReference "1023" .
+  :canonicalReference "1023" ;
+  :text "Ταῦτ ̓ οὖν, τέκνον, φρόνησον. Ἀνθρώποισι γὰρ"^^xsd:string .
 
-# --- 1024 ---
 :Line_1024 a :Line ;
   :lineNumber 1024 ;
   :canonicalReference "1024" ;
+  :text "τοῖς πᾶσι κοινόν ἐστι τοὐξαμαρτάνειν·"^^xsd:string ;
   :hasTheme :Theme_WisdomFlexibility ;
   :advocatesFor :Ethical_Amends .
 
-# --- 1025 ---
 :Line_1025 a :Line ;
   :lineNumber 1025 ;
-  :canonicalReference "1025" .
+  :canonicalReference "1025" ;
+  :text "ἐπεὶ δ ̓ ἁμάρτῃ, κεῖνος οὐκέτ ̓ ἔστ ̓ ἀνὴρ"^^xsd:string .
 
-# --- 1026 ---
 :Line_1026 a :Line ;
   :lineNumber 1026 ;
-  :canonicalReference "1026" .
+  :canonicalReference "1026" ;
+  :text "ἄβουλος οὐδ ̓ ἄνολβος, ὅστις ἐς κακὸν"^^xsd:string .
 
-# --- 1027 ---
 :Line_1027 a :Line ;
   :lineNumber 1027 ;
-  :canonicalReference "1027" .
+  :canonicalReference "1027" ;
+  :text "πεσὼν ἀκεῖται μηδ ̓ ἀκίνητος πέλῃ·"^^xsd:string .
 
-# --- 1028 ---
 :Line_1028 a :Line ;
   :lineNumber 1028 ;
-  :canonicalReference "1028" .
+  :canonicalReference "1028" ;
+  :text "αὐθαδία τοι σκαιότητ ̓ ὀφλισκάνει."^^xsd:string .
 
-# --- 1029 ---
 :Line_1029 a :Line ;
   :lineNumber 1029 ;
   :canonicalReference "1029" ;
+  :text "Ἀλλ ̓ εἶκε τῷ θανόντι, μηδ ̓ ὀλωλότα"^^xsd:string ;
   :advocatesFor :Ethical_Amends .
 
-# --- 1030 ---
 :Line_1030 a :Line ;
   :lineNumber 1030 ;
-  :canonicalReference "1030" .
+  :canonicalReference "1030" ;
+  :text "κέντει· τίς ἀλκὴ τὸν θανόντ ̓ ἐπικτανεῖν;"^^xsd:string .
 
-# --- 1031 ---
 :Line_1031 a :Line ;
   :lineNumber 1031 ;
-  :canonicalReference "1031" .
+  :canonicalReference "1031" ;
+  :text "Εὖ σοι φρονήσας εὖ λέγω· τὸ μανθάνειν δ ́"^^xsd:string .
 
-# --- 1032 ---
 :Line_1032 a :Line ;
   :lineNumber 1032 ;
-  :canonicalReference "1032" .
-
+  :canonicalReference "1032" ;
+  :text "ἥδιστον εὖ λέγοντος, εἰ κέρδος φέρει."^^xsd:string .
   
-# --- 1033 ---
 :Line_1033 a :Line ;
   :lineNumber 1033 ;
   :canonicalReference "1033" ;
+  :text "ΚΡ. Ὦ πρέσβυ, πάντες ὥστε τοξόται σκοποῦ"^^xsd:string ;
   :containsRhetoricalDevice :Device_Simile_Archers .
 
-# --- 1034 ---
 :Line_1034 a :Line ;
   :lineNumber 1034 ;
-  :canonicalReference "1034" .
+  :canonicalReference "1034" ;
+  :text "τοξεύετ ̓ ἀνδρὸς τοῦδε, κοὐδὲ μαντικῆς"^^xsd:string .
 
-# --- 1035 ---
 :Line_1035 a :Line ;
   :lineNumber 1035 ;
-  :canonicalReference "1035" .
+  :canonicalReference "1035" ;
+  :text "ἄπρακτος ὑμῖν εἰμι, τῶν δ ̓ ὑπαὶ γένους"^^xsd:string .
 
-# --- 1036 ---
 :Line_1036 a :Line ;
   :lineNumber 1036 ;
   :canonicalReference "1036" ;
+  :text "ἐξημπόλημαι κἀμπεφόρτισμαι πάλαι."^^xsd:string ;
   :hasTheme :Theme_Corruption .
 
-# --- 1037 ---
 :Line_1037 a :Line ;
   :lineNumber 1037 ;
-  :canonicalReference "1037" .
+  :canonicalReference "1037" ;
+  :text "Κερδαίνετ ̓, ἐμπολᾶτε τἀπὸ Σάρδεων"^^xsd:string .
 
-# --- 1038 ---
 :Line_1038 a :Line ;
   :lineNumber 1038 ;
-  :canonicalReference "1038" .
+  :canonicalReference "1038" ;
+  :text "ἤλεκτρον, εἰ βούλεσθε, καὶ τὸν Ἰνδικὸν"^^xsd:string .
 
-# --- 1039 ---
 :Line_1039 a :Line ;
   :lineNumber 1039 ;
-  :canonicalReference "1039" .
+  :canonicalReference "1039" ;
+  :text "χρυσόν· τάφῳ δ ̓ ἐκεῖνον οὐχὶ κρύψετε,"^^xsd:string .
 
-# --- 1040 ---
 :Line_1040 a :Line ;
   :lineNumber 1040 ;
   :canonicalReference "1040" ;
+  :text "οὐδ ̓ ἢν θέλωσ ̓ οἱ Ζηνὸς αἰετοὶ βορὰν"^^xsd:string ;
   :containsRhetoricalDevice :Device_Hyperbole_Eagles .
 
-# --- 1041 ---
 :Line_1041 a :Line ;
   :lineNumber 1041 ;
   :canonicalReference "1041" ;
+  :text "φέρειν νιν ἁρπάζοντες ἐς Διὸς θρόνους,"^^xsd:string ;
   :hasTheme :Theme_Hybris .
 
-# --- 1042 ---
 :Line_1042 a :Line ;
   :lineNumber 1042 ;
-  :canonicalReference "1042" .
+  :canonicalReference "1042" ;
+  :text "οὐδ ̓ ὣς μίασμα τοῦτο μὴ τρέσας ἐγὼ"^^xsd:string .
 
-# --- 1043 ---
 :Line_1043 a :Line ;
   :lineNumber 1043 ;
-  :canonicalReference "1043" .
+  :canonicalReference "1043" ;
+  :text "θάπτειν παρήσω κεῖνον· εὖ γὰρ οἶδ ̓ ὅτι"^^xsd:string .
 
-# --- 1044 ---
 :Line_1044 a :Line ;
   :lineNumber 1044 ;
   :canonicalReference "1044" ;
+  :text "θεοὺς μιαίνειν οὔτις ἀνθρώπων σθένει."^^xsd:string ;
   :advocatesFor :Principle_DivineInvulnerability .
 
-# --- 1045 ---
 :Line_1045 a :Line ;
   :lineNumber 1045 ;
-  :canonicalReference "1045" .
+  :canonicalReference "1045" ;
+  :text "Πίπτουσι δ ̓, ὦ γεραιὲ Τειρεσία, βροτῶν"^^xsd:string .
 
-# --- 1046 ---
 :Line_1046 a :Line ;
   :lineNumber 1046 ;
-  :canonicalReference "1046" .
+  :canonicalReference "1046" ;
+  :text "χοἰ πολλὰ δεινοὶ πτώματ ̓ αἴσχρ ̓, ὅταν λόγους"^^xsd:string .
 
-# --- 1047 ---
 :Line_1047 a :Line ;
   :lineNumber 1047 ;
-  :canonicalReference "1047" .
+  :canonicalReference "1047" ;
+  :text "αἰσχροὺς καλῶς λέγωσι τοῦ κέρδους χάριν."^^xsd:string .
 
-# --- 1048 ---
 :Line_1048 a :Line ;
   :lineNumber 1048 ;
-  :canonicalReference "1048" .
+  :canonicalReference "1048" ;
+  :text "ΤΕΙ. Φεῦ· ἆρ ̓ οἶδεν ἀνθρώπων τις, ἆρα φράζεται,"^^xsd:string .
 
-# --- 1049 ---
 :Line_1049 a :Line ;
   :lineNumber 1049 ;
-  :canonicalReference "1049" .
+  :canonicalReference "1049" ;
+  :text "ΚΡ. Τί χρῆμα; ποῖον τοῦτο πάγκοινον λέγεις;"^^xsd:string .
 
-# --- 1050 ---
 :Line_1050 a :Line ;
   :lineNumber 1050 ;
   :canonicalReference "1050" ;
+  :text "ΤΕΙ. Ὅσῳ κράτιστον κτημάτων εὐβουλία;"^^xsd:string ;
   :hasTheme :Theme_WisdomVsFolly ;
   :advocatesFor :Principle_PrimacyOfReason .
 
-# --- 1051 ---
 :Line_1051 a :Line ;
   :lineNumber 1051 ;
-  :canonicalReference "1051" .
+  :canonicalReference "1051" ;
+  :text "ΚΡ. Ὅσῳπερ, οἶμαι, μὴ φρονεῖν πλείστη βλάβη."^^xsd:string .
 
-# --- 1052 ---
 :Line_1052 a :Line ;
   :lineNumber 1052 ;
-  :canonicalReference "1052" .
+  :canonicalReference "1052" ;
+  :text "ΤΕΙ. Ταύτης σὺ μέντοι τῆς νόσου πλήρης ἔφυς."^^xsd:string .
 
-# --- 1053 ---
 :Line_1053 a :Line ;
   :lineNumber 1053 ;
-  :canonicalReference "1053" .
+  :canonicalReference "1053" ;
+  :text "ΚΡ. Οὐ βούλομαι τὸν μάντιν ἀντειπεῖν κακῶς."^^xsd:string .
 
-# --- 1054 ---
 :Line_1054 a :Line ;
   :lineNumber 1054 ;
-  :canonicalReference "1054" .
+  :canonicalReference "1054" ;
+  :text "ΤΕΙ. Καὶ μὴν λέγεις, ψευδῆ με θεσπίζειν λέγων."^^xsd:string .
 
-# --- 1055 ---
 :Line_1055 a :Line ;
   :lineNumber 1055 ;
   :canonicalReference "1055" ;
+  :text "ΚΡ. Τὸ μαντικὸν γὰρ πᾶν φιλάργυρον γένος."^^xsd:string ;
   :hasTheme :Theme_Corruption .
 
-# --- 1056 ---
 :Line_1056 a :Line ;
   :lineNumber 1056 ;
   :canonicalReference "1056" ;
+  :text "ΤΕΙ. Τὸ δέ γε τυράννων αἰσχροκέρδειαν φιλεῖ."^^xsd:string ;
   :hasTheme :Theme_StateVsProphecy .
 
-# --- 1057 ---
 :Line_1057 a :Line ;
   :lineNumber 1057 ;
   :canonicalReference "1057" ;
+  :text "ΚΡ. Ἆρ ̓ οἶσθα ταγοὺς ὄντας ἃν λέγῃς λέγων;"^^xsd:string ;
   :hasMotivation :Motivation_AssertAuthority .
 
-# --- 1058 ---
 :Line_1058 a :Line ;
   :lineNumber 1058 ;
-  :canonicalReference "1058" .
+  :canonicalReference "1058" ;
+  :text "ΤΕΙ. Οἶδ ̓· ἐξ ἐμοῦ γὰρ τήνδ ̓ ἔχεις σώσας πόλιν."^^xsd:string .
 
-# --- 1059 ---
 :Line_1059 a :Line ;
   :lineNumber 1059 ;
-  :canonicalReference "1059" .
+  :canonicalReference "1059" ;
+  :text "ΚΡ. Σοφὸς σὺ μάντις, ἀλλὰ τἀδικεῖν φιλῶν."^^xsd:string .
 
-# --- 1060 ---
 :Line_1060 a :Line ;
   :lineNumber 1060 ;
   :canonicalReference "1060" ;
+  :text "ΤΕΙ. Ὄρσεις με τἀκίνητα διὰ φρενῶν φράσαι."^^xsd:string ;
   :hasMotivation :Motivation_RevealTruth .
 
-# --- 1061 ---
 :Line_1061 a :Line ;
   :lineNumber 1061 ;
-  :canonicalReference "1061" .
+  :canonicalReference "1061" ;
+  :text "ΚΡ. Κίνει, μόνον δὲ μὴ  ̓πὶ κέρδεσιν λέγων."^^xsd:string .
 
-# --- 1062 ---
 :Line_1062 a :Line ;
   :lineNumber 1062 ;
-  :canonicalReference "1062" .
+  :canonicalReference "1062" ;
+  :text "ΤΕ. Οὕτω γὰρ ἤδη καὶ δοκῶ τὸ σὸν μέρος."^^xsd:string .
 
-# --- 1063 ---
 :Line_1063 a :Line ;
   :lineNumber 1063 ;
   :canonicalReference "1063" ;
+  :text "ΚΡ. Ὡς μὴ  ̓μπολήσων ἴσθι τὴν ἐμὴν φρένα."^^xsd:string ;
   :hasConflict :Conflict_ProfitVsTruth .
 
-# --- 1064 ---
 :Line_1064 a :Line ;
   :lineNumber 1064 ;
-  :canonicalReference "1064" .
+  :canonicalReference "1064" ;
+  :text "ΤΕ. Ἀλλ ̓ εὖ γέ τοι κάτισθι μὴ πολλοὺς ἔτι"^^xsd:string .
 
-# --- 1065 ---
 :Line_1065 a :Line ;
   :lineNumber 1065 ;
-  :canonicalReference "1065" .
+  :canonicalReference "1065" ;
+  :text "τρόχους ἁμιλλητῆρας ἡλίου τελῶν,"^^xsd:string .
 
-# --- 1066 ---
 :Line_1066 a :Line ;
   :lineNumber 1066 ;
   :canonicalReference "1066" ;
+  :text "ἐν οἷσι τῶν σῶν αὐτὸς ἐκ σπλάγχνων ἕνα"^^xsd:string ;
   :relatedTo :Antigone_Character_Haemon .
 
-# --- 1067 ---
 :Line_1067 a :Line ;
   :lineNumber 1067 ;
   :canonicalReference "1067" ;
+  :text "νέκυν νεκρῶν ἀμοιβὸν ἀντιδοὺς ἔσῃ,"^^xsd:string ;
   :hasTheme :Theme_DivineRetribution .
 
-# --- 1068 ---
 :Line_1068 a :Line ;
   :lineNumber 1068 ;
-  :canonicalReference "1068" .
+  :canonicalReference "1068" ;
+  :text "ἀνθ ̓ ὧν ἔχεις μὲν τῶν ἄνω βαλὼν κάτω,"^^xsd:string .
 
-# --- 1069 ---
 :Line_1069 a :Line ;
   :lineNumber 1069 ;
   :canonicalReference "1069" ;
+  :text "ψυχήν τ ̓ ἀτίμως ἐν τάφῳ κατῴκισας,"^^xsd:string ;
   :hasConflict :Conflict_UpperLowerWorlds .
 
-# --- 1070 ---
 :Line_1070 a :Line ;
   :lineNumber 1070 ;
-  :canonicalReference "1070" .
+  :canonicalReference "1070" ;
+  :text "ἔχεις δὲ τῶν κάτωθεν ἐνθάδ ̓ αὖ θεῶν"^^xsd:string .
 
-# --- 1071 ---
 :Line_1071 a :Line ;
   :lineNumber 1071 ;
   :canonicalReference "1071" ;
+  :text "ἄμοιρον, ἀκτέριστον, ἀνόσιον νέκυν."^^xsd:string ;
   :hasTheme :Theme_NaturalOrder .
 
-# --- 1072 ---
 :Line_1072 a :Line ;
   :lineNumber 1072 ;
-  :canonicalReference "1072" .
+  :canonicalReference "1072" ;
+  :text "Ὧν οὔτε σοὶ μέτεστιν οὔτε τοῖς ἄνω"^^xsd:string .
 
-# --- 1073 ---
 :Line_1073 a :Line ;
   :lineNumber 1073 ;
-  :canonicalReference "1073" .
+  :canonicalReference "1073" ;
+  :text "θεοῖσιν, ἀλλ ̓ ἐκ σοῦ βιάζονται τάδε."^^xsd:string .
 
-# --- 1074 ---
 :Line_1074 a :Line ;
   :lineNumber 1074 ;
-  :canonicalReference "1074" .
+  :canonicalReference "1074" ;
+  :text "Τούτων σε λωβητῆρες ὑστεροφθόροι"^^xsd:string .
 
-# --- 1075 ---
 :Line_1075 a :Line ;
   :lineNumber 1075 ;
   :canonicalReference "1075" ;
+  :text "λοχῶσιν Ἅιδου καὶ θεῶν Ἐρινύες,"^^xsd:string ;
   :referencesMyth :Antigone_Character_Furies .
 
-# --- 1076 ---
 :Line_1076 a :Line ;
   :lineNumber 1076 ;
-  :canonicalReference "1076" .
+  :canonicalReference "1076" ;
+  :text "ἐν τοῖσιν αὐτοῖς τοῖσδε ληφθῆναι κακοῖς."^^xsd:string .
 
-# --- 1077 ---
 :Line_1077 a :Line ;
   :lineNumber 1077 ;
-  :canonicalReference "1077" .
+  :canonicalReference "1077" ;
+  :text "Καὶ ταῦτ ̓ ἄθρησον εἰ κατηργυρωμένος"^^xsd:string .
 
-# --- 1078 ---
 :Line_1078 a :Line ;
   :lineNumber 1078 ;
-  :canonicalReference "1078" .
+  :canonicalReference "1078" ;
+  :text "λέγω· φανεῖ γάρ οὐ μακροῦ χρόνου τριβὴ,"^^xsd:string .
 
-# --- 1079 ---
 :Line_1079 a :Line ;
   :lineNumber 1079 ;
-  :canonicalReference "1079" .
+  :canonicalReference "1079" ;
+  :text "ἀνδρῶν γυναικῶν σοῖς δόμοις κωκύματα."^^xsd:string .
 
-# --- 1080 ---
 :Line_1080 a :Line ;
   :lineNumber 1080 ;
   :canonicalReference "1080" ;
+  :text "Ἔχθρᾳ δὲ πᾶσαι συνταράσσονται πόλεις,"^^xsd:string ;
   :hasTheme :Theme_CivicPollution .
 
-# --- 1081 ---
 :Line_1081 a :Line ;
   :lineNumber 1081 ;
-  :canonicalReference "1081" .
+  :canonicalReference "1081" ;
+  :text "ὅσων σπαράγματ ̓ ἢ κύνες καθήγνισαν"^^xsd:string .
 
-# --- 1082 ---
 :Line_1082 a :Line ;
   :lineNumber 1082 ;
-  :canonicalReference "1082" .
+  :canonicalReference "1082" ;
+  :text "ἢ θῆρες, ἤ τις πτηνὸς οἰωνός, φέρων"^^xsd:string .
 
-# --- 1083 ---
 :Line_1083 a :Line ;
   :lineNumber 1083 ;
-  :canonicalReference "1083" .
+  :canonicalReference "1083" ;
+  :text "ἀνόσιον ὀσμὴν ἑστιοῦχον ἐς πόλιν."^^xsd:string .
 
-# --- 1084 ---
 :Line_1084 a :Line ;
   :lineNumber 1084 ;
   :canonicalReference "1084" ;
+  :text "Τοιαῦτά σου, λυπεῖς γάρ, ὥστε τοξότης"^^xsd:string ;
   :containsRhetoricalDevice :Device_Metaphor_Arrows .
 
-# --- 1085 ---
 :Line_1085 a :Line ;
   :lineNumber 1085 ;
-  :canonicalReference "1085" .
+  :canonicalReference "1085" ;
+  :text "ἀφῆκα θυμῷ καρδίας τοξεύματα"^^xsd:string .
 
-# --- 1086 ---
 :Line_1086 a :Line ;
   :lineNumber 1086 ;
-  :canonicalReference "1086" .
+  :canonicalReference "1086" ;
+  :text "βέβαια, τῶν σὺ θάλπος οὐχ ὑπεκδραμῇ."^^xsd:string .
 
-# --- 1087 ---
 :Line_1087 a :Line ;
   :lineNumber 1087 ;
-  :canonicalReference "1087" .
+  :canonicalReference "1087" ;
+  :text "Ὦ παῖ, σὺ δ ̓ ἡμᾶς ἄπαγε πρὸς δόμους, ἵνα"^^xsd:string .
 
-# --- 1088 ---
 :Line_1088 a :Line ;
   :lineNumber 1088 ;
-  :canonicalReference "1088" .
+  :canonicalReference "1088" ;
+  :text "τὸν θυμὸν οὗτος ἐς νεωτέρους ἀφῇ,"^^xsd:string .
 
-# --- 1089 ---
 :Line_1089 a :Line ;
   :lineNumber 1089 ;
-  :canonicalReference "1089" .
+  :canonicalReference "1089" ;
+  :text "καὶ γνῷ τρέφειν τὴν γλῶσσαν ἡσυχαιτέραν"^^xsd:string .
 
-# --- 1090 ---
 :Line_1090 a :Line ;
   :lineNumber 1090 ;
-  :canonicalReference "1090" .
+  :canonicalReference "1090" ;
+  :text "τὸν νοῦν τ ̓ ἀμείνω τῶν φρενῶν ἢ νῦν φέρει."^^xsd:string .
 
-# --- 1091 ---
 :Line_1091 a :Line ;
   :lineNumber 1091 ;
-  :canonicalReference "1091" .
+  :canonicalReference "1091" ;
+  :text "ΧΟ. Ἁνήρ, ἄναξ, βέβηκε δεινὰ θεσπίσας·"^^xsd:string .
 
-# --- 1092 ---
 :Line_1092 a :Line ;
   :lineNumber 1092 ;
-  :canonicalReference "1092" .
+  :canonicalReference "1092" ;
+  :text "ἐπιστάμεσθα δ ̓, ἐξ ὅτου λευκὴν ἐγὼ"^^xsd:string .
 
-# --- 1093 ---
 :Line_1093 a :Line ;
   :lineNumber 1093 ;
-  :canonicalReference "1093" .
+  :canonicalReference "1093" ;
+  :text "τήνδ ̓ ἐκ μελαίνης ἀμφιβάλλομαι τρίχα,"^^xsd:string .
 
-# --- 1094 ---
 :Line_1094 a :Line ;
   :lineNumber 1094 ;
   :canonicalReference "1094" ;
+  :text "μή πώ ποτ ̓ αὐτὸν ψεῦδος ἐς πόλιν λακεῖν."^^xsd:string ;
   :advocatesFor :Principle_PropheticTruth .
 
 

@@ -1,0 +1,246 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Chorus a :Character .
+:Zeus a :Character .
+:Mankind a :Character .
+
+# --- Semantic Entities (Greek) ---
+
+:Motivation_MaintainAbsolutePower a :Motivation ;
+    :description "Η πρόθεση του Δία να διατηρήσει την αιώνια και αγέραστη εξουσία του πάνω στους θνητούς."^^xsd:string .
+:Zeus :hasMotivation :Motivation_MaintainAbsolutePower .
+
+:EthicalPrinciple_GreatnessBringsRuin a :EthicalPrinciple ;
+    :description "Ο αιώνιος νόμος ότι τίποτα το σπουδαίο δεν έρχεται στη ζωή των θνητών χωρίς την καταστροφή (άτη)."^^xsd:string .
+:Chorus :advocatesFor :EthicalPrinciple_GreatnessBringsRuin .
+
+:Emotion_AweAndReverence a :Emotion ;
+    :description "Το δέος και ο σεβασμός απέναντι στην ανυπέρβλητη και παντοτινή δύναμη του Δία, την οποία δεν δαμάζει ο ύπνος ούτε ο χρόνος."^^xsd:string .
+:Chorus :experiencesEmotion :Emotion_AweAndReverence .
+
+:Emotion_Despair a :Emotion ;
+    :description "Η απελπισία για τα αρχαία πάθη του οίκου των Λαβδακιδών που συσσωρεύονται αδυσώπητα από γενιά σε γενιά."^^xsd:string .
+:Chorus :experiencesEmotion :Emotion_Despair .
+
+:Conflict_DivineOmnipotenceVsHumanAspiration a :Conflict ;
+    :description "Η σύγκρουση ανάμεσα στην απόλυτη εξουσία των θεών και την ανθρώπινη υπέρβαση (υπερβασία) που προκαλεί την τιμωρία."^^xsd:string ;
+    :conflictBetween :Zeus, :Mankind .
+
+:Event_DivineIntervention a owl:Thing ;
+    :description "Ο κλονισμός ενός οίκου από τους θεούς (σεισθῇ θεόθεν δόμος)."^^xsd:string .
+
+:Event_GenerationalRuin a owl:Thing ;
+    :description "Η συμφορά που εξαπλώνεται και χτυπά αλύπητα τις γενιές, όμοια με τα άγρια κύματα του πελάγους."^^xsd:string .
+:Event_DivineIntervention :relatedTo :Event_GenerationalRuin .
+
+:Event_TransgressionOfPower a owl:Thing ;
+    :description "Ένας θνητός που διαπράττει ύβρη και υπέρβαση ενάντια στη δύναμη του Δία."^^xsd:string .
+
+:Event_InevitableRuin a owl:Thing ;
+    :description "Η καταστροφή που ακολουθεί αναπόφευκτα το ανθρώπινο μεγαλείο ή την υπέρβαση."^^xsd:string .
+:Event_TransgressionOfPower :relatedTo :Event_InevitableRuin .
+
+:Cause_FollyAndFrenzy a owl:Thing ;
+    :description "Η αιματηρή σκόνη των χθόνιων θεών, η άνοια του λόγου και η Ερινύα των φρενών."^^xsd:string .
+
+:Effect_DestructionOfOedipusHouse a owl:Thing ;
+    :description "Το κόψιμο της τελευταίας ρίζας και του φωτός στον οίκο του Οιδίποδα."^^xsd:string .
+:Cause_FollyAndFrenzy :relatedTo :Effect_DestructionOfOedipusHouse .
+
+:Theme_GenerationalCurse a :Theme ;
+    :description "Η κατάρα που μεταβιβάζεται αναπόδραστα από γενιά σε γενιά (οὐδ' ἀπαλλάσσει γενεὰν γένος) στον οίκο των Λαβδακιδών."^^xsd:string .
+
+:Theme_DivineOmnipotence a :Theme ;
+    :description "Η ανίκητη και αιώνια δύναμη του Δία και των θεών, την οποία δεν αγγίζει ούτε ο ύπνος ούτε τα γηρατειά."^^xsd:string .
+
+:Theme_HumanFrailty a :Theme ;
+    :description "Η τραγική ανθρώπινη μοίρα, όπου το μεγαλείο φέρνει πάντα την καταστροφή (ἐκτὸς ἄτας)."^^xsd:string .
+
+# --- Line-by-Line Extraction with Translation Variants ---
+
+:Line_582 a owl:NamedIndividual, :Line ; :lineNumber 582 ; :canonicalReference "582"^^xsd:string .
+:TV_Line_582_grc a :TranslationVariant ;
+    :text "ΧΟ. Εὐδαίμονες οἷσι κακῶν"^^xsd:string ;
+    :relatedTo :Line_582 ;
+    :hasTheme :Theme_HumanFrailty .
+
+:Line_583 a owl:NamedIndividual, :Line ; :lineNumber 583 ; :canonicalReference "583"^^xsd:string .
+:TV_Line_583_grc a :TranslationVariant ;
+    :text "ἄγευστος αἰών· στροφή α"^^xsd:string ;
+    :relatedTo :Line_583 .
+
+:Line_584 a owl:NamedIndividual, :Line ; :lineNumber 584 ; :canonicalReference "584"^^xsd:string .
+:TV_Line_584_grc a :TranslationVariant ;
+    :text "οἷς γὰρ ἂν σεισθῇ θεόθεν δόμος,"^^xsd:string ;
+    :relatedTo :Line_584 ;
+    :relatedTo :Event_DivineIntervention .
+
+:Line_585 a owl:NamedIndividual, :Line ; :lineNumber 585 ; :canonicalReference "585"^^xsd:string .
+:TV_Line_585_grc a :TranslationVariant ;
+    :text "ἄτας οὐδὲν ἐλλείπει"^^xsd:string ;
+    :relatedTo :Line_585 .
+
+:Line_586 a owl:NamedIndividual, :Line ; :lineNumber 586 ; :canonicalReference "586"^^xsd:string .
+:TV_Line_586_grc a :TranslationVariant ;
+    :text "γενεᾶς ἐπὶ πλῆθος ἕρπον·"^^xsd:string ;
+    :relatedTo :Line_586 .
+
+:Line_587 a owl:NamedIndividual, :Line ; :lineNumber 587 ; :canonicalReference "587"^^xsd:string .
+:TV_Line_587_grc a :TranslationVariant ;
+    :text "ὅμοιον ὥστε πόντιον"^^xsd:string ;
+    :relatedTo :Line_587 .
+
+:Line_588 a owl:NamedIndividual, :Line ; :lineNumber 588 ; :canonicalReference "588"^^xsd:string .
+:TV_Line_588_grc a :TranslationVariant ;
+    :text "οἶδμα δυσπνόοις ὅταν Θρῄσσῃσιν"^^xsd:string ;
+    :relatedTo :Line_588 .
+
+:Line_589 a owl:NamedIndividual, :Line ; :lineNumber 589 ; :canonicalReference "589"^^xsd:string .
+:TV_Line_589_grc a :TranslationVariant ;
+    :text "ἔρεβος ὕφαλον ἐπιδράμῃ πνοαῖς,"^^xsd:string ;
+    :relatedTo :Line_589 .
+
+:Line_590 a owl:NamedIndividual, :Line ; :lineNumber 590 ; :canonicalReference "590"^^xsd:string .
+:TV_Line_590_grc a :TranslationVariant ;
+    :text "κυλίνδει βυσσόθεν"^^xsd:string ;
+    :relatedTo :Line_590 .
+
+:Line_591 a owl:NamedIndividual, :Line ; :lineNumber 591 ; :canonicalReference "591"^^xsd:string .
+:TV_Line_591_grc a :TranslationVariant ;
+    :text "κελαινὰν θῖνα καὶ δυσάνεμοι,"^^xsd:string ;
+    :relatedTo :Line_591 .
+
+:Line_592 a owl:NamedIndividual, :Line ; :lineNumber 592 ; :canonicalReference "592"^^xsd:string .
+:TV_Line_592_grc a :TranslationVariant ;
+    :text "στόνῳ βρέμουσιν"^^xsd:string ;
+    :relatedTo :Line_592 .
+
+:Line_593 a owl:NamedIndividual, :Line ; :lineNumber 593 ; :canonicalReference "593"^^xsd:string .
+:TV_Line_593_grc a :TranslationVariant ;
+    :text "ἀντιπλῆγες ἀκταί."^^xsd:string ;
+    :relatedTo :Line_593 .
+
+:Line_594 a owl:NamedIndividual, :Line ; :lineNumber 594 ; :canonicalReference "594"^^xsd:string .
+:TV_Line_594_grc a :TranslationVariant ;
+    :text "Ἀρχαῖα τὰ Λαβδακιδᾶν"^^xsd:string ;
+    :relatedTo :Line_594 ;
+    :hasTheme :Theme_GenerationalCurse ;
+    :experiencesEmotion :Emotion_Despair .
+
+:Line_595 a owl:NamedIndividual, :Line ; :lineNumber 595 ; :canonicalReference "595"^^xsd:string .
+:TV_Line_595_grc a :TranslationVariant ;
+    :text "οἴκων ὁρῶμαι πήματα"^^xsd:string ;
+    :relatedTo :Line_595 ;
+    :relatedTo :Event_GenerationalRuin .
+
+:Line_596 a owl:NamedIndividual, :Line ; :lineNumber 596 ; :canonicalReference "596"^^xsd:string .
+:TV_Line_596_grc a :TranslationVariant ;
+    :text "φθιμένων ἐπὶ πήμασι πίπτοντ ̓,"^^xsd:string ;
+    :relatedTo :Line_596 .
+
+:Line_597 a owl:NamedIndividual, :Line ; :lineNumber 597 ; :canonicalReference "597"^^xsd:string .
+:TV_Line_597_grc a :TranslationVariant ;
+    :text "οὐδ ̓ ἀπαλλάσσει γενεὰν γένος,"^^xsd:string ;
+    :relatedTo :Line_597 .
+
+:Line_598 a owl:NamedIndividual, :Line ; :lineNumber 598 ; :canonicalReference "598"^^xsd:string .
+:TV_Line_598_grc a :TranslationVariant ;
+    :text "ἀλλ ̓ ἐρείπει θεῶν τις,"^^xsd:string ;
+    :relatedTo :Line_598 .
+
+:Line_599 a owl:NamedIndividual, :Line ; :lineNumber 599 ; :canonicalReference "599"^^xsd:string .
+:TV_Line_599_grc a :TranslationVariant ;
+    :text "οὐδ ̓ ἔχει λύσιν."^^xsd:string ;
+    :relatedTo :Line_599 .
+
+:Line_600 a owl:NamedIndividual, :Line ; :lineNumber 600 ; :canonicalReference "600"^^xsd:string .
+:TV_Line_600_grc a :TranslationVariant ;
+    :text "Νῦν γὰρ ἐσχάτας ὕπερ ῥίζας ἐτέτατο φάος ἐν Οἰδίπου δόμοις·"^^xsd:string ;
+    :relatedTo :Line_600 ;
+    :relatedTo :Cause_FollyAndFrenzy .
+
+:Line_601 a owl:NamedIndividual, :Line ; :lineNumber 601 ; :canonicalReference "601"^^xsd:string .
+:TV_Line_601_grc a :TranslationVariant ;
+    :text "κατ ̓ αὖ νιν φοινία"^^xsd:string ;
+    :relatedTo :Line_601 ;
+    :relatedTo :Effect_DestructionOfOedipusHouse .
+
+:Line_602 a owl:NamedIndividual, :Line ; :lineNumber 602 ; :canonicalReference "602"^^xsd:string .
+:TV_Line_602_grc a :TranslationVariant ;
+    :text "θεῶν τῶν νερτέρων ἀμᾷ κόνις"^^xsd:string ;
+    :relatedTo :Line_602 .
+
+:Line_603 a owl:NamedIndividual, :Line ; :lineNumber 603 ; :canonicalReference "603"^^xsd:string .
+:TV_Line_603_grc a :TranslationVariant ;
+    :text "λόγου τ ̓ ἄνοια καὶ φρενῶν Ἐρινύς."^^xsd:string ;
+    :relatedTo :Line_603 .
+
+:Line_604 a owl:NamedIndividual, :Line ; :lineNumber 604 ; :canonicalReference "604"^^xsd:string .
+:TV_Line_604_grc a :TranslationVariant ;
+    :text "Τεάν, Ζεῦ, δύναμιν τίς ἀν- στροφή β ́"^^xsd:string ;
+    :relatedTo :Line_604 ;
+    :hasConflict :Conflict_DivineOmnipotenceVsHumanAspiration .
+
+:Line_605 a owl:NamedIndividual, :Line ; :lineNumber 605 ; :canonicalReference "605"^^xsd:string .
+:TV_Line_605_grc a :TranslationVariant ;
+    :text "δρῶν ὑπερβασία κατάσχοι,"^^xsd:string ;
+    :relatedTo :Line_605 ;
+    :relatedTo :Event_TransgressionOfPower .
+
+:Line_606 a owl:NamedIndividual, :Line ; :lineNumber 606 ; :canonicalReference "606"^^xsd:string .
+:TV_Line_606_grc a :TranslationVariant ;
+    :text "τὰν οὔθ ̓ ὕπνος αἱρεῖ ποθ ̓ ὁ παντογήρως"^^xsd:string ;
+    :relatedTo :Line_606 ;
+    :hasTheme :Theme_DivineOmnipotence .
+
+:Line_607 a owl:NamedIndividual, :Line ; :lineNumber 607 ; :canonicalReference "607"^^xsd:string .
+:TV_Line_607_grc a :TranslationVariant ;
+    :text "οὔτ ̓ ἀκάματοι θεῶν"^^xsd:string ;
+    :relatedTo :Line_607 .
+
+:Line_608 a owl:NamedIndividual, :Line ; :lineNumber 608 ; :canonicalReference "608"^^xsd:string .
+:TV_Line_608_grc a :TranslationVariant ;
+    :text "μῆνες,"^^xsd:string ;
+    :relatedTo :Line_608 .
+
+:Line_609 a owl:NamedIndividual, :Line ; :lineNumber 609 ; :canonicalReference "609"^^xsd:string .
+:TV_Line_609_grc a :TranslationVariant ;
+    :text "ἀγήρως δὲ χρόνῳ δυνάστας"^^xsd:string ;
+    :relatedTo :Line_609 ;
+    :experiencesEmotion :Emotion_AweAndReverence .
+
+:Line_610 a owl:NamedIndividual, :Line ; :lineNumber 610 ; :canonicalReference "610"^^xsd:string .
+:TV_Line_610_grc a :TranslationVariant ;
+    :text "κατέχεις Ὀλύμπου μαρμαρόεσσαν αἴγλαν."^^xsd:string ;
+    :relatedTo :Line_610 .
+
+:Line_611 a owl:NamedIndividual, :Line ; :lineNumber 611 ; :canonicalReference "611"^^xsd:string .
+:TV_Line_611_grc a :TranslationVariant ;
+    :text "Τό τ ̓ ἔπειτα καὶ τὸ μέλλον"^^xsd:string ;
+    :relatedTo :Line_611 .
+
+:Line_612 a owl:NamedIndividual, :Line ; :lineNumber 612 ; :canonicalReference "612"^^xsd:string .
+:TV_Line_612_grc a :TranslationVariant ;
+    :text "καὶ τὸ πρὶν ἐπαρκέσει νόμος ὅδ ̓·"^^xsd:string ;
+    :relatedTo :Line_612 .
+
+:Line_613 a owl:NamedIndividual, :Line ; :lineNumber 613 ; :canonicalReference "613"^^xsd:string .
+:TV_Line_613_grc a :TranslationVariant ;
+    :text "οὐδὲν ἕρπει"^^xsd:string ;
+    :relatedTo :Line_613 .
+
+:Line_614 a owl:NamedIndividual, :Line ; :lineNumber 614 ; :canonicalReference "614"^^xsd:string .
+:TV_Line_614_grc a :TranslationVariant ;
+    :text "θνατῶν βιότῳ"^^xsd:string ;
+    :relatedTo :Line_614 .
+
+:Line_615 a owl:NamedIndividual, :Line ; :lineNumber 615 ; :canonicalReference "615"^^xsd:string .
+:TV_Line_615_grc a :TranslationVariant ;
+    :text "πάμπολύ γ ̓ ἐκτὸς ἄτας."^^xsd:string ;
+    :relatedTo :Line_615 ;
+    :advocatesFor :EthicalPrinciple_GreatnessBringsRuin ;
+    :relatedTo :Event_InevitableRuin .
+ 

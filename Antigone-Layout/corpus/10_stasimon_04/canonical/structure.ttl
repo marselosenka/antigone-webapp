@@ -1,283 +1,252 @@
-﻿@prefix : <http://example.org/antigone#> .
+@prefix : <http://example.org/antigone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :stasimon04-structure a owl:Ontology .
 
-# --- 944 ---
 :Line_944
   a owl:NamedIndividual, :Line ;
   :lineNumber 944 ;
   :canonicalReference "944"^^xsd:string ;
+  :text "Ἔτλα καὶ Δανάας οὐράνιον φῶς"^^xsd:string ;
   :hasTheme :Theme_PietyAndSuffering .
 
-# --- 945 ---
 :Line_945
   a owl:NamedIndividual, :Line ;
   :lineNumber 945 ;
   :canonicalReference "945"^^xsd:string ;
+  :text "ἀλλάξαι δέμας ἐν χαλκοδέτοις αὐλαῖς·"^^xsd:string ;
   :hasTheme :Theme_PietyAndSuffering .
 
-# --- 946 ---
 :Line_946
   a owl:NamedIndividual, :Line ;
   :lineNumber 946 ;
   :canonicalReference "946"^^xsd:string ;
+  :text "κρυπτομένα δ’ ἐν τυμβήρει θαλάμῳ κατεζεύχθη·"^^xsd:string ;
   :hasTheme :Theme_PietyAndSuffering .
 
-# --- 947 ---
 :Line_947
   a owl:NamedIndividual, :Line ;
   :lineNumber 947 ;
   :canonicalReference "947"^^xsd:string ;
+  :text "καίτοι καὶ γενεᾷ τίμιος, ὦ παῖ, παῖ,"^^xsd:string ;
   :hasTheme :Theme_PietyAndSuffering .
 
-# --- 948 ---
-:Line_948
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 948 ;
-  :canonicalReference "948"^^xsd:string ;
-  :hasTheme :Theme_PietyAndSuffering .
-
-# --- 949 ---
-:Line_949
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 949 ;
-  :canonicalReference "949"^^xsd:string ;
-  :hasTheme :Theme_PietyAndSuffering .
-
-# --- 950 ---
 :Line_950
   a owl:NamedIndividual, :Line ;
   :lineNumber 950 ;
   :canonicalReference "950"^^xsd:string ;
-  :hasTheme :Theme_InevitabilityOfFate .
+  :text "καὶ Ζηνὸς ταμιεύεσκε γονὰς χρυσορύτους."^^xsd:string ;
+  :hasTheme :Theme_PietyAndSuffering .
 
-# --- 951 ---
 :Line_951
   a owl:NamedIndividual, :Line ;
   :lineNumber 951 ;
   :canonicalReference "951"^^xsd:string ;
+  :text "Ἀλλ’ ἁ μοιριδία τις δύνασις δεινά·"^^xsd:string ;
   :hasTheme :Theme_InevitabilityOfFate .
 
-# --- 952 ---
 :Line_952
   a owl:NamedIndividual, :Line ;
   :lineNumber 952 ;
   :canonicalReference "952"^^xsd:string ;
+  :text "οὔτ’ ἄν νιν ὄλβος οὔτ’ Ἄρης, οὐ πύργος, οὐχ ἁλίκτυποι"^^xsd:string ;
   :hasTheme :Theme_InevitabilityOfFate .
 
-# --- 953 ---
 :Line_953
   a owl:NamedIndividual, :Line ;
   :lineNumber 953 ;
   :canonicalReference "953"^^xsd:string ;
+  :text "κελαιναὶ νᾶες ἐκφύγοιεν."^^xsd:string ;
   :hasTheme :Theme_InevitabilityOfFate .
 
-# --- 954 ---
-:Line_954
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 954 ;
-  :canonicalReference "954"^^xsd:string ;
-  :hasTheme :Theme_InevitabilityOfFate .
+#:Line_954
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 954 ;
+#  :canonicalReference "954"^^xsd:string ;
+#  :text "κελαιναὶ νᾶες ἐκφύγοιεν."^^xsd:string ;
+#  :hasTheme :Theme_InevitabilityOfFate .
 
-# --- 955 ---
 :Line_955
   a owl:NamedIndividual, :Line ;
   :lineNumber 955 ;
   :canonicalReference "955"^^xsd:string ;
+  :text "Ζεύχθη δ’ ὀξύχολος παῖς ὁ Δρύαντος "^^xsd:string ;
   :hasTheme :Theme_DivinePowerOverHumanWill .
 
-# --- 956 ---
 :Line_956
   a owl:NamedIndividual, :Line ;
   :lineNumber 956 ;
   :canonicalReference "956"^^xsd:string ;
+  :text "Ἠδωνῶν βασιλεύς, κερτομίοις ὀργαῖς"^^xsd:string ;
   :hasTheme :Theme_DivinePowerOverHumanWill .
 
-# --- 957 ---
 :Line_957
   a owl:NamedIndividual, :Line ;
   :lineNumber 957 ;
   :canonicalReference "957"^^xsd:string ;
+  :text "ἐκ Διονύσου πετρώδει κατάφαρκτος ἐν δεσμῷ."^^xsd:string ;
   :hasTheme :Theme_DivinePowerOverHumanWill .
 
-# --- 958 ---
 :Line_958
   a owl:NamedIndividual, :Line ;
   :lineNumber 958 ;
   :canonicalReference "958"^^xsd:string ;
+  :text "Οὕτω τᾶς μανίας δεινὸν ἀποστάζει"^^xsd:string ;
   :hasTheme :Theme_DivinePowerOverHumanWill .
 
-# --- 959 ---
-:Line_959
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 959 ;
-  :canonicalReference "959"^^xsd:string ;
-  :hasTheme :Theme_DivinePowerOverHumanWill .
-
-# --- 960 ---
 :Line_960
   a owl:NamedIndividual, :Line ;
   :lineNumber 960 ;
   :canonicalReference "960"^^xsd:string ;
+  :text "ἀνθηρόν τε μένος. κεῖνος ἐπέγνω μανίαις"^^xsd:string ;
   :hasTheme :Theme_DivinePowerOverHumanWill .
 
-# --- 961 ---
 :Line_961
   a owl:NamedIndividual, :Line ;
   :lineNumber 961 ;
   :canonicalReference "961"^^xsd:string ;
+  :text "ψαύων τὸν θεὸν ἐν κερτομίοις γλώσσαις."^^xsd:string ;
   :hasTheme :Theme_DivinePowerOverHumanWill .
 
-# --- 962 ---
 :Line_962
   a owl:NamedIndividual, :Line ;
   :lineNumber 962 ;
   :canonicalReference "962"^^xsd:string ;
+  :text "παύεσκε μὲν γὰρ ἐνθέους γυναῖκας εὔιόν τε πῦρ,"^^xsd:string ;
   :hasTheme :Theme_DivinePowerOverHumanWill .
 
-# --- 963 ---
-:Line_963
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 963 ;
-  :canonicalReference "963"^^xsd:string ;
-  :hasTheme :Theme_DivinePowerOverHumanWill .
+#:Line_963
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 963 ;
+#  :canonicalReference "963"^^xsd:string ;
+#  :text "τομίοις γλώσσαις."^^xsd:string ;
+#  :hasTheme :Theme_DivinePowerOverHumanWill .
 
-# --- 964 ---
-:Line_964
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 964 ;
-  :canonicalReference "964"^^xsd:string ;
-  :hasTheme :Theme_DivinePowerOverHumanWill .
+#:Line_964
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 964 ;
+#  :canonicalReference "964"^^xsd:string ;
+#  :text "Παύεσκε μὲν γὰρ ἐνθέους"^^xsd:string ;
+#  :hasTheme :Theme_DivinePowerOverHumanWill .
 
-# --- 965 ---
 :Line_965
   a owl:NamedIndividual, :Line ;
   :lineNumber 965 ;
   :canonicalReference "965"^^xsd:string ;
+  :text "φιλαύλους τʼ ἠρέθιζε Μούσας."^^xsd:string ;
   :hasTheme :Theme_DivinePowerOverHumanWill .
 
 
-# --- 966 ---
 :Line_966 a :Line ;
-:lineNumber 966 ;
-:canonicalReference "966" .
+  :lineNumber 966 ;
+  :canonicalReference "966" ;
+  :text "Παρὰ δὲ κυανέαιν σπιλάδοιν διδύμας ἁλὸς"^^xsd:string .
 
-# --- 967 ---
 :Line_967 a :Line ;
-:lineNumber 967 ;
-:canonicalReference "967" ;
-:hasTheme :Theme_NobleSuffering .
+  :lineNumber 967 ;
+  :canonicalReference "967" ;
+  :text "ἀκταὶ Βοσπόριαι ἰδ ̓ ὁ Θρῃκῶν <ἠιὼν>"^^xsd:string ;
+  :hasTheme :Theme_NobleSuffering .
 
-# --- 968 ---
-:Line_968 a :Line ;
-:lineNumber 968 ;
-:canonicalReference "968" ;
-:relatedTo :Place_Salmydessus .
+#:Line_968 a :Line ;
+#:lineNumber 968 ;
+#:canonicalReference "968" ;
+#:text "(context of Salmydessus)"^^xsd:string ;
+#:relatedTo :Place_Salmydessus .
 
-# --- 969 ---
-:Line_969 a :Line ;
-:lineNumber 969 ;
-:canonicalReference "969" .
+#:Line_969 a :Line ;
+#:lineNumber 969 ;
+#:canonicalReference "969" ;
+#:text "(context of Ares)"^^xsd:string .
 
-# --- 970 ---
 :Line_970 a :Line ;
-:lineNumber 970 ;
-:canonicalReference "970" ;
-:referencesMyth :Antigone_Character_Ares .
+  :lineNumber 970 ;
+  :canonicalReference "970" ;
+  :text "Σαλμυδησσός, ἵν ̓ ἀγχίπολις Ἄρης"^^xsd:string ;
+  :referencesMyth :Antigone_Character_Ares .
 
-# --- 971 ---
 :Line_971 a :Line ;
-:lineNumber 971 ;
-:canonicalReference "971" ;
-:referencesMyth :Antigone_Character_Phineids .
+  :lineNumber 971 ;
+  :canonicalReference "971" ;
+  :text "δισσοῖσι Φινείδαις"^^xsd:string ;
+  :referencesMyth :Antigone_Character_Phineids .
 
-# --- 972 ---
 :Line_972 a :Line ;
-:lineNumber 972 ;
-:canonicalReference "972" .
+  :lineNumber 972 ;
+  :canonicalReference "972" ;
+  :text "εἶδεν ἀρατὸν ἕλκος"^^xsd:string .
 
-# --- 973 ---
 :Line_973 a :Line ;
-:lineNumber 973 ;
-:canonicalReference "973" ;
-:relatedTo :Antigone_Character_PhineusWife ;
-:experiencesEmotion :Emotion_Savagery .
+  :lineNumber 973 ;
+  :canonicalReference "973" ;
+  :text "τυφλωθὲν ἐξ ἀγρίας δάμαρτος"^^xsd:string ;
+  :relatedTo :Antigone_Character_PhineusWife ;
+  :experiencesEmotion :Emotion_Savagery .
 
-# --- 974 ---
 :Line_974 a :Line ;
-:lineNumber 974 ;
-:canonicalReference "974" .
+  :lineNumber 974 ;
+  :canonicalReference "974" ;
+  :text "ἀλαὸν ἀλαστόροισιν ὀμμάτων κύκλοις"^^xsd:string .
 
-# --- 975 ---
 :Line_975 a :Line ;
-:lineNumber 975 ;
-:canonicalReference "975" ;
-:hasSymbol :Symbol_Blood .
+  :lineNumber 975 ;
+  :canonicalReference "975" ;
+  :text "ἀραχθέντων ὑφ ̓ αἱματηραῖς"^^xsd:string ;
+  :hasSymbol :Symbol_Blood .
 
-# --- 976 ---
 :Line_976 a :Line ;
-:lineNumber 976 ;
-:canonicalReference "976" .
+  :lineNumber 976 ;
+  :canonicalReference "976" ;
+  :text "χείρεσσι καὶ κερκίδων ἀκμαῖσιν."^^xsd:string .
 
-# --- 977 ---
 :Line_977 a :Line ;
-:lineNumber 977 ;
-:canonicalReference "977" ;
-:experiencesEmotion :Emotion_Misery .
+  :lineNumber 977 ;
+  :canonicalReference "977" ;
+  :text "Κατὰ δὲ τακόμενοι μέλεοι μελέαν πάθαν"^^xsd:string ;
+  :experiencesEmotion :Emotion_Misery .
 
-# --- 978 ---
-:Line_978 a :Line ;
-:lineNumber 978 ;
-:canonicalReference "978" ;
-:experiencesEmotion :Emotion_Grief .
-
-# --- 979 ---
-:Line_979 a :Line ;
-:lineNumber 979 ;
-:canonicalReference "979" .
-
-# --- 980 ---
 :Line_980 a :Line ;
-:lineNumber 980 ;
-:canonicalReference "980" ;
-:referencesMyth :Antigone_Character_Cleopatra .
+  :lineNumber 980 ;
+  :canonicalReference "980" ;
+  :text "κλαῖον, ματρὸς ἔχοντες ἀνύμφευτον γονάν·"^^xsd:string ;
+  :experiencesEmotion :Emotion_Grief .
 
-# --- 981 ---
 :Line_981 a :Line ;
-:lineNumber 981 ;
-:canonicalReference "981" .
+  :lineNumber 981 ;
+  :canonicalReference "981" ;
+  :text "ἁ δὲ σπέρμα μὲν ἀρχαιογόνων"^^xsd:string .
 
-# --- 982 ---
 :Line_982 a :Line ;
-:lineNumber 982 ;
-:canonicalReference "982" .
+  :lineNumber 982 ;
+  :canonicalReference "982" ;
+  :text "ἄντασ ̓ Ἐρεχθεϊδᾶν,"^^xsd:string ;
+  :referencesMyth :Antigone_Character_Cleopatra .
 
-# --- 983 ---
 :Line_983 a :Line ;
-:lineNumber 983 ;
-:canonicalReference "983" ;
-:referencesMyth :Antigone_Character_Boreas .
+  :lineNumber 983 ;
+  :canonicalReference "983" ;
+  :text "τηλεπόροις δ ̓ ἐν ἄντροις"^^xsd:string .
 
-# --- 984 ---
 :Line_984 a :Line ;
-:lineNumber 984 ;
-:canonicalReference "984" .
+  :lineNumber 984 ;
+  :canonicalReference "984" ;
+  :text "τράφη θυέλλῃσιν ἐν πατρῴαις"^^xsd:string .
 
-# --- 985 ---
 :Line_985 a :Line ;
-:lineNumber 985 ;
-:canonicalReference "985" ;
-:hasTheme :Theme_FateInevitability ;
-:relatedTo :Antigone_Character_Fates .
+  :lineNumber 985 ;
+  :canonicalReference "985" ;
+  :text "Βορεὰς ἅμιππος ὀρθόποδος ὑπὲρ πάγου"^^xsd:string ;
+  :referencesMyth :Antigone_Character_Boreas .
 
-# --- 986 ---
 :Line_986 a :Line ;
-:lineNumber 986 ;
-:canonicalReference "986" .
+  :lineNumber 986 ;
+  :canonicalReference "986" ;
+  :text "θεῶν παῖς· ἀλλὰ κἀπ ̓ ἐκείνᾳ"^^xsd:string .
 
-# --- 987 ---
 :Line_987 a :Line ;
-:lineNumber 987 ;
-:canonicalReference "987" .
+  :lineNumber 987 ;
+  :canonicalReference "987" ;
+  :text "Μοῖραι μακραίωνες ἔσχον, ὦ παῖ."^^xsd:string ;
+  :hasTheme :Theme_FateInevitability ;
+  :relatedTo :Antigone_Character_Fates .

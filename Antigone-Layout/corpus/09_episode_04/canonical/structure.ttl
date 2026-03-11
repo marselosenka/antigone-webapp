@@ -1,883 +1,877 @@
-﻿@prefix : <http://example.org/antigone#> .
+@prefix : <http://example.org/antigone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :episode04-structure a owl:Ontology .
 
-# --- 806 ---
-:Line_806
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 806 ;
-  :canonicalReference "806"^^xsd:string ;
-  :hasTheme :Theme_LamentForLostMarriage .
+:Line_806 a owl:NamedIndividual, :Line ;
+    :lineNumber 806 ;
+    :canonicalReference "806"^^xsd:string ;
+    :text "Ὁρᾶτ’ ἔμ’, ὦ γᾶς πατρίας πολῖται, τὰν νεάταν ὁδὸν"^^xsd:string ;
+    :hasTheme :Theme_LamentForLostMarriage .
 
-# --- 807 ---
-:Line_807
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 807 ;
-  :canonicalReference "807"^^xsd:string .
+:Line_807 a owl:NamedIndividual, :Line ;
+    :lineNumber 807 ;
+    :canonicalReference "807"^^xsd:string ;
+    :text "στείχουσαν, νέατον δὲ φέγγος λεύσσουσαν ἀελίου,"^^xsd:string .
 
-# --- 808 ---
-:Line_808
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 808 ;
-  :canonicalReference "808"^^xsd:string .
+#:Line_808 a owl:NamedIndividual, :Line ;
+#    :lineNumber 808 ;
+#    :canonicalReference "808"^^xsd:string ;
+#    :text "στείχουσαν, νέατον δὲ φέγγος"^^xsd:string .
 
-# --- 809 ---
-:Line_809
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 809 ;
-  :canonicalReference "809"^^xsd:string .
+#:Line_809 a owl:NamedIndividual, :Line ;
+#    :lineNumber 809 ;
+#    :canonicalReference "809"^^xsd:string ;
+#    :text "λεύσσουσαν ἀελίου,"^^xsd:string .
 
-# --- 810 ---
-:Line_810
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 810 ;
-  :canonicalReference "810"^^xsd:string ;
-  :hasTheme :Theme_DeathAsMarriage .
+:Line_810 a owl:NamedIndividual, :Line ;
+    :lineNumber 810 ;
+    :canonicalReference "810"^^xsd:string ;
+    :text "κοὔποτ’ αὖθις, ἀλλά μ’ ὁ παγκοίτας Ἅιδας ζῶσαν ἄγει"^^xsd:string ;
+    :hasTheme :Theme_DeathAsMarriage .
 
-# --- 811 ---
-:Line_811
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 811 ;
-  :canonicalReference "811"^^xsd:string ;
-  :hasTheme :Theme_DeathAsMarriage .
+:Line_811 a owl:NamedIndividual, :Line ;
+    :lineNumber 811 ;
+    :canonicalReference "811"^^xsd:string ;
+    :text "τὰν Ἀχέροντος"^^xsd:string ;
+    :hasTheme :Theme_DeathAsMarriage .
 
-# --- 812 ---
-:Line_812
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 812 ;
-  :canonicalReference "812"^^xsd:string ;
-  :hasTheme :Theme_LamentForLostMarriage .
+:Line_812 a owl:NamedIndividual, :Line ;
+    :lineNumber 812 ;
+    :canonicalReference "812"^^xsd:string ;
+    :text "ἀκτάν, οὔθ’ ὑμεναίων ἔγκληρον, οὔτ’ ἐπὶ νυμφείοις"^^xsd:string ;
+    :hasTheme :Theme_LamentForLostMarriage .
 
-# --- 813 ---
-:Line_813
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 813 ;
-  :canonicalReference "813"^^xsd:string ;
-  :hasTheme :Theme_LamentForLostMarriage .
+#:Line_813 a owl:NamedIndividual, :Line ;
+#    :lineNumber 813 ;
+#    :canonicalReference "813"^^xsd:string ;
+#    :text "ἔγκληρον, οὔτ’ ἐπὶ νυμφείοις"^^xsd:string ;
+#    :hasTheme :Theme_LamentForLostMarriage .
 
-# --- 814 ---
-:Line_814
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 814 ;
-  :canonicalReference "814"^^xsd:string ;
-  :hasTheme :Theme_LamentForLostMarriage .
+#:Line_814 a owl:NamedIndividual, :Line ;
+#    :lineNumber 814 ;
+#    :canonicalReference "814"^^xsd:string ;
+#    :text "πώ μέ τις ὕμνος ὕμνησεν,"^^xsd:string ;
+#    :hasTheme :Theme_LamentForLostMarriage .
 
-# --- 815 ---
-:Line_815
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 815 ;
-  :canonicalReference "815"^^xsd:string ;
-  :hasTheme :Theme_DeathAsMarriage .
+:Line_815 a owl:NamedIndividual, :Line ;
+    :lineNumber 815 ;
+    :canonicalReference "815"^^xsd:string ;
+    :text "πώ μέ τις ὕμνος ὕμνησεν, ἀλλ’ Ἀχέροντι νυμφεύσω."^^xsd:string ;
+    :hasTheme :Theme_DeathAsMarriage ;
+    :hasTheme :Theme_LamentForLostMarriage .
 
-# --- 816 ---
-:Line_816
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 816 ;
-  :canonicalReference "816"^^xsd:string ;
-  :hasTheme :Theme_IsolationAndFameInDeath .
+#:Line_816 a owl:NamedIndividual, :Line ;
+#    :lineNumber 816 ;
+#    :canonicalReference "816"^^xsd:string ;
+#    :text "Οὐκοῦν κλεινὴ καὶ ἔπαινον ἔχουσ’"^^xsd:string ;
+#    :hasTheme :Theme_IsolationAndFameInDeath .
 
-# --- 817 ---
-:Line_817
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 817 ;
-  :canonicalReference "817"^^xsd:string ;
-  :hasTheme :Theme_IsolationAndFameInDeath .
+:Line_817 a owl:NamedIndividual, :Line ;
+    :lineNumber 817 ;
+    :canonicalReference "817"^^xsd:string ;
+    :text "Οὐκοῦν κλεινὴ καὶ ἔπαινον ἔχουσ’"^^xsd:string ;
+    :hasTheme :Theme_IsolationAndFameInDeath .
 
-# --- 818 ---
-:Line_818
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 818 ;
-  :canonicalReference "818"^^xsd:string .
+:Line_818 a owl:NamedIndividual, :Line ;
+    :lineNumber 818 ;
+    :canonicalReference "818"^^xsd:string ;
+    :text "ἐς τόδʼ ἀπέρχει κεῦθος νεκύων,"^^xsd:string .
 
-# --- 819 ---
-:Line_819
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 819 ;
-  :canonicalReference "819"^^xsd:string .
+:Line_819 a owl:NamedIndividual, :Line ;
+    :lineNumber 819 ;
+    :canonicalReference "819"^^xsd:string ;
+    :text "οὔτε φθινάσιν πληγεῖσα νόσοις"^^xsd:string .
 
-# --- 820 ---
-:Line_820
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 820 ;
-  :canonicalReference "820"^^xsd:string ;
-  :hasTheme :Theme_IsolationAndFameInDeath .
+:Line_820 a owl:NamedIndividual, :Line ;
+    :lineNumber 820 ;
+    :canonicalReference "820"^^xsd:string ;
+    :text "οὔτε ξιφέων ἐπίχειρα λαχοῦσʼ,"^^xsd:string ;
+    :hasTheme :Theme_IsolationAndFameInDeath .
 
-# --- 821 ---
-:Line_821
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 821 ;
-  :canonicalReference "821"^^xsd:string ;
-  :hasTheme :Theme_IsolationAndFameInDeath .
+:Line_821 a owl:NamedIndividual, :Line ;
+    :lineNumber 821 ;
+    :canonicalReference "821"^^xsd:string ;
+    :text "ἀλλʼ αὐτόνομος ζῶσα μόνη δὴ"^^xsd:string ;
+    :hasTheme :Theme_IsolationAndFameInDeath .
 
-# --- 822 ---
-:Line_822
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 822 ;
-  :canonicalReference "822"^^xsd:string .
-
+:Line_822 a owl:NamedIndividual, :Line ;
+    :lineNumber 822 ;
+    :canonicalReference "822"^^xsd:string ;
+    :text "θνητῶν Ἀίδην καταβήσῃ."^^xsd:string ;
+    :hasTheme :Theme_IsolationAndFameInDeath .
 
 # --- 823 ---
 :Line_823
   a owl:NamedIndividual, :Line ;
   :lineNumber 823 ;
   :canonicalReference "823"^^xsd:string ;
+  :text "Ἤκουσα δὴ λυγροτάταν ὀλέσθαι τὰν Φρυγίαν ξέναν"^^xsd:string ;
   :hasTheme :Theme_FamilyCurseOfLabdacids .
 
-# --- 824 ---
-:Line_824
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 824 ;
-  :canonicalReference "824"^^xsd:string .
+#:Line_824
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 824 ;
+#  :canonicalReference "824"^^xsd:string ;
+#  :text "τὰν Φρυγίαν ξέναν"^^xsd:string .
 
-# --- 825 ---
 :Line_825
   a owl:NamedIndividual, :Line ;
   :lineNumber 825 ;
-  :canonicalReference "825"^^xsd:string .
+  :canonicalReference "825"^^xsd:string ;
+  :text "Ταντάλου Σιπύλῳ πρὸς ἄκρῳ, τὰν κισσὸς ὡς ἀτενὴς"^^xsd:string .
 
-# --- 826 ---
 :Line_826
   a owl:NamedIndividual, :Line ;
   :lineNumber 826 ;
-  :canonicalReference "826"^^xsd:string .
+  :canonicalReference "826"^^xsd:string ;
+  :text "πετραία βλάστα δάμασεν, καί νιν ὄμβροι τακομέναν,"^^xsd:string .
 
-# --- 827 ---
 :Line_827
   a owl:NamedIndividual, :Line ;
   :lineNumber 827 ;
-  :canonicalReference "827"^^xsd:string .
+  :canonicalReference "827"^^xsd:string ;
+  :text "ὡς φάτις ἀνδρῶν,"^^xsd:string .
 
-# --- 828 ---
-:Line_828
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 828 ;
-  :canonicalReference "828"^^xsd:string .
+#:Line_828
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 828 ;
+#  :canonicalReference "828"^^xsd:string ;
+#  :text "ὡς φάτις ἀνδρῶν,"^^xsd:string .
 
-# --- 829 ---
-:Line_829
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 829 ;
-  :canonicalReference "829"^^xsd:string .
+#:Line_829
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 829 ;
+#  :canonicalReference "829"^^xsd:string ;
+#  :text "χιών τ᾽ οὐδαμὰ λείπει,"^^xsd:string .
 
-# --- 830 ---
 :Line_830
   a owl:NamedIndividual, :Line ;
   :lineNumber 830 ;
-  :canonicalReference "830"^^xsd:string .
+  :canonicalReference "830"^^xsd:string ;
+  :text "χιών τʼ οὐδαμὰ λείπει, τέγγει δʼ ὑπʼ ὀφρύσι παγκλαύτοις"^^xsd:string .
 
-# --- 831 ---
 :Line_831
   a owl:NamedIndividual, :Line ;
   :lineNumber 831 ;
-  :canonicalReference "831"^^xsd:string .
+  :canonicalReference "831"^^xsd:string ;
+  :text "δειράδας· ᾇ με δαίμων ὁμοιοτάταν κατευνάζει."^^xsd:string .
 
-# --- 832 ---
-:Line_832
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 832 ;
-  :canonicalReference "832"^^xsd:string ;
-  :hasTheme :Theme_DivineVsMortalCondition .
+#:Line_832
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 832 ;
+#  :canonicalReference "832"^^xsd:string ;
+#  :text "Ἀλλὰ θεός τοι καὶ θεογεννής,"^^xsd:string ;
+#  :hasTheme :Theme_DivineVsMortalCondition .
 
-# --- 833 ---
-:Line_833
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 833 ;
-  :canonicalReference "833"^^xsd:string ;
-  :hasTheme :Theme_DivineVsMortalCondition .
+#:Line_833
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 833 ;
+#  :canonicalReference "833"^^xsd:string ;
+#  :text "ἡμεῖς δὲ βροτοὶ καὶ θνατογενεῖς."^^xsd:string ;
+#  :hasTheme :Theme_DivineVsMortalCondition .
 
-# --- 834 ---
 :Line_834
   a owl:NamedIndividual, :Line ;
   :lineNumber 834 ;
-  :canonicalReference "834"^^xsd:string .
+  :canonicalReference "834"^^xsd:string ;
+  :text "ἀλλὰ θεός τοι καὶ θεογεννής,"^^xsd:string ;
+  :hasTheme :Theme_DivineVsMortalCondition .
 
-# --- 835 ---
+
 :Line_835
   a owl:NamedIndividual, :Line ;
   :lineNumber 835 ;
   :canonicalReference "835"^^xsd:string ;
+  :text "ἡμεῖς δὲ βροτοὶ καὶ θνητογενεῖς."^^xsd:string ;
   :hasTheme :Theme_DivineVsMortalCondition .
 
-# --- 836 ---
 :Line_836
   a owl:NamedIndividual, :Line ;
   :lineNumber 836 ;
   :canonicalReference "836"^^xsd:string ;
-  :hasTheme :Theme_LivingDeathAndExile .
+  :text "καίτοι φθιμένῃ μέγα κἀκοῦσαι"^^xsd:string .
 
-# --- 837 ---
 :Line_837
   a owl:NamedIndividual, :Line ;
   :lineNumber 837 ;
-  :canonicalReference "837"^^xsd:string .
+  :canonicalReference "837"^^xsd:string ;
+  :text "τοῖς ἰσοθέοις σύγκληρα λαχεῖν."^^xsd:string ;
+  :hasTheme :Theme_DivineVsMortalCondition .
 
-# --- 838 ---
 :Line_838
   a owl:NamedIndividual, :Line ;
   :lineNumber 838 ;
-  :canonicalReference "838"^^xsd:string .
+  :canonicalReference "838"^^xsd:string ;
+  :text "ζῶσαν καὶ ἔπειτα θανοῦσαν."^^xsd:string ;
+  :hasTheme :Theme_LivingDeathAndExile .
 
-# --- 839 ---
 :Line_839
   a owl:NamedIndividual, :Line ;
   :lineNumber 839 ;
-  :canonicalReference "839"^^xsd:string .
+  :canonicalReference "839"^^xsd:string ;
+  :text "οἴμοι γελῶμαι. τί με, πρὸς θεῶν πατρῴων."^^xsd:string .
 
-# --- 840 ---
 :Line_840
   a owl:NamedIndividual, :Line ;
   :lineNumber 840 ;
-  :canonicalReference "840"^^xsd:string .
+  :canonicalReference "840"^^xsd:string ;
+  :text "οὐκ οἰχομέναν ὑβρίζεις, ἀλλʼ ἐπίφαντον;"^^xsd:string .
 
-# --- 841 ---
 :Line_841
   a owl:NamedIndividual, :Line ;
   :lineNumber 841 ;
-  :canonicalReference "841"^^xsd:string .
+  :canonicalReference "841"^^xsd:string ;
+  :text "ὦ πόλις, ὦ πόλεως πολυκτήμονες ἄνδρες·"^^xsd:string .
 
-# --- 842 ---
 :Line_842
   a owl:NamedIndividual, :Line ;
   :lineNumber 842 ;
-  :canonicalReference "842"^^xsd:string .
-# --- 843 ---
-:Line_843
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 843 ;
-  :canonicalReference "843"^^xsd:string .
+  :canonicalReference "842"^^xsd:string ;
+  :text "ἰὼ Διρκαῖαι κρῆναι"^^xsd:string .
 
-# --- 844 ---
-:Line_844
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 844 ;
-  :canonicalReference "844"^^xsd:string .
+#:Line_843
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 843 ;
+#  :canonicalReference "843"^^xsd:string ;
+#  :text "ἰὼ Διρκαῖαι κρῆναι Θήβας τ᾽ εὐαρμάτου ἄλσος,"^^xsd:string .
 
-# --- 845 ---
+#:Line_844
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 844 ;
+#  :canonicalReference "844"^^xsd:string ;
+#  :text "ἔμπας ξυμμάρτυρας ὔμμ᾽ ἐπικτῶμαι,"^^xsd:string .
+
 :Line_845
   a owl:NamedIndividual, :Line ;
   :lineNumber 845 ;
-  :canonicalReference "845"^^xsd:string .
+  :canonicalReference "845"^^xsd:string ;
+  :text "Θήβας τʼ εὐαρμάτου ἄλσος, ἔμπας ξυμμάρτυρας ὔμμʼ ἐπικτῶμαι,"^^xsd:string .
 
-# --- 846 ---
 :Line_846
   a owl:NamedIndividual, :Line ;
   :lineNumber 846 ;
   :canonicalReference "846"^^xsd:string ;
-  :hasTheme :Theme_LivingDeathAndExile ;
-  :relatedTo :Event_AntigoneLedToLivingTomb .
+  :text "οἵα φίλων ἄκλαυτος, οἵοις νόμοις"^^xsd:string .
 
-# --- 847 ---
 :Line_847
   a owl:NamedIndividual, :Line ;
   :lineNumber 847 ;
-  :canonicalReference "847"^^xsd:string .
+  :canonicalReference "847"^^xsd:string ;
+  :text "πρὸς ἕργμα τυμβόχωστον ἔρχομαι τάφου ποταινίου·"^^xsd:string ;
+  :hasTheme :Theme_LivingDeathAndExile ;
+  :relatedTo :Event_AntigoneLedToLivingTomb .
 
-# --- 848 ---
-:Line_848
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 848 ;
-  :canonicalReference "848"^^xsd:string ;
-  :hasTheme :Theme_LivingDeathAndExile .
+#:Line_848
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 848 ;
+#  :canonicalReference "848"^^xsd:string ;
+#  :text "οὔτ᾽ νεκρὸς νεκροῖσιν"^^xsd:string ;
+#  :hasTheme :Theme_LivingDeathAndExile .
 
-# --- 849 ---
-:Line_849
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 849 ;
-  :canonicalReference "849"^^xsd:string ;
-  :hasTheme :Theme_LivingDeathAndExile .
+#:Line_849
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 849 ;
+#  :canonicalReference "849"^^xsd:string ;
+#  :text "μέτοικος, οὐ ζῶσιν, οὐ θανοῦσιν."^^xsd:string ;
+#  :hasTheme :Theme_LivingDeathAndExile .
 
-# --- 850 ---
 :Line_850
   a owl:NamedIndividual, :Line ;
   :lineNumber 850 ;
-  :canonicalReference "850"^^xsd:string .
+  :canonicalReference "850"^^xsd:string ;
+  :text "οὔτ ̓ <νεκρὸς> νεκροῖσιν"^^xsd:string ;
+  :hasTheme :Theme_LivingDeathAndExile .
 
-# --- 851 ---
+
 :Line_851
   a owl:NamedIndividual, :Line ;
   :lineNumber 851 ;
-  :canonicalReference "851"^^xsd:string .
+  :canonicalReference "851"^^xsd:string ;
+  :text "μέτοικος οὐ ζῶσιν, οὐ θανοῦσιν."^^xsd:string ;
+  :hasTheme :Theme_LivingDeathAndExile .
 
-# --- 852 ---
-:Line_852
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 852 ;
-  :canonicalReference "852"^^xsd:string .
 
-# --- 853 ---
+#:Line_852
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 852 ;
+#  :canonicalReference "852"^^xsd:string ;
+#  :text "πολὺ προσέπεσας, ὦ τέκνον."^^xsd:string .
+
 :Line_853
   a owl:NamedIndividual, :Line ;
   :lineNumber 853 ;
   :canonicalReference "853"^^xsd:string ;
-  :hasTheme :Theme_FamilyCurseOfLabdacids .
+  :text "προβᾶσʼ ἐπʼ ἔσχατον θράσους"^^xsd:string .
 
-# --- 854 ---
 :Line_854
   a owl:NamedIndividual, :Line ;
   :lineNumber 854 ;
-  :canonicalReference "854"^^xsd:string .
+  :canonicalReference "854"^^xsd:string ;
+  :text "ὑψηλὸν ἐς Δίκας βάθρον"^^xsd:string .
 
-# --- 855 ---
 :Line_855
   a owl:NamedIndividual, :Line ;
   :lineNumber 855 ;
-  :canonicalReference "855"^^xsd:string .
+  :canonicalReference "855"^^xsd:string ;
+  :text "προσέπεσες, ὦ τέκνον, πολύ·"^^xsd:string .
 
-# --- 856 ---
 :Line_856
   a owl:NamedIndividual, :Line ;
   :lineNumber 856 ;
   :canonicalReference "856"^^xsd:string ;
+  :text "πατρῷον δʼ ἐκτίνεις τινʼ ἆθλον."^^xsd:string ;
   :hasTheme :Theme_FamilyCurseOfLabdacids .
 
-# --- 857 ---
-:Line_857
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 857 ;
-  :canonicalReference "857"^^xsd:string .
+#:Line_857
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 857 ;
+#  :canonicalReference "857"^^xsd:string ;
+#  :text "τοῦ τε πρόπαντος"^^xsd:string .
 
-# --- 858 ---
 :Line_858
   a owl:NamedIndividual, :Line ;
   :lineNumber 858 ;
   :canonicalReference "858"^^xsd:string ;
-  :hasTheme :Theme_FamilyCurseOfLabdacids .
+  :text "ἔψαυσας ἀλγεινοτάτας ἐμοὶ μερίμνας,"^^xsd:string .
 
-# --- 859 ---
 :Line_859
   a owl:NamedIndividual, :Line ;
   :lineNumber 859 ;
   :canonicalReference "859"^^xsd:string ;
+  :text "πατρὸς τριπόλιστον οἶκτον τοῦ τε πρόπαντος"^^xsd:string ;
   :hasTheme :Theme_FamilyCurseOfLabdacids .
 
-# --- 860 ---
 :Line_860
   a owl:NamedIndividual, :Line ;
   :lineNumber 860 ;
   :canonicalReference "860"^^xsd:string ;
+  :text "ἁμετέρου πότμου κλεινοῖς Λαβδακίδαισιν."^^xsd:string ;
   :hasTheme :Theme_FamilyCurseOfLabdacids .
 
-# --- 861 ---
 :Line_861
   a owl:NamedIndividual, :Line ;
   :lineNumber 861 ;
   :canonicalReference "861"^^xsd:string ;
+  :text "ἰὼ ματρῷαι λέκτρων"^^xsd:string ;
   :hasTheme :Theme_FamilyCurseOfLabdacids .
 
-# --- 862 ---
-:Line_862
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 862 ;
-  :canonicalReference "862"^^xsd:string .
+#:Line_862
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 862 ;
+#  :canonicalReference "862"^^xsd:string ;
+#  :text "οἵων ἐγώ ποθ᾽ ἁ ταλαίφρων ἔφυν·"^^xsd:string .
 
-# --- 863 ---
-:Line_863
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 863 ;
-  :canonicalReference "863"^^xsd:string .
+#:Line_863
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 863 ;
+#  :canonicalReference "863"^^xsd:string ;
+#  :text "πρὸς οὓς ἀραῖος ἄγαμος, ἅδ᾽"^^xsd:string .
 
-# --- 864 ---
-:Line_864
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 864 ;
-  :canonicalReference "864"^^xsd:string ;
-  :hasTheme :Theme_LivingDeathAndExile .
+#:Line_864
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 864 ;
+#  :canonicalReference "864"^^xsd:string ;
+#  :text "ἐγὼ μέτοικος ἔρχομαι."^^xsd:string ;
+#  :hasTheme :Theme_LivingDeathAndExile .
 
-# --- 865 ---
 :Line_865
   a owl:NamedIndividual, :Line ;
   :lineNumber 865 ;
-  :canonicalReference "865"^^xsd:string .
+  :canonicalReference "865"^^xsd:string ;
+  :text "ἆται κοιμήματά τʼ αὐτογέννητʼ ἐμῷ πατρὶ δυσμόρου ματρός,"^^xsd:string ;
+  :hasTheme :Theme_FamilyCurseOfLabdacids .
 
-# --- 866 ---
 :Line_866
   a owl:NamedIndividual, :Line ;
   :lineNumber 866 ;
-  :canonicalReference "866"^^xsd:string .
+  :canonicalReference "866"^^xsd:string ;
+  :text "οἵων ἐγώ ποθʼ ἁ ταλαίφρων ἔφυν·"^^xsd:string .
 
-# --- 867 ---
 :Line_867
   a owl:NamedIndividual, :Line ;
   :lineNumber 867 ;
   :canonicalReference "867"^^xsd:string ;
-  :relatedTo :Theme_FamilyCurseOfLabdacids .
+  :text "πρὸς οὓς ἀραῖος ἄγαμος ἅδʼ ἐγὼ μέτοικος ἔρχομαι."^^xsd:string ;
+  :hasTheme :Theme_LivingDeathAndExile .
 
-# --- 868 ---
-:Line_868
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 868 ;
-  :canonicalReference "868"^^xsd:string .
 
-# --- 869 ---
-:Line_869
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 869 ;
-  :canonicalReference "869"^^xsd:string .
+#:Line_868
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 868 ;
+#  :canonicalReference "868"^^xsd:string ;
+#  :text ""^^xsd:string .
 
-# --- 870 ---
+#:Line_869
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 869 ;
+#  :canonicalReference "869"^^xsd:string ;
+#  :text ""^^xsd:string .
+
 :Line_870
   a owl:NamedIndividual, :Line ;
   :lineNumber 870 ;
-  :canonicalReference "870"^^xsd:string .
+  :canonicalReference "870"^^xsd:string ;
+  :text "Τὼ δυσπότμων κασίγνητε γάμων κυρήσας,"^^xsd:string .
 
-# --- 871 ---
 :Line_871
   a owl:NamedIndividual, :Line ;
   :lineNumber 871 ;
-  :canonicalReference "871"^^xsd:string .
+  :canonicalReference "871"^^xsd:string ;
+  :text "θανὼν ἔτʼ οὖσαν κατήναρές με."^^xsd:string ;
+  :hasTheme :Theme_FamilyCurseOfLabdacids .
 
-# --- 872 ---
 :Line_872
   a owl:NamedIndividual, :Line ;
   :lineNumber 872 ;
   :canonicalReference "872"^^xsd:string ;
+  :text "Σέβειν μὲν εὐσέβειά τις,"^^xsd:string ;
   :hasTheme :Theme_PietyAndPunishment .
 
-# --- 873 ---
 :Line_873
   a owl:NamedIndividual, :Line ;
   :lineNumber 873 ;
-  :canonicalReference "873"^^xsd:string .
+  :canonicalReference "873"^^xsd:string ;
+  :text "κράτος δ᾽, ὅτῳ κράτος μέλει,"^^xsd:string .
 
-# --- 874 ---
 :Line_874
   a owl:NamedIndividual, :Line ;
   :lineNumber 874 ;
-  :canonicalReference "874"^^xsd:string .
+  :canonicalReference "874"^^xsd:string ;
+  :text "παραβατὸν οὐδαμᾷ πέλει,"^^xsd:string .
 
-# --- 875 ---
 :Line_875
   a owl:NamedIndividual, :Line ;
   :lineNumber 875 ;
-  :canonicalReference "875"^^xsd:string .
+  :canonicalReference "875"^^xsd:string ;
+  :text "σὲ δ᾽ αὐτόγνωτος ὤλεσ᾽ ὀργά."^^xsd:string .
 
-# --- 876 ---
 :Line_876
   a owl:NamedIndividual, :Line ;
   :lineNumber 876 ;
   :canonicalReference "876"^^xsd:string ;
+  :text "ἄκλαυτος, ἄφιλος, ἀνυμέναιος ταλαίφρων ἄγομαι"^^xsd:string ;
   :hasTheme :Theme_IsolationAndDeath .
 
-# --- 877 ---
 :Line_877
   a owl:NamedIndividual, :Line ;
   :lineNumber 877 ;
-  :canonicalReference "877"^^xsd:string .
+  :canonicalReference "877"^^xsd:string ;
+  :text "τὰν πυμάταν ὁδόν. οὐκέτι μοι τόδε"^^xsd:string .
 
-# --- 878 ---
 :Line_878
   a owl:NamedIndividual, :Line ;
   :lineNumber 878 ;
-  :canonicalReference "878"^^xsd:string .
+  :canonicalReference "878"^^xsd:string ;
+  :text "λαμπάδος ἱερὸν ὄμμα"^^xsd:string .
 
-# --- 879 ---
-:Line_879
-  a owl:NamedIndividual, :Line ;
-  :lineNumber 879 ;
-  :canonicalReference "879"^^xsd:string .
+#:Line_879
+#  a owl:NamedIndividual, :Line ;
+#  :lineNumber 879 ;
+#  :canonicalReference "879"^^xsd:string ;
+#  :text "οὐκέτι μοι τόδε λαμπάδος ἱερὸν"^^xsd:string .
 
-# --- 880 ---
 :Line_880
   a owl:NamedIndividual, :Line ;
   :lineNumber 880 ;
-  :canonicalReference "880"^^xsd:string .
+  :canonicalReference "880"^^xsd:string ;
+  :text "ὄμμα θέμις ὁρᾶν ταλαίνᾳ·"^^xsd:string .
 
-# --- 881 ---
 :Line_881
   a owl:NamedIndividual, :Line ;
   :lineNumber 881 ;
-  :canonicalReference "881"^^xsd:string .
+  :canonicalReference "881"^^xsd:string ;
+  :text "τὸν δ᾽ ἐμὸν πότμον ἀδάκρυτον"^^xsd:string .
 
-# --- 882 ---
 :Line_882
   a owl:NamedIndividual, :Line ;
   :lineNumber 882 ;
-  :canonicalReference "882"^^xsd:string .
+  :canonicalReference "882"^^xsd:string ;
+  :text "οὐδεὶς φίλων στενάζει."^^xsd:string .
 
-# --- 883 ---
 :Line_883
   a owl:NamedIndividual, :Line ;
   :lineNumber 883 ;
   :canonicalReference "883"^^xsd:string ;
+  :text "Ἆρ᾽ ἴστ᾽ ἀοιδὰς καὶ γόους πρὸ τοῦ θανεῖν"^^xsd:string ;
   :hasTheme :Theme_StatePowerAndControl .
 
-# --- 884 ---
 :Line_884
   a owl:NamedIndividual, :Line ;
   :lineNumber 884 ;
-  :canonicalReference "884"^^xsd:string .
+  :canonicalReference "884"^^xsd:string ;
+  :text "ὡς οὐδ᾽ ἂν εἷς παύσαιτ᾽ ἄν, εἰ χρείη, λέγων;"^^xsd:string .
 
-# --- 885 ---
 :Line_885
   a owl:NamedIndividual, :Line ;
   :lineNumber 885 ;
-  :canonicalReference "885"^^xsd:string .
+  :canonicalReference "885"^^xsd:string ;
+  :text "Οὐκ ἄξεθ᾽ ὡς τάχιστα, καὶ κατηρεφεῖ"^^xsd:string .
 
-# --- 886 ---
 :Line_886
   a owl:NamedIndividual, :Line ;
   :lineNumber 886 ;
-  :canonicalReference "886"^^xsd:string .
+  :canonicalReference "886"^^xsd:string ;
+  :text "τύμβῳ περιπτύξαντες, ὡς εἴρηκ᾽ ἐγώ,"^^xsd:string .
 
-# --- 887 ---
 :Line_887
   a owl:NamedIndividual, :Line ;
   :lineNumber 887 ;
-  :canonicalReference "887"^^xsd:string .
+  :canonicalReference "887"^^xsd:string ;
+  :text "ἄφετε μόνην ἔρημον, εἴτε χρῇ θανεῖν,"^^xsd:string .
 
-# --- 888 ---
 :Line_888
   a owl:NamedIndividual, :Line ;
   :lineNumber 888 ;
-  :canonicalReference "888"^^xsd:string .
+  :canonicalReference "888"^^xsd:string ;
+  :text "εἴτ᾽ ἐν τοιαύτῃ ζῶσα τυμβεύειν στέγῃ."^^xsd:string .
 
-# --- 889 ---
 :Line_889
   a owl:NamedIndividual, :Line ;
   :lineNumber 889 ;
-  :canonicalReference "889"^^xsd:string .
+  :canonicalReference "889"^^xsd:string ;
+  :text "Ἡμεῖς γὰρ ἁγνοὶ τοὐπὶ τήνδε τὴν κόρην·"^^xsd:string .
 
-# --- 890 ---
 :Line_890
   a owl:NamedIndividual, :Line ;
   :lineNumber 890 ;
-  :canonicalReference "890"^^xsd:string .
+  :canonicalReference "890"^^xsd:string ;
+  :text "μετοικίας δ᾽ οὖν τῆς ἄνω στερήσεται."^^xsd:string .
 
-# --- 891 ---
 :Line_891
   a owl:NamedIndividual, :Line ;
   :lineNumber 891 ;
   :canonicalReference "891"^^xsd:string ;
+  :text "Ὦ τύμβος, ὦ νυμφεῖον, ὦ κατασκαφὴς"^^xsd:string ;
   :hasTheme :Theme_IsolationAndDeath .
 
-# --- 892 ---
 :Line_892
   a owl:NamedIndividual, :Line ;
   :lineNumber 892 ;
-  :canonicalReference "892"^^xsd:string .
+  :canonicalReference "892"^^xsd:string ;
+  :text "οἴκησις αἰείφρουρος, οἷ πορεύομαι"^^xsd:string .
 
-# --- 893 ---
 :Line_893
   a owl:NamedIndividual, :Line ;
   :lineNumber 893 ;
-  :canonicalReference "893"^^xsd:string .
+  :canonicalReference "893"^^xsd:string ;
+  :text "πρὸς τοὺς ἐμαυτῆς, ὧν ἀριθμὸν ἐν νεκροῖς"^^xsd:string .
 
-# --- 894 ---
 :Line_894
   a owl:NamedIndividual, :Line ;
   :lineNumber 894 ;
-  :canonicalReference "894"^^xsd:string .
+  :canonicalReference "894"^^xsd:string ;
+  :text "πλεῖστον δέδεκται Φερσέφασσ᾽ ὀλωλότων·"^^xsd:string .
 
-# --- 895 ---
 :Line_895
   a owl:NamedIndividual, :Line ;
   :lineNumber 895 ;
-  :canonicalReference "895"^^xsd:string .
+  :canonicalReference "895"^^xsd:string ;
+  :text "ὧν λοισθία ἐγὼ καὶ κάκιστα δὴ μακρῷ"^^xsd:string .
 
-# --- 896 ---
 :Line_896
   a owl:NamedIndividual, :Line ;
   :lineNumber 896 ;
-  :canonicalReference "896"^^xsd:string .
+  :canonicalReference "896"^^xsd:string ;
+  :text "κάτειμι, πρίν μοι μοῖραν ἐξήκειν βίου."^^xsd:string .
 
-# --- 897 ---
 :Line_897
   a owl:NamedIndividual, :Line ;
   :lineNumber 897 ;
-  :canonicalReference "897"^^xsd:string .
+  :canonicalReference "897"^^xsd:string ;
+  :text "Ἐλθοῦσα μέντοι κάρτ᾽ ἐν ἐλπίσιν τρέφω"^^xsd:string .
 
-# --- 898 ---
 :Line_898
   a owl:NamedIndividual, :Line ;
   :lineNumber 898 ;
-  :canonicalReference "898"^^xsd:string .
+  :canonicalReference "898"^^xsd:string ;
+  :text "φίλη μὲν ἥξειν πατρί, προσφιλὴς δὲ σοί,"^^xsd:string .
 
-# --- 899 ---
 :Line_899
   a owl:NamedIndividual, :Line ;
   :lineNumber 899 ;
   :canonicalReference "899"^^xsd:string ;
+  :text "μῆτερ, φίλη δὲ σοί, κασίγνητον κάρα·"^^xsd:string ;
   :hasTheme :Theme_FamilyLoyalty .
 
-# --- 900 ---
 :Line_900
   a owl:NamedIndividual, :Line ;
   :lineNumber 900 ;
-  :canonicalReference "900"^^xsd:string .
+  :canonicalReference "900"^^xsd:string ;
+  :text "ἐπεὶ θανόντας αὐτόχειρ ὑμᾶς ἐγὼ"^^xsd:string .
 
-# --- 901 ---
 :Line_901
   a owl:NamedIndividual, :Line ;
   :lineNumber 901 ;
-  :canonicalReference "901"^^xsd:string .
+  :canonicalReference "901"^^xsd:string ;
+  :text "ἔλουσα κἀκόσμησα κἀπιτυμβίους"^^xsd:string .
 
-# --- 902 ---
 :Line_902
   a owl:NamedIndividual, :Line ;
   :lineNumber 902 ;
-  :canonicalReference "902"^^xsd:string .
+  :canonicalReference "902"^^xsd:string ;
+  :text "χοὰς ἔδωκα· νῦν δέ, Πολύνεικες, τὸ σὸν"^^xsd:string .
 
-# --- 903 ---
 :Line_903
   a owl:NamedIndividual, :Line ;
   :lineNumber 903 ;
-  :canonicalReference "903"^^xsd:string .
+  :canonicalReference "903"^^xsd:string ;
+  :text "δέμας περιστέλλουσα τοιάδ᾽ ἄρνυμαι."^^xsd:string .
 
-# --- 904 ---
 :Line_904
   a owl:NamedIndividual, :Line ;
   :lineNumber 904 ;
-  :canonicalReference "904"^^xsd:string .
+  :canonicalReference "904"^^xsd:string ;
+  :text "Καίτοι σ᾽ ἐγὼ ἐτίμησα τοῖς φρονοῦσιν εὖ."^^xsd:string .
 
-# --- 905 ---
 :Line_905
   a owl:NamedIndividual, :Line ;
   :lineNumber 905 ;
-  :canonicalReference "905"^^xsd:string .
+  :canonicalReference "905"^^xsd:string ;
+  :text "Οὐ γάρ ποτ᾽ οὔτ᾽ ἂν εἰ τέκνων μήτηρ ἔφυν,"^^xsd:string .
 
-# --- 906 ---
 :Line_906
   a owl:NamedIndividual, :Line ;
   :lineNumber 906 ;
-  :canonicalReference "906"^^xsd:string .
+  :canonicalReference "906"^^xsd:string ;
+  :text "οὔτ᾽ εἰ πόσις μοι κατθανὼν ἐτήκετο,"^^xsd:string .
 
-# --- 907 ---
 :Line_907
   a owl:NamedIndividual, :Line ;
   :lineNumber 907 ;
-  :canonicalReference "907"^^xsd:string .
+  :canonicalReference "907"^^xsd:string ;
+  :text "βίᾳ πολιτῶν τόνδ᾽ ἂν ᾐρόμην πόνον."^^xsd:string .
 
-# --- 908 ---
 :Line_908
   a owl:NamedIndividual, :Line ;
   :lineNumber 908 ;
-  :canonicalReference "908"^^xsd:string .
+  :canonicalReference "908"^^xsd:string ;
+  :text "Τίνος νόμου δὴ ταῦτα πρὸς χάριν λέγω;"^^xsd:string .
 
-# --- 909 ---
 :Line_909
   a owl:NamedIndividual, :Line ;
   :lineNumber 909 ;
-  :canonicalReference "909"^^xsd:string .
+  :canonicalReference "909"^^xsd:string ;
+  :text "πόσις μὲν ἄν μοι κατθανόντος ἄλλος ἦν,"^^xsd:string .
 
-# --- 910 ---
 :Line_910
   a owl:NamedIndividual, :Line ;
   :lineNumber 910 ;
-  :canonicalReference "910"^^xsd:string .
+  :canonicalReference "910"^^xsd:string ;
+  :text "καὶ παῖς ἀπ᾽ ἄλλου φωτός, εἰ τοῦδ᾽ ἤμπλακον·"^^xsd:string .
 
-# --- 911 ---
 :Line_911
   a owl:NamedIndividual, :Line ;
   :lineNumber 911 ;
-  :canonicalReference "911"^^xsd:string .
+  :canonicalReference "911"^^xsd:string ;
+  :text "μητρὸς δ᾽ ἐν Ἅιδου καὶ πατρὸς κεκευθότοιν"^^xsd:string .
 
-# --- 912 ---
 :Line_912
   a owl:NamedIndividual, :Line ;
   :lineNumber 912 ;
-  :canonicalReference "912"^^xsd:string .
+  :canonicalReference "912"^^xsd:string ;
+  :text "οὐκ ἔστ᾽ ἀδελφὸς ὅστις ἂν βλάστοι ποτέ."^^xsd:string .
 
-# --- 913 ---
 :Line_913
   a owl:NamedIndividual, :Line ;
   :lineNumber 913 ;
-  :canonicalReference "913"^^xsd:string .
+  :canonicalReference "913"^^xsd:string ;
+  :text "Τοιῷδε μέντοι σ᾽ ἐκπροτιμήσασ᾽ ἐγὼ"^^xsd:string .
 
-# --- 914 ---
 :Line_914
   a owl:NamedIndividual, :Line ;
   :lineNumber 914 ;
-  :canonicalReference "914"^^xsd:string .
+  :canonicalReference "914"^^xsd:string ;
+  :text "νόμῳ, Κρέοντι ταῦτ᾽ ἔδοξ᾽ ἁμαρτάνειν"^^xsd:string .
 
-# --- 915 ---
 :Line_915
   a owl:NamedIndividual, :Line ;
   :lineNumber 915 ;
-  :canonicalReference "915"^^xsd:string .
+  :canonicalReference "915"^^xsd:string ;
+  :text "καὶ δεινὰ τολμᾶν, ὦ κασίγνητον κάρα."^^xsd:string .
 
-# --- 916 ---
 :Line_916
   a owl:NamedIndividual, :Line ;
   :lineNumber 916 ;
-  :canonicalReference "916"^^xsd:string .
+  :canonicalReference "916"^^xsd:string ;
+  :text "Καὶ νῦν ἄγει με διὰ χερῶν οὕτω λαβὼν"^^xsd:string .
 
-# --- 917 ---
 :Line_917
   a owl:NamedIndividual, :Line ;
   :lineNumber 917 ;
   :canonicalReference "917"^^xsd:string ;
+  :text "ἄλεκτρον, ἀνυμέναιον, οὔτε του γάμου"^^xsd:string ;
   :hasTheme :Theme_IsolationAndDeath .
 
-# --- 918 ---
 :Line_918
   a owl:NamedIndividual, :Line ;
   :lineNumber 918 ;
-  :canonicalReference "918"^^xsd:string .
+  :canonicalReference "918"^^xsd:string ;
+  :text "μέρος λαχοῦσαν οὔτε παιδείου τροφῆς,"^^xsd:string .
 
-# --- 919 ---
 :Line_919
   a owl:NamedIndividual, :Line ;
   :lineNumber 919 ;
-  :canonicalReference "919"^^xsd:string .
+  :canonicalReference "919"^^xsd:string ;
+  :text "ἀλλ᾽ ὧδ᾽ ἔρημος πρὸς φίλων ἡ δύσμορος"^^xsd:string .
 
-# --- 920 ---
 :Line_920
   a owl:NamedIndividual, :Line ;
   :lineNumber 920 ;
-  :canonicalReference "920"^^xsd:string .
+  :canonicalReference "920"^^xsd:string ;
+  :text "ζῶσ᾽ ἐς θανόντων ἔρχομαι κατασκαφάς·"^^xsd:string .
 
-# --- 921 ---
 :Line_921
   a owl:NamedIndividual, :Line ;
   :lineNumber 921 ;
   :canonicalReference "921"^^xsd:string ;
+  :text "ποίαν παρεξελθοῦσα δαιμόνων δίκην;"^^xsd:string ;
   :hasTheme :Theme_PietyAndPunishment .
 
-# --- 922 ---
 :Line_922
   a owl:NamedIndividual, :Line ;
   :lineNumber 922 ;
-  :canonicalReference "922"^^xsd:string .
+  :canonicalReference "922"^^xsd:string ;
+  :text "Τί χρή με τὴν δύστηνον ἐς θεοὺς ἔτι"^^xsd:string .
 
-# --- 923 ---
 :Line_923
   a owl:NamedIndividual, :Line ;
   :lineNumber 923 ;
-  :canonicalReference "923"^^xsd:string .
+  :canonicalReference "923"^^xsd:string ;
+  :text "βλέπειν; τίν᾽ αὐδᾶν ξυμμάχων; ἐπεί γε δὴ"^^xsd:string .
 
-# --- 924 ---
 :Line_924
   a owl:NamedIndividual, :Line ;
   :lineNumber 924 ;
-  :canonicalReference "924"^^xsd:string .
+  :canonicalReference "924"^^xsd:string ;
+  :text "τὴν δυσσέβειαν εὐσεβοῦσ᾽ ἐκτησάμην."^^xsd:string .
 
-# --- 925 ---
 :Line_925
   a owl:NamedIndividual, :Line ;
   :lineNumber 925 ;
-  :canonicalReference "925"^^xsd:string .
+  :canonicalReference "925"^^xsd:string ;
+  :text "Ἀλλ᾽ εἰ μὲν οὖν τάδ᾽ ἐστὶν ἐν θεοῖς καλά,"^^xsd:string .
 
-# --- 926 ---
 :Line_926
   a owl:NamedIndividual, :Line ;
   :lineNumber 926 ;
-  :canonicalReference "926"^^xsd:string .
+  :canonicalReference "926"^^xsd:string ;
+  :text "παθόντες ἂν ξυγγνοῖμεν ἡμαρτηκότες·"^^xsd:string .
 
-# --- 927 ---
 :Line_927
   a owl:NamedIndividual, :Line ;
   :lineNumber 927 ;
-  :canonicalReference "927"^^xsd:string .
+  :canonicalReference "927"^^xsd:string ;
+  :text "εἰ δ᾽ οἵδ᾽ ἁμαρτάνουσι, μὴ πλείω κακὰ"^^xsd:string .
 
-# --- 928 ---
 :Line_928
   a owl:NamedIndividual, :Line ;
   :lineNumber 928 ;
-  :canonicalReference "928"^^xsd:string .
+  :canonicalReference "928"^^xsd:string ;
+  :text "πάθοιεν ἢ καὶ δρῶσιν ἐκδίκως ἐμέ."^^xsd:string .
 
-# --- 929 ---
 :Line_929
   a owl:NamedIndividual, :Line ;
   :lineNumber 929 ;
   :canonicalReference "929"^^xsd:string ;
+  :text "Ἔτι τῶν αὐτῶν ἀνέμων αὑταὶ"^^xsd:string ;
   :hasTheme :Theme_PersistenceOfGrief .
 
-# --- 930 ---
 :Line_930
   a owl:NamedIndividual, :Line ;
   :lineNumber 930 ;
   :canonicalReference "930"^^xsd:string ;
+  :text "ψυχῆς ῥιπαὶ τήνδε γ’ ἔχουσιν."^^xsd:string ;
   :hasTheme :Theme_PersistenceOfGrief .
 
-# --- 931 ---
 :Line_931
   a owl:NamedIndividual, :Line ;
   :lineNumber 931 ;
   :canonicalReference "931"^^xsd:string ;
+  :text "Τοιγὰρ τούτων τοῖσιν ἄγουσιν"^^xsd:string ;
   :hasTheme :Theme_PunishmentForDelay .
 
-# --- 932 ---
 :Line_932
   a owl:NamedIndividual, :Line ;
   :lineNumber 932 ;
   :canonicalReference "932"^^xsd:string ;
+  :text "κλαύμαθ’ ὑπάρξει βραδυτῆτος ὕπερ."^^xsd:string ;
   :hasTheme :Theme_PunishmentForDelay .
 
-# --- 933 ---
 :Line_933
   a owl:NamedIndividual, :Line ;
   :lineNumber 933 ;
   :canonicalReference "933"^^xsd:string ;
+  :text "Οἴμοι, θανάτου τοῦτ’ ἐγγυτάτω"^^xsd:string ;
   :hasTheme :Theme_ApproachOfDeath .
 
-# --- 934 ---
 :Line_934
   a owl:NamedIndividual, :Line ;
   :lineNumber 934 ;
   :canonicalReference "934"^^xsd:string ;
+  :text "τοὔπος ἀφῖκται."^^xsd:string ;
   :hasTheme :Theme_ApproachOfDeath .
 
-# --- 935 ---
 :Line_935
   a owl:NamedIndividual, :Line ;
   :lineNumber 935 ;
   :canonicalReference "935"^^xsd:string ;
+  :text "Θαρσεῖν οὐδὲν παραμυθοῦμαι"^^xsd:string ;
   :hasTheme :Theme_ResolveToEnforceDecision .
 
-# --- 936 ---
 :Line_936
   a owl:NamedIndividual, :Line ;
   :lineNumber 936 ;
   :canonicalReference "936"^^xsd:string ;
-  :hasTheme :Theme_PublicWitnessAndShame .
+  :text "μὴ οὐ τάδε ταύτῃ κατακυροῦσθαι."^^xsd:string ;
+  :hasTheme :Theme_ResolveToEnforceDecision .
 
-# --- 937 ---
 :Line_937
   a owl:NamedIndividual, :Line ;
   :lineNumber 937 ;
   :canonicalReference "937"^^xsd:string ;
+  :text "Ὦ γῆς Θήβης ἄστυ πατρῷον"^^xsd:string ;
   :hasTheme :Theme_PublicWitnessAndShame .
 
-# --- 938 ---
 :Line_938
   a owl:NamedIndividual, :Line ;
   :lineNumber 938 ;
   :canonicalReference "938"^^xsd:string ;
-  :hasTheme :Theme_ApproachOfDeath .
+  :text "καὶ θεοὶ προγενεῖς,"^^xsd:string ;
+  :hasTheme :Theme_PublicWitnessAndShame .
 
-# --- 939 ---
 :Line_939
   a owl:NamedIndividual, :Line ;
   :lineNumber 939 ;
   :canonicalReference "939"^^xsd:string ;
-  :hasTheme :Theme_PublicWitnessAndShame .
+  :text "ἄγομαι δὴ κοὐκέτι μέλλω."^^xsd:string ;
+  :hasTheme :Theme_ApproachOfDeath .
 
-# --- 940 ---
 :Line_940
   a owl:NamedIndividual, :Line ;
   :lineNumber 940 ;
   :canonicalReference "940"^^xsd:string ;
+  :text "Λεύσσετε, Θήβης οἱ κοιρανίδαι,"^^xsd:string ;
   :hasTheme :Theme_PublicWitnessAndShame .
 
-# --- 941 ---
 :Line_941
   a owl:NamedIndividual, :Line ;
   :lineNumber 941 ;
   :canonicalReference "941"^^xsd:string ;
+  :text "τὴν βασιλειδᾶν μούνην λοιπήν,"^^xsd:string ;
   :hasTheme :Theme_PublicWitnessAndShame .
 
-# --- 942 ---
 :Line_942
   a owl:NamedIndividual, :Line ;
   :lineNumber 942 ;
   :canonicalReference "942"^^xsd:string ;
-  :hasTheme :Theme_PietyAndSuffering .
+  :text "οἷα πρὸς οἵων ἀνδρῶν πάσχω,"^^xsd:string ;
+  :hasTheme :Theme_PublicWitnessAndShame .
 
-# --- 943 ---
 :Line_943
   a owl:NamedIndividual, :Line ;
   :lineNumber 943 ;
   :canonicalReference "943"^^xsd:string ;
+  :text "τὴν εὐσεβίαν σεβίσασα."^^xsd:string ;
   :hasTheme :Theme_PietyAndSuffering .

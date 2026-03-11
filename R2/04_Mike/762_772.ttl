@@ -1,0 +1,153 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Haemon a :Character .
+:Creon a :Character .
+:Chorus a :Character .
+:Ismene a :Character .
+
+# --- Semantic Entities (Greek) ---
+
+:Motivation_AbandonFather a :Motivation ;
+    :description "Η πρόθεση του Αίμονα να διακόψει οριστικά τους δεσμούς με τον πατέρα του, ώστε ο Κρέων να μην ξαναδεί ποτέ το πρόσωπό του (τοὐμὸν προσόψει κρᾶτ' ἐν ὀφθαλμοῖς ὁρῶν)."^^xsd:string .
+:Haemon :hasMotivation :Motivation_AbandonFather .
+
+:MoralDecision_LeaveCreon a :MoralDecision ;
+    :description "Η αποφασιστική ενέργεια του Αίμονα να αποχωρήσει βίαια και να αρνηθεί να παραστεί στον θάνατο της Αντιγόνης δίπλα του (οὔθ' ἥδ' ὀλεῖται πλησία)."^^xsd:string .
+:Haemon :makesMoralDecision :MoralDecision_LeaveCreon .
+
+:MoralDecision_SpareIsmene a :MoralDecision ;
+    :description "Η απόφαση του Κρέοντα να χαρίσει τη ζωή στην αδελφή που δεν συμμετείχε στο έργο της ταφής και δεν άγγιξε τον νεκρό (Οὐ τήν γε μὴ θιγοῦσαν)."^^xsd:string .
+:Creon :makesMoralDecision :MoralDecision_SpareIsmene .
+
+:Motivation_EnsureExecution a :Motivation ;
+    :description "Η αμετάκλητη πρόθεση του Κρέοντα να διασφαλίσει ότι η Αντιγόνη δεν θα γλιτώσει τον θάνατο (οὐκ ἀπαλλάξει μόρου), ανεξάρτητα από τις απειλές του Αίμονα."^^xsd:string .
+:Creon :hasMotivation :Motivation_EnsureExecution .
+
+:EthicalPrinciple_SpareTheInnocent a :EthicalPrinciple ;
+    :description "Η αρχή ότι εκείνη που κράτησε τα χέρια της καθαρά από το έγκλημα (μὴ θιγοῦσαν) δεν πρέπει να τιμωρηθεί μαζί με την ένοχη."^^xsd:string .
+:Creon :advocatesFor :EthicalPrinciple_SpareTheInnocent .
+
+:Emotion_Anger a :Emotion ;
+    :description "Η έντονη οργή του Αίμονα που τον ωθεί να αποχωρήσει βιαστικά (βέβηκεν ἐξ ὀργῆς ταχύς)."^^xsd:string .
+:Haemon :experiencesEmotion :Emotion_Anger .
+
+:Emotion_Resentment a :Emotion ;
+    :description "Η δυσαρέσκεια και η επικίνδυνη βαρύτητα που αναπτύσσει ένας νεανικός νους (νοῦς τηλικοῦτος βαρύς) όταν πληγώνεται."^^xsd:string .
+:Haemon :experiencesEmotion :Emotion_Resentment .
+
+:Emotion_Pain a :Emotion ;
+    :description "Ο βαθύς ψυχικός πόνος (ἀλγήσας) που βιώνει ο Αίμονας για την καταδίκη της νύφης του και τη ρήξη με τον πατέρα του."^^xsd:string .
+:Haemon :experiencesEmotion :Emotion_Pain .
+
+:Emotion_Ranting a :Emotion ;
+    :description "Η παράλογη μανία του Κρέοντα (μαίνῃ), όπως την αντιλαμβάνεται και την καταδικάζει ο Αίμονας."^^xsd:string .
+:Creon :experiencesEmotion :Emotion_Ranting .
+
+:Conflict_FatherVsSon a :Conflict ;
+    :description "Η τελική ρήξη και σύγκρουση ανάμεσα στην αφοσίωση του Αίμονα στη νύφη του και τις τυραννικές απαιτήσεις του Κρέοντα."^^xsd:string ;
+    :conflictBetween :Haemon, :Creon .
+
+:Event_YouthfulPain a owl:Thing ;
+    :description "Ένα νεανικό μυαλό που βιώνει βαθύ συναισθηματικό πόνο (ἀλγήσας)."^^xsd:string .
+
+:Event_Resentment a owl:Thing ;
+    :description "Το μυαλό που γίνεται βαρύ, επικίνδυνο και μνησίκακο."^^xsd:string .
+:Event_YouthfulPain :relatedTo :Event_Resentment .
+
+:Event_StormingOut a owl:Thing ;
+    :description "Η γρήγορη και βίαιη αποχώρηση του Αίμονα (βέβηκεν ταχύς)."^^xsd:string .
+:Emotion_Anger :relatedTo :Event_StormingOut .
+
+:Cause_KeptHandsClean a owl:Thing ;
+    :description "Η αποχή της Ισμήνης από την πράξη της ταφής, μη αγγίζοντας το πτώμα (μὴ θιγοῦσαν)."^^xsd:string .
+
+:Effect_SparedFromDeath a owl:Thing ;
+    :description "Η εξαίρεση της Ισμήνης από την εκτέλεση που αρχικά προοριζόταν και για τις δύο αδελφές."^^xsd:string .
+:Cause_KeptHandsClean :relatedTo :Effect_SparedFromDeath .
+
+:Theme_YouthfulRashness a :Theme ;
+    :description "Η παθιασμένη, μνησίκακη και παρορμητική φύση της νεότητας όταν έρχεται αντιμέτωπη με το τραύμα και τον πόνο."^^xsd:string .
+
+:Theme_TyrantIsolation a :Theme ;
+    :description "Η απομόνωση του τυράννου, ο οποίος αφήνεται να μαίνεται (μαίνῃ ξυνών) μόνο με όσους φίλους επιλέγουν να τον ανέχονται, διώχνοντας τον ίδιο του τον γιο."^^xsd:string .
+
+:Theme_GuiltAndInnocence a :Theme ;
+    :description "Ο διαχωρισμός μεταξύ ενοχής και αθωότητας, ο οποίος εδώ εκφράζεται με τη φυσική απουσία συμμετοχής (μὴ θιγοῦσαν)."^^xsd:string .
+
+# --- Line-by-Line Extraction with Translation Variants ---
+
+:Line_762 a owl:NamedIndividual, :Line ; :lineNumber 762 ; :canonicalReference "762"^^xsd:string .
+:TV_Line_762_grc a :TranslationVariant ;
+    :text "ΑΙ. Οὐ δῆτ ̓ ἔμοιγε, τοῦτο μὴ δόξῃς ποτέ,"^^xsd:string ;
+    :relatedTo :Line_762 .
+
+:Line_763 a owl:NamedIndividual, :Line ; :lineNumber 763 ; :canonicalReference "763"^^xsd:string .
+:TV_Line_763_grc a :TranslationVariant ;
+    :text "οὔθ ̓ ἥδ ̓ ὀλεῖται πλησία, σύ τ ̓ οὐδαμᾷ"^^xsd:string ;
+    :relatedTo :Line_763 ;
+    :makesMoralDecision :MoralDecision_LeaveCreon .
+
+:Line_764 a owl:NamedIndividual, :Line ; :lineNumber 764 ; :canonicalReference "764"^^xsd:string .
+:TV_Line_764_grc a :TranslationVariant ;
+    :text "τοὐμὸν προσόψει κρᾶτ ̓ ἐν ὀφθαλμοῖς ὁρῶν,"^^xsd:string ;
+    :relatedTo :Line_764 ;
+    :hasMotivation :Motivation_AbandonFather ;
+    :hasConflict :Conflict_FatherVsSon .
+
+:Line_765 a owl:NamedIndividual, :Line ; :lineNumber 765 ; :canonicalReference "765"^^xsd:string .
+:TV_Line_765_grc a :TranslationVariant ;
+    :text "ὡς τοῖς θέλουσι τῶν φίλων μαίνῃ ξυνών."^^xsd:string ;
+    :relatedTo :Line_765 ;
+    :experiencesEmotion :Emotion_Ranting ;
+    :hasTheme :Theme_TyrantIsolation .
+
+:Line_766 a owl:NamedIndividual, :Line ; :lineNumber 766 ; :canonicalReference "766"^^xsd:string .
+:TV_Line_766_grc a :TranslationVariant ;
+    :text "ΧΟ. Ἁνήρ, ἄναξ, βέβηκεν ἐξ ὀργῆς ταχύς·"^^xsd:string ;
+    :relatedTo :Line_766 ;
+    :experiencesEmotion :Emotion_Anger ;
+    :relatedTo :Event_StormingOut .
+
+:Line_767 a owl:NamedIndividual, :Line ; :lineNumber 767 ; :canonicalReference "767"^^xsd:string .
+:TV_Line_767_grc a :TranslationVariant ;
+    :text "νοῦς δ ̓ ἐστὶ τηλικοῦτος ἀλγήσας βαρύς."^^xsd:string ;
+    :relatedTo :Line_767 ;
+    :experiencesEmotion :Emotion_Resentment ;
+    :experiencesEmotion :Emotion_Pain ;
+    :relatedTo :Event_YouthfulPain ;
+    :relatedTo :Event_Resentment ;
+    :hasTheme :Theme_YouthfulRashness .
+
+:Line_768 a owl:NamedIndividual, :Line ; :lineNumber 768 ; :canonicalReference "768"^^xsd:string .
+:TV_Line_768_grc a :TranslationVariant ;
+    :text "ΚΡ. Δράτω, φρονείτω μεῖζον ἢ κατ ̓ ἄνδρ ̓ ἰών·"^^xsd:string ;
+    :relatedTo :Line_768 .
+
+:Line_769 a owl:NamedIndividual, :Line ; :lineNumber 769 ; :canonicalReference "769"^^xsd:string .
+:TV_Line_769_grc a :TranslationVariant ;
+    :text "τώ δ ̓ οὖν κόρα τώδ ̓ οὐκ ἀπαλλάξει μόρου."^^xsd:string ;
+    :relatedTo :Line_769 ;
+    :hasMotivation :Motivation_EnsureExecution .
+
+:Line_770 a owl:NamedIndividual, :Line ; :lineNumber 770 ; :canonicalReference "770"^^xsd:string .
+:TV_Line_770_grc a :TranslationVariant ;
+    :text "ΧΟ. Ἄμφω γὰρ αὐτὼ καὶ κατακτεῖναι νοεῖς;"^^xsd:string ;
+    :relatedTo :Line_770 .
+
+:Line_771 a owl:NamedIndividual, :Line ; :lineNumber 771 ; :canonicalReference "771"^^xsd:string .
+:TV_Line_771_grc a :TranslationVariant ;
+    :text "ΚΡ. Οὐ τήν γε μὴ θιγοῦσαν· εὖ γὰρ οὖν λέγεις."^^xsd:string ;
+    :relatedTo :Line_771 ;
+    :makesMoralDecision :MoralDecision_SpareIsmene ;
+    :advocatesFor :EthicalPrinciple_SpareTheInnocent ;
+    :relatedTo :Cause_KeptHandsClean ;
+    :relatedTo :Effect_SparedFromDeath ;
+    :hasTheme :Theme_GuiltAndInnocence .
+
+:Line_772 a owl:NamedIndividual, :Line ; :lineNumber 772 ; :canonicalReference "772"^^xsd:string .
+:TV_Line_772_grc a :TranslationVariant ;
+    :text "ΧΟ. Μόρῳ δὲ ποίῳ καί σφε βουλεύῃ κτανεῖν;"^^xsd:string ;
+    :relatedTo :Line_772 .
