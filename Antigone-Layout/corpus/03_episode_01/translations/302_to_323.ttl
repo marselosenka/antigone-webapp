@@ -1,7 +1,9 @@
 @prefix : <http://example.org/antigone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+:episode01-translations-302-323 a owl:Ontology .
 # Translation variants for lines 302-323
 
 :TV_Line_302_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_302 ;
