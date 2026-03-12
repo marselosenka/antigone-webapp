@@ -1,0 +1,195 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ==========================
+# Episode 5 Scene Structure
+# ==========================
+
+:Antigone_Scene_Episode5
+    a :Scene ;
+    :sceneNumber "Episode 5"^^xsd:string ;
+    :hasSpeech :Speech_Teiresias_Ep5_Part1, :Speech_Creon_Ep5_Part1, :Speech_Teiresias_Ep5_Part2 ;
+    :developsTheme :Theme_BlindnessVsSight, :Theme_CivicPollution, :Theme_DivineSilence, :Theme_WisdomFlexibility ;
+    :hasConflict :Conflict_StateVsDivinity .
+
+:Antigone_Scene_Episode5_Cont
+    a :Scene ;
+    :sceneNumber "Episode 5 (Continued)"^^xsd:string ;
+    :hasSpeech :Speech_Creon_Ep5_Defense, :Speech_Stichomythia_Ep5 ;
+    :developsTheme :Theme_Hybris, :Theme_Corruption, :Theme_WisdomVsFolly, :Theme_StateVsProphecy ;
+    :hasConflict :Conflict_KingVsSeer, :Conflict_ProfitVsTruth .
+
+:Antigone_Scene_Episode5_Climax
+    a :Scene ;
+    :sceneNumber "Episode 5 (Climax)"^^xsd:string ;
+    :hasSpeech :Speech_Teiresias_Ep5_Prophecy, :Speech_Chorus_Ep5_Reflection, :Speech_Creon_Ep5_Reversal ;
+    :developsTheme :Theme_DivineRetribution, :Theme_Peripeteia, :Theme_CivicPollution, :Theme_NaturalOrder ;
+    :hasConflict :Conflict_UpperLowerWorlds, :Conflict_InternalCreon .
+
+# ==========================
+# Speeches (Lines 988 - 1114)
+# ==========================
+
+:Speech_Teiresias_Ep5_Part1
+    a :Speech ;
+    :speechBy :Antigone_Character_Teiresias ;
+    :containsLine :Line_988, :Line_989, :Line_990 .
+
+:Speech_Creon_Ep5_Part1
+    a :Speech ;
+    :speechBy :Antigone_Character_Creon ;
+    :containsLine :Line_991, :Line_992, :Line_993, :Line_994, :Line_995, :Line_996, :Line_997 .
+
+:Speech_Teiresias_Ep5_Part2
+    a :Speech ;
+    :speechBy :Antigone_Character_Teiresias ;
+    :containsLine :Line_998, :Line_999, :Line_1000, :Line_1001, :Line_1002, :Line_1003, :Line_1004, :Line_1005, :Line_1006, :Line_1007, :Line_1008, :Line_1009, :Line_1010, :Line_1011, :Line_1012, :Line_1013, :Line_1014, :Line_1015, :Line_1016, :Line_1017, :Line_1018, :Line_1019, :Line_1020, :Line_1021, :Line_1022, :Line_1023, :Line_1024, :Line_1025, :Line_1026, :Line_1027, :Line_1028, :Line_1029, :Line_1030, :Line_1031, :Line_1032 ;
+    :hasMotivation :Motivation_WarnCreon ;
+    :containsRhetoricalDevice :Device_Metaphor_RazorEdge .
+
+:Speech_Creon_Ep5_Defense
+    a :Speech ;
+    :speechBy :Antigone_Character_Creon ;
+    :containsLine :Line_1033, :Line_1034, :Line_1035, :Line_1036, :Line_1037, :Line_1038, :Line_1039, :Line_1040, :Line_1041, :Line_1042, :Line_1043, :Line_1044, :Line_1045, :Line_1046, :Line_1047 ;
+    :hasMotivation :Motivation_DismissProphecy ;
+    :experiencesEmotion :Emotion_Paranoia, :Emotion_DefensiveAnger ;
+    :containsRhetoricalDevice :Device_Simile_Archers, :Device_Hyperbole_Eagles .
+
+:Speech_Stichomythia_Ep5
+    a :Speech ;
+    :description "Rapid dialogue (stichomythia) between Creon and Teiresias."^^xsd:string ;
+    :speechBy :Antigone_Character_Creon, :Antigone_Character_Teiresias ;
+    :containsLine :Line_1048, :Line_1049, :Line_1050, :Line_1051, :Line_1052, :Line_1053, :Line_1054, :Line_1055, :Line_1056, :Line_1057, :Line_1058, :Line_1059, :Line_1060, :Line_1061, :Line_1062, :Line_1063 .
+
+:Speech_Teiresias_Ep5_Prophecy
+    a :Speech ;
+    :speechBy :Antigone_Character_Teiresias ;
+    :containsLine :Line_1064, :Line_1065, :Line_1066, :Line_1067, :Line_1068, :Line_1069, :Line_1070, :Line_1071, :Line_1072, :Line_1073, :Line_1074, :Line_1075, :Line_1076, :Line_1077, :Line_1078, :Line_1079, :Line_1080, :Line_1081, :Line_1082, :Line_1083, :Line_1084, :Line_1085, :Line_1086, :Line_1087, :Line_1088, :Line_1089 ;
+    :hasMotivation :Motivation_PronounceDoom ;
+    :containsRhetoricalDevice :Device_Metaphor_Arrows .
+
+:Speech_Chorus_Ep5_Reflection
+    a :Speech ;
+    :speechBy :Antigone_Character_Chorus ;
+    :containsLine :Line_1090, :Line_1091, :Line_1092, :Line_1093, :Line_1094 ;
+    :advocatesFor :Principle_PropheticTruth .
+
+:Speech_Creon_Ep5_Reversal
+    a :Speech ;
+    :speechBy :Antigone_Character_Creon, :Antigone_Character_Chorus ;
+    :description "Dialogue including Creon's capitulation and the Chorus's urgent advice."^^xsd:string ;
+    :containsLine :Line_1095, :Line_1096, :Line_1097, :Line_1098, :Line_1099, :Line_1100, :Line_1101, :Line_1102, :Line_1103, :Line_1104, :Line_1105, :Line_1106, :Line_1107, :Line_1108, :Line_1109, :Line_1110, :Line_1111, :Line_1112, :Line_1113, :Line_1114 ;
+    :hasMotivation :Motivation_AvoidRuin ;
+    :makesMoralDecision :Decision_RevokeEdict .
+
+# ==========================
+# Characters
+# ==========================
+
+:Antigone_Character_Teiresias
+    a :Character ;
+    :role "Seer/Prophet"^^xsd:string ;
+    :status "Priest"^^xsd:string ;
+    :hasMotivation :Motivation_WarnCreon, :Motivation_RestoreRitualOrder, :Motivation_RevealTruth, :Motivation_PronounceDoom ;
+    :experiencesEmotion :Emotion_PropheticDread, :Emotion_Indignation, :Emotion_RighteousAnger ;
+    :advocatesFor :Ethical_Amends, :Principle_PrimacyOfReason .
+
+:Antigone_Character_Creon
+    a :Character ;
+    :role "King of Thebes"^^xsd:string ;
+    :hasMotivation :Motivation_HeedProphet, :Motivation_DismissProphecy, :Motivation_AssertAuthority, :Motivation_AvoidRuin ;
+    :experiencesEmotion :Emotion_TremblingFear, :Emotion_Paranoia, :Emotion_DefensiveAnger, :Emotion_TerrifiedHesitation, :Emotion_Regret ;
+    :makesMoralDecision :Decision_ListenToSeer, :Decision_RevokeEdict ;
+    :advocatesFor :Principle_DivineInvulnerability, :Ethical_TraditionalLaws ;
+    :tragicFlaw "Stubbornness/Hybris"^^xsd:string ;
+    :relatedTo :Event_Peripeteia .
+
+:Antigone_Character_Hephaestus
+    a :Character ;
+    :role "God of Fire/Forge"^^xsd:string ;
+    :description "Ἥφαιστος (Hephaestus), metonymy for the sacrificial fire that failed to ignite."^^xsd:string .
+
+:Antigone_Character_Boy
+    a :Character ;
+    :role "Guide to Teiresias"^^xsd:string ;
+    :description "The eyes for the blind prophet."^^xsd:string .
+
+:Antigone_Character_Polyneices
+    a :Character ;
+    :role "Deceased"^^xsd:string ;
+    :description "The unburied corpse causing the miasma/pollution."^^xsd:string .
+
+:Antigone_Character_Furies
+    a :Character ;
+    :role "Deities of Vengeance"^^xsd:string ;
+    :description "θεῶν Ἐρινύες (Furies), vengeful executioners of Hades who lie in ambush."^^xsd:string .
+
+:Antigone_Character_Haemon
+    a :Character ;
+    :description "The 'corpse sprung from your own flesh' prophesied by Teiresias."^^xsd:string .
+
+# ==========================
+# Themes & Principles
+# ==========================
+
+:Theme_BlindnessVsSight
+    a :Theme ;
+    :description "The paradox where the blind seer sees the truth while the seeing king is blind to reality."^^xsd:string .
+
+:Theme_CivicPollution
+    a :Theme ;
+    :description "Miasma: The spiritual infection of the city caused by the unburied corpse carried by birds/dogs to altars."^^xsd:string .
+
+:Theme_Hybris
+    a :Theme ;
+    :description "Creon's arrogance in claiming his will supersedes ritual pollution, even daring Zeus's eagles."^^xsd:string .
+
+:Theme_WisdomVsFolly
+    a :Theme ;
+    :description "The debate over whether 'reason' (εὐβουλία) is the greatest good and 'thoughtlessness' (μὴ φρονεῖν) the greatest disease."^^xsd:string .
+
+:Principle_DivineInvulnerability
+    a :EthicalPrinciple ;
+    :description "Creon's misconception that human actions cannot pollute the gods (θεοὺς μιαίνειν οὔτις ἀνθρώπων σθένει)."^^xsd:string .
+
+:Principle_PrimacyOfReason
+    a :PhilosophicalConcept ;
+    :description "The assertion that sound judgment (εὐβουλία) is the most valuable possession."^^xsd:string .
+
+# ==========================
+# Rhetorical Devices & Symbols
+# ==========================
+
+:Device_Metaphor_RazorEdge
+    a :RhetoricalDevice ;
+    :description "The metaphor 'ἐπὶ ξυροῦ τύχης' (on the razor's edge of fortune)."^^xsd:string .
+
+:Device_Simile_Archers
+    a :MetaphorSimile ;
+    :description "Comparison of the prophet's accusations to a team of archers shooting at a target (τοξόται σκοποῦ)."^^xsd:string .
+
+:Device_Hyperbole_Eagles
+    a :RhetoricalDevice ;
+    :description "Exaggeration that even if Zeus's eagles (Ζηνὸς αἰετοὶ) carried carrion to the throne, Creon would not yield."^^xsd:string .
+
+:Symbol_FightingBirds
+    a :Symbol ;
+    :description "The barbarous shrieking and fighting of birds (φθόγγον ὀρνίθων), symbolizing civil breakdown."^^xsd:string .
+
+:Symbol_FailedSacrifice
+    a :Symbol ;
+    :description "The failure of burnt offerings (ἐμπύρων) to ignite (οὐκ ἔλαμπεν), signifying divine rejection."^^xsd:string .
+
+# ==========================
+# Causal & Event Logic
+# ==========================
+
+:Causal_Pollution
+    a owl:Thing ;
+    :description "Polyneices' unburied body -> Carrion birds/dogs carry flesh to altars -> Altars polluted -> Gods reject prayers."^^xsd:string ;
+    :relatedTo :Antigone_Character_Polyneices, :Theme_CivicPollution .
+
+:Event_Peripeteia
+    a owl:Thing ;
+    :description "The moment Creon explicitly states 'My mind has changed' (Reversal of Fortune)."^^xsd:string .

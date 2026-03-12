@@ -1,0 +1,90 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_Stasimon4
+a :Scene ;
+:sceneNumber "Stasimon 4"^^xsd:string ;
+:hasSpeech :Speech_Chorus_Stasimon4 ;
+:developsTheme :Theme_FateInevitability, :Theme_NobleSuffering ;
+:hasHistoricalContext :Context_MythologicalPrecedents .
+
+:Speech_Chorus_Stasimon4
+a :Speech ;
+:speechBy :Antigone_Character_Chorus ;
+:containsLine :Line_966, :Line_967, :Line_968, :Line_969, :Line_970, :Line_971, :Line_972, :Line_973, :Line_974, :Line_975, :Line_976, :Line_977, :Line_978, :Line_979, :Line_980, :Line_981, :Line_982, :Line_983, :Line_984, :Line_985, :Line_986, :Line_987 ;
+:referencesMyth :Myth_PhineusSons, :Myth_CleopatraBoread .
+
+:Antigone_Character_Chorus
+a :Character ;
+:role "Chorus of Theban Elders"^^xsd:string ;
+:hasMotivation :Motivation_ContextualizeSuffering .
+
+:Antigone_Character_Phineids
+a :Character ;
+:description "The blinded sons of Phineus."^^xsd:string ;
+:experiencesEmotion :Emotion_Agony, :Emotion_Despair .
+
+:Antigone_Character_Cleopatra
+a :Character ;
+:description "Daughter of Boreas, mother of the Phineids."^^xsd:string ;
+:status "Semi-divine"^^xsd:string ;
+:relatedTo :Fate_CleopatraDoom .
+
+:Antigone_Character_Ares
+a :Character ;
+:role "Deity (Observer)"^^xsd:string ;
+:description "God of War, observing the violence in Thrace."^^xsd:string .
+
+:Antigone_Character_Fates
+a :Character ;
+:role "Deities of Destiny"^^xsd:string ;
+:description "The Moirai, who control the destiny of mortals and gods alike."^^xsd:string .
+
+################################################################
+
+# THEMES, MOTIVATIONS, EMOTIONS, MYTHS
+
+################################################################
+
+:Theme_FateInevitability
+a :Theme ;
+:description "The inescapable nature of Fate (Moirai), which catches even those of divine birth."^^xsd:string .
+
+:Theme_NobleSuffering
+a :Theme ;
+:description "The recurring motif of high-born or divine figures enduring horrific pain and imprisonment."^^xsd:string .
+
+:Motivation_ContextualizeSuffering
+a :Motivation ;
+:description "To comfort or warn Antigone by showing that even the gods' children suffer cruel fates."^^xsd:string .
+
+:Emotion_Agony
+a :Emotion ;
+:description "Physical and mental suffering caused by blinding and imprisonment."^^xsd:string .
+
+:Emotion_Despair
+a :Emotion ;
+:description "The misery of wasting away ('melting away') in an unfortunate plight."^^xsd:string .
+
+:Emotion_VengefulRage
+a :Emotion ;
+:description "Implicit scream for vengeance against the savage injustice."^^xsd:string .
+
+:Myth_PhineusSons
+a :MythologicalBackground ;
+:description "The blinding of Phineus' sons by their stepmother in Thrace."^^xsd:string .
+
+:Myth_CleopatraBoread
+a :MythologicalBackground ;
+:description "The story of Cleopatra, daughter of the North Wind, who despite her divine speed and origin, was trapped by Fate."^^xsd:string .
+
+:Conflict_FateVsDivinity
+a :Conflict ;
+:description "The conflict between divine heritage and the superior power of Fate."^^xsd:string ;
+:conflictBetween :Antigone_Character_Cleopatra, :Antigone_Character_Fates .
+
+:Fate_CleopatraDoom
+a :FateConcept ;
+:description "The eternal Fates descending upon the child of Boreas."^^xsd:string .

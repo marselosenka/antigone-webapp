@@ -1,0 +1,67 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+################################################################
+# ENGLISH TRANSLATION VARIANTS (Lines 1306 - 1353)
+################################################################
+
+:TV_Line_1306_en a :TranslationVariant ; :relatedTo :Line_1306 ; :text "Ah me! Ah me! I am beside myself with fear!"^^xsd:string .
+:TV_Line_1307_en a :TranslationVariant ; :relatedTo :Line_1307 ; :text "Why hasn’t anyone struck me down"^^xsd:string .
+:TV_Line_1308_en a :TranslationVariant ; :relatedTo :Line_1308 ; :text "With their double-bladed sword?"^^xsd:string .
+:TV_Line_1310_en a :TranslationVariant ; :relatedTo :Line_1310 ; :text "I’ve been bathed in wretched anguish!"^^xsd:string .
+:TV_Line_1312_en a :TranslationVariant ; :relatedTo :Line_1312 ; :text "Blame for the death of both your sons was placed upon you."^^xsd:string .
+:TV_Line_1315_en a :TranslationVariant ; :relatedTo :Line_1315 ; :text "By her own hand—she stuck herself in the liver."^^xsd:string .
+:TV_Line_1317_en a :TranslationVariant ; :relatedTo :Line_1317 ; :text "Ah me! Ah me! For all my crimes this suffering will never fix itself upon another!"^^xsd:string .
+:TV_Line_1319_en a :TranslationVariant ; :relatedTo :Line_1319 ; :text "For I, I killed you, wretched that I am."^^xsd:string ; :hasTheme :Theme_FullConfession .
+:TV_Line_1321_en a :TranslationVariant ; :relatedTo :Line_1321 ; :text "Take me as fast as you can, take Creon away!"^^xsd:string .
+:TV_Line_1322_en a :TranslationVariant ; :relatedTo :Line_1322 ; :text "I might as well be nothing now!"^^xsd:string ; :hasTheme :Theme_AnnihilationOfSelf .
+:TV_Line_1325_en a :TranslationVariant ; :relatedTo :Line_1325 ; :text "The fastest plan is best when evil is gnawing at your feet."^^xsd:string .
+:TV_Line_1330_en a :TranslationVariant ; :relatedTo :Line_1330 ; :text "Leading out my final day, the very last!"^^xsd:string .
+:TV_Line_1332_en a :TranslationVariant ; :relatedTo :Line_1332 ; :text "So I may never see another day!"^^xsd:string .
+:TV_Line_1337_en a :TranslationVariant ; :relatedTo :Line_1337 ; :text "Pray no more; for mortals have no escape from destined misfortune."^^xsd:string ; :hasTheme :Theme_InevitabilityOfFate .
+:TV_Line_1340_en a :TranslationVariant ; :relatedTo :Line_1340 ; :text "Who, O child, did not kill you on purpose—and you, too, my wife."^^xsd:string .
+:TV_Line_1346_en a :TranslationVariant ; :relatedTo :Line_1346 ; :text "An unbearable fate leaps upon my head!"^^xsd:string .
+:TV_Line_1347_en a :TranslationVariant ; :relatedTo :Line_1347 ; :text "Wisdom is the supreme part of happiness."^^xsd:string ; :hasTheme :Theme_WisdomThroughSuffering .
+:TV_Line_1348_en a :TranslationVariant ; :relatedTo :Line_1348 ; :text "As for the gods, you must take care not to misstep in any way."^^xsd:string ; :hasTheme :Theme_Piety .
+:TV_Line_1350_en a :TranslationVariant ; :relatedTo :Line_1350 ; :text "Great words of the overbearing are paid back with great blows."^^xsd:string .
+:TV_Line_1352_en a :TranslationVariant ; :relatedTo :Line_1352 ; :text "In old age he teaches his wisdom."^^xsd:string .
+
+################################################################
+# MODERN GREEK TRANSLATION VARIANTS (Lines 1306 - 1353)
+################################################################
+
+:TV_Line_1306_Gr a :TranslationVariant ; :relatedTo :Line_1306 ; :text "Ανάθεμά με· γιατί ζω, ο άθλιος, ακόμα; Ας με σκοτώσει κάποιος."^^xsd:string .
+:TV_Line_1311_Gr a :TranslationVariant ; :relatedTo :Line_1311 ; :text "Μα δεν υπάρχει άνθρωπος πιο ένοχος από μένα."^^xsd:string .
+:TV_Line_1314_Gr a :TranslationVariant ; :relatedTo :Line_1314 ; :text "Ναι, εγώ σας σκότωσα· εγώ, ο άθλιος – τ’ ομολογώ. Ένα μηδενικό, ένα τίποτα είμαι."^^xsd:string ; :hasTheme :Theme_AnnihilationOfSelf .
+:TV_Line_1315_Gr a :TranslationVariant ; :relatedTo :Line_1315 ; :text "Φρουροί, πάρτε με αμέσως από εδώ. Είμαι νεκρός, νεκρός..."^^xsd:string .
+:TV_Line_1318_Gr a :TranslationVariant ; :relatedTo :Line_1318 ; :text "Έλα θάνατε· έλα, χάρισέ μου τα γεράματα που αξίζω."^^xsd:string .
+:TV_Line_1322_Gr a :TranslationVariant ; :relatedTo :Line_1322 ; :text "Έλα, λυπήσου με: άλλη μέρα να μην δω."^^xsd:string .
+:TV_Line_1332_Gr a :TranslationVariant ; :relatedTo :Line_1332 ; :text "Με προσευχές, δεν γίνεται ν’ απαλλαγείς από το πεπρωμένο σου."^^xsd:string ; :hasTheme :Theme_InevitabilityOfFate .
+:TV_Line_1334_Gr a :TranslationVariant ; :relatedTo :Line_1334 ; :text "Βάρος να μην σας γίνομαι, ο φονιάς."^^xsd:string .
+:TV_Line_1340_Gr a :TranslationVariant ; :relatedTo :Line_1340 ; :text "Παιδί μου εσύ... γυναίκα μου... σας σκότωσα... δεν ήθελα..."^^xsd:string .
+:TV_Line_1346_Gr a :TranslationVariant ; :relatedTo :Line_1346 ; :text "Μου ρήμαξε τα χέρια η τρέλα που με χτύπησε."^^xsd:string .
+:TV_Line_1347_Gr a :TranslationVariant ; :relatedTo :Line_1347 ; :text "Την ευτυχία ο νους την κάνει. Ο νους κι η ταπεινοφροσύνη."^^xsd:string ; :hasTheme :Theme_WisdomAndHumility .
+:TV_Line_1348_Gr a :TranslationVariant ; :relatedTo :Line_1348 ; :text "Μεγάλα λόγια, αγιάτρευτες πληγές."^^xsd:string .
+:TV_Line_1350_Gr a :TranslationVariant ; :relatedTo :Line_1350 ; :text "Μακάρι να προλάβει ν’ ασπρίσουν τα μαλλιά του και να μάθει."^^xsd:string .
+:TV_Line_1352_Gr a :TranslationVariant ; :relatedTo :Line_1353 ; :text "Δεν υπάρχει βαθύτερος γκρεμός απ’ την ανθρώπινη ανοησία!"^^xsd:string .
+
+################################################################
+# ANCIENT GREEK VARIANTS (Lines 1306 - 1352)
+################################################################
+
+:TV_Line_1306_grc a :TranslationVariant ; :relatedTo :Line_1306 ; :text "ΚΡ. Αἰαῖ αἰαῖ, στροφή β ́"^^xsd:string .
+:TV_Line_1308_grc a :TranslationVariant ; :relatedTo :Line_1308 ; :text "ἔπαισέν τις ἀμφιθήκτῳ ξίφει;"^^xsd:string .
+:TV_Line_1311_grc a :TranslationVariant ; :relatedTo :Line_1311 ; :text "δειλαίᾳ δὲ συγκέκραμαι δύᾳ."^^xsd:string .
+:TV_Line_1315_grc a :TranslationVariant ; :relatedTo :Line_1315 ; :text "Παίσασ ̓ ὑφ ἧπαρ αὐτόχειρ αὑτήν."^^xsd:string .
+:TV_Line_1319_grc a :TranslationVariant ; :relatedTo :Line_1319 ; :text "Ἐγὼ γάρ σ ̓ ἐγώ σ ̓ ἔκανον, ὢ μέλεος."^^xsd:string .
+:TV_Line_1325_grc a :TranslationVariant ; :relatedTo :Line_1325 ; :text "τὸν οὐκ ὄντα μᾶλλον ἢ μηδένα."^^xsd:string .
+:TV_Line_1327_grc a :TranslationVariant ; :relatedTo :Line_1327 ; :text "βράχιστα γὰρ κράτιστα τἀν ποσὶν κακά."^^xsd:string .
+:TV_Line_1330_grc a :TranslationVariant ; :relatedTo :Line_1330 ; :text "ἐμοὶ τερμίαν ἄγων ἁμέραν."^^xsd:string .
+:TV_Line_1337_grc a :TranslationVariant ; :relatedTo :Line_1337 ; :text "Μή νυν προσεύχου μηδέν· ὡς πεπρωμένης."^^xsd:string .
+:TV_Line_1338_grc a :TranslationVariant ; :relatedTo :Line_1338 ; :text "οὐκ ἔστι θνητοῖς συμφορᾶς ἀπαλλαγή."^^xsd:string .
+:TV_Line_1346_grc a :TranslationVariant ; :relatedTo :Line_1346 ; :text "τὰ δ ̓ ἐπὶ κρατί μοι πότμος δυσκόμιστος εἰσήλατο."^^xsd:string .
+:TV_Line_1347_grc a :TranslationVariant ; :relatedTo :Line_1347 ; :text "Πολλῷ τὸ φρονεῖν εὐδαιμονίας πρῶτον ὑπάρχει."^^xsd:string .
+:TV_Line_1350_grc a :TranslationVariant ; :relatedTo :Line_1350 ; :text "μεγάλας πληγὰς τῶν ὑπεραύχων."^^xsd:string .
+:TV_Line_1352_grc a :TranslationVariant ; :relatedTo :Line_1352 ; :text "γήρᾳ τὸ φρονεῖν ἐδίδαξαν."^^xsd:string .

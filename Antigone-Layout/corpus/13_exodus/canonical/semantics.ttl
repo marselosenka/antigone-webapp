@@ -1,0 +1,153 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ==========================
+# Exodus Scene Structure
+# ==========================
+
+:Antigone_Scene_Exodus
+    a :Scene ;
+    :sceneNumber "Exodus (Έξοδος)"^^xsd:string ;
+    :summary "The messenger narrative of the burial and suicides, the appearance and death of Eurydice, and Creon's total psychological collapse."^^xsd:string ;
+    :hasSpeech :Speech_Messenger_1155_1171, :Speech_Chorus_1172_1182, :Speech_Eurydice_1183_1191, 
+                :Speech_Messenger_1192_1243, :Speech_Creon_Return_1261_1276, :Speech_DoubleTragedy_1277_1305, 
+                :Speech_Exodus_Finale_1306_1352 ;
+    :developsTheme :Theme_FateInstability, :Theme_PowerWorthlessness, :Theme_MarriageInDeath, 
+                    :Theme_WisdomThroughSuffering, :Theme_DivineMadness, :Theme_LivingCorpse ;
+    :hasConflict :Conflict_HaemonVsCreon, :Conflict_FortuneVsProphecy, :Conflict_ArroganceVsWisdom .
+
+# ==========================
+# Speeches (Consolidated)
+# ==========================
+
+:Speech_Messenger_1155_1171
+    a :Speech ;
+    :speechBy :Antigone_Character_Messenger ;
+    :containsLine :Line_1155, :Line_1160, :Line_1165, :Line_1170 ;
+    :hasTheme :Theme_FateInstability .
+
+:Speech_Eurydice_1183_1191
+    a :Speech ;
+    :speechBy :Antigone_Character_Eurydice ;
+    :experiencesEmotion :Emotion_Shock, :Emotion_Terror ;
+    :containsLine :Line_1183, :Line_1185, :Line_1190 .
+
+:Speech_Messenger_1192_1243
+    a :Speech ;
+    :speechBy :Antigone_Character_Messenger ;
+    :hasMotivation :Motivation_AbsoluteTruth ;
+    :hasTheme :Theme_MarriageInDeath, :Theme_HumanFolly, :Theme_ProperBurial ;
+    :containsLine :Line_1192, :Line_1200, :Line_1210, :Line_1220, :Line_1230, :Line_1240, :Line_1243 .
+
+:Speech_Creon_Return_1261_1276
+    a :Speech ;
+    :speechBy :Antigone_Character_Creon ;
+    :hasTheme :Theme_LateWisdom, :Theme_DivineMadness ;
+    :containsLine :Line_1261, :Line_1265, :Line_1270, :Line_1272, :Line_1276 .
+
+:Speech_Exodus_Finale_1306_1352
+    a :Speech ;
+    :speechBy :Antigone_Character_Creon, :Antigone_Character_Chorus ;
+    :hasTheme :Theme_WisdomThroughSuffering, :Theme_InevitabilityOfFate, :Theme_AnnihilationOfSelf ;
+    :containsLine :Line_1306, :Line_1314, :Line_1320, :Line_1325, :Line_1334, :Line_1347, :Line_1350, :Line_1353 .
+
+# ==========================
+# Characters & Roles
+# ==========================
+
+:Antigone_Character_Messenger
+    a :Character ;
+    :role "Messenger (Άγγελος/Εξάγγελος)"^^xsd:string ;
+    :hasMotivation :Motivation_ReportDownfall, :Motivation_AbsoluteTruth, :Motivation_CheckEurydice ;
+    :experiencesEmotion :Emotion_PhilosophicalSorrow, :Emotion_Fatalism, :Emotion_Suspicion .
+
+:Antigone_Character_Creon
+    a :Character ;
+    :role "Creon (Κρέων)"^^xsd:string ;
+    :status "King (Tyrannos)"^^xsd:string ;
+    :makesMoralDecision :Decision_ConfessGuilt, :Decision_AcceptTotalBlame ;
+    :experiencesEmotion :Emotion_Lamentation, :Emotion_SelfLoathing, :Emotion_Agony, :Emotion_Annihilation, :Emotion_ShatteredIdentity ;
+    :hasMotivation :Motivation_RescueSon, :Motivation_PublicLament, :Motivation_DeathWish .
+
+:Antigone_Character_Eurydice
+    a :Character ;
+    :role "Eurydice (Ευρυδίκη)"^^xsd:string ;
+    :makesMoralDecision :Decision_FinalSuicide ;
+    :experiencesEmotion :Emotion_MaternalGrief, :Emotion_Terror, :Emotion_Misery, :Emotion_Bitterness ;
+    :hasMotivation :Motivation_SeekTruth, :Motivation_CurseCreon .
+
+:Antigone_Character_Haemon
+    a :Character ;
+    :role "Haemon (Αίμων)"^^xsd:string ;
+    :makesMoralDecision :Decision_Suicide_Revenge ;
+    :experiencesEmotion :Emotion_Rage, :Emotion_Despair, :Emotion_Grief ;
+    :hasMotivation :Motivation_RevengeAgainstFather .
+
+:Antigone_Character_Chorus
+    a :Character ;
+    :role "Chorus of Theban Elders (Χορός Θηβαίων Γερόντων)"^^xsd:string ;
+    :experiencesEmotion :Emotion_Anxiety, :Emotion_Foreboding, :Emotion_SternMoralizing ;
+    :advocatesFor :EthicalPrinciple_Wisdom, :EthicalPrinciple_Humility, :EthicalPrinciple_Phronein .
+
+:Antigone_Character_Megareus
+    a :Character ;
+    :description "Elder son of Creon, whose prior death is lamented by Eurydice."^^xsd:string .
+
+# ==========================
+# Themes & Concepts
+# ==========================
+
+:Theme_FateInstability
+    a :Theme ;
+    :description "The volatility of fortune; no man's happiness can be guaranteed until the end (Η αστάθεια της ανθρώπινης τύχης)."^^xsd:string .
+
+:Theme_MarriageInDeath
+    a :Theme ;
+    :description "The union of Haemon and Antigone in the tomb; the 'Marriage to Hades' (Ο θάνατος ως γάμος στα παλάτια του Άδη)."^^xsd:string .
+
+:Theme_WisdomThroughSuffering
+    a :Theme ;
+    :description "The final moral: wisdom (Phronesis) is learned through the 'mighty blows' of fate (Η τραγική συνειδητοποίηση μέσω των παθημάτων)."^^xsd:string .
+
+:Theme_AnnihilationOfSelf
+    a :Theme ;
+    :description "Creon's realization that he is now 'nothing' (μηδενικό), having lost his identity as a ruler and father."^^xsd:string .
+
+:Theme_DivineMadness
+    a :Theme ;
+    :description "The belief that a god led the leader into a 'crushing weight' of folly (Divine Ate/Άτη)."^^xsd:string .
+
+:Theme_DangerousSilence
+    a :Theme ;
+    :description "The ominous quality of Eurydice's silence, which signifies a pain too deep for public wailing."^^xsd:string .
+
+# ==========================
+# Conflicts
+# ==========================
+
+:Conflict_HaemonVsCreon
+    a :Conflict ;
+    :description "The final physical and emotional enmity between father and son in the tomb."^^xsd:string ;
+    :conflictBetween :Antigone_Character_Haemon, :Antigone_Character_Creon .
+
+:Conflict_ArroganceVsWisdom
+    a :Conflict ;
+    :description "The clash between Creon’s political pride (Hubris) and the required humility/wisdom (Phronesis)."^^xsd:string ;
+    :conflictBetween :EthicalPrinciple_Pride, :EthicalPrinciple_Wisdom .
+
+:Conflict_FortuneVsProphecy
+    a :Conflict ;
+    :description "The inability of mortal power to stop the fulfillment of divine/fate-driven destruction."^^xsd:string .
+
+# ==========================
+# Ethical Principles
+# ==========================
+
+:EthicalPrinciple_Wisdom
+    a :EthicalPrinciple ;
+    :description "Phronesis (φρόνηση): The primary requirement for human happiness."^^xsd:string .
+
+:EthicalPrinciple_Humility
+    a :EthicalPrinciple ;
+    :description "Respect for the gods and the avoidance of boastful words (ταπεινοφροσύνη)."^^xsd:string .

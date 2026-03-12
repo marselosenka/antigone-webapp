@@ -1,0 +1,114 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# ==========================
+# Stasimon 5 Scene Structure
+# ==========================
+
+:Antigone_Scene_Stasimon5
+    a :Scene ;
+    :sceneNumber "Stasimon 5"^^xsd:string ;
+    :hasSpeech :Speech_Chorus_1115_1154 ;
+    :developsTheme :Theme_DivineIntervention, :Theme_CivicPollution, :Theme_DionysianWorship, :Theme_Hope ;
+    :hasConflict :Conflict_ThebesVsPlague ;
+    :hasHistoricalContext :Context_ThebanPlague .
+
+:Speech_Chorus_1115_1154
+    a :Speech ;
+    :speechBy :Antigone_Character_Chorus ;
+    :partOfScene :Antigone_Scene_Stasimon5 ;
+    :hasMotivation :Motivation_InvokeHealer ;
+    :hasConvention :Convention_ChoralOde ;
+    :containsLine :Line_1115, :Line_1116, :Line_1117, :Line_1118, :Line_1119,
+                  :Line_1120, :Line_1121, :Line_1122, :Line_1123, :Line_1124,
+                  :Line_1125, :Line_1126, :Line_1127, :Line_1128, :Line_1129,
+                  :Line_1130, :Line_1131, :Line_1132, :Line_1133, :Line_1134,
+                  :Line_1135, :Line_1136, :Line_1137, :Line_1138, :Line_1139,
+                  :Line_1140, :Line_1141, :Line_1142, :Line_1143, :Line_1144,
+                  :Line_1145, :Line_1146, :Line_1147, :Line_1148, :Line_1149,
+                  :Line_1150, :Line_1151, :Line_1152, :Line_1153, :Line_1154 .
+
+# ==========================
+# Characters & Entities
+# ==========================
+
+:Antigone_Character_Chorus
+    a :Character ;
+    :role "Chorus of Theban Elders"^^xsd:string ;
+    :hasMotivation :Motivation_CleanseThebes, :Motivation_InvokeHealer ;
+    :experiencesEmotion :Emotion_ReligiousFervor, :Emotion_DesperateHope, :Emotion_DesperateReverence ;
+    :referencesMyth :Myth_Semele, :Myth_DragonsTeeth, :Myth_Nysa .
+
+:Antigone_Character_Dionysus
+    a :Character ;
+    :role "Deity (Invoked)"^^xsd:string ;
+    :description "The god Dionysus (Bacchus, Iacchus), protector and patron of Thebes, invoked to heal the city."^^xsd:string .
+
+# ==========================
+# Themes & Motivations
+# ==========================
+
+:Theme_DivineIntervention
+    a :Theme ;
+    :description "The reliance on gods to cure civic ailments (plague/miasma) that human agency cannot fix."^^xsd:string .
+
+:Theme_CivicPollution
+    a :Theme ;
+    :description "Miasma: The concept of the city being infected by a moral or physical disease mirroring the royal house's corruption."^^xsd:string .
+
+:Theme_DionysianWorship
+    a :Theme ;
+    :description "Ritualistic elements: dancing, fire, night-wandering, and frenzy associated with Bacchus."^^xsd:string .
+
+:Theme_Hope
+    a :Theme ;
+    :description "The desperate anticipation for divine salvation."^^xsd:string .
+
+:Motivation_CleanseThebes
+    a :Motivation ;
+    :description "The urgent desire to purify the city and invoke a healer to remove the curse."^^xsd:string .
+
+:Motivation_InvokeHealer
+    a :Motivation ;
+    :description "The specific act of calling upon Dionysus to come with 'cleansing foot'."^^xsd:string .
+
+# ==========================
+# Emotions & Myths
+# ==========================
+
+:Emotion_ReligiousFervor
+    a :Emotion ;
+    :description "Intense, frenzied devotion and praise directed at the deity."^^xsd:string .
+
+:Emotion_DesperateHope
+    a :Emotion ;
+    :description "Anxiety mixed with the reverence and hope that the god will arrive in time."^^xsd:string .
+
+:Myth_Semele
+    a :MythologicalBackground ;
+    :description "Semele, the Cadmean bride and mother of Bacchus, associated with the city's divine lineage."^^xsd:string .
+
+:Myth_DragonsTeeth
+    a :MythologicalBackground ;
+    :description "The founding myth of Thebes (Ismenian) involving the slaying of the dragon and the sowing of the Spartoi."^^xsd:string .
+
+:Myth_Nysa
+    a :MythologicalBackground ;
+    :description "The ivy-clad slopes of Nysa associated with the raising and epiphany of Dionysus."^^xsd:string .
+
+# ==========================
+# Context & Conventions
+# ==========================
+
+:Convention_ChoralOde
+    a :AthenianTragedyConvention ;
+    :description "Lyric song performed by the Chorus, providing religious elevation and community voice."^^xsd:string .
+
+:Context_ThebanPlague
+    a :HistoricalContext ;
+    :description "The sickness affecting Thebes, requiring ritual purification (Catharsis)."^^xsd:string .
+
+:Conflict_ThebesVsPlague
+    a :Conflict ;
+    :description "The struggle between the city's survival and the spreading spiritual/physical pollution."^^xsd:string .
