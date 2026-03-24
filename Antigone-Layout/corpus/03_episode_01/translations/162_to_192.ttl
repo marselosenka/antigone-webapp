@@ -72,3 +72,76 @@
 :relatedTo :Line_174 ;
 :hasTheme :Theme_PoliticalTransitionToCreon ;
 :relatedTo :Event_CreonAccession .
+
+:TV_Line_175_en a :TranslationVariant ;
+:text "But you never really know the heart,"^^xsd:string ;
+:relatedTo :Line_175 .
+
+:TV_Line_176_en a :TranslationVariant ;
+:text "Mind, and soul of a man until"^^xsd:string ;
+:relatedTo :Line_176 .
+
+:TV_Line_177_en a :TranslationVariant ;
+:text "The day you watch him rule."^^xsd:string ;
+:relatedTo :Line_177 .
+
+:TV_Line_178_en a :TranslationVariant ;
+:text "In my eyes, the worst kind of leader"^^xsd:string ;
+:relatedTo :Line_178 .
+
+:TV_Line_179_en a :TranslationVariant ;
+:text "Is the one who rules without clear intentions,"^^xsd:string ;
+:relatedTo :Line_179 .
+
+:TV_Line_180_en a :TranslationVariant ;
+:text "Who holds his tongue whenever he’s afraid—"^^xsd:string ;
+:relatedTo :Line_180 .
+
+:TV_Line_181_en a :TranslationVariant ;
+:text "Now and always, that’s the lowest kind."^^xsd:string ;
+:relatedTo :Line_181 .
+
+:TV_Line_182_en a :TranslationVariant ;
+:text "Likewise I have nothing to say for leaders who put"^^xsd:string ;
+:relatedTo :Line_182 .
+
+:TV_Line_183_en a :TranslationVariant ;
+:text "Their friends before their country."^^xsd:string ;
+:relatedTo :Line_183 .
+
+:TV_Line_184_en a :TranslationVariant ;
+:text "Be my witness, all-seeing Zeus:"^^xsd:string ;
+:relatedTo :Line_184 .
+
+:TV_Line_185_en a :TranslationVariant ;
+:text "I would never stay silent if I saw trouble"^^xsd:string ;
+:relatedTo :Line_185 .
+
+:TV_Line_186_en a :TranslationVariant ;
+:text "Threatening the safety of our society."^^xsd:string ;
+:relatedTo :Line_186 .
+
+:TV_Line_187_en a :TranslationVariant ;
+:text "I would never make friends"^^xsd:string ;
+:relatedTo :Line_187 .
+
+:TV_Line_188_en a :TranslationVariant ;
+:text "With my country’s enemies, for I know that"^^xsd:string ;
+:relatedTo :Line_188 .
+
+:TV_Line_189_en a :TranslationVariant ;
+:text "She is our common protector, and that we can consider"^^xsd:string ;
+:relatedTo :Line_189 .
+
+:TV_Line_190_en a :TranslationVariant ;
+:text "Only our fellow shipmates true friends."^^xsd:string ;
+:relatedTo :Line_190 .
+
+:TV_Line_191_en a :TranslationVariant ;
+:text "According to these principles I will glorify our city."^^xsd:string ;
+:relatedTo :Line_191 .
+
+:TV_Line_192_en a :TranslationVariant ;
+:text "With them in mind I’ve already made a public decree"^^xsd:string ;
+:relatedTo :Line_192 .
+

@@ -149,17 +149,7 @@
   :text "ἀκταὶ Βοσπόριαι ἰδ ̓ ὁ Θρῃκῶν <ἠιὼν>"^^xsd:string ;
   :hasTheme :Theme_NobleSuffering .
 
-#:Line_968 a :Line ;
-#:lineNumber 968 ;
-#:canonicalReference "968" ;
-#:text "(context of Salmydessus)"^^xsd:string ;
-#:relatedTo :Place_Salmydessus .
-
-#:Line_969 a :Line ;
-#:lineNumber 969 ;
-#:canonicalReference "969" ;
-#:text "(context of Ares)"^^xsd:string .
-
+# 968 and 969 do not exist in the verses
 :Line_970 a :Line ;
   :lineNumber 970 ;
   :canonicalReference "970" ;
