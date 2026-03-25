@@ -6,12 +6,12 @@
 :prologue-translations-90-99 a owl:Ontology .
 
 :TV_Line_090_en a :TranslationVariant ;
-:text "You may perhaps succeed—but you are in love with the impossible."^^xsd:string ;
-:relatedTo :Line_090 ;
-:hasTheme :Theme_ImpossibleAction ;
-:hasMotivation :Motivation_IsmeneDiscourageImpossible ;
-:experiencesEmotion :Emotion_IsmeneConcern ;
-:hasConflict :Conflict_PrudenceVsHonor .
+    :text "You may perhaps succeed—but you are in love with the impossible."^^xsd:string ;
+    :relatedTo :Line_090 ;
+    :hasTheme :Theme_ImpossibleAction ;
+    :hasMotivation :Motivation_IsmeneDiscourageImpossible ;
+    :experiencesEmotion :Emotion_IsmeneConcern ;
+    :hasConflict :Conflict_PrudenceVsHonor .
 
 :TV_Line_091_en a :TranslationVariant ;
 :text "Then when I no longer have the strength, I will stop."^^xsd:string ;

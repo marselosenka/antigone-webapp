@@ -34,10 +34,7 @@
   :text "This man who threw the laws to the wind?"^^xsd:string .
 
 :TV_Line_289_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_289 ;
-  :text "Do you see the gods honoring such wicked men?"^^xsd:string .
-
-:TV_Line_289b_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_289 ;
-  :text "I don’t. But from the beginning some men of this city"^^xsd:string .
+  :text "No; but for some time now certain men of the city"^^xsd:string .
 
 :TV_Line_290_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_290 ;
   :text "Have been muttering against me, 290"^^xsd:string .

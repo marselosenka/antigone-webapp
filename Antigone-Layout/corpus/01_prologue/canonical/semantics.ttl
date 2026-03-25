@@ -404,12 +404,12 @@ a :Speech ;
 # ==========================
 
 :Antigone_Character_Antigone
-a :Character ;
-:hasMotivation :Motivation_BuryBrotherDespiteRisk, :Motivation_PleaseUnderworld, :Motivation_PublicWitnessForJustice ;
-:makesMoralDecision :MoralDecision_BuryBrotherAndAcceptDeath ;
-:advocatesFor :EthicalPrinciple_DivineHonorForDead ;
-:experiencesEmotion :Emotion_Resolve, :Emotion_ReverentDuty, :Emotion_DefiantCourage, :Emotion_ContemptForSilence ;
-:relatedTo :Law_CivicBurialBan, :EthicalPrinciple_DivineHonorForDead .
+    a :Character ;
+    :hasMotivation :Motivation_BuryBrotherDespiteRisk, :Motivation_PleaseUnderworld, :Motivation_PublicWitnessForJustice ;
+    :makesMoralDecision :MoralDecision_BuryBrotherAndAcceptDeath ;
+    :advocatesFor :EthicalPrinciple_DivineHonorForDead ;
+    :experiencesEmotion :Emotion_Resolve, :Emotion_ReverentDuty, :Emotion_DefiantCourage, :Emotion_ContemptForSilence ;
+    :relatedTo :Law_CivicBurialBan, :EthicalPrinciple_DivineHonorForDead .
 
 :Antigone_Character_Ismene
 a :Character ;
@@ -484,12 +484,12 @@ a :Emotion ;
 :description "Ismene resigns herself to obeying those in power and asks the dead for understanding."^^xsd:string .
 
 :Emotion_Resolve
-a :Emotion ;
-:description "Antigone shows unwavering resolve to bury her brother."^^xsd:string .
+    a :Emotion ;
+    :description "Antigone shows unwavering resolve to bury her brother."^^xsd:string .
 
 :Emotion_ReverentDuty
-a :Emotion ;
-:description "Antigone frames the burial as a holy duty toward gods and the dead."^^xsd:string .
+    a :Emotion ;
+    :description "Antigone frames the burial as a holy duty toward gods and the dead."^^xsd:string .
 
 :Emotion_DefiantCourage
 a :Emotion ;
@@ -541,9 +541,9 @@ a :Conflict ;
 :conflictBetween :EthicalPrinciple_DivineHonorForDead, :Law_CivicBurialBan .
 
 :Conflict_SisterlyDivision
-a :Conflict ;
-:description "Conflict between Antigone's resolve and Ismene's submission and fear."^^xsd:string ;
-:conflictBetween :Antigone_Character_Antigone, :Antigone_Character_Ismene .
+    a :Conflict ;
+    :description "Conflict between Antigone's resolve and Ismene's submission and fear."^^xsd:string ;
+    :conflictBetween :Antigone_Character_Antigone, :Antigone_Character_Ismene .
 
 :Conflict_SecrecyVsWitness
 a :Conflict ;
@@ -702,11 +702,11 @@ a :Speech ;
 :hasConflict :Conflict_PrudenceVsHonor, :Conflict_LoyaltyToDeadVsFear .
 
 :Speech_Ismene_98_99
-a :Speech ;
-:speechBy :Antigone_Character_Ismene ;
-:containsLine :Line_098, :Line_099 ;
-:partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
-:developsTheme :Theme_LoyalFriendship, :Theme_SisterlyConflict ;
-:hasMotivation :Motivation_IsmeneReluctantConsent ;
-:experiencesEmotion :Emotion_IsmeneConcern ;
-:hasConflict :Conflict_PrudenceVsHonor .
+    a :Speech ;
+    :speechBy :Antigone_Character_Ismene ;
+    :containsLine :Line_098, :Line_099 ;
+    :partOfScene :Antigone_Scene_DialogueAndParodos_90_113 ;
+    :developsTheme :Theme_LoyalFriendship, :Theme_SisterlyConflict ;
+    :hasMotivation :Motivation_IsmeneReluctantConsent ;
+    :experiencesEmotion :Emotion_IsmeneConcern ;
+    :hasConflict :Conflict_PrudenceVsHonor .

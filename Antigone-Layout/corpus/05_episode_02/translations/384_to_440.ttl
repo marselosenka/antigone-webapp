@@ -4,822 +4,234 @@
 
 # Translation variants for lines 384-440
 
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# --- 384 ---
 :TV_Line_384_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_384 ;
-  :text "It is I who have apprehended her in the act! But, where is Creon? 385"^^xsd:string .
+  :text "This is she, the one who has done the deed!"^^xsd:string .
 
+# --- 385 ---
 :TV_Line_385_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_385 ;
-  :text "It is I who have apprehended her in the act! But, where is Creon? 385"^^xsd:string .
+  :text "We caught her burying him. But where is Creon?"^^xsd:string .
 
+# --- 386 ---
 :TV_Line_386_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_386 ;
-  :text "CHORUS. Here he comes now."^^xsd:string .
+  :text "CHORUS. Here he comes back from the palace, just in time."^^xsd:string .
 
+# --- 387 ---
 :TV_Line_387_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_387 ;
-  :text "CREON. What is it? What am I walking into?"^^xsd:string .
-
-:TV_Line_384_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_384 ;
-  :text "ΣΚΟΠΟΣ. Αυτή το έκανε. Την πιάσαμε επ’ αυτοφώρω να τον θάβει."^^xsd:string .
-
-:TV_Line_385_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_385 ;
-  :text "Πού είναι ο Κρέων;"^^xsd:string .
-
-:TV_Line_386_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_386 ;
-  :text "ΧΟΡΟΣ. Να τον. Πάνω στην ώρα βγαίνει απ’ το παλάτι. 365"^^xsd:string .
-
-:TV_Line_387_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_387 ;
-  :text "ΚΡΕΩΝ. Τι συμβαίνει; Πάνω σε ποιαν ώρα βγαίνω;"^^xsd:string .
-
-:TV_Line_388_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_388 ;
-  :text "Βασιλιά, δεν πρέπει πια κανείς να παίρνει όρκο·"^^xsd:string .
-
-:TV_Line_389_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_389 ;
-  :text "στερνή μου γνώση να σε είχα πρώτα."^^xsd:string .
-
-:TV_Line_390_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_390 ;
-  :text "Κι εγώ ορκίστηκα να μην ξαναπατήσω πόδι,"^^xsd:string .
-
-:TV_Line_391_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_391 ;
-  :text "όταν με κοψοχόλιασες με τις φοβέρες σου."^^xsd:string .
-
-:TV_Line_392_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_392 ;
-  :text "Όμως η ξαφνική κι ανέλπιστη χαρά"^^xsd:string .
-
-:TV_Line_393_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_393 ;
-  :text "απ’ όλες τις χαρές έχει περίσσια γλύκα."^^xsd:string .
-
-:TV_Line_394_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_394 ;
-  :text "Εδώ ’μαι πάλι -κι ας ορκίστηκα-"^^xsd:string .
-
-:TV_Line_395_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_395 ;
-  :text "σου φέρνω το κορίτσι που πιάστηκε"^^xsd:string .
-
-:TV_Line_396_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_396 ;
-  :text "τον τάφο να στολίζει. Εδώ δεν μπήκε κλήρος·"^^xsd:string .
-
-:TV_Line_397_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_397 ;
-  :text "δικά μου τα βρετίκια και άλλου κανενός."^^xsd:string .
-
-:TV_Line_398_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_398 ;
-  :text "Και τώρα, βασιλιά μου, πάρ’ τη γι’ ανάκριση·"^^xsd:string .
-
-:TV_Line_399_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_399 ;
-  :text "ξεψάχνισε μονάχος σου και βρες τα· δίκιο είναι"^^xsd:string .
-
-:TV_Line_400_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_400 ;
-  :text "εγώ να φύγω λεύτερος και δίχως ρετσινιά."^^xsd:string .
-
-:TV_Line_401_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_401 ;
-  :text "Κι αυτή που κουβαλάς πότε και πώς την έπιασες;"^^xsd:string .
-
-:TV_Line_402_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_402 ;
-  :text "Έθαβε τον νεκρό· αυτό είν’ όλο."^^xsd:string .
-
-:TV_Line_403_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_403 ;
-  :text "Είσαι με τα σωστά σου; ξέρεις καλά τι λες;"^^xsd:string .
-
-:TV_Line_404_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_404 ;
-  :text "Να θάβει την είδα τον νεκρό που αποκήρυξες·"^^xsd:string .
-
-:TV_Line_405_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_405 ;
-  :text "μιλάω τάχα καθαρά και ξάστερα;"^^xsd:string .
-
-:TV_Line_406_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_406 ;
-  :text "Και πώς την είδατε και πώς την πιάσατε· επ’ αυτοφώρω;"^^xsd:string .
-
-:TV_Line_407_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_407 ;
-  :text "Άκου πώς έχει το πράγμα· όταν γυρίσαμε,"^^xsd:string .
-
-:TV_Line_408_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_408 ;
-  :text "απ’ τις πολλές φοβέρες τις δικές σου τρομαγμένοι,"^^xsd:string .
-
-:TV_Line_409_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_409 ;
-  :text "σαρώσαμε τη σκόνη που σκέπαζε τον πεθαμένο"^^xsd:string .
-
-:TV_Line_410_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_410 ;
-  :text "και καλά καλά γυμνώσαμε το σάπιο πτώμα."^^xsd:string .
-
-:TV_Line_411_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_411 ;
-  :text "Απάνεμα καθόμαστε στων βράχων την κορφή,"^^xsd:string .
-
-:TV_Line_412_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_412 ;
-  :text "για να γλιτώσουμε τις μύτες απ’ τη βρώμα."^^xsd:string .
-
-:TV_Line_413_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_413 ;
-  :text "Ο ένας τον άλλο ξάγρυπνο κρατούσε"^^xsd:string .
-
-:TV_Line_414_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_414 ;
-  :text "με βρισιές, μην τύχει κι έπαιρνε στ’ αψήφιστα το πράγμα."^^xsd:string .
-
-:TV_Line_415_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_415 ;
-  :text "Αυτό θα τράβηξε πολύ, ώσπου μεσουρανίς"^^xsd:string .
-
-:TV_Line_416_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_416 ;
-  :text "ο δίσκος ο λαμπρός σκαρφάλωσε του ήλιου"^^xsd:string .
-
-:TV_Line_417_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_417 ;
-  :text "κι έβραζε το λιοπύρι· και τότε ξαφνικά"^^xsd:string .
-
-:TV_Line_418_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_418 ;
-  :text "λίβας ξεσήκωσε στη γη μεγάλο κουρνιαχτό,"^^xsd:string .
-
-:TV_Line_419_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_419 ;
-  :text "θεομηνία, στον κάμπο χίμηξε και μάδησε"^^xsd:string .
-
-:TV_Line_420_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_420 ;
-  :text "των δέντρων τις κορφές κι ο ουρανός αντάριασε."^^xsd:string .
-
-:TV_Line_421_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_421 ;
-  :text "Βαστάγαμε την οργή του θεού με τα μάτια κλειστά."^^xsd:string .
-
-:TV_Line_422_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_422 ;
-  :text "Κράτησεν ώρα πολλή και τέλος καταλάγιαζε,"^^xsd:string .
-
-:TV_Line_423_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_423 ;
-  :text "όταν η κόρη φάνηκε· θρηνεί σαν το πικρό"^^xsd:string .
-
-:TV_Line_424_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_424 ;
-  :text "πουλί βραχνά που την άδεια θα βρει,"^^xsd:string .
-
-:TV_Line_425_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_425 ;
-  :text "ορφανή, χωρίς τα μικρά, τη φωλιά του."^^xsd:string .
-
-:TV_Line_426_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_426 ;
-  :text "Έτσι κι αυτή, γυμνό σα βλέπει το νεκρό,"^^xsd:string .
-
-:TV_Line_427_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_427 ;
-  :text "σπαράζει, δέρνεται και με κατάρες άγριες"^^xsd:string .
-
-:TV_Line_428_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_428 ;
-  :text "αυτούς που το ’χαν κάνει καταριέται."^^xsd:string .
-
-:TV_Line_429_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_429 ;
-  :text "Στα δυο της χέρια κουβαλά χώμα στεγνό"^^xsd:string .
-
-:TV_Line_430_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_430 ;
-  :text "κι από ροΐ χαλκωματένιο ραντίζει"^^xsd:string .
-
-:TV_Line_431_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_431 ;
-  :text "τον πεθαμένο τρεις φορές με τ’ άγιασμα."^^xsd:string .
-
-:TV_Line_432_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_432 ;
-  :text "Εμείς την είδαμε κι ορμήσαμε και με το πρώτο"^^xsd:string .
-
-:TV_Line_433_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_433 ;
-  :text "την πιάσαμε· δεν έμοιαζε καθόλου ταραγμένη."^^xsd:string .
-
-:TV_Line_434_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_434 ;
-  :text "Την ξεψαχνίζαμε και για τα τώρα και για τα πριν·"^^xsd:string .
-
-:TV_Line_435_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_435 ;
-  :text "τίποτα δεν αρνιότανε, κι αυτό μου φέρνει"^^xsd:string .
-
-:TV_Line_436_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_436 ;
-  :text "γλυκόπικρη χαρά στ’ αλήθεια."^^xsd:string .
-
-:TV_Line_437_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_437 ;
-  :text "Όταν γλυτώνεις συμφορές είναι γλυκό,"^^xsd:string .
-
-:TV_Line_438_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_438 ;
-  :text "κι όμως πικρό στη συμφορά να σέρνεις φίλους."^^xsd:string .
-
-:TV_Line_439_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_439 ;
-  :text "Όμως για μένα δε μετρούν αυτά,"^^xsd:string .
-
-:TV_Line_440_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_440 ;
-  :text "μπροστά στη σωτηρία μου."^^xsd:string .
-
-:TV_Line_388_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_388 ;
-  :text "Let mortal men swear not against any thing,"^^xsd:string .
-
-:TV_Line_389_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_389 ;
-  :text "For their minds are of a fickle mettle:"^^xsd:string .
-
-:TV_Line_390_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_390 ;
-  :text "Yea, I swore unto God I would never"^^xsd:string .
-
-:TV_Line_391_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_391 ;
-  :text "Return hither unto you and the threatening words"^^xsd:string .
-
-:TV_Line_392_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_392 ;
-  :text "You bandy upon me, but—"^^xsd:string .
-
-:TV_Line_393_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_393 ;
-  :text "As a pleasant surprise is pleasing unto all—"^^xsd:string .
-
-:TV_Line_394_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_394 ;
-  :text "Behold! I am here, though I spoke otherwise,"^^xsd:string .
-
-:TV_Line_395_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_395 ;
-  :text "With this maiden here, who was seen honoring the dead."^^xsd:string .
-
-:TV_Line_396_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_396 ;
-  :text "This time, no lots needs were cast,"^^xsd:string .
-
-:TV_Line_397_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_397 ;
-  :text "For this hath befallen me alone. Now, dread liege,"^^xsd:string .
-
-:TV_Line_398_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_398 ;
-  :text "Take you her, examine her, "^^xsd:string .
-
-:TV_Line_399_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_399 ;
-  :text "question her, as it pleaseth you, only"^^xsd:string .
-
-:TV_Line_400_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_400 ;
-  :text "I am weary of the ado about this place."^^xsd:string .
-
-:TV_Line_401_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_401 ;
-  :text "Can you explain how and where you found this woman?"^^xsd:string .
-
-:TV_Line_402_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_402 ;
-  :text "She was burying the corpse—the rest you know."^^xsd:string .
-
-:TV_Line_403_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_403 ;
-  :text "Do you understand what you are saying? Is this the truth?"^^xsd:string .
-
-:TV_Line_404_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_404 ;
-  :text "Yes! I hath seen her burying the corpse"^^xsd:string .
-
-:TV_Line_405_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_405 ;
-  :text "You had enjoined be not interred, there is no more, hear you?"^^xsd:string .
-
-:TV_Line_406_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_406 ;
-  :text "How did you find her? How did you make your arrest?"^^xsd:string .
-
-:TV_Line_407_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_407 ;
-  :text "It occured in this way: when arrived we to the place—"^^xsd:string .
-
-:TV_Line_408_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_408 ;
-  :text "with your threats o’erhanging our heads—"^^xsd:string .
-
-:TV_Line_409_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_409 ;
-  :text "We swept away all the dust that was upon the corpse,"^^xsd:string .
-
-:TV_Line_410_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_410 ;
-  :text "Nudified the oddly bedewed flesh,"^^xsd:string .
-
-:TV_Line_411_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_411 ;
-  :text "And sat we down by the hill against the wind,"^^xsd:string .
-
-:TV_Line_412_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_412 ;
-  :text "Thus ensuring no odor did strike us."^^xsd:string .
-
-:TV_Line_413_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_413 ;
-  :text "Every man did keep his watch, and did make each other keep theirs"^^xsd:string .
-
-:TV_Line_414_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_414 ;
-  :text "With threats, lest any should prove a shirker."^^xsd:string .
-
-:TV_Line_415_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_415 ;
-  :text "Time passed, then high noon arose"^^xsd:string .
-
-:TV_Line_416_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_416 ;
-  :text "With the sun directly o’erhead"^^xsd:string .
-
-:TV_Line_417_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_417 ;
-  :text "And the land was hot and roasting."^^xsd:string .
-
-:TV_Line_418_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_418 ;
-  :text "Then arose a sudden a twisting wind,"^^xsd:string .
-
-:TV_Line_419_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_419 ;
-  :text "Evil in the heavens, engendering a storm of dust,"^^xsd:string .
-
-:TV_Line_420_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_420 ;
-  :text "Filling the plain, marking up the forest whole,"^^xsd:string .
-
-:TV_Line_421_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_421 ;
-  :text "And choking up the air. We closed our eyes"^^xsd:string .
-
-:TV_Line_422_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_422 ;
-  :text "And took we God’s wrath. It seems an eternity did pass,"^^xsd:string .
-
-:TV_Line_423_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_423 ;
-  :text "But then we saw this maiden shrieking"^^xsd:string .
-
-:TV_Line_424_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_424 ;
-  :text "Like a mother bird who findeth"^^xsd:string .
-
-:TV_Line_425_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_425 ;
-  :text "her chicks gone from the nest."^^xsd:string .
-
-:TV_Line_426_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_426 ;
-  :text "She did see the corpse denuded,"^^xsd:string .
-
-:TV_Line_427_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_427 ;
-  :text "Began to wail in earnest,"^^xsd:string .
-
-:TV_Line_428_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_428 ;
-  :text "And curst she whoever had done this."^^xsd:string .
-
-:TV_Line_429_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_429 ;
-  :text "Straightway she took dust into her hands,"^^xsd:string .
-
-:TV_Line_430_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_430 ;
-  :text "Raised up the water pitcher,"^^xsd:string .
-
-:TV_Line_431_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_431 ;
-  :text "And did anoint the dead."^^xsd:string .
-
-:TV_Line_432_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_432 ;
-  :text "Seeing this we did her arrest straightaway,"^^xsd:string .
-
-:TV_Line_433_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_433 ;
-  :text "But she was unafraid."^^xsd:string .
-
-:TV_Line_434_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_434 ;
-  :text "We did make inquiry unto her about"^^xsd:string .
-
-:TV_Line_435_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_435 ;
-  :text "What she had did and she denied not a thing."^^xsd:string .
-
-:TV_Line_436_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_436 ;
-  :text "It pleases me well, but also does me sorrow:"^^xsd:string .
-
-:TV_Line_437_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_437 ;
-  :text "For, ‘tis good to ‘scape the gallows,"^^xsd:string .
-
-:TV_Line_438_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_438 ;
-  :text "But to cast another therein agrieves."^^xsd:string .
-
-:TV_Line_439_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_439 ;
-  :text "But, what is of import is"^^xsd:string .
-
-:TV_Line_440_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_440 ;
-  :text "that I am saved: the rest troubleth not."^^xsd:string .
-
-:TV_Line_388_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_388 ;
-  :text "Ἄναξ, βροτοῖσιν οὐδέν ἐστ ̓ ἀπώμοτον·"^^xsd:string .
-
-:TV_Line_389_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_389 ;
-  :text "ψεύδει γὰρ ἡ  ̓πίνοια τὴν γνώμην· ἐπεὶ"^^xsd:string .
-
-:TV_Line_390_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_390 ;
-  :text "σχολῇ ποθ ̓ ἥξειν δεῦρ ̓ ἂν ἐξηύχουν ἐγὼ"^^xsd:string .
-
-:TV_Line_391_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_391 ;
-  :text "ταῖς σαῖς ἀπειλαῖς αἷς ἐχειμάσθην τότε."^^xsd:string .
-
-:TV_Line_392_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_392 ;
-  :text "Ἀλλ ̓ ἡ γὰρ ἐκτὸς καὶ παρ ̓ ἐλπίδας χαρὰ"^^xsd:string .
-
-:TV_Line_393_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_393 ;
-  :text "ἔοικεν ἄλλῃ μῆκος οὐδὲν ἡδονῇ,"^^xsd:string .
-
-:TV_Line_394_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_394 ;
-  :text "ἥκω, δι ̓ ὅρκων καίπερ ὢν ἀπώμοτος,"^^xsd:string .
-
-:TV_Line_395_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_395 ;
-  :text "κόρην ἄγων τήνδ ̓, ἣ καθῃρέθη τάφον"^^xsd:string .
-
-:TV_Line_396_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_396 ;
-  :text "κοσμοῦσα. Κλῆρος ἐνθάδ ̓ οὐκ ἐπάλλετο,"^^xsd:string .
-
-:TV_Line_397_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_397 ;
-  :text "ἀλλ ̓ ἔστ ̓ ἐμὸν θοὔρμαιον, οὐκ ἄλλου, τόδε."^^xsd:string .
-
-:TV_Line_398_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_398 ;
-  :text "Καὶ νῦν, ἄναξ, τήνδ ̓ αὐτός, ὡς θέλεις, λαβὼν"^^xsd:string .
-
-:TV_Line_399_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_399 ;
-  :text "καὶ κρῖνε κἀξέλεγχ ̓· ἐγὼ δ ̓ ἐλεύθερος"^^xsd:string .
-
-:TV_Line_400_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_400 ;
-  :text "δίκαιός εἰμι τῶνδ ̓ ἀπηλλάχθαι κακῶν."^^xsd:string .
-
-:TV_Line_401_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_401 ;
-  :text "Ἄγεις δὲ τήνδε τῷ τρόπῳ πόθεν λαβών;"^^xsd:string .
-
-:TV_Line_402_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_402 ;
-  :text "Αὕτη τὸν ἄνδρ ̓ ἔθαπτε· πάντ ̓ ἐπίστασαι."^^xsd:string .
-
-:TV_Line_403_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_403 ;
-  :text "Ἦ καὶ ξυνίης καὶ λέγεις ὀρθῶς ἃ φῄς;"^^xsd:string .
-
-:TV_Line_404_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_404 ;
-  :text "Ταύτην γ ̓ ἰδὼν θάπτουσαν ὃν σὺ τὸν νεκρὸν"^^xsd:string .
-
-:TV_Line_405_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_405 ;
-  :text "ἀπεῖπας. Ἆρ ̓ ἔνδηλα καὶ σαφῆ λέγω;"^^xsd:string .
-
-:TV_Line_406_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_406 ;
-  :text "Καὶ πῶς ὁρᾶται κἀπίληπτος ᾑρέθη;"^^xsd:string .
-
-:TV_Line_407_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_407 ;
-  :text "Τοιοῦτον ἦν τὸ πρᾶγμ ̓· ὅπως γὰρ ἥκομεν,"^^xsd:string .
-
-:TV_Line_408_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_408 ;
-  :text "πρὸς σοῦ τὰ δείν ̓ ἐκεῖν ̓ ἐπηπειλημένοι,"^^xsd:string .
-
-:TV_Line_409_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_409 ;
-  :text "πᾶσαν κόνιν σήραντες ἣ κατεῖχε τὸν"^^xsd:string .
-
-:TV_Line_410_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_410 ;
-  :text "νέκυν, μυδῶν τε σῶμα γυμνώσαντες εὖ,"^^xsd:string .
-
-:TV_Line_411_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_411 ;
-  :text "καθήμεθ ̓ ἄκρων ἐκ πάγων ὑπήνεμοι,"^^xsd:string .
-
-:TV_Line_412_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_412 ;
-  :text "ὀσμὴν ἀπ ̓ αὐτοῦ μὴ βάλῃ πεφευγότες,"^^xsd:string .
-
-:TV_Line_413_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_413 ;
-  :text "ἐγερτὶ κινῶν ἄνδρ ̓ ἀνὴρ ἐπιρρόθοις"^^xsd:string .
-
-:TV_Line_414_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_414 ;
-  :text "κακοῖσιν, εἴ τις τοῦδ ̓ ἀκηδήσοι πόνου."^^xsd:string .
-
-:TV_Line_415_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_415 ;
-  :text "Χρόνον τάδ ̓ ἦν τοσοῦτον, ἔστ ̓ ἐν αἰθέρι"^^xsd:string .
-
-:TV_Line_416_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_416 ;
-  :text "μέσῳ κατέστη λαμπρὸς ἡλίου κύκλος"^^xsd:string .
-
-:TV_Line_417_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_417 ;
-  :text "καὶ καῦμ ̓ ἔθαλπε· καὶ τότ ̓ ἐξαίφνης χθονὸς"^^xsd:string .
-
-:TV_Line_418_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_418 ;
-  :text "τυφὼς ἀείρας σκηπτόν, οὐράνιον ἄχος,"^^xsd:string .
-
-:TV_Line_419_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_419 ;
-  :text "πίμπλησι πεδίον πᾶσαν αἰκίζων φόβην"^^xsd:string .
-
-:TV_Line_420_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_420 ;
-  :text "ὕλης πεδιάδος, ἐν δ ̓ ἐμεστώθη μέγας"^^xsd:string .
-
-:TV_Line_421_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_421 ;
-  :text "αἰθήρ· μύσαντες δ ̓ εἴχομεν θείαν νόσον."^^xsd:string .
-
-:TV_Line_422_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_422 ;
-  :text "Καὶ τοῦδ ̓ ἀπαλλαγέντος ἐν χρόνῳ μακρῷ,"^^xsd:string .
-
-:TV_Line_423_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_423 ;
-  :text "ἡ παῖς ὁρᾶται κἀνακωκύει πικρᾶς"^^xsd:string .
-
-:TV_Line_424_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_424 ;
-  :text "ὄρνιθος ὀξὺν φθόγγον, ὡς ὅταν κενῆς"^^xsd:string .
-
-:TV_Line_425_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_425 ;
-  :text "εὐνῆς νεοσσῶν ὀρφανὸν βλέψῃ λέχος·"^^xsd:string .
-
-:TV_Line_426_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_426 ;
-  :text "οὕτω δὲ χαὔτη, ψιλὸν ὡς ὁρᾷ νέκυν,"^^xsd:string .
-
-:TV_Line_427_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_427 ;
-  :text "γόοισιν ἐξῴμωξεν, ἐκ δ ̓ ἀρὰς κακὰς"^^xsd:string .
-
-:TV_Line_428_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_428 ;
-  :text "ἠρᾶτο τοῖσι τοὔργον ἐξειργασμένοις."^^xsd:string .
-
-:TV_Line_429_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_429 ;
-  :text "Καὶ χερσὶν εὐθὺς διψίαν φέρει κόνιν,"^^xsd:string .
-
-:TV_Line_430_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_430 ;
-  :text "ἔκ τ ̓ εὐκροτήτου χαλκέας ἄρδην πρόχου"^^xsd:string .
-
-:TV_Line_431_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_431 ;
-  :text "χοαῖσι τρισπόνδοισι τὸν νέκυν στέφει."^^xsd:string .
-
-:TV_Line_432_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_432 ;
-  :text "Χἠμεῖς ἰδόντες ἱέμεσθα, σὺν δέ νιν"^^xsd:string .
-
-:TV_Line_433_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_433 ;
-  :text "θηρώμεθ ̓ εὐθὺς οὐδὲν ἐκπεπληγμένην,"^^xsd:string .
-
-:TV_Line_434_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_434 ;
-  :text "καὶ τάς τε πρόσθεν τάς τε νῦν ἠλέγχομεν"^^xsd:string .
-
-:TV_Line_435_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_435 ;
-  :text "πράξεις· ἄπαρνος δ ̓ οὐδενὸς καθίστατο,"^^xsd:string .
-
-:TV_Line_436_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_436 ;
-  :text "ἅμ ̓ ἡδέως ἔμοιγε κἀλγεινῶς ἅμα."^^xsd:string .
-
-:TV_Line_437_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_437 ;
-  :text "Τὸ μὲν γὰρ αὐτὸν ἐκ κακῶν πεφευγέναι"^^xsd:string .
-
-:TV_Line_438_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_438 ;
-  :text "ἥδιστον, ἐς κακὸν δὲ τοὺς φίλους ἄγειν"^^xsd:string .
-
-:TV_Line_439_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_439 ;
-  :text "ἀλγεινόν· ἀλλὰ πάντα ταῦθ ̓ ἥσσω λαβεῖν"^^xsd:string .
-
-:TV_Line_440_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_440 ;
-  :text "ἐμοὶ πέφυκεν τῆς ἐμῆς σωτηρίας."^^xsd:string .
-
+  :text "CREON. What is it? What fortune have I stepped into?"^^xsd:string .
+
+# --- 388 ---
+:TV_Line_388_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_388 ;
+  :text "GUARD. My King, no man should ever swear against a thing,"^^xsd:string .
+
+# --- 389 ---
+:TV_Line_389_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_389 ;
+  :text "for second thoughts prove the first resolution false."^^xsd:string .
+
+# --- 390 ---
+:TV_Line_390_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_390 ;
+  :text "I once boasted I would never return here,"^^xsd:string .
+
+# --- 391 ---
+:TV_Line_391_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_391 ;
+  :text "battered as I was by your storm of threats."^^xsd:string .
+
+# --- 392 ---
+:TV_Line_392_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_392 ;
+  :text "But since a joy that exceeds all hope"^^xsd:string .
+
+# --- 393 ---
+:TV_Line_393_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_393 ;
+  :text "is unlike any other pleasure in its greatness,"^^xsd:string .
+
+# --- 394 ---
+:TV_Line_394_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_394 ;
+  :text "I am here—though I swore I would not be—"^^xsd:string .
+
+# --- 395 ---
+:TV_Line_395_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_395 ;
+  :text "bringing this maiden, who was caught performing"^^xsd:string .
+
+# --- 396 ---
+:TV_Line_396_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_396 ;
+  :text "burial rites. This time no lots were cast,"^^xsd:string .
+
+# --- 397 ---
+:TV_Line_397_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_397 ;
+  :text "for this stroke of luck belongs to me alone."^^xsd:string .
+
+# --- 398 ---
+:TV_Line_398_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_398 ;
+  :text "Now, my Lord, take her yourself, as you wish,"^^xsd:string .
+
+# --- 399 ---
+:TV_Line_399_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_399 ;
+  :text "examine and convict her; but I have the right"^^xsd:string .
+
+# --- 400 ---
+:TV_Line_400_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_400 ;
+  :text "to be free and clear of these troubles."^^xsd:string .
+
+# --- 401 ---
+:TV_Line_401_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_401 ;
+  :text "CREON. You bring her? In what way and where was she taken?"^^xsd:string .
+
+# --- 402 ---
+:TV_Line_402_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_402 ;
+  :text "GUARD. She was burying the man; you know all there is."^^xsd:string .
+
+# --- 403 ---
+:TV_Line_403_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_403 ;
+  :text "CREON. Do you understand and speak correctly what you say?"^^xsd:string .
+
+# --- 404 ---
+:TV_Line_404_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_404 ;
+  :text "GUARD. I saw her burying the corpse which you"^^xsd:string .
+
+# --- 405 ---
+:TV_Line_405_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_405 ;
+  :text "had forbidden. Are my words clear and plain enough?"^^xsd:string .
+
+# --- 406 ---
+:TV_Line_406_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_406 ;
+  :text "CREON. And how was she seen and caught in the act?"^^xsd:string .
+
+# --- 407 ---
+:TV_Line_407_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_407 ;
+  :text "GUARD. It happened this way: When we arrived,"^^xsd:string .
+
+# --- 408 ---
+:TV_Line_408_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_408 ;
+  :text "driven by those terrible threats of yours,"^^xsd:string .
+
+# --- 409 ---
+:TV_Line_409_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_409 ;
+  :text "we brushed away all the dust that covered"^^xsd:string .
+
+# --- 410 ---
+:TV_Line_410_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_410 ;
+  :text "the corpse, stripping the decaying body bare,"^^xsd:string .
+
+# --- 411 ---
+:TV_Line_411_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_411 ;
+  :text "and sat on the brow of the hill, to the leeward,"^^xsd:string .
+
+# --- 412 ---
+:TV_Line_412_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_412 ;
+  :text "fleeing the smell so it would not strike us."^^xsd:string .
+
+# --- 413 ---
+:TV_Line_413_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_413 ;
+  :text "Each man kept his neighbor awake with a storm"^^xsd:string .
+
+# --- 414 ---
+:TV_Line_414_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_414 ;
+  :text "of abuse, lest anyone should neglect this task."^^xsd:string .
+
+# --- 415 ---
+:TV_Line_415_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_415 ;
+  :text "So it went on until the sun's bright circle"^^xsd:string .
+
+# --- 416 ---
+:TV_Line_416_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_416 ;
+  :text "stood in the middle of the sky,"^^xsd:string .
+
+# --- 417 ---
+:TV_Line_417_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_417 ;
+  :text "and the heat was burning; then suddenly from the earth"^^xsd:string .
+
+# --- 418 ---
+:TV_Line_418_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_418 ;
+  :text "a whirlwind raised a storm, a heavenly grief,"^^xsd:string .
+
+# --- 419 ---
+:TV_Line_420_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_419 ;
+  :text "filling the plain, stripping the tresses of the forest,"^^xsd:string .
+
+# --- 420 ---
+:TV_Line_420_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_420 ;
+  :text "choking the vast air. We closed our eyes"^^xsd:string .
+
+# --- 421 ---
+:TV_Line_421_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_421 ;
+  :text "and endured that divine plague."^^xsd:string .
+
+# --- 422 ---
+:TV_Line_422_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_422 ;
+  :text "And when at long last it passed,"^^xsd:string .
+
+# --- 423 ---
+:TV_Line_423_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_423 ;
+  :text "the girl was seen; she cried out with the sharp"^^xsd:string .
+
+# --- 424 ---
+:TV_Line_424_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_424 ;
+  :text "cry of a bird in bitter grief, as when she"^^xsd:string .
+
+# --- 425 ---
+:TV_Line_425_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_425 ;
+  :text "sees her empty nest stripped of its young."^^xsd:string .
+
+# --- 426 ---
+:TV_Line_426_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_426 ;
+  :text "So she, when she saw the corpse bare,"^^xsd:string .
+
+# --- 427 ---
+:TV_Line_427_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_427 ;
+  :text "moaned aloud and called down evil curses"^^xsd:string .
+
+# --- 428 ---
+:TV_Line_428_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_428 ;
+  :text "on those who had done the stripping."^^xsd:string .
+
+# --- 429 ---
+:TV_Line_429_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_429 ;
+  :text "Straightway she brought thirsty dust in her hands,"^^xsd:string .
+
+# --- 430 ---
+:TV_Line_430_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_430 ;
+  :text "and from a shapely bronze pitcher held high,"^^xsd:string .
+
+# --- 431 ---
+:TV_Line_431_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_431 ;
+  :text "she crowned the dead with a three-fold libation."^^xsd:string .
+
+# --- 432 ---
+:TV_Line_432_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_432 ;
+  :text "We, seeing this, rushed forward and seized her"^^xsd:string .
+
+# --- 433 ---
+:TV_Line_433_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_433 ;
+  :text "at once; she was not at all dismayed."^^xsd:string .
+
+# --- 434 ---
+:TV_Line_434_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_434 ;
+  :text "We charged her with her past and present deeds,"^^xsd:string .
+
+# --- 435 ---
+:TV_Line_435_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_435 ;
+  :text "and she denied nothing."^^xsd:string .
+
+# --- 436 ---
+:TV_Line_436_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_436 ;
+  :text "This was at once a pleasure to me and a pain."^^xsd:string .
+
+# --- 437 ---
+:TV_Line_437_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_437 ;
+  :text "For to escape trouble oneself is"^^xsd:string .
+
+# --- 438 ---
+:TV_Line_438_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_438 ;
+  :text "most sweet, but to bring friends into trouble"^^xsd:string .
+
+# --- 439 ---
+:TV_Line_439_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_439 ;
+  :text "is painful. Yet all these things are of less value"^^xsd:string .
+
+# --- 440 ---
+:TV_Line_440_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_440 ;
+  :text "to me than my own safety."^^xsd:string .

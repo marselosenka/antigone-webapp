@@ -4,145 +4,6 @@
 
 # Translation variants for lines 508-535
 
-:TV_Line_508_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_508 ;
-  :text "Μονάχη εσύ απ᾽ τους Καδμείους αυτούς τα βλέπεις έτσι."^^xsd:string .
-
-:TV_Line_509_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_509 ;
-  :text "Τα βλέπουνε κι αυτοί, αλλά μπροστά σου σουρώνουνε το στόμα."^^xsd:string .
-
-:TV_Line_510_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_510 ;
-  :text "Κι εσύ δεν ντρέπεσαι να ᾽χεις γνώμη διάφορη από τούτους;"^^xsd:string .
-
-:TV_Line_511_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_511 ;
-  :text "Ντροπή δεν είναι να σέβεται κανείς εκείνους που ᾽χουν τα ίδια σπλάχνα."^^xsd:string .
-
-:TV_Line_512_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_512 ;
-  :text "Μήπως δεν είναι αδελφός σου και ο άλλος που σκοτώθηκε εναντίον του;"^^xsd:string .
-
-:TV_Line_513_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_513 ;
-  :text "Αδελφός από μία μητέρα κι απ᾽ τον ίδιο πατέρα."^^xsd:string .
-
-:TV_Line_514_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_514 ;
-  :text "Πώς τον προσβάλλεις λοιπόν με το να κάνεις χάρη και τιμή στον άλλο;"^^xsd:string .
-
-:TV_Line_515_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_515 ;
-  :text "Δεν θα ᾽λεγε τα ίδια γι᾽ αυτά ο πεθαμένος."^^xsd:string .
-
-:TV_Line_516_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_516 ;
-  :text "Αφού τον τιμάς ίδια σαν τον αμαρτωλό."^^xsd:string .
-
-:TV_Line_517_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_517 ;
-  :text "Δούλος μου δεν χάθηκε, παρά ο αδελφός μου."^^xsd:string .
-
-:TV_Line_518_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_518 ;
-  :text "Που ρήμαξε τη χώρα, ενώ ο άλλος	αντιστάθηκε για να την ᾽περασπίσει."^^xsd:string .
-
-:TV_Line_519_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_519 ;
-  :text "Το ίδιο και τους δύο με τον νόμο του τους ζητάει ο Άδης."^^xsd:string .
-
-:TV_Line_520_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_520 ;
-  :text "Μα δεν πρέπει ο καλός με τον κακό να έρθει ίσος."^^xsd:string .
-
-:TV_Line_521_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_521 ;
-  :text "Ποιός ξέρει, εκεί κάτου περνούν αυτά για άγια;"^^xsd:string .
-
-:TV_Line_522_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_522 ;
-  :text "Ποτέ ο εχτρός, και σαν πεθάνει ακόμα, φίλος δεν γίνεται."^^xsd:string .
-
-:TV_Line_523_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_523 ;
-  :text "Όχι για να μισώ μαζί, για ν᾽ αγαπώ γεννήθηκα."^^xsd:string .
-
-:TV_Line_524_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_524 ;
-  :text "Τώρα που θα πας κάτω, σαν πρέπει να τους αγαπάς, αγάπα τους εκείνους,"^^xsd:string .
-
-:TV_Line_525_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_525 ;
-  :text "ενόσω όμως ζω εγώ, γυναίκα δεν θα προστάξει."^^xsd:string .
-
-:TV_Line_526_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_526 ;
-  :text "Νά την μπροστά στις πύλες την Ισμήνη,"^^xsd:string .
-
-:TV_Line_527_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_527 ;
-  :text "που γι᾽ αγάπη της αδελφής της ποτάμι χύνει τα δάκρυα."^^xsd:string .
-
-:TV_Line_528_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_528 ;
-  :text "Τα φρύδια της σαν σύννεφο σκιάζουν"^^xsd:string .
-
-:TV_Line_529_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_529 ;
-  :text "κι ασχημίζουν το πρόσωπό της το ροδόθωρο"^^xsd:string .
-
-:TV_Line_530_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_530 ;
-  :text "και τα όμορφά της μάγουλα είναι βρεμένα."^^xsd:string .
-
-:TV_Line_531_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_531 ;
-  :text "Κι εσύ, που σαν οχιά στο σπίτι μου χωμένη,"^^xsd:string .
-
-:TV_Line_532_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_532 ;
-  :text "κρυφά μου ᾽πινες το αίμα κι ούτε το ᾽ξερα"^^xsd:string .
-
-:TV_Line_533_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_533 ;
-  :text "πως θρέφω δυο για δυστυχία και χαλασμό του θρόνου μου,"^^xsd:string .
-
-:TV_Line_534_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_534 ;
-  :text "γιά πες μου τώρα, θα πεις κι εσύ γι᾽ αυτόν τον τάφο πως ήσουν μαζί;"^^xsd:string .
-
-:TV_Line_535_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_535 ;
-  :text "ή θα ξομώσεις πως δεν ξέρεις τίποτα;"^^xsd:string .
 
 :TV_Line_508_en
   a owl:NamedIndividual, :TranslationVariant ;
@@ -184,30 +45,29 @@
   :relatedTo :Line_515 ;
   :text "The dead man would not agree with that."^^xsd:string .
 
-:TV_Line_516_en
-  a owl:NamedIndividual, :TranslationVariant ;
+
+:TV_Line_516_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_516 ;
-  :text "If you honor him with equal fervor, you disgrace Eteocles."^^xsd:string .
+  :text "If you honor him equally with the impious one."^^xsd:string .
 
 :TV_Line_517_en
   a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_517 ;
   :text "It was his brother, not some slave who perished."^^xsd:string .
 
-:TV_Line_518_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_518_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_518 ;
-  :text "One ravaged this land. The other died defending it."^^xsd:string .
+  :text "The one ravaging this land, the other standing in its defense."^^xsd:string .
+
 
 :TV_Line_519_en
   a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_519 ;
   :text "Nevertheless, Hades demands these rites."^^xsd:string .
 
-:TV_Line_520_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_520_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_520 ;
-  :text "But this man, good for nothing but evil, wants equal honor."^^xsd:string .
+  :text "But the good man does not deserve a lot equal to the wicked."^^xsd:string .
 
 :TV_Line_521_en
   a owl:NamedIndividual, :TranslationVariant ;
@@ -224,15 +84,14 @@
   :relatedTo :Line_523 ;
   :text "I was born to join in love, not in hate."^^xsd:string .
 
-:TV_Line_524_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_524_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_524 ;
-  :text "Why don’t you love them when you’re down there yourself,"^^xsd:string .
+  :text "Go then below, and if you must love, love those there;"^^xsd:string .
 
-:TV_Line_525_en
-  a owl:NamedIndividual, :TranslationVariant ;
+
+:TV_Line_525_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_525 ;
-  :text "If you must love them! As long as I live, no woman shall rule me."^^xsd:string .
+  :text "but while I live, no woman shall rule me."^^xsd:string .
 
 :TV_Line_526_en
   a owl:NamedIndividual, :TranslationVariant ;
@@ -244,15 +103,13 @@
   :relatedTo :Line_527 ;
   :text "Letting her brother-loving tears flow:"^^xsd:string .
 
-:TV_Line_528_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_528_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_528 ;
-  :text "A cloud over her brow"^^xsd:string .
+  :text "And a cloud over her brows drops a bloody"^^xsd:string .
 
-:TV_Line_529_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_529_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_529 ;
-  :text "disfigures her countenance Red as blood,"^^xsd:string .
+  :text "stain upon her face,"^^xsd:string .
 
 :TV_Line_530_en
   a owl:NamedIndividual, :TranslationVariant ;
@@ -264,163 +121,21 @@
   :relatedTo :Line_531 ;
   :text "You, sitting in the palace like a viper, lurking,"^^xsd:string .
 
-:TV_Line_532_en
-  a owl:NamedIndividual, :TranslationVariant ;
+
+:TV_Line_532_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_532 ;
-  :text "Sucking my blood dry while you went unnoticed—did I miss some sign"^^xsd:string .
+  :text "draining me in secret, and I did not realize"^^xsd:string .
 
-:TV_Line_533_en
-  a owl:NamedIndividual, :TranslationVariant ;
+
+:TV_Line_533_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_533 ;
-  :text "When I raised you two leeches, some sign that you’d be Rebels against the throne?"^^xsd:string .
+  :text "I was nurturing two ruins and subverters of the throne."^^xsd:string .
 
-:TV_Line_534_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_534_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_534 ;
-  :text "Come, say it to me! You’ll say you also Had a hand in the burial..."^^xsd:string .
+  :text "Come, tell me now, do you also in this burial"^^xsd:string .
 
 :TV_Line_535_en
   a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_535 ;
   :text "or will you swear you knew nothing of it?"^^xsd:string .
-
-:TV_Line_508_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_508 ;
-  :text "Σὺ τοῦτο μούνη τῶνδε Καδμείων ὁρᾷς."^^xsd:string .
-
-:TV_Line_509_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_509 ;
-  :text "Ὁρῶσι χοὖτοι· σοὶ δ ̓ ὑπίλλουσι στόμα."^^xsd:string .
-
-:TV_Line_510_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_510 ;
-  :text "Σὺ δ ̓ οὐκ ἐπαιδῇ, τῶνδε χωρὶς εἰ φρονεῖς;"^^xsd:string .
-
-:TV_Line_511_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_511 ;
-  :text "Οὐδὲν γὰρ αἰσχρὸν τοὺς ὁμοσπλάγχνους σέβειν."^^xsd:string .
-
-:TV_Line_512_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_512 ;
-  :text "Οὔκουν ὅμαιμος χὠ καταντίον θανών;"^^xsd:string .
-
-:TV_Line_513_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_513 ;
-  :text "Ὅμαιμος ἐκ μιᾶς τε καὶ ταὐτοῦ πατρός."^^xsd:string .
-
-:TV_Line_514_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_514 ;
-  :text "Πῶς δῆτ ̓ ἐκείνῳ δυσσεβῆ τιμᾷς χάριν;"^^xsd:string .
-
-:TV_Line_515_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_515 ;
-  :text "Οὐ μαρτυρήσει ταῦθ ̓ ὁ κατθανὼν νέκυς."^^xsd:string .
-
-:TV_Line_516_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_516 ;
-  :text "Εἴ τοί σφε τιμᾷς ἐξ ἴσου τῷ δυσσεβεῖ."^^xsd:string .
-
-:TV_Line_517_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_517 ;
-  :text "Οὐ γάρ τι δοῦλος, ἀλλ ̓ ἀδελφὸς ὤλετο."^^xsd:string .
-
-:TV_Line_518_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_518 ;
-  :text "Πορθῶν δὲ τήνδε γῆν· ὁ δ ̓ ἀντιστὰς ὕπερ."^^xsd:string .
-
-:TV_Line_519_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_519 ;
-  :text "Ὅμως ὅ γ ̓ Ἅιδης τοὺς νόμους ἴσους ποθεῖ."^^xsd:string .
-
-:TV_Line_520_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_520 ;
-  :text "Ἀλλ ̓ οὐχ ὁ χρηστὸς τῷ κακῷ λαχεῖν ἴσος."^^xsd:string .
-
-:TV_Line_521_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_521 ;
-  :text "Τίς οἶδεν εἰ κάτωθεν εὐαγῆ τάδε;"^^xsd:string .
-
-:TV_Line_522_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_522 ;
-  :text "Οὔτοι ποθ ̓ οὑχθρός, οὐδ ̓ ὅταν θάνῃ, φίλος."^^xsd:string .
-
-:TV_Line_523_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_523 ;
-  :text "Οὔτοι συνέχθειν, ἀλλὰ συμφιλεῖν ἔφυν."^^xsd:string .
-
-:TV_Line_524_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_524 ;
-  :text "Κάτω νυν ἐλθοῦσ ̓, εἰ φιλητέον, φίλει"^^xsd:string .
-
-:TV_Line_525_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_525 ;
-  :text "κείνους· ἐμοῦ δὲ ζῶντος οὐκ ἄρξει γυνή."^^xsd:string .
-
-:TV_Line_526_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_526 ;
-  :text "Καὶ μὴν πρὸ πυλῶν ἥδ ̓ Ἰσμήνη,"^^xsd:string .
-
-:TV_Line_527_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_527 ;
-  :text "φιλάδελφα κάτω δάκρυ ̓ εἰβομένη·"^^xsd:string .
-
-:TV_Line_528_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_528 ;
-  :text "νεφέλη δ ̓ ὀφρύων ὕπερ αἱματόεν"^^xsd:string .
-
-:TV_Line_529_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_529 ;
-  :text "ῥέθος αἰσχύνει,"^^xsd:string .
-
-:TV_Line_530_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_530 ;
-  :text "τέγγουσ ̓ εὐῶπα παρειάν."^^xsd:string .
-
-:TV_Line_531_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_531 ;
-  :text "Σὺ δ ̓, ἣ κατ ̓ οἴκους ὡς ἔχιδν ̓ ὑφειμένη"^^xsd:string .
-
-:TV_Line_532_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_532 ;
-  :text "λήθουσά μ ̓ ἐξέπινες, οὐδ ̓ ἐμάνθανον"^^xsd:string .
-
-:TV_Line_533_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_533 ;
-  :text "τρέφων δύ ̓ ἄτα κἀπαναστάσεις θρόνων,"^^xsd:string .
-
-:TV_Line_534_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_534 ;
-  :text "φέρ ̓, εἰπὲ δή μοι, καὶ σὺ τοῦδε τοῦ τάφου"^^xsd:string .
-
-:TV_Line_535_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_535 ;
-  :text "φήσεις μετασχεῖν, ἢ  ̓ξομῇ τὸ μὴ εἰδέναι;"^^xsd:string .
-

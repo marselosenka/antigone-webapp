@@ -8,10 +8,10 @@
 # Translation variants for lines 253-279
 
 :TV_Line_253_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_253 ;
-  :text "And when the first watch did take its post, we were sore afraid"^^xsd:string .
+  :text "Now when the first watchman showed it to us,"^^xsd:string .
 
 :TV_Line_254_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_254 ;
-  :text "And when the first watch did take its post, we were sore afraid"^^xsd:string .
+  :text "the sight was a grievous wonder to us all."^^xsd:string .
 
 :TV_Line_255_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_255 ;
   :text "For the cold clay was hid from us nor was it in any sepulchre,"^^xsd:string .
@@ -59,25 +59,22 @@
   :text "At length, when inquiries seemed of no avail,"^^xsd:string .
 
 :TV_Line_270_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_270 ;
-  :text "A man spake of great evil"^^xsd:string .
+  :text "bow our heads in fear; for we had no way"^^xsd:string .
 
 :TV_Line_271_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_271 ;
-  :text "And we did turn our countenances to the firmament"^^xsd:string .
+  :text "either to speak against it or to see how by acting we could do well."^^xsd:string .
 
 :TV_Line_272_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_272 ;
-  :text "And were sore afraid, as we knew not"^^xsd:string .
+  :text "And the proposal was that this deed must be reported"^^xsd:string .
 
 :TV_Line_273_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_273 ;
-  :text "Whether to make argument or rest secure apart from this ill."^^xsd:string .
+  :text "to you, and not kept hidden."^^xsd:string .
 
 :TV_Line_274_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_274 ;
-  :text "He spake, saying someone must among you hie"^^xsd:string .
-
+  :text "And this opinion prevailed, and me, the unlucky man,"^^xsd:string .
+  
 :TV_Line_275_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_275 ;
-  :text "Cast we then our lots of chance,"^^xsd:string .
-
-:TV_Line_275b_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_275 ;
-  :text "And by great fortune I have won this trouble."^^xsd:string .
+  :text "the lot appointed to win this prize."^^xsd:string .
 
 :TV_Line_276_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_276 ;
   :text "Lo, here am I: I would fain be not."^^xsd:string .

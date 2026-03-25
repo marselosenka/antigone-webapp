@@ -4,110 +4,13 @@
 
 # Translation variants for lines 563-581
 
-:TV_Line_563_el
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_563_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_563 ;
-  :text "Ποτέ, βασιλιά, δεν μένει ο νους εκ γενετής"^^xsd:string .
+  :text "For never, my lord, does the reason that is born with us remain"^^xsd:string .
 
-:TV_Line_564_el
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_564_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_564 ;
-  :text "σ᾽ εκείνους που δυστυχούνε, αλλά τον χάνουν."^^xsd:string .
-
-:TV_Line_565_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_565 ;
-  :text "Εσένα σου ᾽φυγε όταν εζήλεψες να κριματίσεις μαζί με τους κακούργους."^^xsd:string .
-
-:TV_Line_566_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_566 ;
-  :text "Μήπως είναι ζωή που θα κάνω χωρίς αυτήν, μονάχη;"^^xsd:string .
-
-:TV_Line_567_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_567 ;
-  :text "Μην τη λες αυτήν, γιατί πια δεν είναι."^^xsd:string .
-
-:TV_Line_568_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_568 ;
-  :text "Μα θα σκοτώσεις λοιπόν του παιδιού σου την αρραβωνιαστικιά;"^^xsd:string .
-
-:TV_Line_569_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_569 ;
-  :text "Είναι άλλα χωράφια για όργωμα."^^xsd:string .
-
-:TV_Line_570_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_570 ;
-  :text "Δεν θα ᾽ναι σαν κι αυτήν μ᾽ εκείνον ταιριασμένοι."^^xsd:string .
-
-:TV_Line_571_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_571 ;
-  :text "Εγώ σιχαίνομαι κακές γυναίκες για τους γιους."^^xsd:string .
-
-:TV_Line_572_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_572 ;
-  :text "Ω Αίμων, αγάπη μου, πώς σε ντροπιάζει ο πατέρας σου."^^xsd:string .
-
-:TV_Line_573_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_573 ;
-  :text "Πολύ με ενοχλείς κι εσύ κι η παντρειά σου."^^xsd:string .
-
-:TV_Line_574_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_574 ;
-  :text "Μήπως να του την υστερήσεις θέλεις του παιδιού σου;"^^xsd:string .
-
-:TV_Line_575_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_575 ;
-  :text "Ο Άδης είναι που θα χαλάσει αυτόν τον γάμο."^^xsd:string .
-
-:TV_Line_576_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_576 ;
-  :text "Αποφασισμένο είναι φαίνεται αυτή για να πεθάνει."^^xsd:string .
-
-:TV_Line_577_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_577 ;
-  :text "Και για σένα και για μένα. Ας μη χάνομε πια καιρό"^^xsd:string .
-
-:TV_Line_578_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_578 ;
-  :text "παρά πηγαίνετέ τη μέσα, δούλοι,"^^xsd:string .
-
-:TV_Line_579_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_579 ;
-  :text "και να τις δέσουν καλά αυτές τις γυναίκες και να μη τις αφήσουν ελεύθερες,"^^xsd:string .
-
-:TV_Line_580_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_580 ;
-  :text "γιατί κι οι θαρρετοί φεύγουν σαν ιδούν το τέλος της ζωής"^^xsd:string .
-
-:TV_Line_581_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_581 ;
-  :text "με τον Άδη να πλησιάζει."^^xsd:string .
-
-:TV_Line_563_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_563 ;
-  :text "Yes, my lord, the sanity we’re born with doesn’t stay"^^xsd:string .
-
-:TV_Line_564_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_564 ;
-  :text "When things go badly. It wanders off."^^xsd:string .
+  :text "for those who fare ill, but it departs."^^xsd:string .
 
 :TV_Line_565_en
   a owl:NamedIndividual, :TranslationVariant ;
@@ -119,20 +22,18 @@
   :relatedTo :Line_566 ;
   :text "What kind of life could I live, alone, separated from her?"^^xsd:string .
 
-:TV_Line_567_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_567_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_567 ;
-  :text "Don’t speak of her. She’s yours no more."^^xsd:string .
+  :text "But as for 'this woman,' speak not; for she exists no longer."^^xsd:string .
 
 :TV_Line_568_en
   a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_568 ;
   :text "You’re really going to kill your own son’s bride?"^^xsd:string .
 
-:TV_Line_569_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_569_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_569 ;
-  :text "He can plow other fields."^^xsd:string .
+  :text "For there are other fields for him to plow."^^xsd:string .
 
 :TV_Line_570_en
   a owl:NamedIndividual, :TranslationVariant ;
@@ -149,143 +50,40 @@
   :relatedTo :Line_572 ;
   :text "O Haemon dear, how your father insults you!"^^xsd:string .
 
-:TV_Line_573_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_573_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_573 ;
-  :text "I’ve had enough of you and that marriage."^^xsd:string .
+  :text "You and your marriage-talk are an excessive grief to me."^^xsd:string .
 
 :TV_Line_574_en
   a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_574 ;
   :text "Will you really deprive your son of his own wife?"^^xsd:string .
 
-:TV_Line_575_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_575_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_575 ;
-  :text "I won’t have to: Hades will to stop this marriage for me."^^xsd:string .
+  :text "It is Hades who shall put a stop to these marriages."^^xsd:string .
 
 :TV_Line_576_en
   a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_576 ;
   :text "It’s settled, then. She is to die."^^xsd:string .
 
-:TV_Line_577_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_577_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_577 ;
-  :text "Yes, it’s settled... settled for both of us, so there’s no point"^^xsd:string .
+  :text "To you and to me. No more delays! But now,"^^xsd:string .
 
-:TV_Line_578_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_578_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_578 ;
-  :text "In arguing any further. Bring her inside, slaves."^^xsd:string .
+  :text "servants, take them inside; from this time forth"^^xsd:string .
 
-:TV_Line_579_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_579_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_579 ;
-  :text "From now on you are not to leave these women alone."^^xsd:string .
+  :text "these women must be kept bound and not left free."^^xsd:string .
 
-:TV_Line_580_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_580_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_580 ;
-  :text "For even brave men, I tell you, flee"^^xsd:string .
+  :text "For even the brave flee, whenever they see"^^xsd:string .
 
-:TV_Line_581_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_581_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_581 ;
-  :text "when they see Hades standing beside them so soon."^^xsd:string .
-
-:TV_Line_563_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_563 ;
-  :text "Οὐ γάρ ποτ ̓, ὦναξ, οὐδ' ὃς ἂν βλάστῃ μένει"^^xsd:string .
-
-:TV_Line_564_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_564 ;
-  :text "νοῦς τοῖς κακῶς πράσσουσιν, ἀλλ ̓ ἐξίσταται."^^xsd:string .
-
-:TV_Line_565_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_565 ;
-  :text "Σοὶ γοῦν, ὅθ ̓ εἵλου σὺν κακοῖς πράσσειν κακά."^^xsd:string .
-
-:TV_Line_566_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_566 ;
-  :text "Τί γὰρ μόνῃ μοι τῆσδ ̓ ἄτερ βιώσιμον;"^^xsd:string .
-
-:TV_Line_567_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_567 ;
-  :text "Ἀλλ ̓ ἥδε μέντοι μὴ λέγ ̓· οὐ γὰρ ἔστ ̓ ἔτι."^^xsd:string .
-
-:TV_Line_568_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_568 ;
-  :text "Ἀλλὰ κτενεῖς νυμφεῖα τοῦ σαυτοῦ τέκνου;"^^xsd:string .
-
-:TV_Line_569_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_569 ;
-  :text "Ἀρώσιμοι γὰρ χἀτέρων εἰσὶν γύαι."^^xsd:string .
-
-:TV_Line_570_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_570 ;
-  :text "Οὐχ ὥς γ ̓ ἐκείνῳ τῇδέ τ ̓ ἦν ἡρμοσμένα."^^xsd:string .
-
-:TV_Line_571_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_571 ;
-  :text "Κακὰς ἐγὼ γυναῖκας υἱέσι στυγῶ."^^xsd:string .
-
-:TV_Line_572_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_572 ;
-  :text "Ὦ φίλταθ ̓ Αἷμον, ὥς σ ̓ ἀτιμάζει πατήρ."^^xsd:string .
-
-:TV_Line_573_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_573 ;
-  :text "Ἄγαν γε λυπεῖς καὶ σὺ καὶ τὸ σὸν λέχος."^^xsd:string .
-
-:TV_Line_574_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_574 ;
-  :text "Ἦ γὰρ στερήσεις τῆσδε τὸν σαυτοῦ γόνον;"^^xsd:string .
-
-:TV_Line_575_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_575 ;
-  :text "Ἅιδης ὁ παύσων τούσδε τοὺς γάμους ἐμοί."^^xsd:string .
-
-:TV_Line_576_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_576 ;
-  :text "Δεδογμέν ̓, ὡς ἔοικε, τήνδε κατθανεῖν."^^xsd:string .
-
-:TV_Line_577_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_577 ;
-  :text "Καὶ σοί γε κἀμοί. Μὴ τριβὰς ἔτ ̓, ἀλλά νιν"^^xsd:string .
-
-:TV_Line_578_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_578 ;
-  :text "κομίζετ ̓ εἴσω, δμῶες· ἐκδέτους δὲ χρὴ"^^xsd:string .
-
-:TV_Line_579_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_579 ;
-  :text "γυναῖκας εἶναι τάσδε μηδ ̓ ἀνειμένας."^^xsd:string .
-
-:TV_Line_580_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_580 ;
-  :text "Φεύγουσι γάρ τοι χοἰ θρασεῖς, ὅταν πέλας"^^xsd:string .
-
-:TV_Line_581_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_581 ;
-  :text "ἤδη τὸν Ἅιδην εἰσορῶσι τοῦ βίου."^^xsd:string .
-
+  :text "Hades already standing close to their life."^^xsd:string .

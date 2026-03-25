@@ -4,317 +4,114 @@
 
 # Translation variants for lines 331-365
 
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# --- 331 ---
 :TV_Line_331_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_331 ;
-  :text "Rescued so, I owe ye a great many thanks. 330"^^xsd:string .
+  :text "Rescued so, I owe the gods a great many thanks."^^xsd:string .
 
+# --- 332 ---
 :TV_Line_332_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_332 ;
-  :text "CHORUS. There are many marvelous things,"^^xsd:string .
+  :text "CHORUS. There are many marvelous things, and nothing"^^xsd:string .
 
+# --- 333 ---
 :TV_Line_333_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_333 ;
-  :text "Yet none more so than man."^^xsd:string .
+  :text "more marvelous than man exists."^^xsd:string .
 
+# --- 334 ---
 :TV_Line_334_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_334 ;
-  :text "This power traverses the sea"^^xsd:string .
+  :text "This power even across the grey"^^xsd:string .
 
+# --- 335 ---
 :TV_Line_335_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_335 ;
-  :text "When it is grey with wintry wind, 335"^^xsd:string .
+  :text "sea in the wintry storm,"^^xsd:string .
 
+# --- 336 ---
 :TV_Line_336_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_336 ;
-  :text "Passing under the surging swells"^^xsd:string .
+  :text "proceeds, through the surging swells"^^xsd:string .
 
+# --- 337 ---
 :TV_Line_337_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_337 ;
-  :text "As they nearly engulf him. And of the gods"^^xsd:string .
+  :text "passing under the waves; and of the gods,"^^xsd:string .
 
+# --- 338 ---
 :TV_Line_338_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_338 ;
-  :text "The eldest, Gaia immortal, restless Gaia,"^^xsd:string .
+  :text "the eldest, Earth (Gaia) the supreme,"^^xsd:string .
 
+# --- 339 ---
 :TV_Line_339_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_339 ;
-  :text "He wears out by turning her soil with plows"^^xsd:string .
+  :text "immortal and tireless, he wears away,"^^xsd:string .
 
+# --- 340 ---
 :TV_Line_340_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_340 ;
-  :text "And the stock of horses, moving through and 340"^^xsd:string .
+  :text "as the plows turn the soil year after year,"^^xsd:string .
 
+# --- 341 ---
 :TV_Line_341_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_341 ;
-  :text "Back and forth, year after year."^^xsd:string .
+  :text "working it with the race of horses."^^xsd:string .
 
+# --- 342 ---
 :TV_Line_342_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_342 ;
-  :text "He leads by taking captive"^^xsd:string .
+  :text "And the light-minded race of"^^xsd:string .
 
+# --- 343 ---
 :TV_Line_343_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_343 ;
-  :text "The race of thoughtless birds,"^^xsd:string .
+  :text "birds he snares and takes captive,"^^xsd:string .
 
+# --- 344 ---
 :TV_Line_344_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_344 ;
-  :text "The nations of wild beasts"^^xsd:string .
+  :text "and the tribes of wild beasts,"^^xsd:string .
 
+# --- 345 ---
 :TV_Line_345_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_345 ;
-  :text "And the aquatic life of the deep, 345"^^xsd:string .
+  :text "and the sea-dwelling life of the deep,"^^xsd:string .
 
+# --- 346 ---
 :TV_Line_346_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_346 ;
-  :text "In twisted nets woven into meshed coils,"^^xsd:string .
+  :text "in the coils of woven nets,"^^xsd:string .
 
+# --- 347 ---
 :TV_Line_347_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_347 ;
-  :text "The very skillful human;"^^xsd:string .
+  :text "the very skillful man; he masters"^^xsd:string .
 
+# --- 348 ---
 :TV_Line_348_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_348 ;
-  :text "With contrivance he rules over"^^xsd:string .
+  :text "by his contrivances the wild"^^xsd:string .
 
-:TV_Line_349_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_349 ;
-  :text "The field animals and the beast of the mountains,"^^xsd:string .
-
+# --- 350 ---
 :TV_Line_350_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_350 ;
-  :text "As he restrains the horse by placing a yoke 350"^^xsd:string .
+  :text "beasts of the mountain, and the shaggy-necked"^^xsd:string .
 
+# --- 351 ---
 :TV_Line_351_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_351 ;
-  :text "Around its shaggy neck, and holds back"^^xsd:string .
+  :text "horse he brings under the yoked collar,"^^xsd:string .
 
+# --- 352 ---
 :TV_Line_352_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_352 ;
-  :text "The untiring bull of the mountains."^^xsd:string .
+  :text "and the untiring mountain bull."^^xsd:string .
 
-:TV_Line_353_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_353 ;
-  :text "He has taught himself"^^xsd:string .
-
-:TV_Line_354_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_354 ;
-  :text "Speech and thought like wind"^^xsd:string .
-
+# --- 355 ---
 :TV_Line_355_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_355 ;
-  :text "And city-maintaining moods, 355"^^xsd:string .
+  :text "And speech, and wind-swift thought, and city-dwelling"^^xsd:string .
 
+# --- 356 ---
 :TV_Line_356_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_356 ;
-  :text "And how to flee the frosty skies"^^xsd:string .
+  :text "tempers he has taught himself, and how to flee the frost"^^xsd:string .
 
+# --- 357 ---
 :TV_Line_357_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_357 ;
-  :text "And stormy bolts of places inhospitable:"^^xsd:string .
+  :text "of open-air heights and the arrows of the stormy rain."^^xsd:string .
 
+# --- 358 ---
 :TV_Line_358_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_358 ;
-  :text "All-inventive is he -"^^xsd:string .
+  :text "All-resourceful; resource-less he meets nothing"^^xsd:string .
 
-:TV_Line_359_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_359 ;
-  :text "He proceeds unknowingly into"^^xsd:string .
-
+# --- 360 ---
 :TV_Line_360_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_360 ;
-  :text "No impending matter: 360"^^xsd:string .
+  :text "that is to come; only from Hades shall he not procure escape;"^^xsd:string .
 
+# --- 361 ---
 :TV_Line_361_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_361 ;
-  :text "Only Hades is inescapable, Yet even against irresistible disease He has contrived remedy."^^xsd:string .
-
-:TV_Line_331_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_331 ;
-  :text "Σώθηκα, τους ευχαριστώ και... τέλος με τις κρίσεις και τα κρίματα."^^xsd:string .
-
-:TV_Line_332_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_332 ;
-  :text "ΧΟΡΟΣ. Γκρεμός ο κόσμος· κι ο άνθρωπος"^^xsd:string .
-
-:TV_Line_333_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_333 ;
-  :text "ένας γκρεμός στην άκρη του γκρεμού."^^xsd:string .
-
-:TV_Line_334_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_334 ;
-  :text "Ορθώνεται ακλόνητος στον άγριο χειμώνα του πελάγους"^^xsd:string .
-
-:TV_Line_335_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_335 ;
-  :text "κι ανοίγει δρόμους μες στις θύελλες που ζητούν 330"^^xsd:string .
-
-:TV_Line_336_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_336 ;
-  :text "να τον καταποντίσουν."^^xsd:string .
-
-:TV_Line_337_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_337 ;
-  :text "Τ’ άλογα οπλίζει με άροτρα και χρόνο με τον χρόνο"^^xsd:string .
-
-:TV_Line_338_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_338 ;
-  :text "δαμάζει, οργώνει , καλλιεργεί"^^xsd:string .
-
-:TV_Line_339_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_339 ;
-  :text "τη Γη, την ακατάλυτη,"^^xsd:string .
-
-:TV_Line_340_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_340 ;
-  :text "την άφθαρτη, αθάνατη, υπέρτατη θεά. 335"^^xsd:string .
-
-:TV_Line_341_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_341 ;
-  :text "Το ανάερο γένος των πουλιών πολιορκεί·"^^xsd:string .
-
-:TV_Line_342_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_342 ;
-  :text "των αγριμιών και των κατοίκων των βυθών"^^xsd:string .
-
-:TV_Line_343_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_343 ;
-  :text "τα έθνη υποδουλώνει με δίχτυα αναπόδραστα,"^^xsd:string .
-
-:TV_Line_344_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_344 ;
-  :text "ο επιτήδειος άνθρωπος:"^^xsd:string .
-
-:TV_Line_345_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_345 ;
-  :text "παγιδεύει τα θηρία των δασών, 340"^^xsd:string .
-
-:TV_Line_346_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_346 ;
-  :text "δαμάζει τ’ άλογα και ζεύει άγριους ταύρους."^^xsd:string .
-
-:TV_Line_347_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_347 ;
-  :text "Γλώσσα και σκέψη ευέλικτη και σταθερούς θεσμούς"^^xsd:string .
-
-:TV_Line_348_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_348 ;
-  :text "διδάσκει και διδάσκεται"^^xsd:string .
-
-:TV_Line_349_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_349 ;
-  :text "Της παγωνιάς και της βροχής τα βέλη αποφεύγει"^^xsd:string .
-
-:TV_Line_350_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_350 ;
-  :text "και πάντα βρίσκει τρόπο ν’ ανταπεξέλθει· αδύναμος 345"^^xsd:string .
-
-:TV_Line_351_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_351 ;
-  :text "μόνο μπροστά στον θάνατο δείχνεται - όσες πληγές"^^xsd:string .
-
-:TV_Line_352_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_352 ;
-  :text "κι αρρώστιες κι αν γνωρίζει να γιατρεύει."^^xsd:string .
-
-:TV_Line_331_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_331 ;
-  :text "σωθεὶς ὀφείλω τοῖς θεοῖς πολλὴν χάριν."^^xsd:string .
-
-:TV_Line_332_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_332 ;
-  :text "Πολλὰ τὰ δεινὰ κοὐδὲν ἀν-"^^xsd:string .
-
-:TV_Line_333_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_333 ;
-  :text "θρώπου δεινότερον πέλει·"^^xsd:string .
-
-:TV_Line_334_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_334 ;
-  :text "τοῦτο καὶ πολιοῦ πέραν"^^xsd:string .
-
-:TV_Line_335_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_335 ;
-  :text "πόντου χειμερίῳ νότῳ"^^xsd:string .
-
-:TV_Line_336_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_336 ;
-  :text "χωρεῖ, περιβρυχίοισιν"^^xsd:string .
-
-:TV_Line_337_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_337 ;
-  :text "περῶν ὑπ ̓ οἴδμασιν, θεῶν"^^xsd:string .
-
-:TV_Line_338_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_338 ;
-  :text "τε τὰν ὑπερτάταν, Γᾶν"^^xsd:string .
-
-:TV_Line_339_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_339 ;
-  :text "ἄφθιτον, ἀκαμάταν, ἀποτρύεται,"^^xsd:string .
-
-:TV_Line_340_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_340 ;
-  :text "ἰλλομένων ἀρότρων ἔτος εἰς ἔτος,"^^xsd:string .
-
-:TV_Line_341_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_341 ;
-  :text "ἱππείῳ γένει πολεύων."^^xsd:string .
-
-:TV_Line_342_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_342 ;
-  :text "Κουφονόων τε φῦλον ὀρ-"^^xsd:string .
-
-:TV_Line_343_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_343 ;
-  :text "νίθων ἀμφιβαλὼν ἀγρεῖ"^^xsd:string .
-
-:TV_Line_344_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_344 ;
-  :text "καὶ θηρῶν ἀγρίων ἔθνη"^^xsd:string .
-
-:TV_Line_345_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_345 ;
-  :text "πόντου τ ̓ εἰναλίαν φύσιν"^^xsd:string .
-
-:TV_Line_346_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_346 ;
-  :text "σπείραισι δικτυοκλώστοις,"^^xsd:string .
-
-:TV_Line_347_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_347 ;
-  :text "περιφραδὴς ἀνήρ· κρατεῖ"^^xsd:string .
-
-:TV_Line_348_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_348 ;
-  :text "δὲ μηχαναῖς ἀγραύλου"^^xsd:string .
-
-:TV_Line_349_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_349 ;
-  :text "θηρὸς ὀρεσσιβάτα, λασιαύχενά θ ̓"^^xsd:string .
-
-:TV_Line_350_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_350 ;
-  :text "ἵππον ὑπαξέμεν ἀμφίλοφον ζυγὸν"^^xsd:string .
-
-:TV_Line_351_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_351 ;
-  :text "οὔρειόν τ ̓ ἀκμῆτα ταῦρον."^^xsd:string .
-
-:TV_Line_352_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_352 ;
-  :text "Καὶ φθέγμα καὶ ἀνεμόεν"^^xsd:string .
-
-:TV_Line_353_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_353 ;
-  :text "φρόνημα καὶ ἀστυνόμους"^^xsd:string .
-
-:TV_Line_354_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_354 ;
-  :text "ὀργὰς ἐδιδάξατο, καὶ δυσαύλων"^^xsd:string .
-
-:TV_Line_355_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_355 ;
-  :text "πάγων ὑπαίθρεια καὶ"^^xsd:string .
-
-:TV_Line_356_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_356 ;
-  :text "δύσομβρα φεύγειν βέλη"^^xsd:string .
-
-:TV_Line_357_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_357 ;
-  :text "παντοπόρος· ἄπορος ἐπ ̓ οὐδὲν ἔρχεται"^^xsd:string .
-
-:TV_Line_358_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_358 ;
-  :text "τὸ μέλλον· Ἅιδα μόνον"^^xsd:string .
-
-:TV_Line_359_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_359 ;
-  :text "φεῦξιν οὐκ ἐπάξεται·"^^xsd:string .
-
-:TV_Line_360_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_360 ;
-  :text "νόσων δ ̓ ἀμηχάνων φυγὰς"^^xsd:string .
-
-:TV_Line_361_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_361 ;
-  :text "ξυμπέφρασται."^^xsd:string .
-
+  :text "yet for baffling diseases he has devised cures."^^xsd:string .

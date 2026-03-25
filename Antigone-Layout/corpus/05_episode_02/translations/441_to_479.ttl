@@ -4,583 +4,162 @@
 
 # Translation variants for lines 441-479
 
-:TV_Line_441_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_441 ;
-  :text "Εσύ τώρα που γέρνεις χάμου το κεφάλι"^^xsd:string .
-
-:TV_Line_442_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_442 ;
-  :text "το ομολογείς ή αρνιέσαι πως εσύ ᾽σαι που έκανες αυτά;"^^xsd:string .
-
-:TV_Line_443_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_443 ;
-  :text "Και λέω πως είμ᾽ εγώ κι ούτε τ᾽ αρνιέμαι ότι δεν είμαι."^^xsd:string .
-
-:TV_Line_444_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_444 ;
-  :text "Πήγαινε τώρα εσύ όπου θέλεις, ελεύθερος,"^^xsd:string .
-
-:TV_Line_445_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_445 ;
-  :text "το κρίμα δεν σε βαραίνει."^^xsd:string .
-
-:TV_Line_446_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_446 ;
-  :text "Εσύ όμως πες μου κι όχι με πολλά λόγια αλλά σύντομα,"^^xsd:string .
-
-:TV_Line_447_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_447 ;
-  :text "ήξερες πως ήταν κηρυγμένο κανένας να μη κάνει αυτό που έκανες;"^^xsd:string .
-
-:TV_Line_448_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_448 ;
-  :text "Το ήξερα, και πώς να μην το ξέρω αφού ήτανε γνωστό;"^^xsd:string .
-
-:TV_Line_449_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_449 ;
-  :text "Kαι πάλι είχες την τόλμη να παραβείς αυτόν τον νόμο;"^^xsd:string .
-
-:TV_Line_450_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_450 ;
-  :text "Δεν ήταν κανένας Δίας που μου τα ᾽χε προσταγμένα."^^xsd:string .
-
-:TV_Line_451_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_451 ;
-  :text "Ούτ᾽ η Δίκη που κατοικεί μαζί με τους κάτω θεούς"^^xsd:string .
-
-:TV_Line_452_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_452 ;
-  :text "έβαλε τέτοιους νόμους στους ανθρώπους,"^^xsd:string .
-
-:TV_Line_453_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_453 ;
-  :text "ούτε για τόσο μεγαλοδύναμες έπαιρνα τις προσταγές σου,"^^xsd:string .
-
-:TV_Line_454_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_454 ;
-  :text "για να μπορείς τ᾽ άγραφα κι ασάλευτα δίκαια των θεών"^^xsd:string .
-
-:TV_Line_455_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_455 ;
-  :text "να τα πατάς εσύ, πού εισαι θνητός, γιατί δεν είναι από σήμερον κι εχθές"^^xsd:string .
-
-:TV_Line_456_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_456 ;
-  :text "παρά πάντα αυτά ζουν"^^xsd:string .
-
-:TV_Line_457_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_457 ;
-  :text "και κανείς δεν ξέρει πότε φανερωθήκαν."^^xsd:string .
-
-:TV_Line_458_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_458 ;
-  :text "Μήπως έπρεπε εγώ γι᾽ αυτά να δώσω λόγο στους θεούς,"^^xsd:string .
-
-:TV_Line_459_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_459 ;
-  :text "αφού δεν εφοβήθηκα κανενός ανθρώπου γνώμη;"^^xsd:string .
-
-:TV_Line_460_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_460 ;
-  :text "Πως θα πέθαινα, το ήξερα καλά,"^^xsd:string .
-
-:TV_Line_461_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_461 ;
-  :text "και χωρίς εσύ να βάλεις να το κράξουν."^^xsd:string .
-
-:TV_Line_462_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_462 ;
-  :text "Κι αν πεθάνω πρώτ᾽ απ᾽ τον καιρό μου, κέρδος πάλι το λέω,"^^xsd:string .
-
-:TV_Line_463_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_463 ;
-  :text "γιατ᾽ όποιος σαν κι εμένα ζει μες στα πολλά τα βάσανα"^^xsd:string .
-
-:TV_Line_464_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_464 ;
-  :text "πώς να μην είναι κερδεμένος σαν πεθάνει;"^^xsd:string .
-
-:TV_Line_465_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_465 ;
-  :text "Έτσι κι εμένα δεν με πονείς που ᾽χω αυτό το ριζικό,"^^xsd:string .
-
-:TV_Line_466_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_466 ;
-  :text "παρά αν υπόφερνα άθαφτο να δω"^^xsd:string .
-
-:TV_Line_467_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_467 ;
-  :text "τον νεκρό εκείνον που εγέννησε η μητέρα μου·"^^xsd:string .
-
-:TV_Line_468_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_468 ;
-  :text "τότε θα πονούσα· αυτά δεν μου πονούνε."^^xsd:string .
-
-:TV_Line_469_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_469 ;
-  :text "Κι αν σ᾽ εσένα τώρα φαίνομαι ανόητη για ό,τι κάνω,"^^xsd:string .
-
-:TV_Line_470_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_470 ;
-  :text "μπορώ να πω πως σ᾽ ανόητο φαίνομαι ανόητη."^^xsd:string .
-
-:TV_Line_471_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_471 ;
-  :text "Φαίνεται το άγριο αίμα από άγριον πατέρα στο παιδί."^^xsd:string .
-
-:TV_Line_472_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_472 ;
-  :text "Δεν ξέρει αυτή να ζαρώνει μπρος στο κακό."^^xsd:string .
-
-:TV_Line_473_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_473 ;
-  :text "Να ξέρεις πως αυτή σου η ξεροκεφαλιά γρήγορα θα περάσει."^^xsd:string .
-
-:TV_Line_474_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_474 ;
-  :text "Και το πιο δυνατό σίδερο,"^^xsd:string .
-
-:TV_Line_475_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_475 ;
-  :text "το ψημένο απ᾽ τη φωτιά ολόγυρα σκληρό,"^^xsd:string .
-
-:TV_Line_476_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_476 ;
-  :text "θα το δεις να ραΐσει και να σπάσει πιότερο από άλλο·"^^xsd:string .
-
-:TV_Line_477_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_477 ;
-  :text "με κοντό χαλινάρι, ξέρω,"^^xsd:string .
-
-:TV_Line_478_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_478 ;
-  :text "τα αγριεμένα αλόγατα βαστούνται,"^^xsd:string .
-
-:TV_Line_479_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_479 ;
-  :text "γιατί δεν στέκει να ᾽χει μεγάλ᾽ ιδέα εκείνος που ᾽ναι στον άλλον δούλος."^^xsd:string .
-
-:TV_Line_441_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_441 ;
-  :text "You... you with your head hung down to the earth,"^^xsd:string .
-
-:TV_Line_442_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_442 ;
-  :text "do you admit to this or do you deny it?"^^xsd:string .
-
-:TV_Line_443_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_443 ;
-  :text "I say that I did it and I do not deny it."^^xsd:string .
-
-:TV_Line_444_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_444 ;
-  :text "You’re free to go wherever you wish, guard,"^^xsd:string .
-
-:TV_Line_445_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_445 ;
-  :text "Now that your name’s been cleared."^^xsd:string .
-
-:TV_Line_446_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_446 ;
-  :text "Now girl, speak to the point:"^^xsd:string .
-
-:TV_Line_447_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_447 ;
-  :text "Were you aware of my decree?"^^xsd:string .
-
-:TV_Line_448_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_448 ;
-  :text "I knew it. Why wouldn’t I have known it? It was well-known to all."^^xsd:string .
-
-:TV_Line_449_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_449 ;
-  :text "And yet you dared to disobey this law?"^^xsd:string .
-
-:TV_Line_450_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_450 ;
-  :text "Yes, for Zeus did not make this decree,"^^xsd:string .
-
-:TV_Line_451_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_451 ;
-  :text "And Dike, goddess of justice,"^^xsd:string .
-
-:TV_Line_452_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_452 ;
-  :text "Did not ordain such a law for mortal men."^^xsd:string .
-
-:TV_Line_453_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_453 ;
-  :text "I didn’t think your decrees"^^xsd:string .
-
-:TV_Line_454_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_454 ;
-  :text "Were strong enough to outweigh"^^xsd:string .
-
-:TV_Line_455_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_455 ;
-  :text "The firm and unwritten laws of the gods."^^xsd:string .
-
-:TV_Line_456_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_456 ;
-  :text "For they live not today or yesterday, but for all time,"^^xsd:string .
-
-:TV_Line_457_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_457 ;
-  :text "And no one knows how long ago they were revealed."^^xsd:string .
-
-:TV_Line_458_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_458 ;
-  :text "I was not about to pay the gods’ price"^^xsd:string .
-
-:TV_Line_459_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_459 ;
-  :text "For fear of one man’s arrogance."^^xsd:string .
-
-:TV_Line_460_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_460 ;
-  :text "I knew very well that I would die one day. How could I not?"^^xsd:string .
-
-:TV_Line_461_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_461 ;
-  :text "Even if you had not made your decree, it would still be so."^^xsd:string .
-
-:TV_Line_462_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_462 ;
-  :text "But if I die before my time, I count it as a gain."^^xsd:string .
-
-:TV_Line_463_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_463 ;
-  :text "When someone lives among as many evils as I do,"^^xsd:string .
-
-:TV_Line_464_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_464 ;
-  :text "How could they not live better in death?"^^xsd:string .
-
-:TV_Line_465_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_465 ;
-  :text "It won’t be painful at all for me to meet"^^xsd:string .
-
-:TV_Line_466_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_466 ;
-  :text "This fate, but if I had allowed"^^xsd:string .
-
-:TV_Line_467_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_467 ;
-  :text "The son of my own mother to die and remain unburied,"^^xsd:string .
-
-:TV_Line_468_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_468 ;
-  :text "That would have tortured me, but this—this is nothing."^^xsd:string .
-
-:TV_Line_469_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_469 ;
-  :text "Am I the fool?"^^xsd:string .
-
-:TV_Line_470_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_470 ;
-  :text "Or is it the fool that accuses me of folly."^^xsd:string .
-
-:TV_Line_471_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_471 ;
-  :text "It’s clear she’s the fierce child of a fierce father."^^xsd:string .
-
-:TV_Line_472_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_472 ;
-  :text "She never learned how to be flexible."^^xsd:string .
-
-:TV_Line_473_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_473 ;
-  :text "See how over-brittle minds are the first"^^xsd:string .
-
-:TV_Line_474_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_474 ;
-  :text "To crack, and how the mightiest iron,"^^xsd:string .
-
-:TV_Line_475_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_475 ;
-  :text "tempered by fire,"^^xsd:string .
-
-:TV_Line_476_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_476 ;
-  :text "Can still splinter and crumble Into a million pieces."^^xsd:string .
-
-:TV_Line_477_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_477 ;
-  :text "I know, too, how a great, Passionate horse can be broken with just a tiny bit:"^^xsd:string .
-
-:TV_Line_478_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_478 ;
-  :text "You can’t be proud of what you say"^^xsd:string .
-
-:TV_Line_479_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_479 ;
-  :text "If you’re just a slave to your audience."^^xsd:string .
-
-:TV_Line_441_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_441 ;
-  :text "Σὲ δή, σὲ τὴν νεύουσαν εἰς πέδον κάρα,"^^xsd:string .
-
-:TV_Line_442_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_442 ;
-  :text "φῄς, ἢ καταρνῇ μὴ δεδρακέναι τάδε;"^^xsd:string .
-
-:TV_Line_443_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_443 ;
-  :text "Καὶ φημὶ δρᾶσαι κοὐκ ἀπαρνοῦμαι τὸ μή."^^xsd:string .
-
-:TV_Line_444_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_444 ;
-  :text "Σὺ μὲν κομίζοις ἂν σεαυτὸν ᾗ θέλεις"^^xsd:string .
-
-:TV_Line_445_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_445 ;
-  :text "ἔξω βαρείας αἰτίας ἐλεύθερον·"^^xsd:string .
-
-:TV_Line_446_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_446 ;
-  :text "σὺ δ ̓ εἰπέ μοι μὴ μῆκος, ἀλλὰ συντόμως,"^^xsd:string .
-
-:TV_Line_447_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_447 ;
-  :text "ᾔδησθα κηρυχθέντα μὴ πράσσειν τάδε;"^^xsd:string .
-
-:TV_Line_448_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_448 ;
-  :text "Ἤιδη· τί δ ̓ οὐκ ἔμελλον; ἐμφανῆ γὰρ ἦν."^^xsd:string .
-
-:TV_Line_449_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_449 ;
-  :text "Καὶ δῆτ ̓ ἐτόλμας τούσδ ̓ ὑπερβαίνειν νόμους;"^^xsd:string .
-
-:TV_Line_450_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_450 ;
-  :text "Οὐ γάρ τί μοι Ζεὺς ἦν ὁ κηρύξας τάδε,"^^xsd:string .
-
-:TV_Line_451_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_451 ;
-  :text "οὐδ ̓ ἡ ξύνοικος τῶν κάτω θεῶν Δίκη"^^xsd:string .
-
-:TV_Line_452_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_452 ;
-  :text "τοιούσδ ̓ ἐν ἀνθρώποισιν ὥρισεν νόμους,"^^xsd:string .
-
-:TV_Line_453_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_453 ;
-  :text "οὐδὲ σθένειν τοσοῦτον ᾠόμην τὰ σὰ"^^xsd:string .
-
-:TV_Line_454_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_454 ;
-  :text "κηρύγμαθ ̓ ὥστ ̓ ἄγραπτα κἀσφαλῆ θεῶν"^^xsd:string .
-
-:TV_Line_455_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_455 ;
-  :text "νόμιμα δύνασθαι θνητὸν ὄνθ ̓ ὑπερδραμεῖν."^^xsd:string .
-
-:TV_Line_456_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_456 ;
-  :text "Οὐ γάρ τι νῦν γε κἀχθές, ἀλλ ̓ ἀεί ποτε"^^xsd:string .
-
-:TV_Line_457_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_457 ;
-  :text "ζῇ ταῦτα, κοὐδεὶς οἶδεν ἐξ ὅτου  ̓φάνη."^^xsd:string .
-
-:TV_Line_458_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_458 ;
-  :text "Τούτων ἐγὼ οὐκ ἔμελλον, ἀνδρὸς οὐδενὸς"^^xsd:string .
-
-:TV_Line_459_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_459 ;
-  :text "φρόνημα δείσασ ̓, ἐν θεοῖσι τὴν δίκην"^^xsd:string .
-
-:TV_Line_460_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_460 ;
-  :text "δώσειν· θανουμένη γὰρ ἐξῄδη, τί δ ̓ οὔ;"^^xsd:string .
-
-:TV_Line_461_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_461 ;
-  :text "κεἰ μὴ σὺ προὐκήρυξας. Εἰ δὲ τοῦ χρόνου"^^xsd:string .
-
-:TV_Line_462_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_462 ;
-  :text "πρόσθεν θανοῦμαι, κέρδος αὔτ ̓ ἐγὼ λέγω·"^^xsd:string .
-
-:TV_Line_463_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_463 ;
-  :text "ὅστις γὰρ ἐν πολλοῖσιν ὡς ἐγὼ κακοῖς"^^xsd:string .
-
-:TV_Line_464_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_464 ;
-  :text "ζῇ, πῶς ὅδ ̓ οὐχὶ κατθανὼν κέρδος φέρει;"^^xsd:string .
-
-:TV_Line_465_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_465 ;
-  :text "Οὕτως ἔμοιγε τοῦδε τοῦ μόρου τυχεῖν"^^xsd:string .
-
-:TV_Line_466_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_466 ;
-  :text "παρ ̓ οὐδὲν ἄλγος· ἀλλ ̓ ἄν, εἰ τὸν ἐξ ἐμῆς"^^xsd:string .
-
-:TV_Line_468_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_468 ;
-  :text "κείνοις ἂν ἤλγουν· τοῖσδε δ ̓ οὐκ ἀλγύνομαι."^^xsd:string .
-
-:TV_Line_469_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_469 ;
-  :text "Σοὶ δ ̓ εἰ δοκῶ νῦν μῶρα δρῶσα τυγχάνειν,"^^xsd:string .
-
-:TV_Line_470_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_470 ;
-  :text "σχεδόν τι μώρῳ μωρίαν ὀφλισκάνω."^^xsd:string .
-
-:TV_Line_471_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_471 ;
-  :text "Δηλοῖ τὸ γέννημ ̓ ὠμὸν ἐξ ὠμοῦ πατρὸς"^^xsd:string .
-
-:TV_Line_472_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_472 ;
-  :text "τῆς παιδός· εἴκειν δ ̓ οὐκ ἐπίσταται κακοῖς."^^xsd:string .
-
-:TV_Line_473_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_473 ;
-  :text "Ἀλλ ̓ ἴσθι τοι τὰ σκλήρ ̓ ἄγαν φρονήματα"^^xsd:string .
-
-:TV_Line_474_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_474 ;
-  :text "πίπτειν μάλιστα, καὶ τὸν ἐγκρατέστατον"^^xsd:string .
-
-:TV_Line_475_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_475 ;
-  :text "σίδηρον ὀπτὸν ἐκ πυρὸς περισκελῆ"^^xsd:string .
-
-:TV_Line_476_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_476 ;
-  :text "θραυσθέντα καὶ ῥαγέντα πλεῖστ ̓ ἂν εἰσίδοις."^^xsd:string .
-
-:TV_Line_477_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_477 ;
-  :text "Σμικρῷ χαλινῷ δ ̓ οἶδα τοὺς θυμουμένους"^^xsd:string .
-
-:TV_Line_478_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_478 ;
-  :text "ἵππους καταρτυθέντας· οὐ γὰρ ἐκπέλει"^^xsd:string .
-
-:TV_Line_479_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_479 ;
-  :text "φρονεῖν μέγ ̓ ὅστις δοῦλός ἐστι τῶν πέλας."^^xsd:string .
-
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# --- 441 ---
+:TV_Line_441_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_441 ;
+  :text "You there—you with your head bowed to the ground,"^^xsd:string .
+
+# --- 442 ---
+:TV_Line_442_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_442 ;
+  :text "do you admit or do you deny that you did this?"^^xsd:string .
+
+# --- 443 ---
+:TV_Line_443_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_443 ;
+  :text "I say I did it and I do not deny it."^^xsd:string .
+
+# --- 444 ---
+:TV_Line_444_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_444 ;
+  :text "You may take yourself wherever you wish,"^^xsd:string .
+
+# --- 445 ---
+:TV_Line_445_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_445 ;
+  :text "free and clear of a heavy charge."^^xsd:string .
+
+# --- 446 ---
+:TV_Line_446_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_446 ;
+  :text "But you, tell me—not at length, but briefly—"^^xsd:string .
+
+# --- 447 ---
+:TV_Line_447_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_447 ;
+  :text "did you know it had been proclaimed not to do this?"^^xsd:string .
+
+# --- 448 ---
+:TV_Line_448_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_448 ;
+  :text "I knew it. How could I not? It was public."^^xsd:string .
+
+# --- 449 ---
+:TV_Line_449_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_449 ;
+  :text "And yet you dared to overstep these laws?"^^xsd:string .
+
+# --- 450 ---
+:TV_Line_450_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_450 ;
+  :text "Yes, for it was not Zeus who made this proclamation,"^^xsd:string .
+
+# --- 451 ---
+:TV_Line_451_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_451 ;
+  :text "nor did Justice, who dwells with the gods below,"^^xsd:string .
+
+# --- 452 ---
+:TV_Line_452_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_452 ;
+  :text "ordain such laws as these for mortal men."^^xsd:string .
+
+# --- 453 ---
+:TV_Line_453_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_453 ;
+  :text "Nor did I think your edicts had such force"^^xsd:string .
+
+# --- 454 ---
+:TV_Line_454_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_454 ;
+  :text "that you, a mere mortal, could override"^^xsd:string .
+
+# --- 455 ---
+:TV_Line_455_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_455 ;
+  :text "the unwritten and unfailing laws of the gods."^^xsd:string .
+
+# --- 456 ---
+:TV_Line_456_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_456 ;
+  :text "For these live not for today or yesterday, but for all time,"^^xsd:string .
+
+# --- 457 ---
+:TV_Line_457_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_457 ;
+  :text "and no man knows from when they first appeared."^^xsd:string .
+
+# --- 458 ---
+:TV_Line_458_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_458 ;
+  :text "I was not going to pay the penalty before the gods"^^xsd:string .
+
+# --- 459 ---
+:TV_Line_459_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_459 ;
+  :text "for these, through fear of any man's pride."^^xsd:string .
+
+# --- 460 ---
+:TV_Line_460_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_460 ;
+  :text "I knew that I must die—how could I not?—"^^xsd:string .
+
+# --- 461 ---
+:TV_Line_461_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_461 ;
+  :text "even without your edict. But if I die"^^xsd:string .
+
+# --- 462 ---
+:TV_Line_462_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_462 ;
+  :text "before my time, I count that a gain."^^xsd:string .
+
+# --- 463 ---
+:TV_Line_463_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_463 ;
+  :text "For anyone who lives in many troubles as I do,"^^xsd:string .
+
+# --- 464 ---
+:TV_Line_464_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_464 ;
+  :text "how does he not find gain in death?"^^xsd:string .
+
+# --- 465 ---
+:TV_Line_465_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_465 ;
+  :text "So for me to meet this fate is a grief"^^xsd:string .
+
+# --- 466 ---
+:TV_Line_466_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_466 ;
+  :text "of no account; but if I had endured that my mother's"^^xsd:string .
+
+# --- 467 ---
+:TV_Line_467_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_467 ;
+  :text "son should lie an unburied corpse after his death,"^^xsd:string .
+
+# --- 468 ---
+:TV_Line_468_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_468 ;
+  :text "that would have grieved me; but for this, I feel no grief."^^xsd:string .
+
+# --- 469 ---
+:TV_Line_469_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_469 ;
+  :text "And if I seem to you now to be acting foolishly,"^^xsd:string .
+
+# --- 470 ---
+:TV_Line_470_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_470 ;
+  :text "it is perhaps a fool who convicts me of folly."^^xsd:string .
+
+# --- 471 ---
+:TV_Line_471_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_471 ;
+  :text "The girl's fierce spirit shows it comes from a fierce father;"^^xsd:string .
+
+# --- 472 ---
+:TV_Line_472_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_472 ;
+  :text "she does not know how to yield to trouble."^^xsd:string .
+
+# --- 473 ---
+:TV_Line_473_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_473 ;
+  :text "Yet know that the most stubborn spirits"^^xsd:string .
+
+# --- 474 ---
+:TV_Line_474_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_474 ;
+  :text "are the first to fall; the strongest iron,"^^xsd:string .
+
+# --- 475 ---
+:TV_Line_475_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_475 ;
+  :text "tempered to hardness in the fire,"^^xsd:string .
+
+# --- 476 ---
+:TV_Line_476_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_476 ;
+  :text "you will most often see snapped and shattered."^^xsd:string .
+
+# --- 477 ---
+:TV_Line_477_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_477 ;
+  :text "I have known high-mettled horses disciplined"^^xsd:string .
+
+# --- 478 ---
+:TV_Line_478_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_478 ;
+  :text "by a small bit; for it is not permitted"^^xsd:string .
+
+# --- 479 ---
+:TV_Line_479_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_479 ;
+  :text "to have proud thoughts for one who is a slave to others."^^xsd:string .

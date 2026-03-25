@@ -25,7 +25,9 @@
   :text "Surely, I shall not be seen here again! O ye gods,"^^xsd:string .
 
 :TV_Line_330_En a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_330 ;
-  :text "Rescued so, I owe ye a great many thanks. 330"^^xsd:string .
+  :text "For now, beyond my hope and contrary to my expectation,"^^xsd:string .
+
+  
 
 :TV_Line_324_Gr a owl:NamedIndividual, :TranslationVariant ; :relatedTo :Line_324 ;
   :text "ΚΡΕΩΝ. Καλά, κρύψου εσύ πίσω απ’ το «κρίμα»."^^xsd:string .

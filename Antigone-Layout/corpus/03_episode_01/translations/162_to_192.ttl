@@ -4,12 +4,16 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :episode01-translations-162-192 a owl:Ontology .
+:TV_Line_162_en a :TranslationVariant ;
+    :text "Men, the gods have at last set our city safely upright"^^xsd:string ;
+    :relatedTo :Line_162 ;
+    :hasTheme :Theme_CivicStabilityAfterCrisis .
 
 :TV_Line_163_en a :TranslationVariant ;
-:text "After shaking it in great storms, they have set it upright again."^^xsd:string ;
-:relatedTo :Line_163 ;
-:hasTheme :Theme_CivicStabilityAfterCrisis ;
-:relatedTo :Event_CityThreatenedByHavoc .
+    :text "After shaking it in great storms, they have set it upright again."^^xsd:string ;
+    :relatedTo :Line_163 ;
+    :hasTheme :Theme_CivicStabilityAfterCrisis ;
+    :relatedTo :Event_CityThreatenedByHavoc .
 
 :TV_Line_164_en a :TranslationVariant ;
 :text "And I have sent for you, apart from all others,"^^xsd:string ;

@@ -4,150 +4,15 @@
 
 # Translation variants for lines 536-562
 
-:TV_Line_536_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_536 ;
-  :text "Έκανα κι εγώ το ίδιο σαν κι αυτή κι ό,τι λέει λέω"^^xsd:string .
-
-:TV_Line_537_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_537 ;
-  :text "κι είμαι μαζί της και το ίδιο φταίω."^^xsd:string .
-
-:TV_Line_538_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_538 ;
-  :text "Μα το δίκιο δεν θα σ᾽ αφήσει να το πεις αυτό·"^^xsd:string .
-
-:TV_Line_539_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_539 ;
-  :text "επειδή ούτ᾽ εσύ θέλησες ούτε κι εγώ σε πήρα σύντροφο."^^xsd:string .
-
-:TV_Line_540_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_540 ;
-  :text "Μα τώρα στα βάσανά σου δεν διστάζω"^^xsd:string .
-
-:TV_Line_541_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_541 ;
-  :text "μαζί σου ν᾽ αρμενίσω στο πέλαγος του πόνου."^^xsd:string .
-
-:TV_Line_542_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_542 ;
-  :text "Ποιά έκανε το έργο ο Άδης κι αυτοί που ᾽ναι κάτου το ξέρουνε."^^xsd:string .
-
-:TV_Line_543_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_543 ;
-  :text "Μα δεν τη θέλω γω τη φίλη που με τα λόγια μόνο μ᾽ αγαπάει."^^xsd:string .
-
-:TV_Line_544_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_544 ;
-  :text "Όχι αδελφούλα μου, μη με περιφρονήσεις"^^xsd:string .
-
-:TV_Line_545_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_545 ;
-  :text "μαζί σου να μη πεθάνω και τον νεκρό κι εγώ να μην τιμήσω."^^xsd:string .
-
-:TV_Line_546_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_546 ;
-  :text "Μη μου πεθάνεις εσύ και μην παίρνεις για δικά σου"^^xsd:string .
-
-:TV_Line_547_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_547 ;
-  :text "αυτά που ούτε με το δάκτυλό σου ακούμπησες· εγώ που πεθαίνω είμ᾽ αρκετή."^^xsd:string .
-
-:TV_Line_548_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_548 ;
-  :text "Και τί τη θέλω τη ζωή μου αφού θα χάσω εσένα;"^^xsd:string .
-
-:TV_Line_549_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_549 ;
-  :text "Ρώτα τον Κρέοντα· τώρα γι᾽ αυτόνε θα φροντίζεις."^^xsd:string .
-
-:TV_Line_550_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_550 ;
-  :text "Γιατί με πονείς μ᾽ αυτά, ανώφελα για σένα;"^^xsd:string .
-
-:TV_Line_551_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_551 ;
-  :text "Λυπούμαι που το κάνω, και που σε περγελώ."^^xsd:string .
-
-:TV_Line_552_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_552 ;
-  :text "Μα πες μου πώς και τώρα να σ᾽ ωφελήσω εγώ;"^^xsd:string .
-
-:TV_Line_553_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_553 ;
-  :text "Τον εαυτό σου σώσε· δεν σε ζηλεύω που θα γλιτώσεις."^^xsd:string .
-
-:TV_Line_554_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_554 ;
-  :text "Οϊμένα, δυστυχισμένη, γιατί να μην έχω κι εγώ την τύχη σου;"^^xsd:string .
-
-:TV_Line_555_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_555 ;
-  :text "Εσύ προτίμησες να ζεις κι εγώ να πεθάνω."^^xsd:string .
-
-:TV_Line_556_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_556 ;
-  :text "Αλλά σου είχα πει τις αιτίες μου εγώ."^^xsd:string .
-
-:TV_Line_557_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_557 ;
-  :text "Εσύ πως είχες δίκιο νόμιζες με τις δικές σου, κι εγώ με τις δικές μου."^^xsd:string .
-
-:TV_Line_558_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_558 ;
-  :text "Έτσι είμαστε ίσα κι ίσα στην αμαρτία μας."^^xsd:string .
-
-:TV_Line_559_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_559 ;
-  :text "Θάρρευε, εσύ ακόμα ζεις, μα η δική μου η ψυχή"^^xsd:string .
-
-:TV_Line_560_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_560 ;
-  :text "καιρό είναι πεθαμένη, για να ωφελάει αυτούς που έχουν πεθάνει."^^xsd:string .
-
-:TV_Line_561_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_561 ;
-  :text "Αυτό το κορίτσι, εγώ λέω πως τώρα δα φανερώθηκε άμυαλο·"^^xsd:string .
-
-:TV_Line_562_el
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_562 ;
-  :text "η άλλη ήταν από πάντα."^^xsd:string .
 
 :TV_Line_536_en
   a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_536 ;
   :text "I did the deed, if she’ll agree,"^^xsd:string .
 
-:TV_Line_537_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_537_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_537 ;
-  :text "And I’ll share the blame."^^xsd:string .
+  :text "I both share in the deed and bear the blame."^^xsd:string .
 
 :TV_Line_538_en
   a owl:NamedIndividual, :TranslationVariant ;
@@ -184,20 +49,19 @@
   :relatedTo :Line_544 ;
   :text "At least, sister, you should not strip me of the honor"^^xsd:string .
 
-:TV_Line_545_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_545_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_545 ;
-  :text "Of both dying and cleansing the dead with you!"^^xsd:string .
+  :text "to die with you and to sanctify the dead."^^xsd:string .
 
 :TV_Line_546_en
   a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_546 ;
   :text "Don’t die for my sake, and don’t claim something"^^xsd:string .
 
-:TV_Line_547_en
-  a owl:NamedIndividual, :TranslationVariant ;
+
+:TV_Line_547_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_547 ;
-  :text "You never even tried to do. My death will suffice."^^xsd:string .
+  :text "make yours. I, dying, will be enough."^^xsd:string .
 
 :TV_Line_548_en
   a owl:NamedIndividual, :TranslationVariant ;
@@ -214,10 +78,9 @@
   :relatedTo :Line_550 ;
   :text "Why are you mocking me like this? It’s not helpful at all."^^xsd:string .
 
-:TV_Line_551_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_551_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_551 ;
-  :text "If I’m mocking you, it’s my loss."^^xsd:string .
+  :text "If I mock you, I do so with a pained heart."^^xsd:string .
 
 :TV_Line_552_en
   a owl:NamedIndividual, :TranslationVariant ;
@@ -239,173 +102,32 @@
   :relatedTo :Line_555 ;
   :text "You chose to live, and I chose to die."^^xsd:string .
 
-:TV_Line_556_en
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_556 ;
-  :text "But not without hearing what I had to say."^^xsd:string .
 
-:TV_Line_557_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_556_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_556 ;
+  :text "But not without me having spoken my words."^^xsd:string .
+
+:TV_Line_557_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_557 ;
-  :text "Some people took your side, some people took mine."^^xsd:string .
+  :text "You seemed wise to some, but I to others."^^xsd:string .
 
 :TV_Line_558_en
   a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_558 ;
   :text "But both of us have equal guilt!"^^xsd:string .
 
-:TV_Line_559_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_559_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_559 ;
-  :text "Be strong! You are still living,"^^xsd:string .
+  :text "Take heart: you live, but my soul long ago"^^xsd:string .
 
-:TV_Line_560_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_560_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_560 ;
-  :text "but my life ended long ago, So that I might serve the dead."^^xsd:string .
+  :text "has died, so that it might serve the dead."^^xsd:string .
 
-:TV_Line_561_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_561_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_561 ;
-  :text "I gather so far that one of you has just gone mad,"^^xsd:string .
+  :text "I say these two children—one has just now"^^xsd:string .
 
-:TV_Line_562_en
-  a owl:NamedIndividual, :TranslationVariant ;
+:TV_Line_562_en a owl:NamedIndividual, :TranslationVariant ;
   :relatedTo :Line_562 ;
-  :text "While the other has been mad from the start."^^xsd:string .
-
-:TV_Line_536_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_536 ;
-  :text "Δέδρακα τοὔργον, εἴπερ ἥδ ̓ ὁμορροθεῖ,"^^xsd:string .
-
-:TV_Line_537_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_537 ;
-  :text "καὶ ξυμμετίσχω καὶ φέρω τῆς αἰτίας."^^xsd:string .
-
-:TV_Line_538_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_538 ;
-  :text "Ἀλλ ̓ οὐκ ἐάσει τοῦτό γ ̓ ἡ δίκη σ ̓, ἐπεὶ"^^xsd:string .
-
-:TV_Line_539_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_539 ;
-  :text "οὔτ ̓ ἠθέλησας οὔτ ̓ ἐγὼ  ̓κοινωσάμην."^^xsd:string .
-
-:TV_Line_540_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_540 ;
-  :text "Ἀλλ ̓ ἐν κακοῖς τοῖς σοῖσιν οὐκ αἰσχύνομαι"^^xsd:string .
-
-:TV_Line_541_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_541 ;
-  :text "ξύμπλουν ἐμαυτὴν τοῦ πάθους ποιουμένη."^^xsd:string .
-
-:TV_Line_542_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_542 ;
-  :text "Ὧν τοὔργον Ἅιδης χοἰ κάτω ξυνίστορες·"^^xsd:string .
-
-:TV_Line_543_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_543 ;
-  :text "λόγοις δ ̓ ἐγὼ φιλοῦσαν οὐ στέργω φίλην."^^xsd:string .
-
-:TV_Line_544_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_544 ;
-  :text "Μήτοι, κασιγνήτη, μ ̓ ἀτιμάσῃς τὸ μὴ οὐ"^^xsd:string .
-
-:TV_Line_545_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_545 ;
-  :text "θανεῖν τε σὺν σοὶ τὸν θανόντα θ ̓ ἁγνίσαι."^^xsd:string .
-
-:TV_Line_546_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_546 ;
-  :text "Μή μοι θάνῃς σὺ κοινά, μηδ ̓ ἃ μὴ  ̓θιγες"^^xsd:string .
-
-:TV_Line_547_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_547 ;
-  :text "ποιοῦ σεαυτῆς· ἀρκέσω θνῄσκουσ ̓ ἐγώ."^^xsd:string .
-
-:TV_Line_548_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_548 ;
-  :text "Καὶ τίς βίος μοι σοῦ λελειμμένῃ φίλος;"^^xsd:string .
-
-:TV_Line_549_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_549 ;
-  :text "Κρέοντ ̓ ἐρώτα· τοῦδε γὰρ σὺ κηδεμών."^^xsd:string .
-
-:TV_Line_550_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_550 ;
-  :text "Τί ταῦτ ̓ ἀνιᾷς μ ̓ οὐδὲν ὠφελουμένη;"^^xsd:string .
-
-:TV_Line_551_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_551 ;
-  :text "Ἀλγοῦσα μὲν δῆτ ̓, εἰ γέλωτ ̓ ἐν σοὶ γελῶ."^^xsd:string .
-
-:TV_Line_552_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_552 ;
-  :text "Τί δῆτ ̓ ἂν ἀλλὰ νῦν σ ̓ ἔτ ̓ ὠφελοῖμ ̓ ἐγώ;"^^xsd:string .
-
-:TV_Line_553_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_553 ;
-  :text "Σῶσον σεαυτήν· οὐ φθονῶ σ ̓ ὑπεκφυγεῖν."^^xsd:string .
-
-:TV_Line_554_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_554 ;
-  :text "Οἴμοι τάλαινα, κἀμπλάκω τοῦ σοῦ μόρου;"^^xsd:string .
-
-:TV_Line_555_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_555 ;
-  :text "Σὺ μὲν γὰρ εἵλου ζῆν, ἐγὼ δὲ κατθανεῖν."^^xsd:string .
-
-:TV_Line_556_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_556 ;
-  :text "Ἀλλ ̓ οὐκ ἐπ ̓ ἀρρήτοις γε τοῖς ἐμοῖς λόγοις."^^xsd:string .
-
-:TV_Line_557_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_557 ;
-  :text "Καλῶς σὺ μὲν τοῖς, τοῖς δ ̓ ἐγὼ  ̓δόκουν φρονεῖν."^^xsd:string .
-
-:TV_Line_558_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_558 ;
-  :text "Καὶ μὴν ἴση νῷν ἐστιν ἡ  ̓ξαμαρτία."^^xsd:string .
-
-:TV_Line_559_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_559 ;
-  :text "Θάρσει· σὺ μὲν ζῇς, ἡ δ ̓ ἐμὴ ψυχὴ πάλαι"^^xsd:string .
-
-:TV_Line_560_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_560 ;
-  :text "τέθνηκεν, ὥστε τοῖς θανοῦσιν ὠφελεῖν."^^xsd:string .
-
-:TV_Line_561_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_561 ;
-  :text "Τὼ παῖδε φημὶ τώδε τὴν μὲν ἀρτίως"^^xsd:string .
-
-:TV_Line_562_grc
-  a owl:NamedIndividual, :TranslationVariant ;
-  :relatedTo :Line_562 ;
-  :text "ἄνουν πεφάνθαι, τὴν δ ̓ ἀφ ̓ οὗ τὰ πρῶτ ̓ ἔφυ."^^xsd:string .
-
+  :text "shown herself a fool, the other from her birth."^^xsd:string .

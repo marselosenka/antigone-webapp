@@ -1,0 +1,360 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Haemon a :Character .
+:Creon a :Character .
+:Antigone a :Character .
+:Zeus a :Character .
+
+# --- Semantic Entities ---
+
+:Motivation_FollowFathersGuidance a :Motivation ;
+    :description "Haemon's intention to prioritize his father's wise guidance over any marriage."^^xsd:string .
+:Haemon :hasMotivation :Motivation_FollowFathersGuidance .
+
+:Motivation_DemandObedience a :Motivation ;
+    :description "Creon's intention to ensure his son always supports his father's judgment and opposes his enemies."^^xsd:string .
+:Creon :hasMotivation :Motivation_DemandObedience .
+
+:Motivation_MaintainPatriarchalDominance a :Motivation ;
+    :description "Creon's determination to never be seduced or deposed by a woman, preferring defeat by a man."^^xsd:string .
+:Creon :hasMotivation :Motivation_MaintainPatriarchalDominance .
+
+:MoralDecision_ExecuteAntigone a :MoralDecision ;
+    :description "Creon's decision to kill Antigone and dismiss her to Hades for openly disobeying his commands."^^xsd:string .
+:Creon :makesMoralDecision :MoralDecision_ExecuteAntigone .
+
+:EthicalPrinciple_FilialPiety a :EthicalPrinciple ;
+    :description "The principle that a son must follow his father's path and honor his loved ones."^^xsd:string .
+:Haemon :advocatesFor :EthicalPrinciple_FilialPiety .
+:Creon :advocatesFor :EthicalPrinciple_FilialPiety .
+
+:EthicalPrinciple_AbsoluteCivicObedience a :EthicalPrinciple ;
+    :description "The belief that citizens must obey the city's chosen leader in all matters, large and small, just and unjust."^^xsd:string .
+:Creon :advocatesFor :EthicalPrinciple_AbsoluteCivicObedience .
+
+:EthicalPrinciple_HouseholdGovernance a :EthicalPrinciple ;
+    :description "The principle that a man must be able to govern his own house in order to govern a city."^^xsd:string .
+:Creon :advocatesFor :EthicalPrinciple_HouseholdGovernance .
+
+:Emotion_FearOfMockery a :Emotion ;
+    :description "Creon's fear of being mocked by enemies for raising hopeless, disobedient children."^^xsd:string .
+:Creon :experiencesEmotion :Emotion_FearOfMockery .
+
+:Emotion_Contempt a :Emotion ;
+    :description "Creon's scorn for Antigone, viewing her as a false friend and an enemy."^^xsd:string .
+:Creon :experiencesEmotion :Emotion_Contempt .
+
+:Conflict_StateAuthorityVsIndividualDefiance a :Conflict ;
+    :description "The clash between Creon's absolute civic authority and Antigone dictating her own laws."^^xsd:string ;
+    :conflictBetween :Creon, :Antigone .
+
+:Conflict_MaleAuthorityVsFemaleDefiance a :Conflict ;
+    :description "The tension surrounding gender roles, as Creon refuses to be seen as weaker than a woman."^^xsd:string ;
+    :conflictBetween :Creon, :Antigone .
+
+:Cause_DisobedientChildren a owl:Thing ;
+    :description "Raising hopeless and disobedient children."^^xsd:string .
+
+:Effect_EnemyMockery a owl:Thing ;
+    :description "Creating trouble for oneself and giving enemies an excuse to mock."^^xsd:string .
+:Cause_DisobedientChildren :relatedTo :Effect_EnemyMockery .
+
+:Cause_LustForWoman a owl:Thing ;
+    :description "Losing one's head for the pleasure of a woman."^^xsd:string .
+
+:Effect_ColdMarriage a owl:Thing ;
+    :description "Finding a wretched, cold woman in one's bed and home."^^xsd:string .
+:Cause_LustForWoman :relatedTo :Effect_ColdMarriage .
+
+:Cause_TolerateFamilyDisobedience a owl:Thing ;
+    :description "Allowing one's own relatives to walk all over authority."^^xsd:string .
+
+:Effect_GeneralAnarchy a owl:Thing ;
+    :description "Everyone else following suit and breaking the law."^^xsd:string .
+:Cause_TolerateFamilyDisobedience :relatedTo :Effect_GeneralAnarchy .
+
+:Cause_Disobedience a owl:Thing ;
+    :description "The crime of breaking or cheapening the law."^^xsd:string .
+
+:Effect_SocialCollapse a owl:Thing ;
+    :description "Toppling cities, making fugitives of families, and putting armies to flight."^^xsd:string .
+:Cause_Disobedience :relatedTo :Effect_SocialCollapse .
+
+:Cause_CivicObedience a owl:Thing ;
+    :description "Obedience to authority when society is in good order."^^xsd:string .
+
+:Effect_PreservationOfLife a owl:Thing ;
+    :description "Saving many lives and defending the order of things."^^xsd:string .
+:Cause_CivicObedience :relatedTo :Effect_PreservationOfLife .
+
+:Theme_AbsoluteAuthority a :Theme ;
+    :description "The strict demand for unquestioning loyalty and obedience to the ruler's commands."^^xsd:string .
+
+:Theme_CivicOrderVsAnarchy a :Theme ;
+    :description "The contrast between the protective nature of societal order and the destructive chaos of disobedience."^^xsd:string .
+
+:Theme_Patriarchy a :Theme ;
+    :description "The rigid adherence to male dominance and the societal fear of female empowerment."^^xsd:string .
+
+:Theme_FilialPiety a :Theme ;
+    :description "The structural expectation of a son's total allegiance to his father's will and enmities."^^xsd:string .
+
+# --- Line-by-Line Extraction ---
+
+:Line_635 a owl:NamedIndividual, :Line ;
+    :lineNumber 635 ;
+    :canonicalReference "635"^^xsd:string ;
+    :text "Father, I am yours, and you know me well,"^^xsd:string ;
+    :hasMotivation :Motivation_FollowFathersGuidance ;
+    :advocatesFor :EthicalPrinciple_FilialPiety .
+
+:Line_636 a owl:NamedIndividual, :Line ;
+    :lineNumber 636 ;
+    :canonicalReference "636"^^xsd:string ;
+    :text "You set me on the right path, and I am following it."^^xsd:string .
+
+:Line_637 a owl:NamedIndividual, :Line ;
+    :lineNumber 637 ;
+    :canonicalReference "637"^^xsd:string ;
+    :text "I would not prioritize any marriage"^^xsd:string .
+
+:Line_638 a owl:NamedIndividual, :Line ;
+    :lineNumber 638 ;
+    :canonicalReference "638"^^xsd:string ;
+    :text "Over the wise guidance you give me."^^xsd:string .
+
+:Line_639 a owl:NamedIndividual, :Line ;
+    :lineNumber 639 ;
+    :canonicalReference "639"^^xsd:string ;
+    :text "Good, because this is how I have to handle the situation,"^^xsd:string .
+
+:Line_640 a owl:NamedIndividual, :Line ;
+    :lineNumber 640 ;
+    :canonicalReference "640"^^xsd:string ;
+    :text "And you must support your father’s judgement, always."^^xsd:string ;
+    :hasMotivation :Motivation_DemandObedience ;
+    :hasTheme :Theme_FilialPiety .
+
+:Line_641 a owl:NamedIndividual, :Line ;
+    :lineNumber 641 ;
+    :canonicalReference "641"^^xsd:string ;
+    :text "This is the very reason why parents pray"^^xsd:string .
+
+:Line_642 a owl:NamedIndividual, :Line ;
+    :lineNumber 642 ;
+    :canonicalReference "642"^^xsd:string ;
+    :text "For their children to be obedient:"^^xsd:string .
+
+:Line_643 a owl:NamedIndividual, :Line ;
+    :lineNumber 643 ;
+    :canonicalReference "643"^^xsd:string ;
+    :text "So they’ll go blow for blow with their enemies"^^xsd:string .
+
+:Line_644 a owl:NamedIndividual, :Line ;
+    :lineNumber 644 ;
+    :canonicalReference "644"^^xsd:string ;
+    :text "And still honor their loved ones—just as their father would."^^xsd:string .
+
+:Line_645 a owl:NamedIndividual, :Line ;
+    :lineNumber 645 ;
+    :canonicalReference "645"^^xsd:string ;
+    :text "But for someone who raises hopeless children,"^^xsd:string ;
+    :relatedTo :Cause_DisobedientChildren .
+
+:Line_646 a owl:NamedIndividual, :Line ;
+    :lineNumber 646 ;
+    :canonicalReference "646"^^xsd:string ;
+    :text "What else can you say they’ve done but make"^^xsd:string .
+
+:Line_647 a owl:NamedIndividual, :Line ;
+    :lineNumber 647 ;
+    :canonicalReference "647"^^xsd:string ;
+    :text "More trouble for themselves, and give their enemies"^^xsd:string ;
+    :relatedTo :Effect_EnemyMockery .
+
+:Line_648 a owl:NamedIndividual, :Line ;
+    :lineNumber 648 ;
+    :canonicalReference "648"^^xsd:string ;
+    :text "An excuse to mock them. Now my son, don’t you ever"^^xsd:string ;
+    :experiencesEmotion :Emotion_FearOfMockery .
+
+:Line_649 a owl:NamedIndividual, :Line ;
+    :lineNumber 649 ;
+    :canonicalReference "649"^^xsd:string ;
+    :text "Lose your head for the pleasure of a woman:"^^xsd:string ;
+    :relatedTo :Cause_LustForWoman .
+
+:Line_650 a owl:NamedIndividual, :Line ;
+    :lineNumber 650 ;
+    :canonicalReference "650"^^xsd:string ;
+    :text "You’ll watch this once-beloved grow cold to you,"^^xsd:string .
+
+:Line_651 a owl:NamedIndividual, :Line ;
+    :lineNumber 651 ;
+    :canonicalReference "651"^^xsd:string ;
+    :text "A wretched woman in your bed and in your home."^^xsd:string ;
+    :relatedTo :Effect_ColdMarriage .
+
+:Line_652 a owl:NamedIndividual, :Line ;
+    :lineNumber 652 ;
+    :canonicalReference "652"^^xsd:string ;
+    :text "What could carve a deeper wound than a false friend?"^^xsd:string .
+
+:Line_653 a owl:NamedIndividual, :Line ;
+    :lineNumber 653 ;
+    :canonicalReference "653"^^xsd:string ;
+    :text "Dismiss this girl as though she were your enemy,"^^xsd:string ;
+    :experiencesEmotion :Emotion_Contempt .
+
+:Line_654 a owl:NamedIndividual, :Line ;
+    :lineNumber 654 ;
+    :canonicalReference "654"^^xsd:string ;
+    :text "So she can be married off to someone in the house of Hades."^^xsd:string .
+
+:Line_655 a owl:NamedIndividual, :Line ;
+    :lineNumber 655 ;
+    :canonicalReference "655"^^xsd:string ;
+    :text "I caught her, openly disobeying"^^xsd:string ;
+    :hasConflict :Conflict_StateAuthorityVsIndividualDefiance .
+
+:Line_656 a owl:NamedIndividual, :Line ;
+    :lineNumber 656 ;
+    :canonicalReference "656"^^xsd:string ;
+    :text "My commands (alone among of the whole city)."^^xsd:string .
+
+:Line_657 a owl:NamedIndividual, :Line ;
+    :lineNumber 657 ;
+    :canonicalReference "657"^^xsd:string ;
+    :text "I will not have it said that in my city lies are confused with laws..."^^xsd:string .
+
+:Line_658 a owl:NamedIndividual, :Line ;
+    :lineNumber 658 ;
+    :canonicalReference "658"^^xsd:string ;
+    :text "I will kill her. Let her sing a prayer to Zeus"^^xsd:string ;
+    :makesMoralDecision :MoralDecision_ExecuteAntigone .
+
+:Line_659 a owl:NamedIndividual, :Line ;
+    :lineNumber 659 ;
+    :canonicalReference "659"^^xsd:string ;
+    :text "Who rules over families. If I allow my own relatives"^^xsd:string ;
+    :relatedTo :Cause_TolerateFamilyDisobedience .
+
+:Line_660 a owl:NamedIndividual, :Line ;
+    :lineNumber 660 ;
+    :canonicalReference "660"^^xsd:string ;
+    :text "To walk all over me, everyone will follow suit:"^^xsd:string ;
+    :relatedTo :Effect_GeneralAnarchy .
+
+:Line_661 a owl:NamedIndividual, :Line ;
+    :lineNumber 661 ;
+    :canonicalReference "661"^^xsd:string ;
+    :text "Who would trust a man to run a city"^^xsd:string .
+
+:Line_662 a owl:NamedIndividual, :Line ;
+    :lineNumber 662 ;
+    :canonicalReference "662"^^xsd:string ;
+    :text "If he can’t keep his own house in order?"^^xsd:string ;
+    :advocatesFor :EthicalPrinciple_HouseholdGovernance .
+
+:Line_663 a owl:NamedIndividual, :Line ;
+    :lineNumber 663 ;
+    :canonicalReference "663"^^xsd:string ;
+    :text "Whoever breaks or cheapens the law or feels"^^xsd:string .
+
+:Line_664 a owl:NamedIndividual, :Line ;
+    :lineNumber 664 ;
+    :canonicalReference "664"^^xsd:string ;
+    :text "That they can dictate their own laws to authority"^^xsd:string .
+
+:Line_665 a owl:NamedIndividual, :Line ;
+    :lineNumber 665 ;
+    :canonicalReference "665"^^xsd:string ;
+    :text "Will never win praises from me."^^xsd:string .
+
+:Line_666 a owl:NamedIndividual, :Line ;
+    :lineNumber 666 ;
+    :canonicalReference "666"^^xsd:string ;
+    :text "Everyone must obey the city’s chosen leader,"^^xsd:string ;
+    :advocatesFor :EthicalPrinciple_AbsoluteCivicObedience ;
+    :hasTheme :Theme_AbsoluteAuthority .
+
+:Line_667 a owl:NamedIndividual, :Line ;
+    :lineNumber 667 ;
+    :canonicalReference "667"^^xsd:string ;
+    :text "In matters large and small, just and unjust."^^xsd:string .
+
+:Line_668 a owl:NamedIndividual, :Line ;
+    :lineNumber 668 ;
+    :canonicalReference "668"^^xsd:string ;
+    :text "I am confident that the man who can"^^xsd:string .
+
+:Line_669 a owl:NamedIndividual, :Line ;
+    :lineNumber 669 ;
+    :canonicalReference "669"^^xsd:string ;
+    :text "Govern himself well can govern a city, too."^^xsd:string .
+
+:Line_670 a owl:NamedIndividual, :Line ;
+    :lineNumber 670 ;
+    :canonicalReference "670"^^xsd:string ;
+    :text "You can depend on the soldier who stays at his post"^^xsd:string .
+
+:Line_671 a owl:NamedIndividual, :Line ;
+    :lineNumber 671 ;
+    :canonicalReference "671"^^xsd:string ;
+    :text "While a hail of spears rains down, a true and faithful man."^^xsd:string .
+
+:Line_672 a owl:NamedIndividual, :Line ;
+    :lineNumber 672 ;
+    :canonicalReference "672"^^xsd:string ;
+    :text "There is no greater crime than disobedience:"^^xsd:string ;
+    :relatedTo :Cause_Disobedience .
+
+:Line_673 a owl:NamedIndividual, :Line ;
+    :lineNumber 673 ;
+    :canonicalReference "673"^^xsd:string ;
+    :text "It topples cities, it makes fugitives"^^xsd:string ;
+    :relatedTo :Effect_SocialCollapse .
+
+:Line_674 a owl:NamedIndividual, :Line ;
+    :lineNumber 674 ;
+    :canonicalReference "674"^^xsd:string ;
+    :text "Out of families, it puts armies to flight."^^xsd:string .
+
+:Line_675 a owl:NamedIndividual, :Line ;
+    :lineNumber 675 ;
+    :canonicalReference "675"^^xsd:string ;
+    :text "When things are in good order,"^^xsd:string .
+
+:Line_676 a owl:NamedIndividual, :Line ;
+    :lineNumber 676 ;
+    :canonicalReference "676"^^xsd:string ;
+    :text "Obedience to authority saves many lives."^^xsd:string ;
+    :relatedTo :Cause_CivicObedience ;
+    :relatedTo :Effect_PreservationOfLife ;
+    :hasTheme :Theme_CivicOrderVsAnarchy .
+
+:Line_677 a owl:NamedIndividual, :Line ;
+    :lineNumber 677 ;
+    :canonicalReference "677"^^xsd:string ;
+    :text "One must defend the order of things in society,"^^xsd:string .
+
+:Line_678 a owl:NamedIndividual, :Line ;
+    :lineNumber 678 ;
+    :canonicalReference "678"^^xsd:string ;
+    :text "And so we can’t let ourselves be seduced by women."^^xsd:string ;
+    :hasMotivation :Motivation_MaintainPatriarchalDominance .
+
+:Line_679 a owl:NamedIndividual, :Line ;
+    :lineNumber 679 ;
+    :canonicalReference "679"^^xsd:string ;
+    :text "It’s a better legacy to be deposed, if it must be so,"^^xsd:string .
+
+:Line_680 a owl:NamedIndividual, :Line ;
+    :lineNumber 680 ;
+    :canonicalReference "680"^^xsd:string ;
+    :text "By a man than to be rightly called weaker than women."^^xsd:string ;
+    :hasTheme :Theme_Patriarchy ;
+    :hasConflict :Conflict_MaleAuthorityVsFemaleDefiance .
