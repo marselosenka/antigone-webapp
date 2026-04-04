@@ -8,566 +8,217 @@
 ################################################################
 
 :TV_Line_1064_en a :TranslationVariant ;
-    :text "You should know you won’t live through"^^xsd:string ;
-    :relatedTo :Line_1064 .
+    :text "But know this well: before you complete"^^xsd:string ;
+    :relatedTo :Line_1064 .
 
 :TV_Line_1065_en a :TranslationVariant ;
-    :text "Many more courses of the racing sun"^^xsd:string ;
-    :relatedTo :Line_1065 .
+    :text "Many more rival circuits of the sun,"^^xsd:string ;
+    :relatedTo :Line_1065 .
 
 :TV_Line_1066_en a :TranslationVariant ;
-    :text "Before you’ll be handing over a corpse"^^xsd:string ;
-    :relatedTo :Line_1066 ;
-    :relatedTo :Antigone_Character_Haemon .
+    :text "You yourself will have given from your own loins"^^xsd:string ;
+    :relatedTo :Line_1066 ;
+    :relatedTo :Antigone_Character_Haemon .
 
 :TV_Line_1067_en a :TranslationVariant ;
-    :text "Sprung from your own flesh, a corpse for corpses,"^^xsd:string ;
-    :relatedTo :Line_1067 ;
-    :hasTheme :Theme_DivineRetribution .
+    :text "One corpse in exchange for corpses,"^^xsd:string ;
+    :relatedTo :Line_1067 ;
+    :hasTheme :Theme_DivineRetribution .
 
 :TV_Line_1068_en a :TranslationVariant ;
-    :text "For casting down a god of heaven,"^^xsd:string ;
-    :relatedTo :Line_1068 .
+    :text "Because you have thrust one of those above down below,"^^xsd:string ;
+    :relatedTo :Line_1068 .
 
 :TV_Line_1069_en a :TranslationVariant ;
-    :text "For lodging a living soul in a shameful grave,"^^xsd:string ;
-    :relatedTo :Line_1069 ;
-    :hasConflict :Conflict_UpperLowerWorlds .
+    :text "And dishonorably lodged a living soul in a grave,"^^xsd:string ;
+    :relatedTo :Line_1069 ;
+    :hasConflict :Conflict_UpperLowerWorlds .
 
 :TV_Line_1070_en a :TranslationVariant ;
-    :text "And for keeping here on earth what belongs to the gods of hell,"^^xsd:string ;
-    :relatedTo :Line_1070 .
+    :text "And because you keep here, in turn, from the gods below"^^xsd:string ;
+    :relatedTo :Line_1070 .
 
 :TV_Line_1071_en a :TranslationVariant ;
-    :text "A corpse unburied, unmourned, unholy."^^xsd:string ;
-    :relatedTo :Line_1071 .
+    :text "A corpse without share, without burial, unholy."^^xsd:string ;
+    :relatedTo :Line_1071 .
 
 :TV_Line_1072_en a :TranslationVariant ;
-    :text "Neither you nor the gods of heaven have a say"^^xsd:string ;
-    :relatedTo :Line_1072 .
+    :text "In these things neither you have a part, nor the gods above,"^^xsd:string ;
+    :relatedTo :Line_1072 .
 
 :TV_Line_1073_en a :TranslationVariant ;
-    :text "In these matters, and yet you have done them violence."^^xsd:string ;
-    :relatedTo :Line_1073 .
+    :text "But by you these laws are violated by force."^^xsd:string ;
+    :relatedTo :Line_1073 .
 
 :TV_Line_1074_en a :TranslationVariant ;
-    :text "For these crimes the vengeful executioners,"^^xsd:string ;
-    :relatedTo :Line_1074 .
+    :text "For this, the destroyers that come late but surely"^^xsd:string ;
+    :relatedTo :Line_1074 .
 
 :TV_Line_1075_en a :TranslationVariant ;
-    :text "The Furies of Hades, wait in ambush"^^xsd:string ;
-    :relatedTo :Line_1075 ;
-    :referencesMyth :Antigone_Character_Furies .
+    :text "The Furies of Hades and of the gods lie in wait for you,"^^xsd:string ;
+    :relatedTo :Line_1075 ;
+    :referencesMyth :Antigone_Character_Furies .
 
 :TV_Line_1076_en a :TranslationVariant ;
-    :text "For you, ready to ensnare you in these same terrors."^^xsd:string ;
-    :relatedTo :Line_1076 .
+    :text "So that you may be caught in these very same evils."^^xsd:string ;
+    :relatedTo :Line_1076 .
 
 :TV_Line_1077_en a :TranslationVariant ;
-    :text "And consider if I would say all this for a little extra silver."^^xsd:string ;
-    :relatedTo :Line_1077 .
+    :text "And consider whether I speak this having been bribed with silver;"^^xsd:string ;
+    :relatedTo :Line_1077 .
 
 :TV_Line_1078_en a :TranslationVariant ;
-    :text "It won’t be long now until the shrieks of"^^xsd:string ;
-    :relatedTo :Line_1078 .
+    :text "For after no long delay it shall be made plain"^^xsd:string ;
+    :relatedTo :Line_1078 .
 
 :TV_Line_1079_en a :TranslationVariant ;
-    :text "Women will rise from your home."^^xsd:string ;
-    :relatedTo :Line_1079 .
+    :text "By the laments of men and women in your house."^^xsd:string ;
+    :relatedTo :Line_1079 .
 
 :TV_Line_1080_en a :TranslationVariant ;
-    :text "Wild with anger are all those cities"^^xsd:string ;
-    :relatedTo :Line_1080 ;
-    :hasTheme :Theme_CivicPollution .
+    :text "And all the cities are stirred to hatred,"^^xsd:string ;
+    :relatedTo :Line_1080 ;
+    :hasTheme :Theme_CivicPollution .
 
 :TV_Line_1081_en a :TranslationVariant ;
-    :text "Whose butchered citizens were buried by dogs,"^^xsd:string ;
-    :relatedTo :Line_1081 .
+    :text "Whose mangled remains the dogs have purified,"^^xsd:string ;
+    :relatedTo :Line_1081 .
 
 :TV_Line_1082_en a :TranslationVariant ;
-    :text "Beasts, or whirling buzzards, creatures that stained"^^xsd:string ;
-    :relatedTo :Line_1082 .
+    :text "Or beasts, or some winged bird carrying them"^^xsd:string ;
+    :relatedTo :Line_1082 .
 
 :TV_Line_1083_en a :TranslationVariant ;
-    :text "Their homes and cities with polluting stench."^^xsd:string ;
-    :relatedTo :Line_1083 .
+    :text "With unholy stench into the city’s hearths."^^xsd:string ;
+    :relatedTo :Line_1083 .
 
 :TV_Line_1084_en a :TranslationVariant ;
-    :text "As you were harassing me, I was shooting, like an archer,"^^xsd:string ;
-    :relatedTo :Line_1084 ;
-    :containsRhetoricalDevice :Device_Metaphor_Arrows .
+    :text "Such are the arrows I have loosed at you—for you provoke me, like an archer—"^^xsd:string ;
+    :relatedTo :Line_1084 ;
+    :containsRhetoricalDevice :Device_Metaphor_Arrows .
 
 :TV_Line_1085_en a :TranslationVariant ;
-    :text "These arrows in anger at your heart—"^^xsd:string ;
-    :relatedTo :Line_1085 .
+    :text "Missiles from my heart in anger,"^^xsd:string ;
+    :relatedTo :Line_1085 .
 
 :TV_Line_1086_en a :TranslationVariant ;
-    :text "Steady arrows, whose sting you can’t outrun..."^^xsd:string ;
-    :relatedTo :Line_1086 .
+    :text "Sure missiles, whose burning force you shall not escape."^^xsd:string ;
+    :relatedTo :Line_1086 .
 
 :TV_Line_1087_en a :TranslationVariant ;
-    :text "Boy, take me home, so this man"^^xsd:string ;
-    :relatedTo :Line_1087 .
+    :text "Boy, lead us home, so that this man"^^xsd:string ;
+    :relatedTo :Line_1087 .
 
 :TV_Line_1088_en a :TranslationVariant ;
-    :text "Can burden younger men with his anger,"^^xsd:string ;
-    :relatedTo :Line_1088 .
+    :text "May vent his anger on younger men,"^^xsd:string ;
+    :relatedTo :Line_1088 .
 
 :TV_Line_1089_en a :TranslationVariant ;
-    :text "And learn to keep a softer tongue and a wiser mind than he does now."^^xsd:string ;
-    :relatedTo :Line_1089 .
+    :text "And learn to keep a quieter tongue"^^xsd:string ;
+    :relatedTo :Line_1089 .
 
 :TV_Line_1090_en a :TranslationVariant ;
-    :text "The man, my lord, has left after speaking"^^xsd:string ;
-    :relatedTo :Line_1090 .
+    :text "And a better mind than he now bears in his breast."^^xsd:string ;
+    :relatedTo :Line_1090 .
 
 :TV_Line_1091_en a :TranslationVariant ;
-    :text "Terrible prophecies: And yet, for all the time since"^^xsd:string ;
-    :relatedTo :Line_1091 .
+    :text "My lord, the man has gone, after uttering dreadful prophecies;"^^xsd:string ;
+    :relatedTo :Line_1091 .
 
 :TV_Line_1092_en a :TranslationVariant ;
-    :text "My hair first grew on head (once dark, now white)"^^xsd:string ;
-    :relatedTo :Line_1092 .
+    :text "And we know well, from the time when first I changed"^^xsd:string ;
+    :relatedTo :Line_1092 .
 
 :TV_Line_1093_en a :TranslationVariant ;
-    :text "Our city has never heard him tell a lie."^^xsd:string ;
-    :relatedTo :Line_1093 .
+    :text "This hair of mine from black to white,"^^xsd:string ;
+    :relatedTo :Line_1093 .
 
 :TV_Line_1094_en a :TranslationVariant ;
-    :text "I realize—it fills me with fear. It would be"^^xsd:string ;
-    :relatedTo :Line_1094 .
+    :text "That he has never yet spoken falsehood to this city."^^xsd:string ;
+    :relatedTo :Line_1094 ;
+    :advocatesFor :Principle_PropheticTruth .
 
 :TV_Line_1095_en a :TranslationVariant ;
-    :text "I realize—it fills me with fear. It would be"^^xsd:string ;
-    :relatedTo :Line_1095 ;
-    :experiencesEmotion :Emotion_TerrifiedHesitation .
+    :text "I know it—and it fills me with fear."^^xsd:string ;
+    :relatedTo :Line_1095 ;
+    :experiencesEmotion :Emotion_TerrifiedHesitation .
 
 :TV_Line_1096_en a :TranslationVariant ;
-    :text "A terrible thing to obey him, but no more terrible"^^xsd:string ;
-    :relatedTo :Line_1096 .
+    :text "It is terrible to yield, but more terrible still"^^xsd:string ;
+    :relatedTo :Line_1096 .
 
 :TV_Line_1097_en a :TranslationVariant ;
-    :text "Than to resist him, and curse my soul."^^xsd:string ;
-    :relatedTo :Line_1097 ;
-    :hasConflict :Conflict_InternalCreon .
+    :text "To resist and strike my soul against disaster."^^xsd:string ;
+    :relatedTo :Line_1097 ;
+    :hasConflict :Conflict_InternalCreon .
 
 :TV_Line_1098_en a :TranslationVariant ;
-    :text "Tread carefully, son of Menoeceus."^^xsd:string ;
-    :relatedTo :Line_1098 .
+    :text "What then do you command? Speak. I will obey."^^xsd:string ;
+    :relatedTo :Line_1098 .
 
 :TV_Line_1099_en a :TranslationVariant ;
-    :text "What should I do? Tell me and I’ll obey."^^xsd:string ;
-    :relatedTo :Line_1099 .
+    :text "Go and release the girl from her rocky chamber,"^^xsd:string ;
+    :relatedTo :Line_1099 .
 
 :TV_Line_1100_en a :TranslationVariant ;
-    :text "Free the buried girl,"^^xsd:string ;
-    :relatedTo :Line_1100 .
+    :text "And make a tomb for the corpse that lies unburied."^^xsd:string ;
+    :relatedTo :Line_1100 .
 
 :TV_Line_1101_en a :TranslationVariant ;
-    :text "And bury the unburied."^^xsd:string ;
-    :relatedTo :Line_1101 .
+    :text "This is your advice?"^^xsd:string ;
+    :relatedTo :Line_1101 .
 
 :TV_Line_1102_en a :TranslationVariant ;
-    :text "This is your advice? To give in to him?"^^xsd:string ;
-    :relatedTo :Line_1102 .
+    :text "That I should yield?"^^xsd:string ;
+    :relatedTo :Line_1102 .
 
 :TV_Line_1103_en a :TranslationVariant ;
-    :text "As quickly as possible, my king: for the curses"^^xsd:string ;
-    :relatedTo :Line_1103 .
+    :text "Yes, my lord, as quickly as possible;"^^xsd:string ;
+    :relatedTo :Line_1103 .
 
 :TV_Line_1104_en a :TranslationVariant ;
-    :text "Of the gods bring a swift end to foolish men."^^xsd:string ;
-    :relatedTo :Line_1104 .
+    :text "For the blows sent by the gods swiftly cut down foolish men."^^xsd:string ;
+    :relatedTo :Line_1104 .
 
 :TV_Line_1105_en a :TranslationVariant ;
-    :text "Oh! It’s hard to deny the heart, but"^^xsd:string ;
-    :relatedTo :Line_1105 .
+    :text "Ah me! It is hard, but I put aside"^^xsd:string ;
+    :relatedTo :Line_1105 .
 
 :TV_Line_1106_en a :TranslationVariant ;
-    :text "I can’t go on fighting so desperately against the gods."^^xsd:string ;
-    :relatedTo :Line_1106 ;
-    :makesMoralDecision :Decision_RevokeEdict .
+    :text "My resolve; I must not fight necessity."^^xsd:string ;
+    :relatedTo :Line_1106 ;
+    :makesMoralDecision :Decision_RevokeEdict .
 
 :TV_Line_1107_en a :TranslationVariant ;
-    :text "Come on now, do these things and nothing more."^^xsd:string ;
-    :relatedTo :Line_1107 .
+    :text "Go then, and do these things at once."^^xsd:string ;
+    :relatedTo :Line_1107 .
 
 :TV_Line_1108_en a :TranslationVariant ;
-    :text "I will go straightaway. Go, go friends!"^^xsd:string ;
-    :relatedTo :Line_1108 .
+    :text "I myself will go. Come, come, servants,"^^xsd:string ;
+    :relatedTo :Line_1108 .
 
 :TV_Line_1109_en a :TranslationVariant ;
-    :text "One and all, hurry up and take your axes"^^xsd:string ;
-    :relatedTo :Line_1109 .
+    :text "Go there and here, all of you alike,"^^xsd:string ;
+    :relatedTo :Line_1109 .
 
 :TV_Line_1110_en a :TranslationVariant ;
-    :text "To the tomb in plain sight!"^^xsd:string ;
-    :relatedTo :Line_1110 .
+    :text "With axes in your hands, to the place in view."^^xsd:string ;
+    :relatedTo :Line_1110 .
 
 :TV_Line_1111_en a :TranslationVariant ;
-    :text "My mind has changed."^^xsd:string ;
-    :relatedTo :Line_1111 ;
-    :relatedTo :Event_Peripeteia .
+    :text "Since my judgment has now turned,"^^xsd:string ;
+    :relatedTo :Line_1111 ;
+    :relatedTo :Event_Peripeteia .
 
 :TV_Line_1112_en a :TranslationVariant ;
-    :text "As I myself bound her, so, too, shall I set her free."^^xsd:string ;
-    :relatedTo :Line_1112 .
+    :text "I myself, as I bound her, will also free her."^^xsd:string ;
+    :relatedTo :Line_1112 .
 
 :TV_Line_1113_en a :TranslationVariant ;
-    :text "I fear it’s best, in the end,"^^xsd:string ;
-    :relatedTo :Line_1113 .
+    :text "For I have come to fear that it is best"^^xsd:string ;
+    :relatedTo :Line_1113 .
 
 :TV_Line_1114_en a :TranslationVariant ;
-    :text "To preserve the laws of old."^^xsd:string ;
-    :relatedTo :Line_1114 ;
-    :advocatesFor :Ethical_TraditionalLaws .
-
-################################################################
-# MODERN GREEK TRANSLATION VARIANTS (Lines 1064 - 1114)
-################################################################
-
-:TV_Line_1064_Gr a :TranslationVariant ;
-    :text "Καλά, λοιπόν! Σου λέω πως δεν θα δεις"^^xsd:string ;
-    :relatedTo :Line_1064 .
-
-:TV_Line_1065_Gr a :TranslationVariant ;
-    :text "πολλές φορές ακόμα τον ήλιο να γυρνάει στον ουρανό,"^^xsd:string ;
-    :relatedTo :Line_1065 .
-
-:TV_Line_1066_Gr a :TranslationVariant ;
-    :text "πριν εξοφλήσεις στους νεκρούς το χρέος σου με νεκρό παιδί."^^xsd:string ;
-    :relatedTo :Line_1066 .
-
-:TV_Line_1067_Gr a :TranslationVariant ;
-    :text "Τι έκανες; Έθαψες τον ζωντανό κι αρνείσαι"^^xsd:string ;
-    :relatedTo :Line_1067 .
-
-:TV_Line_1068_Gr a :TranslationVariant ;
-    :text "να θάψεις τον νεκρό; Τόση ατιμία! Ο ένας"^^xsd:string ;
-    :relatedTo :Line_1068 .
-
-:TV_Line_1069_Gr a :TranslationVariant ;
-    :text "να πεθαίνει ζωντανός κάτω απ’ τη γη"^^xsd:string ;
-    :relatedTo :Line_1069 .
-
-:TV_Line_1070_Gr a :TranslationVariant ;
-    :text "κι ο άλλος να ζει αστόλιστος και άκλαυτος εδώ τον θάνατό του."^^xsd:string ;
-    :relatedTo :Line_1070 .
-
-:TV_Line_1071_Gr a :TranslationVariant ;
-    :text "(Implicit in the description of unadorned death in 1070)"^^xsd:string ;
-    :relatedTo :Line_1071 .
-
-:TV_Line_1072_Gr a :TranslationVariant ;
-    :text "Όχι εσύ... ούτε οι ουράνιοι θεοί δεν έχουν"^^xsd:string ;
-    :relatedTo :Line_1072 .
-
-:TV_Line_1073_Gr a :TranslationVariant ;
-    :text "δικαίωμα πάνω στους νεκρούς. Δική σου επινόηση είναι αυτό το αίσχος."^^xsd:string ;
-    :relatedTo :Line_1073 .
-
-:TV_Line_1074_Gr a :TranslationVariant ;
-    :text "Άσκησες βία στον θάνατο! Λύθηκαν τώρα οι αιμοβόρες Ερινύες,"^^xsd:string ;
-    :relatedTo :Line_1074 .
-
-:TV_Line_1075_Gr a :TranslationVariant ;
-    :text "μυρίζουν την αποφορά των πράξεών σου, έρχονται"^^xsd:string ;
-    :relatedTo :Line_1075 ;
-    :referencesMyth :Antigone_Character_Furies .
-
-:TV_Line_1076_Gr a :TranslationVariant ;
-    :text "να σε πληρώσουν με την ίδια κτηνωδία."^^xsd:string ;
-    :relatedTo :Line_1076 .
-
-:TV_Line_1077_Gr a :TranslationVariant ;
-    :text "Λογάριασε, λοιπόν, να δεις αν είναι πληρωμένα τα λόγια μου."^^xsd:string ;
-    :relatedTo :Line_1077 .
-
-:TV_Line_1078_Gr a :TranslationVariant ;
-    :text "Και πρόσθεσε ακόμα ένα παλάτι ρημαγμένο ν’ αντηχεί"^^xsd:string ;
-    :relatedTo :Line_1078 .
-
-:TV_Line_1079_Gr a :TranslationVariant ;
-    :text "μονάχα θρήνους κι οδυρμούς αντρών και γυναικών·"^^xsd:string ;
-    :relatedTo :Line_1079 .
-
-:TV_Line_1080_Gr a :TranslationVariant ;
-    :text "μια πόλη αγριεμένη, πνιγμένη από τη μυρωδιά της αποσύνθεσής της:"^^xsd:string ;
-    :relatedTo :Line_1080 .
-
-:TV_Line_1081_Gr a :TranslationVariant ;
-    :text "ν’ αναθέσει στα σκυλιά, στ’ αγρίμια και στα όρνια"^^xsd:string ;
-    :relatedTo :Line_1081 .
-
-:TV_Line_1082_Gr a :TranslationVariant ;
-    :text "(Implicit in previous lines' context of beasts)"^^xsd:string ;
-    :relatedTo :Line_1082 .
-
-:TV_Line_1083_Gr a :TranslationVariant ;
-    :text "το έργο της ταφής ενός παιδιού της."^^xsd:string ;
-    :relatedTo :Line_1083 .
-
-:TV_Line_1084_Gr a :TranslationVariant ;
-    :text "Με πλήγωσες. Με ανάγκασες να γίνω κι εγώ ένας τοξότης,"^^xsd:string ;
-    :relatedTo :Line_1084 ;
-    :containsRhetoricalDevice :Device_Metaphor_Arrows .
-
-:TV_Line_1085_Gr a :TranslationVariant ;
-    :text "από αυτούς που λες πως σε κυκλώνουν."^^xsd:string ;
-    :relatedTo :Line_1085 .
-
-:TV_Line_1086_Gr a :TranslationVariant ;
-    :text "Δυστυχώς τα βέλη μου χτυπάνε βαθιά, πολύ βαθιά."^^xsd:string ;
-    :relatedTo :Line_1086 .
-
-:TV_Line_1087_Gr a :TranslationVariant ;
-    :text "Πάμε παιδί μου· πάμε σπίτι."^^xsd:string ;
-    :relatedTo :Line_1087 .
-
-:TV_Line_1088_Gr a :TranslationVariant ;
-    :text "Ο άνθρωπος αυτός πρέπει να βρει κανέναν νέο να ξεσπάσει τον θυμό του,"^^xsd:string ;
-    :relatedTo :Line_1088 .
-
-:TV_Line_1089_Gr a :TranslationVariant ;
-    :text "κι ύστερα να σκεφτεί με όσο μυαλό του λείπει πώς μιλούν οι μυαλωμένοι άνθρωποι στους άλλους -"^^xsd:string ;
-    :relatedTo :Line_1089 .
-
-:TV_Line_1090_Gr a :TranslationVariant ;
-    :text "αν έχουν τίποτα να πουν."^^xsd:string ;
-    :relatedTo :Line_1090 .
-
-:TV_Line_1091_Gr a :TranslationVariant ;
-    :text "Έφυγε, άρχοντα· και μας παράτησε στο έλεος των χρησμών του."^^xsd:string ;
-    :relatedTo :Line_1091 .
-
-:TV_Line_1092_Gr a :TranslationVariant ;
-    :text "Τι κάνουμε; Πού πάμε; Άσπρισαν τα μαλλιά μου,"^^xsd:string ;
-    :relatedTo :Line_1092 .
-
-:TV_Line_1093_Gr a :TranslationVariant ;
-    :text "μα δεν τον είδα ποτέ να δείχνει λάθος δρόμο."^^xsd:string ;
-    :relatedTo :Line_1093 .
-
-:TV_Line_1095_Gr a :TranslationVariant ;
-    :text "Το ξέρω κι έχω ταραχτεί. Δεν ξέρω ούτε τι κάνω"^^xsd:string ;
-    :relatedTo :Line_1095 ;
-    :experiencesEmotion :Emotion_TerrifiedHesitation .
-
-:TV_Line_1096_Gr a :TranslationVariant ;
-    :text "ούτε πού πάω. Πίσω: ποτάμι ο δισταγμός μου·"^^xsd:string ;
-    :relatedTo :Line_1096 .
-
-:TV_Line_1097_Gr a :TranslationVariant ;
-    :text "μπροστά: γκρεμός αδέκαστος η δύναμή μου."^^xsd:string ;
-    :relatedTo :Line_1097 ;
-    :hasConflict :Conflict_InternalCreon ;
-    :description "Metaphor of 'river of hesitation' vs 'cliff of power' unique to this translation."^^xsd:string .
-
-:TV_Line_1098_Gr a :TranslationVariant ;
-    :text "Ελίξου συνετά, παιδί του Μενοικέα."^^xsd:string ;
-    :relatedTo :Line_1098 .
-
-:TV_Line_1099_Gr a :TranslationVariant ;
-    :text "Τι να κάνω; Πες εσύ· θα υπακούσω."^^xsd:string ;
-    :relatedTo :Line_1099 .
-
-:TV_Line_1100_Gr a :TranslationVariant ;
-    :text "Βγάλε τον ζωντανό από τον τάφο"^^xsd:string ;
-    :relatedTo :Line_1100 .
-
-:TV_Line_1101_Gr a :TranslationVariant ;
-    :text "και θάψε, όπως πρέπει, τον νεκρό."^^xsd:string ;
-    :relatedTo :Line_1101 .
-
-:TV_Line_1102_Gr a :TranslationVariant ;
-    :text "Μου λες να υποχωρήσω;"^^xsd:string ;
-    :relatedTo :Line_1102 .
-
-:TV_Line_1103_Gr a :TranslationVariant ;
-    :text "Όσο πιο γρήγορα μπορείς."^^xsd:string ;
-    :relatedTo :Line_1103 .
-
-:TV_Line_1104_Gr a :TranslationVariant ;
-    :text "Βιάσου, άρχοντά μου· οι θεοί δίνουν φτερά στις συμφορές..."^^xsd:string ;
-    :relatedTo :Line_1104 .
-
-:TV_Line_1105_Gr a :TranslationVariant ;
-    :text "Ανάθεμά με! Δεν μπορώ! Μην με κρατάς καρδιά μου!"^^xsd:string ;
-    :relatedTo :Line_1105 .
-
-:TV_Line_1106_Gr a :TranslationVariant ;
-    :text "Θα μας τσακίσει και τους δυο η ανάγκη!"^^xsd:string ;
-    :relatedTo :Line_1106 ;
-    :makesMoralDecision :Decision_RevokeEdict .
-
-:TV_Line_1107_Gr a :TranslationVariant ;
-    :text "Άφησε την καρδιά σου. Στα χέρια και στα πόδια σου βασίσου. Εμπρός!"^^xsd:string ;
-    :relatedTo :Line_1107 .
-
-:TV_Line_1108_Gr a :TranslationVariant ;
-    :text "Αμέσως· ναι... Εμπρός, φρουροί, όλοι μαζί:"^^xsd:string ;
-    :relatedTo :Line_1108 .
-
-:TV_Line_1109_Gr a :TranslationVariant ;
-    :text "αρπάξτε τις αξίνες και γρήγορα εκεί..."^^xsd:string ;
-    :relatedTo :Line_1109 .
-
-:TV_Line_1110_Gr a :TranslationVariant ;
-    :text "ξέρετε πού."^^xsd:string ;
-    :relatedTo :Line_1110 .
-
-:TV_Line_1111_Gr a :TranslationVariant ;
-    :text "Τρέξτε. Άλλαξα γνώμη."^^xsd:string ;
-    :relatedTo :Line_1111 ;
-    :relatedTo :Event_Peripeteia .
-
-:TV_Line_1112_Gr a :TranslationVariant ;
-    :text "Όσο για την άλλη, εγώ την έθαψα, εγώ θα την ξεθάψω."^^xsd:string ;
-    :relatedTo :Line_1112 .
-
-:TV_Line_1113_Gr a :TranslationVariant ;
-    :text "Πολύ φοβάμαι πως για να ζει καλά κανείς,"^^xsd:string ;
-    :relatedTo :Line_1113 .
-
-:TV_Line_1114_Gr a :TranslationVariant ;
-    :text "πρέπει να σέβεται πρώτα τους ίδιους τους νόμους της ζωής."^^xsd:string ;
-    :relatedTo :Line_1114 ;
-    :advocatesFor :Ethical_TraditionalLaws .
-
-################################################################
-# ANCIENT GREEK VARIANTS (Lines 1064 - 1094)
-################################################################
-
-:TV_Line_1064_grc a :TranslationVariant ;
-    :text "ΤΕ. Ἀλλ ̓ εὖ γέ τοι κάτισθι μὴ πολλοὺς ἔτι"^^xsd:string ;
-    :relatedTo :Line_1064 .
-
-:TV_Line_1065_grc a :TranslationVariant ;
-    :text "τρόχους ἁμιλλητῆρας ἡλίου τελῶν,"^^xsd:string ;
-    :relatedTo :Line_1065 .
-
-:TV_Line_1066_grc a :TranslationVariant ;
-    :text "ἐν οἷσι τῶν σῶν αὐτὸς ἐκ σπλάγχνων ἕνα"^^xsd:string ;
-    :relatedTo :Line_1066 ;
-    :relatedTo :Antigone_Character_Haemon .
-
-:TV_Line_1067_grc a :TranslationVariant ;
-    :text "νέκυν νεκρῶν ἀμοιβὸν ἀντιδοὺς ἔσῃ,"^^xsd:string ;
-    :relatedTo :Line_1067 ;
-    :hasTheme :Theme_DivineRetribution .
-
-:TV_Line_1068_grc a :TranslationVariant ;
-    :text "ἀνθ ̓ ὧν ἔχεις μὲν τῶν ἄνω βαλὼν κάτω,"^^xsd:string ;
-    :relatedTo :Line_1068 .
-
-:TV_Line_1069_grc a :TranslationVariant ;
-    :text "ψυχήν τ ̓ ἀτίμως ἐν τάφῳ κατῴκισας,"^^xsd:string ;
-    :relatedTo :Line_1069 ;
-    :hasConflict :Conflict_UpperLowerWorlds .
-
-:TV_Line_1070_grc a :TranslationVariant ;
-    :text "ἔχεις δὲ τῶν κάτωθεν ἐνθάδ ̓ αὖ θεῶν"^^xsd:string ;
-    :relatedTo :Line_1070 .
-
-:TV_Line_1071_grc a :TranslationVariant ;
-    :text "ἄμοιρον, ἀκτέριστον, ἀνόσιον νέκυν."^^xsd:string ;
-    :relatedTo :Line_1071 ;
-    :hasTheme :Theme_NaturalOrder .
-
-:TV_Line_1072_grc a :TranslationVariant ;
-    :text "Ὧν οὔτε σοὶ μέτεστιν οὔτε τοῖς ἄνω"^^xsd:string ;
-    :relatedTo :Line_1072 .
-
-:TV_Line_1073_grc a :TranslationVariant ;
-    :text "θεοῖσιν, ἀλλ ̓ ἐκ σοῦ βιάζονται τάδε."^^xsd:string ;
-    :relatedTo :Line_1073 .
-
-:TV_Line_1074_grc a :TranslationVariant ;
-    :text "Τούτων σε λωβητῆρες ὑστεροφθόροι"^^xsd:string ;
-    :relatedTo :Line_1074 .
-
-:TV_Line_1075_grc a :TranslationVariant ;
-    :text "λοχῶσιν Ἅιδου καὶ θεῶν Ἐρινύες,"^^xsd:string ;
-    :relatedTo :Line_1075 ;
-    :referencesMyth :Antigone_Character_Furies .
-
-:TV_Line_1076_grc a :TranslationVariant ;
-    :text "ἐν τοῖσιν αὐτοῖς τοῖσδε ληφθῆναι κακοῖς."^^xsd:string ;
-    :relatedTo :Line_1076 .
-
-:TV_Line_1077_grc a :TranslationVariant ;
-    :text "Καὶ ταῦτ ̓ ἄθρησον εἰ κατηργυρωμένος"^^xsd:string ;
-    :relatedTo :Line_1077 .
-
-:TV_Line_1078_grc a :TranslationVariant ;
-    :text "λέγω· φανεῖ γάρ οὐ μακροῦ χρόνου τριβὴ,"^^xsd:string ;
-    :relatedTo :Line_1078 .
-
-:TV_Line_1079_grc a :TranslationVariant ;
-    :text "ἀνδρῶν γυναικῶν σοῖς δόμοις κωκύματα."^^xsd:string ;
-    :relatedTo :Line_1079 .
-
-:TV_Line_1080_grc a :TranslationVariant ;
-    :text "Ἔχθρᾳ δὲ πᾶσαι συνταράσσονται πόλεις,"^^xsd:string ;
-    :relatedTo :Line_1080 ;
-    :hasTheme :Theme_CivicPollution .
-
-:TV_Line_1081_grc a :TranslationVariant ;
-    :text "ὅσων σπαράγματ ̓ ἢ κύνες καθήγνισαν"^^xsd:string ;
-    :relatedTo :Line_1081 .
-
-:TV_Line_1082_grc a :TranslationVariant ;
-    :text "ἢ θῆρες, ἤ τις πτηνὸς οἰωνός, φέρων"^^xsd:string ;
-    :relatedTo :Line_1082 .
-
-:TV_Line_1083_grc a :TranslationVariant ;
-    :text "ἀνόσιον ὀσμὴν ἑστιοῦχον ἐς πόλιν."^^xsd:string ;
-    :relatedTo :Line_1083 .
-
-:TV_Line_1084_grc a :TranslationVariant ;
-    :text "Τοιαῦτά σου, λυπεῖς γάρ, ὥστε τοξότης"^^xsd:string ;
-    :relatedTo :Line_1084 ;
-    :containsRhetoricalDevice :Device_Metaphor_Arrows .
-
-:TV_Line_1085_grc a :TranslationVariant ;
-    :text "ἀφῆκα θυμῷ καρδίας τοξεύματα"^^xsd:string ;
-    :relatedTo :Line_1085 .
-
-:TV_Line_1086_grc a :TranslationVariant ;
-    :text "βέβαια, τῶν σὺ θάλπος οὐχ ὑπεκδραμῇ."^^xsd:string ;
-    :relatedTo :Line_1086 .
-
-:TV_Line_1087_grc a :TranslationVariant ;
-    :text "Ὦ παῖ, σὺ δ ̓ ἡμᾶς ἄπαγε πρὸς δόμους, ἵνα"^^xsd:string ;
-    :relatedTo :Line_1087 .
-
-:TV_Line_1088_grc a :TranslationVariant ;
-    :text "τὸν θυμὸν οὗτος ἐς νεωτέρους ἀφῇ,"^^xsd:string ;
-    :relatedTo :Line_1088 .
-
-:TV_Line_1089_grc a :TranslationVariant ;
-    :text "καὶ γνῷ τρέφειν τὴν γλῶσσαν ἡσυχαιτέραν"^^xsd:string ;
-    :relatedTo :Line_1089 .
-
-:TV_Line_1090_grc a :TranslationVariant ;
-    :text "τὸν νοῦν τ ̓ ἀμείνω τῶν φρενῶν ἢ νῦν φέρει."^^xsd:string ;
-    :relatedTo :Line_1090 .
-
-:TV_Line_1091_grc a :TranslationVariant ;
-    :text "ΧΟ. Ἁνήρ, ἄναξ, βέβηκε δεινὰ θεσπίσας·"^^xsd:string ;
-    :relatedTo :Line_1091 .
-
-:TV_Line_1092_grc a :TranslationVariant ;
-    :text "ἐπιστάμεσθα δ ̓, ἐξ ὅτου λευκὴν ἐγὼ"^^xsd:string ;
-    :relatedTo :Line_1092 .
-
-:TV_Line_1093_grc a :TranslationVariant ;
-    :text "τήνδ ̓ ἐκ μελαίνης ἀμφιβάλλομαι τρίχα,"^^xsd:string ;
-    :relatedTo :Line_1093 .
-
-:TV_Line_1094_grc a :TranslationVariant ;
-    :text "μή πώ ποτ ̓ αὐτὸν ψεῦδος ἐς πόλιν λακεῖν."^^xsd:string ;
-    :relatedTo :Line_1094 ;
-    :advocatesFor :Principle_PropheticTruth .
-
-# REPORT: Lines 1095-1114 omitted for Ancient Greek (_grc) as they were not provided in the source text.
+    :text "To keep the established laws to the end of life."^^xsd:string ;
+    :relatedTo :Line_1114 ;
+    :advocatesFor :Ethical_TraditionalLaws .

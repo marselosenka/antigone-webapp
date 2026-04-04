@@ -1,0 +1,491 @@
+@prefix : [http://example.org/antigone#](http://example.org/antigone#) .
+@prefix owl: [http://www.w3.org/2002/07/owl#](http://www.w3.org/2002/07/owl#) .
+@prefix rdfs: [http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#) .
+@prefix xsd: [http://www.w3.org/2001/XMLSchema#](http://www.w3.org/2001/XMLSchema#) .
+
+################################################################
+
+# SCENE AND SPEECH STRUCTURE
+
+################################################################
+
+:Antigone_Scene_Episode5_Climax
+a :Scene ;
+:sceneNumber "Episode 5 (Climax)"^^xsd:string ;
+:hasSpeech :Speech_Teiresias_Ep5_Prophecy, :Speech_Chorus_Ep5_Reflection, :Speech_Creon_Ep5_Reversal ;
+:developsTheme :Theme_DivineRetribution, :Theme_Peripeteia, :Theme_CivicPollution, :Theme_NaturalOrder ;
+:hasConflict :Conflict_UpperLowerWorlds, :Conflict_InternalCreon .
+
+:Speech_Teiresias_Ep5_Prophecy
+a :Speech ;
+:speechBy :Antigone_Character_Teiresias ;
+:containsLine :Line_1064, :Line_1065, :Line_1066, :Line_1067, :Line_1068, :Line_1069, :Line_1070, :Line_1071, :Line_1072, :Line_1073, :Line_1074, :Line_1075, :Line_1076, :Line_1077, :Line_1078, :Line_1079, :Line_1080, :Line_1081, :Line_1082, :Line_1083, :Line_1084, :Line_1085, :Line_1086, :Line_1087, :Line_1088, :Line_1089 ;
+:hasMotivation :Motivation_PronounceDoom ;
+:containsRhetoricalDevice :Device_Metaphor_Arrows .
+
+:Speech_Chorus_Ep5_Reflection
+a :Speech ;
+:speechBy :Antigone_Character_Chorus ;
+:containsLine :Line_1090, :Line_1091, :Line_1092, :Line_1093, :Line_1094 ;
+:advocatesFor :Principle_PropheticTruth .
+
+:Speech_Creon_Ep5_Reversal
+a :Speech ;
+:speechBy :Antigone_Character_Creon, :Antigone_Character_Chorus ;
+:description "Dialogue including Creon's capitulation and the Chorus's urgent advice."^^xsd:string ;
+:containsLine :Line_1095, :Line_1096, :Line_1097, :Line_1098, :Line_1099, :Line_1100, :Line_1101, :Line_1102, :Line_1103, :Line_1104, :Line_1105, :Line_1106, :Line_1107, :Line_1108, :Line_1109, :Line_1110, :Line_1111, :Line_1112, :Line_1113, :Line_1114 ;
+:hasMotivation :Motivation_AvoidRuin ;
+:makesMoralDecision :Decision_RevokeEdict .
+
+################################################################
+
+# CHARACTERS & ENTITIES
+
+################################################################
+
+:Antigone_Character_Teiresias
+a :Character ;
+:hasMotivation :Motivation_PronounceDoom ;
+:experiencesEmotion :Emotion_RighteousAnger .
+
+:Antigone_Character_Creon
+a :Character ;
+:experiencesEmotion :Emotion_TerrifiedHesitation, :Emotion_Regret ;
+:makesMoralDecision :Decision_RevokeEdict ;
+:advocatesFor :Ethical_TraditionalLaws ;
+:relatedTo :Event_Peripeteia .
+
+:Antigone_Character_Furies
+a :Character ;
+:role "Deities of Vengeance"^^xsd:string ;
+:description "The vengeful executioners of Hades who lie in ambush."^^xsd:string .
+
+:Antigone_Character_Haemon
+a :Character ;
+:description "The 'corpse sprung from your own flesh' prophesied by Teiresias."^^xsd:string .
+
+################################################################
+
+# THEMES, MOTIVATIONS, CONFLICTS
+
+################################################################
+
+:Theme_DivineRetribution
+a :Theme ;
+:description "The concept of 'corpse for corpses'—divine justice demands balance for crimes against the natural order."^^xsd:string .
+
+:Theme_Peripeteia
+a :Theme ;
+:description "The sudden reversal of fortune or change in circumstances (Creon changing his mind)."^^xsd:string .
+
+:Theme_NaturalOrder
+a :Theme ;
+:description "The proper separation of the upper world (living) and the lower world (dead)."^^xsd:string .
+
+:Motivation_PronounceDoom
+a :Motivation ;
+:description "Teiresias intends to reveal the inescapable punishment awaiting Creon to force a realization."^^xsd:string .
+
+:Motivation_AvoidRuin
+a :Motivation ;
+:description "Creon's primary motivation for changing his mind is fear of the curse and desire to save himself."^^xsd:string .
+
+:Emotion_RighteousAnger
+a :Emotion ;
+:description "Teiresias's anger at being insulted, which fuels the harshness of his final prophecy."^^xsd:string .
+
+:Emotion_TerrifiedHesitation
+a :Emotion ;
+:description "Creon's paralyzing fear upon realizing the truth of the prophecy."^^xsd:string .
+
+:Conflict_UpperLowerWorlds
+a :Conflict ;
+:description "The violation of cosmic order: lodging a living soul (Antigone) in the grave while keeping a dead body (Polyneices) on earth."^^xsd:string ;
+:conflictBetween :Antigone_Character_Creon, :Law_CosmicOrder .
+
+:Conflict_InternalCreon
+a :Conflict ;
+:description "The struggle within Creon between his pride ('hard to deny the heart') and necessity ('can't go on fighting gods')."^^xsd:string .
+
+:Ethical_TraditionalLaws
+a :EthicalPrinciple ;
+:description "The ancient, established laws of the gods regarding burial and respect for the dead."^^xsd:string .
+
+:Decision_RevokeEdict
+a :MoralDecision ;
+:description "Creon decides to free Antigone and bury Polyneices, reversing his previous commands."^^xsd:string .
+
+:Device_Metaphor_Arrows
+a :RhetoricalDevice ;
+:description "Teiresias compares his prophetic words to arrows shot at a target (Creon's heart)."^^xsd:string .
+
+:Event_Peripeteia
+a owl:Thing ;
+:description "The moment Creon explicitly states 'My mind has changed'."^^xsd:string .
+
+################################################################
+
+# CANONICAL LINES & TRANSLATION VARIANTS
+
+################################################################
+
+# --- 1064 ---
+
+:Line_1064 a :Line ; :lineNumber 1064 ; :canonicalReference "1064" .
+:TV_Line_1064_en a :TranslationVariant ;
+:text "You should know you won’t live through"^^xsd:string ;
+:relatedTo :Line_1064 .
+
+# --- 1065 ---
+
+:Line_1065 a :Line ; :lineNumber 1065 ; :canonicalReference "1065" .
+:TV_Line_1065_en a :TranslationVariant ;
+:text "Many more courses of the racing sun"^^xsd:string ;
+:relatedTo :Line_1065 .
+
+# --- 1066 ---
+
+:Line_1066 a :Line ; :lineNumber 1066 ; :canonicalReference "1066" .
+:TV_Line_1066_en a :TranslationVariant ;
+:text "Before you’ll be handing over a corpse"^^xsd:string ;
+:relatedTo :Line_1066 ;
+:relatedTo :Antigone_Character_Haemon .
+
+# --- 1067 ---
+
+:Line_1067 a :Line ; :lineNumber 1067 ; :canonicalReference "1067" .
+:TV_Line_1067_en a :TranslationVariant ;
+:text "Sprung from your own flesh, a corpse for corpses,"^^xsd:string ;
+:relatedTo :Line_1067 ;
+:hasTheme :Theme_DivineRetribution .
+
+# --- 1068 ---
+
+:Line_1068 a :Line ; :lineNumber 1068 ; :canonicalReference "1068" .
+:TV_Line_1068_en a :TranslationVariant ;
+:text "For casting down a god of heaven,"^^xsd:string ;
+:relatedTo :Line_1068 .
+
+# --- 1069 ---
+
+:Line_1069 a :Line ; :lineNumber 1069 ; :canonicalReference "1069" .
+:TV_Line_1069_en a :TranslationVariant ;
+:text "For lodging a living soul in a shameful grave,"^^xsd:string ;
+:relatedTo :Line_1069 ;
+:hasConflict :Conflict_UpperLowerWorlds .
+
+# --- 1070 ---
+
+:Line_1070 a :Line ; :lineNumber 1070 ; :canonicalReference "1070" .
+:TV_Line_1070_en a :TranslationVariant ;
+:text "And for keeping here on earth what belongs to the gods of hell,"^^xsd:string ;
+:relatedTo :Line_1070 .
+
+# --- 1071 ---
+
+:Line_1071 a :Line ; :lineNumber 1071 ; :canonicalReference "1071" .
+:TV_Line_1071_en a :TranslationVariant ;
+:text "A corpse unburied, unmourned, unholy."^^xsd:string ;
+:relatedTo :Line_1071 .
+
+# --- 1072 ---
+
+:Line_1072 a :Line ; :lineNumber 1072 ; :canonicalReference "1072" .
+:TV_Line_1072_en a :TranslationVariant ;
+:text "Neither you nor the gods of heaven have a say"^^xsd:string ;
+:relatedTo :Line_1072 .
+
+# --- 1073 ---
+
+:Line_1073 a :Line ; :lineNumber 1073 ; :canonicalReference "1073" .
+:TV_Line_1073_en a :TranslationVariant ;
+:text "In these matters, and yet you have done them violence."^^xsd:string ;
+:relatedTo :Line_1073 .
+
+# --- 1074 ---
+
+:Line_1074 a :Line ; :lineNumber 1074 ; :canonicalReference "1074" .
+:TV_Line_1074_en a :TranslationVariant ;
+:text "For these crimes the vengeful executioners,"^^xsd:string ;
+:relatedTo :Line_1074 .
+
+# --- 1075 ---
+
+:Line_1075 a :Line ; :lineNumber 1075 ; :canonicalReference "1075" .
+:TV_Line_1075_en a :TranslationVariant ;
+:text "The Furies of Hades, wait in ambush"^^xsd:string ;
+:relatedTo :Line_1075 ;
+:referencesMyth :Antigone_Character_Furies .
+
+# --- 1076 ---
+
+:Line_1076 a :Line ; :lineNumber 1076 ; :canonicalReference "1076" .
+:TV_Line_1076_en a :TranslationVariant ;
+:text "For you, ready to ensnare you in these same terrors."^^xsd:string ;
+:relatedTo :Line_1076 .
+
+# --- 1077 ---
+
+:Line_1077 a :Line ; :lineNumber 1077 ; :canonicalReference "1077" .
+:TV_Line_1077_en a :TranslationVariant ;
+:text "And consider if I would say all this for a little extra silver."^^xsd:string ;
+:relatedTo :Line_1077 .
+
+# --- 1078 ---
+
+:Line_1078 a :Line ; :lineNumber 1078 ; :canonicalReference "1078" .
+:TV_Line_1078_en a :TranslationVariant ;
+:text "It won’t be long now until the shrieks of"^^xsd:string ;
+:relatedTo :Line_1078 .
+
+# --- 1079 ---
+
+:Line_1079 a :Line ; :lineNumber 1079 ; :canonicalReference "1079" .
+:TV_Line_1079_en a :TranslationVariant ;
+:text "Women will rise from your home."^^xsd:string ;
+:relatedTo :Line_1079 .
+
+# --- 1080 ---
+
+:Line_1080 a :Line ; :lineNumber 1080 ; :canonicalReference "1080" .
+:TV_Line_1080_en a :TranslationVariant ;
+:text "Wild with anger are all those cities"^^xsd:string ;
+:relatedTo :Line_1080 ;
+:hasTheme :Theme_CivicPollution .
+
+# --- 1081 ---
+
+:Line_1081 a :Line ; :lineNumber 1081 ; :canonicalReference "1081" .
+:TV_Line_1081_en a :TranslationVariant ;
+:text "Whose butchered citizens were buried by dogs,"^^xsd:string ;
+:relatedTo :Line_1081 .
+
+# --- 1082 ---
+
+:Line_1082 a :Line ; :lineNumber 1082 ; :canonicalReference "1082" .
+:TV_Line_1082_en a :TranslationVariant ;
+:text "Beasts, or whirling buzzards, creatures that stained"^^xsd:string ;
+:relatedTo :Line_1082 .
+
+# --- 1083 ---
+
+:Line_1083 a :Line ; :lineNumber 1083 ; :canonicalReference "1083" .
+:TV_Line_1083_en a :TranslationVariant ;
+:text "Their homes and cities with polluting stench."^^xsd:string ;
+:relatedTo :Line_1083 .
+
+# --- 1084 ---
+
+:Line_1084 a :Line ; :lineNumber 1084 ; :canonicalReference "1084" .
+:TV_Line_1084_en a :TranslationVariant ;
+:text "As you were harassing me, I was shooting, like an archer,"^^xsd:string ;
+:relatedTo :Line_1084 ;
+:containsRhetoricalDevice :Device_Metaphor_Arrows .
+
+# --- 1085 ---
+
+:Line_1085 a :Line ; :lineNumber 1085 ; :canonicalReference "1085" .
+:TV_Line_1085_en a :TranslationVariant ;
+:text "These arrows in anger at your heart—"^^xsd:string ;
+:relatedTo :Line_1085 .
+
+# --- 1086 ---
+
+:Line_1086 a :Line ; :lineNumber 1086 ; :canonicalReference "1086" .
+:TV_Line_1086_en a :TranslationVariant ;
+:text "Steady arrows, whose sting you can’t outrun..."^^xsd:string ;
+:relatedTo :Line_1086 .
+
+# --- 1087 ---
+
+:Line_1087 a :Line ; :lineNumber 1087 ; :canonicalReference "1087" .
+:TV_Line_1087_en a :TranslationVariant ;
+:text "Boy, take me home, so this man"^^xsd:string ;
+:relatedTo :Line_1087 .
+
+# --- 1088 ---
+
+:Line_1088 a :Line ; :lineNumber 1088 ; :canonicalReference "1088" .
+:TV_Line_1088_en a :TranslationVariant ;
+:text "Can burden younger men with his anger,"^^xsd:string ;
+:relatedTo :Line_1088 .
+
+# --- 1089 ---
+
+:Line_1089 a :Line ; :lineNumber 1089 ; :canonicalReference "1089" .
+:TV_Line_1089_en a :TranslationVariant ;
+:text "And learn to keep a softer tongue and a wiser mind than he does now."^^xsd:string ;
+:relatedTo :Line_1089 .
+
+# --- 1090 ---
+
+:Line_1090 a :Line ; :lineNumber 1090 ; :canonicalReference "1090" .
+:TV_Line_1090_en a :TranslationVariant ;
+:text "The man, my lord, has left after speaking"^^xsd:string ;
+:relatedTo :Line_1090 .
+
+# --- 1091 ---
+
+:Line_1091 a :Line ; :lineNumber 1091 ; :canonicalReference "1091" .
+:TV_Line_1091_en a :TranslationVariant ;
+:text "Terrible prophecies: And yet, for all the time since"^^xsd:string ;
+:relatedTo :Line_1091 .
+
+# --- 1092 ---
+
+:Line_1092 a :Line ; :lineNumber 1092 ; :canonicalReference "1092" .
+:TV_Line_1092_en a :TranslationVariant ;
+:text "My hair first grew on head (once dark, now white)"^^xsd:string ;
+:relatedTo :Line_1092 .
+
+# --- 1093 ---
+
+:Line_1093 a :Line ; :lineNumber 1093 ; :canonicalReference "1093" .
+:TV_Line_1093_en a :TranslationVariant ;
+:text "Our city has never heard him tell a lie."^^xsd:string ;
+:relatedTo :Line_1093 .
+
+# --- 1095 ---
+
+:Line_1095 a :Line ; :lineNumber 1095 ; :canonicalReference "1095" .
+:TV_Line_1095_en a :TranslationVariant ;
+:text "I realize—it fills me with fear. It would be"^^xsd:string ;
+:relatedTo :Line_1095 ;
+:experiencesEmotion :Emotion_TerrifiedHesitation .
+
+# --- 1096 ---
+
+:Line_1096 a :Line ; :lineNumber 1096 ; :canonicalReference "1096" .
+:TV_Line_1096_en a :TranslationVariant ;
+:text "A terrible thing to obey him, but no more terrible"^^xsd:string ;
+:relatedTo :Line_1096 .
+
+# --- 1097 ---
+
+:Line_1097 a :Line ; :lineNumber 1097 ; :canonicalReference "1097" .
+:TV_Line_1097_en a :TranslationVariant ;
+:text "Than to resist him, and curse my soul."^^xsd:string ;
+:relatedTo :Line_1097 ;
+:hasConflict :Conflict_InternalCreon .
+
+# --- 1098 ---
+
+:Line_1098 a :Line ; :lineNumber 1098 ; :canonicalReference "1098" .
+:TV_Line_1098_en a :TranslationVariant ;
+:text "Tread carefully, son of Menoeceus."^^xsd:string ;
+:relatedTo :Line_1098 .
+
+# --- 1099 ---
+
+:Line_1099 a :Line ; :lineNumber 1099 ; :canonicalReference "1099" .
+:TV_Line_1099_en a :TranslationVariant ;
+:text "What should I do? Tell me and I’ll obey."^^xsd:string ;
+:relatedTo :Line_1099 .
+
+# --- 1100 ---
+
+:Line_1100 a :Line ; :lineNumber 1100 ; :canonicalReference "1100" .
+:TV_Line_1100_en a :TranslationVariant ;
+:text "Free the buried girl,"^^xsd:string ;
+:relatedTo :Line_1100 .
+
+# --- 1101 ---
+
+:Line_1101 a :Line ; :lineNumber 1101 ; :canonicalReference "1101" .
+:TV_Line_1101_en a :TranslationVariant ;
+:text "And bury the unburied."^^xsd:string ;
+:relatedTo :Line_1101 .
+
+# --- 1102 ---
+
+:Line_1102 a :Line ; :lineNumber 1102 ; :canonicalReference "1102" .
+:TV_Line_1102_en a :TranslationVariant ;
+:text "This is your advice? To give in to him?"^^xsd:string ;
+:relatedTo :Line_1102 .
+
+# --- 1103 ---
+
+:Line_1103 a :Line ; :lineNumber 1103 ; :canonicalReference "1103" .
+:TV_Line_1103_en a :TranslationVariant ;
+:text "As quickly as possible, my king: for the curses"^^xsd:string ;
+:relatedTo :Line_1103 .
+
+# --- 1104 ---
+
+:Line_1104 a :Line ; :lineNumber 1104 ; :canonicalReference "1104" .
+:TV_Line_1104_en a :TranslationVariant ;
+:text "Of the gods bring a swift end to foolish men."^^xsd:string ;
+:relatedTo :Line_1104 .
+
+# --- 1105 ---
+
+:Line_1105 a :Line ; :lineNumber 1105 ; :canonicalReference "1105" .
+:TV_Line_1105_en a :TranslationVariant ;
+:text "Oh! It’s hard to deny the heart, but"^^xsd:string ;
+:relatedTo :Line_1105 .
+
+# --- 1106 ---
+
+:Line_1106 a :Line ; :lineNumber 1106 ; :canonicalReference "1106" .
+:TV_Line_1106_en a :TranslationVariant ;
+:text "I can’t go on fighting so desperately against the gods."^^xsd:string ;
+:relatedTo :Line_1106 ;
+:makesMoralDecision :Decision_RevokeEdict .
+
+# --- 1107 ---
+
+:Line_1107 a :Line ; :lineNumber 1107 ; :canonicalReference "1107" .
+:TV_Line_1107_en a :TranslationVariant ;
+:text "Come on now, do these things and nothing more."^^xsd:string ;
+:relatedTo :Line_1107 .
+
+# --- 1108 ---
+
+:Line_1108 a :Line ; :lineNumber 1108 ; :canonicalReference "1108" .
+:TV_Line_1108_en a :TranslationVariant ;
+:text "I will go straightaway. Go, go friends!"^^xsd:string ;
+:relatedTo :Line_1108 .
+
+# --- 1109 ---
+
+:Line_1109 a :Line ; :lineNumber 1109 ; :canonicalReference "1109" .
+:TV_Line_1109_en a :TranslationVariant ;
+:text "One and all, hurry up and take your axes"^^xsd:string ;
+:relatedTo :Line_1109 .
+
+# --- 1110 ---
+
+:Line_1110 a :Line ; :lineNumber 1110 ; :canonicalReference "1110" .
+:TV_Line_1110_en a :TranslationVariant ;
+:text "To the tomb in plain sight!"^^xsd:string ;
+:relatedTo :Line_1110 .
+
+# --- 1111 ---
+
+:Line_1111 a :Line ; :lineNumber 1111 ; :canonicalReference "1111" .
+:TV_Line_1111_en a :TranslationVariant ;
+:text "My mind has changed."^^xsd:string ;
+:relatedTo :Line_1111 ;
+:relatedTo :Event_Peripeteia .
+
+# --- 1112 ---
+
+:Line_1112 a :Line ; :lineNumber 1112 ; :canonicalReference "1112" .
+:TV_Line_1112_en a :TranslationVariant ;
+:text "As I myself bound her, so, too, shall I set her free."^^xsd:string ;
+:relatedTo :Line_1112 .
+
+# --- 1113 ---
+
+:Line_1113 a :Line ; :lineNumber 1113 ; :canonicalReference "1113" .
+:TV_Line_1113_en a :TranslationVariant ;
+:text "I fear it’s best, in the end,"^^xsd:string ;
+:relatedTo :Line_1113 .
+
+# --- 1114 ---
+
+:Line_1114 a :Line ; :lineNumber 1114 ; :canonicalReference "1114" .
+:TV_Line_1114_en a :TranslationVariant ;
+:text "To preserve the laws of old."^^xsd:string ;
+:relatedTo :Line_1114 ;
+:advocatesFor :Ethical_TraditionalLaws .

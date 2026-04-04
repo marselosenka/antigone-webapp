@@ -7,87 +7,56 @@
 # ENGLISH TRANSLATION VARIANTS (Lines 1277 - 1305)
 ################################################################
 
-:TV_Line_1277_en a :TranslationVariant ; :relatedTo :Line_1277 ; :text "My lord, it seems you’ve not come empty-handed,"^^xsd:string .
-:TV_Line_1278_en a :TranslationVariant ; :relatedTo :Line_1278 ; :text "But with a double load: you have one weight"^^xsd:string .
-:TV_Line_1279_en a :TranslationVariant ; :relatedTo :Line_1279 ; :text "In your arms now while the other waits for you at home."^^xsd:string .
-:TV_Line_1281_en a :TranslationVariant ; :relatedTo :Line_1281 ; :text "What, is there something worse than this?"^^xsd:string .
-:TV_Line_1282_en a :TranslationVariant ; :relatedTo :Line_1282 ; :text "Your wife is dead, the true mother of this corpse,"^^xsd:string .
-:TV_Line_1283_en a :TranslationVariant ; :relatedTo :Line_1283 ; :text "Poor woman, dead just now by freshly opened wounds."^^xsd:string .
-:TV_Line_1284_en a :TranslationVariant ; :relatedTo :Line_1284 ; :text "O harbor of Death, so hard to purify! why destroy me?"^^xsd:string ; :hasTheme :Theme_HadesAsHarbor .
-:TV_Line_1285_en a :TranslationVariant ; :relatedTo :Line_1285 ; :text "Why me?"^^xsd:string .
-:TV_Line_1286_en a :TranslationVariant ; :relatedTo :Line_1286 ; :text "Oh you who sent the pain"^^xsd:string .
-:TV_Line_1287_en a :TranslationVariant ; :relatedTo :Line_1287 ; :text "Of ill-tidings my way, what word do you speak now?"^^xsd:string .
-:TV_Line_1288_en a :TranslationVariant ; :relatedTo :Line_1288 ; :text "Ah! You’ve slain a dead man twice over!"^^xsd:string .
-:TV_Line_1289_en a :TranslationVariant ; :relatedTo :Line_1289 ; :text "What do you have to say, boy? What have you seen?"^^xsd:string .
-:TV_Line_1291_en a :TranslationVariant ; :relatedTo :Line_1291 ; :text "Ah! Ah! What new slaughter, my wife’s demise,"^^xsd:string .
-:TV_Line_1292_en a :TranslationVariant ; :relatedTo :Line_1292 ; :text "Do you add on top of Haemon’s death?"^^xsd:string .
-:TV_Line_1294_en a :TranslationVariant ; :relatedTo :Line_1294 ; :text "You must know—it’s not hidden away any more."^^xsd:string .
-:TV_Line_1295_en a :TranslationVariant ; :relatedTo :Line_1295 ; :text "Ah me! I see this second, this other evil! Wretch!"^^xsd:string .
-:TV_Line_1296_en a :TranslationVariant ; :relatedTo :Line_1296 ; :text "What destiny, what destiny yet awaits me?"^^xsd:string .
-:TV_Line_1297_en a :TranslationVariant ; :relatedTo :Line_1297 ; :text "Just now I hold a child in my arms—"^^xsd:string .
-:TV_Line_1299_en a :TranslationVariant ; :relatedTo :Line_1299 ; :text "Then I look upon a corpse beside it."^^xsd:string .
-:TV_Line_1300_en a :TranslationVariant ; :relatedTo :Line_1300 ; :text "Ah! Ah miserable mother! Ah child!"^^xsd:string .
-:TV_Line_1301_en a :TranslationVariant ; :relatedTo :Line_1301 ; :text "At the altar, with a sharp-edged sword,"^^xsd:string .
-:TV_Line_1302_en a :TranslationVariant ; :relatedTo :Line_1302 ; :text "She hacked until her black eyes shut,"^^xsd:string .
-:TV_Line_1303_en a :TranslationVariant ; :relatedTo :Line_1303 ; :text "Bewailed the noble fate of her son, Megareus,"^^xsd:string .
-:TV_Line_1304_en a :TranslationVariant ; :relatedTo :Line_1304 ; :text "Who died earlier, and then the fate of this boy,"^^xsd:string .
-:TV_Line_1305_en a :TranslationVariant ; :relatedTo :Line_1305 ; :text "Cursing you as the slayer of your children."^^xsd:string ; :hasTheme :Theme_TheFinalCurse .
+:TV_Line_1278_en a :TranslationVariant ; :relatedTo :Line_1278 ; :text "My lord, as you stand and as you bear what you bear,"^^xsd:string .
 
-################################################################
-# MODERN GREEK TRANSLATION VARIANTS (Lines 1277 - 1305)
-################################################################
+:TV_Line_1279_en a :TranslationVariant ; :relatedTo :Line_1279 ; :text "You seem to carry these things in your hands, while at home"^^xsd:string .
 
-:TV_Line_1277_Gr a :TranslationVariant ; :relatedTo :Line_1277 ; :text "Αφόρητα φορτία, άρχοντά μου."^^xsd:string .
-:TV_Line_1278_Gr a :TranslationVariant ; :relatedTo :Line_1278 ; :text "Το ένα εδώ και το άλλο μέσα."^^xsd:string .
-:TV_Line_1279_Gr a :TranslationVariant ; :relatedTo :Line_1279 ; :text "Δεν τέλειωσαν τα βάσανά σου."^^xsd:string .
-:TV_Line_1281_Gr a :TranslationVariant ; :relatedTo :Line_1281 ; :text "Τι χειρότερο απ’ αυτό εδώ μπορώ να πάθω;"^^xsd:string .
-:TV_Line_1282_Gr a :TranslationVariant ; :relatedTo :Line_1282 ; :text "Είναι νεκρή η γυναίκα σου· η μάνα του νεκρού"^^xsd:string .
-:TV_Line_1283_Gr a :TranslationVariant ; :relatedTo :Line_1283 ; :text "μόλις ξεκίνησε για να τον βρει."^^xsd:string .
-:TV_Line_1284_Gr a :TranslationVariant ; :relatedTo :Line_1284 ; :text "Λιμάνι αχόρταγο, άσπλαχνο, του Άδη, τι μου ζητάς;"^^xsd:string ; :hasTheme :Theme_HadesAsHarbor .
-:TV_Line_1285_Gr a :TranslationVariant ; :relatedTo :Line_1285 ; :text "Τι άλλο να σου στείλω πια; Κι εσύ"^^xsd:string .
-:TV_Line_1286_Gr a :TranslationVariant ; :relatedTo :Line_1286 ; :text "άγγελε του κακού,"^^xsd:string .
-:TV_Line_1288_Gr a :TranslationVariant ; :relatedTo :Line_1288 ; :text "ψυχορραγώ - δεν βλέπεις; Γιατί δεν με τελειώνεις;"^^xsd:string .
-:TV_Line_1290_Gr a :TranslationVariant ; :relatedTo :Line_1290 ; :text "Πες μου, παιδί μου,"^^xsd:string .
-:TV_Line_1292_Gr a :TranslationVariant ; :relatedTo :Line_1292 ; :text "τι έκανε ο θάνατος στο σπίτι μου;"^^xsd:string .
-:TV_Line_1293_Gr a :TranslationVariant ; :relatedTo :Line_1293 ; :text "Πού είναι το καινούργιο σφάγιό του;"^^xsd:string .
-:TV_Line_1294_Gr a :TranslationVariant ; :relatedTo :Line_1294 ; :text "Μπροστά σου!"^^xsd:string .
-:TV_Line_1295_Gr a :TranslationVariant ; :relatedTo :Line_1295 ; :text "Αλίμονό μου, τι άλλο θα δω;"^^xsd:string .
-:TV_Line_1297_Gr a :TranslationVariant ; :relatedTo :Line_1297 ; :text "Δεν πρόλαβα να κλάψω το παιδί μου"^^xsd:string .
-:TV_Line_1298_Gr a :TranslationVariant ; :relatedTo :Line_1298 ; :text "κι έχω μπροστά μου τη γυναίκα μου νεκρή."^^xsd:string .
-:TV_Line_1300_Gr a :TranslationVariant ; :relatedTo :Line_1300 ; :text "Αχ, μάνα δύστυχη· δυστυχισμένε γιε μου!"^^xsd:string .
-:TV_Line_1301_Gr a :TranslationVariant ; :relatedTo :Line_1301 ; :text "Μπρος στην εστία, αφαίρεσε η ίδια την ζωή της."^^xsd:string .
-:TV_Line_1302_Gr a :TranslationVariant ; :relatedTo :Line_1302 ; :text "Έμπηξε το σπαθί στα σπλάχνα της, θρηνώντας"^^xsd:string .
-:TV_Line_1303_Gr a :TranslationVariant ; :relatedTo :Line_1303 ; :text "τον Μεγαρέα που έχασε"^^xsd:string .
-:TV_Line_1304_Gr a :TranslationVariant ; :relatedTo :Line_1304 ; :text "πρώτο και τώρα αυτόν εδώ, τον Αίμονα."^^xsd:string .
-:TV_Line_1305_Gr a :TranslationVariant ; :relatedTo :Line_1305 ; :text "Πριν κλείσουν τα βλέφαρά της, αναθεμάτισε τον παιδοκτόνο."^^xsd:string ; :hasTheme :Theme_TheFinalCurse .
+:TV_Line_1280_en a :TranslationVariant ; :relatedTo :Line_1280 ; :text "You have come upon, and soon will see, more evils."^^xsd:string .
 
-################################################################
-# ANCIENT GREEK VARIANTS (Lines 1277 - 1305)
-################################################################
+:TV_Line_1281_en a :TranslationVariant ; :relatedTo :Line_1281 ; :text "What? Can there still be anything worse than these evils?"^^xsd:string .
 
-:TV_Line_1277_grc a :TranslationVariant ; :relatedTo :Line_1277 ; :text "Ὦ δέσποθ ̓, ὡς ἔχων τε καὶ κεκτημένος,"^^xsd:string .
-:TV_Line_1278_grc a :TranslationVariant ; :relatedTo :Line_1278 ; :text "τὰ μὲν πρὸ χειρῶν τάδε φέρειν, τὰ δ ̓ ἐν δόμοις"^^xsd:string .
-:TV_Line_1280_grc a :TranslationVariant ; :relatedTo :Line_1280 ; :text "ἔοικας ἥκων καὶ τάχ ̓ ὄψεσθαι κακά."^^xsd:string .
-:TV_Line_1281_grc a :TranslationVariant ; :relatedTo :Line_1281 ; :text "Τί δ; ἔστιν αὖ κάκιον ἐκ κακῶν ἔτι;"^^xsd:string .
-:TV_Line_1282_grc a :TranslationVariant ; :relatedTo :Line_1282 ; :text "ΕΞ. Γυνὴ τέθνηκεν, τοῦδε παμμήτωρ νεκρού,"^^xsd:string .
-:TV_Line_1283_grc a :TranslationVariant ; :relatedTo :Line_1283 ; :text "δύστηνος, ἄρτι νεοτόμοισι πλήγμασιν."^^xsd:string .
-:TV_Line_1284_grc a :TranslationVariant ; :relatedTo :Line_1284 ; :text "ΚΡ. Ἰὼ, ἰὼ δυσκάθαρτος Ἅιδου λιμήν,"^^xsd:string .
-:TV_Line_1285_grc a :TranslationVariant ; :relatedTo :Line_1285 ; :text "τί μ ̓ ἄρα τί μ ̓ ὀλέκεις;"^^xsd:string .
-:TV_Line_1286_grc a :TranslationVariant ; :relatedTo :Line_1286 ; :text "Ὦ κακάγγελτά μοι"^^xsd:string .
-:TV_Line_1287_grc a :TranslationVariant ; :relatedTo :Line_1287 ; :text "προπέμψας ἄχη, τίνα θροεῖς λόγον;"^^xsd:string .
-:TV_Line_1288_grc a :TranslationVariant ; :relatedTo :Line_1288 ; :text "Αἰαῖ, ὀλωλότ ̓ ἄνδρ ̓ ἐπεξειργάσω."^^xsd:string .
-:TV_Line_1289_grc a :TranslationVariant ; :relatedTo :Line_1289 ; :text "Τί φῄς, ὦ παῖ; τίνα λέγεις μοι νέον,"^^xsd:string .
-:TV_Line_1291_grc a :TranslationVariant ; :relatedTo :Line_1291 ; :text "σφάγιον ἐπ ̓ ὀλέθρῳ,"^^xsd:string .
-:TV_Line_1292_grc a :TranslationVariant ; :relatedTo :Line_1292 ; :text "γυναικεῖον ἀμφικεῖσθαι μόρον;"^^xsd:string .
-:TV_Line_1293_grc a :TranslationVariant ; :relatedTo :Line_1293 ; :text "ΧΟ. Ὁρᾶν πάρεστιν· οὐ γὰρ ἐν μυχοῖς ἔτι."^^xsd:string .
-:TV_Line_1294_grc a :TranslationVariant ; :relatedTo :Line_1294 ; :text "ΚΡ. Οἴμοι,"^^xsd:string .
-:TV_Line_1295_grc a :TranslationVariant ; :relatedTo :Line_1295 ; :text "κακὸν τόδ ̓ ἄλλο δεύτερον βλέπω τάλας"^^xsd:string .
-:TV_Line_1296_grc a :TranslationVariant ; :relatedTo :Line_1296 ; :text "Τίς ἄρα, τίς με πότμος ἔτι περιμένει;"^^xsd:string .
-:TV_Line_1297_grc a :TranslationVariant ; :relatedTo :Line_1297 ; :text "Ἔχω μὲν ἐν χείρεσσιν ἀρτίως τέκνον,"^^xsd:string .
-:TV_Line_1299_grc a :TranslationVariant ; :relatedTo :Line_1299 ; :text "τάλας, τὸν δ ̓ ἔναντα προσβλέπω νεκρόν."^^xsd:string .
-:TV_Line_1300_grc a :TranslationVariant ; :relatedTo :Line_1300 ; :text "Φεῦ φεῦ μᾶτερ ἀθλία, φεῦ τέκνον."^^xsd:string .
-:TV_Line_1301_grc a :TranslationVariant ; :relatedTo :Line_1301 ; :text "Ἡ δ ̓ ὀξύπληκτος ἡμένη βωμία"^^xsd:string .
-:TV_Line_1302_grc a :TranslationVariant ; :relatedTo :Line_1302 ; :text "λύει κελαινὰ βλέφαρα, κωκύσασα μὲν"^^xsd:string .
-:TV_Line_1303_grc a :TranslationVariant ; :relatedTo :Line_1303 ; :text "τοῦ πρὶν θανόντος Μεγαρέως κενὸν λέχος,"^^xsd:string .
-:TV_Line_1304_grc a :TranslationVariant ; :relatedTo :Line_1304 ; :text "αὖθις δὲ τοῦδε, λοίσθιον δὲ σοὶ κακὰς"^^xsd:string .
-:TV_Line_1305_grc a :TranslationVariant ; :relatedTo :Line_1305 ; :text "πράξεις ἐφυμνήσασα τῷ παιδοκτόνῳ."^^xsd:string .
+:TV_Line_1282_en a :TranslationVariant ; :relatedTo :Line_1282 ; :text "Your wife is dead, the all-true mother of this dead son,"^^xsd:string .
+
+:TV_Line_1283_en a :TranslationVariant ; :relatedTo :Line_1283 ; :text "Poor woman, struck just now by freshly inflicted wounds."^^xsd:string .
+
+:TV_Line_1284_en a :TranslationVariant ; :relatedTo :Line_1284 ; :text "Ah me, ah me, unpurgeable harbor of Hades,"^^xsd:string ; :hasTheme :Theme_HadesAsHarbor .
+
+:TV_Line_1285_en a :TranslationVariant ; :relatedTo :Line_1285 ; :text "Why, why do you destroy me?"^^xsd:string .
+
+:TV_Line_1286_en a :TranslationVariant ; :relatedTo :Line_1286 ; :text "O you bringer of evil tidings to me,"^^xsd:string .
+
+:TV_Line_1287_en a :TranslationVariant ; :relatedTo :Line_1287 ; :text "Who sent grief ahead, what word are you crying out?"^^xsd:string .
+
+:TV_Line_1288_en a :TranslationVariant ; :relatedTo :Line_1288 ; :text "Alas, you have destroyed a man already ruined."^^xsd:string .
+
+:TV_Line_1289_en a :TranslationVariant ; :relatedTo :Line_1289 ; :text "What are you saying, boy? What new thing do you tell me,"^^xsd:string .
+
+:TV_Line_1290_en a :TranslationVariant ; :relatedTo :Line_1290 ; :text "Alas, alas,"^^xsd:string .
+
+:TV_Line_1291_en a :TranslationVariant ; :relatedTo :Line_1291 ; :text "That a slaughter upon slaughter,"^^xsd:string .
+
+:TV_Line_1292_en a :TranslationVariant ; :relatedTo :Line_1292 ; :text "The death of a woman, is laid upon me?"^^xsd:string .
+
+:TV_Line_1293_en a :TranslationVariant ; :relatedTo :Line_1293 ; :text "You may see it; for it is no longer hidden within."^^xsd:string .
+
+:TV_Line_1294_en a :TranslationVariant ; :relatedTo :Line_1294 ; :text "Ah me!"^^xsd:string .
+
+:TV_Line_1295_en a :TranslationVariant ; :relatedTo :Line_1295 ; :text "Wretched man, I see this second evil too,"^^xsd:string .
+
+:TV_Line_1296_en a :TranslationVariant ; :relatedTo :Line_1296 ; :text "What fate, what fate still waits for me?"^^xsd:string .
+
+:TV_Line_1297_en a :TranslationVariant ; :relatedTo :Line_1297 ; :text "Just now I hold my child in my hands,"^^xsd:string .
+
+:TV_Line_1298_en a :TranslationVariant ; :relatedTo :Line_1298 ; :text "And before me I look upon another corpse."^^xsd:string .
+
+:TV_Line_1300_en a :TranslationVariant ; :relatedTo :Line_1300 ; :text "Alas, alas, unhappy mother, alas, my child."^^xsd:string .
+
+:TV_Line_1301_en a :TranslationVariant ; :relatedTo :Line_1301 ; :text "She, struck sharply, as she sat beside the altar,"^^xsd:string .
+
+:TV_Line_1302_en a :TranslationVariant ; :relatedTo :Line_1302 ; :text "Closed her darkened eyes, after crying aloud"^^xsd:string .
+
+:TV_Line_1303_en a :TranslationVariant ; :relatedTo :Line_1303 ; :text "For the empty bed of Megareus, who died before,"^^xsd:string .
+
+:TV_Line_1304_en a :TranslationVariant ; :relatedTo :Line_1304 ; :text "And then for this one; and last of all upon you"^^xsd:string .
+
+:TV_Line_1305_en a :TranslationVariant ; :relatedTo :Line_1305 ; :text "She called down evil deeds, naming you the slayer of your child."^^xsd:string ; :hasTheme :Theme_TheFinalCurse .

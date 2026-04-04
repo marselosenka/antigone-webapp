@@ -5,228 +5,124 @@
 # ENGLISH
 ################################################################
 
+# --- 966 ---
+
 :TV_Line_966_en a :TranslationVariant ;
-:text "In the sea by the Black Rocks,"^^xsd:string ;
+:text "Beside the dark-blue rocks of the sea,"^^xsd:string ;
 :relatedTo :Line_966 .
+
+# --- 967 ---
 
 :TV_Line_967_en a :TranslationVariant ;
-:text "The double sea, are the Bosporus"^^xsd:string ;
+:text "The twin Bosporian coasts and the Thracian shore,"^^xsd:string ;
 :relatedTo :Line_967 .
+
+# 968 and 969 do not exist in the Greek base
+
+# --- 970 ---
 
 :TV_Line_970_en a :TranslationVariant ;
-:text "On the twin sons of Phineus"^^xsd:string ;
-:relatedTo :Line_970 .
+:text "Salmydessus, where neighboring Ares"^^xsd:string ;
+:relatedTo :Line_970 ;
+:referencesMyth :Antigone_Character_Ares .
+
+# --- 971 ---
 
 :TV_Line_971_en a :TranslationVariant ;
-:text "A cursed, blinding wound"^^xsd:string ;
-:relatedTo :Line_971 .
+:text "Saw for the two sons of Phineus"^^xsd:string ;
+:relatedTo :Line_971 ;
+:referencesMyth :Antigone_Character_Phineids .
+
+# --- 972 ---
 
 :TV_Line_972_en a :TranslationVariant ;
-:text "From a savage wife,"^^xsd:string ;
+:text "The accursed wound,"^^xsd:string ;
 :relatedTo :Line_972 .
+
+# --- 973 ---
 
 :TV_Line_973_en a :TranslationVariant ;
-:text "A wound to their round eyes"^^xsd:string ;
-:relatedTo :Line_973 .
+:text "Blinded by a savage wife,"^^xsd:string ;
+:relatedTo :Line_973 ;
+:relatedTo :Antigone_Character_PhineusWife .
+
+# --- 974 ---
 
 :TV_Line_974_en a :TranslationVariant ;
-:text "Shattered and screaming"^^xsd:string ;
+:text "Their eyes struck in cruel circles,"^^xsd:string ;
 :relatedTo :Line_974 .
+
+# --- 975 ---
 
 :TV_Line_975_en a :TranslationVariant ;
-:text "For vengeance, inflicted"^^xsd:string ;
-:relatedTo :Line_975 .
+:text "Torn out by bloody"^^xsd:string ;
+:relatedTo :Line_975 ;
+:hasSymbol :Symbol_Blood .
+
+# --- 976 ---
 
 :TV_Line_976_en a :TranslationVariant ;
-:text "By the edge of her shuttle"^^xsd:string ;
+:text "Hands and the sharp points of shuttles."^^xsd:string ;
 :relatedTo :Line_976 .
+
+# --- 977 ---
 
 :TV_Line_977_en a :TranslationVariant ;
-:text "In her bloody hands."^^xsd:string ;
-:relatedTo :Line_977 .
+:text "And they, wasting away, miserable in their misery,"^^xsd:string ;
+:relatedTo :Line_977 ;
+:experiencesEmotion :Emotion_Misery .
+
+# 978 and 979 do not exist in the Greek base
+
+# --- 980 ---
 
 :TV_Line_980_en a :TranslationVariant ;
-:text "But she traced herself all the way back to the"^^xsd:string ;
-:relatedTo :Line_980 .
+:text "Wept, having for mother a mother of unwed birth;"^^xsd:string ;
+:relatedTo :Line_980 ;
+:experiencesEmotion :Emotion_Grief .
+
+# --- 981 ---
 
 :TV_Line_981_en a :TranslationVariant ;
-:text "Ancient house of the Erechtheus,"^^xsd:string ;
+:text "And she was descended from the ancient race"^^xsd:string ;
 :relatedTo :Line_981 .
+
+# --- 982 ---
 
 :TV_Line_982_en a :TranslationVariant ;
-:text "And she was raised in far-off caves"^^xsd:string ;
-:relatedTo :Line_982 .
+:text "Of the Erechtheids,"^^xsd:string ;
+:relatedTo :Line_982 ;
+:referencesMyth :Antigone_Character_Cleopatra .
+
+# --- 983 ---
 
 :TV_Line_983_en a :TranslationVariant ;
-:text "Amidst paternal whirlwinds, a child"^^xsd:string ;
+:text "And in far-off caves"^^xsd:string ;
 :relatedTo :Line_983 .
+
+# --- 984 ---
 
 :TV_Line_984_en a :TranslationVariant ;
-:text "Of Boreas, a swift-footed child who could dart"^^xsd:string ;
+:text "She was reared amid her father’s storms,"^^xsd:string ;
 :relatedTo :Line_984 .
+
+# --- 985 ---
 
 :TV_Line_985_en a :TranslationVariant ;
-:text "Beyond the horizon at a horse’s pace, a child"^^xsd:string ;
-:relatedTo :Line_985 .
+:text "A child of Boreas, swift as horses over the steep crags,"^^xsd:string ;
+:relatedTo :Line_985 ;
+:referencesMyth :Antigone_Character_Boreas .
+
+# --- 986 ---
 
 :TV_Line_986_en a :TranslationVariant ;
-:text "Born from the gods."^^xsd:string ;
+:text "A child of the gods; but even upon her"^^xsd:string ;
 :relatedTo :Line_986 .
+
+# --- 987 ---
 
 :TV_Line_987_en a :TranslationVariant ;
-:text "But upon her as well, Oh child, the Fates eternal descended."^^xsd:string ;
-:relatedTo :Line_987 .
-
-
-################################################################
-# MODERN GREEK
-################################################################
-
-:TV_Line_966_Gr a :TranslationVariant ;
-:text "Κι εκεί, όπου βράχοι σκοτεινοί και θάλασσα διπλή"^^xsd:string ;
-:relatedTo :Line_966 .
-
-:TV_Line_967_Gr a :TranslationVariant ;
-:text "κι ο Βόσπορος κι η εχθρική Σαλμυδησσός της Θράκης..."^^xsd:string ;
-:relatedTo :Line_967 .
-
-:TV_Line_970_Gr a :TranslationVariant ;
-:text "του Φινέα να τον κοιτάζουν με μάτια σπήλαια τυφλά"^^xsd:string ;
-:relatedTo :Line_970 .
-
-:TV_Line_971_Gr a :TranslationVariant ;
-:text "απ’ το σκοτάδι που άνοιξαν"^^xsd:string ;
-:relatedTo :Line_971 .
-
-:TV_Line_972_Gr a :TranslationVariant ;
-:text "χέρια-μαχαίρια αιμοσταγή"^^xsd:string ;
-:relatedTo :Line_972 .
-
-:TV_Line_973_Gr a :TranslationVariant ;
-:text "της μητριάς."^^xsd:string ;
-:relatedTo :Line_973 .
-
-:TV_Line_974_Gr a :TranslationVariant ;
-:text "(Implicit screaming/agony context)"^^xsd:string ;
-:relatedTo :Line_974 .
-
-:TV_Line_975_Gr a :TranslationVariant ;
-:text "(Implicit context of vengeance/infliction)"^^xsd:string ;
-:relatedTo :Line_975 .
-
-:TV_Line_976_Gr a :TranslationVariant ;
-:text "(Implicit context of tools used)"^^xsd:string ;
-:relatedTo :Line_976 .
-
-:TV_Line_977_Gr a :TranslationVariant ;
-:text "Σκοτάδι τους κύκλωσε, τους ρήμαξε."^^xsd:string ;
-:relatedTo :Line_977 .
-
-:TV_Line_980_Gr a :TranslationVariant ;
-:text "των αρχαίων Ερεχθειδών"^^xsd:string ;
-:relatedTo :Line_980 .
-
-:TV_Line_981_Gr a :TranslationVariant ;
-:text "ήταν."^^xsd:string ;
-:relatedTo :Line_981 .
-
-:TV_Line_982_Gr a :TranslationVariant ;
-:text "Στα σπήλαια του Βορέα,"^^xsd:string ;
-:relatedTo :Line_982 .
-
-:TV_Line_983_Gr a :TranslationVariant ;
-:text "με θύελλες μεγάλωσε·"^^xsd:string ;
-:relatedTo :Line_983 .
-
-:TV_Line_984_Gr a :TranslationVariant ;
-:text "σε απόκρημνες ακτές"^^xsd:string ;
-:relatedTo :Line_984 .
-
-:TV_Line_985_Gr a :TranslationVariant ;
-:text "έπαιξε με τ’ άλογα του ανέμου."^^xsd:string ;
-:relatedTo :Line_985 .
-
-:TV_Line_986_Gr a :TranslationVariant ;
-:text "Παιδί θεών ήταν, παιδί μου, κι όμως"^^xsd:string ;
-:relatedTo :Line_986 .
-
-:TV_Line_987_Gr a :TranslationVariant ;
-:text "δεν ξέφυγε απ’ τις αιώνιες Μοίρες."^^xsd:string ;
-:relatedTo :Line_987 .
-
-
-################################################################
-# ANCIENT GREEK
-################################################################
-
-:TV_Line_966_grc a :TranslationVariant ;
-:text "Παρὰ δὲ κυανέαιν σπιλάδοιν διδύμας ἁλὸς"^^xsd:string ;
-:relatedTo :Line_966 .
-
-:TV_Line_967_grc a :TranslationVariant ;
-:text "ἀκταὶ Βοσπόριαι ἰδ᾽ ὁ Θρῃκῶν ἠιὼν"^^xsd:string ;
-:relatedTo :Line_967 .
-
-:TV_Line_970_grc a :TranslationVariant ;
-:text "Σαλμυδησσός, ἵν᾽ ἀγχίπολις Ἄρης"^^xsd:string ;
-:relatedTo :Line_970 .
-
-:TV_Line_971_grc a :TranslationVariant ;
-:text "δισσοῖσι Φινείδαις"^^xsd:string ;
-:relatedTo :Line_971 .
-
-:TV_Line_972_grc a :TranslationVariant ;
-:text "εἶδεν ἀρατὸν ἕλκος"^^xsd:string ;
-:relatedTo :Line_972 .
-
-:TV_Line_973_grc a :TranslationVariant ;
-:text "τυφλωθὲν ἐξ ἀγρίας δάμαρτος"^^xsd:string ;
-:relatedTo :Line_973 .
-
-:TV_Line_974_grc a :TranslationVariant ;
-:text "ἀλαὸν ἀλαστόροισιν ὀμμάτων κύκλοις"^^xsd:string ;
-:relatedTo :Line_974 .
-
-:TV_Line_975_grc a :TranslationVariant ;
-:text "ἀραχθέντων ὑφ᾽ αἱματηραῖς"^^xsd:string ;
-:relatedTo :Line_975 .
-
-:TV_Line_976_grc a :TranslationVariant ;
-:text "χείρεσσι καὶ κερκίδων ἀκμαῖσιν."^^xsd:string ;
-:relatedTo :Line_976 .
-
-:TV_Line_977_grc a :TranslationVariant ;
-:text "Κατὰ δὲ τακόμενοι μέλεοι μελέαν πάθαν"^^xsd:string ;
-:relatedTo :Line_977 .
-
-:TV_Line_980_grc a :TranslationVariant ;
-:text "ἄντασ᾽ Ἐρεχθεϊδᾶν,"^^xsd:string ;
-:relatedTo :Line_980 .
-
-:TV_Line_981_grc a :TranslationVariant ;
-:text "τηλεπόροις δ᾽ ἐν ἄντροις"^^xsd:string ;
-:relatedTo :Line_981 .
-
-:TV_Line_982_grc a :TranslationVariant ;
-:text "τράφη θυέλλῃσιν ἐν πατρῴαις"^^xsd:string ;
-:relatedTo :Line_982 .
-
-:TV_Line_983_grc a :TranslationVariant ;
-:text "Βορεὰς ἅμιππος ὀρθόποδος ὑπὲρ πάγου"^^xsd:string ;
-:relatedTo :Line_983 .
-
-:TV_Line_984_grc a :TranslationVariant ;
-:text "θεῶν παῖς· ἀλλὰ κἀπ᾽ ἐκείνᾳ"^^xsd:string ;
-:relatedTo :Line_984 .
-
-:TV_Line_985_grc a :TranslationVariant ;
-:text "Μοῖραι μακραίωνες ἔσχον, ὦ παῖ."^^xsd:string ;
-:relatedTo :Line_985 .
-
-:TV_Line_986_grc a :TranslationVariant ;
-:text "(Text flow continues in previous lines)"^^xsd:string ;
-:relatedTo :Line_986 .
-
-:TV_Line_987_grc a :TranslationVariant ;
-:text "(Conclusion of strophe)"^^xsd:string ;
-:relatedTo :Line_987 .
+:text "The long-lived Fates took hold, O child."^^xsd:string ;
+:relatedTo :Line_987 ;
+:hasTheme :Theme_FateInevitability ;
+:relatedTo :Antigone_Character_Fates .

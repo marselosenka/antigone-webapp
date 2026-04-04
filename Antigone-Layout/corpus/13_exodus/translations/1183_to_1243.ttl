@@ -7,198 +7,64 @@
 # ENGLISH TRANSLATION VARIANTS (Lines 1183 - 1243)
 ################################################################
 
-:TV_Line_1183_en a :TranslationVariant ; :relatedTo :Line_1183 ; :text "People of Thebes, I heard the news"^^xsd:string .
-:TV_Line_1184_en a :TranslationVariant ; :relatedTo :Line_1184 ; :text "As I was about to leave to call upon"^^xsd:string .
-:TV_Line_1185_en a :TranslationVariant ; :relatedTo :Line_1185 ; :text "Pallas Athena with my prayers."^^xsd:string .
-:TV_Line_1186_en a :TranslationVariant ; :relatedTo :Line_1186 ; :text "I happened to be loosening the bolts, to open"^^xsd:string .
-:TV_Line_1187_en a :TranslationVariant ; :relatedTo :Line_1187 ; :text "The gate, when the sound of disaster upon our house"^^xsd:string .
-:TV_Line_1188_en a :TranslationVariant ; :relatedTo :Line_1188 ; :text "Struck my ear. I fell terrified into the arms"^^xsd:string .
-:TV_Line_1189_en a :TranslationVariant ; :relatedTo :Line_1189 ; :text "Of my servant girls, paralyzed."^^xsd:string .
-:TV_Line_1190_en a :TranslationVariant ; :relatedTo :Line_1190 ; :text "But whatever the news, tell it again."^^xsd:string .
-:TV_Line_1191_en a :TranslationVariant ; :relatedTo :Line_1191 ; :text "I am no stranger to misfortunes—I will hear it."^^xsd:string .
-:TV_Line_1192_en a :TranslationVariant ; :relatedTo :Line_1192 ; :text "Dear mistress, I will tell you what I saw,"^^xsd:string .
-:TV_Line_1193_en a :TranslationVariant ; :relatedTo :Line_1193 ; :text "And I’ll leave out none of the truth."^^xsd:string .
-:TV_Line_1194_en a :TranslationVariant ; :relatedTo :Line_1194 ; :text "Why would I soften you with words that"^^xsd:string .
-:TV_Line_1195_en a :TranslationVariant ; :relatedTo :Line_1195 ; :text "Would prove me only a liar? The truth is always best."^^xsd:string .
+:TV_Line_1183_en a :TranslationVariant ; :relatedTo :Line_1183 ; :text "Citizens all, I heard the report"^^xsd:string .
+:TV_Line_1184_en a :TranslationVariant ; :relatedTo :Line_1184 ; :text "As I was going out, toward the goddess Pallas,"^^xsd:string .
+:TV_Line_1185_en a :TranslationVariant ; :relatedTo :Line_1185 ; :text "To come before her as a suppliant with prayers."^^xsd:string .
+:TV_Line_1186_en a :TranslationVariant ; :relatedTo :Line_1186 ; :text "And as it happened I was drawing back the bolts"^^xsd:string .
+:TV_Line_1187_en a :TranslationVariant ; :relatedTo :Line_1187 ; :text "Of the gate, when the sound of a household sorrow"^^xsd:string .
+:TV_Line_1188_en a :TranslationVariant ; :relatedTo :Line_1188 ; :text "Struck through my ears; and I collapsed backward"^^xsd:string .
+:TV_Line_1189_en a :TranslationVariant ; :relatedTo :Line_1189 ; :text "In fear among my serving women, stunned."^^xsd:string .
+:TV_Line_1190_en a :TranslationVariant ; :relatedTo :Line_1190 ; :text "But tell me again what the story was;"^^xsd:string .
+:TV_Line_1191_en a :TranslationVariant ; :relatedTo :Line_1191 ; :text "For I am not untried in suffering—I will hear it."^^xsd:string .
+:TV_Line_1192_en a :TranslationVariant ; :relatedTo :Line_1192 ; :text "Dear mistress, I will tell it, for I was there myself,"^^xsd:string .
+:TV_Line_1193_en a :TranslationVariant ; :relatedTo :Line_1193 ; :text "And I will omit not one word of the truth;"^^xsd:string .
+:TV_Line_1194_en a :TranslationVariant ; :relatedTo :Line_1194 ; :text "For why should I soften what later"^^xsd:string .
+:TV_Line_1195_en a :TranslationVariant ; :relatedTo :Line_1195 ; :text "Would show me false? Truth is always right."^^xsd:string .
 :TV_Line_1196_en a :TranslationVariant ; :relatedTo :Line_1196 ; :text "I followed your husband as his guide"^^xsd:string .
-:TV_Line_1197_en a :TranslationVariant ; :relatedTo :Line_1197 ; :text "To a distant field, where lay unpitied"^^xsd:string .
-:TV_Line_1198_en a :TranslationVariant ; :relatedTo :Line_1198 ; :text "The corpse of Polyneices, torn by dogs."^^xsd:string .
-:TV_Line_1199_en a :TranslationVariant ; :relatedTo :Line_1199 ; :text "Begging Hades, god of the dead,"^^xsd:string .
-:TV_Line_1200_en a :TranslationVariant ; :relatedTo :Line_1200 ; :text "To restrain his anger in mercy,"^^xsd:string .
-:TV_Line_1201_en a :TranslationVariant ; :relatedTo :Line_1201 ; :text "We washed him with holy washing, and we burned him"^^xsd:string .
-:TV_Line_1202_en a :TranslationVariant ; :relatedTo :Line_1202 ; :text "Together with fresh-plucked branches"^^xsd:string .
-:TV_Line_1203_en a :TranslationVariant ; :relatedTo :Line_1203 ; :text "We found lying about, and we raised a high-roofed mound"^^xsd:string .
-:TV_Line_1204_en a :TranslationVariant ; :relatedTo :Line_1204 ; :text "Over the land. We then entered again"^^xsd:string .
-:TV_Line_1205_en a :TranslationVariant ; :relatedTo :Line_1205 ; :text "The girl’s stone-lined chamber, the bride of Hades."^^xsd:string .
-:TV_Line_1206_en a :TranslationVariant ; :relatedTo :Line_1206 ; :text "But someone heard in the distance a loud, shrieking"^^xsd:string .
-:TV_Line_1207_en a :TranslationVariant ; :relatedTo :Line_1207 ; :text "Sound coming from the unhallowed room."^^xsd:string .
-:TV_Line_1208_en a :TranslationVariant ; :relatedTo :Line_1208 ; :text "We went to tell Creon."^^xsd:string .
-:TV_Line_1209_en a :TranslationVariant ; :relatedTo :Line_1209 ; :text "As he drew closer and closer, snippets of her"^^xsd:string .
-:TV_Line_1210_en a :TranslationVariant ; :relatedTo :Line_1210 ; :text "Wretched cry surrounded him, until he broke down"^^xsd:string .
-:TV_Line_1211_en a :TranslationVariant ; :relatedTo :Line_1211 ; :text "In tears, and began to wail aloud, crying:"^^xsd:string .
-:TV_Line_1212_en a :TranslationVariant ; :relatedTo :Line_1212 ; :text "“O wretched me, am I a prophet of doom?"^^xsd:string .
-:TV_Line_1213_en a :TranslationVariant ; :relatedTo :Line_1213 ; :text "Am I making my way down the most unlucky path"^^xsd:string .
-:TV_Line_1214_en a :TranslationVariant ; :relatedTo :Line_1214 ; :text "of them all? My son’s voice calls me."^^xsd:string .
-:TV_Line_1215_en a :TranslationVariant ; :relatedTo :Line_1215 ; :text "But, servants, go there quickly and to the tomb,"^^xsd:string .
-:TV_Line_1216_en a :TranslationVariant ; :relatedTo :Line_1216 ; :text "Enter where the stones were taken out,"^^xsd:string .
-:TV_Line_1217_en a :TranslationVariant ; :relatedTo :Line_1217 ; :text "And tell me if I’m hearing Haemon’s voice,"^^xsd:string .
-:TV_Line_1218_en a :TranslationVariant ; :relatedTo :Line_1218 ; :text "Or if the gods are playing tricks on me.”"^^xsd:string .
-:TV_Line_1219_en a :TranslationVariant ; :relatedTo :Line_1219 ; :text "We went to investigate, as our master ordered:"^^xsd:string .
-:TV_Line_1220_en a :TranslationVariant ; :relatedTo :Line_1220 ; :text "In the very back of the tomb,"^^xsd:string .
-:TV_Line_1221_en a :TranslationVariant ; :relatedTo :Line_1221 ; :text "We saw her, hanging by the neck,"^^xsd:string .
-:TV_Line_1222_en a :TranslationVariant ; :relatedTo :Line_1222 ; :text "Dangling from a noose of fine thread,"^^xsd:string .
-:TV_Line_1223_en a :TranslationVariant ; :relatedTo :Line_1223 ; :text "And him, embracing her waist,"^^xsd:string .
-:TV_Line_1224_en a :TranslationVariant ; :relatedTo :Line_1224 ; :text "Bewailing the death of his bride,"^^xsd:string .
-:TV_Line_1225_en a :TranslationVariant ; :relatedTo :Line_1225 ; :text "The deeds of his father, and his cursed marriage bed."^^xsd:string .
-:TV_Line_1226_en a :TranslationVariant ; :relatedTo :Line_1226 ; :text "When his father saw him, he cried out in horror"^^xsd:string .
-:TV_Line_1227_en a :TranslationVariant ; :relatedTo :Line_1227 ; :text "And rushed in, and wailing aloud he shouted:"^^xsd:string .
-:TV_Line_1228_en a :TranslationVariant ; :relatedTo :Line_1228 ; :text "“O wretched boy, what have you done?"^^xsd:string .
-:TV_Line_1229_en a :TranslationVariant ; :relatedTo :Line_1229 ; :text "What were you thinking? What misfortune destroyed you?"^^xsd:string .
-:TV_Line_1230_en a :TranslationVariant ; :relatedTo :Line_1230 ; :text "Come on out, child, please—I beg you!”"^^xsd:string .
-:TV_Line_1231_en a :TranslationVariant ; :relatedTo :Line_1231 ; :text "The boy glared at him with fierce eyes,"^^xsd:string .
-:TV_Line_1232_en a :TranslationVariant ; :relatedTo :Line_1232 ; :text "Spat on his face, and said nothing. He drew"^^xsd:string .
-:TV_Line_1233_en a :TranslationVariant ; :relatedTo :Line_1233 ; :text "His double-edged sword. In a fit of rage"^^xsd:string .
-:TV_Line_1234_en a :TranslationVariant ; :relatedTo :Line_1234 ; :text "He swung and missed his fleeing father, and then"^^xsd:string .
-:TV_Line_1235_en a :TranslationVariant ; :relatedTo :Line_1235 ; :text "That poor boy drove the sword between his ribs,"^^xsd:string .
-:TV_Line_1236_en a :TranslationVariant ; :relatedTo :Line_1236 ; :text "And sunk it half its length into his side."^^xsd:string .
-:TV_Line_1237_en a :TranslationVariant ; :relatedTo :Line_1237 ; :text "While he still had some sense, he embraced the maiden."^^xsd:string .
-:TV_Line_1238_en a :TranslationVariant ; :relatedTo :Line_1238 ; :text "Gasping for air, he sent a swift river of blood"^^xsd:string .
-:TV_Line_1239_en a :TranslationVariant ; :relatedTo :Line_1239 ; :text "Dripping down the maiden’s cheek."^^xsd:string .
-:TV_Line_1240_en a :TranslationVariant ; :relatedTo :Line_1240 ; :text "Corpse lay by corpse, and that poor boy"^^xsd:string .
-:TV_Line_1241_en a :TranslationVariant ; :relatedTo :Line_1241 ; :text "Finally got his marriage rites in the house of Hades,"^^xsd:string .
-:TV_Line_1242_en a :TranslationVariant ; :relatedTo :Line_1242 ; :text "And showed all mankind that"^^xsd:string .
-:TV_Line_1243_en a :TranslationVariant ; :relatedTo :Line_1243 ; :text "The greatest sin is foolishness."^^xsd:string .
-
-
-################################################################
-# MODERN GREEK TRANSLATION VARIANTS (Lines 1183 - 1243)
-################################################################
-
-:TV_Line_1183_Gr a :TranslationVariant ; :relatedTo :Line_1183 ; :text "Ποια συμφορά έπεσε πάλι πάνω μας, πολίτες;"^^xsd:string .
-:TV_Line_1184_Gr a :TranslationVariant ; :relatedTo :Line_1184 ; :text "Έβγαινα για να προσευχηθώ"^^xsd:string .
-:TV_Line_1185_Gr a :TranslationVariant ; :relatedTo :Line_1185 ; :text "στην Παλλάδα κι όπως έκανα ν’ ανοίξω"^^xsd:string .
-:TV_Line_1186_Gr a :TranslationVariant ; :relatedTo :Line_1186 ; :text "την πόρτα, σαν να χτύπησε το σπίτι κεραυνός."^^xsd:string .
-:TV_Line_1187_Gr a :TranslationVariant ; :relatedTo :Line_1187 ; :text "Τρόμαξα· αν δεν ήταν"^^xsd:string .
-:TV_Line_1188_Gr a :TranslationVariant ; :relatedTo :Line_1188 ; :text "πίσω μου οι δούλες, θα σωριαζόμουν."^^xsd:string .
-:TV_Line_1189_Gr a :TranslationVariant ; :relatedTo :Line_1189 ; :text "Τι ήταν αυτά που άκουσα;"^^xsd:string .
-:TV_Line_1190_Gr a :TranslationVariant ; :relatedTo :Line_1190 ; :text "Εξηγηθείτε."^^xsd:string .
-:TV_Line_1191_Gr a :TranslationVariant ; :relatedTo :Line_1191 ; :text "Δεν είναι η πρώτη φορά που με χτυπάει συμφορά."^^xsd:string .
-:TV_Line_1192_Gr a :TranslationVariant ; :relatedTo :Line_1192 ; :text "Καλή μου δέσποινα, ήμουν εκεί και θα σου πω τα πράγματα όπως έγιναν."^^xsd:string .
-:TV_Line_1193_Gr a :TranslationVariant ; :relatedTo :Line_1193 ; :text "Δεν θεωρώ σωστό ν’ απαλύνω την αλήθεια."^^xsd:string .
-:TV_Line_1194_Gr a :TranslationVariant ; :relatedTo :Line_1194 ; :text "Δεν είμαι ψεύτης ούτε εσύ μικρό κορίτσι."^^xsd:string .
-:TV_Line_1195_Gr a :TranslationVariant ; :relatedTo :Line_1195 ; :text "Δεν είμαι ψεύτης ούτε εσύ μικρό κορίτσι. Η αλήθεια είναι πάντα η καλύτερη οδός."^^xsd:string .
-:TV_Line_1196_Gr a :TranslationVariant ; :relatedTo :Line_1196 ; :text "εκεί που ήταν πεταμένο ανελέητα το σώμα του Πολυνείκη – σπαραγμένο απ’ τα σκυλιά."^^xsd:string ; :hasTheme :Theme_DivineAppeasement .
-:TV_Line_1197_Gr a :TranslationVariant ; :relatedTo :Line_1197 ; :text "Ακολούθησα τον άντρα σου στην άκρη της πεδιάδας,"^^xsd:string .
-:TV_Line_1198_Gr a :TranslationVariant ; :relatedTo :Line_1198 ; :text "εκεί που έκειτο το σώμα του Πολυνείκη."^^xsd:string .
-:TV_Line_1199_Gr a :TranslationVariant ; :relatedTo :Line_1199 ; :text "Ζητήσαμε συγχώρεση από την Περσεφόνη"^^xsd:string .
-:TV_Line_1200_Gr a :TranslationVariant ; :relatedTo :Line_1200 ; :text "και τον Πλούτωνα· εξαγνίσαμε το πτώμα με καθαρό νερό,"^^xsd:string .
-:TV_Line_1201_Gr a :TranslationVariant ; :relatedTo :Line_1201 ; :text "κόψαμε χλωρά κλαδιά, κάψαμε τις σπαραγμένες σάρκες"^^xsd:string .
-:TV_Line_1202_Gr a :TranslationVariant ; :relatedTo :Line_1202 ; :text "και το σκεπάσαμε με χώμα της πατρίδας,"^^xsd:string .
-:TV_Line_1203_Gr a :TranslationVariant ; :relatedTo :Line_1203 ; :text "ν’ αναπαυθεί επιτέλους."^^xsd:string .
-:TV_Line_1204_Gr a :TranslationVariant ; :relatedTo :Line_1204 ; :text "Ύστερα, ξεκινήσαμε για το υπόγειο μνήμα, τη μόνη νυφική"^^xsd:string .
-:TV_Line_1205_Gr a :TranslationVariant ; :relatedTo :Line_1205 ; :text "κάμαρα που είδε το άτυχο κορίτσι."^^xsd:string .
-:TV_Line_1206_Gr a :TranslationVariant ; :relatedTo :Line_1206 ; :text "Κοντεύαμε, όταν κάποιος"^^xsd:string .
-:TV_Line_1207_Gr a :TranslationVariant ; :relatedTo :Line_1207 ; :text "άκουσε κραυγές κι έτρεξε να το πει"^^xsd:string .
-:TV_Line_1208_Gr a :TranslationVariant ; :relatedTo :Line_1208 ; :text "στον άρχοντα. Στο μεταξύ είχαμε φτάσει"^^xsd:string .
-:TV_Line_1209_Gr a :TranslationVariant ; :relatedTo :Line_1209 ; :text "πολύ κοντά και φάνηκε πως κάποιος"^^xsd:string .
-:TV_Line_1210_Gr a :TranslationVariant ; :relatedTo :Line_1210 ; :text "βογκούσε, στέναζε, έλεγε πράγματα ακατάληπτα."^^xsd:string .
-:TV_Line_1211_Gr a :TranslationVariant ; :relatedTo :Line_1211 ; :text "Τότε ο Κρέων άρχισε να ουρλιάζει:"^^xsd:string .
-:TV_Line_1212_Gr a :TranslationVariant ; :relatedTo :Line_1212 ; :text "«Ανάθεμά με· το ήξερα πως κάτι θα συμβεί!"^^xsd:string .
-:TV_Line_1213_Gr a :TranslationVariant ; :relatedTo :Line_1213 ; :text "Σ’ όλο τον δρόμο μ’ έτρωγε το κακό. Η φωνή"^^xsd:string .
-:TV_Line_1214_Gr a :TranslationVariant ; :relatedTo :Line_1214 ; :text "του παιδιού μου είναι αυτή."^^xsd:string .
-:TV_Line_1215_Gr a :TranslationVariant ; :relatedTo :Line_1215 ; :text "Τρέξτε φρουροί, κοιτάξτε τι γίνεται στον τάφο."^^xsd:string .
-:TV_Line_1216_Gr a :TranslationVariant ; :relatedTo :Line_1216 ; :text "Αν δεν παίζουν μαζί μου οι θεοί, ακούω τον Αίμωνα!"^^xsd:string .
-:TV_Line_1217_Gr a :TranslationVariant ; :relatedTo :Line_1217 ; :text "Τρέξαμε, κατεβήκαμε στην είσοδο... η πόρτα"^^xsd:string .
-:TV_Line_1218_Gr a :TranslationVariant ; :relatedTo :Line_1218 ; :text "ήταν ανοιχτή και μέσα..."^^xsd:string .
-:TV_Line_1219_Gr a :TranslationVariant ; :relatedTo :Line_1219 ; :text "μέσα το κορίτσι κρεμασμένο."^^xsd:string .
-:TV_Line_1220_Gr a :TranslationVariant ; :relatedTo :Line_1220 ; :text "Ο Αίμων την είχε αγκαλιάσει από την μέση"^^xsd:string .
-:TV_Line_1221_Gr a :TranslationVariant ; :relatedTo :Line_1221 ; :text "μέσα το κορίτσι κρεμασμένο. Είχε κάνει την ζώνη του πέπλου της θηλιά."^^xsd:string .
-:TV_Line_1222_Gr a :TranslationVariant ; :relatedTo :Line_1222 ; :text "που έδωσε ο φονιάς πατέρας του στον Άδη."^^xsd:string .
-:TV_Line_1223_Gr a :TranslationVariant ; :relatedTo :Line_1223 ; :text "Μόλις αντίκρισε το θέαμα ο Κρέων,"^^xsd:string .
-:TV_Line_1224_Gr a :TranslationVariant ; :relatedTo :Line_1224 ; :text "ξέσπασε σε λυγμούς. Μπήκε μέσα,"^^xsd:string .
-:TV_Line_1225_Gr a :TranslationVariant ; :relatedTo :Line_1225 ; :text "πήγε κοντά στο γιο του και κλαίγοντας σπαρακτικά,"^^xsd:string .
-:TV_Line_1226_Gr a :TranslationVariant ; :relatedTo :Line_1226 ; :text "«Τι κάνεις, δύστυχε», του έλεγε. «Τι έχεις στο μυαλό σου;"^^xsd:string .
-:TV_Line_1227_Gr a :TranslationVariant ; :relatedTo :Line_1227 ; :text "Σε τρέλανε η συμφορά; Βγες έξω,"^^xsd:string .
-:TV_Line_1228_Gr a :TranslationVariant ; :relatedTo :Line_1228 ; :text "παιδί μου, σε εκλιπαρώ!» Όμως εκείνος"^^xsd:string .
-:TV_Line_1229_Gr a :TranslationVariant ; :relatedTo :Line_1229 ; :text "τον κοίταξε άγρια, τον έφτυσε και δίχως ν’ απαντήσει"^^xsd:string .
-:TV_Line_1230_Gr a :TranslationVariant ; :relatedTo :Line_1230 ; :text "τράβηξε το σπαθί του."^^xsd:string .
-:TV_Line_1231_Gr a :TranslationVariant ; :relatedTo :Line_1231 ; :text "Τρόμαξε ο πατέρας, έκανε πίσω,"^^xsd:string .
-:TV_Line_1232_Gr a :TranslationVariant ; :relatedTo :Line_1232 ; :text "απέφυγε το χτύπημα κι έτρεξε αμέσως έξω."^^xsd:string .
-:TV_Line_1233_Gr a :TranslationVariant ; :relatedTo :Line_1233 ; :text "Τότε το δύστυχο παιδί, έξαλλο από θυμό,"^^xsd:string .
-:TV_Line_1234_Gr a :TranslationVariant ; :relatedTo :Line_1234 ; :text "έστρεψε την λεπίδα"^^xsd:string .
-:TV_Line_1235_Gr a :TranslationVariant ; :relatedTo :Line_1235 ; :text "έστρεψε την λεπίδα στον εαυτό του και την έμπηξε στα σπλάχνα του."^^xsd:string ; :relatedTo :HaemonDecision_Suicide .
-:TV_Line_1236_Gr a :TranslationVariant ; :relatedTo :Line_1236 ; :text "στα σπλάχνα του. Δεν έσβησε αμέσως."^^xsd:string .
-:TV_Line_1237_Gr a :TranslationVariant ; :relatedTo :Line_1237 ; :text "Αγκάλιασε αδύναμα την άψυχη παρθένα,"^^xsd:string .
-:TV_Line_1238_Gr a :TranslationVariant ; :relatedTo :Line_1238 ; :text "ράντισε την κάτασπρη αγκαλιά"^^xsd:string .
-:TV_Line_1239_Gr a :TranslationVariant ; :relatedTo :Line_1239 ; :text "με το αίμα του κι απόμεινε έτσι εκεί:"^^xsd:string .
-:TV_Line_1240_Gr a :TranslationVariant ; :relatedTo :Line_1240 ; :text "νεκρός, πλάι στο νεκρό"^^xsd:string .
-:TV_Line_1241_Gr a :TranslationVariant ; :relatedTo :Line_1241 ; :text "κορίτσι που παντρεύτηκε στου Άδη τα παλάτια,"^^xsd:string .
-:TV_Line_1242_Gr a :TranslationVariant ; :relatedTo :Line_1242 ; :text "να λέει και να ξαναλέει βουβά..."^^xsd:string .
-:TV_Line_1243_Gr a :TranslationVariant ; :relatedTo :Line_1243 ; :text "Μα, δεν υπάρχει βαθύτερος γκρεμός απ’ την ανθρώπινη ανοησία!"^^xsd:string ; :hasTheme :Theme_HumanFolly .
-
-
-################################################################
-# ANCIENT GREEK VARIANTS (Lines 1183 - 1243)
-################################################################
-
-:TV_Line_1183_grc a :TranslationVariant ; :relatedTo :Line_1183 ; :text "Ὦ πάντες ἀστοί, τῶν λόγων ἐπῃσθόμην"^^xsd:string .
-:TV_Line_1184_grc a :TranslationVariant ; :relatedTo :Line_1184 ; :text "πρὸς ἔξοδον στείχουσα, Παλλάδος θεᾶς"^^xsd:string .
-:TV_Line_1185_grc a :TranslationVariant ; :relatedTo :Line_1185 ; :text "ὅπως ἱκοίμην εὐγμάτων προσήγορος."^^xsd:string .
-:TV_Line_1186_grc a :TranslationVariant ; :relatedTo :Line_1186 ; :text "Καὶ τυγχάνω τε κλῇθρ ̓ ἀνασπαστοῦ πύλης"^^xsd:string .
-:TV_Line_1187_grc a :TranslationVariant ; :relatedTo :Line_1187 ; :text "χαλῶσα, καί με φθόγγος οἰκείου κακοῦ"^^xsd:string .
-:TV_Line_1188_grc a :TranslationVariant ; :relatedTo :Line_1188 ; :text "βάλλει δι ̓ ὤτων· ὑπτία δὲ κλίνομαι"^^xsd:string .
-:TV_Line_1189_grc a :TranslationVariant ; :relatedTo :Line_1189 ; :text "δείσασα πρὸς δμωαῖσι κἀποπλήσσομαι."^^xsd:string .
-:TV_Line_1190_grc a :TranslationVariant ; :relatedTo :Line_1190 ; :text "Ἀλλ ̓ ὅστις ἦν ὁ μῦθος αὖθις εἴπατε·"^^xsd:string .
-:TV_Line_1191_grc a :TranslationVariant ; :relatedTo :Line_1191 ; :text "κακῶν γὰρ οὐκ ἄπειρος οὖσ ̓ ἀκούσομαι."^^xsd:string .
-:TV_Line_1192_grc a :TranslationVariant ; :relatedTo :Line_1192 ; :text "ΑΓ. Ἐγώ, φίλη δέσποινα, καὶ παρὼν ἐρῶ,"^^xsd:string .
-:TV_Line_1193_grc a :TranslationVariant ; :relatedTo :Line_1193 ; :text "κοὐδὲν παρήσω τῆς ἀληθείας ἔπος·"^^xsd:string .
-:TV_Line_1194_grc a :TranslationVariant ; :relatedTo :Line_1194 ; :text "τί γάρ σε μαλθάσσοιμ ̓ ἂν ὧν ἐς ὕστερον"^^xsd:string .
-:TV_Line_1195_grc a :TranslationVariant ; :relatedTo :Line_1195 ; :text "ψεῦσται φανούμεθ ̓; ὀρθὸν ἁλήθει ̓ ἀεί."^^xsd:string .
-:TV_Line_1196_grc a :TranslationVariant ; :relatedTo :Line_1196 ; :text "Ἐγὼ δὲ σῷ ποδαγὸς ἑσπόμην πόσει"^^xsd:string .
-:TV_Line_1197_grc a :TranslationVariant ; :relatedTo :Line_1197 ; :text "πεδίον ἐπ ̓ ἄκρον, ἔνθ ̓ ἔκειτο νηλεὲς"^^xsd:string .
-:TV_Line_1198_grc a :TranslationVariant ; :relatedTo :Line_1198 ; :text "κυνοσπάρακτον σῶμα Πολυνείκους ἔτι·"^^xsd:string .
-:TV_Line_1199_grc a :TranslationVariant ; :relatedTo :Line_1199 ; :text "καὶ τὸν μέν, αἰτήσαντες ἐνοδίαν θεὸν"^^xsd:string .
-:TV_Line_1200_grc a :TranslationVariant ; :relatedTo :Line_1200 ; :text "Πλούτωνά τ ̓ ὀργὰς εὐμενεῖς κατασχεθεῖν,"^^xsd:string .
-:TV_Line_1201_grc a :TranslationVariant ; :relatedTo :Line_1201 ; :text "λούσαντες ἁγνὸν λουτρόν, ἐν νεοσπάσιν"^^xsd:string .
-:TV_Line_1202_grc a :TranslationVariant ; :relatedTo :Line_1202 ; :text "θαλλοῖς ὃ δὴ λέλειπτο συγκατῄθομεν,"^^xsd:string .
-:TV_Line_1203_grc a :TranslationVariant ; :relatedTo :Line_1203 ; :text "καὶ τύμβον ὀρθόκρανον οἰκείας χθονὸς"^^xsd:string .
-:TV_Line_1204_grc a :TranslationVariant ; :relatedTo :Line_1204 ; :text "χώσαντες αὖθις πρὸς λιθόστρωτον κόρης"^^xsd:string .
-:TV_Line_1205_grc a :TranslationVariant ; :relatedTo :Line_1205 ; :text "νυμφεῖον Ἅιδου κοῖλον εἰσεβαίνομεν."^^xsd:string .
-:TV_Line_1206_grc a :TranslationVariant ; :relatedTo :Line_1206 ; :text "Φωνῆς δ ̓ ἄπωθεν ὀρθίων κωκυμάτων"^^xsd:string .
-:TV_Line_1207_grc a :TranslationVariant ; :relatedTo :Line_1207 ; :text "κλύει τις ἀκτέριστον ἀμφὶ παστάδα,"^^xsd:string .
-:TV_Line_1208_grc a :TranslationVariant ; :relatedTo :Line_1208 ; :text "καὶ δεσπότῃ Κρέοντι σημαίνει μολών·"^^xsd:string .
-:TV_Line_1209_grc a :TranslationVariant ; :relatedTo :Line_1209 ; :text "τῷ δ ̓ ἀθλίας ἄσημα περιβαίνει βοῆς"^^xsd:string .
-:TV_Line_1210_grc a :TranslationVariant ; :relatedTo :Line_1210 ; :text "ἕρποντι μᾶλλον ἆσσον, οἰμώξας δ ̓ ἔπος"^^xsd:string .
-:TV_Line_1211_grc a :TranslationVariant ; :relatedTo :Line_1211 ; :text "ἵησι δυσθρήνητον· Ὢ τάλας ἐγώ,"^^xsd:string .
-:TV_Line_1212_grc a :TranslationVariant ; :relatedTo :Line_1212 ; :text "ἆρ ̓ εἰμὶ μάντις; ἆρα δυστυχεστάτην"^^xsd:string .
-:TV_Line_1213_grc a :TranslationVariant ; :relatedTo :Line_1213 ; :text "κέλευθον ἕρπω τῶν παρελθουσῶν ὁδῶν;"^^xsd:string .
-:TV_Line_1214_grc a :TranslationVariant ; :relatedTo :Line_1214 ; :text "παιδός με σαίνει φθόγγος. Ἀλλά, πρόσπολοι,"^^xsd:string .
-:TV_Line_1215_grc a :TranslationVariant ; :relatedTo :Line_1215 ; :text "ἴτ ̓ ἆσσον ὠκεῖς, καὶ παραστάντες τάφῳ"^^xsd:string .
-:TV_Line_1216_grc a :TranslationVariant ; :relatedTo :Line_1216 ; :text "ἀθρήσαθ ̓, ἁρμὸν χώματος λιθοσπαδῆ"^^xsd:string .
-:TV_Line_1217_grc a :TranslationVariant ; :relatedTo :Line_1217 ; :text "δύντες πρὸς αὐτὸ στόμιον, εἰ τὸν Αἵμονος"^^xsd:string .
-:TV_Line_1218_grc a :TranslationVariant ; :relatedTo :Line_1218 ; :text "φθόγγον συνίημ ̓, ἢ θεοῖσι κλέπτομαι."^^xsd:string .
-:TV_Line_1219_grc a :TranslationVariant ; :relatedTo :Line_1219 ; :text "Τάδ ̓ ἐξ ἀθύμου δεσπότου κελευσμάτων"^^xsd:string .
-:TV_Line_1220_grc a :TranslationVariant ; :relatedTo :Line_1220 ; :text "ἠθροῦμεν· ἐν δὲ λοισθίῳ τυμβεύματι"^^xsd:string .
-:TV_Line_1221_grc a :TranslationVariant ; :relatedTo :Line_1221 ; :text "τὴν μὲν κρεμαστὴν αὐχένος κατείδομεν,"^^xsd:string .
-:TV_Line_1222_grc a :TranslationVariant ; :relatedTo :Line_1222 ; :text "βρόχῳ μιτώδει σινδόνος καθημμένην,"^^xsd:string .
-:TV_Line_1223_grc a :TranslationVariant ; :relatedTo :Line_1223 ; :text "τὸν δ ̓ ἀμφὶ μέσσῃ περιπετῆ προσκείμενον,"^^xsd:string .
-:TV_Line_1224_grc a :TranslationVariant ; :relatedTo :Line_1224 ; :text "εὐνῆς ἀποιμώζοντα τῆς κάτω φθορὰν"^^xsd:string .
-:TV_Line_1225_grc a :TranslationVariant ; :relatedTo :Line_1225 ; :text "καὶ πατρὸς ἔργα καὶ τὸ δύστηνον λέχος."^^xsd:string .
-:TV_Line_1226_grc a :TranslationVariant ; :relatedTo :Line_1226 ; :text "Ὁ δ ̓ ὡς ὁρᾷ σφε, στυγνὸν οἰμώξας ἔσω"^^xsd:string .
-:TV_Line_1227_grc a :TranslationVariant ; :relatedTo :Line_1227 ; :text "χωρεῖ πρὸς αὐτὸν κἀνακωκύσας καλεῖ·"^^xsd:string .
-:TV_Line_1228_grc a :TranslationVariant ; :relatedTo :Line_1228 ; :text "Ὦ τλῆμον, οἷον ἔργον εἴργασαι· τίνα"^^xsd:string .
-:TV_Line_1229_grc a :TranslationVariant ; :relatedTo :Line_1229 ; :text "νοῦν ἔσχες; ἐν τῷ συμφορᾶς διεφθάρης;"^^xsd:string .
-:TV_Line_1230_grc a :TranslationVariant ; :relatedTo :Line_1230 ; :text "Ἔξελθε, τέκνον, ἱκέσιός σε λίσσομαι."^^xsd:string .
-:TV_Line_1231_grc a :TranslationVariant ; :relatedTo :Line_1231 ; :text "Τὸν δ ̓ ἀγρίοις ὄσσοισι παπτήνας ὁ παῖς,"^^xsd:string .
-:TV_Line_1232_grc a :TranslationVariant ; :relatedTo :Line_1232 ; :text "πτύσας προσώπῳ κοὐδὲν ἀντειπών, ξίφους"^^xsd:string .
-:TV_Line_1233_grc a :TranslationVariant ; :relatedTo :Line_1233 ; :text "ἕλκει διπλοῦς κνώδοντας, ἐκ δ ̓ ὁρμωμένου"^^xsd:string .
-:TV_Line_1234_grc a :TranslationVariant ; :relatedTo :Line_1234 ; :text "πατρὸς φυγαῖσιν ἤμπλακ ̓· εἶθ ̓ ὁ δύσμορος"^^xsd:string .
-:TV_Line_1235_grc a :TranslationVariant ; :relatedTo :Line_1235 ; :text "αὑτῷ χολωθείς, ὥσπερ εἶχ ̓, ἐπενταθεὶς"^^xsd:string .
-:TV_Line_1236_grc a :TranslationVariant ; :relatedTo :Line_1236 ; :text "ἤρεισε πλευραῖς μέσσον ἔγχος, ἐς δ ̓ ὑγρὸν"^^xsd:string .
-:TV_Line_1237_grc a :TranslationVariant ; :relatedTo :Line_1237 ; :text "ἀγκῶν ̓ ἔτ ̓ ἔμφρων παρθένῳ προσπτύσσεται·"^^xsd:string .
-:TV_Line_1238_grc a :TranslationVariant ; :relatedTo :Line_1238 ; :text "καὶ φυσιῶν ὀξεῖαν ἐκβάλλει ῥοὴν"^^xsd:string .
-:TV_Line_1239_grc a :TranslationVariant ; :relatedTo :Line_1239 ; :text "λευκῇ παρειᾷ φοινίου σταλάγματος."^^xsd:string .
-:TV_Line_1240_grc a :TranslationVariant ; :relatedTo :Line_1240 ; :text "Κεῖται δὲ νεκρὸς περὶ νεκρῷ, τὰ νυμφικὰ"^^xsd:string .
-:TV_Line_1241_grc a :TranslationVariant ; :relatedTo :Line_1241 ; :text "τέλη λαχὼν δείλαιος εἰν Ἅιδου δόμοις,"^^xsd:string .
-:TV_Line_1242_grc a :TranslationVariant ; :relatedTo :Line_1242 ; :text "δείξας ἐν ἀνθρώποισι τὴν ἀβουλίαν"^^xsd:string .
-:TV_Line_1243_grc a :TranslationVariant ; :relatedTo :Line_1243 ; :text "ὅσῳ μέγιστον ἀνδρὶ πρόσκειται κακόν."^^xsd:string .
+:TV_Line_1197_en a :TranslationVariant ; :relatedTo :Line_1197 ; :text "To the farthest part of the plain, where still lay"^^xsd:string .
+:TV_Line_1198_en a :TranslationVariant ; :relatedTo :Line_1198 ; :text "The pitiless, dog-torn body of Polyneices;"^^xsd:string .
+:TV_Line_1199_en a :TranslationVariant ; :relatedTo :Line_1199 ; :text "And first, having prayed to the goddess of the road"^^xsd:string .
+:TV_Line_1200_en a :TranslationVariant ; :relatedTo :Line_1200 ; :text "And to Pluto to restrain their anger in mercy,"^^xsd:string .
+:TV_Line_1201_en a :TranslationVariant ; :relatedTo :Line_1201 ; :text "We washed him with pure water, and with freshly cut"^^xsd:string .
+:TV_Line_1202_en a :TranslationVariant ; :relatedTo :Line_1202 ; :text "Branches we burned what remained of him,"^^xsd:string .
+:TV_Line_1203_en a :TranslationVariant ; :relatedTo :Line_1203 ; :text "And piled up a steep-standing mound of his native earth;"^^xsd:string .
+:TV_Line_1204_en a :TranslationVariant ; :relatedTo :Line_1204 ; :text "Then we went back again toward the stone-strewn chamber"^^xsd:string .
+:TV_Line_1205_en a :TranslationVariant ; :relatedTo :Line_1205 ; :text "Of the girl, the hollow bridal room of Hades."^^xsd:string .
+:TV_Line_1206_en a :TranslationVariant ; :relatedTo :Line_1206 ; :text "And someone heard from far away the piercing sound of lamentation"^^xsd:string .
+:TV_Line_1207_en a :TranslationVariant ; :relatedTo :Line_1207 ; :text "About the unburied bridal chamber,"^^xsd:string .
+:TV_Line_1208_en a :TranslationVariant ; :relatedTo :Line_1208 ; :text "And coming near, reported it to Creon our master;"^^xsd:string .
+:TV_Line_1209_en a :TranslationVariant ; :relatedTo :Line_1209 ; :text "And as he drew nearer, the indistinct sound of the cry"^^xsd:string .
+:TV_Line_1210_en a :TranslationVariant ; :relatedTo :Line_1210 ; :text "Came clearer around him; and groaning aloud he cried"^^xsd:string .
+:TV_Line_1211_en a :TranslationVariant ; :relatedTo :Line_1211 ; :text "A lamentable word: “O wretched man that I am,"^^xsd:string .
+:TV_Line_1212_en a :TranslationVariant ; :relatedTo :Line_1212 ; :text "Am I a prophet? Am I treading"^^xsd:string .
+:TV_Line_1213_en a :TranslationVariant ; :relatedTo :Line_1213 ; :text "The most disastrous road of all I have traveled?"^^xsd:string .
+:TV_Line_1214_en a :TranslationVariant ; :relatedTo :Line_1214 ; :text "The voice of my son strikes me. But, servants,"^^xsd:string .
+:TV_Line_1215_en a :TranslationVariant ; :relatedTo :Line_1215 ; :text "Go there quickly, and standing by the tomb,"^^xsd:string .
+:TV_Line_1216_en a :TranslationVariant ; :relatedTo :Line_1216 ; :text "Look where the stones have been torn from the seam of the earth"^^xsd:string .
+:TV_Line_1217_en a :TranslationVariant ; :relatedTo :Line_1217 ; :text "And peering right to the mouth of it, see whether"^^xsd:string .
+:TV_Line_1218_en a :TranslationVariant ; :relatedTo :Line_1218 ; :text "I truly hear Haemon’s voice, or whether the gods deceive me.”"^^xsd:string .
+:TV_Line_1219_en a :TranslationVariant ; :relatedTo :Line_1219 ; :text "At these commands of our grief-stricken master"^^xsd:string .
+:TV_Line_1220_en a :TranslationVariant ; :relatedTo :Line_1220 ; :text "We looked; and in the innermost part of the tomb"^^xsd:string .
+:TV_Line_1221_en a :TranslationVariant ; :relatedTo :Line_1221 ; :text "We saw her hanging by the neck,"^^xsd:string .
+:TV_Line_1222_en a :TranslationVariant ; :relatedTo :Line_1222 ; :text "Suspended by a woven noose of fine linen,"^^xsd:string .
+:TV_Line_1223_en a :TranslationVariant ; :relatedTo :Line_1223 ; :text "And him clinging about her waist,"^^xsd:string .
+:TV_Line_1224_en a :TranslationVariant ; :relatedTo :Line_1224 ; :text "Lamenting the loss of his bride below,"^^xsd:string .
+:TV_Line_1225_en a :TranslationVariant ; :relatedTo :Line_1225 ; :text "His father’s deeds, and the wretched marriage-bed."^^xsd:string .
+:TV_Line_1226_en a :TranslationVariant ; :relatedTo :Line_1226 ; :text "And when his father saw him, with a dreadful cry"^^xsd:string .
+:TV_Line_1227_en a :TranslationVariant ; :relatedTo :Line_1227 ; :text "He moved toward him and with a wail called out:"^^xsd:string .
+:TV_Line_1228_en a :TranslationVariant ; :relatedTo :Line_1228 ; :text "“O miserable one, what is this you have done? What"^^xsd:string .
+:TV_Line_1229_en a :TranslationVariant ; :relatedTo :Line_1229 ; :text "Thought possessed you? In what ruin were you destroyed?"^^xsd:string .
+:TV_Line_1230_en a :TranslationVariant ; :relatedTo :Line_1230 ; :text "Come out, child; I beg you as a suppliant!”"^^xsd:string .
+:TV_Line_1231_en a :TranslationVariant ; :relatedTo :Line_1231 ; :text "But the boy, glaring at him with savage eyes,"^^xsd:string .
+:TV_Line_1232_en a :TranslationVariant ; :relatedTo :Line_1232 ; :text "Spat in his face, and without a word replied by drawing"^^xsd:string .
+:TV_Line_1233_en a :TranslationVariant ; :relatedTo :Line_1233 ; :text "His sword with its two-edged teeth; and as his father rushed away,"^^xsd:string .
+:TV_Line_1234_en a :TranslationVariant ; :relatedTo :Line_1234 ; :text "He missed him as he fled; then the unhappy boy,"^^xsd:string .
+:TV_Line_1235_en a :TranslationVariant ; :relatedTo :Line_1235 ; :text "Angry with himself, just as he was, bent upon himself"^^xsd:string .
+:TV_Line_1236_en a :TranslationVariant ; :relatedTo :Line_1236 ; :text "And drove the blade into the middle of his side;"^^xsd:string .
+:TV_Line_1237_en a :TranslationVariant ; :relatedTo :Line_1237 ; :text "And while still conscious, with failing arm, he clasped the maiden,"^^xsd:string .
+:TV_Line_1238_en a :TranslationVariant ; :relatedTo :Line_1238 ; :text "And gasping, sent forth a sharp stream"^^xsd:string .
+:TV_Line_1239_en a :TranslationVariant ; :relatedTo :Line_1239 ; :text "Of bloody drops onto her white cheek."^^xsd:string .
+:TV_Line_1240_en a :TranslationVariant ; :relatedTo :Line_1240 ; :text "He lies dead beside the dead, the poor boy having won"^^xsd:string .
+:TV_Line_1241_en a :TranslationVariant ; :relatedTo :Line_1241 ; :text "His marriage rites at last in the halls of Hades,"^^xsd:string .
+:TV_Line_1242_en a :TranslationVariant ; :relatedTo :Line_1242 ; :text "Showing among mankind how lack of judgment"^^xsd:string .
+:TV_Line_1243_en a :TranslationVariant ; :relatedTo :Line_1243 ; :text "Is the greatest evil that can cling to a man."^^xsd:string .

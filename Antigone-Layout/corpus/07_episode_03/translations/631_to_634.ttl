@@ -4,7 +4,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :TV_Line_631_en a owl:NamedIndividual, :TranslationVariant ;
-    :text "We¢ll soon see more clearly than prophets."^^xsd:string ;
+    :text "Weï¿½ll soon see more clearly than prophets."^^xsd:string ;
     :relatedTo :Line_631 .
 
 :TV_Line_632_en a owl:NamedIndividual, :TranslationVariant ;

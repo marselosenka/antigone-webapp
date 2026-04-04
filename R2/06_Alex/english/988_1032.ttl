@@ -1,0 +1,491 @@
+@prefix : [http://example.org/antigone#](http://example.org/antigone#) .
+@prefix owl: [http://www.w3.org/2002/07/owl#](http://www.w3.org/2002/07/owl#) .
+@prefix rdfs: [http://www.w3.org/2000/01/rdf-schema#](http://www.w3.org/2000/01/rdf-schema#) .
+@prefix xsd: [http://www.w3.org/2001/XMLSchema#](http://www.w3.org/2001/XMLSchema#) .
+
+################################################################
+
+# SCENE AND SPEECH STRUCTURE
+
+################################################################
+
+:Antigone_Scene_Episode5
+a :Scene ;
+:sceneNumber "Episode 5"^^xsd:string ;
+:hasSpeech :Speech_Teiresias_Ep5_Part1, :Speech_Creon_Ep5_Part1, :Speech_Teiresias_Ep5_Part2 ;
+:developsTheme :Theme_BlindnessVsSight, :Theme_CivicPollution, :Theme_DivineSilence, :Theme_WisdomFlexibility ;
+:hasConflict :Conflict_StateVsDivinity .
+
+:Speech_Teiresias_Ep5_Part1
+a :Speech ;
+:speechBy :Antigone_Character_Teiresias ;
+:containsLine :Line_988, :Line_989, :Line_990 .
+
+:Speech_Creon_Ep5_Part1
+a :Speech ;
+:speechBy :Antigone_Character_Creon ;
+:containsLine :Line_991, :Line_992, :Line_993, :Line_994, :Line_995, :Line_996, :Line_997 .
+
+:Speech_Teiresias_Ep5_Part2
+a :Speech ;
+:speechBy :Antigone_Character_Teiresias ;
+:containsLine :Line_998, :Line_999, :Line_1000, :Line_1001, :Line_1002, :Line_1003, :Line_1004, :Line_1005, :Line_1006, :Line_1007, :Line_1008, :Line_1009, :Line_1010, :Line_1011, :Line_1012, :Line_1013, :Line_1014, :Line_1015, :Line_1016, :Line_1017, :Line_1018, :Line_1019, :Line_1020, :Line_1021, :Line_1022, :Line_1023, :Line_1024, :Line_1025, :Line_1026, :Line_1027, :Line_1028, :Line_1029, :Line_1030, :Line_1031, :Line_1032 ;
+:hasMotivation :Motivation_WarnCreon ;
+:containsRhetoricalDevice :Device_Metaphor_RazorEdge .
+
+################################################################
+
+# CHARACTERS
+
+################################################################
+
+:Antigone_Character_Teiresias
+a :Character ;
+:role "Seer/Prophet"^^xsd:string ;
+:status "Priest"^^xsd:string ;
+:hasMotivation :Motivation_WarnCreon, :Motivation_RestoreRitualOrder ;
+:experiencesEmotion :Emotion_PropheticDread ;
+:advocatesFor :Ethical_Amends .
+
+:Antigone_Character_Creon
+a :Character ;
+:role "King of Thebes"^^xsd:string ;
+:hasMotivation :Motivation_HeedProphet ;
+:experiencesEmotion :Emotion_TremblingFear ;
+:makesMoralDecision :Decision_ListenToSeer .
+
+:Antigone_Character_Boy
+a :Character ;
+:role "Guide to Teiresias"^^xsd:string ;
+:description "The eyes for the blind prophet."^^xsd:string .
+
+:Antigone_Character_Hephaestus
+a :Character ;
+:role "God of Fire/Forge"^^xsd:string ;
+:description "Metonymy for the sacrificial fire that failed to ignite."^^xsd:string .
+
+:Antigone_Character_Polyneices
+a :Character ;
+:role "Deceased"^^xsd:string ;
+:description "The unburied corpse causing the pollution."^^xsd:string .
+
+################################################################
+
+# THEMES, MOTIVATIONS, EMOTIONS, CONFLICTS
+
+################################################################
+
+:Theme_BlindnessVsSight
+a :Theme ;
+:description "The paradox where the blind seer sees the truth while the seeing king is blind to reality."^^xsd:string .
+
+:Theme_CivicPollution
+a :Theme ;
+:description "Miasma: The physical and spiritual infection of the city caused by the unburied corpse."^^xsd:string .
+
+:Theme_DivineSilence
+a :Theme ;
+:description "The gods refusing to accept sacrifices or give clear signs, indicating their displeasure."^^xsd:string .
+
+:Theme_WisdomFlexibility
+a :Theme ;
+:description "The idea that wisdom (phronesis) involves admitting mistakes and changing course, not obstinacy."^^xsd:string .
+
+:Motivation_WarnCreon
+a :Motivation ;
+:description "Teiresias intends to save Creon and the city from impending doom revealed by omens."^^xsd:string .
+
+:Motivation_HeedProphet
+a :Motivation ;
+:description "Creon's initial willingness to listen to Teiresias due to past benefits."^^xsd:string .
+
+:Motivation_RestoreRitualOrder
+a :Motivation ;
+:description "Teiresias seeks to re-establish communication with the gods by removing the source of pollution."^^xsd:string .
+
+:Emotion_TremblingFear
+a :Emotion ;
+:description "Creon's physical reaction (trembling) to the warning of being on 'fate's razor edge'."^^xsd:string .
+
+:Emotion_PropheticDread
+a :Emotion ;
+:description "Teiresias's fear upon witnessing the chaotic, barbarous bird signs and failed sacrifice."^^xsd:string .
+
+:Conflict_StateVsDivinity
+a :Conflict ;
+:description "The clash between Creon's political edict (unburied traitor) and the divine requirement for ritual purity."^^xsd:string ;
+:conflictBetween :Antigone_Character_Creon, :Law_DivineRitual .
+
+:Law_DivineRitual
+a :Law ;
+:description "The requirement that altars remain pure and dead bodies be buried."^^xsd:string .
+
+:Ethical_Amends
+a :EthicalPrinciple ;
+:description "The principle that error is common to all men, but virtue lies in correcting it rather than remaining stubborn."^^xsd:string .
+
+:Symbol_FightingBirds
+a :Symbol ;
+:description "Birds tearing at each other with unintelligible shrieks, symbolizing civil strife and the breakdown of order."^^xsd:string .
+
+:Symbol_FailedSacrifice
+a :Symbol ;
+:description "The fire failing to catch and the fat melting into the ashes, symbolizing the gods' rejection of Thebes."^^xsd:string .
+
+:Device_Metaphor_RazorEdge
+a :RhetoricalDevice ;
+:deviceType "Metaphor"^^xsd:string ;
+:description "Comparing the critical moment of decision to walking on the edge of a razor."^^xsd:string .
+
+################################################################
+
+# CAUSAL RELATIONS
+
+################################################################
+
+:Causal_Omens
+a owl:Thing ;
+:description "The chaotic bird signs and failed fire caused Teiresias to realize the gods are angry."^^xsd:string ;
+:relatedTo :Emotion_PropheticDread .
+
+:Causal_Pollution
+a owl:Thing ;
+:description "Polyneices' unburied body -> Carrion birds/dogs carry flesh to altars -> Altars polluted -> Gods reject prayers."^^xsd:string ;
+:relatedTo :Antigone_Character_Polyneices, :Theme_CivicPollution .
+
+:Decision_ListenToSeer
+a :MoralDecision ;
+:description "Creon asks what the news is, deciding (initially) to hear the prophet out."^^xsd:string .
+
+################################################################
+
+# CANONICAL LINES & TRANSLATION VARIANTS
+
+################################################################
+
+# --- 988 ---
+
+:Line_988 a :Line ; :lineNumber 988 ; :canonicalReference "988" .
+:TV_Line_988_en a :TranslationVariant ;
+:text "Lords of Thebes, we have come by a shared journey,"^^xsd:string ;
+:relatedTo :Line_988 .
+
+# --- 989 ---
+
+:Line_989 a :Line ; :lineNumber 989 ; :canonicalReference "989" .
+:TV_Line_989_en a :TranslationVariant ;
+:text "Two seeing from the eyes of one: indeed, for the blind,"^^xsd:string ;
+:relatedTo :Line_989 ;
+:hasTheme :Theme_BlindnessVsSight .
+
+# --- 990 ---
+
+:Line_990 a :Line ; :lineNumber 990 ; :canonicalReference "990" .
+:TV_Line_990_en a :TranslationVariant ;
+:text "This is life—living by the hand of a guide."^^xsd:string ;
+:relatedTo :Line_990 .
+
+# --- 991 ---
+
+:Line_991 a :Line ; :lineNumber 991 ; :canonicalReference "991" .
+:TV_Line_991_en a :TranslationVariant ;
+:text "What is it, elder Teiresias? What news do you bring?"^^xsd:string ;
+:relatedTo :Line_991 .
+
+# --- 992 ---
+
+:Line_992 a :Line ; :lineNumber 992 ; :canonicalReference "992" .
+:TV_Line_992_en a :TranslationVariant ;
+:text "I will explain. Now, obey the prophet."^^xsd:string ;
+:relatedTo :Line_992 .
+
+# --- 993 ---
+
+:Line_993 a :Line ; :lineNumber 993 ; :canonicalReference "993" .
+:TV_Line_993_en a :TranslationVariant ;
+:text "I would not stray from your wisdom at a time like the present."^^xsd:string ;
+:relatedTo :Line_993 ;
+:hasMotivation :Motivation_HeedProphet .
+
+# --- 994 ---
+
+:Line_994 a :Line ; :lineNumber 994 ; :canonicalReference "994" .
+:TV_Line_994_en a :TranslationVariant ;
+:text "And in so doing you’ve brought greatness to the city."^^xsd:string ;
+:relatedTo :Line_994 .
+
+# --- 995 ---
+
+:Line_995 a :Line ; :lineNumber 995 ; :canonicalReference "995" .
+:TV_Line_995_en a :TranslationVariant ;
+:text "Yes, I am a witness to your benefits."^^xsd:string ;
+:relatedTo :Line_995 .
+
+# --- 996 ---
+
+:Line_996 a :Line ; :lineNumber 996 ; :canonicalReference "996" .
+:TV_Line_996_en a :TranslationVariant ;
+:text "Be wary; you are treading once again on fate’s razor edge."^^xsd:string ;
+:relatedTo :Line_996 ;
+:containsRhetoricalDevice :Device_Metaphor_RazorEdge .
+
+# --- 997 ---
+
+:Line_997 a :Line ; :lineNumber 997 ; :canonicalReference "997" .
+:TV_Line_997_en a :TranslationVariant ;
+:text "What do you mean? Your voice is making me tremble."^^xsd:string ;
+:relatedTo :Line_997 ;
+:experiencesEmotion :Emotion_TremblingFear .
+
+# --- 998 ---
+
+:Line_998 a :Line ; :lineNumber 998 ; :canonicalReference "998" .
+:TV_Line_998_en a :TranslationVariant ;
+:text "You will come to know as you learn the signs I have seen:"^^xsd:string ;
+:relatedTo :Line_998 .
+
+# --- 999 ---
+
+:Line_999 a :Line ; :lineNumber 999 ; :canonicalReference "999" .
+:TV_Line_999_en a :TranslationVariant ;
+:text "For as I was sitting in my old augur’s seat,"^^xsd:string ;
+:relatedTo :Line_999 .
+
+# --- 1000 ---
+
+:Line_1000 a :Line ; :lineNumber 1000 ; :canonicalReference "1000" .
+:TV_Line_1000_en a :TranslationVariant ;
+:text "A spot for the birds to gather ‘round me,"^^xsd:string ;
+:relatedTo :Line_1000 .
+
+# --- 1001 ---
+
+:Line_1001 a :Line ; :lineNumber 1001 ; :canonicalReference "1001" .
+:TV_Line_1001_en a :TranslationVariant ;
+:text "I heard an unintelligible voice come from them,"^^xsd:string ;
+:relatedTo :Line_1001 ;
+:hasSymbol :Symbol_FightingBirds .
+
+# --- 1002 ---
+
+:Line_1002 a :Line ; :lineNumber 1002 ; :canonicalReference "1002" .
+:TV_Line_1002_en a :TranslationVariant ;
+:text "Shrieking with a base and barbarous frenzy."^^xsd:string ;
+:relatedTo :Line_1002 .
+
+# --- 1003 ---
+
+:Line_1003 a :Line ; :lineNumber 1003 ; :canonicalReference "1003" .
+:TV_Line_1003_en a :TranslationVariant ;
+:text "I realized that they were tearing at one another"^^xsd:string ;
+:relatedTo :Line_1003 .
+
+# --- 1004 ---
+
+:Line_1004 a :Line ; :lineNumber 1004 ; :canonicalReference "1004" .
+:TV_Line_1004_en a :TranslationVariant ;
+:text "With their talons in slaughter: but the beating"^^xsd:string ;
+:relatedTo :Line_1004 .
+
+# --- 1005 ---
+
+:Line_1005 a :Line ; :lineNumber 1005 ; :canonicalReference "1005" .
+:TV_Line_1005_en a :TranslationVariant ;
+:text "Of their wings was not meaningless."^^xsd:string ;
+:relatedTo :Line_1005 .
+
+# --- 1006 ---
+
+:Line_1006 a :Line ; :lineNumber 1006 ; :canonicalReference "1006" .
+:TV_Line_1006_en a :TranslationVariant ;
+:text "In fear, I immediately tried lighting a fire on my fully-kindled altar:"^^xsd:string ;
+:relatedTo :Line_1006 ;
+:experiencesEmotion :Emotion_PropheticDread .
+
+# --- 1007 ---
+
+:Line_1007 a :Line ; :lineNumber 1007 ; :canonicalReference "1007" .
+:TV_Line_1007_en a :TranslationVariant ;
+:text "But from my sacrifices Hephaestus, god of fire did not rise!"^^xsd:string ;
+:relatedTo :Line_1007 ;
+:hasSymbol :Symbol_FailedSacrifice .
+
+# --- 1008 ---
+
+:Line_1008 a :Line ; :lineNumber 1008 ; :canonicalReference "1008" .
+:TV_Line_1008_en a :TranslationVariant ;
+:text "Rather, the dripping sacrificial juices of thigh fat melted"^^xsd:string ;
+:relatedTo :Line_1008 .
+
+# --- 1009 ---
+
+:Line_1009 a :Line ; :lineNumber 1009 ; :canonicalReference "1009" .
+:TV_Line_1009_en a :TranslationVariant ;
+:text "Onto the embers, raising smoke and sputtering."^^xsd:string ;
+:relatedTo :Line_1009 .
+
+# --- 1010 ---
+
+:Line_1010 a :Line ; :lineNumber 1010 ; :canonicalReference "1010" .
+:TV_Line_1010_en a :TranslationVariant ;
+:text "And bile was scattered high into the air"^^xsd:string ;
+:relatedTo :Line_1010 .
+
+# --- 1011 ---
+
+:Line_1011 a :Line ; :lineNumber 1011 ; :canonicalReference "1011" .
+:TV_Line_1011_en a :TranslationVariant ;
+:text "And the thigh meat dripped down, and its coating of fat fell off."^^xsd:string ;
+:relatedTo :Line_1011 .
+
+# --- 1012 ---
+
+:Line_1012 a :Line ; :lineNumber 1012 ; :canonicalReference "1012" .
+:TV_Line_1012_en a :TranslationVariant ;
+:text "I’ve learned of the omens of that"^^xsd:string ;
+:relatedTo :Line_1012 .
+
+# --- 1013 ---
+
+:Line_1013 a :Line ; :lineNumber 1013 ; :canonicalReference "1013" .
+:TV_Line_1013_en a :TranslationVariant ;
+:text "Perplexing sacrifice from this child here,"^^xsd:string ;
+:relatedTo :Line_1013 .
+
+# --- 1014 ---
+
+:Line_1014 a :Line ; :lineNumber 1014 ; :canonicalReference "1014" .
+:TV_Line_1014_en a :TranslationVariant ;
+:text "For he is my guide, just as I am a guide for others."^^xsd:string ;
+:relatedTo :Line_1014 .
+
+# --- 1015 ---
+
+:Line_1015 a :Line ; :lineNumber 1015 ; :canonicalReference "1015" .
+:TV_Line_1015_en a :TranslationVariant ;
+:text "You are the reason your city is filled with plague."^^xsd:string ;
+:relatedTo :Line_1015 ;
+:hasTheme :Theme_CivicPollution .
+
+# --- 1016 ---
+
+:Line_1016 a :Line ; :lineNumber 1016 ; :canonicalReference "1016" .
+:TV_Line_1016_en a :TranslationVariant ;
+:text "For ill-fated Polyneices, son of Oedipus, lies as carrion,"^^xsd:string ;
+:relatedTo :Line_1016 .
+
+# --- 1017 ---
+
+:Line_1017 a :Line ; :lineNumber 1017 ; :canonicalReference "1017" .
+:TV_Line_1017_en a :TranslationVariant ;
+:text "And so all the altars and hearths"^^xsd:string ;
+:relatedTo :Line_1017 .
+
+# --- 1018 ---
+
+:Line_1018 a :Line ; :lineNumber 1018 ; :canonicalReference "1018" .
+:TV_Line_1018_en a :TranslationVariant ;
+:text "Are filled with vultures and hounds."^^xsd:string ;
+:relatedTo :Line_1018 .
+
+# --- 1019 ---
+
+:Line_1019 a :Line ; :lineNumber 1019 ; :canonicalReference "1019" .
+:TV_Line_1019_en a :TranslationVariant ;
+:text "No longer do the gods receive sacrificial prayers"^^xsd:string ;
+:relatedTo :Line_1019 ;
+:hasTheme :Theme_DivineSilence .
+
+# --- 1020 ---
+
+:Line_1020 a :Line ; :lineNumber 1020 ; :canonicalReference "1020" .
+:TV_Line_1020_en a :TranslationVariant ;
+:text "From us, nor do they acknowledge the scented flames of entrails."^^xsd:string ;
+:relatedTo :Line_1020 .
+
+# --- 1021 ---
+
+:Line_1021 a :Line ; :lineNumber 1021 ; :canonicalReference "1021" .
+:TV_Line_1021_en a :TranslationVariant ;
+:text "No longer does the bird shriek auspicious cries"^^xsd:string ;
+:relatedTo :Line_1021 .
+
+# --- 1022 ---
+
+:Line_1022 a :Line ; :lineNumber 1022 ; :canonicalReference "1022" .
+:TV_Line_1022_en a :TranslationVariant ;
+:text "As it is now gorged on the fat of that slain brother."^^xsd:string ;
+:relatedTo :Line_1022 .
+
+# --- 1023 ---
+
+:Line_1023 a :Line ; :lineNumber 1023 ; :canonicalReference "1023" .
+:TV_Line_1023_en a :TranslationVariant ;
+:text "Ponder these things, child!"^^xsd:string ;
+:relatedTo :Line_1023 .
+
+# --- 1024 ---
+
+:Line_1024 a :Line ; :lineNumber 1024 ; :canonicalReference "1024" .
+:TV_Line_1024_en a :TranslationVariant ;
+:text "For all men make mistakes."^^xsd:string ;
+:relatedTo :Line_1024 ;
+:advocatesFor :Ethical_Amends ;
+:hasTheme :Theme_WisdomFlexibility .
+
+# --- 1025 ---
+
+:Line_1025 a :Line ; :lineNumber 1025 ; :canonicalReference "1025" .
+:TV_Line_1025_en a :TranslationVariant ;
+:text "When a man does wrong, if he makes amends"^^xsd:string ;
+:relatedTo :Line_1025 .
+
+# --- 1026 ---
+
+:Line_1026 a :Line ; :lineNumber 1026 ; :canonicalReference "1026" .
+:TV_Line_1026_en a :TranslationVariant ;
+:text "And moves forward after his mistake,"^^xsd:string ;
+:relatedTo :Line_1026 .
+
+# --- 1027 ---
+
+:Line_1027 a :Line ; :lineNumber 1027 ; :canonicalReference "1027" .
+:TV_Line_1027_en a :TranslationVariant ;
+:text "He is no longer unwise or unblessed—"^^xsd:string ;
+:relatedTo :Line_1027 .
+
+# --- 1028 ---
+
+:Line_1028 a :Line ; :lineNumber 1028 ; :canonicalReference "1028" .
+:TV_Line_1028_en a :TranslationVariant ;
+:text "But your stubbornness has made you clumsy!"^^xsd:string ;
+:relatedTo :Line_1028 .
+
+# --- 1029 ---
+
+:Line_1029 a :Line ; :lineNumber 1029 ; :canonicalReference "1029" .
+:TV_Line_1029_en a :TranslationVariant ;
+:text "Let the dead man rest—don’t kick at his corpse."^^xsd:string ;
+:relatedTo :Line_1029 ;
+:advocatesFor :Ethical_Amends .
+
+# --- 1030 ---
+
+:Line_1030 a :Line ; :lineNumber 1030 ; :canonicalReference "1030" .
+:TV_Line_1030_en a :TranslationVariant ;
+:text "What good is there in killing the dead a second time?"^^xsd:string ;
+:relatedTo :Line_1030 .
+
+# --- 1031 ---
+
+:Line_1031 a :Line ; :lineNumber 1031 ; :canonicalReference "1031" .
+:TV_Line_1031_en a :TranslationVariant ;
+:text "I have your best interests in mind, and I speak the truth—"^^xsd:string ;
+:relatedTo :Line_1031 .
+
+# --- 1032 ---
+
+:Line_1032 a :Line ; :lineNumber 1032 ; :canonicalReference "1032" .
+:TV_Line_1032_en a :TranslationVariant ;
+:text "If you hear good advice, the best thing to do is learn from it."^^xsd:string ;
+:relatedTo :Line_1032 .

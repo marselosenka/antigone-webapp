@@ -8,269 +8,132 @@
 ################################################################
 
 :TV_Line_1115_en a :TranslationVariant ;
-    :text "Oh many-named one, glory of Cadmus’ wife"^^xsd:string ;
-    :relatedTo :Line_1115 ;
-    :hasIntertextualReference :Myth_Semele .
+    :text "O many-named one, glory of the Cadmean bride,"^^xsd:string ;
+    :relatedTo :Line_1115 ;
+    :hasIntertextualReference :Myth_Semele .
 
 :TV_Line_1116_en a :TranslationVariant ;
-    :text "And offspring of thundering Zeus,"^^xsd:string ;
-    :relatedTo :Line_1116 .
+    :text "And offspring of loud-thundering Zeus,"^^xsd:string ;
+    :relatedTo :Line_1116 .
 
 :TV_Line_1117_en a :TranslationVariant ;
-    :text "Who protects famous Italy"^^xsd:string ;
-    :relatedTo :Line_1117 .
+    :text "You who watch over famed Italy,"^^xsd:string ;
+    :relatedTo :Line_1117 .
 
 :TV_Line_1118_en a :TranslationVariant ;
-    :text "And rules over all,"^^xsd:string ;
-    :relatedTo :Line_1118 .
+    :text "And rule"^^xsd:string ;
+    :relatedTo :Line_1118 .
 
 :TV_Line_1119_en a :TranslationVariant ;
-    :text "Who cleaves the valley of Eleusis—"^^xsd:string ;
-    :relatedTo :Line_1119 .
+    :text "In the common bosom of Eleusinian"^^xsd:string ;
+    :relatedTo :Line_1119 .
 
 :TV_Line_1120_en a :TranslationVariant ;
-    :text "Bacchus! Dweller of the mother city Thebes"^^xsd:string ;
-    :relatedTo :Line_1120 ;
-    :referencesMyth :Antigone_Character_Dionysus .
+    :text "Deo, Bacchus, leader of Bacchants,"^^xsd:string ;
+    :relatedTo :Line_1120 ;
+    :referencesMyth :Antigone_Character_Dionysus .
 
 :TV_Line_1121_en a :TranslationVariant ;
-    :text "By the flowing rivers of Ismenus"^^xsd:string ;
-    :relatedTo :Line_1121 .
+    :text "You who dwell in your mother-city Thebes"^^xsd:string ;
+    :relatedTo :Line_1121 .
 
 :TV_Line_1122_en a :TranslationVariant ;
-    :text "And the planting of the"^^xsd:string ;
-    :relatedTo :Line_1122 .
+    :text "By the flowing streams"^^xsd:string ;
+    :relatedTo :Line_1122 .
 
 :TV_Line_1125_en a :TranslationVariant ;
-    :text "Flashing smoke has seen you"^^xsd:string ;
-    :relatedTo :Line_1125 .
+    :text "Of Ismenus and over the sown field of the savage dragon."^^xsd:string ;
+    :relatedTo :Line_1125 .
 
 :TV_Line_1126_en a :TranslationVariant ;
-    :text "Beyond the cliffs of the double ridge,"^^xsd:string ;
-    :relatedTo :Line_1126 .
+    :text "The flashing smoke has seen you"^^xsd:string ;
+    :relatedTo :Line_1126 .
 
 :TV_Line_1127_en a :TranslationVariant ;
-    :text "Where the Corycian nymphs"^^xsd:string ;
-    :relatedTo :Line_1127 .
+    :text "Above the twin-peaked rock, where the Corycian"^^xsd:string ;
+    :relatedTo :Line_1127 .
 
 :TV_Line_1128_en a :TranslationVariant ;
-    :text "Proceed all frenzied about;"^^xsd:string ;
-    :relatedTo :Line_1128 ;
-    :hasTheme :Theme_DionysianWorship .
+    :text "Bacchants, the nymphs, go in procession;"^^xsd:string ;
+    :relatedTo :Line_1128 ;
+    :hasTheme :Theme_DionysianWorship .
 
 :TV_Line_1130_en a :TranslationVariant ;
-    :text "Did the Castalian streams."^^xsd:string ;
-    :relatedTo :Line_1130 .
+    :text "And the Castalian spring."^^xsd:string ;
+    :relatedTo :Line_1130 .
 
 :TV_Line_1131_en a :TranslationVariant ;
-    :text "And it is you whom the ivied heights"^^xsd:string ;
-    :relatedTo :Line_1131 .
+    :text "And it is you whom the ivy-clad slopes"^^xsd:string ;
+    :relatedTo :Line_1131 .
 
 :TV_Line_1132_en a :TranslationVariant ;
-    :text "Of the mountains of Nysa and the shore"^^xsd:string ;
-    :relatedTo :Line_1132 ;
-    :hasIntertextualReference :Myth_Nysa .
+    :text "Of the Nysian hills and the green shore"^^xsd:string ;
+    :relatedTo :Line_1132 ;
+    :hasIntertextualReference :Myth_Nysa .
 
 :TV_Line_1133_en a :TranslationVariant ;
-    :text "Green with vines send, as you strive"^^xsd:string ;
-    :relatedTo :Line_1133 .
+    :text "Rich with grapes send onward,"^^xsd:string ;
+    :relatedTo :Line_1133 .
 
 :TV_Line_1134_en a :TranslationVariant ;
-    :text "To look upon the streets of Thebes,"^^xsd:string ;
-    :relatedTo :Line_1134 .
+    :text "While immortal voices"^^xsd:string ;
+    :relatedTo :Line_1134 .
 
 :TV_Line_1135_en a :TranslationVariant ;
-    :text "The immortal words crying themselves out."^^xsd:string ;
-    :relatedTo :Line_1135 .
+    :text "Cry out in ecstasy as they watch over the streets of Thebes."^^xsd:string ;
+    :relatedTo :Line_1135 .
 
 :TV_Line_1137_en a :TranslationVariant ;
-    :text "Of all cities you honor Thebes the most,"^^xsd:string ;
-    :relatedTo :Line_1137 .
+    :text "You honor her above all cities,"^^xsd:string ;
+    :relatedTo :Line_1137 .
 
 :TV_Line_1138_en a :TranslationVariant ;
-    :text "Along with your petrified mother:"^^xsd:string ;
-    :relatedTo :Line_1138 ;
-    :hasIntertextualReference :Myth_Semele .
+    :text "Along with your lightning-struck mother;"^^xsd:string ;
+    :relatedTo :Line_1138 ;
+    :hasIntertextualReference :Myth_Semele .
 
 :TV_Line_1140_en a :TranslationVariant ;
-    :text "Now indeed, when the whole city is"^^xsd:string ;
-    :relatedTo :Line_1140 ;
-    :hasTheme :Theme_CivicPollution .
+    :text "And now, when the whole people of the city is gripped"^^xsd:string ;
+    :relatedTo :Line_1140 ;
+    :hasTheme :Theme_CivicPollution .
 
 :TV_Line_1141_en a :TranslationVariant ;
-    :text "Infected head to toe"^^xsd:string ;
-    :relatedTo :Line_1141 .
+    :text "By violent plague,"^^xsd:string ;
+    :relatedTo :Line_1141 .
 
 :TV_Line_1142_en a :TranslationVariant ;
-    :text "By some noxious disease,"^^xsd:string ;
-    :relatedTo :Line_1142 .
+    :text "Come with purifying foot over the Parnassian slope"^^xsd:string ;
+    :relatedTo :Line_1142 .
 
 :TV_Line_1145_en a :TranslationVariant ;
-    :text "Mount Parnassus and the sighing straits."^^xsd:string ;
-    :relatedTo :Line_1145 .
+    :text "Or over the groaning strait."^^xsd:string ;
+    :relatedTo :Line_1145 .
 
 :TV_Line_1146_en a :TranslationVariant ;
-    :text "Oh come you chorus-leader, ushering the stars"^^xsd:string ;
-    :relatedTo :Line_1146 .
+    :text "O leader of the chorus of fire-breathing stars,"^^xsd:string ;
+    :relatedTo :Line_1146 .
 
 :TV_Line_1147_en a :TranslationVariant ;
-    :text "Which breathe fire, you who supervise the"^^xsd:string ;
-    :relatedTo :Line_1147 .
+    :text "Watcher over the voices of the night,"^^xsd:string ;
+    :relatedTo :Line_1147 .
 
 :TV_Line_1148_en a :TranslationVariant ;
-    :text "Incantations of the night, child born of Zeus,"^^xsd:string ;
-    :relatedTo :Line_1148 .
+    :text "Child begotten of Zeus,"^^xsd:string ;
+    :relatedTo :Line_1148 .
 
 :TV_Line_1149_en a :TranslationVariant ;
-    :text "Oh show yourself our Lord"^^xsd:string ;
-    :relatedTo :Line_1149 .
+    :text "Appear,"^^xsd:string ;
+    :relatedTo :Line_1149 .
 
 :TV_Line_1150_en a :TranslationVariant ;
-    :text "With your trusty Thyiads,"^^xsd:string ;
-    :relatedTo :Line_1150 .
+    :text "My lord, with your attendant band"^^xsd:string ;
+    :relatedTo :Line_1150 .
 
 :TV_Line_1151_en a :TranslationVariant ;
-    :text "Who rage ‘till sunrise"^^xsd:string ;
-    :relatedTo :Line_1151 ;
-    :hasTheme :Theme_DionysianWorship .
+    :text "Of Thyiads, who in their frenzy"^^xsd:string ;
+    :relatedTo :Line_1151 ;
+    :hasTheme :Theme_DionysianWorship .
 
 :TV_Line_1152_en a :TranslationVariant ;
-    :text "And salute you in dance"^^xsd:string ;
-    :relatedTo :Line_1152 .
-
-################################################################
-# ANCIENT GREEK VARIANTS (Filtered & Converted)
-################################################################
-
-:TV_Line_1115_grc a :TranslationVariant ;
-    :text "Πολυώνυμε, Καδμείας ἄγαλμα νύμφας"^^xsd:string ;
-    :relatedTo :Line_1115 ;
-    :referencesMyth :MythologicalBackground_Semele ;
-    :hasTheme :Theme_DivineIntervention .
-
-:TV_Line_1116_grc a :TranslationVariant ;
-    :text "καὶ Διὸς βαρυβρεμέτα"^^xsd:string ;
-    :relatedTo :Line_1116 .
-
-:TV_Line_1117_grc a :TranslationVariant ;
-    :text "γένος, κλυτὰν ὃς ἀμφέπεις"^^xsd:string ;
-    :relatedTo :Line_1117 .
-
-:TV_Line_1118_grc a :TranslationVariant ;
-    :text "Ἰταλίαν, μέδεις δὲ"^^xsd:string ;
-    :relatedTo :Line_1118 .
-
-:TV_Line_1119_grc a :TranslationVariant ;
-    :text "παγκοίνοις Ἐλευσινίας"^^xsd:string ;
-    :relatedTo :Line_1119 ;
-    :referencesMyth :MythologicalBackground_Dionysus .
-
-:TV_Line_1120_grc a :TranslationVariant ;
-    :text "Δῃοῦς ἐν κόλποις, ὦ Βακχεῦ,"^^xsd:string ;
-    :relatedTo :Line_1120 .
-
-:TV_Line_1121_grc a :TranslationVariant ;
-    :text "Βακχᾶν ματρόπολιν Θήβαν"^^xsd:string ;
-    :relatedTo :Line_1121 ;
-    :hasTheme :Theme_ThebesPatronage .
-
-:TV_Line_1122_grc a :TranslationVariant ;
-    :text "ναιετῶν παρ ̓ ὑγροῖς"^^xsd:string ;
-    :relatedTo :Line_1122 .
-
-:TV_Line_1125_grc a :TranslationVariant ;
-    :text "σὲ δ ̓ ὑπὲρ διλόφου πέτρας"^^xsd:string ;
-    :relatedTo :Line_1125 .
-
-:TV_Line_1126_grc a :TranslationVariant ;
-    :text "στέροψ ὄπωπε λιγνύς,"^^xsd:string ;
-    :relatedTo :Line_1126 .
-
-:TV_Line_1127_grc a :TranslationVariant ;
-    :text "ἔνθα Κωρύκιαι"^^xsd:string ;
-    :relatedTo :Line_1127 .
-
-:TV_Line_1128_grc a :TranslationVariant ;
-    :text "στείχουσι νύμφαι Βακχίδες"^^xsd:string ;
-    :relatedTo :Line_1128 .
-
-:TV_Line_1130_grc a :TranslationVariant ;
-    :text "Καί σε Νυσαίων ὀρέων"^^xsd:string ;
-    :relatedTo :Line_1130 .
-
-:TV_Line_1131_grc a :TranslationVariant ;
-    :text "κισσήρεις ὄχθαι"^^xsd:string ;
-    :relatedTo :Line_1131 .
-
-:TV_Line_1132_grc a :TranslationVariant ;
-    :text "χλωρά τ ̓ ἀκτὰ"^^xsd:string ;
-    :relatedTo :Line_1132 .
-
-:TV_Line_1133_grc a :TranslationVariant ;
-    :text "πολυστάφυλος πέμπει,"^^xsd:string ;
-    :relatedTo :Line_1133 .
-
-:TV_Line_1134_grc a :TranslationVariant ;
-    :text "ἀμβρότων ἑπετᾶν"^^xsd:string ;
-    :relatedTo :Line_1134 .
-
-:TV_Line_1135_grc a :TranslationVariant ;
-    :text "εὐαζόντων Θηβαΐας"^^xsd:string ;
-    :relatedTo :Line_1135 .
-
-:TV_Line_1137_grc a :TranslationVariant ;
-    :text "τὰν ἐκ πασᾶν τιμᾷς"^^xsd:string ;
-    :relatedTo :Line_1137 ;
-    :description "Reference to Dionysus honoring Thebes above all cities."^^xsd:string .
-
-:TV_Line_1138_grc a :TranslationVariant ;
-    :text "ὑπερτάταν πόλεων"^^xsd:string ;
-    :relatedTo :Line_1138 .
-
-:TV_Line_1140_grc a :TranslationVariant ;
-    :text "καὶ νῦν, ὡς βιαίας ἔχεται"^^xsd:string ;
-    :relatedTo :Line_1140 ;
-    :hasConflict :Conflict_ThebesVsPlague .
-
-:TV_Line_1141_grc a :TranslationVariant ;
-    :text "πάνδαμος πόλις ἐπὶ νόσου,"^^xsd:string ;
-    :relatedTo :Line_1141 ;
-    :hasTheme :Theme_CivicCleansing ;
-    :containsRhetoricalDevice :Metaphor_Disease .
-
-:TV_Line_1142_grc a :TranslationVariant ;
-    :text "μολεῖν καθαρσίῳ ποδὶ"^^xsd:string ;
-    :relatedTo :Line_1142 .
-
-:TV_Line_1145_grc a :TranslationVariant ;
-    :text "Ἰὼ πῦρ πνειόντων"^^xsd:string ;
-    :relatedTo :Line_1145 .
-
-:TV_Line_1146_grc a :TranslationVariant ;
-    :text "χοράγ ̓ ἄστρων, νυχίων"^^xsd:string ;
-    :relatedTo :Line_1146 .
-
-:TV_Line_1147_grc a :TranslationVariant ;
-    :text "φθεγμάτων ἐπίσκοπε,"^^xsd:string ;
-    :relatedTo :Line_1147 .
-
-:TV_Line_1148_grc a :TranslationVariant ;
-    :text "παῖ Διὸς γένεθλον,"^^xsd:string ;
-    :relatedTo :Line_1148 .
-
-:TV_Line_1149_grc a :TranslationVariant ;
-    :text "προφάνηθ ̓,"^^xsd:string ;
-    :relatedTo :Line_1149 .
-
-:TV_Line_1150_grc a :TranslationVariant ;
-    :text "ὦναξ, σαῖς ἅμα περιπόλοις"^^xsd:string ;
-    :relatedTo :Line_1150 .
-
-:TV_Line_1151_grc a :TranslationVariant ;
-    :text "Θυίαισιν, αἵ σε μαινόμεναι"^^xsd:string ;
-    :relatedTo :Line_1151 .
-
-:TV_Line_1152_grc a :TranslationVariant ;
-    :text "πάννυχοι"^^xsd:string ;
-    :relatedTo :Line_1152 ;
-    :hasTheme :Theme_DionysiacWorship .
+    :text "Dance all night for you, Iacchus their steward."^^xsd:string ;
+    :relatedTo :Line_1152 .

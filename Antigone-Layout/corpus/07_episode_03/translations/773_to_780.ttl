@@ -1,3 +1,36 @@
 @prefix : <http://example.org/antigone#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+:TV_Line_773_en a owl:NamedIndividual, :TranslationVariant ;
+    :text "I will lead her along a deserted path"^^xsd:string ;
+    :relatedTo :Line_773 .
+
+:TV_Line_774_en a owl:NamedIndividual, :TranslationVariant ;
+    :text "And then seal her in a rocky cavern there,"^^xsd:string ;
+    :relatedTo :Line_774 .
+
+:TV_Line_775_en a owl:NamedIndividual, :TranslationVariant ;
+    :text "Leaving her only as much food as is necessary"^^xsd:string ;
+    :relatedTo :Line_775 .
+
+:TV_Line_776_en a owl:NamedIndividual, :TranslationVariant ;
+    :text "To clear the city’s name of the charge of murder."^^xsd:string ;
+    :relatedTo :Line_776 .
+
+:TV_Line_777_en a owl:NamedIndividual, :TranslationVariant ;
+    :text "And at some point in that cave she will beg Hades"^^xsd:string ;
+    :relatedTo :Line_777 .
+
+:TV_Line_778_en a owl:NamedIndividual, :TranslationVariant ;
+    :text "Not to let her die (since he’s the only god she cares for),"^^xsd:string ;
+    :relatedTo :Line_778 .
+
+:TV_Line_779_en a owl:NamedIndividual, :TranslationVariant ;
+    :text "Or at any rate she will realize then that there’s"^^xsd:string ;
+    :relatedTo :Line_779 .
+
+:TV_Line_780_en a owl:NamedIndividual, :TranslationVariant ;
+    :text "Excessive pain in worshipping the god of death."^^xsd:string ;
+    :relatedTo :Line_780 .

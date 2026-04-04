@@ -1,0 +1,460 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Character_Antigone a :Character,
+        owl:NamedIndividual ;
+    :relatedTo :CreonDecision_EntombAntigoneAlive .
+
+:Antigone_Scene_ThirdStasimon_773_805 a :Scene,
+        owl:NamedIndividual ;
+    :developsTheme :Theme_DeathAndHadesReverence,
+        :Theme_ErosOverpowersReasonAndLaw ;
+    :hasConflict :Conflict_ErosVsJustice ;
+    :hasSpeech :Speech_Chorus_781_805,
+        :Speech_Creon_773_780 ;
+    :sceneNumber "Stasimon 3"^^xsd:string .
+
+:TV_Line_773_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_773 ;
+    :text "I will lead her along a deserted path"^^xsd:string .
+
+:TV_Line_774_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_774 ;
+    :text "And then seal her in a rocky cavern there,"^^xsd:string .
+
+:TV_Line_775_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_775 ;
+    :text "Leaving her only as much food as is necessary"^^xsd:string .
+
+:TV_Line_776_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_776 ;
+    :text "To clear the city’s name of the charge of murder."^^xsd:string .
+
+:TV_Line_777_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_777 ;
+    :text "And at some point in that cave she will beg Hades"^^xsd:string .
+
+:TV_Line_778_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_778 ;
+    :text "Not to let her die (since he’s the only god she cares for),"^^xsd:string .
+
+:TV_Line_779_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_779 ;
+    :text "Or at any rate she will realize then that there’s"^^xsd:string .
+
+:TV_Line_780_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_780 ;
+    :text "Excessive pain in worshipping the god of death."^^xsd:string .
+
+:TV_Line_781_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_781 ;
+    :text "Eros, o Eros, unvanquished in battle!"^^xsd:string .
+
+:TV_Line_782_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_782 ;
+    :text "Who falls upon riches,"^^xsd:string .
+
+:TV_Line_783_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_783 ;
+    :text "Who sleeps every night"^^xsd:string .
+
+:TV_Line_784_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_784 ;
+    :text "On a young maiden’s tender cheeks,"^^xsd:string .
+
+:TV_Line_785_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_785 ;
+    :text "Traversing both the depths and"^^xsd:string .
+
+:TV_Line_786_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_786 ;
+    :text "The most rural of abodes:"^^xsd:string .
+
+:TV_Line_787_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_787 ;
+    :text "From you indeed neither the deathless gods"^^xsd:string .
+
+:TV_Line_788_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_788 ;
+    :text "Nor any man who lives but one day"^^xsd:string .
+
+:TV_Line_789_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_789 ;
+    :text "Can ever hope to escape;"^^xsd:string .
+
+:TV_Line_790_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_790 ;
+    :text "Your victim is always driven mad."^^xsd:string .
+
+:TV_Line_791_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_791 ;
+    :text "You lead the minds of the just"^^xsd:string .
+
+:TV_Line_792_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_792 ;
+    :text "Astray towards disgraceful insult;"^^xsd:string .
+
+:TV_Line_793_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_793 ;
+    :text "The one to have ignited this strife of mankind is you;"^^xsd:string .
+
+:TV_Line_794_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_794 ;
+    :text "Yet desire wins out, shining"^^xsd:string .
+
+:TV_Line_795_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_795 ;
+    :text "From the brow of a brilliant bride,"^^xsd:string .
+
+:TV_Line_796_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_796 ;
+    :text "Desire sitting in the office"^^xsd:string .
+
+:TV_Line_797_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_797 ;
+    :text "Of the great divine law."^^xsd:string .
+
+:TV_Line_798_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_798 ;
+    :text "For, while this battle is waged, a god jests from afar—Aphrodite!"^^xsd:string .
+
+:TV_Line_799_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_799 ;
+    :text "Yet, now, seeing these things, I am forced to transgress justice,"^^xsd:string .
+
+:TV_Line_800_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_800 ;
+    :text "No longer strong enough to restrain"^^xsd:string .
+
+:TV_Line_801_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_801 ;
+    :text "The river of tears when I see Antigone"^^xsd:string .
+
+:TV_Line_802_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_802 ;
+    :text "Proceeding to her final place of rest."^^xsd:string .
+
+:TV_Line_803_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_803 ;
+    :text "Proceeding to her final place of rest."^^xsd:string .
+
+:TV_Line_804_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_804 ;
+    :text "Proceeding to her final place of rest."^^xsd:string .
+
+:TV_Line_805_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_805 ;
+    :text "Proceeding to her final place of rest."^^xsd:string .
+
+:ChorusEmotion_AweAtErosPower a :Emotion,
+        owl:NamedIndividual ;
+    :description "Awe at Eros as an invincible power that drives all to madness."^^xsd:string .
+
+:ChorusEmotion_TearsAndPityForAntigone a :Emotion,
+        owl:NamedIndividual ;
+    :description "Tears and pity at the sight of Antigone going to the all-shared bridal chamber (death)."^^xsd:string .
+
+:Chorus_Character_Chorus a :Character,
+        owl:NamedIndividual ;
+    :experiencesEmotion :ChorusEmotion_AweAtErosPower,
+        :ChorusEmotion_TearsAndPityForAntigone .
+
+:Conflict_ErosVsJustice a :Conflict,
+        owl:NamedIndividual ;
+    :conflictBetween :EthicalPrinciple_ErosDesire,
+        :EthicalPrinciple_Justice ;
+    :description "Eros overthrows just minds, turning the just toward injustice and stirring kin-strife."^^xsd:string .
+
+:Creon_Character_Creon a :Character,
+        owl:NamedIndividual ;
+    :advocatesFor :EthicalPrinciple_AvoidMiasma,
+        :EthicalPrinciple_CivicPurity ;
+    :hasMotivation :CreonMotivation_AvoidMiasmaForCity ;
+    :makesMoralDecision :CreonDecision_EntombAntigoneAlive .
+
+:EthicalPrinciple_AvoidMiasma a :EthicalPrinciple,
+        owl:NamedIndividual ;
+    :description "Avoidance of ritual pollution (μίασμα) as a public danger."^^xsd:string .
+
+:EthicalPrinciple_CivicPurity a :EthicalPrinciple,
+        owl:NamedIndividual ;
+    :description "Protection of the polis from pollution; prioritizing civic well-being."^^xsd:string .
+
+:EthicalPrinciple_ErosDesire a :EthicalPrinciple,
+        owl:NamedIndividual ;
+    :description "Eros/desire as a compelling force that bends minds and actions."^^xsd:string .
+
+:EthicalPrinciple_Justice a :EthicalPrinciple,
+        owl:NamedIndividual ;
+    :description "Commitment to what is just (δίκαια) in judgment and action."^^xsd:string .
+
+:Speech_Chorus_781_805 a :ChoralSong,
+        :Speech,
+        owl:NamedIndividual ;
+    :containsLine :Line_781,
+        :Line_782,
+        :Line_783,
+        :Line_784,
+        :Line_785,
+        :Line_786,
+        :Line_787,
+        :Line_788,
+        :Line_789,
+        :Line_790,
+        :Line_791,
+        :Line_792,
+        :Line_793,
+        :Line_794,
+        :Line_795,
+        :Line_796,
+        :Line_797,
+        :Line_798,
+        :Line_799,
+        :Line_800,
+        :Line_801,
+        :Line_802,
+        :Line_803,
+        :Line_804,
+        :Line_805 ;
+    :hasTheme :Theme_ErosOverpowersReasonAndLaw,
+        :Theme_TearsAndPityAtBridalChamberOfDeath ;
+    :speechBy :Chorus_Character_Chorus .
+
+:Speech_Creon_773_780 a :Speech,
+        owl:NamedIndividual ;
+    :containsLine :Line_773,
+        :Line_774,
+        :Line_775,
+        :Line_776,
+        :Line_777,
+        :Line_778,
+        :Line_779,
+        :Line_780 ;
+    :hasTheme :Theme_CivicPurityAndMiasma,
+        :Theme_DeathAndHadesReverence ;
+    :speechBy :Creon_Character_Creon .
+
+:Theme_CivicPurityAndMiasma a :Theme,
+        owl:NamedIndividual ;
+    :description "Civic anxiety about ritual pollution and the attempt to protect the polis from miasma."^^xsd:string .
+
+:Theme_TearsAndPityAtBridalChamberOfDeath a :Theme,
+        owl:NamedIndividual ;
+    :description "Pathos: tears at Antigone's approach to the 'bridal chamber' of death."^^xsd:string .
+
+:CreonDecision_EntombAntigoneAlive a :MoralDecision,
+        owl:NamedIndividual ;
+    :description "Creon decides to hide Antigone alive in a rocky underground chamber with minimal food."^^xsd:string ;
+    :relatedTo :CreonMotivation_AvoidMiasmaForCity .
+
+:CreonMotivation_AvoidMiasmaForCity a :Motivation,
+        owl:NamedIndividual ;
+    :description "To ensure the city escapes pollution by shifting responsibility to Hades and isolating the condemned."^^xsd:string .
+
+:Line_773 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "773"^^xsd:string ;
+    :lineNumber 773 .
+
+:Line_774 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "774"^^xsd:string ;
+    :lineNumber 774 .
+
+:Line_775 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "775"^^xsd:string ;
+    :lineNumber 775 .
+
+:Line_776 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "776"^^xsd:string ;
+    :lineNumber 776 .
+
+:Line_777 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "777"^^xsd:string ;
+    :lineNumber 777 .
+
+:Line_778 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "778"^^xsd:string ;
+    :lineNumber 778 .
+
+:Line_779 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "779"^^xsd:string ;
+    :lineNumber 779 .
+
+:Line_780 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "780"^^xsd:string ;
+    :lineNumber 780 .
+
+:Line_781 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "781"^^xsd:string ;
+    :lineNumber 781 .
+
+:Line_782 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "782"^^xsd:string ;
+    :lineNumber 782 .
+
+:Line_783 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "783"^^xsd:string ;
+    :lineNumber 783 .
+
+:Line_784 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "784"^^xsd:string ;
+    :lineNumber 784 .
+
+:Line_785 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "785"^^xsd:string ;
+    :lineNumber 785 .
+
+:Line_786 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "786"^^xsd:string ;
+    :lineNumber 786 .
+
+:Line_787 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "787"^^xsd:string ;
+    :lineNumber 787 .
+
+:Line_788 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "788"^^xsd:string ;
+    :lineNumber 788 .
+
+:Line_789 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "789"^^xsd:string ;
+    :lineNumber 789 .
+
+:Line_790 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "790"^^xsd:string ;
+    :lineNumber 790 .
+
+:Line_791 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "791"^^xsd:string ;
+    :lineNumber 791 .
+
+:Line_792 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "792"^^xsd:string ;
+    :lineNumber 792 .
+
+:Line_793 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "793"^^xsd:string ;
+    :lineNumber 793 .
+
+:Line_794 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "794"^^xsd:string ;
+    :lineNumber 794 .
+
+:Line_795 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "795"^^xsd:string ;
+    :lineNumber 795 .
+
+:Line_796 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "796"^^xsd:string ;
+    :lineNumber 796 .
+
+:Line_797 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "797"^^xsd:string ;
+    :lineNumber 797 .
+
+:Line_798 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "798"^^xsd:string ;
+    :lineNumber 798 .
+
+:Line_799 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "799"^^xsd:string ;
+    :lineNumber 799 .
+
+:Line_800 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "800"^^xsd:string ;
+    :lineNumber 800 .
+
+:Line_801 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "801"^^xsd:string ;
+    :lineNumber 801 .
+
+:Line_802 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "802"^^xsd:string ;
+    :lineNumber 802 .
+
+:Line_803 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "803"^^xsd:string ;
+    :lineNumber 803 .
+
+:Line_804 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "804"^^xsd:string ;
+    :lineNumber 804 .
+
+:Line_805 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "805"^^xsd:string ;
+    :lineNumber 805 .
+
+:Theme_DeathAndHadesReverence a :Theme,
+        owl:NamedIndividual ;
+    :description "The logic of death: appeal to Hades and the futility or cost of revering the underworld."^^xsd:string .
+
+:Theme_ErosOverpowersReasonAndLaw a :Theme,
+        owl:NamedIndividual ;
+    :description "Eros as an irresistible force that subverts reason, justice, and social order."^^xsd:string .
+

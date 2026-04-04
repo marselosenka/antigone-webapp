@@ -1,0 +1,635 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:Antigone_Scene_Stasimon4_ExodosTransition a :Scene,
+        owl:NamedIndividual ;
+    :developsTheme :Theme_DivineVsMortalCondition,
+        :Theme_FamilyCurseOfLabdacids,
+        :Theme_LivingDeathAndExile ;
+    :hasConflict :Conflict_AntigoneVsChorusOnDivineComparison ;
+    :hasSpeech :Speech_Antigone_823_853,
+        :Speech_Antigone_856_871,
+        :Speech_Chorus_854_855 ;
+    :sceneNumber "Kommos/lyric exchange (Antigone with Chorus), lines 823-871"^^xsd:string ;
+    :setting "Before the palace at Thebes; Antigone led toward her living tomb (implied by text)."^^xsd:string .
+
+:TV_Line_823_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_823 ;
+    :text "I have heard how our Phrygian guest, Niobe, the daughter of Tantalus, died a miserable death."^^xsd:string .
+
+:TV_Line_824_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_824 ;
+    :text "I have heard how our Phrygian guest, Niobe, the daughter of Tantalus, died a miserable death."^^xsd:string .
+
+:TV_Line_825_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_825 ;
+    :text "I have heard how our Phrygian guest, Niobe, the daughter of Tantalus, died a miserable death near lofty Mount Sipylus."^^xsd:string .
+
+:TV_Line_826_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_826 ;
+    :text "The growth of rock, like clinging ivy, subdued her."^^xsd:string .
+
+:TV_Line_827_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_827 ;
+    :text "Now—as the story goes—she melts away."^^xsd:string .
+
+:TV_Line_828_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_828 ;
+    :text "Now—as the story goes—she melts away."^^xsd:string .
+
+:TV_Line_829_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_829 ;
+    :text "Rain and snow never leave her."^^xsd:string .
+
+:TV_Line_830_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_830 ;
+    :text "But with tears streaming down her face, she dampens the ridges of the mountain."^^xsd:string .
+
+:TV_Line_831_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_831 ;
+    :text "I am most like her, as the god leads me to my sleep."^^xsd:string .
+
+:TV_Line_832_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_832 ;
+    :text "Yet she was not only god-born but also a goddess herself, while we are but mortals, born from mortals."^^xsd:string .
+
+:TV_Line_833_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_833 ;
+    :text "Yet she was not only god-born but also a goddess herself, while we are but mortals, born from mortals."^^xsd:string .
+
+:TV_Line_834_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_834 ;
+    :text "Still, it is great for one in the throes of death to hear that she has obtained the luck of a god in life and in death."^^xsd:string .
+
+:TV_Line_835_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_835 ;
+    :text "Still, it is great for one in the throes of death to hear that she has obtained the luck of a god in life and in death."^^xsd:string .
+
+:TV_Line_836_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_836 ;
+    :text "Still, it is great for one in the throes of death to hear that she has obtained the luck of a god in life and in death."^^xsd:string .
+
+:TV_Line_837_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_837 ;
+    :text "Oh, now you’re mocking me!"^^xsd:string .
+
+:TV_Line_838_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_838 ;
+    :text "Why, by my father’s gods, do you insult me to my face, and not wait until I’ve gone, my city and you, her wealthiest citizens?"^^xsd:string .
+
+:TV_Line_839_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_839 ;
+    :text "Why, by my father’s gods, do you insult me to my face, and not wait until I’ve gone, my city and you, her wealthiest citizens?"^^xsd:string .
+
+:TV_Line_840_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_840 ;
+    :text "Why, by my father’s gods, do you insult me to my face, and not wait until I’ve gone, my city and you, her wealthiest citizens?"^^xsd:string .
+
+:TV_Line_841_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_841 ;
+    :text "Why, by my father’s gods, do you insult me to my face, and not wait until I’ve gone, my city and you, her wealthiest citizens?"^^xsd:string .
+
+:TV_Line_842_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_842 ;
+    :text "Why, by my father’s gods, do you insult me to my face, and not wait until I’ve gone, my city and you, her wealthiest citizens?"^^xsd:string .
+
+:TV_Line_843_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_843 ;
+    :text "Ah! Springs of Dirce and grove of Thebes of many chariots, you at least I can count on to witness how I go, unwept by my loved ones, to my rock-heap prison, to my unknown tomb."^^xsd:string .
+
+:TV_Line_844_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_844 ;
+    :text "Ah! Springs of Dirce and grove of Thebes of many chariots, you at least I can count on to witness how I go, unwept by my loved ones, to my rock-heap prison, to my unknown tomb."^^xsd:string .
+
+:TV_Line_845_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_845 ;
+    :text "Ah! Springs of Dirce and grove of Thebes of many chariots, you at least I can count on to witness how I go, unwept by my loved ones, to my rock-heap prison, to my unknown tomb."^^xsd:string .
+
+:TV_Line_846_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_846 ;
+    :text "Ah! Springs of Dirce and grove of Thebes of many chariots, you at least I can count on to witness how I go, unwept by my loved ones, to my rock-heap prison, to my unknown tomb."^^xsd:string .
+
+:TV_Line_847_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_847 ;
+    :text "Ah! Unhappy one! I neither live among mortals nor shades, neither with the living nor the dead."^^xsd:string .
+
+:TV_Line_848_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_848 ;
+    :text "Ah! Unhappy one! I neither live among mortals nor shades, neither with the living nor the dead."^^xsd:string .
+
+:TV_Line_849_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_849 ;
+    :text "Ah! Unhappy one! I neither live among mortals nor shades, neither with the living nor the dead."^^xsd:string .
+
+:TV_Line_850_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_850 ;
+    :text "You rushed through the depths of recklessness for the high throne of Dike, but you have fallen, oh child, fallen very far."^^xsd:string .
+
+:TV_Line_851_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_851 ;
+    :text "You rushed through the depths of recklessness for the high throne of Dike, but you have fallen, oh child, fallen very far."^^xsd:string .
+
+:TV_Line_852_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_852 ;
+    :text "You rushed through the depths of recklessness for the high throne of Dike, but you have fallen, oh child, fallen very far."^^xsd:string .
+
+:TV_Line_853_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_853 ;
+    :text "Now you will pay for your father’s crimes."^^xsd:string .
+
+:TV_Line_854_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_854 ;
+    :text "You have touched upon my most painful memory, the thrice-told doom of my father and our whole destiny, that of the famed Labdacids."^^xsd:string .
+
+:TV_Line_855_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_855 ;
+    :text "You have touched upon my most painful memory, the thrice-told doom of my father and our whole destiny, that of the famed Labdacids."^^xsd:string .
+
+:TV_Line_856_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_856 ;
+    :text "You have touched upon my most painful memory, the thrice-told doom of my father and our whole destiny, that of the famed Labdacids."^^xsd:string .
+
+:TV_Line_857_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_857 ;
+    :text "You have touched upon my most painful memory, the thrice-told doom of my father and our whole destiny, that of the famed Labdacids."^^xsd:string .
+
+:TV_Line_858_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_858 ;
+    :text "You have touched upon my most painful memory, the thrice-told doom of my father and our whole destiny, that of the famed Labdacids."^^xsd:string .
+
+:TV_Line_859_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_859 ;
+    :text "You have touched upon my most painful memory, the thrice-told doom of my father and our whole destiny, that of the famed Labdacids."^^xsd:string .
+
+:TV_Line_860_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_860 ;
+    :text "Oh, our mother’s disaster of a marriage and my father’s incestuous intercourse with his ill-fated mother!"^^xsd:string .
+
+:TV_Line_861_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_861 ;
+    :text "Oh, our mother’s disaster of a marriage and my father’s incestuous intercourse with his ill-fated mother!"^^xsd:string .
+
+:TV_Line_862_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_862 ;
+    :text "From such people I, the miserable one, was born!"^^xsd:string .
+
+:TV_Line_863_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_863 ;
+    :text "I go to them to live, accursed, unmarried."^^xsd:string .
+
+:TV_Line_864_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_864 ;
+    :text "I go to them to live, accursed, unmarried."^^xsd:string .
+
+:TV_Line_865_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_865 ;
+    :text "Ah, my brother who secured an ill-fated marriage, in your death you have slain me alive."^^xsd:string .
+
+:TV_Line_866_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_866 ;
+    :text "Ah, my brother who secured an ill-fated marriage, in your death you have slain me alive."^^xsd:string .
+
+:TV_Line_867_en a :TranslationVariant,
+        owl:NamedIndividual ;
+    :relatedTo :Line_867 ;
+    :text "Ah, my brother who secured an ill-fated marriage, in your death you have slain me alive."^^xsd:string .
+
+:AntigoneEmotion_HumiliationAtMockery a :Emotion,
+        owl:NamedIndividual ;
+    :description "Antigone feels mocked and dishonoured ('γελῶμαι', 'ὑβρίζεις') while still visible and not yet gone."^^xsd:string .
+
+:AntigoneEmotion_LamentationAndDespair a :Emotion,
+        owl:NamedIndividual ;
+    :description "Lament for her fate as neither among the living nor the dead; grief over family curse and isolation."^^xsd:string .
+
+:AntigoneMotivation_AppealToCityAsWitness a :Motivation,
+        owl:NamedIndividual ;
+    :description "She calls on Thebes (Dirce's springs, the grove) and its citizens as witnesses to her unwept, friendless march to the tomb."^^xsd:string .
+
+:AntigoneMotivation_InterpretFateAsDivineLullingToRest a :Motivation,
+        owl:NamedIndividual ;
+    :description "She interprets her situation through the paradigm of Niobe and says a daimon 'lulls' her into a similar rest—seeking meaning in divine causation."^^xsd:string .
+
+:ChorusEmotion_AustereAdmonition a :Emotion,
+        owl:NamedIndividual ;
+    :description "Sober, admonitory stance: stresses mortal limits and frames Antigone's suffering as consequence of daring against Justice."^^xsd:string .
+
+:Conflict_AntigoneVsChorusOnDivineComparison a :Conflict,
+        owl:NamedIndividual ;
+    :conflictBetween :Antigone_Character_Antigone,
+        :Chorus_Character_Chorus,
+        :EthicalPrinciple_MortalHumilityBeforeGods ;
+    :description "Antigone's self-comparison to Niobe and appeal to divine framing clashes with the Chorus' insistence on mortal humility and separation from the divine."^^xsd:string .
+
+:EthicalPrinciple_RespectForAncestralGodsAndCity a :EthicalPrinciple,
+        owl:NamedIndividual ;
+    :description "Appeal to ancestral gods and the civic community as moral witnesses; insistence on being judged within sacred/civic frameworks."^^xsd:string .
+
+:Event_AntigoneLedToLivingTomb a :MoralDecision,
+        owl:NamedIndividual ;
+    :description "Antigone is taken toward the 'τυμβόχωστον ἕργμα'—a tomb-like enclosure while alive."^^xsd:string ;
+    :relatedTo :Theme_LivingDeathAndExile .
+
+:Line_868 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "868"^^xsd:string ;
+    :lineNumber 868 .
+
+:Line_869 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "869"^^xsd:string ;
+    :lineNumber 869 .
+
+:Line_870 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "870"^^xsd:string ;
+    :lineNumber 870 .
+
+:Line_871 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "871"^^xsd:string ;
+    :lineNumber 871 .
+
+:Speech_Antigone_823_853 a :Speech,
+        owl:NamedIndividual ;
+    :containsLine :Line_823,
+        :Line_824,
+        :Line_825,
+        :Line_826,
+        :Line_827,
+        :Line_828,
+        :Line_829,
+        :Line_830,
+        :Line_831,
+        :Line_832,
+        :Line_833,
+        :Line_834,
+        :Line_835,
+        :Line_836,
+        :Line_837,
+        :Line_838,
+        :Line_839,
+        :Line_840,
+        :Line_841,
+        :Line_842,
+        :Line_843,
+        :Line_844,
+        :Line_845,
+        :Line_846,
+        :Line_847,
+        :Line_848,
+        :Line_849,
+        :Line_850,
+        :Line_851,
+        :Line_852,
+        :Line_853 ;
+    :hasTheme :Theme_LivingDeathAndExile ;
+    :speechBy :Antigone_Character_Antigone .
+
+:Speech_Antigone_856_871 a :Speech,
+        owl:NamedIndividual ;
+    :containsLine :Line_856,
+        :Line_857,
+        :Line_858,
+        :Line_859,
+        :Line_860,
+        :Line_861,
+        :Line_862,
+        :Line_863,
+        :Line_864,
+        :Line_865,
+        :Line_866,
+        :Line_867,
+        :Line_868,
+        :Line_869,
+        :Line_870,
+        :Line_871 ;
+    :hasTheme :Theme_FamilyCurseOfLabdacids,
+        :Theme_LivingDeathAndExile ;
+    :speechBy :Antigone_Character_Antigone .
+
+:Speech_Chorus_854_855 a :Speech,
+        owl:NamedIndividual ;
+    :containsLine :Line_854,
+        :Line_855 ;
+    :hasTheme :Theme_DivineVsMortalCondition ;
+    :speechBy :Chorus_Character_Chorus .
+
+:Chorus_Character_Chorus a :Character,
+        owl:NamedIndividual ;
+    :advocatesFor :EthicalPrinciple_MortalHumilityBeforeGods ;
+    :experiencesEmotion :ChorusEmotion_AustereAdmonition .
+
+:EthicalPrinciple_MortalHumilityBeforeGods a :EthicalPrinciple,
+        owl:NamedIndividual ;
+    :description "Humans are mortal and must not claim equality with gods; divine status is separate from human fate."^^xsd:string .
+
+:Line_823 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "823"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurseOfLabdacids ;
+    :lineNumber 823 .
+
+:Line_824 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "824"^^xsd:string ;
+    :lineNumber 824 .
+
+:Line_825 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "825"^^xsd:string ;
+    :lineNumber 825 .
+
+:Line_826 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "826"^^xsd:string ;
+    :lineNumber 826 .
+
+:Line_827 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "827"^^xsd:string ;
+    :lineNumber 827 .
+
+:Line_828 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "828"^^xsd:string ;
+    :lineNumber 828 .
+
+:Line_829 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "829"^^xsd:string ;
+    :lineNumber 829 .
+
+:Line_830 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "830"^^xsd:string ;
+    :lineNumber 830 .
+
+:Line_831 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "831"^^xsd:string ;
+    :lineNumber 831 .
+
+:Line_832 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "832"^^xsd:string ;
+    :hasTheme :Theme_DivineVsMortalCondition ;
+    :lineNumber 832 .
+
+:Line_833 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "833"^^xsd:string ;
+    :hasTheme :Theme_DivineVsMortalCondition ;
+    :lineNumber 833 .
+
+:Line_834 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "834"^^xsd:string ;
+    :lineNumber 834 .
+
+:Line_835 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "835"^^xsd:string ;
+    :hasTheme :Theme_DivineVsMortalCondition ;
+    :lineNumber 835 .
+
+:Line_836 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "836"^^xsd:string ;
+    :hasTheme :Theme_LivingDeathAndExile ;
+    :lineNumber 836 .
+
+:Line_837 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "837"^^xsd:string ;
+    :lineNumber 837 .
+
+:Line_838 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "838"^^xsd:string ;
+    :lineNumber 838 .
+
+:Line_839 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "839"^^xsd:string ;
+    :lineNumber 839 .
+
+:Line_840 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "840"^^xsd:string ;
+    :lineNumber 840 .
+
+:Line_841 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "841"^^xsd:string ;
+    :lineNumber 841 .
+
+:Line_842 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "842"^^xsd:string ;
+    :lineNumber 842 .
+
+:Line_843 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "843"^^xsd:string ;
+    :lineNumber 843 .
+
+:Line_844 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "844"^^xsd:string ;
+    :lineNumber 844 .
+
+:Line_845 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "845"^^xsd:string ;
+    :lineNumber 845 .
+
+:Line_846 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "846"^^xsd:string ;
+    :hasTheme :Theme_LivingDeathAndExile ;
+    :lineNumber 846 ;
+    :relatedTo :Event_AntigoneLedToLivingTomb .
+
+:Line_847 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "847"^^xsd:string ;
+    :lineNumber 847 .
+
+:Line_848 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "848"^^xsd:string ;
+    :hasTheme :Theme_LivingDeathAndExile ;
+    :lineNumber 848 .
+
+:Line_849 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "849"^^xsd:string ;
+    :hasTheme :Theme_LivingDeathAndExile ;
+    :lineNumber 849 .
+
+:Line_850 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "850"^^xsd:string ;
+    :lineNumber 850 .
+
+:Line_851 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "851"^^xsd:string ;
+    :lineNumber 851 .
+
+:Line_852 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "852"^^xsd:string ;
+    :lineNumber 852 .
+
+:Line_853 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "853"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurseOfLabdacids ;
+    :lineNumber 853 .
+
+:Line_854 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "854"^^xsd:string ;
+    :lineNumber 854 .
+
+:Line_855 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "855"^^xsd:string ;
+    :lineNumber 855 .
+
+:Line_856 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "856"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurseOfLabdacids ;
+    :lineNumber 856 .
+
+:Line_857 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "857"^^xsd:string ;
+    :lineNumber 857 .
+
+:Line_858 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "858"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurseOfLabdacids ;
+    :lineNumber 858 .
+
+:Line_859 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "859"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurseOfLabdacids ;
+    :lineNumber 859 .
+
+:Line_860 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "860"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurseOfLabdacids ;
+    :lineNumber 860 .
+
+:Line_861 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "861"^^xsd:string ;
+    :hasTheme :Theme_FamilyCurseOfLabdacids ;
+    :lineNumber 861 .
+
+:Line_862 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "862"^^xsd:string ;
+    :lineNumber 862 .
+
+:Line_863 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "863"^^xsd:string ;
+    :lineNumber 863 .
+
+:Line_864 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "864"^^xsd:string ;
+    :hasTheme :Theme_LivingDeathAndExile ;
+    :lineNumber 864 .
+
+:Line_865 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "865"^^xsd:string ;
+    :lineNumber 865 .
+
+:Line_866 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "866"^^xsd:string ;
+    :lineNumber 866 .
+
+:Line_867 a :Line,
+        owl:NamedIndividual ;
+    :canonicalReference "867"^^xsd:string ;
+    :lineNumber 867 ;
+    :relatedTo :Theme_FamilyCurseOfLabdacids .
+
+:Antigone_Character_Antigone a :Character,
+        owl:NamedIndividual ;
+    :advocatesFor :EthicalPrinciple_RespectForAncestralGodsAndCity ;
+    :experiencesEmotion :AntigoneEmotion_HumiliationAtMockery,
+        :AntigoneEmotion_LamentationAndDespair ;
+    :hasMotivation :AntigoneMotivation_AppealToCityAsWitness,
+        :AntigoneMotivation_InterpretFateAsDivineLullingToRest ;
+    :relatedTo :Theme_FamilyCurseOfLabdacids,
+        :Theme_LivingDeathAndExile .
+
+:Theme_DivineVsMortalCondition a :Theme,
+        owl:NamedIndividual ;
+    :description "Contrast between gods (and god-born) and mortals; warning against claiming godlike status in suffering or honour."^^xsd:string .
+
+:Theme_LivingDeathAndExile a :Theme,
+        owl:NamedIndividual ;
+    :description "Antigone is led to a tomb while alive, describing herself as a metic among neither living nor dead."^^xsd:string .
+
+:Theme_FamilyCurseOfLabdacids a :Theme,
+        owl:NamedIndividual ;
+    :description "The inherited ruin of Oedipus' house: maternal bed-curses, incest, and the ancestral doom of the Labdacids."^^xsd:string .
+

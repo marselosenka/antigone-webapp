@@ -3,91 +3,84 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 :hyporchema-structure a owl:Ontology .
+
 :Line_1115
-a owl:NamedIndividual, :Line ;
-:lineNumber 1115 ;
-:canonicalReference "Stasimon5.1115"^^xsd:string ;
-:text "Πολυώνυμε, Καδμείας ?γαλμα νύμφας"^^xsd:string ;
-:referencesMyth :MythologicalBackground_Semele ;
-:hasTheme :Theme_DivineIntervention .
+    a owl:NamedIndividual, :Line ;
+    :lineNumber 1115 ;
+    :canonicalReference "Stasimon5.1115"^^xsd:string ;
+    :text "πολυώνυμε, Καδμείας νύμφας ἄγαλμα"^^xsd:string ;
+    :referencesMyth :MythologicalBackground_Semele ;
+    :hasTheme :Theme_DivineIntervention .
 
 :Line_1116
-a owl:NamedIndividual, :Line ;
-:lineNumber 1116 ;
-:canonicalReference "Stasimon5.1116"^^xsd:string ;
-:text "κα? Δι?ς βαρυβρεμέτα"^^xsd:string .
+    a owl:NamedIndividual, :Line ;
+    :lineNumber 1116 ;
+    :canonicalReference "Stasimon5.1116"^^xsd:string ;
+    :text "καὶ Διὸς βαρυβρεμέτα"^^xsd:string .
 
 :Line_1117
-a owl:NamedIndividual, :Line ;
-:lineNumber 1117 ;
-:canonicalReference "Stasimon5.1117"^^xsd:string ;
-:text "γένος, κλυτ?ν ?ς ?μφέπεις"^^xsd:string .
+    a owl:NamedIndividual, :Line ;
+    :lineNumber 1117 ;
+    :canonicalReference "Stasimon5.1117"^^xsd:string ;
+    :text "γένος, κλυτὰν ὃς ἀμφέπεις"^^xsd:string .
 
 :Line_1118
-a owl:NamedIndividual, :Line ;
-:lineNumber 1118 ;
-:canonicalReference "Stasimon5.1118"^^xsd:string ;
-:text "?ταλίαν, μέδεις δ?"^^xsd:string .
+    a owl:NamedIndividual, :Line ;
+    :lineNumber 1118 ;
+    :canonicalReference "Stasimon5.1118"^^xsd:string ;
+    :text "Ἰταλίαν, μέδεις δὲ"^^xsd:string .
 
 :Line_1119
-a owl:NamedIndividual, :Line ;
-:lineNumber 1119 ;
-:canonicalReference "Stasimon5.1119"^^xsd:string ;
-:text "παγκοίνοις ?λευσινίας"^^xsd:string ;
-:referencesMyth :MythologicalBackground_Dionysus .
+    a owl:NamedIndividual, :Line ;
+    :lineNumber 1119 ;
+    :canonicalReference "Stasimon5.1119"^^xsd:string ;
+    :text "παγκοίνοις, Ἐλευσινίας"^^xsd:string ;
+    :referencesMyth :MythologicalBackground_Dionysus .
 
 :Line_1120
-a owl:NamedIndividual, :Line ;
-:lineNumber 1120 ;
-:canonicalReference "Stasimon5.1120"^^xsd:string ;
-:text "Δ?ο?ς ?ν κόλποις, ? Βακχε?,"^^xsd:string .
+    a owl:NamedIndividual, :Line ;
+    :lineNumber 1120 ;
+    :canonicalReference "Stasimon5.1120"^^xsd:string ;
+    :text "Δῃοῦς ἐν κόλποις, Βακχεῦ Βακχᾶν"^^xsd:string .
 
 :Line_1121
     a owl:NamedIndividual, :Line ;
     :lineNumber 1121 ;
     :canonicalReference "Stasimon5.1121"^^xsd:string ;
-    :text "Βακχ?ν ματρόπολιν Θήβαν"^^xsd:string ;
+    :text "ὁ ματρόπολιν Θήβαν"^^xsd:string ;
     :hasTheme :Theme_ThebesPatronage .
 
 :Line_1122
     a owl:NamedIndividual, :Line ;
     :lineNumber 1122 ;
     :canonicalReference "Stasimon5.1122"^^xsd:string ;
-    :text "ναιετ?ν παρ ? ?γρο?ς"^^xsd:string .
+    :text "ναιετῶν παρʼ ὑγρῶν"^^xsd:string .
 
 :Line_1125
     a owl:NamedIndividual, :Line ;
     :lineNumber 1125 ;
     :canonicalReference "Stasimon5.1125"^^xsd:string ;
-    :text "?σμηνο? ?είθροις, ?γρίου τ'?π? σπορ? δράκοντος·"^^xsd:string ;
+    :text "Ἰσμηνοῦ ῥείθρων ἀγρίου τʼ ἐπὶ σπορᾷ δράκοντος."^^xsd:string ;
     :referencesMyth :MythologicalBackground_Dragon .
-
-
-#:Line_1124
-#a owl:NamedIndividual, :Line ;
-#:lineNumber 1124 ;
-#:canonicalReference "Stasimon5.1124"^^xsd:string ;
-#:text "?π? σπορ? δράκοντος·"^^xsd:string ;
-#:referencesMyth :MythologicalBackground_Dragon .
 
 :Line_1126
     a owl:NamedIndividual, :Line ;
     :lineNumber 1126 ;
     :canonicalReference "Stasimon5.1126"^^xsd:string ;
-    :text "σ? δ ? ?π?ρ διλόφου πέτρας στέροψ ?πωπε"^^xsd:string .
+    :text "σὲ δʼ ὑπὲρ διλόφου πέτρας στέροψ ὄπωπε"^^xsd:string .
 
 :Line_1127
     a owl:NamedIndividual, :Line ;
     :lineNumber 1127 ;
     :canonicalReference "Stasimon5.1127"^^xsd:string ;
-    :text "λιγνύς, ?νθα Κωρύκιαι"^^xsd:string .
+    :text "λιγνύς, ἔνθα Κωρύκιαι"^^xsd:string .
 
 
 :Line_1128
     a owl:NamedIndividual, :Line ;
     :lineNumber 1128 ;
     :canonicalReference "Stasimon5.1128"^^xsd:string ;
-    :text "στείχουσι νύμφαι Βακχίδες"^^xsd:string .
+    :text "στείχουσι νύμφαι Βακχίδες,"^^xsd:string .
 
 # 1129 does not exist in the text
 
@@ -95,19 +88,19 @@ a owl:NamedIndividual, :Line ;
     a owl:NamedIndividual, :Line ;
     :lineNumber 1130 ;
     :canonicalReference "Stasimon5.1130"^^xsd:string ;
-    :text "Κασταλίας τε ν?μα."^^xsd:string .
+    :text "Κασταλίας τε νᾶμα."^^xsd:string .
 
 :Line_1131
     a owl:NamedIndividual, :Line ;
     :lineNumber 1131 ;
     :canonicalReference "Stasimon5.1131"^^xsd:string ;
-    :text "Καί σε Νυσαίων ?ρέων"^^xsd:string .
+    :text "καί σε Νυσαίων ὀρέων"^^xsd:string .
 
 :Line_1132
     a owl:NamedIndividual, :Line ;
     :lineNumber 1132 ;
     :canonicalReference "Stasimon5.1132"^^xsd:string ;
-    :text "κισσήρεις ?χθαι χλωρά τ ? ?κτ?"^^xsd:string .
+    :text "κισσήρεις ὄχθαι χλωρά τʼ ἀκτὰ"^^xsd:string .
 
 :Line_1133
     a owl:NamedIndividual, :Line ;
@@ -119,13 +112,13 @@ a owl:NamedIndividual, :Line ;
     a owl:NamedIndividual, :Line ;
     :lineNumber 1134 ;
     :canonicalReference "Stasimon5.1134"^^xsd:string ;
-    :text "?μβρότων ?πετ?ν"^^xsd:string .
+    :text "ἀμβρότων ἐπέων"^^xsd:string .
 
 :Line_1135
     a owl:NamedIndividual, :Line ;
     :lineNumber 1135 ;
     :canonicalReference "Stasimon5.1135"^^xsd:string ;
-    :text "ε?αζόντων Θηβαΐας ?πισκοπο?ντ ? ?γυιάς·"^^xsd:string .
+    :text "εὐαζόντων Θηβαΐας ἐπισκοποῦντʼ ἀγυιάς·"^^xsd:string .
 
 # 1136 does not exist in the text
 
@@ -133,28 +126,28 @@ a owl:NamedIndividual, :Line ;
     a owl:NamedIndividual, :Line ;
     :lineNumber 1137 ;
     :canonicalReference "Stasimon5.1137"^^xsd:string ;
-    :text "τ?ν ?κ πασ?ν τιμ?ς ?περτάταν πόλεων"^^xsd:string ;
+    :text "τὰν ἐκ πασᾶν τιμᾷς ὑπερτάταν πόλεων"^^xsd:string ;
     :description "Reference to Dionysus honoring Thebes above all cities."^^xsd:string .
 
 :Line_1138
     a owl:NamedIndividual, :Line ;
     :lineNumber 1138 ;
     :canonicalReference "Stasimon5.1138"^^xsd:string ;
-    :text "ματρ? σ?ν κεραυνί?·"^^xsd:string ;
+    :text "ματρὶ σὺν κεραυνίᾳ·"^^xsd:string ;
     :referencesMyth :MythologicalBackground_Semele .
 
 :Line_1140
     a owl:NamedIndividual, :Line ;
     :lineNumber 1140 ;
     :canonicalReference "Stasimon5.1140"^^xsd:string ;
-    :text "κα? ν?ν, ?ς βιαίας ?χεται"^^xsd:string ;
+    :text "καὶ νῦν, ὡς βιαίας ἔχεται"^^xsd:string ;
     :hasConflict :Conflict_ThebesVsPlague .
 
 :Line_1141
 a owl:NamedIndividual, :Line ;
 :lineNumber 1141 ;
 :canonicalReference "Stasimon5.1141"^^xsd:string ;
-:text "πάνδαμος πόλις ?π? νόσου,"^^xsd:string ;
+:text "πάνδαμος πόλις ἐπὶ νόσου,"^^xsd:string ;
 :hasTheme :Theme_CivicCleansing ;
 :containsRhetoricalDevice :Metaphor_Disease .
 
@@ -162,7 +155,7 @@ a owl:NamedIndividual, :Line ;
 a owl:NamedIndividual, :Line ;
 :lineNumber 1142 ;
 :canonicalReference "Stasimon5.1142"^^xsd:string ;
-:text "μολε?ν καθαρσί? ποδ? Παρνασίαν ?π?ρ κλιτύν,"^^xsd:string ;
+:text "μολεῖν καθαρσίῳ ποδὶ Παρνασίαν ὑπὲρ κλιτὺν"^^xsd:string ;
 :hasTheme :Theme_Purification .
 
 
@@ -170,43 +163,43 @@ a owl:NamedIndividual, :Line ;
     a owl:NamedIndividual, :Line ;
     :lineNumber 1145 ;
     :canonicalReference "Stasimon5.1145"^^xsd:string ;
-    :text "? στονόεντα πορθμόν."^^xsd:string .
+    :text "ἢ στονόεντα πορθμόν."^^xsd:string .
 
 :Line_1146
     a owl:NamedIndividual, :Line ;
     :lineNumber 1146 ;
     :canonicalReference "Stasimon5.1146"^^xsd:string ;
-    :text "?? π?ρ πνειόντων χοράγ ? ?στρων, νυχίων"^^xsd:string .
+    :text "Ἰὼ πῦρ πνειόντων χοράγ ̓ ἄστρων, νυχίων"^^xsd:string .
 
 :Line_1147
     a owl:NamedIndividual, :Line ;
     :lineNumber 1147 ;
     :canonicalReference "Stasimon5.1147"^^xsd:string ;
-    :text "φθεγμάτων ?πίσκοπε,"^^xsd:string .
+    :text "φθεγμάτων ἐπίσκοπε,"^^xsd:string .
 
 :Line_1148
     a owl:NamedIndividual, :Line ;
     :lineNumber 1148 ;
     :canonicalReference "Stasimon5.1148"^^xsd:string ;
-    :text "πα? Δι?ς γένεθλον,"^^xsd:string .
+    :text "παῖ Διὸς γένεθλον,"^^xsd:string .
 
 :Line_1149
     a owl:NamedIndividual, :Line ;
     :lineNumber 1149 ;
     :canonicalReference "Stasimon5.1149"^^xsd:string ;
-    :text "προφάνηθ ?,"^^xsd:string .
+    :text "προφάνηθ ̓,"^^xsd:string .
 
 :Line_1150
     a owl:NamedIndividual, :Line ;
     :lineNumber 1150 ;
     :canonicalReference "Stasimon5.1150"^^xsd:string ;
-    :text "?ναξ, σα?ς ?μα περιπόλοις"^^xsd:string .
+    :text "ὦναξ, σαῖς ἅμα περιπόλοις"^^xsd:string .
 
 :Line_1151
     a owl:NamedIndividual, :Line ;
     :lineNumber 1151 ;
     :canonicalReference "Stasimon5.1151"^^xsd:string ;
-    :text "Θυίαισιν, α? σε μαινόμεναι πάννυχοι χορεύουσι"^^xsd:string ;
+    :text "Θυίαισιν, αἵ σε μαινόμεναι"^^xsd:string ;
     :hasTheme :Theme_DionysiacWorship .
 
 :Line_1152

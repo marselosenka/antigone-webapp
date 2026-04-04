@@ -576,133 +576,126 @@
 
 
 # --- 1095 ---
-:Line_1095 a :Line ; 
-    :lineNumber 1095 ; 
+:Line_1095 a :Line ;
+    :lineNumber 1095 ;
     :canonicalReference "1095" ;
+    :text "ἔγνωκα καὐτὸς καὶ ταράσσομαι φρένας."^^xsd:string ;
     :experiencesEmotion :Emotion_TerrifiedHesitation .
 
 # --- 1096 ---
-
-:Line_1096 a :Line ; 
-    :lineNumber 1096 ; 
-    :canonicalReference "1096" .
+:Line_1096 a :Line ;
+    :lineNumber 1096 ;
+    :canonicalReference "1096" ;
+    :text "τό τ᾽ εἰκαθεῖν γὰρ δεινόν, ἀντιστάντα δὲ"^^xsd:string .
 
 # --- 1097 ---
-
-:Line_1097 a :Line ; 
-    :lineNumber 1097 ; 
+:Line_1097 a :Line ;
+    :lineNumber 1097 ;
     :canonicalReference "1097" ;
+    :text "ἄτηι πατάξαι θυμὸν ἐν δεινῷ πάρα."^^xsd:string ;
     :hasConflict :Conflict_InternalCreon .
 
 # --- 1098 ---
-
-:Line_1098 a :Line ; 
-    :lineNumber 1098 ; 
-    :canonicalReference "1098" .
-
+:Line_1098 a :Line ;
+    :lineNumber 1098 ;
+    :canonicalReference "1098" ;
+    :text "εὐβουλίας δεῖ, παῖ Μενοικέως, λαβεῖν."^^xsd:string .
 
 # --- 1099 ---
-
-:Line_1099 a :Line ; 
-    :lineNumber 1099 ; 
-    :canonicalReference "1099" .
-
+:Line_1099 a :Line ;
+    :lineNumber 1099 ;
+    :canonicalReference "1099" ;
+    :text "τί δῆτα χρὴ δρᾶν; φράζε. πείσομαι δ᾽ ἐγώ."^^xsd:string .
 
 # --- 1100 ---
-
-:Line_1100 a :Line ; 
-    :lineNumber 1100 ; 
-    :canonicalReference "1100" .
+:Line_1100 a :Line ;
+    :lineNumber 1100 ;
+    :canonicalReference "1100" ;
+    :text "ἐλθὼν κόρην μὲν ἐκ κατωρύχος στέγης"^^xsd:string .
 
 # --- 1101 ---
-
-:Line_1101 a :Line ; 
-    :lineNumber 1101 ; 
-    :canonicalReference "1101" .
-
+:Line_1101 a :Line ;
+    :lineNumber 1101 ;
+    :canonicalReference "1101" ;
+    :text "ἄνες, κτίσον δὲ τῷ προκειμένῳ, τάφον."^^xsd:string .
 
 # --- 1102 ---
-
-:Line_1102 a :Line ; 
-    :lineNumber 1102 ; 
-    :canonicalReference "1102" .
+:Line_1102 a :Line ;
+    :lineNumber 1102 ;
+    :canonicalReference "1102" ;
+    :text "καὶ ταῦτ᾽ ἐπαινεῖς καὶ δοκεῖς παρεικαθεῖν;"^^xsd:string .
 
 # --- 1103 ---
-
-:Line_1103 a :Line ; 
-    :lineNumber 1103 ; 
-    :canonicalReference "1103" .
-
+:Line_1103 a :Line ;
+    :lineNumber 1103 ;
+    :canonicalReference "1103" ;
+    :text "ὅσον γ᾽, ἄναξ, τάχιστα· συντέμνουσι γὰρ"^^xsd:string .
 
 # --- 1104 ---
-
-:Line_1104 a :Line ; 
-    :lineNumber 1104 ; 
-    :canonicalReference "1104" .
-
+:Line_1104 a :Line ;
+    :lineNumber 1104 ;
+    :canonicalReference "1104" ;
+    :text "θεῶν ποδώκεις τοὺς κακόφρονας βλάβαι."^^xsd:string .
 
 # --- 1105 ---
-
-:Line_1105 a :Line ; 
-    :lineNumber 1105 ; 
-    :canonicalReference "1105" .
+:Line_1105 a :Line ;
+    :lineNumber 1105 ;
+    :canonicalReference "1105" ;
+    :text "οἴμοι· μόλις μέν, καρδίας δ᾽ ἐξίσταμαι"^^xsd:string .
 
 # --- 1106 ---
-
-:Line_1106 a :Line ; 
-    :lineNumber 1106 ; 
+:Line_1106 a :Line ;
+    :lineNumber 1106 ;
     :canonicalReference "1106" ;
-:makesMoralDecision :Decision_RevokeEdict .
+    :text "τὸ δρᾶν· ἀνάγκη δ᾽ οὐχὶ δυσμαχητέον."^^xsd:string ;
+    :makesMoralDecision :Decision_RevokeEdict .
 
 # --- 1107 ---
-
-:Line_1107 a :Line ; 
-    :lineNumber 1107 ; 
-    :canonicalReference "1107" .
+:Line_1107 a :Line ;
+    :lineNumber 1107 ;
+    :canonicalReference "1107" ;
+    :text "δρᾶ νυν τάδ᾽ ἐλθὼν μηδ᾽ ἐπ᾽ ἄλλοισιν τρέπε."^^xsd:string .
 
 # --- 1108 ---
-
-:Line_1108 a :Line ; 
-    :lineNumber 1108 ; 
-    :canonicalReference "1108" .
-
+:Line_1108 a :Line ;
+    :lineNumber 1108 ;
+    :canonicalReference "1108" ;
+    :text "ὧδ᾽ ὡς ἔχω στείχοιμ᾽ ἄν· ἴτ᾽ ἴτ᾽ ὀπάονες,"^^xsd:string .
 
 # --- 1109 ---
-
-:Line_1109 a :Line ; 
-    :lineNumber 1109 ; 
-    :canonicalReference "1109" .
-
+:Line_1109 a :Line ;
+    :lineNumber 1109 ;
+    :canonicalReference "1109" ;
+    :text "οἵ τ᾽ ὄντες οἵ τ᾽ ἀπόντες, ἀξίνας χεροῖν"^^xsd:string .
 
 # --- 1110 ---
-
-:Line_1110 a :Line ; 
-    :lineNumber 1110 ; 
-    :canonicalReference "1110" .
+:Line_1110 a :Line ;
+    :lineNumber 1110 ;
+    :canonicalReference "1110" ;
+    :text "ὁρμᾶσθ᾽ ἐλόντες εἰς ἐπόψιον τόπον."^^xsd:string .
 
 # --- 1111 ---
-
-:Line_1111 a :Line ; 
-    :lineNumber 1111 ; 
+:Line_1111 a :Line ;
+    :lineNumber 1111 ;
     :canonicalReference "1111" ;
-:relatedTo :Event_Peripeteia .
+    :text "ἐγὼ δ᾽, ἐπειδὴ δόξα τήδ᾽ ἐπεστράφη,"^^xsd:string ;
+    :relatedTo :Event_Peripeteia .
 
 # --- 1112 ---
-
-:Line_1112 a :Line ; 
-:lineNumber 1112 ; 
-:canonicalReference "1112" .
+:Line_1112 a :Line ;
+    :lineNumber 1112 ;
+    :canonicalReference "1112" ;
+    :text "αὐτός τ᾽ ἔδησα καὶ παρὼν ἐκλύσομαι."^^xsd:string .
 
 # --- 1113 ---
-
-:Line_1113 a :Line ; 
-:lineNumber 1113 ; 
-:canonicalReference "1113" .
-
+:Line_1113 a :Line ;
+    :lineNumber 1113 ;
+    :canonicalReference "1113" ;
+    :text "δέδοικα γὰρ μὴ τοὺς καθεστῶτας νόμους"^^xsd:string .
 
 # --- 1114 ---
-
-:Line_1114 a :Line ; 
-:lineNumber 1114 ; 
-:canonicalReference "1114" ;
-:advocatesFor :Ethical_TraditionalLaws .
+:Line_1114 a :Line ;
+    :lineNumber 1114 ;
+    :canonicalReference "1114" ;
+    :text "ἄριστον ᾖ σώζοντα τὸν βίον τελεῖν."^^xsd:string ;
+    :advocatesFor :Ethical_TraditionalLaws .
