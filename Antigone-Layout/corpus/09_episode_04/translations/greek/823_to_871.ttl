@@ -1,0 +1,138 @@
+﻿@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:episode_04-translations-823-871-greek a owl:Ontology .
+
+:TV_Line_823_gr a :TranslationVariant ;
+    :text "Άκουσα πως πολύ θλιβερά χάθηκε η ξένη Φρυγία,"^^xsd:string ;
+    :relatedTo :Line_823 .
+
+:TV_Line_825_gr a :TranslationVariant ;
+    :text "η κόρη του Ταντάλου, κοντά στην κορυφή του Σιπύλου,"^^xsd:string ;
+    :relatedTo :Line_825 .
+
+:TV_Line_826_gr a :TranslationVariant ;
+    :text "που βλαστάρι πέτρινο, σαν κισσός, την υπέταξε."^^xsd:string ;
+    :relatedTo :Line_826 .
+
+:TV_Line_827_gr a :TranslationVariant ;
+    :text "κι εκείνη, όπως λένε οι άνθρωποι, λιώνει,"^^xsd:string ;
+    :relatedTo :Line_827 .
+
+:TV_Line_830_gr a :TranslationVariant ;
+    :text "κι ούτε βροχή ούτε χιόνι την αφήνουν· με παντοτινά δάκρυα"^^xsd:string ;
+    :relatedTo :Line_830 .
+
+:TV_Line_831_gr a :TranslationVariant ;
+    :text "βρέχει τις πλαγιές. Σε όμοιο ύπνο κι εμένα με πλαγιάζει ο δαίμονας."^^xsd:string ;
+    :relatedTo :Line_831 .
+
+:TV_Line_834_gr a :TranslationVariant ;
+    :text "μα εκείνη ήταν θεά και θεογέννητη,"^^xsd:string ;
+    :relatedTo :Line_834 .
+
+:TV_Line_835_gr a :TranslationVariant ;
+    :text "ενώ εμείς είμαστε βροτοί, από θνητούς γεννημένοι."^^xsd:string ;
+    :relatedTo :Line_835 .
+
+:TV_Line_836_gr a :TranslationVariant ;
+    :text "κι όμως για όποιον πεθαίνει είναι μεγάλο και μόνο να ακούει"^^xsd:string ;
+    :relatedTo :Line_836 .
+
+:TV_Line_837_gr a :TranslationVariant ;
+    :text "πως έλαχε μοίρα ίση με των θεών"^^xsd:string ;
+    :relatedTo :Line_837 .
+
+:TV_Line_838_gr a :TranslationVariant ;
+    :text "ζωντανός και ύστερα νεκρός."^^xsd:string ;
+    :relatedTo :Line_838 .
+
+:TV_Line_839_gr a :TranslationVariant ;
+    :text "Αλίμονο, με κοροϊδεύετε! Γιατί, στους πατρικούς θεούς,"^^xsd:string ;
+    :relatedTo :Line_839 .
+
+:TV_Line_840_gr a :TranslationVariant ;
+    :text "με υβρίζετε κατάμουτρα και δεν περιμένετε να φύγω;"^^xsd:string ;
+    :relatedTo :Line_840 .
+
+:TV_Line_841_gr a :TranslationVariant ;
+    :text "ω πόλη, ω άντρες πολυεύποροι της πόλης·"^^xsd:string ;
+    :relatedTo :Line_841 .
+
+:TV_Line_842_gr a :TranslationVariant ;
+    :text "ω πηγές της Δίρκης,"^^xsd:string ;
+    :relatedTo :Line_842 .
+
+:TV_Line_845_gr a :TranslationVariant ;
+    :text "και άλσος της Θήβας με τα άρματα, εσάς τουλάχιστον σας παίρνω μάρτυρες,"^^xsd:string ;
+    :relatedTo :Line_845 .
+
+:TV_Line_846_gr a :TranslationVariant ;
+    :text "πώς, άκλαυτη από τους δικούς μου και με ποιους νόμους,"^^xsd:string ;
+    :relatedTo :Line_846 .
+
+:TV_Line_847_gr a :TranslationVariant ;
+    :text "πηγαίνω στο χωστοφραγμένο φράγμα του τάφου, στον πρωτόγνωρο τάφο."^^xsd:string ;
+    :relatedTo :Line_847 .
+
+:TV_Line_850_gr a :TranslationVariant ;
+    :text "ούτε με τους νεκρούς κατοικώ ως νεκρή"^^xsd:string ;
+    :relatedTo :Line_850 .
+
+:TV_Line_851_gr a :TranslationVariant ;
+    :text "ούτε με τους ζωντανούς, ούτε με τους πεθαμένους."^^xsd:string ;
+    :relatedTo :Line_851 .
+
+:TV_Line_853_gr a :TranslationVariant ;
+    :text "προχώρησες στο έσχατο όριο του θράσους,"^^xsd:string ;
+    :relatedTo :Line_853 .
+
+:TV_Line_854_gr a :TranslationVariant ;
+    :text "στο ψηλό βάθρο της Δίκης,"^^xsd:string ;
+    :relatedTo :Line_854 .
+
+:TV_Line_855_gr a :TranslationVariant ;
+    :text "κι έπεσες βαριά, παιδί μου·"^^xsd:string ;
+    :relatedTo :Line_855 .
+
+:TV_Line_856_gr a :TranslationVariant ;
+    :text "πληρώνεις κάποιο πατρικό χρέος."^^xsd:string ;
+    :relatedTo :Line_856 .
+
+:TV_Line_858_gr a :TranslationVariant ;
+    :text "άγγιξες την πιο πικρή μου μέριμνα,"^^xsd:string ;
+    :relatedTo :Line_858 .
+
+:TV_Line_859_gr a :TranslationVariant ;
+    :text "τον τριπλά θρηνημένο οίκτο του πατέρα"^^xsd:string ;
+    :relatedTo :Line_859 .
+
+:TV_Line_860_gr a :TranslationVariant ;
+    :text "και όλη τη μοίρα μας, των ένδοξων Λαβδακιδών."^^xsd:string ;
+    :relatedTo :Line_860 .
+
+:TV_Line_861_gr a :TranslationVariant ;
+    :text "αχ, των μητρικών γάμων"^^xsd:string ;
+    :relatedTo :Line_861 .
+
+:TV_Line_865_gr a :TranslationVariant ;
+    :text "οι συμφορές, και η αιμομικτική ένωση του πατέρα μου με τη δύσμοιρη μητέρα του,"^^xsd:string ;
+    :relatedTo :Line_865 .
+
+:TV_Line_866_gr a :TranslationVariant ;
+    :text "από τέτοιους γεννήθηκα κι εγώ, η άμοιρη·"^^xsd:string ;
+    :relatedTo :Line_866 .
+
+:TV_Line_867_gr a :TranslationVariant ;
+    :text "σε αυτούς πηγαίνω, καταραμένη, ανύπαντρη, να κατοικήσω."^^xsd:string ;
+    :relatedTo :Line_867 .
+
+:TV_Line_870_gr a :TranslationVariant ;
+    :text "αδελφέ μου, που έλαχες δυστυχισμένο γάμο,"^^xsd:string ;
+    :relatedTo :Line_870 .
+
+:TV_Line_871_gr a :TranslationVariant ;
+    :text "πεθαμένος ακόμα με σκότωσες ενώ ζω."^^xsd:string ;
+    :relatedTo :Line_871 .
+

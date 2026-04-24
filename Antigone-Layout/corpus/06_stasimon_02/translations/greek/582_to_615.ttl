@@ -1,0 +1,85 @@
+﻿@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:stasimon_02-translations-582-615-greek a owl:Ontology .
+
+:TV_Line_582_gr a :TranslationVariant ;
+    :text "καμιά συμφορά δεν λείπει, καθώς σέρνεται από γενιά σε πλήθος ανθρώπων."^^xsd:string ;
+    :relatedTo :Line_582 .
+
+:TV_Line_586_gr a :TranslationVariant ;
+    :text "όμοια, όταν κύματα θαλασσινά, βαριά στην πνοή,"^^xsd:string ;
+    :relatedTo :Line_586 .
+
+:TV_Line_587_gr a :TranslationVariant ;
+    :text "με θρακικούς ανέμους πέσουν πάνω στο σκοτεινό πέλαγος,"^^xsd:string ;
+    :relatedTo :Line_587 .
+
+:TV_Line_588_gr a :TranslationVariant ;
+    :text "κύματα βαριά στην πνοή, με θρακικές"^^xsd:string ;
+    :relatedTo :Line_588 .
+
+:TV_Line_589_gr a :TranslationVariant ;
+    :text "ριπές, πέφτουν πάνω στο σκοτεινό βυθό,"^^xsd:string ;
+    :relatedTo :Line_589 .
+
+:TV_Line_590_gr a :TranslationVariant ;
+    :text "κυλά από τον βυθό τη μαύρη άμμο και"^^xsd:string ;
+    :relatedTo :Line_590 .
+
+:TV_Line_591_gr a :TranslationVariant ;
+    :text "οι ακτές, χτυπημένες από ανέμους, μουγκρίζουν αντίχτυπα."^^xsd:string ;
+    :relatedTo :Line_591 .
+
+:TV_Line_592_gr a :TranslationVariant ;
+    :text "τα στόματα των ακτών βουίζουν."^^xsd:string ;
+    :relatedTo :Line_592 .
+
+:TV_Line_593_gr a :TranslationVariant ;
+    :text "κι ούτε γενιά λυτρώνει γενιά, αλλά τη γκρεμίζει"^^xsd:string ;
+    :relatedTo :Line_593 .
+
+:TV_Line_597_gr a :TranslationVariant ;
+    :text "κάποιος θεός, κι από αυτό δεν υπάρχει λύτρωση. Τώρα πια από τα έσχατα"^^xsd:string ;
+    :relatedTo :Line_597 .
+
+:TV_Line_598_gr a :TranslationVariant ;
+    :text "αλλά τη γκρεμίζει κάποιος θεός,"^^xsd:string ;
+    :relatedTo :Line_598 .
+
+:TV_Line_599_gr a :TranslationVariant ;
+    :text "και δεν υπάρχει καμιά λύση."^^xsd:string ;
+    :relatedTo :Line_599 .
+
+:TV_Line_600_gr a :TranslationVariant ;
+    :text "την κόβει η αιματωμένη σκόνη των κάτω θεών,"^^xsd:string ;
+    :relatedTo :Line_600 .
+
+:TV_Line_603_gr a :TranslationVariant ;
+    :text "με την αφροσύνη του λόγου και τη μανία του νου."^^xsd:string ;
+    :relatedTo :Line_603 .
+
+:TV_Line_604_gr a :TranslationVariant ;
+    :text "ούτε ο ύπνος που όλα τα δαμάζει, ούτε των θεών οι ακούραστοι μήνες,"^^xsd:string ;
+    :relatedTo :Line_604 .
+
+:TV_Line_608_gr a :TranslationVariant ;
+    :text "μόνοι τους,"^^xsd:string ;
+    :relatedTo :Line_608 .
+
+:TV_Line_609_gr a :TranslationVariant ;
+    :text "και το ύστερα και το μέλλον"^^xsd:string ;
+    :relatedTo :Line_609 .
+
+:TV_Line_612_gr a :TranslationVariant ;
+    :text "και το πριν θα αρκέσει"^^xsd:string ;
+    :relatedTo :Line_612 .
+
+:TV_Line_613_gr a :TranslationVariant ;
+    :text "νόμος: τίποτε μεγάλο δεν κυριεύει"^^xsd:string ;
+    :relatedTo :Line_613 .
+
+:TV_Line_614_gr a :TranslationVariant ;
+    :text "τον θνητό χωρίς να τον οδηγήσει ο θεός στην άτη."^^xsd:string ;
+    :relatedTo :Line_614 .

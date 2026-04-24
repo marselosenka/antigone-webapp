@@ -1,0 +1,46 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:episode_02-translations-508-535-english a owl:Ontology .
+# English translation variants extracted from 508_to_535.ttl
+
+:TV_Line_516_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_516 ;
+  :text "If you honor him equally with the impious one."^^xsd:string .
+
+:TV_Line_518_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_518 ;
+  :text "The one ravaging this land, the other standing in its defense."^^xsd:string .
+
+:TV_Line_520_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_520 ;
+  :text "But the good man does not deserve a lot equal to the wicked."^^xsd:string .
+
+:TV_Line_524_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_524 ;
+  :text "Go then below, and if you must love, love those there;"^^xsd:string .
+
+:TV_Line_525_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_525 ;
+  :text "but while I live, no woman shall rule me."^^xsd:string .
+
+:TV_Line_528_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_528 ;
+  :text "And a cloud over her brows drops a bloody"^^xsd:string .
+
+:TV_Line_529_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_529 ;
+  :text "stain upon her face,"^^xsd:string .
+
+:TV_Line_532_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_532 ;
+  :text "draining me in secret, and I did not realize"^^xsd:string .
+
+:TV_Line_533_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_533 ;
+  :text "I was nurturing two ruins and subverters of the throne."^^xsd:string .
+
+:TV_Line_534_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_534 ;
+  :text "Come, tell me now, do you also in this burial"^^xsd:string .

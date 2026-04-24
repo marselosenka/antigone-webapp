@@ -1,0 +1,87 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:parodos-translations-100-112-english a owl:Ontology .
+# English translation variants extracted from 100_to_112.ttl
+
+:TV_Line_100_en a :TranslationVariant ;
+:text "Ray of the sun, most beautiful light,"^^xsd:string ;
+:relatedTo :Line_100 ;
+:hasTheme :Theme_DawnHope ;
+:hasSymbol :Symbol_SunRay ;
+:referencesMyth :Myth_Sunlight .
+
+:TV_Line_101_en a :TranslationVariant ;
+:text "That ever shone upon seven-gated Thebes,"^^xsd:string ;
+:relatedTo :Line_101 ;
+:hasTheme :Theme_DawnHope ;
+:referencesMyth :Myth_ThebesSevenGates .
+
+:TV_Line_102_en a :TranslationVariant ;
+:text "Light that at last has appeared,"^^xsd:string ;
+:relatedTo :Line_102 ;
+:hasTheme :Theme_DawnHope ;
+:referencesMyth :Myth_ThebesSevenGates .
+
+:TV_Line_103_en a :TranslationVariant ;
+:text "O eye of the golden day,"^^xsd:string ;
+:relatedTo :Line_103 ;
+:hasTheme :Theme_DawnHope ;
+:referencesMyth :Myth_Sunlight ;
+:hasSymbol :Symbol_SunRay .
+
+:TV_Line_104_en a :TranslationVariant ;
+:text "Shining over the streams of Dirce,"^^xsd:string ;
+:relatedTo :Line_104 ;
+:hasTheme :Theme_DawnHope ;
+:referencesMyth :Myth_DirceStreams .
+
+:TV_Line_105_en a :TranslationVariant ;
+:text "You came above her flowing waters,"^^xsd:string ;
+:relatedTo :Line_105 ;
+:hasTheme :Theme_DawnHope ;
+:referencesMyth :Myth_DirceStreams .
+
+:TV_Line_106_en a :TranslationVariant ;
+:text "And drove the white-shielded warrior from Argos"^^xsd:string ;
+:relatedTo :Line_106 ;
+:hasTheme :Theme_WarAftermath ;
+:referencesMyth :Myth_ArgiveArmy .
+
+:TV_Line_107_en a :TranslationVariant ;
+:text "Who had come against us in full armor,"^^xsd:string ;
+:relatedTo :Line_107 ;
+:hasTheme :Theme_WarAftermath ;
+:referencesMyth :Myth_ArgiveArmy .
+
+:TV_Line_108_en a :TranslationVariant ;
+:text "Now fleeing headlong in swift retreat,"^^xsd:string ;
+:relatedTo :Line_108 ;
+:hasTheme :Theme_WarAftermath ;
+:referencesMyth :Myth_ArgiveArmy .
+
+:TV_Line_109_en a :TranslationVariant ;
+:text "Driven by a sharper rein,"^^xsd:string ;
+:relatedTo :Line_109 ;
+:hasTheme :Theme_WarAftermath ;
+:referencesMyth :Myth_ArgiveArmy .
+
+:TV_Line_110_en a :TranslationVariant ;
+:text "The one whom Polyneices brought"^^xsd:string ;
+:relatedTo :Line_110 ;
+:hasTheme :Theme_WarAftermath ;
+:referencesMyth :Myth_PolyneicesAttack .
+
+:TV_Line_111_en a :TranslationVariant ;
+:text "Against our land in bitter strife,"^^xsd:string ;
+:relatedTo :Line_111 ;
+:hasTheme :Theme_WarAftermath ;
+:referencesMyth :Myth_PolyneicesAttack .
+
+:TV_Line_112_en a :TranslationVariant ;
+:text "Shrieking sharply like an eagle,"^^xsd:string ;
+:relatedTo :Line_112 ;
+:hasTheme :Theme_WarAftermath ;
+:referencesMyth :Myth_PolyneicesAttack .

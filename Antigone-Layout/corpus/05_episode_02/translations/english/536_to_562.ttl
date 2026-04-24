@@ -1,0 +1,46 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:episode_02-translations-536-562-english a owl:Ontology .
+# English translation variants extracted from 536_to_562.ttl
+
+:TV_Line_537_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_537 ;
+  :text "I both share in the deed and bear the blame."^^xsd:string .
+
+:TV_Line_545_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_545 ;
+  :text "to die with you and to sanctify the dead."^^xsd:string .
+
+:TV_Line_547_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_547 ;
+  :text "make yours. I, dying, will be enough."^^xsd:string .
+
+:TV_Line_551_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_551 ;
+  :text "If I mock you, I do so with a pained heart."^^xsd:string .
+
+:TV_Line_556_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_556 ;
+  :text "But not without me having spoken my words."^^xsd:string .
+
+:TV_Line_557_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_557 ;
+  :text "You seemed wise to some, but I to others."^^xsd:string .
+
+:TV_Line_559_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_559 ;
+  :text "Take heart: you live, but my soul long ago"^^xsd:string .
+
+:TV_Line_560_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_560 ;
+  :text "has died, so that it might serve the dead."^^xsd:string .
+
+:TV_Line_561_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_561 ;
+  :text "I say these two children—one has just now"^^xsd:string .
+
+:TV_Line_562_en a owl:NamedIndividual, :TranslationVariant ;
+  :relatedTo :Line_562 ;
+  :text "shown herself a fool, the other from her birth."^^xsd:string .

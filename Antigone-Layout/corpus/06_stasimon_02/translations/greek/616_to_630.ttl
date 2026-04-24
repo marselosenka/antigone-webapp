@@ -1,0 +1,21 @@
+﻿@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:stasimon_02-translations-616-630-greek a owl:Ontology .
+
+:TV_Line_624_gr a :TranslationVariant ;
+    :text "ο θεός τον οδηγεί στην άτη."^^xsd:string ;
+    :relatedTo :Line_624 .
+
+:TV_Line_625_gr a :TranslationVariant ;
+    :text "Να, ο Αίμονας, από τα παιδιά σου,"^^xsd:string ;
+    :relatedTo :Line_625 .
+
+:TV_Line_627_gr a :TranslationVariant ;
+    :text "το πιο νέο σου βλάστημα, έρχεται πονώντας"^^xsd:string ;
+    :relatedTo :Line_627 .
+
+:TV_Line_628_gr a :TranslationVariant ;
+    :text "για τη μοίρα της Αντιγόνης, της μνηστής του;"^^xsd:string ;
+    :relatedTo :Line_628 .

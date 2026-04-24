@@ -1,0 +1,13 @@
+﻿@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:episode_03-translations-631-634-greek a owl:Ontology .
+
+:TV_Line_631_gr a :TranslationVariant ;
+    :text "σύντομα θα μάθουμε ποιος από τους μάντεις ξέρει καλύτερα."^^xsd:string ;
+    :relatedTo :Line_631 .
+
+:TV_Line_632_gr a :TranslationVariant ;
+    :text "αν δίνεις ορθές συμβουλές, εγώ θα σε ακολουθήσω."^^xsd:string ;
+    :relatedTo :Line_632 .

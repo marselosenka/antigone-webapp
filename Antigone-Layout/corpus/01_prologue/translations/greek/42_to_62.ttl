@@ -1,0 +1,89 @@
+﻿@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:prologue-translations-42-62-greek a owl:Ontology .
+
+:TV_Line_042_gr a :TranslationVariant ;
+    :text "Τι είδους κίνδυνος είναι αυτός; Σε ποια σκέψη βρίσκεσαι;"^^xsd:string ;
+    :relatedTo :Line_042 .
+
+:TV_Line_043_gr a :TranslationVariant ;
+    :text "Αν θα βοηθήσεις με αυτό το χέρι να σηκώσουμε τον νεκρό."^^xsd:string ;
+    :relatedTo :Line_043 .
+
+:TV_Line_044_gr a :TranslationVariant ;
+    :text "Αλήθεια το σκέφτεσαι να τους θάψεις, ενώ είναι απαγορευμένο στην πόλη;"^^xsd:string ;
+    :relatedTo :Line_044 .
+
+:TV_Line_045_gr a :TranslationVariant ;
+    :text "Τουλάχιστον τον αδελφό μου, και τον δικό σου, κι αν εσύ δεν θέλεις."^^xsd:string ;
+    :relatedTo :Line_045 .
+
+:TV_Line_046_gr a :TranslationVariant ;
+    :text "Γιατί εγώ δεν θα συλληφθώ να προδίδω τον αδελφό μου."^^xsd:string ;
+    :relatedTo :Line_046 .
+
+:TV_Line_047_gr a :TranslationVariant ;
+    :text "Ω παράτολμη, ενώ ο Κρέων το έχει απαγορεύσει;"^^xsd:string ;
+    :relatedTo :Line_047 .
+
+:TV_Line_048_gr a :TranslationVariant ;
+    :text "Μα δεν έχει δικαίωμα να με αποκλείσει από ό,τι είναι δικό μου."^^xsd:string ;
+    :relatedTo :Line_048 .
+
+:TV_Line_049_gr a :TranslationVariant ;
+    :text "Αχ, σκέψου, αδελφή, πώς ο πατέρας μας"^^xsd:string ;
+    :relatedTo :Line_049 .
+
+:TV_Line_050_gr a :TranslationVariant ;
+    :text "χάθηκε μισητός και ντροπιασμένος για εμάς."^^xsd:string ;
+    :relatedTo :Line_050 .
+
+:TV_Line_051_gr a :TranslationVariant ;
+    :text "Όταν φάνηκαν ολοκάθαρα τα αμαρτήματά του,"^^xsd:string ;
+    :relatedTo :Line_051 .
+
+:TV_Line_052_gr a :TranslationVariant ;
+    :text "χτύπησε τα δυο του μάτια ο ίδιος με το ίδιο του το χέρι."^^xsd:string ;
+    :relatedTo :Line_052 .
+
+:TV_Line_053_gr a :TranslationVariant ;
+    :text "Ύστερα η μητέρα και σύζυγος μαζί, διπλό το όνομα,"^^xsd:string ;
+    :relatedTo :Line_053 .
+
+:TV_Line_054_gr a :TranslationVariant ;
+    :text "καταστρέφει τη ζωή της με πλεγμένη θηλιά."^^xsd:string ;
+    :relatedTo :Line_054 .
+
+:TV_Line_055_gr a :TranslationVariant ;
+    :text "Και τρίτον, τα δυο αδέλφια, σε μία και την ίδια μέρα,"^^xsd:string ;
+    :relatedTo :Line_055 .
+
+:TV_Line_056_gr a :TranslationVariant ;
+    :text "αυτοκτονώντας, οι δυο δύστυχοι, τη μοίρα τους"^^xsd:string ;
+    :relatedTo :Line_056 .
+
+:TV_Line_057_gr a :TranslationVariant ;
+    :text "την κοινή την ολοκλήρωσαν με τα χέρια ο ένας του άλλου."^^xsd:string ;
+    :relatedTo :Line_057 .
+
+:TV_Line_058_gr a :TranslationVariant ;
+    :text "Τώρα πάλι, μόνες μείναμε πια εμείς οι δυο· σκέψου"^^xsd:string ;
+    :relatedTo :Line_058 .
+
+:TV_Line_059_gr a :TranslationVariant ;
+    :text "πόσο πιο άσχημα θα χαθούμε, αν με τη βία του νόμου"^^xsd:string ;
+    :relatedTo :Line_059 .
+
+:TV_Line_060_gr a :TranslationVariant ;
+    :text "παραβούμε ψήφισμα τυράννου ή την εξουσία του."^^xsd:string ;
+    :relatedTo :Line_060 .
+
+:TV_Line_061_gr a :TranslationVariant ;
+    :text "Πρέπει να σκεφτούμε πρώτα αυτό, ότι είμαστε γυναίκες,"^^xsd:string ;
+    :relatedTo :Line_061 .
+
+:TV_Line_062_gr a :TranslationVariant ;
+    :text "γεννημένες ώστε να μη μαχόμαστε με άντρες."^^xsd:string ;
+    :relatedTo :Line_062 .

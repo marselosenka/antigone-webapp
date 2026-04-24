@@ -1,0 +1,21 @@
+﻿@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:episode_03-translations-762-772-greek a owl:Ontology .
+
+:TV_Line_762_gr a :TranslationVariant ;
+    :text "όχι βέβαια μπροστά μου, μην το νομίσεις ποτέ αυτό,"^^xsd:string ;
+    :relatedTo :Line_762 .
+
+:TV_Line_763_gr a :TranslationVariant ;
+    :text "ας τολμά να σκέφτεται πιο ψηλά απ’ όσο ταιριάζει σε άντρα."^^xsd:string ;
+    :relatedTo :Line_763 .
+
+:TV_Line_769_gr a :TranslationVariant ;
+    :text "τι, σκέφτεσαι να σκοτώσεις και τις δύο;"^^xsd:string ;
+    :relatedTo :Line_769 .
+
+:TV_Line_771_gr a :TranslationVariant ;
+    :text "και με ποιον θάνατο σκοπεύεις να τις θανατώσεις;"^^xsd:string ;
+    :relatedTo :Line_771 .
