@@ -113,3 +113,18 @@
     font-family: var(--font-body);
     font-size: 13px;
 }
+
+#scenes-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 6px;
+    max-height: none;
+    overflow: visible;
+}
+
+#scenes-container .tag {
+    display: inline-block;
+    pointer-events: auto;
+    opacity: 1;
+}

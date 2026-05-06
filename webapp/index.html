@@ -34,7 +34,7 @@
 
             <div class="characters-grid" id="characters-container"></div>
 
-            <p class="info-text">Click a character to see their scenes on the timeline</p>
+            <p class="info-text">Click a character to focus related scenes and text</p>
         </div>
     </div>
 
@@ -75,17 +75,16 @@
             <button id="fullscreen-btn" class="control-btn" title="Fullscreen">⛶</button>
         </div>
 
-        <div class="timeline">
-            <div class="timeline-track" id="timeline-track">
-                <div class="playhead" id="playhead" style="left: 0%;"></div>
+        <div class="sparql-toolbar">
+            <div class="sparql-controls">
+                <button id="load-lines-btn" class="sparql-btn">Load SPARQL Lines</button>
+                <button id="prev-line-btn" class="sparql-btn" disabled>Previous Line</button>
+                <button id="next-line-btn" class="sparql-btn" disabled>Next Line</button>
+                <input id="line-search-input" class="sparql-input" type="number" min="1" placeholder="Line #" />
+                <button id="go-line-btn" class="sparql-btn" disabled>Go</button>
+                <span id="current-line-tag" class="line-tag">Line --</span>
             </div>
-        </div>
-        <div class="timeline-labels">
-            <span>00:00</span>
-            <span>20:00</span>
-            <span>40:00</span>
-            <span>60:00</span>
-            <span>82:19</span>
+            <div id="sparql-status" class="sparql-status">SPARQL not loaded</div>
         </div>
 
         <div class="text-grid">
@@ -119,11 +118,12 @@
     </ul>
 </div>
 
-    <script src="js/data.js"></script>
-    <script src="js/state.js"></script>
-    <script src="js/render.js"></script>
-    <script src="js/interactions.js"></script>
-    <script src="js/video-controls.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/data.js?v=20260506"></script>
+    <script src="js/state.js?v=20260506"></script>
+    <script src="js/render.js?v=20260506"></script>
+    <script src="js/interactions.js?v=20260506"></script>
+    <script src="js/video-controls.js?v=20260506"></script>
+    <script src="js/sparql-lines.js?v=20260506"></script>
+    <script src="js/main.js?v=20260506"></script>
 </body>
 </html>

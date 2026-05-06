@@ -1,0 +1,19 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:antigone a owl:Ontology ;
+  owl:imports
+    :AntigoneOntology ,
+    :prologue ,
+    :parodos ,
+    :episode_01 ,
+    :stasimon_01 ,
+    :episode_02 ,
+    :stasimon_02 ,
+    :episode_03 ,
+    :stasimon_03 ,
+    :episode_04 ,
+    :stasimon_04 ,
+    :episode_05 ,
+    :hyporchema ,
+    :exodus .

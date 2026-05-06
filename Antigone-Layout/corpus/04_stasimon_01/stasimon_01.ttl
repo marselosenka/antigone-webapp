@@ -1,0 +1,13 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:stasimon_01 a owl:Ontology ;
+  owl:imports
+    :stasimon_01-structure ,
+    :stasimon_01-semantics ,
+    :stasimon_01-translations-331-365-english ,
+    :stasimon_01-translations-331-365-greek ,
+    :stasimon_01-translations-331-365-chinese ,
+    :stasimon_01-translations-366-383-english ,
+    :stasimon_01-translations-366-383-greek ,
+    :stasimon_01-translations-366-383-chinese .

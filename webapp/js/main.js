@@ -11,9 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // 3. Initialize Visuals
     updateAllDimensions();
-    displayAllScenes();
 
     // 4. Initialize Controls
     initializeVideoControls();
     initializeKeyboardShortcuts();
+    sparqlLineNavigator.init();
 });

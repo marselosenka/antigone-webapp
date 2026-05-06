@@ -1,0 +1,19 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:episode_04 a owl:Ontology ;
+  owl:imports
+    :episode_04-structure ,
+    :episode_04-semantics ,
+    :episode_04-translations-806-822-english ,
+    :episode_04-translations-806-822-greek ,
+    :episode_04-translations-806-822-chinese ,
+    :episode_04-translations-823-871-english ,
+    :episode_04-translations-823-871-greek ,
+    :episode_04-translations-823-871-chinese ,
+    :episode_04-translations-872-928-english ,
+    :episode_04-translations-872-928-greek ,
+    :episode_04-translations-872-928-chinese ,
+    :episode_04-translations-929-943-english ,
+    :episode_04-translations-929-943-greek ,
+    :episode_04-translations-929-943-chinese .

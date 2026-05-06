@@ -5,8 +5,20 @@
   owl:imports
     :prologue-structure ,
     :prologue-semantics ,
-    :prologue-translations-1-19 ,
-    :prologue-translations-20-41 ,
-    :prologue-translations-42-62 ,
-    :prologue-translations-63-89 ,
-    :prologue-translations-90-99 .
+    :prologue-translations-1-19-english ,
+    :prologue-translations-20-41-english ,
+    :prologue-translations-42-62-english ,
+    :prologue-translations-63-89-english ,
+    :prologue-translations-90-99-english ,
+    :prologue-translations-1-19-greek ,
+    :prologue-translations-20-41-greek ,
+    :prologue-translations-42-62-greek ,
+    :prologue-translations-63-89-greek ,
+    :prologue-translations-90-99-greek ,
+    :prologue-translations-1-19-chinese ,
+    :prologue-translations-20-41-chinese ,
+    :prologue-translations-42-62-chinese ,
+    :prologue-translations-63-89-chinese ,
+    :prologue-translations-90-99-chinese .
+
+    

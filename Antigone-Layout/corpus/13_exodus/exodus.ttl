@@ -1,0 +1,22 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:exodus a owl:Ontology ;
+  owl:imports
+    :exodus-structure ,
+    :exodus-semantics ,
+    :exodus-translations-1155-1182-english ,
+    :exodus-translations-1155-1182-greek ,
+    :exodus-translations-1155-1182-chinese ,
+    :exodus-translations-1183-1243-english ,
+    :exodus-translations-1183-1243-greek ,
+    :exodus-translations-1183-1243-chinese ,
+    :exodus-translations-1244-1276-english ,
+    :exodus-translations-1244-1276-greek ,
+    :exodus-translations-1244-1276-chinese ,
+    :exodus-translations-1277-1305-english ,
+    :exodus-translations-1277-1305-greek ,
+    :exodus-translations-1277-1305-chinese ,
+    :exodus-translations-1306-1352-english ,
+    :exodus-translations-1306-1352-greek ,
+    :exodus-translations-1306-1352-chinese .

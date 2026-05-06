@@ -24,13 +24,10 @@ function handleCharacterClick(bubble) {
     if (state.selectedCharacter === character) {
         state.selectedCharacter = null;
         state.currentScenes = [...playData.scenes];
-        clearTimeline();
-        displayAllScenes();
     } else {
         state.selectedCharacter = character;
         bubble.classList.add('active');
         state.currentScenes = playData.scenes.filter(scene => scene.characters.includes(character));
-        displayCharacterTimeline(character);
     }
     updateAllDimensions();
 }
@@ -113,7 +110,5 @@ function updateAllDimensions() {
     state.currentScenes.forEach(scene => sceneCounts[scene.id] = 1);
     updateTagsDisplay('scenes-container', sceneCounts, 'scene');
 
-    if (!state.selectedCharacter) {
-        displayAllScenes();
-    }
+    // Timeline visualization removed; scene filtering now drives only tags/text panels.
 }

@@ -1,0 +1,10 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:hyporchema a owl:Ontology ;
+  owl:imports
+    :hyporchema-structure ,
+    :hyporchema-semantics ,
+    :hyporchema-translations-1115-1154-english ,
+    :hyporchema-translations-1115-1154-greek ,
+    :hyporchema-translations-1115-1154-chinese .

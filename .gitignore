@@ -1,1 +1,4 @@
 antigone.mp4
+fuseki-server/
+**/fuseki-server/
+/webapp/fuseki-server

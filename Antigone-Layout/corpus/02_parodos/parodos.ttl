@@ -1,0 +1,16 @@
+@prefix : <http://example.org/antigone#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+
+:parodos a owl:Ontology ;
+  owl:imports
+    :parodos-structure ,
+    :parodos-semantics ,
+    :parodos-translations-100-112-english ,
+    :parodos-translations-113-140-english ,
+    :parodos-translations-141-161-english ,
+    :parodos-translations-100-112-greek ,
+    :parodos-translations-113-140-greek ,
+    :parodos-translations-141-161-greek ,
+    :parodos-translations-100-112-chinese ,
+    :parodos-translations-113-140-chinese ,
+    :parodos-translations-141-161-chinese .

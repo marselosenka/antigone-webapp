@@ -6,7 +6,7 @@ const playData = {
             id: 'prologue',
             name: 'Prologue',
             start: 0,
-            end: 525,
+            end: 362,
             characters: ['antigone', 'ismene'],
             emotions: ['anxiety', 'fear', 'courage'],
             themes: ['divine-law', 'family-duty', 'moral-conscience'],
@@ -20,8 +20,8 @@ const playData = {
         {
             id: 'parodos',
             name: 'Parodos',
-            start: 525,
-            end: 690,
+            start: 362,
+            end: 588,
             characters: ['chorus'],
             emotions: ['pride'],
             themes: ['authority', 'justice'],
@@ -34,9 +34,9 @@ const playData = {
         },
         {
             id: 'episode1',
-            name: 'Episode 1',
-            start: 690,
-            end: 1560,
+            name: 'Episode 01',
+            start: 589,
+            end: 1206,
             characters: ['creon', 'chorus'],
             emotions: ['anger', 'defiance', 'courage'],
             themes: ['human-law', 'authority', 'divine-law'],
@@ -49,9 +49,9 @@ const playData = {
         },
         {
             id: 'stasimon1',
-            name: 'Stasimon 1',
-            start: 1560,
-            end: 1755,
+            name: 'Stasimon 01',
+            start: 1206,
+            end: 1399,
             characters: ['chorus'],
             emotions: ['grief'],
             themes: ['justice', 'moral-conscience'],
@@ -64,9 +64,9 @@ const playData = {
         },
         {
             id: 'episode2',
-            name: 'Episode 2',
-            start: 1755,
-            end: 2730,
+            name: 'Episode 02',
+            start: 1400,
+            end: 2122,
             characters: ['creon', 'chorus', 'antigone', 'ismene'],
             emotions: ['anger', 'grief', 'remorse'],
             themes: ['authority', 'family-duty', 'liberty'],
@@ -79,9 +79,9 @@ const playData = {
         },
         {
             id: 'stasimon2',
-            name: 'Stasimon 2',
-            start: 2730,
-            end: 2880,
+            name: 'Stasimon 02',
+            start: 2124,
+            end: 2301,
             characters: ['chorus'],
             emotions: ['grief', 'fear'],
             themes: ['divine-law', 'justice'],
@@ -94,9 +94,9 @@ const playData = {
         },
         {
             id: 'episode3',
-            name: 'Episode 3',
-            start: 2880,
-            end: 3660,
+            name: 'Episode 03',
+            start: 2303,
+            end: 2849,
             characters: ['creon', 'chorus', 'haemon'],
             emotions: ['fear', 'remorse', 'grief'],
             themes: ['divine-law', 'authority', 'self-sacrifice'],
@@ -108,10 +108,25 @@ const playData = {
             }
         },
         {
+            id: 'stasimon3',
+            name: 'Stasimon 03',
+            start: 2852,
+            end: 2941,
+            characters: ['chorus'],
+            emotions: ['awe', 'fear'],
+            themes: ['divine-law', 'fate', 'justice'],
+            events: [],
+            text: {
+                ancient: 'Ἔρως ἀνίκατε μάχαν...',
+                modern: 'Έρωτα ανίκητε στη μάχη...',
+                english: 'Love, unconquered in battle...'
+            }
+        },
+        {
             id: 'episode4',
-            name: 'Episode 4',
-            start: 3660,
-            end: 4220,
+            name: 'Episode 04',
+            start: 2943,
+            end: 3445,
             characters: ['antigone', 'chorus', 'creon'],
             emotions: ['grief', 'courage', 'loneliness'],
             themes: ['family-duty', 'divine-law', 'self-sacrifice'],
@@ -123,9 +138,54 @@ const playData = {
             }
         },
         {
+            id: 'stasimon4',
+            name: 'Stasimon 04',
+            start: 3447,
+            end: 3606,
+            characters: ['chorus'],
+            emotions: ['lament', 'foreboding'],
+            themes: ['fate', 'suffering', 'justice'],
+            events: [],
+            text: {
+                ancient: 'Καὶ τὰ Δαναᾶς φῶς...',
+                modern: 'Και της Δανάης το φως...',
+                english: 'And the light of Danae...'
+            }
+        },
+        {
+            id: 'episode5',
+            name: 'Episode 05',
+            start: 3608,
+            end: 4070,
+            characters: ['creon', 'teiresias', 'chorus'],
+            emotions: ['anger', 'fear', 'remorse'],
+            themes: ['authority', 'divine-law', 'prophecy'],
+            events: ['prophecy', 'reversal'],
+            text: {
+                ancient: 'Ἄναξ, φράσω σοι...',
+                modern: 'Άναξ, θα σου πω...',
+                english: 'Lord, I will tell you...'
+            }
+        },
+        {
+            id: 'hyporchema',
+            name: 'Hyporchema',
+            start: 4073,
+            end: 4216,
+            characters: ['chorus'],
+            emotions: ['hope', 'urgency'],
+            themes: ['prayer', 'divine-help'],
+            events: ['invocation'],
+            text: {
+                ancient: 'Ἴθι, Βάκχε...',
+                modern: 'Έλα, Βάκχε...',
+                english: 'Come, Bacchus...'
+            }
+        },
+        {
             id: 'exodos',
             name: 'Exodos',
-            start: 4220,
+            start: 4219,
             end: 4939,
             characters: ['creon', 'chorus', 'teiresias'],
             emotions: ['grief', 'remorse'],

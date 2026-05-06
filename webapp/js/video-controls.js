@@ -1,7 +1,6 @@
-/**
+﻿/**
  * SETTING UP THE PLAYER
- * This function finds all the video UI elements (buttons, sliders, etc.)
- * and tells them how to react when the user interacts with them.
+ * Initializes video controls. Timeline-related behavior has been removed.
  */
 function initializeVideoControls() {
     const videoElement = document.getElementById('video-element');
@@ -21,28 +20,25 @@ function initializeVideoControls() {
         progressBar.max = videoElement.duration;
     });
 
-    // Helper: Swaps between Play and Pause states
     function togglePlay() {
         if (videoElement.paused) videoElement.play();
         else videoElement.pause();
     }
 
-    // Helper: Updates the icons (Play/Pause) to match what the video is doing
     function updatePlayState() {
         if (videoElement.paused) {
-            playIcon.textContent = '▶';
-            overlayIcon.textContent = '▶';
+            playIcon.textContent = '?';
+            if (overlayIcon) overlayIcon.textContent = '?';
             videoWrapper.classList.remove('playing');
             videoWrapper.classList.add('paused');
         } else {
-            playIcon.textContent = '⏸';
-            overlayIcon.textContent = '⏸';
+            playIcon.textContent = '?';
+            if (overlayIcon) overlayIcon.textContent = '?';
             videoWrapper.classList.add('playing');
             videoWrapper.classList.remove('paused');
         }
     }
 
-    // Play/Pause button click
     playPauseBtn.addEventListener('click', (e) => {
         e.stopPropagation();
         togglePlay();
@@ -52,10 +48,7 @@ function initializeVideoControls() {
     videoElement.addEventListener('play', updatePlayState);
     videoElement.addEventListener('pause', updatePlayState);
 
-    // SYNC TIMELINE: Moves the red playhead as the video plays
     videoElement.addEventListener('timeupdate', () => {
-        const percent = (videoElement.currentTime / 4939) * 100;
-        document.getElementById('playhead').style.left = percent + '%';
         document.getElementById('current-time').textContent = formatTime(videoElement.currentTime);
         progressBar.value = videoElement.currentTime;
     });
@@ -64,11 +57,10 @@ function initializeVideoControls() {
         videoElement.currentTime = parseFloat(e.target.value);
     });
 
-    // Audio controls
     muteBtn.addEventListener('click', (e) => {
         e.stopPropagation();
         videoElement.muted = !videoElement.muted;
-        muteBtn.textContent = videoElement.muted ? '🔇' : '🔊';
+        muteBtn.textContent = videoElement.muted ? '??' : '??';
     });
 
     volumeControl.addEventListener('input', (e) => {
@@ -77,7 +69,6 @@ function initializeVideoControls() {
     });
     volumeControl.addEventListener('click', (e) => e.stopPropagation());
 
-    // Fullscreen toggle
     fullscreenBtn.addEventListener('click', (e) => {
         e.stopPropagation();
         if (videoElement.requestFullscreen) videoElement.requestFullscreen();
@@ -88,108 +79,35 @@ function initializeVideoControls() {
 }
 
 /**
- * JUMP TO SCENE
- * When a user clicks a scene tag, this moves the video to the specific
- * start time and updates the script text.
+ * When a user clicks a scene tag, update text and semantic highlights only.
  */
 function handleSceneTagClick(sceneId) {
     const scene = playData.scenes.find(s => s.id === sceneId);
     if (!scene) return;
 
-    const videoElement = document.getElementById('video-element');
-    videoElement.currentTime = scene.start;
-    videoElement.play();
     updateTextPanels(scene.text);
     highlightRelatedItems(scene);
 }
 
 /**
- * CLEANUP
- * Removes all current colored markers from the timeline track.
+ * Timeline visualization removed.
  */
 function clearTimeline() {
-    const markers = document.querySelectorAll('.scene-marker');
-    markers.forEach(marker => marker.remove());
+    return;
 }
 
 /**
- * CHARACTER-SPECIFIC TIMELINE
- * Draws the markers on the timeline for scenes where a
- * specific character is present.
+ * Timeline visualization removed.
  */
 function displayCharacterTimeline(character) {
-    clearTimeline();
-    const totalDuration = 4939;
-    const charData = playData.characters.find(c => c.id === character);
-    const characterColor = charData ? charData.color : '#66bb6a';
-
-    state.currentScenes.forEach(scene => {
-        const marker = document.createElement('div');
-        marker.className = 'scene-marker';
-
-        // Calculate position and width as a percentage of total time
-        const startPercent = (scene.start / totalDuration) * 100;
-        const widthPercent = ((scene.end - scene.start) / totalDuration) * 100;
-
-        // Colors the marker to match the character's theme
-        marker.style.left = startPercent + '%';
-        marker.style.width = widthPercent + '%';
-        marker.style.background = `${characterColor}66`;
-        marker.style.borderLeft = `1px solid ${characterColor}`;
-        marker.style.borderRight = `1px solid ${characterColor}`;
-
-        const label = document.createElement('div');
-        label.className = 'scene-marker-label';
-        label.textContent = scene.name;
-        label.style.color = '#fff';
-        marker.appendChild(label);
-
-        // Clicking a marker jumps the video to that moment
-        marker.addEventListener('click', function() {
-            const videoElement = document.getElementById('video-element');
-            videoElement.currentTime = scene.start;
-            videoElement.play();
-            updateTextPanels(scene.text);
-        });
-
-        document.getElementById('timeline-track').appendChild(marker);
-    });
+    return;
 }
 
 /**
- * GLOBAL TIMELINE
- * Displays all scenes on the timeline, usually shown when no character
- * filter is active.
+ * Timeline visualization removed.
  */
 function displayAllScenes() {
-    clearTimeline();
-    const totalDuration = 4939;
-
-    playData.scenes.forEach(scene => {
-        const marker = document.createElement('div');
-        marker.className = 'scene-marker';
-
-        const startPercent = (scene.start / totalDuration) * 100;
-        const widthPercent = ((scene.end - scene.start) / totalDuration) * 100;
-
-        marker.style.left = startPercent + '%';
-        marker.style.width = widthPercent + '%';
-
-        const label = document.createElement('div');
-        label.className = 'scene-marker-label';
-        label.textContent = scene.name;
-        marker.appendChild(label);
-
-        marker.addEventListener('click', function() {
-            const videoElement = document.getElementById('video-element');
-            videoElement.currentTime = scene.start;
-            videoElement.play();
-            updateTextPanels(scene.text);
-            highlightRelatedItems(scene);
-        });
-
-        document.getElementById('timeline-track').appendChild(marker);
-    });
+    return;
 }
 
 /**
@@ -229,7 +147,6 @@ function formatTime(seconds) {
 /**
  * USER TOOLS
  * Listens for key presses so the user can control the play without a mouse.
- * This handles the Space bar, Arrow keys, and number shortcuts.
  */
 function initializeKeyboardShortcuts() {
     const helpButton = document.getElementById('help-button');
@@ -237,7 +154,6 @@ function initializeKeyboardShortcuts() {
 
     helpButton.addEventListener('click', () => helpDialog.classList.toggle('show'));
 
-    // Close help window if user clicks elsewhere
     document.addEventListener('click', (e) => {
         if (!helpDialog.contains(e.target) && !helpButton.contains(e.target)) {
             helpDialog.classList.remove('show');
@@ -282,3 +198,4 @@ function initializeKeyboardShortcuts() {
         }
     });
 }
+
